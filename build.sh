@@ -1,5 +1,6 @@
 #!/bin/sh
-STC_PATH="/home/q/php/STC"
+#STC_PATH="/home/q/php/STC"
+STC_PATH="/usr/local/php/lib/php/STC"
 path=`dirname $0`;
 
 if [ -d ${path}"/output" ];then
