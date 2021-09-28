@@ -1,0 +1,298 @@
+.page-liangpin-product .cmt-list {
+}
+
+.page-liangpin-product .cmt-item {
+    border-bottom: 1px dashed #e0e0e0;
+    position: relative;
+}
+.page-liangpin-product .cmt-item .little-rect{
+}
+.page-liangpin-product .cmt-item .little-rect:before{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+}
+.page-liangpin-product .cmt-item .little-rect:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+}
+
+/**** 用户评论 */
+.page-liangpin-product .cmt-list .cmt-item {
+    padding: 30px 0;
+    margin-bottom: 10px;
+}
+
+.page-liangpin-product .cmt-list .cmt-item .pic {
+    float: left;
+    height: 85px;
+    width: 110px;
+    margin: 6px 0 0 0;
+    border: none;
+    text-align: center;
+}
+
+.page-liangpin-product .cmt-list .cmt-item .pic div {
+    margin: 0 0 7px 0;
+}
+
+.page-liangpin-product .cmt-list .cmt-item .pic a {
+    color: #999;
+}
+
+.page-liangpin-product .cmt-list .cmt-item .pic a:hover {
+    color: #2e74d3;
+}
+
+.page-liangpin-product .cmt-list .hd-unit {
+    color: #999;
+    padding-bottom: 10px;
+}
+
+.page-liangpin-product .cmt-list .hd-unit .rating {
+    display: inline-block;
+    _zoom: 1;
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+
+.page-liangpin-product .cmt-list .hd-unit .no {
+    float: right;
+}
+
+.page-liangpin-product .cmt-list .cmt-item .cont {
+    width: 700px;
+    float: left;
+}
+
+.page-liangpin-product .cmt-list .cmt-item .comment-content {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.page-liangpin-product .cmt-list .cmt-item .comment-baseinfo {
+    color: #999;
+    margin-top: 10px;
+}
+
+.page-liangpin-product .cmt-list .cmt-item .comment-baseinfo img {
+    width: 30px;
+    height: 30px;
+}
+
+.page-liangpin-product .cmt-list .cmt-item .comment-baseinfo a {
+    color: #999;
+    margin-right: 5px;
+}
+
+.page-liangpin-product .cmt-list .cmt-item .comment-baseinfo a:hover {
+    color: #2e74d3;
+}
+
+.page-liangpin-product .cmt-list .cmt-item .comment-baseinfo span {
+    margin-right: 5px;
+}
+
+.page-liangpin-product .cmt-list .cmt-item .comment-content .comment-content-more {
+    zoom: 1;
+    margin-left: 1em;
+    padding-right: 1em;
+    background: url(https://p.ssl.qhimg.com/t01ebc35f5eb4c26a06.png) no-repeat 2.1em -16px;
+    white-space: nowrap;
+}
+
+.page-liangpin-product .cmt-list .sub-cmt {
+    margin-left: 110px;
+    margin-right: 20px;
+}
+
+.page-liangpin-product .cmt-list .sub-cmt .top-arrow {
+    height: 7px;
+    line-height: 7px;
+    font-size: 0;
+    background: url(https://p.ssl.qhimg.com/t0133e02263d9dc5123.jpg) no-repeat 40px 0;
+    margin-bottom: -1px;
+    position: relative;
+    z-index: 1;
+}
+
+.page-liangpin-product .cmt-list .sub-cmt .sub-cmt-content {
+    padding: 10px;
+    border: 1px solid #ebebeb;
+    color: #666;
+}
+
+.page-liangpin-product .cmt-list .cmt-reply,
+.page-liangpin-product .cmt-list .subcmt-reply {
+    background: #fafafa;
+    color: #b66318;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #eee;
+}
+
+.page-liangpin-product .cmt-list .cmt-time {
+    font-weight: bold;
+}
+
+/*新用户评论*/
+.page-liangpin-product .cmt-item-info {
+    text-align: center;
+}
+.page-liangpin-product .cmt-item-inf .phone-number {
+    width: 70px;
+    text-align: center;
+}
+.page-liangpin-product .cmt-item-info .cmt-item-pic{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #ccc;
+    font-size: 0;
+    line-height: 70px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 35px;
+}
+.page-liangpin-product .cmt-item-info .cmt-item-pic img {
+    max-width: 100%;
+    vertical-align: baseline;
+}
+
+.page-liangpin-product .cmt-item-r {
+    width: 725px;
+    position: relative;
+}
+
+.page-liangpin-product .cmt-top div {
+    float: left;
+}
+
+.page-liangpin-product .cmt-item .comment-content {
+    color: #333;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.page-liangpin-product .cmt-item .product-info {
+    color: #a0a0a0;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+.page-liangpin-product .cmt-item .shaitu-box {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.page-liangpin-product .cmt-item .shaitu-pic {
+    float: left;
+    padding: 3px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    margin-right: 7px;
+    font-size: 0;
+    line-height: 80px;
+    text-align: center;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+
+.page-liangpin-product .cmt-item .shaitu-pic-cur {
+    border: 1px solid #ff4600;
+}
+
+.page-liangpin-product .shaitu-pic img {
+    width: 100%;
+    vertical-align: middle;
+
+    -moz-transition: width .5s ease-out, height .5s ease-out;
+    -webkit-transition: width .5s ease-out, height .5s ease-out;
+    -o-transition: width .5s ease-out, height .5s ease-out;
+    -ms-transition: width .5s ease-out, height .5s ease-out;
+    transition: width .5s ease-out, height .5s ease-out;
+}
+
+.page-liangpin-product .cmt-item .user-comment-date {
+    float: right;
+    color: #a7a7a7;
+    text-align: right;
+    /*line-height: 32px;*/
+    margin-right: 25px;
+}
+
+.page-liangpin-product .pic-big {
+    display: none;
+    position: relative;
+    width: 270px;
+    height: 270px;
+    font-size: 0;
+    border: 1px solid #ccc;
+    background: #fff;
+    line-height: 270px;
+    text-align: center;
+    overflow: hidden;
+    margin: 15px 0 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.page-liangpin-product .pic-big .clo {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 28px;
+    height: 28px;
+    font-size: 22px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.page-liangpin-product .pic-big span {
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    width: 50px;
+    height: 100px;
+    font-family: "宋体", " Arial Unicode MS", "sans-serif";
+    font-size: 40px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    line-height: 100px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.page-liangpin-product .prev {
+    left: 5px;
+    border-radius: 6px 0 0 6px;
+}
+
+.page-liangpin-product .next {
+    right: 5px;
+    border-radius: 0 6px 6px 0;
+}

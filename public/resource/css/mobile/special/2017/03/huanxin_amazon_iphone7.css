@@ -1,0 +1,218 @@
+/* amazon iphone7换新 */
+.page-hd-huanxin-amazon-iphone7 {
+}
+
+.page-hd-huanxin-amazon-iphone7 .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+    background-color: #f7f7f7;
+    color: #666;
+    font-size: .12rem;
+}
+
+.page-hd-huanxin-amazon-iphone7 .block {
+    width: 100%;
+    text-align: center;
+}
+
+.page-hd-huanxin-amazon-iphone7 .block1 {
+    height: 1.6rem;
+    background: #cc3341 url(https://p2.ssl.qhmsg.com/t01ae4e416a8c43ae2b.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+.page-hd-huanxin-amazon-iphone7 .block2 {
+    position: relative;
+    height: 1.6rem;
+    background: #cc3341 url(https://p0.ssl.qhmsg.com/t01ca5e50b2677c6799.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+.page-hd-huanxin-amazon-iphone7 .block2 .label-price {
+    position: absolute;
+    top: .38rem;
+    left: 1.4rem;
+    width: .6rem;
+    height: .26rem;
+    line-height: .26rem;
+    font-size: .2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.page-hd-huanxin-amazon-iphone7 .block3 {
+    padding-top: 1px;
+    height: 1.9422222222222223rem;
+    background: #cc3341 url(https://p1.ssl.qhmsg.com/t01951ee5658be2594b.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+.page-hd-huanxin-amazon-iphone7 .block3 .btn-liji-huanxin-trigger {
+    margin: 1.25rem auto 0 auto;
+    display: block;
+    width: 2.3777777777777778rem;
+    height: 0.4444444444444444rem;
+    line-height: 0.4444444444444444rem;
+    font-size: .22rem;
+    color: #cc3341;
+    background-color: #fff;
+    text-align: center;
+    border-radius: .04rem;
+}
+
+.page-hd-huanxin-amazon-iphone7 .block4 {
+    height: 1.6rem;
+    background: url(https://p0.ssl.qhmsg.com/t01bc3a36ca2ede1427.png) no-repeat center 0;
+    background-size: contain;
+    text-align: center;
+}
+
+.page-hd-huanxin-amazon-iphone7 .block4 h3 {
+    padding-top: .15rem;
+    font-size: .22rem;
+    text-align: center;
+    color: #cc3341;
+}
+
+.page-hd-huanxin-amazon-iphone7 .block4 ul {
+    margin: .65rem .08rem 0 .08rem;
+    font-size: .11rem;
+}
+
+.page-hd-huanxin-amazon-iphone7 .block6 {
+    padding-bottom: .3rem;
+    text-align: left;
+}
+
+.page-hd-huanxin-amazon-iphone7 .block6 h3 {
+    margin-bottom: .1rem;
+    font-size: .22rem;
+    text-align: center;
+    color: #cc3341;
+}
+
+.page-hd-huanxin-amazon-iphone7 .block6 ul {
+    padding: 0 .12rem 0 .26rem;
+    list-style-type: decimal;
+}
+
+.page-hd-huanxin-amazon-iphone7 .block6 ul li {
+    margin-bottom: .1rem;
+}
+
+.page-hd-huanxin-amazon-iphone7 .block6 .tips {
+    line-height: 3;
+    text-align: center;
+}
+
+.page-hd-huanxin-amazon-iphone7 .block6 .btn-details-dialog-trigger {
+    text-decoration: underline;
+}
+
+/*活动说明及条款*/
+.page-hd-huanxin-amazon-iphone7 .dialog-amazon-iphone7-activity-details-wrap {
+    background: #fff;
+}
+
+.page-hd-huanxin-amazon-iphone7 .dialog-amazon-iphone7-activity-details-wrap .dialog-inner {
+    padding: .1rem;
+}
+
+.page-hd-huanxin-amazon-iphone7 .dialog-amazon-iphone7-activity-details-wrap h3 {
+    font-size: .14rem;
+    font-weight: bold;
+}
+
+.page-hd-huanxin-amazon-iphone7 .dialog-amazon-iphone7-activity-details-wrap ol {
+    padding: .1rem 0 .1rem .25rem;
+    height: 3.2rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-size: .12rem;
+}
+
+.page-hd-huanxin-amazon-iphone7 .dialog-amazon-iphone7-activity-details-wrap li {
+    list-style-type: decimal;
+}
+
+/* 换新商品弹窗列表 */
+.dialog-huanxin-amazon-iphone7 {
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+}
+
+.dialog-huanxin-amazon-iphone7 .dialog-close,
+.dialog-huanxin-amazon-iphone7 .dialog-close:hover {
+    top: -.18rem;
+    left: 50%;
+    right: 50%;
+    margin-left: -.18rem;
+}
+
+.dialog-huanxin-amazon-iphone7 .dialog-inner {
+    padding: .3rem 0 0.1rem;
+}
+
+.dialog-huanxin-amazon-iphone7 .huanxin-list {
+    padding-top: .2rem;
+}
+
+.dialog-huanxin-amazon-iphone7 .huanxin-list .col-2-1,
+.dialog-huanxin-amazon-iphone7 .huanxin-list .col-2-1:hover {
+    margin-bottom: .2rem;
+    line-height: 1.4;
+    color: #272928;
+    font-size: .14rem;
+    text-align: center;
+    border-right: 1px solid #efefef;
+    text-decoration: none;
+}
+
+.dialog-huanxin-amazon-iphone7 .huanxin-list .col-2-1:nth-child(2n) {
+    border: 0;
+}
+
+.dialog-huanxin-amazon-iphone7 .huanxin-list .p-figure {
+    margin: 0 auto .05rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    background: transparent no-repeat center;
+    background-size: contain;
+}
+
+.dialog-huanxin-amazon-iphone7 .huanxin-list .p-name {
+
+}
+
+.dialog-huanxin-amazon-iphone7 .huanxin-list .p-origin-price {
+    color: #aaa;
+    font-size: .12rem;
+    line-height: 1.6;
+    margin-top: .05rem;
+    text-decoration: line-through;
+}
+
+.dialog-huanxin-amazon-iphone7 .huanxin-list .p-price {
+    color: #b50d11;
+}
+
+.dialog-huanxin-amazon-iphone7 .huanxin-list .btn {
+    margin: 0.08rem auto 0;
+    display: block;
+    width: 75%;
+    height: .32rem;
+    line-height: .32rem;
+    font-size: .14rem;
+    background-color: #b50d11;
+    color: #fff;
+    border-radius: 999px;
+}
+
+.dialog-huanxin-amazon-iphone7 .dialog-tips {
+    font-size: .16rem;
+    color: #b50d11;
+    text-align: center;
+    line-height: 1.4;
+}

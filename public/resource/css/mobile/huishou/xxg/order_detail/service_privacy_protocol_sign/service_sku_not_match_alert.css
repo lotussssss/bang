@@ -1,0 +1,24 @@
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .dialog-order-detail-sku-not-match {
+    line-height: 1;
+    color: #000;
+    font-size: 0.13rem;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .dialog-order-detail-sku-not-match .alert-title {
+    padding: .1rem .2rem;
+    line-height: 0.23rem;
+    font-size: .13rem;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .dialog-order-detail-sku-not-match .row {
+    margin: 0.07rem .13rem;
+    padding: .12rem 0 .11rem .13rem;
+    /*height: 0.54rem;*/
+    background: #f6f6f6;
+    border-radius: 0.07rem;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .dialog-order-detail-sku-not-match .row .row-name {
+    padding-top: 0.06rem;
+    color: #999;
+}

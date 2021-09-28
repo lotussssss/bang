@@ -1,0 +1,13 @@
+.page-in-hnyd-app-xxg {
+}
+
+.page-in-hnyd-app-xxg .header-status-bar {
+    height: 20px;
+    background-color: #16a654;
+}
+
+.page-in-hnyd-app-xxg.page-index header.header,
+.page-in-hnyd-app-xxg.page-assess header.header {
+    height: auto;
+    background-color: #fff;
+}

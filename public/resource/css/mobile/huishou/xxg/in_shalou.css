@@ -1,0 +1,17 @@
+.page-in-shalou-xxg.page-xxg-order-create-middle .block-btn{
+    /*display: none;*/
+}
+
+.page-in-shalou-xxg.page-xxg-login .block-slogan{
+    height: 1.7rem;
+    background: url(https://p2.ssl.qhmsg.com/t01e1f34340fcda543f.jpg) no-repeat 0 0/cover;
+}
+
+.page-hs-shalou .top-pic .shalou-xxg-enter{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 5px;
+    color: #13a552;
+    background-color: #f9fb11;
+}

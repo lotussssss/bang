@@ -1,0 +1,195 @@
+/* ================订单详情页================== */
+.page-shiyong-order-detail{
+    font-size: .12rem;
+    line-height: 1.6;
+    overflow: hidden;
+}
+.page-shiyong-order-detail #mainbody{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+}
+
+/*横向状态进度条*/
+.page-shiyong-order-detail .process-align{
+    position: relative;
+    padding: 0 .1rem .3rem .1rem;
+    display: block;
+    font-size: 0;
+    color: #DDD;
+}
+.page-shiyong-order-detail .process-align .process-step{
+    float: left;
+}
+.page-shiyong-order-detail .process-align .process-step .icon-ok{
+    float: left;
+    display: inline-block;
+    width: .32rem;
+    height: .32rem;
+    line-height: .32rem;
+    font-size: .32rem;
+    text-align: center;
+    color: #ccc;
+    vertical-align: top;
+}
+.page-shiyong-order-detail .process-align .process-step-first{
+    float: left;
+    width: .32rem;
+}
+.page-shiyong-order-detail .process-align .process-step-next{
+    margin-left: .32rem;
+}
+.page-shiyong-order-detail .process-align .process-step-next .process-step{
+    width: 33.3333333333%;
+}
+.page-shiyong-order-detail .process-align .process-step-next .icon-ok{
+    float: right;
+}
+.page-shiyong-order-detail .process-align .process-step-next .inner-line{
+    margin-right: .32rem;
+    margin-top: .17rem;
+    height: .015rem;
+    background: #ccc;
+}
+
+.page-shiyong-order-detail .process-align .process-line-txt{
+    position: relative;
+    padding-top: .38rem;
+    font-size: .12rem;
+    color: #d9d9d9;
+}
+.page-shiyong-order-detail .process-align .process-step-prev-txt{
+    position: absolute;
+    left: 0;
+    right: .25rem;
+}
+.page-shiyong-order-detail .process-align .process-step-txt{
+    float: left;
+    width: 33.3333333333%;
+    text-indent: -.10rem;
+}
+.page-shiyong-order-detail .process-align .process-step-last-txt{
+    position: absolute;
+    right: -.14rem;
+}
+
+.page-shiyong-order-detail .process-align .process-step-actived{
+    color: #333;
+}
+.page-shiyong-order-detail .process-align .process-step-actived .icon-ok{
+    color: #185;
+}
+.page-shiyong-order-detail .process-align .process-step-actived .inner-line{
+    background: #185;
+}
+/*END横向状态进度条*/
+
+
+.page-shiyong-order-detail .block-tt{
+    padding: .1rem 0;
+    font-size: .16rem;
+    text-align: left;
+    font-weight: normal;
+}
+.page-shiyong-order-detail .block-tt span{
+    padding-left: .06rem;
+    border-left-color: #185;
+    border-left-width: .03rem;
+    line-height: 1;
+}
+.page-shiyong-order-detail .order-base-info{
+    padding-bottom: .15rem;
+}
+.page-shiyong-order-detail .order-base-info .block-tt{
+    font-size: .14rem;
+    padding-bottom: .06rem;
+}
+.page-shiyong-order-detail .order-base-info .p-info-img{
+    width: 1rem;
+}
+.page-shiyong-order-detail .order-base-info .col-right{
+    margin-left: 1rem;
+}
+.page-shiyong-order-detail .order-base-info .p-info-item{
+    padding: 0 0 .04rem .35rem;
+    text-indent: -.35rem;
+}
+.page-shiyong-order-detail .order-base-info .p-info-name-item{
+    padding-left: 0;
+    text-indent: 0;
+}
+.page-shiyong-order-detail .order-extend-info{
+    margin-bottom: .1rem;
+    padding-top: .15rem;
+    padding-bottom: .1rem;
+}
+.page-shiyong-order-detail .order-extend-info .row{
+    padding-bottom: .06rem;
+}
+.page-shiyong-order-detail .order-extend-info .col-right{
+    margin-left: .65rem;
+    padding-left: .12rem;
+    text-indent: -.12rem;
+}
+
+.page-shiyong-order-detail .btn-yellow{
+    margin: 0 0 .03rem 0;
+    padding: .06rem;
+    display: block;
+}
+
+.page-shiyong-order-detail .countdown{
+    display: inline-block;
+    text-align: center;
+}
+.page-shiyong-order-detail .countdown .desc-txt,
+.page-shiyong-order-detail .countdown .d-num,
+.page-shiyong-order-detail .countdown .d-txt,
+.page-shiyong-order-detail .countdown .h-num,
+.page-shiyong-order-detail .countdown .h-txt{
+    display: none;
+}
+
+.page-shiyong-order-detail .order-status-extend{
+
+}
+.page-shiyong-order-detail .order-status-extend .row{
+    padding: .1rem;
+}
+
+/*试用协议*/
+.mobile-experience-agreement{
+    line-height: 1.6;
+}
+.mobile-experience-agreement h3{
+    padding-bottom: .1rem;
+    font-size: .16rem;
+    text-align: center;
+    color: #222;
+}
+.mobile-experience-agreement dl{
+    margin: .1rem 0 0 0;
+}
+.mobile-experience-agreement dl>dt{
+    margin: 0 0 .04rem 0;
+    color: #222;
+}
+.mobile-experience-agreement dl>dd{
+    margin: 0 0 .1rem .1rem;
+    color: #555;
+}
+.mobile-experience-agreement ul{}
+.mobile-experience-agreement ul>li{
+    margin-bottom: .06rem;
+}
+.mobile-experience-agreement .ul-sub,
+.mobile-experience-agreement .ul-sub2{
+    padding-left: .15rem;
+}
+.mobile-experience-agreement .ul-sub>li{
+    list-style-type: disc;
+}
+.mobile-experience-agreement .ul-sub2>li{
+    list-style-type: none;
+}

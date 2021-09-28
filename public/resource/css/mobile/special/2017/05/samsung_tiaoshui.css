@@ -1,0 +1,304 @@
+a:hover {
+    text-decoration: none;
+}
+
+.page-hd-samsung-tiaoshui {
+    background: #33c4fe;
+}
+
+.page-hd-samsung-tiaoshui .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-samsung-tiaoshui .block {
+    width: 100%;
+}
+
+.page-hd-samsung-tiaoshui .block1 {
+    /*height: 1.6488888888888888rem;*/
+    height: 2.36rem;
+    /*background: url(https://p.ssl.qhimg.com/t01d84f31ed552cbccc.jpg) no-repeat center 0;*/
+    background: url(https://p.ssl.qhimg.com/t01ae6b95a70c1684e7.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+.page-hd-samsung-tiaoshui .block2-2 .block-title {
+    height: 0.5466666666666666rem;
+    background: url(https://p.ssl.qhimg.com/t01a9c68ad013d2e284.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+.page-hd-samsung-tiaoshui .block3 {
+    padding-top: 1px;
+    height: 1.5rem;
+    background: url(https://p.ssl.qhimg.com/t012455ea0886445c5a.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+.page-hd-samsung-tiaoshui .block4 .block-title {
+    height: 0.37777777777777777rem;
+    background: url(https://p.ssl.qhimg.com/t011a0963582ba73475.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+.page-hd-samsung-tiaoshui .trigger-play-video{
+    margin-top: .4rem;
+    display: block;
+    width: 100%;
+    height: 1.07rem;
+}
+
+/*商品列表*/
+.page-hd-samsung-tiaoshui .hd-product-list {
+    font-size: 0;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .item {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 50%;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .item a{
+    padding-top: .32rem;
+    display: block;
+    border-right: 1px solid #f0eff4;
+    border-bottom: 1px solid #f0eff4;
+    color: #333;
+    text-align: center;
+    background: #fff;
+    font-size: .12rem;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .item.item-right a {
+    border-right: 0;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .p-figure {
+    margin: 0 auto;
+    width: 1.1rem;
+    height: 1.1rem;
+    overflow: hidden;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .p-figure img {
+    width: 100%;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .p-name {
+    padding: .20rem 0 0 0;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .p-price-sale {
+    padding: .10rem 0 0;
+    font-size: .1rem;
+    color: #999;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .p-price-promo {
+    padding-bottom: .10rem;
+    color: #f30;
+    font-size: .12rem;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .p-price-promo span {
+    font-size: .26rem;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list {
+    font-size: 0;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .item {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 50%;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .item a{
+    position: relative;
+    padding-top: .32rem;
+    display: block;
+    border-right: 1px solid #f0eff4;
+    border-bottom: 1px solid #f0eff4;
+    color: #333;
+    text-align: center;
+    background: #fff;
+    font-size: .14rem;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .item.item-right a {
+    border-right: 0;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .p-figure {
+    margin: 0 auto;
+    width: 1.1rem;
+    height: 1.1rem;
+    overflow: hidden;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .p-figure img {
+    width: 100%;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .p-name {
+    padding: .15rem 0 .05rem 0;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .p-price-promo {
+    padding-bottom: .20rem;
+    color: #f30;
+    font-size: .14rem;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .p-price-promo span {
+    font-size: .26rem;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .p-label{
+    position: absolute;
+    top: 1.1rem;
+    left: 1rem;
+    padding-top: .06rem;
+    width: .4rem;
+    height: .46rem;
+    background: url(https://p.ssl.qhimg.com/t01a663a458814e893d.png) no-repeat center 0;
+    background-size: contain;
+    font-size: .1rem;
+    text-align: center;
+    color: #fff;
+}
+
+/*品牌推荐start*/
+.page-hd-samsung-tiaoshui .block-brand-recommend {}
+.page-hd-samsung-tiaoshui .block-brand-recommend .block-title {
+    height: 0.48444444444444446rem;
+    background: url(https://p.ssl.qhimg.com/t013aa3f7eba414595e.png) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-samsung-tiaoshui .block-brand-recommend .brand-recommend-list a {
+    height: 1.0666666666666667rem;
+}
+.page-hd-samsung-tiaoshui .block-brand-recommend .brand-recommend-list img {
+    width: 100%;
+    height: 100%;
+}
+/*品牌推荐end*/
+
+/*服务介绍*/
+.block-service-intro{
+    margin: .1rem;
+    padding: .1rem 0;
+    background-color: #fbd743;
+    border-radius: .06rem;
+}
+.block-service-intro .tit{
+    margin: 0 auto;
+    width: 1.635rem;
+}
+.block-service-intro .tit-under{
+    margin: 0 auto;
+    width: 1.56rem;
+    height: .24rem;
+    background: #0a7acf;
+    border-radius: 999px;
+}
+.block-service-intro .tit-inner{
+    margin-top: -.29rem;
+    margin-left: -.06rem;
+    width: 1.635rem;
+    height: 0.34555772rem;
+    background: url(https://p0.ssl.qhmsg.com/t0166374946eb81bd5a.png) no-repeat center;
+    background-size: contain;
+}
+.block-service-intro .cnt{
+    padding: .1rem 0;
+    font-size: 0;
+}
+.block-service-intro .cnt .service-keyword{
+    margin: .08rem .04rem .08rem .08rem;
+    display: inline-block;
+    height: .3rem;
+    width: .3rem;
+    line-height: .3rem;
+    font-size: .2rem;
+    border-radius: 999px;
+    text-align: center;
+    color: #fff;
+    background-color: #0a7acf;
+    vertical-align: middle;
+}
+.block-service-intro .cnt .col-2-1:nth-child(2n) .service-keyword{
+    margin-left: 0;
+}
+.block-service-intro .cnt .service-desc{
+    display: inline-block;
+    font-size: .1rem;
+    color: #0a7acf;
+    vertical-align: middle;
+    line-height: 1.2;
+}
+.block-service-intro .cnt .service-desc em{
+    font-size: .14rem;
+    color:#0a7acf ;
+}
+.page-hd-samsung-tiaoshui  .block-intro{
+    padding-top: 0.2rem ;
+}
+/* 二维码扫一扫 */
+.block-qrcode-info{
+    margin: .1rem .1rem .3rem;
+    padding: .2rem 0;
+    background-color: #fbd743;
+    border-radius: .06rem;
+    font-size: .12rem;
+    text-align: center;
+    color: #0a7acf;
+}
+.block-qrcode-info .tit{
+    font-size: .14rem;
+}
+.block-qrcode-info .desc{
+    color: #0a7acf;
+}
+.block-qrcode-info .qrcode{
+    margin: .1rem auto;
+    padding: .06rem;
+    width: 50%;
+    background-color: #fff;
+    border-radius: .06rem;
+    border: 1px solid rgba(10, 158, 255, 0.11);
+}
+.block-qrcode-info .qrcode img{
+    width: 100%;
+    border-radius: .06rem;
+}
+
+
+/*视频播放*/
+.video-player-panel{
+    border: 0;
+    border-radius: 0;
+}
+
+.video-player-panel.dialog-wrap .dialog-inner{
+    position: relative;
+    z-index: 11002;
+    padding: 0;
+    font-size: 0;
+}
+
+.video-player-panel.dialog-wrap .dialog-close,
+.video-player-panel.dialog-wrap .dialog-close:hover {
+    right: 0;
+    top: -0.24rem;
+    z-index: 11003;
+    width: .24rem;
+    height: .24rem;
+    background-size: .24rem;
+}

@@ -1,0 +1,274 @@
+.w100{
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+.block-inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.page-hd-yuanxiao {
+    background: #d40000;
+    min-width: 1200px;
+}
+.page-hd-yuanxiao .block-tit{
+    height: 98px;
+    /*line-height: 75px;*/
+    position: relative;
+    /*text-align: center;*/
+}
+.page-hd-yuanxiao .block2 .block-tit{
+    background: url("https://p4.ssl.qhmsg.com/t017ff6f70332e63e95.png") no-repeat center;
+}
+.page-hd-yuanxiao .block3 .block-tit{
+    background: url("https://p4.ssl.qhmsg.com/t012713554fd772f44d.png") no-repeat center;
+}
+.page-hd-yuanxiao .block4 .block-tit{
+    background: url("https://p0.ssl.qhmsg.com/t0159c8abef96a6249a.png") no-repeat center;
+}
+
+.page-hd-yuanxiao .block-tit .more{
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    width: 124px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 18px;
+    background: #ffea9f;
+    color: #d40000;
+    /*box-shadow: 1px 2px 10px 1px #ff5a80;*/
+    border-radius: 999px;
+}
+.page-hd-yuanxiao .block1,
+.page-hd-yuanxiao .block1 .block-inner {
+    height: 417px;
+    background:url(https://p0.ssl.qhmsg.com/t01f7dd3b2bceb37ad9.jpg) no-repeat center 0;
+}
+.page-hd-yuanxiao .block-coupon,
+.page-hd-yuanxiao .block-coupon .block-inner{
+    height: 180px;
+    background:url(https://p1.ssl.qhmsg.com/t0105eeacf00b91f19c.png) no-repeat center 0;
+}
+/*品牌推荐*/
+.page-hd-yuanxiao .block-brand-recommend .block-tit{
+    background: url("https://p2.ssl.qhmsg.com/t017577247af0e3a071.png") no-repeat center;
+}
+.page-hd-yuanxiao .brand-recommend-list .brand-recommend-item,
+.page-hd-yuanxiao .brand-recommend-list .brand-recommend-item:hover {
+    float: left;
+    display: block;
+    width: 300px;
+    height: 200px;
+    font-size: 0;
+    background-image: url(https://p.ssl.qhimg.com/t01435371c07709bab1.jpg);
+    text-decoration: none;
+}
+
+.page-hd-yuanxiao .brand-recommend-list .brand-recommend-item-meizu {
+    background-position: 0 0;
+}
+
+.page-hd-yuanxiao .brand-recommend-list .brand-recommend-item-le {
+    background-position: -300px 0;
+}
+
+.page-hd-yuanxiao .brand-recommend-list .brand-recommend-item-oppo {
+    background-position: -600px 0;
+}
+
+.page-hd-yuanxiao .brand-recommend-list .brand-recommend-item-vivo {
+    background-position: -900px 0;
+}
+
+.page-hd-yuanxiao .brand-recommend-list .brand-recommend-item-huawei {
+    background-position: 0 -200px;
+}
+
+.page-hd-yuanxiao .brand-recommend-list .brand-recommend-item-mi {
+    background-position: -300px -200px;
+}
+
+.page-hd-yuanxiao .brand-recommend-list .brand-recommend-item-samsung {
+    background-position: -600px -200px;
+}
+
+.page-hd-yuanxiao .brand-recommend-list .brand-recommend-item-apple {
+    background-position: -900px -200px;
+}
+/*服务介绍*/
+.page-hd-yuanxiao .block-service-intro,
+.page-hd-yuanxiao .block-service-intro .block-inner {
+    height: 266px;
+    background:url(https://p0.ssl.qhmsg.com/t0173fc54663909bd78.png) no-repeat center 0;
+    margin-top: 20px;
+}
+/*二维码扫一扫*/
+.page-hd-yuanxiao .block-qrcode-info,
+.page-hd-yuanxiao .block-qrcode-info .block-inner {
+    height: 266px;
+    background:url(https://p1.ssl.qhmsg.com/t017ebfa68d0250ee2c.png) no-repeat center 0;
+    margin: 20px auto 80px;
+}
+/* 商品列表 */
+.page-hd-yuanxiao .product-list{
+    min-height: 306px;
+    padding-bottom: 20px;
+}
+.page-hd-yuanxiao .product-list .item {
+    width: 239px;
+    height: 305px;
+    position: relative;
+    float: left;
+    background: #fff;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.page-hd-yuanxiao .product-list .item a {
+    display: block;
+    height: 275px;
+    padding: 30px 30px 0;
+}
+.page-hd-yuanxiao .product-list .item a:hover {
+    text-decoration: none;
+}
+.page-hd-yuanxiao .product-list .p-img {
+    width: 100%;
+    height: 105px;
+    margin-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.page-hd-yuanxiao .product-list .p-img img {
+    height: 100%;
+}
+.page-hd-yuanxiao .product-list .p-tit {
+    font-size: 14px;
+    padding: 0px 0 4px;
+    color: #333;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 20px;
+    height: 38px;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+.page-hd-yuanxiao .product-list .p-price-new {
+    line-height: 100%;
+    color: #999;
+    font-size: 12px;
+    padding: 25px 0 10px;
+}
+.page-hd-yuanxiao .product-list .p-price-new .price-tit { }
+.page-hd-yuanxiao .product-list .p-price-new .price-cnt {
+    text-decoration: line-through;
+}
+.page-hd-yuanxiao .product-list .p-price {
+    font-size: 14px;
+    color: #f30;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #f30;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.page-hd-yuanxiao .product-list .p-price .price-tit {
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    width: 68px;
+    height: 30px;
+    background: #f30;
+    color: #fff;
+}
+.page-hd-yuanxiao .product-list .p-price .price-cnt {
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.page-hd-yuanxiao .product-list .btn-qiang {
+    margin: 10px auto 0;
+    display: none;
+    width: 175px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #fe4d4e;
+    font-size: 16px;
+    color: #fe4d4e;
+    /*border: 2px solid #f43b3c;*/
+    /*font-size: 18px;*/
+    /*color: #f43b3c;*/
+    text-align: center;
+}
+.page-hd-yuanxiao .product-list .item a:hover .btn-qiang {
+    background: #fe4d4e;
+    color: #fff;
+}
+.page-hd-yuanxiao .product-list .btn-disabled,
+.page-hd-yuanxiao .product-list .item a:hover .btn-disabled {
+    background-color: #ddd;
+    border-color: #ddd;
+    color: #fff;
+}
+
+.page-hd-yuanxiao .product-list .p-label {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    width: 49px;
+}
+.page-hd-yuanxiao .product-list .offset-label {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    padding: 8px 0;
+    width: 40px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #fff;
+    background: #f53b3c;
+}
+.page-hd-yuanxiao .product-list .p-label-soldout {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    cursor: default;
+    text-align: center;
+    line-height: 200px;
+}
+
+.page-hd-yuanxiao .product-list .countdown{
+    padding-top: 15px;
+}
+.page-hd-yuanxiao .product-list .countdown span{
+    font-size: 14px;
+    color: #ff3000;
+    display: none;
+    vertical-align: middle;
+    line-height: 1;
+}
+.page-hd-yuanxiao .product-list .countdown .desc-txt,
+.page-hd-yuanxiao .product-list .countdown .h-txt,
+.page-hd-yuanxiao .product-list .countdown .m-txt{
+    color: #333;
+    display: inline;
+}
+.page-hd-yuanxiao .product-list .countdown .h-num,
+.page-hd-yuanxiao .product-list .countdown .m-num,
+.page-hd-yuanxiao .product-list .countdown .s-num{
+    display: inline;
+}
+/* END 商品列表 */

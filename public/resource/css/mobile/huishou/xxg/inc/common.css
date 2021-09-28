@@ -1,0 +1,63 @@
+/* 弹窗--添加笔记本验机信息，缺失显卡信息时手动选择显卡弹窗 */
+.dialog-add-notebook-auto-check-graphics-card-select {
+    background-color: #fff;
+    padding: .2rem .24rem;
+}
+
+.dialog-add-notebook-auto-check-graphics-card-select.dialog-wrap .dialog-close,
+.dialog-add-notebook-auto-check-graphics-card-select.dialog-wrap .dialog-close:hover {
+    position: absolute;
+    top: 0.08rem;
+    right: 0.08rem;
+    z-index: 9999;
+    width: .24rem;
+    height: .24rem;
+    line-height: .24rem;
+    font-size: .18rem;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    text-decoration: none;
+    color: #999;
+}
+
+.dialog-add-notebook-auto-check-graphics-card-select.dialog-wrap .dialog-close:before {
+    content: "\e603";
+}
+
+.dialog-add-notebook-auto-check-graphics-card-select .the-title {
+    margin-bottom: .2rem;
+    font-size: .14rem;
+    text-align: center;
+}
+
+.dialog-add-notebook-auto-check-graphics-card-select .the-group {
+
+}
+
+.dialog-add-notebook-auto-check-graphics-card-select .the-option {
+    position: relative;
+    margin-bottom: .06rem;
+    padding: .08rem .02rem;
+    text-align: center;
+    border-radius: .04rem;
+    border: thin solid #f6f6f6;
+    background-color: #f6f6f6;
+    color: #333;
+}
+
+.dialog-add-notebook-auto-check-graphics-card-select .the-option.selected {
+    border-color: #0b7;
+    background-color: #ecfbf6;
+    color: #0b7;
+}
+
+.dialog-add-notebook-auto-check-graphics-card-select .the-btn {
+    margin: .2rem 0 0 0;
+    padding: .08rem .02rem;
+    display: block;
+    width: 2rem;
+    border-radius: .08rem;
+    background-color: #0b7;
+    color: #fff;
+}

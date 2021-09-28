@@ -1,0 +1,186 @@
+a,a:hover{
+    text-decoration: none;
+}
+
+.page-hd-qsh-wakeup {
+    background:#f14d2f;
+    font-size: .12rem;
+    padding-bottom: .5rem;
+}
+
+.page-hd-qsh-wakeup .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-qsh-wakeup .block {
+    margin: 0 auto;
+}
+
+.page-hd-qsh-wakeup .block1{
+    position: relative;
+}
+.page-hd-qsh-wakeup .block1 .top-btn{
+    position: absolute;
+    bottom: .48rem;
+    left: .4rem;
+    right: .4rem;
+    height: .4rem;
+}
+.page-hd-qsh-wakeup .block1.block-show-max-price{
+    padding-top: 0.1792rem;
+    height: 3.5925333333333334rem;
+    background: url("https://p2.ssl.qhimg.com/t0143ef5bab71a27d8e.jpg") no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-qsh-wakeup .block1.block-show-order-info .top-info{
+    height: 0.6144rem;
+    background: url("https://p1.ssl.qhimg.com/t016028237c7cb81c40.jpg") no-repeat center 0;
+    background-size: cover;
+    position: relative;
+}
+.page-hd-qsh-wakeup .block1.block-show-order-info .top-info .cont{
+    position: absolute;
+    left: .57rem;
+    top: .28rem;
+    color: #999;
+    line-height: 1.2;
+    font-size: .1rem;
+}
+.page-hd-qsh-wakeup .block1.block-show-max-price .max-price{
+    font-size: .42rem;
+    color: #fcfbda;
+    font-weight: bold;
+    position: absolute;
+    left: 1.36rem;
+    top: 2.05rem;
+}
+.page-hd-qsh-wakeup .block1.block-show-max-price .top-btn{
+    bottom: .42rem;
+}
+.page-hd-qsh-wakeup .block1.block-show-left-day{
+    padding-top: 0.1792rem;
+    height: 3.5925333333333334rem;
+    background: url("https://p0.ssl.qhimg.com/t0111f50f37801f4fb6.jpg") no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-qsh-wakeup .block1.block-none-order-info .top-info{
+    height: 0.6144rem;
+    background: url("https://p4.ssl.qhimg.com/t019767e4f41643300b.png") no-repeat center 0;
+    background-size: contain;
+    position: relative;
+}
+.page-hd-qsh-wakeup .block1.block-none-order-info .top-info .cont{
+    position: absolute;
+    left: .57rem;
+    top: .2rem;
+    color: #fff;
+    line-height: 1.2;
+    font-size: .1rem;
+}
+.page-hd-qsh-wakeup .block1.block-show-left-day .top-tips{
+    font-size: .2rem;
+    color: #fff;
+    text-shadow: 0px 5px 6px #e92a17;
+    display: flex;
+    justify-content: center;
+    padding-top: .1rem;
+}
+.page-hd-qsh-wakeup .block1.block-show-left-day .left-day{
+    font-size: .75rem;
+    color: #fcfbda;
+    font-weight: bold;
+    position: absolute;
+    left: 1.2rem;
+    top: 1.5rem;
+    width: 1.1rem;
+    text-align: center;
+}
+.page-hd-qsh-wakeup .block2{
+    height: 3.793066666666667rem;
+    background: url("https://p5.ssl.qhimg.com/t010f6e0e5e5e844ce8.jpg") no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-qsh-wakeup .block2 a{
+    width: .52rem;
+    height: .18rem;
+    position: absolute;
+    left: .2rem;
+    top: 2.8rem;
+}
+.page-hd-qsh-wakeup .block2 .subsidy-list{
+    position: absolute;
+    left: .8rem;
+    top: 2.26rem;
+}
+.page-hd-qsh-wakeup .block2 .subsidy-list .row-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .285rem;
+}
+.page-hd-qsh-wakeup .block2 .subsidy-list .row-info .col-1{
+    width: 1.5rem;
+    text-align: center;
+}
+.page-hd-qsh-wakeup .block3{
+    height: 3.5242666666666667rem;
+    background: url("https://p3.ssl.qhimg.com/t01f6bd0b8afce43690.jpg") no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-qsh-wakeup .block4{
+    height: 0.9472rem;
+    background: url("https://p3.ssl.qhimg.com/t0129c3a38ebbfcecad.jpg") no-repeat center 0;
+    background-size: contain;
+}
+.page-hd-qsh-wakeup .block4 a{
+    display: block;
+    height: 100%;
+    margin: 0 .05rem;
+}
+.page-hd-qsh-wakeup .block5{
+    height: 3.7845333333333335rem;
+    background: url("https://p4.ssl.qhimg.com/t01249c9a6416181657.jpg") no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-qsh-wakeup .block5 .product-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: .48rem .05rem 0;
+}
+.page-hd-qsh-wakeup .block5 .product-list .item{
+    margin-bottom: .05rem;
+    width: 1.0069333333333332rem;
+    height: 1.5rem;
+}
+.page-hd-qsh-wakeup .block-btn{
+    text-align: center;
+    padding-top: .2rem;
+}
+.page-hd-qsh-wakeup .block-btn a{
+    display: inline-block;
+    color: #f92044;
+    font-size: .14rem;
+    padding: .03rem .2rem;
+    background: #fff;
+    border-radius: .5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

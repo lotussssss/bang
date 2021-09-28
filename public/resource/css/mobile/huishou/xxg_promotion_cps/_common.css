@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+}
+
+#Main.main {
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    background-color: #fff;
+}
+
+#Main .main-inner {
+    margin: 0 auto;
+    /*padding-bottom: .56rem;*//*此处padding是为了处理某些浏览器，尤其是iOS的Safari下vh的bug*/
+    max-width: 720px;
+    min-width: 320px;
+    background-color: #fff;
+}

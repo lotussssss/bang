@@ -1,0 +1,121 @@
+.w100{
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+.block-inner {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.page-hd-duanwujie {
+    background:#85c496;
+}
+.page-hd-duanwujie .topbar .in{
+    width: 1000px;
+}
+
+.page-hd-duanwujie .block-tit{
+    margin: 20px auto 10px auto;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    background: url(https://p2.ssl.qhmsg.com/t01263502b4a2acbafc.jpg) no-repeat center 0;
+    text-indent: -99999px;
+}
+.page-hd-duanwujie .block-tit .tit-cont{
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+}
+.page-hd-duanwujie .block-tit .more{
+    position: absolute;
+    top: 65px;
+    right: 0px;
+    width: 110px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: #0e803b;
+    background: #ffe9a3;
+    border-radius: 999px;
+    text-indent: 0;
+}
+
+.page-hd-duanwujie .block-mianxi .block-tit{
+    background-image: url(https://p2.ssl.qhmsg.com/t01263502b4a2acbafc.jpg);
+}
+.page-hd-duanwujie .block-flash .block-tit{
+    background-image: url(https://p3.ssl.qhmsg.com/t0118dd7400830fb836.jpg);
+}
+.page-hd-duanwujie .block-apple .block-tit{
+    background-image: url(https://p2.ssl.qhmsg.com/t018f61440c0c8ce261.jpg);
+}
+.page-hd-duanwujie .block-android .block-tit{
+    background-image: url(https://p4.ssl.qhmsg.com/t019af21a0dfc9ce0f8.jpg);
+}
+
+
+.page-hd-duanwujie .block-top,
+.page-hd-duanwujie .block-top .block-inner{
+    height: 250px;
+    background: url(https://p4.ssl.qhmsg.com/t0124ada1405c46b898.jpg) no-repeat center;
+}
+.page-hd-duanwujie .block-sub,
+.page-hd-duanwujie .block-sub .block-inner{
+    height: 305px;
+    background: url(https://p2.ssl.qhmsg.com/t0173bd929403743449.png) no-repeat center;
+}
+.page-hd-duanwujie .block-video,
+.page-hd-duanwujie .block-video .block-inner{
+    margin-top: 20px;
+    height: 240px;
+    background: url(https://p3.ssl.qhmsg.com/t01f7dc464ce41e860b.jpg) no-repeat center;
+}
+
+.page-hd-duanwujie .block-video .trigger-play-video{
+    margin: 0 auto;
+    display: block;
+    width: 983px;
+    height: 100%;
+}
+
+.page-hd-duanwujie .block-flash .ui-sp-product-list-1{
+    min-height: 332px;
+}
+
+.page-hd-duanwujie .block-flash .p-item{
+    height: 320px;
+}
+
+
+/*418活动商品列表样式*/
+.page-hd-duanwujie .ui-sp-product-list-1{
+    min-height: 600px;
+}
+.page-hd-duanwujie .ui-sp-product-list-1 .p-item{
+    margin: 5px;
+}
+/*418活动商品列表样式 end*/
+
+
+/*服务介绍*/
+.page-hd-duanwujie .block-service-intro,
+.page-hd-duanwujie .block-service-intro .block-inner {
+    height: 266px;
+    background:url(https://p4.ssl.qhmsg.com/t01272fb2bf9a0e7fde.jpg) no-repeat center 0;
+    margin-top: 20px;
+}
+/*二维码扫一扫*/
+.page-hd-duanwujie .block-qrcode-info,
+.page-hd-duanwujie .block-qrcode-info .block-inner {
+    height: 260px;
+    background:url(https://p0.ssl.qhmsg.com/t01e695bf1f4dee8050.png) no-repeat center 0;
+    margin: 20px auto 80px;
+}

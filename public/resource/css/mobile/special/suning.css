@@ -1,0 +1,258 @@
+html{
+    height: auto;
+    background: #fff;
+}
+.errorblink{
+    border: 1px solid #fb0909 !important;
+}
+.hide{display: none;}
+.w100{width: 100%;}
+.f12{font-size: 12px;}
+/*行的基本模式*/
+.block,.row,
+.col-2-1,
+.col-4-1,
+.col-left-fixed, .col-left,
+.col-right,.col-right-fixed{
+    display: block;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+.row:after{
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    content: '\20';
+}
+.row{
+    zoom: 1;
+    clear: both;
+}
+.col-2-1,
+.col-4-1,
+.col-left-fixed{
+    float: left;
+}
+.col-2-1{
+    width: 50%;
+}
+.col-4-1{
+    width: 25%;
+}
+.col-right-fixed{
+    float: right;
+}
+/*END行的基本模式*/
+/* 箭头 */
+.arrow-down,
+.arrow-right{
+    position: relative;
+}
+.arrow-right:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 6px;
+    top: 50%;
+    margin-top: -7px;
+    border-top: 2px solid #CCCCCC;
+    border-right: 2px solid #CCCCCC;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.arrow-down:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 10px;
+    top: 50%;
+    margin-top: -7px;
+    border-top: 2px solid #CCCCCC;
+    border-right: 2px solid #CCCCCC;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+/* END箭头 */
+
+
+/*htc以旧换新*/
+.page-hd-suning{
+    background: #fff;
+}
+.page-hd-suning .mainbody{
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+.page-hd-suning .block{
+    position: relative;
+    border: 0;
+}
+.page-hd-suning .block1{
+    /*padding-top: 67.77%;*/
+    padding-top: 53.47%;
+    background: url(https://p.ssl.qhimg.com/t01e49a29ffe8d4ff36.jpg) no-repeat center 0;
+    background-size: contain;
+}
+.page-hd-suning .block2{
+    /*padding-top: 103.61%;*/
+    padding-top: 61.94%;
+    background: url(https://p.ssl.qhimg.com/t01700b8e086d7bc4a9.jpg) no-repeat center 0;
+    background-size: contain;
+}
+.page-hd-suning .block2-1{
+    /*padding-top: 103.61%;*/
+    padding-top: 55.97%;
+    background: url(https://p.ssl.qhimg.com/t018785184be3e3539b.png) no-repeat center 0;
+    background-size: contain;
+}
+.page-hd-suning .block2-1 .btn-jiuji-guzhi{
+    position: absolute;
+    top: 11%;
+    left: 25%;
+    width: 48%;
+    height: 22%;
+}
+.page-hd-suning .block2-1 .btn-jiuji-guzhi:hover{
+    text-decoration: none;
+}
+.page-hd-suning .block3{
+    padding-top: 135.41%;
+    background: url(https://p.ssl.qhimg.com/t01c60c261728cf87e1.jpg) no-repeat center 0;
+    background-size: contain;
+}
+.page-hd-suning .block3 .br{
+    position: absolute;
+    top: 0.2%;
+    left: 5.2%;
+    display: block;
+    width: 30.1%;
+    height: 9.91%;
+    background: transparent;
+    /*box-shadow: 0 0 6px #497fcc;*/
+}
+.page-hd-suning .block3 .br:hover{
+    text-decoration: none;
+}
+.page-hd-suning .block3 .br:active{
+    box-shadow: 0 0 6px #497fcc;
+}
+
+.page-hd-suning .block3 .apple{}
+.page-hd-suning .block3 .samsung{
+    left: 35.3%;
+}
+.page-hd-suning .block3 .honor{
+    left: 65.5%;
+}
+
+.page-hd-suning .block3 .htc{
+    left: 5.2%;
+    top: 10.6%;
+}
+.page-hd-suning .block3 .blackberry{
+    left: 35.3%;
+    top: 10.6%;
+}
+.page-hd-suning .block3 .lg{
+    left: 65.5%;
+    top: 10.6%;
+}
+
+.page-hd-suning .block3 .meizu{
+    left: 5.2%;
+    top: 20.86%;
+}
+.page-hd-suning .block3 .xiaomi{
+    left: 35.3%;
+    top: 20.86%;
+}
+.page-hd-suning .block3 .vivo{
+    left: 65.5%;
+    top: 20.86%;
+}
+
+.page-hd-suning .block3 .nokia{
+    left: 5.2%;
+    top: 31.2%;
+}
+.page-hd-suning .block3 .letv{
+    left: 35.3%;
+    top: 31.2%;
+}
+.page-hd-suning .block3 .motorola{
+    left: 65.5%;
+    top: 31.2%;
+}
+
+.page-hd-suning .block3 .yijia{
+    left: 5.2%;
+    top: 41.5%;
+}
+.page-hd-suning .block3 .oppo{
+    left: 35.3%;
+    top: 41.5%;
+}
+.page-hd-suning .block3 .chuizi{
+    left: 65.5%;
+    top: 41.5%;
+}
+
+.page-hd-suning .block3 .lenovo{
+    left: 5.2%;
+    top: 51.85%;
+}
+.page-hd-suning .block3 .sony{
+    left: 35.3%;
+    top: 51.85%;
+}
+.page-hd-suning .block3 .other{
+    left: 65.5%;
+    top: 51.85%;
+}
+
+.page-hd-suning .block3 .btn-kankan-jiuji{
+    position: absolute;
+    bottom: 0;
+    left: 3.5%;
+    width: 93%;
+    height: 11.4%;
+    background: transparent;
+}
+.page-hd-suning .block4 {
+    position: relative;
+}
+.page-hd-suning .block4 .position{
+    position: absolute;
+    top: 1.85rem;
+    left: 0;
+}
+.page-hd-suning .block6{
+    padding: 5%;
+    text-align: center;
+}
+.page-hd-suning .block6 .goto-more-store{
+    font-size: 16px;
+    color: #00B2EC;
+}
+.page-hd-suning .block7{
+    position: relative;
+    padding-top: 88.74%;
+    background: url(https://p.ssl.qhimg.com/t01b805a93414606e79.png) no-repeat center 0;
+    background-size: contain;
+}
+.page-hd-suning .block7 .goto-liangpin{
+    position: absolute;
+    top: 70%;
+    left: 28%;
+    width: 24%;
+    height: 5.5%;
+    background: #E0E0E0;
+    opacity: .4;
+}

@@ -1,0 +1,298 @@
+.w100{
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+.block-inner {
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+    text-align: center;
+}
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.page-hd-double-dan {
+    background:url("https://p2.ssl.qhmsg.com/t01a97815e787bd0239.jpg") repeat 0 0px;
+    min-width: 1200px;
+}
+.page-hd-double-dan .dialog-inner{
+    padding: 0;
+}
+
+.page-hd-double-dan .block-1,
+.page-hd-double-dan .block-1 .block-inner{
+    height: 553px;
+    background: url(https://p3.ssl.qhmsg.com/t01cf6f48933156d4af.jpg) no-repeat center 0;
+}
+
+.page-hd-double-dan .block-2,
+.page-hd-double-dan .block-2 .block-inner{
+    position: relative;
+    height: 601px;
+    background: url(https://p3.ssl.qhmsg.com/t015c5caa7989157b6e.jpg) no-repeat center 0;
+}
+.page-hd-double-dan .block-2 .btn-shenquan{
+    position: absolute;
+    bottom: 49px;
+    left: 456px;
+    width: 290px;
+    height: 62px;
+    background: #f7d56c;
+    text-align: center;
+    line-height: 62px;
+    font-size: 25px;
+    color: #ba0e24;
+}
+
+.page-hd-double-dan .block-2 .btn-disabled{
+    background-color: #ddd;
+    color: #fff;
+}
+.page-hd-double-dan .block-3,
+.page-hd-double-dan .block-3 .block-inner{
+    height: 485px;
+    background: url(https://p3.ssl.qhmsg.com/t01755829d5f1388a5e.jpg) no-repeat center 0;
+}
+.page-hd-double-dan .block-3 a{
+    position: absolute;
+    width: 920px;
+    height: 285px;
+    left: 141px;
+    bottom: 0;
+}
+.page-hd-double-dan .block-4,
+.page-hd-double-dan .block-4 .block-inner{
+    height: 482px;
+    background: url(https://p1.ssl.qhmsg.com/t01978c7bdf817c21ca.jpg) no-repeat center 0;
+    text-align: center;
+}
+.page-hd-double-dan .block-4 a{
+    display: inline-block;
+    width: 450px;
+    height: 220px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.page-hd-double-dan .block-4 a:nth-of-type(2n){
+    margin-right: 0;
+}
+.page-hd-double-dan .block-5,
+.page-hd-double-dan .block-5 .block-inner{
+    height: 324px;
+    background: url(https://p2.ssl.qhmsg.com/t01f93158c1fe8b07ed.jpg) no-repeat center 0;
+}
+.page-hd-double-dan .block-5 a{
+    position: absolute;
+    width: 920px;
+    height: 285px;
+    left: 141px;
+    bottom: 0;
+}
+.page-hd-double-dan .block-6,
+.page-hd-double-dan .block-6 .block-inner{
+    height: 442px;
+    background: url(https://p0.ssl.qhmsg.com/t0155faae9171ebd6d7.jpg) no-repeat center 0;
+}
+.page-hd-double-dan .block-6 a{
+    display: inline-block;
+    width: 285px;
+    height: 370px;
+    margin-top: 30px;
+    margin-right: 29px;
+}
+.page-hd-double-dan .block-6 a:last-child{
+    margin-right: 0;
+}
+.page-hd-double-dan .block-7,
+.page-hd-double-dan .block-7 .block-inner{
+    height: 607px;
+    background: url(https://p3.ssl.qhmsg.com/t01741f3f1df79f84cc.jpg) no-repeat center 0;
+}
+.page-hd-double-dan .block-7 a{
+    display: inline-block;
+    width: 210px;
+    height: 370px;
+    margin-top: 190px;
+    margin-right: 22px;
+}
+.page-hd-double-dan .block-7 a:last-child{
+    margin-right: 0;
+}
+.page-hd-double-dan .block-8,
+.page-hd-double-dan .block-8 .block-inner{
+    height: 611px;
+    background: url(https://p3.ssl.qhmsg.com/t01de4141664f283770.jpg) no-repeat center 0;
+}
+.page-hd-double-dan .block-8 a{
+    display: inline-block;
+    width: 210px;
+    height: 370px;
+    margin-top: 190px;
+    margin-right: 22px;
+}
+.page-hd-double-dan .block-8 a:last-child{
+    margin-right: 0;
+}
+.page-hd-double-dan .block-9,
+.page-hd-double-dan .block-9 .block-inner{
+    height: 648px;
+    background: url(https://p2.ssl.qhmsg.com/t01ae5d9460624680ef.jpg) no-repeat center 0;
+}
+.page-hd-double-dan .block-9 img{
+    position: absolute;
+    top: 268px;
+    left: 505px;
+    width: 160px;
+}
+.page-hd-double-dan .block-10,
+.page-hd-double-dan .block-10 .block-inner{
+    height: 550px;
+    background: url(https://p0.ssl.qhmsg.com/t01fa849a1ff9ff4be3.jpg) no-repeat center 0;
+}
+.page-hd-double-dan .block-11,
+.page-hd-double-dan .block-11 .block-inner{
+    height: 526px;
+    background: url(https://p1.ssl.qhmsg.com/t01e1eb5cb3cfb3f289.jpg) no-repeat center 0;
+}
+
+
+/*登录面板*/
+.double-dan-panel-wrap {
+    background: #fff;
+    border-radius: 6px;
+}
+
+.double-dan-panel-wrap .ft {
+    display: none;
+    height: 0;
+}
+
+.double-dan-panel {
+    width: 500px;
+    height: 290px;
+    *height: 330px;
+    color: #333;
+    font-size: 12px;
+    background: #fff;
+}
+
+.double-dan-panel form {
+    margin: 20px auto;
+    width: 320px;
+}
+
+.double-dan-panel .inpt {
+    margin: 0 3px 0 0;
+    padding: 8px;
+    width: 120px;
+    vertical-align: top;
+}
+
+.double-dan-panel .line {
+    padding: 0;
+    margin: 15px 0 5px 0;
+    line-height: 34px;
+    font-size: 0;
+}
+
+.double-dan-panel .line-left,
+.double-dan-panel .line-right {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+    font-size: 12px;
+}
+
+.double-dan-panel .line-left {
+    padding-right: 4px;
+    width: 80px;
+    text-align: right;
+}
+
+.double-dan-panel .line-mobile .inpt{
+    width: 213px;
+}
+
+.double-dan-panel h3 {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.double-dan-panel-getsecode {
+    /*padding: 0 10px;*/
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    background: red;
+    vertical-align: top;
+    text-align: center;
+}
+
+.double-dan-panel-getsecode:hover {
+    background: #ff3434;
+    text-decoration: none;
+}
+
+.double-dan-panel .vcode-img {
+    width: 90px;
+    height: 35px;
+    vertical-align: top;
+}
+
+.double-dan-panel-getsecode-disabled,
+.double-dan-panel-getsecode-disabled:hover {
+    background: #ccc;
+}
+
+.double-dan-panel .sub-btn {
+    width: 150px;
+    height: 34px;
+    line-height: 34px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    background: #ff831f;
+    cursor: pointer;
+}
+
+/*抢神券面板*/
+.double-dan-shenquan-panel{
+    background: transparent;
+    border: none;
+}
+.double-dan-shenquan-panel .shenquan-cont{
+    width: 494px;
+    height: 235px;
+    background: url(https://p2.ssl.qhmsg.com/t013c39d25690b87c74.png) no-repeat center 0;
+}
+.double-dan-shenquan-panel .shenquan-cont2{
+    width: 494px;
+    height: 235px;
+    background: url(https://p4.ssl.qhmsg.com/t01749a6b7c1c570497.png) no-repeat center 0;
+}
+.double-dan-shenquan-panel .shenquan-btn{
+    position: absolute;
+    left: 190px;
+    top: 134px;
+    width: 135px;
+    height: 34px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+.block-service-remote-check .block-order-remote-check-options {
+    background-color: #fff;
+}
+
+.block-service-remote-check .block-order-remote-check-options .icon-shalou {
+    font-size: .3rem;
+    color: #17a654;
+}
+
+.block-service-remote-check .block-order-remote-check-options .col-12-2 {
+    padding-top: .1rem;
+    text-align: center;
+}
+
+.block-service-remote-check .block-order-remote-check-options .col-12-10 {
+    position: relative;
+    padding: .1rem;
+    height: 100%;
+}
+
+.block-service-remote-check .block-order-remote-check-options .btn-refresh-check-status {
+    position: absolute;
+    right: .1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 .2rem;
+    height: .28rem;
+    line-height: .28rem;
+    text-align: center;
+    color: #f84;
+    border: 1px solid #f84;
+    border-radius: 999rem;
+    font-size: .12rem;
+}
+
+.block-service-remote-check .block-order-remote-check-options .check-tip {
+    font-size: .14rem;
+}
+
+.block-service-remote-check .block-order-remote-check-options .check-tip-desc {
+    color: #999;
+}
+
+.block-service-remote-check .block-order-remote-check-options .remote-check-countdown {
+    padding: 0 .04rem;
+    font-size: 0;
+}
+
+.block-service-remote-check .block-order-remote-check-options .remote-check-countdown > span {
+    display: none;
+}
+
+.block-service-remote-check .block-order-remote-check-options .remote-check-countdown .m-num,
+.block-service-remote-check .block-order-remote-check-options .remote-check-countdown .m-txt,
+.block-service-remote-check .block-order-remote-check-options .remote-check-countdown .s-num {
+    display: inline;
+    font-size: .14rem;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .block-service-remote-check .block-order-remote-check-options .btn-refresh-check-status {
+        border: 0 !important;
+    }
+
+    .block-service-remote-check .block-order-remote-check-options .btn-refresh-check-status:before {
+        content: "";
+        width: 200%;
+        height: 200%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 1px solid #f84;
+        -webkit-transform: scale(0.5);
+        -webkit-transform-origin: 0 0;
+        padding: 1px;
+        -webkit-box-sizing: border-box;
+        border-radius: 999rem;
+        pointer-events: none;
+    }
+
+}

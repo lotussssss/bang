@@ -1,0 +1,89 @@
+.page-liangpin-special-vip-plus {
+}
+
+.page-liangpin-special-vip-plus .mainbody {
+    padding-top: 54px;
+    padding-bottom: 150px;
+    background: linear-gradient(to bottom, #ff4d00, #ff8900);
+}
+
+.page-liangpin-special-vip-plus .block .block-inner {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.page-liangpin-special-vip-plus .btn-get-vip-plus {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    height: 117px;
+    width: 690px;
+    margin: 0 auto;
+    background: url(https://p3.ssl.qhmsg.com/t013f87c34758f3b373.png) no-repeat center;
+    color: #f8c78c;
+    text-align: center;
+    line-height: 117px;
+    font-size: 36px;
+}
+
+.page-liangpin-special-vip-plus .btn-get-vip-plus:hover {
+    text-decoration: none;
+}
+
+.page-liangpin-special-vip-plus .block-1,
+.page-liangpin-special-vip-plus .block-1 .block-inner {
+    height: 617px;
+    background: url(https://p0.ssl.qhmsg.com/t01b569bf8382dc1211.png) no-repeat center;
+}
+
+.page-liangpin-special-vip-plus .block-2,
+.page-liangpin-special-vip-plus .block-2 .block-inner {
+    margin-top: 50px;
+    height: 616px;
+    background: url(https://p1.ssl.qhmsg.com/t01c015b093f8a3b362.png) no-repeat center 0;
+}
+
+.page-liangpin-special-vip-plus .block-3,
+.page-liangpin-special-vip-plus .block-3 .block-inner {
+    margin-top: 50px;
+    height: 1000px;
+    background: url(https://p3.ssl.qhmsg.com/t010252ce3d37181a97.png) no-repeat center;
+}
+
+.page-liangpin-special-vip-plus .block-4,
+.page-liangpin-special-vip-plus .block-4 .block-inner {
+    margin-top: 50px;
+    height: 891px;
+    background: url(https://p1.ssl.qhmsg.com/t0192a262bfe2a55b93.png) no-repeat center;
+}
+
+.page-liangpin-special-vip-plus .panel-vip-plus-qrcode {
+    padding: 10px 20px 20px 20px;
+    overflow: visible;
+}
+
+.page-liangpin-special-vip-plus .panel-vip-plus-qrcode .hd {
+    font-size: 24px;
+    line-height: 2;
+    text-align: center;
+}
+
+.page-liangpin-special-vip-plus .panel-vip-plus-qrcode .bd img {
+    width: 300px;
+    height: 300px;
+}
+
+.page-liangpin-special-vip-plus .panel-vip-plus-qrcode .close {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 36px;
+    height: 36px;
+    z-index: 9999;
+    background: url(//p.ssl.qhimg.com/t01a22268e647e8b152.png) no-repeat center;
+    background-size: 36px;
+    text-decoration: none;
+    cursor: pointer;
+}

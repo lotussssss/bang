@@ -1,0 +1,104 @@
+.step_apply_refund{
+    padding: 0 14px 80px;
+}
+.step_apply_refund a:hover{
+    text-decoration: none;
+}
+.step_apply_refund .refund-tit{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    padding: 45px 0 14px 30px;
+}
+.step_apply_refund .refund-cont .order-info{
+    height: 26px;
+    line-height: 26px;
+    background: #f6f6f6;
+    border:1px solid #e4e4e4;
+    padding-left: 38px;
+    color: #666;
+    margin: 0;
+}
+.step_apply_refund .refund-cont .create-time{
+    padding-left: 70px;
+}
+.step_apply_refund .col-blue{
+    color: #2379d9;
+}
+.step_apply_refund .refund-cont .product-img{
+    width: 66px;
+    height: 66px;
+    padding: 4px;
+    border:1px solid #ddd;
+    margin: 10px 14px 10px 38px;
+    text-align: center;
+}
+.step_apply_refund .product-img img{
+    height: 66px;
+}
+.step_apply_refund .product-name{
+    line-height: 90px;
+}
+.step_apply_refund .line{
+    height: 20px;
+    background: url("https://p.ssl.qhimg.com/t0102f10ce4e755c020.jpg") no-repeat 0 0;
+}
+.step_apply_refund .refund-form{
+    padding-left: 30px;
+}
+.step_apply_refund .refund-form-line{
+    padding-top: 32px;
+    font-size: 14px;
+}
+.step_apply_refund i{
+    color: #f00;
+}
+.step_apply_refund .refund-form-tit{
+    font-weight: bold;
+    color: #333;
+}
+.step_apply_refund .refund-txt{
+    width: 680px;
+    height: 100px;
+    vertical-align: top;
+    padding: 10px;
+}
+.step_apply_refund .refund-form-tips{
+    color: #666;
+    padding-left: 78px;
+    font-size: 14px;
+}
+.step_apply_refund .refund-form-tips h4{
+    height: 24px;
+    line-height: 24px;
+    padding-left: 30px;
+    margin: 20px 0 10px;
+    background: url("https://p.ssl.qhimg.com/t016e7fd881d5349f32.jpg") no-repeat 0 0;
+}
+.step_apply_refund .refund-form-tips p{
+    line-height: 26px;
+}
+.step_apply_refund .refund-form .refund-form-btn{
+    padding: 30px 0 0 78px;
+}
+.step_apply_refund .refund-form .refund-form-btn input,
+.step_apply_refund .refund-form .refund-form-btn a{
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 14px;
+    font-size: 14px;
+    border: 0;
+    background: #fff;
+    cursor: pointer;
+}
+.step_apply_refund .refund-form .refund-form-btn .btn-refund{
+    border:1px solid #d5d5d5;
+    color: #333;
+}
+.step_apply_refund .refund-form .refund-form-btn .btn-cancel{
+    display: block;
+    background: #fc551f;
+    color: #fff;
+}

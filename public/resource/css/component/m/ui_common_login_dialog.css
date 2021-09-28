@@ -1,0 +1,116 @@
+/*m端全业务通用登陆框*/
+.ui-common-login-dialog a {
+    color: #239bf8;
+    text-decoration: none;
+}
+
+.ui-common-login-dialog input::-webkit-input-placeholder {
+    color: #999;
+}
+
+.ui-common-login-dialog input::-moz-placeholder {
+    color: #999;
+}
+
+.ui-common-login-dialog input:-ms-input-placeholder {
+    color: #999;
+}
+
+.ui-common-login-dialog.dialog-wrap,
+.ui-common-login-dialog.dialog-wrap .dialog-inner {
+    width: 2.6rem;
+    border: 0;
+    padding: 0;
+    background-color: #fff;
+    border-radius: .05rem;
+}
+
+.ui-common-login-dialog .ui-login-form {
+    padding: .1rem 0 .2rem;
+}
+
+.ui-common-login-dialog .ui-login-form .ui-tit {
+    line-height: .5rem;
+    text-align: center;
+    font-size: .2rem;
+    color: #666;
+}
+
+.ui-common-login-dialog .ui-login-form .row,
+.ui-common-login-dialog .ui-login-form .grid {
+    margin: 0 .2rem;
+    padding: .05rem 0rem;
+    font-size: .12rem;
+}
+
+.ui-common-login-dialog .ui-login-form .row input,
+.ui-common-login-dialog .ui-login-form .ui-vcode-img,
+.ui-common-login-dialog .ui-login-form .ui-btn-get-secode {
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    border-radius: .02rem !important;
+}
+
+.ui-common-login-dialog .ui-login-form .row input,
+.ui-common-login-dialog .ui-login-form .grid input {
+    padding: 0 .03rem;
+    border: 0;
+}
+
+.ui-common-login-dialog .ui-login-form .ui-btn-get-secode {
+    border: 1px solid #f84;
+    color: #f84;
+    font-size: .12rem;
+}
+
+.ui-common-login-dialog .ui-login-form .ui-btn-get-secode-disabled {
+    border: 1px solid #eee;
+    background-color: #eee;
+    color: #fff;
+}
+
+.ui-common-login-dialog .ui-login-form .ui-btn-order-confirm-submit {
+    margin: .2rem auto 0;
+    display: block;
+    width: 85%;
+    height: .4rem;
+    background: #f84;
+    color: #fff;
+    font-size: .14rem;
+    border: none;
+    border-radius: .02rem !important;
+}
+
+.ui-common-login-dialog .ui-login-form .ui-tips {
+    color: #f84;
+    text-align: center;
+    font-size: .12rem;
+    padding-top: .1rem;
+}
+
+/*协议*/
+.ui-common-login-dialog .ui-login-form .ui-protocol {
+    margin-top: .15rem;
+    padding: .05rem 0;
+    border-radius: 0.03rem;
+}
+
+.ui-common-login-dialog .ui-login-form .ui-protocol .col-check {
+    margin-top: .018rem;
+    margin-right: .05rem;
+    padding: 0;
+    width: .14rem;
+    height: .14rem;
+    border: 1px solid #c4c4c4;
+    border-radius: 999px !important;
+    font-size: 0;
+    -webkit-appearance: none;
+}
+
+.ui-common-login-dialog .ui-login-form .ui-protocol .col-check:checked {
+    font-size: .15rem;
+    color: #ff4d00;
+    border: 0;
+    line-height: 1;
+}

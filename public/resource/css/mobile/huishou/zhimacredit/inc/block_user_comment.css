@@ -1,0 +1,72 @@
+.block-user-comment{
+    background-color: #fff;
+}
+.block-user-comment .user-comment-list-wrap{
+    overflow: hidden;
+}
+.block-user-comment .user-comment-list{
+    /*position: relative;*/
+    height: 1.11rem;
+    overflow: hidden;
+}
+.block-user-comment .user-comment-list .item{
+    position: relative;
+    float: left;
+    padding:0 .1rem;
+    width: 100%;
+}
+.block-user-comment .user-comment-list .col-left-fixed{
+    width: .35rem;
+    height: .35rem;
+}
+.block-user-comment .user-comment-list img{
+    width: 100%;
+    border-radius: 999px;
+}
+.block-user-comment .user-comment-list .col-right{
+    margin-left: .44rem;
+}
+.block-user-comment .user-comment-list .score-star{
+    font-size: 0;
+    line-height: 1;
+}
+.block-user-comment .user-comment-list .icon-star-solid{
+    font-size: .1rem;
+    color: #f50;
+}
+.block-user-comment .user-comment-list .phone-number{
+    color: #000;
+}
+.block-user-comment .user-comment-list .item-comment-cont{
+    margin: .08rem 0;
+    height: .4rem;
+    color: #333;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+.block-user-comment .user-comment-list .item-model{
+    color: #666;
+}
+
+.block-user-comment .slide-nav{
+    padding: .16rem 0;
+    height: .08rem;
+    text-align: center;
+    font-size: 0;
+    box-sizing: content-box;
+}
+.block-user-comment .slide-nav span{
+    margin-right: .1rem;
+    display: inline-block;
+    width: .08rem;
+    height: .08rem;
+    border-radius: 999px;
+    background-color: #999;
+}
+.block-user-comment .slide-nav span.cur{
+    background-color: rgba(255, 85, 0, 0.6);
+}

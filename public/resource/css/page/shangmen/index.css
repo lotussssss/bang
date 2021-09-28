@@ -1,0 +1,319 @@
+.page-shangmen-index{
+
+}
+.page-shangmen-index .relative{
+    position: relative;
+}
+.page-shangmen-index .inner-1200{
+    width: 1200px;
+    margin: 0 auto;
+}
+.page-shangmen-index .inner-960{
+    width: 960px;
+    margin: 0 auto;
+}
+.page-shangmen-index .float-card-fixed-wrap2 .float-card-fixed-inner{
+    width: 1100px;
+}
+.page-shangmen-index .body-section{
+    border-bottom: 1px solid #E7E6E6;
+}
+.page-shangmen-index .section-top{
+
+}
+.page-shangmen-index .section-top .inner-960{
+    position: relative;
+}
+.page-shangmen-index .section-top .logo{
+    width: 379px;
+    height: 79px;
+    background: url("https://p.ssl.qhimg.com/t01b9a6bc827498b25e.jpg") 0 0 no-repeat;
+    text-indent: -999px;
+}
+.page-shangmen-index .section-top .logo a{
+    width: 208px;
+    height: 70px;
+    display: block;
+}
+/*banner*/
+.page-shangmen-index .section-0{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid #D7D6D6;
+    background: #f7f7f7;
+}
+.page-shangmen-index .section-0 .slide-box{
+    position: relative;
+    height: 334px;
+    overflow: hidden;
+}
+.page-shangmen-index .section-0 .top-pic{
+    float: left;
+    width: 100%;
+    height: 334px;
+}
+.page-shangmen-index .top-pic .inner-960{
+    position: relative;
+}
+.page-shangmen-index .section-0 .pic-buy-box{
+    font-family: "微软雅黑";
+    position: absolute;
+    left: 460px;
+    top: 250px;
+}
+.page-shangmen-index .orig-price{
+    font-size: 16px;
+    color: #999;
+}
+.page-shangmen-index .disc-price{
+    font-size: 20px;
+    color: #ff4e00;
+    margin: 0 16px;
+}
+.page-shangmen-index .section-0 .btn-buy{
+    /*display: inline-block;*/
+    width: 140px;
+    height: 43px;
+    position:absolute;
+    right: 220px;
+    top: 247px;
+    /*line-height: 46px;*/
+    /*background: #FF9900;*/
+    /*text-align: center;*/
+    /*color: #fff;*/
+    /*font-size: 20px;*/
+    /*border-bottom: 3px solid #D88200;*/
+}
+.page-shangmen-index .section-0 .btn-buy:hover{
+    text-decoration: none;
+}
+
+.page-shangmen-index .section-0 .top-pic-showed{
+    z-index: 6;
+}
+.page-shangmen-index .section-0 .top-pic0{
+    background:#A2E8FF url(https://p.ssl.qhimg.com/t01a395e403bbdc2ca9.jpg) no-repeat center 0;
+    z-index: 1;
+}
+.page-shangmen-index .section-0 .top-pic1{
+    background:#FED6CA url(https://p.ssl.qhimg.com/t0161a2ce141f12e59f.jpg) no-repeat center 0;
+}
+/*.page-shangmen-index .section-0 .top-pic2{*/
+    /*background:#A0F6BC url(https://p.ssl.qhimg.com/t011d5236b0f040491d.jpg) no-repeat center 0;*/
+/*}*/
+.page-shangmen-index .section-0 .top-pic2{
+    background:#FFE7A7 url(https://p.ssl.qhimg.com/t01435098b9738592f3.jpg) no-repeat center 0;
+}
+.page-shangmen-index .section-0 .top-pic3{
+    background:#B3E0FF url(https://p.ssl.qhimg.com/t0100f3e1790b90056f.jpg) no-repeat center 0;
+}
+.page-shangmen-index .section-0 .top-pic4{
+    background:#F9F9F9 url(https://p.ssl.qhimg.com/t0105774340b649ff0c.jpg) no-repeat center 0;
+}
+
+.page-shangmen-index .btn-list{
+    width: 1020px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.page-shangmen-index .btn-list li{
+    /*width: 170px;*/
+    width: 204px;
+    float: left;
+    text-align: center;
+    position: relative;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.page-shangmen-index .btn-list .arrow {
+    width: 0px;
+    height: 0px;
+    border: 15px solid transparent;
+    border-top: 15px solid #a2e9ff;
+    position: absolute;
+    left: 87px;
+    top: 0;
+    display: none;
+}
+.page-shangmen-index .btn-list .cur .arrow{
+    display: block;
+}
+.page-shangmen-index .btn-list .arrow-0{
+    border-top: 15px solid #a2e9ff;
+}
+.page-shangmen-index .btn-list .arrow-1{
+    border-top: 15px solid #a1f6bb;
+}
+.page-shangmen-index .btn-list .arrow-2{
+    border-top: 15px solid #ffe7a7;
+}
+.page-shangmen-index .btn-list .arrow-3{
+    border-top: 15px solid #b3e0ff;
+}
+.page-shangmen-index .btn-list .arrow-4{
+    border-top: 15px solid #fed6ca;
+}
+.page-shangmen-index .btn-list .arrow-5{
+    border-top: 15px solid #f9f9f9;
+}
+.page-shangmen-index .btn-list .icon{
+    width: 94px;
+    height: 94px;
+    background: url("https://p.ssl.qhimg.com/t01b8fa062d0eea2736.png") no-repeat 0 0;
+}
+.page-shangmen-index .btn-list .cur .icon{
+    background: url("https://p.ssl.qhimg.com/t012aa4f0bfcc46b29e.png") no-repeat 0 0;
+}
+.page-shangmen-index .btn-list .icon-0,
+.page-shangmen-index .btn-list .cur .icon-0{
+    background-position: 0 0;
+}
+.page-shangmen-index .btn-list .icon-1,
+.page-shangmen-index .btn-list .cur .icon-1{
+    background-position: -178px 0;
+}
+.page-shangmen-index .btn-list .icon-2,
+.page-shangmen-index .btn-list .cur .icon-2{
+    background-position: -352px 0;
+}
+.page-shangmen-index .btn-list .icon-3,
+.page-shangmen-index .btn-list .cur .icon-3{
+    background-position: -519px 0;
+}
+.page-shangmen-index .btn-list .icon-4,
+.page-shangmen-index .btn-list .cur .icon-4{
+    background-position: -698px 0;
+}
+.page-shangmen-index .btn-list .icon-5,
+.page-shangmen-index .btn-list .cur .icon-5{
+    background-position: -869px 0;
+}
+
+.page-shangmen-index .btn-list .tit{
+    font-size: 16px;
+    color: #666;
+    margin-top: 8px;
+}
+/*邮寄维修很安心*/
+.page-shangmen-index .wx-img-show{
+    /*background: #F1F1F1;*/
+    background: #F6F6F6;
+    border-bottom: 1px solid #E3E3E3;
+}
+.page-shangmen-index .wx-img-show .tit{
+    padding: 30px 0;
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+}
+.page-shangmen-index .wx-img-show .slide-wrap{
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 40px;
+    width: 1100px;
+    height: 275px;
+    position: relative;
+    background: transparent;
+}
+.page-shangmen-index .wx-img-show .slide-wrap .slide-go-left,
+.page-shangmen-index .wx-img-show .slide-wrap .slide-go-right{
+    width: 80px;
+    height: 275px;
+    line-height: 275px;
+    position: absolute;
+    top:12px;
+    font-size: 48px;
+    color: #ccc;
+    text-align: center;
+    font-family: "宋体";
+    cursor: pointer;
+    background: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.page-shangmen-index .wx-img-show .slide-wrap .slide-go-left:hover,
+.page-shangmen-index .wx-img-show .slide-wrap .slide-go-right:hover{
+    background: #fff;
+}
+.page-shangmen-index .wx-img-show .slide-wrap .slide-go-left{
+    left: 0;
+}
+.page-shangmen-index .wx-img-show .slide-wrap .slide-go-right{
+    right: 0;
+}
+
+.page-shangmen-index .wx-img-show .slide-wrap .slide-inner{
+    width: 940px;
+    height: 285px;
+    overflow: hidden;
+    position: absolute;
+    left: 80px;
+}
+.page-shangmen-index .wx-img-show .slide-wrap .slide-item{
+    width: 235px;
+    height: 275px;
+    float: left;
+    text-align: center;
+}
+.page-shangmen-index .wx-img-show img{
+    box-shadow: 0px 0px 20px 1px #ccc;
+    margin-top: 5px;
+}
+.page-shangmen-index .section-to-see,.page-shangmen-index .section-to-see .inner-960{
+    height: 246px;
+    background: url("https://p.ssl.qhimg.com/t015faca9e88e5454c1.jpg") center 0 no-repeat;
+}
+.page-shangmen-index .section-to-see a{
+    float: left;
+    width: 320px;
+    height: 100%;
+}
+.page-shangmen-index .section-to-see a:hover{
+    background: rgba(0,0,0,0.1);
+    /*background: #ccc;*/
+    /*opacity: 0.1;*/
+    /*alpha:(opacity:10);*/
+}
+.page-shangmen-index .section-quality,.page-shangmen-index .section-quality .inner-1200{
+    height: 214px;
+    background: url("https://p.ssl.qhimg.com/t015be4bfd7906d9d7e.jpg") center 0 no-repeat;
+}
+/*底部*/
+.page-shangmen-index .doc-ft{
+    padding-bottom: 0;
+    background: #494E51;
+    border: 0;
+}
+.page-shangmen-index .doc-ft .icon{
+    background-image: url(https://p.ssl.qhimg.com/t0187eed48e2466bf92.png);
+}
+.page-shangmen-index .doc-ft .icon-buy{
+    background-position: 0 0;
+}
+.page-shangmen-index .doc-ft .icon-pay{
+    background-position: 0 -43px;
+}
+.page-shangmen-index .doc-ft .icon-service{
+    background-position: 0 -86px;
+}
+.page-shangmen-index .doc-ft .icon-protect{
+    background-position: 0 -129px;
+}
+.page-shangmen-index .doc-ft .icon-company{
+    background-position: 0 -172px;
+}
+.page-shangmen-index .doc-ft a{
+    color: #fff;
+}
+.page-shangmen-index .doc-ft .footer-nav{
+    border: 0;
+}
+.page-shangmen-index .doc-ft .f-nav-box h3{
+    color: #fff;
+}
+.page-shangmen-index .doc-ft .copyright-info{
+    padding: 10px 0 60px 0;
+    background: #242C31;
+}

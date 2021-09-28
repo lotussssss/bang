@@ -1,0 +1,193 @@
+.page-hs-xxg-user-pay {
+    height: 100vh;
+    line-height: 1;
+    /*background: #fff;*/
+    background: #17a654;
+}
+
+.page-hs-xxg-user-pay .mainbody-inner {
+    margin: .13rem;
+    padding: .2rem .2rem 0 .2rem;
+    overflow: hidden;
+    border-radius: 0.07rem;
+    background-color: #fff;
+}
+
+.page-hs-xxg-user-pay .block-title {
+    text-align: center;
+    line-height: 1.8;
+    font-size: 0.17rem;
+}
+
+.page-hs-xxg-user-pay .block-order-id {
+    padding: .1rem 0;
+    text-align: center;
+    font-size: 0.14rem;
+}
+
+.page-hs-xxg-user-pay .block-product-info {
+    position: relative;
+    margin: 0 -.2rem;
+    padding: .1rem .2rem;
+    border-top: thin solid #eee;
+}
+
+.page-hs-xxg-user-pay .block-product-info .price-tit {
+    line-height: 2;
+    font-size: 0.15rem;
+}
+
+.page-hs-xxg-user-pay .block-product-info .price {
+    margin-bottom: .05rem;
+    /*font-size: .14rem;*/
+    font-size: 0.13rem;
+    color: #fe5800;
+    line-height: 1;
+}
+
+.page-hs-xxg-user-pay .block-product-info .price .price-num {
+    /*font-size: .34rem;*/
+    font-size: 0.28rem;
+}
+
+.page-hs-xxg-user-pay .block-product-info .half-circle {
+    position: absolute;
+    top: 0;
+    /*top: 50%;*/
+    transform: translateY(-50%);
+    width: .16rem;
+    height: .16rem;
+    border-radius: 9999px;
+    background: #17a654;
+}
+
+.page-hs-xxg-user-pay .block-product-info .half-circle.half-circle-left {
+    left: 0;
+    transform: translateX(-50%) translateY(-50%);
+    /*transform: translateX(-50%);*/
+}
+
+.page-hs-xxg-user-pay .block-product-info .half-circle.half-circle-right {
+    right: 0;
+    transform: translateX(50%) translateY(-50%);
+    /*transform: translateX(50%);*/
+}
+
+.page-hs-xxg-user-pay .block-pay-info .payment {
+    padding-top: .1rem;
+}
+
+.page-hs-xxg-user-pay .block-pay-info .payment .iconfont {
+    /*font-size: .26rem;*/
+    font-size: .16rem;
+    padding-right: .06rem;
+}
+
+.page-hs-xxg-user-pay .block-pay-info .icon-zhifubao {
+    color: #1296db;
+}
+
+.page-hs-xxg-user-pay .block-pay-info .icon-payment-weixin {
+    color: #1aad19;
+}
+
+.page-hs-xxg-user-pay .block-pay-info .payment-desc {
+    padding-top: .05rem;
+    font-size: .1rem;
+}
+
+.page-hs-xxg-user-pay .block-pay-info .qrcode {
+    text-align: center;
+}
+
+.page-hs-xxg-user-pay .block-pay-info .qrcode img {
+    /*width: 1.6rem;*/
+    /*height: 1.6rem;*/
+    width: 1.85rem;
+    height: 1.85rem;
+    margin-top: .15rem;
+}
+
+.page-hs-xxg-user-pay .btn-switch-payment {
+    text-align: center;
+    padding-top: .2rem;
+}
+
+.page-hs-xxg-user-pay .block-pay-info .icon-qiehuan1 {
+    font-size: .18rem;
+    padding-right: .03rem;
+}
+
+.page-hs-xxg-user-pay .block-pay-info .block-alipay .payment-name,
+.page-hs-xxg-user-pay .block-pay-info .block-wechat .btn-switch-payment {
+    color: #1296db;
+}
+
+.page-hs-xxg-user-pay .block-pay-info .block-wechat .payment-name,
+.page-hs-xxg-user-pay .block-pay-info .block-alipay .btn-switch-payment {
+    color: #1aad19;
+}
+
+/*确认弹窗*/
+.page-hs-xxg-user-pay .bang-ui-dialog .dialog-content {
+    left: .23rem;
+    right: .23rem;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 0.09rem;
+}
+
+.page-hs-xxg-user-pay .bang-ui-dialog .dialog-txt {
+    padding: .2rem 0 0;
+    /*text-align: center;*/
+    color: #7c7c7c;
+}
+
+.page-hs-xxg-user-pay .bang-ui-dialog .dialog-txt .tit {
+    color: #000;
+    text-align: center;
+    line-height: 2;
+    font-size: 0.14rem;
+    font-weight: bold;
+}
+
+.page-hs-xxg-user-pay .bang-ui-dialog .dialog-txt img {
+    margin: .3rem .04rem;
+    width: 0.36rem;
+    height: 0.36rem;
+}
+
+.page-hs-xxg-user-pay .bang-ui-dialog .dialog-txt .payee-col {
+    font-size: 0.1rem;
+}
+
+.page-hs-xxg-user-pay .bang-ui-dialog .dialog-txt .payee {
+    font-size: 0.13rem;
+    color: #000;
+}
+
+.page-hs-xxg-user-pay .bang-ui-dialog .btn-box-confirm {
+    padding: 0;
+}
+.page-hs-xxg-user-pay .bang-ui-dialog .btn-box-confirm .ui-btn {
+    width: 50%;
+    height: .52rem;
+    line-height: .52rem;
+    font-size: 0.14rem;
+    background-color: #fff;
+    color: #17a654;
+}
+
+.page-hs-xxg-user-pay .bang-ui-dialog .btn-box-confirm .ui-btn:first-child {
+    margin: 0;
+}
+
+.page-hs-xxg-user-pay .bang-ui-dialog .btn-box-confirm .ui-btn.ui-btn-fail {
+    color: #999;
+    background-color: #fff;
+}
+
+.page-hs-xxg-user-pay .bang-ui-dialog .btn-box-confirm .ui-btn.ui-btn-succ {
+    color: #17a654;
+    background-color: #fff;
+}

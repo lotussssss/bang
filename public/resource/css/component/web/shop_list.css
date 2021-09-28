@@ -1,0 +1,157 @@
+/*=== 商家列表 ===*/
+
+/*列表主体*/
+.shop-list{}
+.shop-list .list-item{
+    position: relative;
+    margin: 0;
+    padding: 6px 0;
+    /*clear: both;*/
+    /*zoom: 1;*/
+    border: 0;
+    border-bottom: 1px solid #DFDFE1;
+    color: #888;
+    line-height: 26px;
+}
+/*.shop-list .list-item:after{*/
+/*display: block;*/
+/*clear: both;*/
+/*visibility: hidden;*/
+/*height: 0;*/
+/*content: '\20';*/
+/*}*/
+.shop-list .list-item-last{
+    border: 0;
+}
+.shop-list .list-item .pic{
+    float: left;
+    margin-top: 2px;
+    margin-right: 10px;
+    border: 1px solid #e6e6e6;
+}
+.shop-list .list-item .pic img{
+    width: 70px;
+    height: 70px;
+}
+.shop-list .list-item .cont{
+    margin-top:2px;
+    margin-left:80px
+}
+.shop-list .list-item .cont h3{
+    /*padding-bottom: 3px;*/
+    font-size: 14px;
+}
+.shop-list .list-item .cont h3 a{
+    color: #2e74d3;
+    font-weight: 300;
+}
+.shop-list .list-item .cont .desc,
+.shop-list .list-item .cont .addr{
+    width: 370px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.shop-list .list-item .cont .shop-score{
+    position: absolute;
+    top:6px;
+    right: 120px;
+    width: 160px;
+    text-align: center;
+}
+.shop-list .list-item .cont .into-shop-n{
+    position: absolute;
+    right: 5px;
+    top:31px;
+    color: #fff;
+    text-align: center;
+    background: url(https://p.ssl.qhimg.com/t01fd30fb25c0c2dbc1.png) no-repeat 0 0;
+    width: 95px;
+    height: 31px;
+    line-height: 31px;
+    display: block;
+    float: right;
+    font-weight: bold;
+}
+.shop-list .list-item .cont .into-shop-n:hover{
+    text-decoration: none;
+    background-position: 0px -31px;
+}
+.shop-list .list-item .cont .into-shop-n:active{
+    background-position: 0px -62px;
+}
+.shop-list .no-data-merrepair {
+    height: 51px;
+    text-align: center;
+    padding-top: 30px;
+    background: #FFFAE4;
+    margin: 0 0px;
+    z-index: 1;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+
+/*基本筛选样式*/
+.shop-list-filter{
+    background:#f7f7f7;
+    border:1px solid #DFDFE1;
+    border-top: 2px solid #4BAC20;
+}
+.shop-list-filter ul{width:320px;float:left;}
+.shop-list-filter ul li{width:99px;border-right:solid 1px #E3E3E5;float:left;text-align:center;height:35px;line-height:35px;cursor: pointer;}
+.shop-list-filter ul li.active{background:#E4E4E4;}
+.shop-list-filter li a{ color: #000000; text-decoration: none; display: block;}
+.shop-list-filter li a:hover{ text-decoration: none;}
+.shop-list-filter .extra{
+    display: none;
+    float: right;
+    margin: 6px 10px 0 0;
+}
+.shop-list-filter .btn-mode-map{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding: 0 10px 0 35px;
+    width: auto;
+    height: 28px;
+    line-height: 28px;
+    background: #fff url(https://p.ssl.qhimg.com/t01c9ef4268ff127a67.png) no-repeat 10px 0;
+    border: 1px solid #DBDBDB;
+    font-size: 14px;
+}
+.shop-list-filter .filter-check{
+    float: left;
+    text-align: left;
+    width: 260px;
+    line-height: 35px;
+}
+.shop-list-filter .filter-check label{
+    margin-right: 10px;
+}
+
+/*基本分页*/
+.shop-list-pagination{}
+
+/*地图模式*/
+.map-container-wrap{
+
+}
+.map-container-wrap .map-container{
+    width: 890px;
+    height: 455px;
+}
+.map-container-wrap .pagination{
+    padding: 10px 0;
+}
+.map-container-wrap .ft{
+    display: none;
+}
+.map-container-wrap .mode-map .pop-bd{
+    height: 110px;
+}
+.map-container-wrap .mode-map .pop-bd .im-shop{
+    display: none;
+}
+/*=== END商家列表 ===*/
+

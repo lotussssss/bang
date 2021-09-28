@@ -1,0 +1,290 @@
+/*推广的优品秒杀/精选商品*/
+/* 精选/秒杀商品 jx-selling：精选 xsq-selling：秒杀*/
+.block-promoting-inclient-lp-flash-product-list{
+
+}
+
+.block-promoting-inclient-lp-flash-product-list .tg-small {
+    margin: 5px auto;
+    /*width: 699px;*/
+    width: 680px;
+    height: 120px;
+    position: relative;
+    background: #fff;
+}
+
+.block-promoting-inclient-lp-flash-product-list .tg-small .slide-go-left,
+.block-promoting-inclient-lp-flash-product-list .tg-small .slide-go-right {
+    position: absolute;
+    top: 46px;
+    z-index: 3;
+    width: 23px;
+    height: 23px;
+    font-size: 0;
+    cursor: pointer;
+    background: transparent url(https://p.ssl.qhimg.com/t01bb593a9750fcd65e.png) no-repeat 0 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.block-promoting-inclient-lp-flash-product-list .tg-small .slide-go-left {
+    left: -10px;
+    background-position: 0 0;
+}
+.block-promoting-inclient-lp-flash-product-list .tg-small .slide-go-right {
+    right: -10px;
+    background-position: -24px 0;
+}
+.block-promoting-inclient-lp-flash-product-list .tg-small .slide-go-left.disabled,
+.block-promoting-inclient-lp-flash-product-list .tg-small .slide-go-left.disabled:hover{
+    background-position: 0 -49px;
+}
+.block-promoting-inclient-lp-flash-product-list .tg-small .slide-go-right.disabled,
+.block-promoting-inclient-lp-flash-product-list .tg-small .slide-go-right.disabled:hover{
+    background-position: -24px -49px;
+}
+.block-promoting-inclient-lp-flash-product-list .tg-small .slide-go-left:hover{
+    text-decoration: none;
+    background-position: 0 -25px;
+}
+.block-promoting-inclient-lp-flash-product-list .tg-small .slide-go-right:hover {
+    text-decoration: none;
+    background-position: -24px -25px;
+}
+
+.block-promoting-inclient-lp-flash-product-list .tg-small .slide-inner {
+    position: absolute;
+    top: -10px;
+    left: -1px;
+    z-index: 2;
+    /*width: 699px;*/
+    width: 680px;
+    height: 130px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.block-promoting-inclient-lp-flash-product-list .tg-small .slide-item {
+    /*width: 233px;*/
+    width: 226px;
+    height: 118px;
+    float: left;
+    cursor: pointer;
+    border-right:solid 1px #ececec;
+}
+.block-promoting-inclient-lp-flash-product-list .tg-small .slide-item:nth-child(3n),
+.block-promoting-inclient-lp-flash-product-list .tg-small .slide-item:last-child{
+    border-right: 0;
+}
+.block-promoting-inclient-lp-flash-product-list .hot-product-list {
+    padding-top: 10px;
+    color: #333;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .slide-img {
+    float: left;
+    width: 80px;
+    height: 118px;
+    line-height: 118px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 0;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .slide-img a {
+    width: 80px;
+    height: 148px;
+    overflow: hidden;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .slide-img a:hover {
+    text-decoration: none;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .slide-img img {
+    height: 70px;
+}
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .slide-txt {
+    position: relative;
+    float: left;
+    padding-top:5px;
+    height: 118px;
+    /*width:153px;*/
+    width:146px;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .p-tit {
+    line-height: 1.3;
+    font-size: 14px;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .p-tit-sub{
+    color: #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .p-price {
+    line-height: 1;
+    /*font-size: 16px;*/
+    color: #f50;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .p-price-orig{
+    position: relative;
+    height: 18px;
+    font-size: 12px;
+    color: #999;
+    padding-top: 4px;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .p-price-off {
+    position: absolute;
+    top: 0px;
+    left: 44px;
+    padding-left: 7px;
+    width: 34px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+    background: url(https://p.ssl.qhimg.com/t01e7d33b82039e5dab.png) no-repeat 0 0;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .p-price-num {
+    font-size: 24px;
+}
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .p-buy {
+    position: absolute;
+    bottom: 8px;
+    display: block;
+    width: 92px;
+    height: 26px;
+    line-height: 26px;
+    background: #f50;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .p-buy:hover {
+    background: #fc6621;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .p-buy-disabled,
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .p-buy-disabled:hover {
+    color: #fff;
+    background: #d8d3d0;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .lab-jx {
+    position: absolute;
+    top:0;
+    left: -80px;
+    display: block;
+    width: 40px;
+    height: 20px;
+    background: #f50;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .lab-xsq {
+    position: absolute;
+    top: 11px;
+    left : -120px;
+    display: block;
+    width: 46px;
+    height: 20px;
+    background: #f50;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .p-buy {
+    display: none;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .p-buy-disabled {
+    display: block;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .p-buy-not-start {
+    display: none;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .seckill{
+    position:absolute;
+    left:0;
+    bottom:8px;
+    color: #f50;
+    font-size:14px;
+    width:30px;
+}
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .countdown {
+    position: absolute;
+    bottom: 3px;
+    left:30px;
+    text-align: center;
+    font-size: 0;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .countdown span {
+    margin-right: 4px;
+    font-size: 14px;
+    line-height: 2.2;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .countdown .d-num,
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .countdown .h-num,
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .countdown .m-num,
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .countdown .s-num {
+    padding: 0 1px;
+    color: #f50;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .countdown .d-num,
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .countdown .d-txt {
+    display: none;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .countdown-start-prev,
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .countdown-end-next {
+    color: #999;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .countdown-start-prev .d-num,
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .countdown-start-prev .h-num,
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .countdown-start-prev .m-num,
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .xsq-selling .countdown-start-prev .s-num {
+    color: #999;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .slide-item-hover {
+    position: relative;
+    z-index: 9;
+    box-shadow: 0 0 35px -10px #333;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .slide-item-hover .p-buy {
+    display: block;
+}
+
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .slide-item-hover .countdown {
+    display: none;
+}
+.block-promoting-inclient-lp-flash-product-list .hot-product-list .slide-item-hover .seckill{
+    display: none;
+}
+/* END 精选/秒杀商品 jx-selling：精选 xsq-selling：秒杀*/

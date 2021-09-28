@@ -1,0 +1,688 @@
+.page-hd-mothers-day {
+    background: #f5f3f4;
+    font-size: .12rem;
+}
+
+.page-hd-mothers-day .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-mothers-day .block {
+    width: 100%;
+}
+.page-hd-mothers-day .block1{
+    height: 2.72rem;
+    background: url(https://p1.ssl.qhmsg.com/t0139a9c62415f58db2.jpg) no-repeat center 0;
+    background-size: cover;
+    position: relative;
+}
+.page-hd-mothers-day .block1 .back{
+    width: .28rem;
+    height: .28rem;
+    position: absolute;
+    top: .06rem;
+    left: .06rem;
+    background: url("https://p0.ssl.qhmsg.com/t010ba0d91557ebd726.png") no-repeat center;
+    text-decoration: none;
+    border-radius: 999px;
+    background-size: cover;
+}
+.page-hd-mothers-day .block1 .trigger-play-video{
+    position: absolute;
+    top: 1.7rem;
+    left: .22rem;
+    width: 1.6977777777777778rem;
+    height: 0.8222222222222222rem;
+    background: url(https://p4.ssl.qhmsg.com/t010d35161b31301a16.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+/*免费送祝福*/
+.page-hd-mothers-day .block-send-blessings {
+    position: relative;
+    height: .6rem;
+    background: url(https://p3.ssl.qhmsg.com/t01c5189fb774ac4352.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+.page-hd-mothers-day .block-send-blessings a,
+.page-hd-mothers-day .block-send-blessings a:hover {
+    position: absolute;
+    top: .025rem;
+    left: .1rem;
+    width: 3rem;
+    height: .48rem;
+    text-decoration: none;
+}
+
+/*优惠券*/
+.page-hd-mothers-day .block-sub{
+    height: 0.84rem;
+    background:#307eed url(https://p1.ssl.qhmsg.com/t01f3494a01a228acf6.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+.page-hd-mothers-day .block-flash,
+.page-hd-mothers-day .block-flash .block-inner{
+    background:#307eed
+    /*margin-top: -.42rem;*/
+    /*position: relative;*/
+    /*z-index: 2;*/
+}
+.page-hd-mothers-day .block-flash .ui-sp-product-list-1 .p-item{
+    height: 2.6rem;
+}
+
+/*公用的block-title样式start*/
+.page-hd-mothers-day .block-title {
+    text-align: center;
+    height: 0.32rem;
+    line-height: 0.32rem;
+     margin: .2rem 0 .1rem;
+    background: url(https://p3.ssl.qhmsg.com/t018ec27b79b227b3aa.jpg) no-repeat center 0;
+    background-size: cover;
+    /*text-indent: -999px;*/
+    color: #ff6a8a;
+    font-size: .26rem;
+    font-weight: bold;
+}
+/*公用的block-title样式end*/
+
+/*.page-hd-mothers-day .block4 .block-title{*/
+    /*background: url(https://p2.ssl.qhmsg.com/t01ac631ea9a8411664.png) no-repeat center 0;*/
+    /*background-size: contain;*/
+/*}*/
+/*.page-hd-mothers-day .block5 .block-title{*/
+    /*background: url(https://p0.ssl.qhmsg.com/t013c5e1b2c200211d3.png) no-repeat center 0;*/
+    /*background-size: contain;*/
+/*}*/
+/*.page-hd-mothers-day .block6 .block-title{*/
+    /*background: url(https://p1.ssl.qhmsg.com/t01874703ffaa2c66ad.png) no-repeat center 0;*/
+    /*background-size: contain;*/
+/*}*/
+/*.page-hd-mothers-day .block7 .block-title{*/
+    /*background: url(https://p2.ssl.qhmsg.com/t0125645fafbc25e813.png) no-repeat center 0;*/
+    /*background-size: contain;*/
+/*}*/
+
+.page-hd-mothers-day .more {
+    padding: .1rem 0;
+    text-align: center;
+}
+.page-hd-mothers-day .more a,
+.page-hd-mothers-day .more a:hover {
+    margin: 0 auto;
+    display: block;
+    width: 1.1rem;
+    height: .28rem;
+    line-height: .28rem;
+    font-size: .14rem;
+    color: #ff5c81;
+    border:2px solid #ffcbd9;
+    border-radius: 999px;
+    text-decoration: none;
+    text-align: center;
+    /*background: url(https://p.ssl.qhimg.com/t011e4cdb23415f6279.png) no-repeat center;*/
+    /*background-size: contain;*/
+}
+
+.page-hd-mothers-day .ui-sp-product-list-1{
+    min-height: 5.06rem;
+}
+
+/*母亲专用大屏手机*/
+.page-hd-mothers-day .block-large-screen,
+.page-hd-mothers-day .block-large-screen .block-inner {
+    height: 1.9377777777777778rem;
+    background:url(https://p3.ssl.qhmsg.com/t01a16c5c43797dc72d.jpg) no-repeat center 0;
+    background-size: cover;
+    position: relative;
+}
+.page-hd-mothers-day .large-screen-product-list{
+    margin: 0 .1rem;
+    padding-top: .48rem;
+}
+.page-hd-mothers-day .large-screen-product-list .item{
+    float: left;
+    text-align: center;
+}
+.page-hd-mothers-day .large-screen-product-list .item a{
+    display: block;
+    height: 100%;
+}
+.page-hd-mothers-day .large-screen-product-list .item a:hover,
+.page-hd-mothers-day .large-screen-product-list .item a:active,
+.page-hd-mothers-day .large-screen-product-list .item a:visited{
+    text-decoration: none;
+}
+.page-hd-mothers-day .large-screen-product-list .p-pic{
+    height: 0.84rem;
+}
+.page-hd-mothers-day .large-screen-product-list .p-pic img{
+    height: 100%;
+}
+.page-hd-mothers-day .large-screen-product-list .p-tit{
+    font-size: .12rem;
+    color: #333;
+    padding-top: .02rem;
+}
+.page-hd-mothers-day .large-screen-product-list .p-price{
+    font-size: .14rem;
+    color: #ff3300;
+    line-height: 1;
+}
+.page-hd-mothers-day .large-screen-product-list .p-price-num{
+    font-size: .2rem;
+}
+
+/*回收引导*/
+.page-hd-mothers-day .block-huishou-intro{
+    height: 0.7911111111111111rem;
+    background: url(https://p3.ssl.qhmsg.com/t0115d429ef9bfd2dbe.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    /*margin-top: 10px;*/
+}
+.page-hd-mothers-day .block-huishou-intro .btn-liji-huishou{
+    width: .64rem;
+    height: .15rem;
+    position: absolute;
+    left: 1.19rem;
+    top: .5rem;
+}
+
+/*品牌推荐start*/
+.page-hd-mothers-day .block-brand-recommend {}
+.page-hd-mothers-day .block-brand-recommend .block-title {
+    background: url(https://p3.ssl.qhmsg.com/t0100470587c69adb96.png) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-mothers-day .block-brand-recommend .brand-recommend-list a {
+    height: 1.0666666666666667rem;
+}
+.page-hd-mothers-day .block-brand-recommend .brand-recommend-list img {
+    height: 100%;
+}
+/*品牌推荐end*/
+
+/*服务介绍*/
+.block-service-intro{
+    margin: .1rem;
+    padding: .1rem 0;
+    background-color: #fff;
+    border-radius: .06rem;
+}
+.block-service-intro .tit{
+    margin: 0 auto;
+    width: 1.635rem;
+}
+.block-service-intro .tit-under{
+    margin: 0 auto;
+    width: 1.56rem;
+    height: .24rem;
+    background: #ff5c81;
+    border-radius: 999px;
+}
+.block-service-intro .tit-inner{
+    margin-top: -.29rem;
+    margin-left: -.06rem;
+    width: 1.635rem;
+    height: 0.34555772rem;
+    background: url(https://p0.ssl.qhmsg.com/t0166374946eb81bd5a.png) no-repeat center;
+    background-size: contain;
+}
+.block-service-intro .cnt{
+    padding: .1rem 0;
+    font-size: 0;
+}
+.block-service-intro .cnt .service-keyword{
+    margin: .08rem .04rem .08rem .08rem;
+    display: inline-block;
+    height: .3rem;
+    width: .3rem;
+    line-height: .3rem;
+    font-size: .2rem;
+    border-radius: 999px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff5c81;
+    vertical-align: middle;
+}
+.block-service-intro .cnt .col-2-1:nth-child(2n) .service-keyword{
+    margin-left: 0;
+}
+.block-service-intro .cnt .service-desc{
+    display: inline-block;
+    font-size: .1rem;
+    color: #ff5c81;
+    vertical-align: middle;
+    line-height: 1.2;
+}
+.block-service-intro .cnt .service-desc em{
+    font-size: .14rem;
+    color:#ff5c81 ;
+}
+.page-hd-mothers-day  .block-intro{
+    padding-top: 0.2rem ;
+}
+/* 二维码扫一扫 */
+.block-qrcode-info{
+    margin: .1rem .1rem .3rem;
+    padding: .2rem 0;
+    background-color: #fff;
+    border-radius: .06rem;
+    font-size: .12rem;
+    text-align: center;
+    color: #ff5c81;
+}
+.block-qrcode-info .tit{
+    font-size: .14rem;
+}
+.block-qrcode-info .desc{
+    color: #ff5c81;
+}
+.block-qrcode-info .qrcode{
+    margin: .1rem auto;
+    padding: .06rem;
+    width: 50%;
+    background-color: #fff;
+    border-radius: .06rem;
+    border: 1px solid #ffdee6;
+}
+.block-qrcode-info .qrcode img{
+    width: 100%;
+    border-radius: .06rem;
+}
+
+
+/*固定向上按钮*/
+.page-hd-mothers-day .top-fix {
+    position: fixed;
+    bottom: .3rem;
+    right: .3rem;
+    width: .4rem;
+    height: .4rem;
+    border: 1px solid #c1c1c1;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #f5f5f5;
+    z-index: 99999;
+    opacity: .8;
+    line-height: .35rem;
+    font-size: .14rem;
+    display: none;
+    color: #000;
+}
+
+/*活动说明*/
+.page-hd-mothers-day .block-desc{
+    color: #fd6086;
+    padding: 0 .15rem .3rem;
+}
+.page-hd-mothers-day .block-desc .block-desc-cont{
+    color: #fd6086;
+    padding: 0 0 0.1rem;
+}
+.page-hd-mothers-day .block-desc .block-desc-cont h3{
+    font-weight: bold;
+    font-size: .16rem;
+}
+.page-hd-mothers-day .block-desc .block-desc-cont p{
+    font-size: .12rem;
+}
+
+/* 抽奖 */
+.page-hd-mothers-day .block-lottery {
+    position: relative;
+    margin: 0 auto;
+    padding: .05rem 0;
+    width: 3rem;
+    height: 1.66rem;
+    background: #02b2fd;
+    border-radius: .06rem;
+}
+
+.page-hd-mothers-day .block-lottery .lottery-cell-list-placeholder{
+    margin: 0 auto;
+    width: 2.89rem;
+    height: 1.56rem;
+    font-size: 0;
+}
+
+.page-hd-mothers-day .block-lottery .lottery-cell-list-placeholder .cell{
+    margin-right: .03rem;
+    margin-bottom: .03rem;
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.5rem;
+    background-color: #fff;
+    border-radius: .04rem;
+}
+.page-hd-mothers-day .block-lottery .lottery-cell-list-placeholder .cell:nth-child(4n){
+    margin-right: 0;
+}
+.page-hd-mothers-day .block-lottery .lottery-cell-list-placeholder .cell.cur{
+    background-color: rgba(255,193,80,0.5);
+}
+
+.page-hd-mothers-day .block-lottery .lottery-cell-list{
+    margin: 0 auto;
+    width: 2.89rem;
+    height: 1.56rem;
+    font-size: 0;
+    position: absolute;
+    left: 0.05rem;
+    top: .05rem;
+}
+
+.page-hd-mothers-day .block-lottery .lottery-cell-list .cell{
+    margin-right: .03rem;
+    margin-bottom: .03rem;
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.5rem;
+    background-color: transparent;
+    border-radius: .04rem;
+    pointer-events:none;
+}
+.page-hd-mothers-day .block-lottery .lottery-cell-list .cell:nth-child(4n){
+    margin-right: 0;
+}
+.page-hd-mothers-day .block-lottery .lottery-cell-list .cell.cur{
+    background-color: rgba(255,193,80,0.5);
+}
+
+.page-hd-mothers-day .block-lottery .canvas-lottery-bonus{
+    position: absolute;
+    top: .05rem;
+    left: .05rem;
+    display: block;
+    width: 2.89rem;
+    height: 1.56rem;
+}
+
+.page-hd-mothers-day .block-lottery .btn-get-my-luck{
+    position: absolute;
+    top: .58rem;
+    left: .78rem;
+    right: .78rem;
+    bottom: .58rem;
+    display: block;
+    background-color: #fd6389;
+    border-radius: .06rem;
+    font-size: 0;
+    text-align: center;
+    line-height: .5rem;
+}
+.page-hd-mothers-day .block-lottery .btn-get-my-luck:hover{
+    text-decoration: none;
+}
+.page-hd-mothers-day .block-lottery .btn-get-my-luck .txt{
+    margin-right: .06rem;
+    display: inline-block;
+    font-size: .18rem;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.page-hd-mothers-day .block-lottery .btn-get-my-luck .sim-shadow {
+    display: inline-block;
+    width: .36rem;
+    height: .36rem;
+    font-size: 0;
+    line-height: 0;
+    background-color: #ffb3d7;
+    border-radius: 999px;
+    vertical-align: middle;
+}
+
+.page-hd-mothers-day .block-lottery .btn-get-my-luck .sim{
+    display: inline-block;
+    width: .36rem;
+    height: .36rem;
+    line-height: .36rem;
+    font-size: .16rem;
+    vertical-align: middle;
+    color: #fd6389;
+    background: #f8e7c7;
+    /*color: #cf1e24;*/
+    border-radius: 999px;
+    /*-webkit-transform: translate3d(0, -.03rem, 0);*/
+    /*transform: translate3d(0, -.03rem, 0);*/
+    -webkit-animation: button-clicking .8s ease 1s infinite;
+    -moz-animation: button-clicking .8s ease 1s infinite;
+    animation: button-clicking .8s ease 1s infinite;
+}
+.page-hd-mothers-day .block-lottery .btn-get-my-luck .sim-inner{
+    margin: .02rem;
+    display: block;
+    width: .32rem;
+    height: .32rem;
+    line-height: .28rem;
+    /*border: #cf1e24 .02rem solid;*/
+    border: #fd3f99 .02rem solid;
+    border-radius: 999px;
+}
+
+.page-hd-mothers-day .block-lottery .btn-get-my-luck.disabled{
+    background-color: #eee;
+}
+
+.page-hd-mothers-day .block-lottery .btn-get-my-luck.disabled .sim{
+    background-color: #ddd;
+    color: #d0d0d0;
+    /*-webkit-transform: translate3d(0, 0, 0);*/
+    /*transform: translate3d(0, 0, 0);*/
+    -webkit-animation: button-clicking-stop .8s ease 1;
+    -moz-animation: button-clicking-stop .8s ease 1;
+    animation: button-clicking-stop .8s ease 1;
+}
+
+.page-hd-mothers-day .block-lottery .btn-get-my-luck.disabled .sim-inner{
+    border-color: #d0d0d0;
+}
+/* 抽奖 end */
+
+/* 滚动中奖名单 */
+.page-hd-mothers-day .block-lottery-bingo{
+    height: .6rem;
+}
+.page-hd-mothers-day .block-lottery-bingo .block-lottery-bingo-list{
+    position: absolute;
+    top: 0.1rem;
+    left: .1rem;
+    right: .1rem;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    /*color: #cf1e24;*/
+    color: #fff;
+    background: #1775e5;
+    overflow: hidden;
+}
+.page-hd-mothers-day .block-lottery-bingo .block-lottery-bingo-list .inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.page-hd-mothers-day .block-lottery-bingo .block-lottery-bingo-list .item {
+    display: block;
+}
+.page-hd-mothers-day .block-lottery-bingo .block-lottery-bingo-list .item span{
+    padding-right: .04rem;
+    font-size: .16rem;
+}
+/* 滚动中奖名单 end */
+
+/* 弹层 */
+.erhuojie-panel{
+    left: 0!important;
+    right: 0!important;
+    padding-bottom: .25rem;
+    border: 0;
+}
+.erhuojie-panel .erhuojie-panel-bottom{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1rem;
+    background: url(https://p.ssl.qhimg.com/t01b3587e89cd3fc400.png) no-repeat center bottom;
+    background-size: contain;
+    background-position-y: -.05rem;
+}
+.erhuojie-panel .dialog-inner{
+    margin: 0 .2rem;
+    padding: 0 .14rem .3rem .14rem;
+    display: block;
+    background-color: #fd6389;
+    border-radius: .06rem;
+    color: #fff;
+    font-size: .12rem;
+}
+.erhuojie-panel .dialog-close,
+.erhuojie-panel .dialog-close:hover{
+    top: -0.18rem;
+    right: 0.04rem;
+    width: .4rem;
+    height: .4rem;
+    background-image: url(https://p.ssl.qhimg.com/t01deb9471fcdd55a10.png);
+    background-size: .4rem;
+}
+
+/* 登录弹层 */
+.erhuojie-login-panel{ }
+.erhuojie-login-panel .dialog-inner{
+    text-align: center;
+}
+.erhuojie-login-panel .tit{
+    padding: .1rem 0;
+    color: #fff;
+    font-size: .24rem;
+}
+
+.erhuojie-login-panel .row{
+    padding-bottom: .08rem;
+}
+.erhuojie-login-panel .btn{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    background-color: #f9b44f;
+    border-radius: 999px;
+    color: #770408;
+    font-size: .18rem;
+}
+.erhuojie-login-panel .vcode-img{
+    width: 100%;
+    height: .36rem;
+}
+.erhuojie-login-panel .btn-get-sms-code{
+    font-size: .12rem;
+    border-radius: .06rem;
+}
+.erhuojie-login-panel .btn-get-sms-code-disabled{
+    color: #999;
+    background: #f2f2f2;
+}
+.erhuojie-login-panel .desc{
+    padding-top: .05rem;
+    padding-bottom: .1rem;
+    line-height: 2;
+}
+
+/* 中奖弹窗 */
+.erhuojie-bingo-panel{
+    text-align: center;
+}
+.erhuojie-bingo-panel .dialog-inner{
+    padding-top: .15rem;
+    padding-bottom: .7rem;
+}
+.erhuojie-bingo-panel .bingo-cnt{
+    margin: 0 auto;
+    padding-top: .14rem;
+    width: 2.5733333333333333rem;
+    height: 0.8222222222222222rem;
+    line-height: 1.2;
+    background: url(https://p3.ssl.qhmsg.com/t0177ec830c31921bbc.png) no-repeat center;
+    background-size: cover;
+    color: #cf1e24;
+    font-size: .18rem;
+}
+.erhuojie-bingo-panel .bingo-cnt span{
+    font-size: .24rem;
+}
+.erhuojie-bingo-panel .bingo-desc{
+    padding: .05rem 0 .08rem 0;
+}
+.erhuojie-bingo-panel .btn{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    background-color: #f9b44f;
+    border-radius: 999px;
+    color: #770408;
+    font-size: .18rem;
+}
+
+/* 抽奖次数用光 */
+.erhuojie-roll-empty-panel{
+    text-align: center;
+}
+
+.erhuojie-roll-empty-panel .dialog-inner{
+    padding-top: .15rem;
+    padding-bottom: .7rem;
+}
+.erhuojie-roll-empty-panel .cnt{
+    margin: .2rem auto;
+    padding-top: .14rem;
+    width: 2.5733333333333333rem;
+    height: 0.5555555555555556rem;
+    line-height: 1.2;
+    background: url(https://p3.ssl.qhmsg.com/t01de39a38fda89b3b1.png) no-repeat center;
+    background-size: cover;
+    color: #cf1e24;
+    font-size: .18rem;
+}
+.erhuojie-roll-empty-panel .btn{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    background-color: #f9b44f;
+    border-radius: 999px;
+    color: #770408;
+    font-size: .18rem;
+}
+
+
+.video-player-panel{
+    border: 0;
+    border-radius: 0;
+}
+
+.video-player-panel.dialog-wrap .dialog-inner{
+    position: relative;
+    z-index: 11002;
+    padding: 0;
+    font-size: 0;
+}
+
+.video-player-panel.dialog-wrap .dialog-close,
+.video-player-panel.dialog-wrap .dialog-close:hover {
+    right: 0;
+    top: -0.24rem;
+    z-index: 11003;
+    width: .24rem;
+    height: .24rem;
+    background-size: .24rem;
+}

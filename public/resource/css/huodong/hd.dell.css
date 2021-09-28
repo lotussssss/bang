@@ -1,0 +1,320 @@
+html,body{
+    background: #1f2b9b;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    line-height: 100%;
+}
+.errorblink{
+    border: 1px solid #fb0909 !important;
+}
+.relative{
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.clearfix{
+    zoom:1;
+}
+.w100{width: 100%;}
+.fl{ float:left;}
+.fr{ float:right;}
+
+.block-inner{
+    width:1000px;
+    margin: 0 auto;
+}
+
+/*右侧悬浮*/
+.page-hd-dell .float-card-fixed{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 0;
+    right:-30px;
+}
+.page-hd-dell .float-card-fixed .float-card-fixed-inner{
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 0;
+}
+.page-hd-dell .sidebar{
+    position: absolute;
+    right: -94px;
+    top: 45px;
+    z-index: 999;
+    width:125px ;
+    height: 385px;
+    background:url(https://p.ssl.qhimg.com/t01ad01eca091aa2d59.png) no-repeat center 0;
+    -webkit-transition: right .5s ease-out;
+    -moz-transition: right .5s ease-out;
+    -ms-transition: right .5s ease-out;
+    -o-transition: right .5s ease-out;
+    transition: right .5s ease-out;
+}
+.page-hd-dell .to-area{
+    width: 106px;
+    height: 182px;
+    position: absolute;
+    right: 1px;
+    top:204px;
+}
+.page-hd-dell .to-area a{
+    height: 44px;
+    display: block;
+}
+.page-hd-dell .block1,.page-hd-dell .block1 .block-inner{
+    height: 502px;
+    background: url("https://p.ssl.qhimg.com/t01d1a82313232132f0.jpg") no-repeat center 0;
+}
+.page-hd-dell .tab-box{
+    height: 130px;
+    z-index: 5;
+}
+.page-hd-dell .abs{
+    position: absolute;
+    left: 0;
+    top:372px;
+}
+.page-hd-dell .fixed{
+    position: fixed;
+    left: 50%;
+    margin-left: -500px;
+    top:0;
+}
+.page-hd-dell .tab-list li{
+    width: 249px;
+    height: 80px;
+    float: left;
+    background: #3c9dfd;
+    text-align: center;
+    border-right: 1px solid #020592;
+    position: relative;
+
+    cursor: pointer;
+}
+
+.page-hd-dell .tab-list .arrow{
+    width: 0px;
+    height: 0px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #020592;
+    position: absolute;
+    left: 115px;
+    bottom: 0;
+    display: none;
+}
+.page-hd-dell .cur .arrow{
+    display: block;
+}
+.page-hd-dell .tab-list h3{
+    font-size: 22px;
+    height: 22px;
+    color: #fff003;
+    margin:15px 0 6px;
+    height:20px;
+    line-height:20px;
+}
+.page-hd-dell .tab-list p{
+    font-size: 16px;
+    color: #fff;
+    line-height:20px;
+}
+.page-hd-dell .tab-list .cur{
+    background: #fff002;
+}
+.page-hd-dell .tab-list .cur h3{
+    color: #ff7301;
+}
+.page-hd-dell .tab-list .cur p{
+    color: #333;
+}
+.page-hd-dell .tab-tips{
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    background: #020592;
+    color: #fff;
+}
+.page-hd-dell .tab-tips li{
+    display: none;
+}
+.page-hd-dell .tab-tips .cur{
+    display: block;
+}
+.page-hd-dell .tab-placeholder{
+    height: 130px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+.page-hd-dell .btn-fanxinji-desc{
+    position: absolute;
+    left: 732px;
+    top: 250px;
+    width: 105px;
+    height: 20px;
+    cursor: pointer;
+}
+.page-hd-dell .cont-fanxinji-desc{
+    position: absolute;
+    width: 438px;
+    height: 203px;
+    right: -170px;
+    top: 20px;
+    z-index: 2;
+    display: none;
+    cursor: default;
+}
+.page-hd-dell .block2,.page-hd-dell .block2 .block-inner{
+    /*height: 309px;*/
+    background: url("https://p.ssl.qhimg.com/t01cfab7daa85d70c49.jpg") no-repeat center 0;
+}
+.page-hd-dell .product-list{
+    margin-bottom: 30px;
+}
+.page-hd-dell .product-tit-pic{
+    float: left;
+}
+.page-hd-dell .product-list .item{
+    position: relative;
+    float: left;
+    width: 175px;
+    height: 270px;
+    padding: 0px 12px;
+    border-right: 1px solid #ccc;
+    background: #fff;
+}
+.page-hd-dell .product-list .item a{
+    display: block;
+}
+.page-hd-dell .product-list .item a:hover{
+    text-decoration: none;
+}
+.page-hd-dell .product-list .p-img{
+    width: 140px;
+    height: 140px;
+    margin: 0px auto;
+}
+.page-hd-dell .product-list .p-img img{
+    width: 100%;
+}
+.page-hd-dell .product-list .p-tit{
+    font-size: 14px;
+    padding: 0px 0 4px;
+    color: #333;
+    vertical-align: middle;
+    text-align: left;
+    line-height:20px;
+    height:38px;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+.page-hd-dell .product-list .p-price-new{
+    line-height: 100%;
+     color: #999;
+     font-size: 12px;
+}
+.page-hd-dell .product-list .p-price-new .price-tit{
+}
+.page-hd-dell .product-list .p-price-new .price-cnt{
+    text-decoration: line-through;
+}
+.page-hd-dell .product-list .p-price{
+    line-height: 100%;
+    padding-top: 5px;
+    font-size: 14px;
+    color: #ff3300;
+}
+.page-hd-dell .product-list .p-price .price-cnt{
+    font-size: 18px;
+}
+
+.page-hd-dell .product-list .btn-qiang{
+    margin: 10px auto 0;
+    display: block;
+    width: 175px;
+    height: 40px;
+    line-height: 40px;
+    background: #fe4d4e;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+.page-hd-dell .product-list .btn-disabled{
+    background-color: #ddd;
+}
+.page-hd-dell .block6 .product-list{
+    margin-bottom: 0;
+}
+.page-hd-dell .more{
+    text-align: center;
+    font-size: 16px;
+    line-height:40px;
+    height: 40px;
+    clear:both;
+}
+.page-hd-dell .more a{
+    color: #fff;
+}
+.page-hd-dell .for-more a{
+    float: left;
+    margin-bottom: 16px;
+}
+.page-hd-dell .goto-qijian,.page-hd-dell .goto-zhuliu{
+    margin-right: 12px;
+}
+
+/* 活动说明 */
+.page-hd-dell .hd-desc-block{
+}
+.page-hd-dell .hd-desc-block .block-inner{
+    padding: 20px 0;
+}
+.page-hd-dell .hd-desc{
+    color: #fff;
+    background: #3c9dfd;
+    width: 940px;
+    padding: 20px 30px;
+    border-radius: 8px;
+
+}
+.page-hd-dell .hd-desc-tit{
+    font-size: 22px;
+    padding: 0 0 10px 15px;
+}
+.page-hd-dell .hd-desc-cont{
+    font-size: 16px;
+    line-height: 30px;
+}
+.page-hd-dell .ewm-tips{
+    font-size: 16px;
+    padding: 3px 0;
+    text-align: center;
+}
+.page-hd-dell .link-block .block-inner{
+    width: 906px;
+    padding: 0 56px 50px;
+}
+.page-hd-dell .link-tit{
+    font-size: 22px;
+    margin-right: 10px;
+    color: #fff;
+    line-height: 50px;
+}
+.page-hd-dell .link-list a{
+    float: left;
+    margin-right: 15px;
+}

@@ -1,0 +1,13 @@
+.countdown{
+    display: block;
+    text-align: center;
+}
+.countdown .desc-txt{}
+.countdown .d-num{}
+.countdown .d-txt{}
+.countdown .h-num{}
+.countdown .h-txt{}
+.countdown .m-num{}
+.countdown .m-txt{}
+.countdown .s-num{}
+.countdown .s-txt{}

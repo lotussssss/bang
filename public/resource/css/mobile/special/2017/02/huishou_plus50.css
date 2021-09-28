@@ -1,0 +1,182 @@
+html{
+    height: auto;
+    background: #fff;
+}
+.errorblink{
+    border: 1px solid #fb0909 !important;
+}
+.hide{display: none;}
+.w100{width: 100%;}
+.f12{font-size: 12px;}
+
+.page-hd-huishou_plus50{
+    margin: 0;
+    padding: 0;
+    background: #ededed;
+}
+.page-hd-huishou_plus50 #mainbody{
+    margin: 0 auto;
+    max-width: 720px;
+    min-width: 320px;
+}
+.page-hd-huishou_plus50 .mainbody-inner{
+    margin: 0;
+    padding: 0;
+}
+.page-hd-huishou_plus50 .block1{
+    height: 1.92rem;
+    background: url(https://p0.ssl.qhmsg.com/t0167f8ca9d93b238a4.jpg) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-huishou_plus50 .block1 .btn-liji-huanqian{
+    position: absolute;
+    top: 1.4rem;
+    left: 0.088rem;
+    display: block;
+    width: 0.72rem;
+    height: 0.24rem;
+    background: #ff2b0f;
+    color: #fff;
+    font-size: .12rem;
+    text-align: center;
+    line-height: .24rem;
+}
+.page-hd-huishou_plus50 .block1 .btn-liji-huanqian:hover{
+    text-decoration: none;
+}
+.page-hd-huishou_plus50 .block-tit{
+    line-height: 1.2;
+    text-align: center;
+    font-size: .2rem;
+    color: #333;
+    padding: .1rem;
+}
+.page-hd-huishou_plus50 .product-list{
+}
+.page-hd-huishou_plus50 .product-list{
+    padding: 0 .06rem;
+}
+.page-hd-huishou_plus50 .product-list .item{
+    float: left;
+    width: 1.51rem;
+    /*height: 2rem;*/
+    padding: 0 0 .1rem;
+    margin-bottom: .06rem;
+    text-decoration: none;
+    text-align: center;
+    background: #fff;
+    position: relative;
+}
+.page-hd-huishou_plus50 .product-list .item:nth-child(odd){
+    margin-right: .06rem;
+}
+.page-hd-huishou_plus50 .product-list .item:hover{
+    text-decoration: none;
+}
+
+.page-hd-huishou_plus50 .product-list .img{
+    height: 0.9244444444444444rem;
+    margin: .2rem auto .1rem;
+}
+.page-hd-huishou_plus50 .product-list .img img{
+    height: 100%;
+}
+.page-hd-huishou_plus50 .product-list .tit {
+    font-size : .14rem;
+    color: #333;
+}
+.page-hd-huishou_plus50 .product-list .line-price{
+    font-size: 0;
+}
+.page-hd-huishou_plus50 .product-list .price {
+    line-height: 1.6;
+    color: #f74a33;
+    font-size   : .16rem;
+}
+.page-hd-huishou_plus50 .product-list .price i{
+    font-size: .12rem;
+}
+.page-hd-huishou_plus50 .product-list .origin-price {
+    line-height: 1.6;
+    font-size   : .12rem;
+    text-decoration: line-through;
+    color: #999;
+    padding-left: .04rem;
+}
+.page-hd-huishou_plus50 .product-list .btn {
+    margin-top    : .02rem;
+    width         : 1.25rem;
+    height        : .28rem;
+    line-height   : .28rem;
+    text-align    : center;
+    font-size     : .14rem;
+    background    : #ff2b0f;
+    color         : #fff;
+    border-radius : 999px;
+}
+.page-hd-huishou_plus50 .product-list .item:hover .btn {
+    background : #ed0505;
+}
+.page-hd-huishou_plus50 .product-list .item:active .btn {
+    background : #f00;
+}
+.page-hd-huishou_plus50 .product-list .label{
+    position: absolute;
+    left: .32rem;
+    top:.75rem;
+    width: 0.3688888888888889rem;
+    height     : 0.36rem;
+    background : url(https://p3.ssl.qhmsg.com/t0150a92176608da064.png) no-repeat center;
+    background-size: cover;
+}
+.page-hd-huishou_plus50 .btn-kankan-jiuji{
+    width: 2.8rem;
+    height: 0.4888888888888889rem;
+    line-height: 0.4888888888888889rem;
+    text-align: center;
+    background: #ff2b0f;
+    color: #fff;
+    display: block;
+    margin: .15rem auto;
+    border-radius: 999px;
+    font-size: .16rem;
+}
+.page-hd-huishou_plus50 .btn-kankan-jiuji:hover{
+    text-decoration: none;
+}
+
+.page-hd-huishou_plus50 .block-intro{
+    height: 2.7733333333333334rem;
+    background: url(https://p0.ssl.qhmsg.com/t0122104bdabd20fceb.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+.page-hd-huishou_plus50 .block-desc-cont {
+    color: #666;
+    font-size: .14rem;
+    padding:0 .1rem .2rem;
+}
+.page-hd-huishou_plus50 .block-desc-cont p{
+    line-height: 1.4;
+    padding-bottom: .08rem;
+}
+.page-hd-huishou_plus50 .block-desc-cont .num{
+    width: .2rem;
+    height: .2rem;
+    line-height: .2rem;
+    text-align: center;
+    color: #fff;
+    background-color: #727171;
+    border-radius: 999px;
+    float: left;
+}
+.page-hd-huishou_plus50 .block-desc-cont .cont{
+    float: left;
+    width: 2.8rem;
+    padding-left: .06rem;
+}
+.page-hd-huishou_plus50 .block-desc-cont .phone-num{
+    font-size: .18rem;
+    padding: .1rem;
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+/*imei号查询*/
+.page-hs-xxg-imei-check{
+    background-color: #fff;
+}
+.page-hs-xxg-imei-check a,
+.page-hs-xxg-imei-check a:hover{
+    text-decoration: none;
+}
+.page-hs-xxg-imei-check .form-search-order{
+    padding-top: .1rem;
+}
+.page-hs-xxg-imei-check .form-search-order .row{
+    position: relative;
+    margin: 0 .1rem;
+}
+.page-hs-xxg-imei-check .form-search-order input{
+    float: left;
+    padding: 0 .08rem;
+    display: block;
+    height: .36rem;
+    width: 90%;
+    line-height: normal;
+    border: 0;
+    background-color: transparent;
+}
+.page-hs-xxg-imei-check .form-search-order .icon-circle-solid-error{
+    display: none;
+    position: absolute;
+    right: 10%;
+    top:0;
+    bottom:0;
+    width: .36rem;
+    height: .36rem;
+    line-height: .36rem;
+    color: #ddd;
+    font-size: .14rem;
+    text-align: center;
+}
+.page-hs-xxg-imei-check .form-search-order .icon-search{
+    float: left;
+    padding: 0;
+    width: 10%;
+    height: .36rem;
+    background-color: #ddd;
+    text-align: center;
+    border-radius: 0 .04rem .04rem 0;
+}
+.page-hs-xxg-imei-check  .imei-info-container{
+    padding: .1rem .2rem;
+}
+.page-hs-xxg-imei-check  .info-row{
+    margin-top:.15rem;
+}
+

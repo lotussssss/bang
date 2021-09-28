@@ -1,0 +1,43 @@
+.assess-option-desc-wrap {
+    /*min-height: 1rem;*/
+    max-height: 90%;
+    background: #fff;
+}
+
+.assess-option-desc-wrap .dialog-close {
+    top: 0;
+    background: none !important;
+    color: #999;
+    font-size: .24rem;
+    text-align: center;
+    line-height: .36rem;
+}
+
+.assess-option-desc-wrap .dialog-inner {
+    padding: .16rem .12rem;
+    /*height: 100%;*/
+    overflow: hidden;
+}
+
+.assess-option-desc-wrap .assess-option-desc .desc-title {
+    text-align: center;
+    line-height: 3;
+}
+
+.assess-option-desc-wrap .assess-option-desc {
+    /*height: 100%;*/
+    /*overflow-x: hidden;*/
+    /*overflow-y: auto;*/
+    color: #333;
+}
+
+.assess-option-desc-wrap .assess-option-desc .desc-img {
+    min-height: 1.6rem;
+}
+
+.assess-option-desc-wrap .assess-option-desc .desc-img .s-item-img {
+    padding-top: 100%;
+    width: 100%;
+    background: transparent no-repeat center;
+    background-size: contain;
+}

@@ -1,0 +1,201 @@
+/* =================下单页面================== */
+.page-shiyong-order {
+}
+
+.page-shiyong-order .p-header {
+    border-bottom : 0;
+}
+
+.page-shiyong-order .step-block {
+    padding   : 20px 0 0 35px;
+    font-size : 14px;
+}
+
+.page-shiyong-order .step-block .h3-tit {
+    margin      : 5px 0 15px 0;
+    padding     : 5px 0 5px 15px;
+    height      : 28px;
+    line-height : 28px;
+    font-size   : 22px;
+    border      : 0;
+    border-left : 4px solid #185;
+}
+.page-shiyong-order .logo-360-danbao{
+    position: absolute;
+    right:0px;
+    top:16px;
+}
+.page-shiyong-order .step-block .cnt {
+    padding : 0 0 0 20px;
+}
+
+.page-shiyong-order .step-block .product-info-cnt {
+    background : #ecf6f2;
+    padding    : 32px 25px;
+}
+
+.page-shiyong-order .step-block .product-info-cnt .col-left-fixed {
+    width  : 100px;
+    height : 100px;
+    border : 1px solid #dbdbdb;
+}
+
+.page-shiyong-order .step-block .p-info-item {
+    margin-left  : 145px;
+    *margin-left : 45px;
+    line-height  : 1.8;
+}
+
+.page-shiyong-order .get-mobile-order-secode {
+    padding        : 0;
+    display        : inline-block;
+    *display       : inline;
+    *zoom          : 1;
+    width: 108px;
+    height         : 26px;
+    line-height    : 26px;
+    color          : #fff;
+    background     : red;
+    vertical-align : middle;
+    text-align: center;
+}
+
+.page-shiyong-order .get-mobile-order-secode:hover {
+    background      : #ff3434;
+    text-decoration : none;
+}
+
+.page-shiyong-order .get-mobile-order-secode-disabled,
+.page-shiyong-order .get-mobile-order-secode-disabled:hover {
+    background : #ccc;
+}
+
+.page-shiyong-order .vcode-img{
+    width: 108px;
+    height: 26px;
+}
+
+.page-shiyong-order .single-line .row {
+    padding-bottom : 10px;
+}
+
+.page-shiyong-order .single-line .row-last {
+    padding-bottom : 0;
+}
+
+.page-shiyong-order .single-line .col-left-fixed {
+    padding-right : 5px;
+    width         : 96px;
+    text-align    : right;
+}
+
+.page-shiyong-order .addrinfo-block {
+    /*padding-bottom : 30px;*/
+    /*border-bottom: 1px dashed #DEDEDE;*/
+}
+
+.page-shiyong-order .service-note {
+    color       : #4e4e4e;
+    line-height : 2;
+}
+
+.page-shiyong-order .service-note li {
+    padding-left : 20px;
+    text-indent  : -20px;
+}
+
+.page-shiyong-order .step-sub {
+    margin-bottom : 50px;
+}
+.page-shiyong-order .step-sub .agreement-row{
+    padding: 10px 0 10px 20px;
+    font-size: 0;
+}
+.page-shiyong-order .step-sub .agreement-row a{
+    display: inline-block;
+    *display: inline;
+    *zoom : 1;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #333;
+}
+.page-shiyong-order .step-sub .btn-submit {
+    margin-left : 20px;
+    display     : inline-block;
+    *display    : inline;
+    *zoom       : 1;
+}
+
+.page-shiyong-order .mobile-experience-agreement-wrap .dialog-inner {
+    padding : 30px;
+}
+
+.page-shiyong-order .mobile-experience-agreement {
+    width      : 700px;
+    height     : 420px;
+    overflow-x : hidden;
+    overflow-y : scroll;
+}
+
+.page-shiyong-order .block-confirm-btn-line {
+    padding : 10px 0 0 0;
+}
+
+.page-shiyong-order .block-confirm-btn-line .btn {
+    display : block;
+    width   : auto;
+}
+
+.page-shiyong-order .block-confirm-btn-line .btn-prd-buy-cancel {
+    margin-right : 10px;
+}
+
+.page-shiyong-order .block-confirm-btn-line .btn-prd-buy-confirm {
+    margin-left : 10px;
+}
+
+/*试用协议*/
+.mobile-experience-agreement {
+    line-height : 1.6;
+}
+
+.mobile-experience-agreement h3 {
+    padding-bottom : 10px;
+    font-size      : 16px;
+    text-align     : center;
+    color          : #222;
+}
+
+.mobile-experience-agreement dl {
+    margin : 10px 0 0 0;
+}
+
+.mobile-experience-agreement dl > dt {
+    margin : 0 0 4px 0;
+    color  : #222;
+}
+
+.mobile-experience-agreement dl > dd {
+    margin : 0 0 10px 10px;
+    color  : #555;
+}
+
+.mobile-experience-agreement ul {
+}
+
+.mobile-experience-agreement ul > li {
+    margin-bottom : 6px;
+}
+
+.mobile-experience-agreement .ul-sub,
+.mobile-experience-agreement .ul-sub2 {
+    padding-left : 16px;
+}
+
+.mobile-experience-agreement .ul-sub > li {
+    list-style-type : disc;
+}
+
+.mobile-experience-agreement .ul-sub2 > li {
+    list-style-type : none;
+}

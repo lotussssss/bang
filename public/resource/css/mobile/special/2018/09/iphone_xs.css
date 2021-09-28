@@ -1,0 +1,101 @@
+a, a:hover {
+    text-decoration: none;
+}
+
+.page-hd-iphone-xs {
+    background: #000;
+    font-size: .12rem;
+}
+
+.page-hd-iphone-xs .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-iphone-xs .mainbody-inner {}
+
+.page-hd-iphone-xs .block {
+    margin: 0 auto;
+}
+.page-hd-iphone-xs .block-top{
+    height: 1.4634666666666667rem;
+    background: url("https://p2.ssl.qhimg.com/t01eef9e01b2183a551.jpg") no-repeat;
+    background-size: cover;
+}
+.page-hd-iphone-xs .block-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-hd-iphone-xs .block-product .item{
+    width: 100%;
+    text-align: center;
+}
+.page-hd-iphone-xs .block-product .item img{
+    width: 100%;
+}
+.page-hd-iphone-xs .block-product .item .price{
+    color: #fff;
+    font-size: .16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+}
+.page-hd-iphone-xs .block-product .item .price-num{
+    font-size: .24rem;
+}
+.page-hd-iphone-xs .block-product .item .price-orig{
+    color: #999;
+    font-size: .14rem;
+}
+.page-hd-iphone-xs .block-product .item .btn{
+    display: block;
+    margin: .06rem auto 0;
+    width: 1.088rem;
+    height:0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    border-radius: 999px;
+    font-weight: 500;
+    font-size: .14rem;
+}
+.page-hd-iphone-xs .block-product .item .btn.btn-huanxin{
+    color: #333;
+    background: rgb(235,207,188);
+    background: -moz-linear-gradient(top, rgba(235,207,188,1) 0%, rgba(200,165,144,1) 71%);
+    background: -webkit-linear-gradient(top, rgba(235,207,188,1) 0%,rgba(200,165,144,1) 71%);
+    background: linear-gradient(to bottom, rgba(235,207,188,1) 0%,rgba(200,165,144,1) 71%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebcfbc', endColorstr='#c8a590',GradientType=0 );
+}
+.page-hd-iphone-xs .block-product .item .btn.btn-buy{
+    color: #fff;
+    background: rgb(74,159,228);
+    background: -moz-linear-gradient(top, rgba(74,159,228,1) 0%, rgba(31,122,197,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(74,159,228,1) 0%,rgba(31,122,197,1) 100%);
+    background: linear-gradient(to bottom, rgba(74,159,228,1) 0%,rgba(31,122,197,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a9fe4', endColorstr='#1f7ac5',GradientType=0 );
+}
+.page-hd-iphone-xs .block-intro{
+    font-size: .16rem;
+    color: #fff;
+    text-align: center;
+    padding: 0.05rem 0 0.25rem;
+}
+.page-hd-iphone-xs .block-img{
+    height: 1.9754666666666667rem;
+    background: url("https://p3.ssl.qhimg.com/t0137e71e3049b73095.jpg") no-repeat;
+    background-size: cover;
+}
+.page-hd-iphone-xs .block-desc{
+    color: #fff;
+}
+.page-hd-iphone-xs .block-desc .desc-tit{
+    height: 0.4266666666666667rem;
+    background: url("https://p3.ssl.qhimg.com/t01b20019f0e7f3caa9.jpg") no-repeat;
+    background-size: cover;
+}
+.page-hd-iphone-xs .block-desc .desc-cont{
+    padding: 0 .2rem .2rem;
+}

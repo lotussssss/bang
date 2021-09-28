@@ -1,0 +1,41 @@
+.block-assess-official-diff{
+    padding-bottom: .36rem;
+    background-color: #fff;
+}
+.block-assess-official-diff .tit{
+    height: .36rem;
+    line-height: .36rem;
+    text-align: center;
+    color: #f00;
+}
+.block-assess-official-diff .row{
+    padding: .05rem 0;
+    display: flex;
+    align-items: center;
+}
+.block-assess-official-diff .row .col-12-3{
+    line-height: .48rem;
+    text-align: center;
+}
+.block-assess-official-diff .row .col-12-7{
+    padding-left: .1rem;
+}
+.block-assess-official-diff .row .col-12-2{
+    line-height: .48rem;
+    text-align: center;
+    color: #54bf8d;
+}
+.block-assess-official-diff .row .iconfont{
+    margin-right: .04rem;
+    display: inline-block;
+    vertical-align: top;
+}
+.block-assess-official-diff .row .option-info-selected,
+.block-assess-official-diff .row .option-info-official{
+    /*height: .24rem;*/
+    line-height: .24rem;
+}
+.block-assess-official-diff .row.row-diff .option-info-official,
+.block-assess-official-diff .row.row-diff .col-12-2{
+    color: #f00;
+}

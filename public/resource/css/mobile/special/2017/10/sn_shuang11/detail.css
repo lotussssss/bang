@@ -1,0 +1,456 @@
+.blur {
+    -webkit-filter: blur(.08rem);
+}
+.yellow {
+    color:#fce700;
+}
+.hide{
+    display: none;
+}
+.page-hd-sn-shuang11 .m-fenxiang-intro{
+    text-align: right;
+}
+.page-hd-sn-shuang11 .m-fenxiang-intro img{
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.page-hd-sn-shuang11 {
+    background-color: #251557;
+    color: #fff;
+}
+.page-hd-sn-shuang11 .dialog-wrap .dialog-close,
+.page-hd-sn-shuang11.dialog-wrap .dialog-close:hover{
+    display: none;
+}
+
+.page-hd-sn-shuang11 .block .block-inner {
+    margin: 0 .1rem;
+    border-radius: .04rem;
+    background-color: #522080;
+}
+
+.page-hd-sn-shuang11 .block1 {
+    height: 2.08888888888889rem;
+    background: url(https://p2.ssl.qhmsg.com/t019f7ce68ab85edf28.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.page-hd-sn-shuang11 .block2 {
+    height:1.8133333333333332rem;
+    background: url(https://p0.ssl.qhmsg.com/t0145a796e32bce4959.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.page-hd-sn-shuang11 .block2 .btn-rolling {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1.2rem;
+    width: 2.4rem;
+    height: 0.5511111111111111rem;
+    line-height: 0.5511111111111111rem;
+    color: #fff;
+}
+.page-hd-sn-shuang11 .block-luck-detail{
+    padding-top :.1rem;
+}
+.page-hd-sn-shuang11 .block-luck-detail .txt{
+    text-align: center;
+    color: #fff;
+}
+.page-hd-sn-shuang11 .block-luck-detail .already {
+    margin-right: .3rem;
+}
+.page-hd-sn-shuang11 .block-luck-detail .my-friends{
+    margin: .1rem ;
+    padding: .1rem;
+    background-color: #50207d;
+    border-radius: .05rem;
+}
+.page-hd-sn-shuang11 .block-luck-detail .my-friends .tit {
+    text-align: center;
+    color: #fff;
+}
+.page-hd-sn-shuang11 .block-luck-detail .my-friends .tit .show-all-friends{
+    float: right;
+    text-decoration: underline;
+}
+.page-hd-sn-shuang11 .block-luck-detail .my-friends .avanter-list{
+    padding-top: .1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.page-hd-sn-shuang11 .block-luck-detail .my-friends .avanter-img{
+    display: inline-block;
+    width: 0.41333333333333333rem;
+    height: 0.41333333333333333rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: transparent;
+    margin-bottom: .07rem;
+    margin-right:.06rem;
+}
+.page-hd-sn-shuang11 .block-luck-detail .my-friends .avanter-img:nth-child(6n){
+    margin-right: 0;
+}
+.page-hd-sn-shuang11 .block-luck-detail .my-friends .bottom-btns{
+    margin: .1rem auto .05rem;
+    width: 1.728888888888889rem;
+    height: 0.27555555555555555rem;
+    line-height: 0.27555555555555555rem;
+    font-size: 0;
+}
+.page-hd-sn-shuang11 .block-luck-detail .my-friends .bottom-btns .item-btn {
+    display: inline-block;
+    width: 50%;
+    font-size: .14rem;
+    text-align: center;
+    color: #fff;
+}
+.page-hd-sn-shuang11 .block-luck-detail .my-friends .bottom-btns .refresh-btn{
+    border: .01rem solid #fff;
+    border-right: none;
+    border-top-left-radius: .05rem;
+    border-bottom-left-radius: .05rem;
+}
+.page-hd-sn-shuang11 .block-luck-detail .my-friends .bottom-btns .prize-btn {
+    background-color: #df46f5;
+    color: #fce700;
+    border: .01rem solid #df46f5;
+    border-right: none;
+    border-top-right-radius: .05rem;
+    border-bottom-right-radius: .05rem;
+}
+
+/* 滚动中奖名单 */
+.page-hd-sn-shuang11 .block-lottery-bingo{
+    margin: .1rem;
+    /*padding-top: .1rem;*/
+    /*padding-bottom: .1rem;*/
+    width: auto;
+    color: #fff;
+    text-align: left;
+    background: #251557;
+    border-radius: .04rem;
+}
+.page-hd-sn-shuang11 .block-lottery-bingo .list-tit{
+    background:  url("https://p2.ssl.qhmsg.com/t01e97ae3742c095c71.png") no-repeat center/cover;
+    height: 0.6844444444444444rem;
+    position: relative;
+    z-index: 1;
+}
+.page-hd-sn-shuang11 .block-lottery-bingo .block-lottery-bingo-list-wrap{
+    margin: -.17rem auto 0;
+    background-color: #50207e;
+    padding-top: .25rem;
+    border-radius: .05rem;
+}
+.page-hd-sn-shuang11 .block-lottery-bingo .block-lottery-bingo-list{
+    position: relative;
+    overflow: hidden;
+    width: 3rem;
+    background-color: #50207e;
+    height: 3.2rem;
+    border-radius: .05rem;
+}
+.page-hd-sn-shuang11 .block-lottery-bingo .block-lottery-bingo-list .inner{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.page-hd-sn-shuang11 .block-lottery-bingo .block-lottery-bingo-list .item {
+    display: block;
+    height: 0.8rem;
+    padding: 0 .15rem;
+}
+.page-hd-sn-shuang11 .block-lottery-bingo .block-lottery-bingo-list .item span{
+    padding-right: .04rem;
+    font-size: .16rem;
+}
+/* 滚动中奖名单 end */
+.page-hd-sn-shuang11 .block-arrow-down{
+    position: fixed;
+    bottom: .1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+}
+.page-hd-sn-shuang11 .block-arrow-down img{
+    width: .5rem;
+    animation: updown 1s infinite;
+}
+@keyframes updown {
+    0% {transform: translateY(0)}
+    50% {transform: translateY(-10px)}
+    100% {transform: translateY(0)}
+}
+
+.page-hd-sn-shuang11 .block-desc {
+    margin-bottom: .12rem;
+}
+
+.page-hd-sn-shuang11 .block-desc .block-inner {
+    padding: .2rem .2rem;
+}
+
+.page-hd-sn-shuang11 .block-desc .desc-title {
+    width: 1rem;
+    height: .24rem;
+    line-height: .24rem;
+    font-size: .16rem;
+    text-align: center;
+    color: #fff;
+    background-color: #df46f5;
+    border-radius: 9999px;
+    margin: 0 auto .1rem;
+}
+
+.page-hd-sn-shuang11 .block-desc .row {
+    padding: .02rem 0;
+}
+
+.page-hd-sn-shuang11 .block-desc .col-left-fixed {
+    width: 0.16444444444444445rem;
+    height: 0.15555555555555556rem;
+    text-align: center;
+    line-height: 0.15555555555555556rem;
+    background: url("https://p1.ssl.qhmsg.com/t014365838032cd603c.jpg");
+    background-size: cover;
+    color: #fff;
+    font-size: .1rem;
+    margin-top: .03rem;
+}
+
+.page-hd-sn-shuang11 .block-desc .col-right {
+    margin-left: .2rem;
+}
+
+
+/*抽奖转盘*/
+.page-hd-sn-shuang11 .rolling-bonus-dialog {
+    width: 100%;
+    border: 0;
+}
+
+.page-hd-sn-shuang11 .rolling-bonus-dialog .dialog-inner {
+    padding: 0;
+}
+
+.page-hd-sn-shuang11 .block-roll-bonus {
+    padding: .21rem 0 0 .36rem;
+    width: 100%;
+    height: 2.64rem;
+    background: url(https://p3.ssl.qhmsg.com/t011c1d35fa857518e9.png) no-repeat center;
+    background-size: cover;
+}
+
+.page-hd-sn-shuang11 .block-roll-bonus .block-lottery-2 {
+    margin: 0;
+    padding: 0;
+}
+.page-hd-sn-shuang11 .block-roll-bonus .center-item {
+    position: absolute;
+    top: .7rem;
+    left: .84rem;
+    display: inline-block;
+    width: 0.8044444444444444rem;
+    height: 0.6844444444444444rem;
+    background-color: #f00;
+    border-radius: .04rem;
+    border: 0;
+    border-bottom: 3px solid #9d1f00;
+}
+.page-hd-sn-shuang11 .block-roll-bonus .center-item span{
+    display: block;
+    text-align: center;
+    line-height: 0.6844444444444444rem;
+    color: #faec8a;
+    font-size: .4rem;
+    animation: scale 1.5s infinite;
+}
+@keyframes scale {
+    0% {transform: scale(1)}
+    50% {transform: scale(1.4)}
+    100% {transform: scale(1)}
+}
+
+/*抽奖成功*/
+.page-hd-sn-shuang11 .rolling-success-dialog {
+    left: 0;
+    right: 0;
+    /*width: 100%;*/
+    width: 2.3955555555555557rem;
+    background: transparent url(https://p4.ssl.qhmsg.com/t01cfa5b3c6c524ecc5.png) no-repeat center 0;
+    /*background-size: contain;*/
+    background-size: 3.2rem;
+    border: 0;
+}
+
+.page-hd-sn-shuang11 .rolling-success-dialog .dialog-inner {
+    margin: 0 auto;
+    padding: 0;
+    width: 2.3955555555555557rem;
+}
+
+.page-hd-sn-shuang11 .rolling-success-dialog .block-rolling-success {
+    margin: 0 auto;
+    padding-top: .9rem;
+    width: 2.3955555555555557rem;
+    border-radius: .06rem;
+    position: absolute;
+}
+
+.page-hd-sn-shuang11 .rolling-success-dialog .success-top {
+    padding-top: .15rem;
+    width: 100%;
+    height: 0.5911111111111111rem;
+    background: url(https://p0.ssl.qhmsg.com/t013acbebf10a366100.jpg) no-repeat center 0;
+    background-size: cover;
+    text-align: center;
+    font-size: .19rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.page-hd-sn-shuang11 .rolling-success-dialog .success-content {
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    background-color: #fff;
+}
+
+.page-hd-sn-shuang11 .rolling-success-dialog .success-content .bonus-card {
+    position: relative;
+    margin: 0 auto;
+    padding: .06rem;
+    width: 1.7rem;
+    /*background-image:url("https://p0.ssl.qhmsg.com/t01bfead95bc66c8e62.jpg") no-repeat center/100% 100%;*/
+    border-radius: .04rem;
+    color: #fff;
+    height: .9rem;
+}
+.page-hd-sn-shuang11 .rolling-success-dialog .success-content .bonus-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.page-hd-sn-shuang11 .rolling-success-dialog .success-content .bonus-count {
+    line-height: 1;
+    font-size: .64rem;
+    font-weight: bolder;
+}
+
+.page-hd-sn-shuang11 .rolling-success-dialog .success-content .bonus-symbol {
+    font-size: .18rem;
+}
+
+.page-hd-sn-shuang11 .rolling-success-dialog .success-content .bonus-desc {
+    position: absolute;
+    top: .28rem;
+    right: .1rem;
+    text-align: right;
+    line-height: 1.2;
+}
+
+.page-hd-sn-shuang11 .rolling-success-dialog .success-content .bonus-desc-cnt {
+    padding: .02rem 0;
+    background-color: #d28000;
+}
+
+.page-hd-sn-shuang11 .rolling-success-dialog .success-content .desc {
+    padding: .1rem 0 .2rem;
+    text-align: center;
+}
+
+.page-hd-sn-shuang11 .rolling-success-dialog .success-content .btn,
+.page-hd-sn-shuang11 .rolling-success-dialog .success-content .btn:hover {
+    margin: 0 auto;
+    display: block;
+    width: 1.5rem;
+    height: .4rem;
+    line-height: .4rem;
+    background: linear-gradient(to bottom,#f6ba2f,#f68d2f);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 0 0.05rem 0.02rem #f6ba2f;
+}
+
+.page-hd-sn-shuang11 .rolling-success-dialog .success-content .btn-use-it {
+    margin-bottom: .1rem;
+}
+
+.page-hd-sn-shuang11 .rolling-success-dialog .success-content .btn-continue-roll {
+}
+.page-hd-sn-shuang11 .rolling-success-dialog .block-rolling-success .success-bottom {
+    background: url("https://p3.ssl.qhmsg.com/t017a3daed45268e709.png") no-repeat center/100% 100%;
+    width: 2.973333333333333rem;
+    height:0.5422222222222223rem;
+    margin: -.25rem 0 0 -.3rem;
+}
+.page-hd-sn-shuang11 .rolling-success-dialog .block-rolling-success .show-my-prize{
+    text-align: center;
+    display: block;
+    font-size: .12rem;
+    padding-top: .1rem;
+    text-decoration: underline;
+    color: #F6902F;
+}
+/*奖品列表*/
+.page-hd-sn-shuang11 .prize-list-dialog{
+    background-color: #f0f2f5;
+    border: 0;
+}
+.page-hd-sn-shuang11 .prize-list-dialog .dialog-inner{
+    max-height: 3.51rem;
+    overflow-y: auto;
+}
+.page-hd-sn-shuang11 .prize-list-dialog .block-prize-list{
+    padding: .1rem 0 0;
+}
+.page-hd-sn-shuang11 .prize-list-dialog .prize-item{
+    margin: 0 auto .1rem auto;
+    width: 2.7422222222222223rem;
+    height: 0.7422222222222222rem;
+    background: url(https://p1.ssl.qhmsg.com/t0137ffd3b573c02f22.png) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+.page-hd-sn-shuang11 .prize-list-dialog .prize-item .col-left-fixed{
+    width: 1.13rem;
+}
+.page-hd-sn-shuang11 .prize-list-dialog .prize-item .col-left-fixed .prize-discount{
+    padding: .1rem 0 .03rem 0;
+    line-height: 1;
+    font-size: .34rem;
+}
+.page-hd-sn-shuang11 .prize-list-dialog .prize-item .col-left-fixed .prize-discount-symbol{
+    padding: 0 .1rem;
+    font-size: .16rem;
+}
+.page-hd-sn-shuang11 .prize-list-dialog .prize-item .col-left-fixed .desc{
+    text-align: center;
+    font-weight: normal;
+    font-size: .1rem;
+}
+.page-hd-sn-shuang11 .prize-list-dialog .prize-item .col-right{
+    margin-left: 1.13rem;
+}
+.page-hd-sn-shuang11 .prize-list-dialog .prize-item .col-right .desc{
+    padding: .08rem 0 0 .12rem;
+    color: #333;
+}
+.page-hd-sn-shuang11 .prize-list-dialog .use-methods {
+    color: #3F3F41;
+    font-size: .12rem;
+}
+.page-hd-sn-shuang11 .prize-list-dialog .use-methods .item{
+    padding-bottom: .07rem;
+}

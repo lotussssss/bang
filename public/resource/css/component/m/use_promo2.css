@@ -1,0 +1,55 @@
+/*使用优惠码*/
+.use-promo-wrap {
+    font-size: .12rem;
+}
+
+.use-promo-wrap .use-promo {
+    color: #227be5;
+}
+
+.use-promo-wrap .promo-selector {
+    height: .34rem;
+    /*width: 1rem;*/
+    width: 100%;
+    /*border: 1px solid #ddd;*/
+    /*border-radius: 4px;*/
+    /*overflow: hidden;*/
+}
+
+.use-promo-wrap .promo-code {
+    height: .34rem;
+    width: 1rem;
+    line-height: .34rem;
+    padding-left: .1rem;
+    border: 0;
+}
+
+/*.use-promo-wrap .promo-sel-list{*/
+/*position: absolute;*/
+/*z-index: 4;*/
+/*-webkit-box-sizing: border-box;*/
+/*-moz-box-sizing: border-box;*/
+/*box-sizing: border-box;*/
+/*width: .34rem;*/
+/*line-height: .34rem;*/
+/*!*padding-right: 30px;*!*/
+/*border: 0;*/
+/*background: transparent;*/
+/*}*/
+.use-promo-wrap .promoYZ {
+    padding-left: .1rem;
+    display: block;
+    color: #666;
+    font-size: .1rem;
+    line-height: .24rem;
+}
+
+.use-promo-wrap .promo-succ {
+    color: #0b7;
+}
+
+.use-promo-wrap .promo-fail {
+    color: #f00;
+}
+
+/*END使用优惠码*/

@@ -1,0 +1,155 @@
+/* body样式 */
+.page-hd-third-invitation {
+    font-size: .12rem;
+    position: relative;
+}
+
+/* 页面主要部分 */
+.page-hd-third-invitation .mainbody {
+    width: 100%;
+    max-width: 720px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background: url(https://p3.ssl.qhmsg.com/t012674dd90ed8c4846.png) no-repeat center bottom;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+/* 页面头部背景图 */
+.page-hd-third-invitation .page-header-bg {
+    width: 100%;
+    height: 1.6rem;
+    background: url(https://p3.ssl.qhmsg.com/t0183b34e73011cfa3b.png) no-repeat center/cover;
+    padding-bottom: .067rem;
+}
+
+/* 页面底部背景图 */
+.page-hd-third-invitation .page-bottom-bg {
+    height: .916rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+}
+
+/* 表单输入项目 */
+.page-hd-third-invitation .mainbody .login-form {
+    margin-top: .2rem;
+}
+
+.page-hd-third-invitation .mainbody .row {
+    font-size: .14rem;
+    margin: 0 .1rem;
+    padding: .05rem;
+}
+
+.page-hd-third-invitation .mainbody .row .input-radius:before {
+    display: none;
+}
+
+.page-hd-third-invitation .mainbody .row input {
+    border: 0 none;
+}
+
+/* 输入框内的提示文字 */
+.page-hd-third-invitation .mainbody .row input::-webkit-input-placeholder {
+    color: #999;
+}
+
+/* 验证码图片,获取验证码按钮 */
+.page-hd-third-invitation .mainbody .row .vcode-img, .page-hd-third-invitation .mainbody .row .btn-get-sms-code {
+    height: .36rem;
+    line-height: .36rem;
+    width: 100%;
+}
+
+/* 获取验证码按钮 */
+.page-hd-third-invitation .mainbody .row .btn-get-sms-code {
+    border: 1px solid #66cdcc;
+    border-radius: .05rem !important;
+    color: #66cdcc;
+}
+
+/* 正在获取验证码 */
+.page-hd-third-invitation .mainbody .row .btn-get-sms-code-disabled {
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    color: #f5f5f5;
+}
+
+/* 提交按钮 */
+.page-hd-third-invitation .mainbody .t-center {
+    text-align: center;
+}
+
+.page-hd-third-invitation .mainbody .btn-order-confirm-submit {
+    background: #66cdcc;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: .18rem;
+    height: .44rem;
+    margin-top: .138rem;
+    width: 80%;
+    -webkit-box-shadow: 3px 3px .067rem rgba(102, 205, 204, .8);
+    -moz-box-shadow: 3px 3px .067rem rgba(102, 205, 204, .8);
+    box-shadow: 3px 3px .067rem rgba(102, 205, 204, .8);
+}
+
+/* 底部说明文字 */
+.page-hd-third-invitation .mainbody .bottom-tips {
+    padding-top: .138rem;
+}
+
+/* 页面弹窗 */
+.page-hd-third-invitation .third-invitation-dialog-tips {
+    background-color: #fff;
+    left: .4rem;
+    right: .4rem;
+    height: 1.844rem;
+}
+
+.page-hd-third-invitation .third-invitation-dialog-tips .dialog-inner {
+    padding: .168rem;
+}
+
+.page-hd-third-invitation .third-invitation-dialog-tips h3 {
+    color: #66cdcc;
+    font-size: .16rem;
+    text-align: center;
+    font-weight: bold;
+    height: .382rem;
+    line-height: .382rem;
+}
+
+.page-hd-third-invitation .third-invitation-dialog-tips .third-invitation-tips {
+
+}
+
+.page-hd-third-invitation .third-invitation-dialog-tips .third-invitation-btn {
+    padding-top: .178rem;
+    text-align: center;
+}
+
+.page-hd-third-invitation .third-invitation-dialog-tips .third-invitation-btn input[type=button] {
+    background: #66cdcc;
+    border: 0 none;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: .16rem;
+    height: .356rem;
+    margin-top: .138rem;
+    width: 1.316rem;
+    -webkit-box-shadow: 3px 3px .067rem rgba(102, 205, 204, .8);
+    -moz-box-shadow: 3px 3px .067rem rgba(102, 205, 204, .8);
+    box-shadow: 3px 3px .067rem rgba(102, 205, 204, .8);
+}
+
+
+
+
+
+
+
+

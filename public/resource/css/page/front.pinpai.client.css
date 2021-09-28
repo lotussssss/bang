@@ -1,0 +1,78 @@
+/*客户端内品牌页面*/
+.page-client .client-body {
+    height: auto;
+    overflow: hidden;
+}
+
+.page-client .doc-bd {
+    padding-bottom: 0;
+    width: 720px;
+}
+
+.page-client .pinpai-breadcrumb,
+.page-client .grid-2c1 .col-2,
+.page-client .dianpu-list-top{display: none;}
+
+.page-client .pinpai-content{
+    font-size: 12px;
+}
+
+ .page-client .pinpai-head{
+    background: #FFFFFF;
+    border: 0;
+    border-bottom: 1px solid #D1D1D1;
+    box-shadow: 1px 0 3px #ccc;
+ }
+
+.page-client .doc-bd .grid-2c1 {
+    height: 397px;
+    overflow-y: scroll;
+    padding-left: 10px;
+    padding-top: 0;
+    position: relative;
+    width: 710px;
+}
+
+.page-client .grid-2c1 .col-1 {
+    width: auto;
+    float: none;
+}
+
+.page-client .pinpai-content{
+    margin-bottom: 20px;
+}
+
+.page-client .pinpai-nearby .pinpai-nearby-list {
+    padding: 0;
+}
+
+.page-client .pinpai-nearby .pinpai-nearby-list .item-col2 {
+    width: 360px;
+}
+
+.page-client .pinpai-nearby-list .item-col4 {
+    text-align: right;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ====================================鲁大师内嵌页面调整======================================= */
+/* 页面尺寸800x500 */
+
+.C-LDS .doc-bd{
+    width: 800px;
+}
+
+.C-LDS .doc-bd .grid-2c1{
+    width: 790px;
+    height: 327px;
+}

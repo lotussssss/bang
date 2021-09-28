@@ -1,0 +1,353 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*,
+*:focus{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance:none;
+    outline: none;
+}
+html{font-size:10px;height:100%;}
+body{
+    padding:0;
+    margin:0;
+    height:100%;
+    font-family: "微软雅黑","Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color:#FFFFFF;
+}
+a{text-decoration: none;}
+ul,li{list-style:none;margin:0;padding:0;}
+h1,h2,h3,h4,h5,p{margin:0;}
+img{border:0;}
+input,img{vertical-align:middle;}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+table,tbody,thead,tfoot,tr,td,th{padding: 0;margin: 0;border: none;border-collapse:collapse;border-spacing: 0;}
+.none{display:none;}
+.a-block{display: block;}
+.a-block:active{background: #E8E8E8;}
+.relative{position: relative;}
+.mt20{margin-top: 20px;}
+.mt15{margin-top: 15px;}
+.mt10{margin-top: 10px;}
+.mt8{margin-top: 8px;}
+.mt5{margin-top: 5px;}
+.mr30{margin-right: 30px;}
+.mr10{margin-right: 10px;}
+.pl10{padding-left: 10px;}
+.h20{height: 20px;}
+.h10{height: 10px;}
+.c1{color: #666666;}
+.c2{color: #D04C12;}
+.c3{color: #619402;}
+.c4{color: #999999;}
+.c5{color: #dd0000;}
+.c6{color: #00A2E8;}
+.dashed{border-bottom: 1px dashed #A1A1A1;}
+.clearfix:after {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    content: '\20';
+}
+.clearfix {
+    clear: both;
+}
+.loadding{
+    font-size: .18rem;
+    background: #fff url(https://p.ssl.qhimg.com/t017ee3be501e423c98.gif) no-repeat -60px center;
+    padding:  30px 0 30px 90px;
+    margin: 10px;
+    border-radius: 0.4em;
+}
+#Loading{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://p.ssl.qhimg.com/t015f3d5ddf0e5a1b71.png) no-repeat center;
+    animation : rotating 3s linear infinite;
+    -webkit-animation : rotating 3s linear infinite;
+}
+@keyframes rotating{
+    from { transform:rotate(0deg); }
+    to { transform:rotate(360deg); }
+}
+@-webkit-keyframes rotating{
+    from { -webkit-transform:rotate(0deg); }
+    to { -webkit-transform:rotate(360deg); }
+}
+.errorblink{border: 1px solid #FF7A0E !important;}
+.icon{
+    background: url(https://p.ssl.qhimg.com/t01134d306c70d098e5.png);
+    display: inline-block;
+    width: 38px;height: 38px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5){
+    .icon{/*高清显示屏(设备像素比例大于等于1.5)使用2倍图*/
+        background: url(https://p.ssl.qhimg.com/t010e2a987812bd40e6.png);
+        background-size: 200px auto;
+    }
+}
+.icon-phone{width: 38px;height: 38px;background-position: -2px -96px;}
+.icon-lphone{width: 56px;height: 56px;background-position: -3px -4px;}
+.icon-local{width: 38px;height: 38px;background-position: -45px -96px;}
+.icon-graylocal{width: 17px;height: 20px; background-position: -38px -144px;}
+.icon-down-arrow{width: 18px;height: 18px;background-position: -183px 2px;}
+.icon-success-tip{width: 88px;height: 88px;background-position: -96px -2px;}
+.icon-msuccess-tip{width: 58px;height: 58px;background-position: -2px -207px;}
+.icon-i{width: 25px;height: 25px;background-position: -3px -142px;}
+.icon-wen{width: 18px;height: 18px;background-position: -66px -146px;}
+.icon-da{width: 18px;height: 18px;background-position: -96px -146px;}
+.icon-graywarn{width: 25px;height: 25px;background-position: -3px -171px;}
+.warn-tip{
+    display: inline-block;
+    font-size: .14rem;
+    height: 20px;
+    line-height: 20px;
+    color: #FE7A0B;
+}
+.goout-arrow{
+    font-size: .18rem;
+}
+
+/*行的基本模式*/
+.block,.row,
+.col-2-1,
+.col-4-1,
+.col-left-fixed, .col-left,
+.col-right,.col-right-fixed{
+    display: block;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+.row:after{
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    content: '\20';
+}
+.row{
+    zoom: 1;
+    clear: both;
+}
+.col-2-1,
+.col-4-1,
+.col-left-fixed{
+    float: left;
+}
+.col-2-1{
+    width: 50%;
+}
+.col-4-1{
+    width: 25%;
+}
+.col-right-fixed{
+    float: right;
+}
+/*END行的基本模式*/
+
+/****** 按钮 *********/
+.btn{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    border: 0;
+    background-clip: padding-box;
+    border-radius: 3px;
+    font-size: .18rem;
+}
+.btn:hover{
+    text-decoration: none;
+}
+.btn-yellow{
+    background: #FF8800;
+    box-shadow: 0 2px 0 #CD5A00;
+    color: #fff;
+}
+.btn-green{
+    background: #0b7;
+    box-shadow: 0 2px 0 #007F44;
+    color: #fff;
+}
+.btn-white{
+    background: #FFFFFF;
+    box-shadow: 0 2px 0 #CCC;
+    color: #666;
+    border:1px solid #ddd;
+}
+/*END按钮*/
+
+/* 箭头 */
+.arrow-down,
+.arrow-right{
+    position: relative;
+}
+.arrow-right:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 6px;
+    top: 50%;
+    margin-top: -7px;
+    border-top: 2px solid #CCCCCC;
+    border-right: 2px solid #CCCCCC;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.arrow-down:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 10px;
+    top: 50%;
+    margin-top: -7px;
+    border-top: 2px solid #CCCCCC;
+    border-right: 2px solid #CCCCCC;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+/* END箭头 */
+
+
+/* 整体页面结构 */
+#header{
+    width: 100%;
+    min-width: 320px;
+    height: 44px;
+    line-height: 44px;
+    background: #21292B;
+}
+.header-inner{
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 320px;
+}
+.header-inner .h-center{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.header-inner .h-left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.header-inner .h-left .iconfont-back{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 16px;
+    color: #fff;
+}
+.header-inner .h-left .iconfont-back:hover,
+.header-inner .h-left .iconfont-back:active{background: #000;}
+.header-inner .h-right{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    font-size: 12px;
+    color: #fff;
+}
+.header-inner .h-right span,
+.header-inner .h-right span:hover,
+.header-inner .h-right a,
+.header-inner .h-right a:hover{
+    padding: 0 5px;
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+#mainbody{
+    background: #f5f5f5;
+}
+.mainbody-inner{
+    margin: 0 auto;
+    max-width: 720px;
+    min-width: 320px;
+}
+#footer{
+
+}
+/*END整体页面结构*/
+
+
+/*使用优惠码*/
+.use-promo-wrap .promo-selector{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    height: 42px;
+    width: 120px;
+    border:1px solid #ddd;
+    border-radius: 4px;
+    background-clip: padding-box;
+    overflow: hidden;
+    background: #f4f4f4;
+}
+.use-promo-wrap .promo-code{
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 13px 10px;
+    height: 42px;
+    width: 90px;
+    line-height: normal;
+    border: 0;
+    border-right: 1px solid #ddd;
+    font-size: 14px;
+}
+.use-promo-wrap .promo-sel-list{
+    position: absolute;
+    z-index: 4;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 120px;
+    line-height: 42px;
+    padding-right: 30px;
+    border: 0;
+    background: transparent;
+}
+.use-promo-wrap .promoYZ{
+    color: #666;
+}
+.use-promo-wrap .promo-box{font-size: 12px;}
+.use-promo-wrap .use-promo{font-size: 14px;}
+.use-promo-wrap .promo-succ{ color: #090; }
+.use-promo-wrap .promo-fail{ color: #f00; }
+/*END使用优惠码*/
+

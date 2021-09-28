@@ -1,0 +1,145 @@
+.page-zhimacredit-shopHs-order{}
+
+.page-zhimacredit-shopHs-order #Main .main-inner{
+    margin-bottom: .86rem;
+}
+
+.page-zhimacredit-shopHs-order .block-zhimacredit-old-product-info{
+    background-color: #fff;
+    text-align: center;
+    padding: .2rem 0;
+}
+.page-zhimacredit-shopHs-order .block-zhimacredit-old-product-info .label-jiuji{
+    position: absolute;
+    top: 0;
+    left: .14rem;
+    display: block;
+    width: 0.24rem;
+    height: 0.3rem;
+    background: url(https://p2.ssl.qhmsg.com/t01e5ae6e585bd2d0af.png) no-repeat center;
+    background-size: contain;
+}
+.page-zhimacredit-shopHs-order .block-zhimacredit-old-product-info .the-img{
+    display: inline-block;
+    position: relative;
+    margin: .1rem 0;
+    width: 1.28rem;
+    height: 1.28rem;
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.page-zhimacredit-shopHs-order .block-zhimacredit-old-product-info .the-name{
+    font-size: .14rem;
+}
+.page-zhimacredit-shopHs-order .block-zhimacredit-old-product-info .the-assess-price{
+    color: #666;
+    font-size: .16rem;
+}
+.page-zhimacredit-shopHs-order .block-zhimacredit-old-product-info .the-assess-price b{
+    color: #ff4500;
+}
+
+/*芝麻信用预付款说明*/
+/*.page-zhimacredit-shopHs-order .block-zhimacredit-prepay-desc{*/
+    /*padding: .12rem 0;*/
+    /*color: #666;*/
+    /*background-color: #fff;*/
+/*}*/
+/*.page-zhimacredit-shopHs-order .block-zhimacredit-prepay-desc .tit{*/
+    /*height: .3rem;*/
+    /*line-height: .3rem;*/
+    /*text-align: center;*/
+    /*color: #ff4500;*/
+    /*background-color: #fef8cc;*/
+/*}*/
+/*.page-zhimacredit-shopHs-order .block-zhimacredit-prepay-desc .block-table{*/
+    /*margin: .1rem .16rem 0;*/
+    /*text-align: center;*/
+    /*line-height: 2.4;*/
+/*}*/
+/*.page-zhimacredit-shopHs-order .block-zhimacredit-prepay-desc .block-table .table-row-head{*/
+    /*background-color: #f4f4f4;*/
+/*}*/
+/* END 芝麻信用预付款说明*/
+
+.page-zhimacredit-shopHs-order .block-btn{
+    margin: .1rem auto;
+    padding: 0;
+    max-width: 1080px;
+    min-width: 320px;
+}
+.page-zhimacredit-shopHs-order .block-btn .btn-submit{
+    width: 100%;
+    height: .42rem;
+    line-height: .42rem;
+    font-size: .14rem;
+    border-radius: 0;
+    background-color: #ff4500;
+    text-align: center;
+}
+
+/*信用回收预付款信息*/
+.page-zhimacredit-shopHs-order .block-zhimacredit-prepay {
+    text-align: center;
+    background-color: #fff;
+}
+
+.page-zhimacredit-shopHs-order .block-zhimacredit-prepay .content-overview {
+    margin: 0 .1rem;
+    padding: .1rem 0;
+    line-height: 2;
+    font-size: .14rem;
+    color: #ff4500;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.page-zhimacredit-shopHs-order .block-zhimacredit-prepay .content-detail {
+    border-top: 0;
+    padding: .16rem .1rem;
+    font-size: .12rem;
+    line-height: 2;
+}
+
+.page-zhimacredit-shopHs-order .block-zhimacredit-prepay .content-detail .row-title {
+    color: #666;
+}
+
+.page-zhimacredit-shopHs-order .block-zhimacredit-prepay .content-detail .col-12-4 {
+    width: 33%;
+}
+
+.page-zhimacredit-shopHs-order .block-zhimacredit-prepay .content-detail .col-12-1 {
+    width: 6%;
+}
+
+.page-zhimacredit-shopHs-order .block-zhimacredit-prepay .content-detail .col-12-2 {
+    width: 22%;
+}
+
+.page-zhimacredit-shopHs-order .block-zhimacredit-prepay .content-detail b {
+    font-size: .18rem;
+}
+.page-zhimacredit-shopHs-order .block-zhimacredit-prepay .content-detail .final-price {
+    color: #ff4500;
+}
+
+.page-zhimacredit-shopHs-order .block-zhimacredit-prepay-overview{
+    color: #666;
+    padding: .4rem 0 0rem;
+    font-size: .13rem;
+    text-align: center;
+}
+.page-zhimacredit-shopHs-order .block-zhimacredit-prepay-overview .prepay-num{
+    color: #ff4500;
+}
+.page-zhimacredit-shopHs-order .block-zhimacredit-prepay-overview .icon-zhimacredit{
+    display: inline-block;
+    width: .19rem;
+    height: .22rem;
+    background: url(https://p0.ssl.qhmsg.com/t016d6a65b0b398b8d8.png) no-repeat center 0;
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: .03rem;
+}

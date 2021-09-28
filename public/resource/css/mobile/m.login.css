@@ -1,0 +1,99 @@
+.mpage-login{
+	background: #EFEFEF;
+	font-size: .12rem;
+}
+.mpage-login a{
+	color: #66c;
+}
+.mpage-login #doc{
+	padding: 0 1em;
+}
+.mpage-login .top-nav-title{ }
+.mpage-login .login-tip{
+	font-size: 120%;
+	line-height: 2;
+	color: #999999;
+	text-align: center;
+}
+
+.mpage-login .ipt{
+	width: 90%;
+	height: 1em;
+	line-height: 1em;
+	border:1px solid #E1E1E1;
+	padding: 1em 5%;
+
+	-webkit-border-radius: 0.5em;
+	border-radius: 0.3em;
+	
+	box-shadow: 1px 1px 3px #ddd;
+}
+.mpage-login #errorTips{
+	height: 1.6em;
+	color: #f00;
+	visibility: hidden;
+}
+
+.mpage-login .anim-in-s{
+	-webkit-transform: translateX(100%);
+
+	transform: translateX(100%);
+}
+.mpage-login .anim-in{
+	-webkit-transform: translateX(0%);
+	-webkit-transition: -webkit-transform 0.3s ease-out 0s;
+
+	-webkit-transform: translateX(0%);
+	-webkit-transition: transform 0.3s ease-out 0s;
+}
+
+.mpage-login .anim-out-s{
+	-webkit-transform: translateX(-100%);
+
+	transform: translateX(-100%);
+}
+.mpage-login .anim-out{
+	-webkit-transform: translateX(0%);
+	-webkit-transition: -webkit-transform 0.3s ease-out 0s;
+
+	transform: translateX(0%);
+	transition: transform 0.3s ease-out 0s;
+}
+
+.mpage-login .login-loadding{
+    position: absolute;
+    width: 80%;    
+    padding: 3em 0;
+    text-align: center;
+    border-radius: 1em;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1.2em;
+    left:10%;
+    top:30%;
+}
+
+.mpage-login .cleaript{
+	margin: 1.4em 0;
+}
+
+.mpage-login #qt_btn{
+	display: block;    
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    background: -moz-linear-gradient(top, #74C704, #61B618);
+    background: -webkit-linear-gradient(top, #74C704, #61B618);
+    background: linear-gradient(top, #74C704, #61B618);
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: .18rem;
+}
+.mpage-login .btn-next-one{
+	margin-bottom: 1.4em;
+}
+
+.mpage-login #iskeepalive{
+	
+}

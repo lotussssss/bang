@@ -1,0 +1,349 @@
+* {
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing    : border-box;
+    box-sizing         : border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing    : border-box;
+    box-sizing         : border-box;
+}
+
+html {
+    /*height: 100%;*/
+    height     : auto;
+    min-height : 100%;
+}
+
+body {
+    margin                     : 0 auto;
+    max-width                  : 720px;
+    min-width                  : 320px;
+    /*height: 100%;*/
+    height                     : auto;
+    min-height                 : 100%;
+    font-family                : "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    -webkit-overflow-scrolling : touch;
+}
+
+.mainbody {
+    /*height: 100%;*/
+    min-height : 100%;
+    /*overflow-x: hidden;*/
+    /*overflow-y: scroll;*/
+}
+
+.mainbody-inner {
+    min-height : 100%;
+}
+
+html, body {
+    background  : #fff;
+    font-family : "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    line-height: 100%;
+}
+
+.relative {
+    position : relative;
+}
+
+a {
+    text-decoration : none;
+}
+
+.clearfix:after {
+    display : block;
+    content : '';
+    clear   : both;
+}
+
+.clearfix {
+    zoom : 1;
+}
+
+.w100 {
+    width : 100%;
+}
+
+.fl {
+    float : left;
+}
+
+.fr {
+    float : right;
+}
+
+/*滑动块基本样式*/
+.slide-shower-wrap {
+    position : relative;
+    overflow : hidden;
+}
+
+.slide-shower-wrap .slide-shower {
+    position : relative;
+}
+
+.slide-shower-wrap .s-item {
+    position : relative;
+    float    : left;
+}
+
+.slide-shower-wrap .slide-nav {
+    padding    : .12rem 0 .16rem 0;
+    font-size  : 0;
+    text-align : center;
+}
+
+.slide-shower-wrap .slide-nav span {
+    margin-right  : .05rem;
+    display       : inline-block;
+    width         : .1rem;
+    height        : .1rem;
+    background    : #c5c5c5;
+    border        : 1px solid #c5c5c5;
+    border-radius : 999px;
+}
+
+.slide-shower-wrap .slide-nav .cur {
+    background : #fff;
+}
+
+/*END 滑动块基本样式*/
+
+.page-hd-erhuojie_newterm {
+    background : #f0ebe8;
+}
+
+.page-hd-erhuojie_newterm .block {
+    border : 0;
+    position: relative;
+}
+
+.page-hd-erhuojie_newterm .block1 {
+    height          : 1.88rem;
+    background      : url(https://p.ssl.qhimg.com/t01d2751ab72b9319be.jpg) no-repeat center 0;
+    background-size : cover;
+    margin-bottom: .5rem;
+}
+
+.page-hd-erhuojie_newterm .tab-list {
+    width: 3.2rem;
+    position: absolute;
+    left: 0;
+    top:1.88rem;
+    z-index: 5;
+}
+.page-hd-erhuojie_newterm .fixed{
+    position: fixed;
+    left: 0;
+    top:0;
+}
+.page-hd-erhuojie_newterm .nav-tab-placeholder{
+    position: absolute;
+    left: 0;
+    top:2rem;
+}
+.page-hd-erhuojie_newterm .tab-list li {
+    float: left;
+    width: 25%;
+    height: 0.4711111111111111rem;
+    line-height: 0.4711111111111111rem;
+    /*background: url("https://p.ssl.qhimg.com/t011a33b30c1fad4e95.jpg") 0 0 no-repeat;*/
+    /*background-size: cover;*/
+    background: #3f7fca;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    font-size: .14rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fee905;
+}
+.page-hd-erhuojie_newterm .tab-list li:last-child{
+    border: 0;
+}
+.page-hd-erhuojie_newterm .tab-list .cur{
+    background: #f43b3c;
+    color: #fff;
+    text-shadow:0 0 .04rem #000764;
+}
+
+/*.page-hd-erhuojie_newterm .tab-list [data-pos="2"],*/
+/*.page-hd-erhuojie_newterm .tab-list .cur[data-pos="2"]*/
+/*{*/
+    /*background-position: 0px 0px;*/
+/*}*/
+/*.page-hd-erhuojie_newterm .tab-list [data-pos="3"],*/
+/*.page-hd-erhuojie_newterm .tab-list .cur[data-pos="3"]{*/
+    /*background-position: 33.3333% 0px;*/
+/*}*/
+/*.page-hd-erhuojie_newterm .tab-list [data-pos="4"],*/
+/*.page-hd-erhuojie_newterm .tab-list .cur[data-pos="4"]{*/
+    /*background-position: 66.6666% 0px;*/
+/*}*/
+/*.page-hd-erhuojie_newterm .tab-list [data-pos="5"],*/
+/*.page-hd-erhuojie_newterm .tab-list .cur[data-pos="5"]{*/
+    /*background-position: 99.9999% 0px;*/
+/*}*/
+/*.page-hd-erhuojie_newterm .tab-list .cur{*/
+    /*background: url("https://p.ssl.qhimg.com/t01c9cca9fc35f06408.jpg") 0 0 no-repeat;*/
+    /*background-size: cover;*/
+/*}*/
+
+
+.page-hd-erhuojie_newterm .tit{
+    height: 0.5555555555555556rem;
+}
+.page-hd-erhuojie_newterm .tit1{
+    height: 0.32rem;
+    background: url("https://p.ssl.qhimg.com/t0143259a206c1765a1.jpg") center 0 no-repeat;
+    background-size: cover;
+}
+.page-hd-erhuojie_newterm .tit2{
+    background: url("https://p.ssl.qhimg.com/t0111390a05fb17239f.jpg") center 0 no-repeat;
+    background-size: cover;
+}
+.page-hd-erhuojie_newterm .tit3{
+    background: url("https://p.ssl.qhimg.com/t01c24f19b36a30b2bf.jpg") center 0 no-repeat;
+    background-size: cover;
+}
+.page-hd-erhuojie_newterm .tit4{
+    background: url("https://p.ssl.qhimg.com/t01ed962d5ba7fe439d.jpg") center 0 no-repeat;
+    background-size: cover;
+}
+
+.page-hd-erhuojie_newterm .block3 .product-list{
+
+}
+.page-hd-erhuojie_newterm .p-item{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.page-hd-erhuojie_newterm .product-list .item{
+    position: relative;
+    float: left;
+    width: 50%;
+    padding: 0 .1rem .12rem;
+    background: #fff;
+}
+.page-hd-erhuojie_newterm .item{
+    border: 1px solid #f1f1f1;
+    border-top: 1px solid transparent;
+}
+.page-hd-erhuojie_newterm .item:nth-child(even){
+    border-left: 1px solid transparent;
+}
+.page-hd-erhuojie_newterm .product-list .item a{
+    display: block;
+}
+.page-hd-erhuojie_newterm .product-list .item a:hover{
+    text-decoration: none;
+}
+.page-hd-erhuojie_newterm .product-list .p-img{
+    width: 1.2rem;
+    height: 1.3rem;
+    margin: 0.03rem auto;
+}
+.page-hd-erhuojie_newterm .product-list .p-img img{
+    width: 100%;
+}
+.page-hd-erhuojie_newterm .product-list .p-tit{
+    height: .32rem;
+    font-size: .12rem;
+    /*padding-top: .05rem;*/
+    color: #333;
+    vertical-align: middle;
+    text-align: left;
+    line-height: .16rem;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+.page-hd-erhuojie_newterm .product-list .p-price-new{
+    line-height: 100%;
+    color: #999;
+    font-size: .1rem;
+    padding-top: .08rem;
+}
+.page-hd-erhuojie_newterm .product-list .p-price-new .price-tit{
+}
+.page-hd-erhuojie_newterm .product-list .p-price-new .price-cnt{
+    text-decoration: line-through;
+}
+.page-hd-erhuojie_newterm .product-list .p-price{
+    line-height: 100%;
+    padding-top: .05rem;
+    font-size: .12rem;
+    color: #ff3300;
+}
+.page-hd-erhuojie_newterm .product-list .p-price .price-cnt{
+    font-size: .15rem;
+}
+
+.page-hd-erhuojie_newterm .product-list .btn-qiang{
+    margin: .1rem auto 0;
+    display: block;
+    width: 1.4rem;
+    height: .3rem;
+    line-height: .3rem;
+    background: #fe4d4e;
+    font-size: .14rem;
+    color: #fff;
+    text-align: center;
+}
+.page-hd-erhuojie_newterm .product-list .btn-disabled{
+    background-color: #ddd;
+}
+.page-hd-erhuojie_newterm .more{
+    text-align: center;
+    font-size: .14rem;
+    line-height: 0.28rem;
+    height: 0.28rem;
+    text-decoration: underline;
+}
+.page-hd-erhuojie_newterm .product-list .offset-label{
+    position: absolute;
+    top: 0;
+    left: .04rem;
+    padding: .08rem 0;
+    width: .4rem;
+    /*height: .6rem;*/
+    text-align: center;
+    font-size: .1rem;
+    line-height: 1.4;
+    color: #fff;
+    background: #f53b3c;
+}
+.page-hd-erhuojie_newterm .more a{
+    color: #f43b3c;
+}
+
+/*活动说明*/
+.page-hd-erhuojie_newterm .extend-special-intro {
+    margin        : .08rem;
+    background    : #3f7fca;
+    border-radius : .03rem;
+    color         : #fff;
+    font-size     : .12rem;
+    border:1px solid #000764;
+}
+
+.page-hd-erhuojie_newterm .extend-special-intro-tit {
+    padding   : .2rem .22rem .1rem;
+    font-size : .16rem;
+}
+
+.page-hd-erhuojie_newterm .extend-special-intro-cont {
+    padding : 0 .1rem;
+    line-height: .16rem;
+}
+
+.page-hd-erhuojie_newterm .extend-special-intro-cont p {
+    padding     : 0 0 .1rem .12rem;
+    text-indent : -.12rem;
+}

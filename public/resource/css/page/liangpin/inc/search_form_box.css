@@ -1,0 +1,139 @@
+/* 顶部搜索 */
+.page-liangpin .top-search {
+    margin-top : 15px;
+    position   : relative;
+}
+
+.page-liangpin .searchbox .search-txt {
+    padding     : 12px 5px;
+    height      : 14px;
+    line-height : normal;
+    border      : 1px solid #eaeaea;
+    width       : 220px;
+    float       : left;
+    color       : #333;
+}
+
+.page-liangpin .searchbox .search-txt:focus {
+    border-color : #185;
+}
+
+.page-liangpin .searchbox .default {
+    color : #999;
+}
+
+.page-liangpin .searchbox .search-sub {
+    width      : 41px;
+    height     : 40px;
+    font-size  : 0;
+    border     : 0;
+    cursor     : pointer;
+    float      : left;
+    background : url(https://p.ssl.qhimg.com/t016b8b8260d2d1de20.png) no-repeat 0 0;
+}
+
+.page-liangpin .searchbox .hot-words {
+    line-height : 32px;
+    color       : #666;
+}
+
+.page-liangpin .searchbox .hot-words a {
+    color        : #666;
+    margin-right : 6px;
+}
+
+.page-liangpin .searchbox .suggest-word {
+    position : absolute;
+    top      : 11px;
+    right    : 40px;
+}
+
+.page-liangpin .searchbox .suggest-word a,
+.page-liangpin .searchbox .suggest-word a:hover {
+    margin-right    : 4px;
+    padding         : 0 4px;
+    display         : inline-block;
+    *display        : inline;
+    *zoom           : 1;
+    color           : #333;
+    text-decoration : none;
+    background      : #e8e8e8;
+}
+
+.page-liangpin .searchbox .suggest-word .c1 {
+    color : #185;
+}
+
+/* suggest 皮肤 */
+.ac_wrap {
+    position         : absolute;
+    z-index          : 9999;
+    background-color : #fff;
+    overflow-y       : hidden;
+    font-size        : 14px;
+    line-height      : 20px;
+    text-align       : left;
+}
+
+.ac_wrap_inner {
+    z-index : 10;
+    border  : 1px solid #185;
+}
+
+.ac_wrap ul {
+    margin  : 0;
+    padding : 0
+}
+
+.ac_wrap li {
+    list-style   : none;
+    padding      : 6px 6px 6px 8px;
+    color        : #333;
+}
+
+.ac_wrap li.hover {
+    background-color : #f1f1f1;
+    cursor           : pointer;
+}
+
+.ac_wrap li.selected {
+    background-color : #f1f1f1;
+}
+
+.ac_toolbar {
+    text-align  : right;
+    font-size   : 12px;
+    color       : #999;
+    white-space : nowrap;
+}
+
+.ac_toolbar a {
+    color       : #66f;
+    margin-left : 15px
+}
+
+.ac_bgIframe {
+    z-index  : -1;
+    width    : expression(this.parentNode.offsetWidth);
+    height   : 2000px;
+    position : absolute;
+    top      : 0px;
+    left     : 0px;
+}
+
+.ac_wrap li em {
+    display      : inline-block;
+    *display     : inline;
+    *zoom        : 1;
+    width        : 16px;
+    height       : 16px;
+    background   : url(https://p.ssl.qhimg.com/t0134fc9cb06f9f45bd.png) no-repeat;
+    line-height  : 16px;
+    text-align   : center;
+    color        : #fff;
+    margin-right : 5px;
+}
+
+.ac_wrap li em.gray {
+    background-position : 0 -35px;
+}

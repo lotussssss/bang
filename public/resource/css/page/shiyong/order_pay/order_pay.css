@@ -1,0 +1,625 @@
+/* 订单支付页 */
+.page-order-pay .head-right-cashier,
+.page-order-pay .cashier-icon,
+.page-order-pay .ca-price-mod .ca-opt-info i,
+.page-order-pay .cashier-method li i,
+.page-order-pay .ca-pay-save .pay-mod-guide,
+.page-order-pay .period-button .period-icon i,
+.page-order-pay .ca-pay-description .alipay,
+.page-order-pay .ca-pay-description .weixin,
+.page-order-pay .ca-pay-description .hdfk,
+.page-order-pay .ca-pay-line,
+.page-order-pay .ca-pay-save .pay-mod-tv,
+.page-order-pay .pay-period-list i,
+.page-order-pay .pay-period-list .active b {
+    background : url("https://p.ssl.qhimg.com/t01a1a0d2363fd90215.png") no-repeat;
+}
+
+.page-order-pay .head-right-cashier {
+    width               : 225px;
+    height              : 50px;
+    background-position : 0 0;
+    float               : right;
+    margin-right        : -20px;
+    margin-top          : 15px;
+}
+
+.page-order-pay .lp-cashier {
+    padding          : 0 5px 12px 80px;
+    border           : solid 1px #eaeaea;
+    background-color : #fff;
+    overflow         : hidden;
+    _zoom            : 1;
+}
+
+.page-order-pay .cashier-icon {
+    float    : left;
+    width    : 54px;
+    height   : 55px;
+    margin   : 12px 32px 0 0;
+    _display : inline;
+}
+
+.page-order-pay .lp-cashier .success {
+    background-position : -3px -53px;
+}
+
+.page-order-pay .lp-cashier .fail {
+    background-position : -64px -593px;
+}
+
+.page-order-pay .lp-cashier .continue {
+    background-position : 0 -593px;
+}
+
+.page-order-pay .cashier-box {
+    float       : left;
+    padding-top : 15px;
+    width       : 1020px;
+    _display    : inline;
+}
+
+.page-order-pay .cashier-hd {
+    width    : 100%;
+    overflow : hidden;
+}
+
+.page-order-pay .ca-status-mod {
+    float : left;
+}
+
+.page-order-pay .ca-status-mod h5 {
+    font-size : 20px;
+    color     : #333;
+}
+
+.page-order-pay .ca-status-mod p {
+    font-size : 14px;
+    color     : #666;
+}
+
+.page-order-pay .ca-status-mod p cite {
+    color : #f50;
+}
+
+.page-order-pay .ca-price-mod {
+    float : right;
+}
+
+.page-order-pay .ca-price-mod p {
+    font-size     : 12px;
+    color         : #999;
+    margin-bottom : 14px;
+}
+
+.page-order-pay .ca-price-mod .ca-opt-info {
+    font-size      : 14px;
+    color          : #2e74d3;
+    vertical-align : middle;
+    text-align     : right;
+    cursor         : pointer;
+}
+
+.page-order-pay .ca-price-mod .ca-opt-info:hover {
+    color : #f50;
+}
+
+.page-order-pay .ca-price-mod .ca-opt-info i {
+    display             : inline-block;
+    width               : 12px;
+    height              : 8px;
+    background-position : -179px -87px;
+    margin-left         : 6px;
+}
+
+.page-order-pay .lp-cashier-category {
+    overflow : hidden;
+}
+
+.page-order-pay .lp-cashier-category h4 {
+    font-size : 18px;
+    color     : #666;
+    padding   : 26px 0 6px 35px;
+}
+
+/* 支付方式 */
+.page-order-pay .cashier-method {
+    border           : solid 1px #e5e5e5;
+    background-color : #fff;
+    margin-bottom    : 10px;
+    overflow         : hidden;
+}
+
+.page-order-pay .cashier-method .cashier-tab {
+    background-color : #f6f6f6;
+    height           : 46px;
+    overflow         : hidden;
+}
+
+.page-order-pay .cashier-method .cashier-tab li {
+    width            : 175px;
+    height           : 45px;
+    line-height      : 45px;
+    border-right     : solid 1px #e5e5e5;
+    border-bottom    : solid 1px #e5e5e5;
+    background-color : #f6f6f6;
+    float            : left;
+    font-size        : 16px;
+    color            : #666;
+    text-align       : center;
+    vertical-align   : middle;
+    cursor           : pointer;
+}
+
+.page-order-pay .cashier-method .cashier-tab li:hover {
+    color : #f50;
+}
+
+.page-order-pay .cashier-method .cashier-tab li.active {
+    background-color : #fff;
+    color            : #f50;
+    border-top       : solid 2px #ff4600;
+    border-bottom    : 0;
+    height           : 44px;
+    line-height      : 41px;
+}
+
+.page-order-pay .cashier-method .cashier-tab li i {
+    display             : inline-block;
+    width               : 47px;
+    height              : 18px;
+    background-position : -123px -81px;
+    margin-left         : 3px;
+    position            : relative;
+    top                 : 2px;
+    _margin-top         : 12px;
+}
+
+.page-order-pay .cashier-mod {
+    background    : #fff;
+    padding       : 30px;
+    overflow      : hidden;
+    margin-bottom : 20px;
+    _zoom         : 1;
+}
+
+.page-order-pay .ca-pay-description {
+    width       : 210px;
+    float       : left;
+    margin-left : 146px;
+    margin-top  : 50px;
+    _display    : inline;
+    overflow    : hidden;
+}
+
+.page-order-pay .ca-pay-description .ca-pay-icon {
+    float        : left;
+    width        : 50px;
+    height       : 50px;
+    margin-right : 10px;
+    _display     : inline;
+}
+
+.page-order-pay .ca-pay-description .alipay {
+    background-position : 0 -112px;
+}
+
+.page-order-pay .ca-pay-description .weixin {
+    background-position : -56px -112px;
+}
+
+.page-order-pay .ca-pay-description .hdfk {
+    background-position : -113px -112px;
+}
+
+.page-order-pay .ca-pay-info {
+    margin-top : -6px;
+}
+
+.page-order-pay .ca-pay-info strong {
+    font-size : 24px;
+    color     : #000;
+}
+
+.page-order-pay .ca-pay-info p {
+    font-size : 14px;
+    color     : #999;
+}
+
+.page-order-pay .ca-pay-line {
+    float               : left;
+    width               : 33px;
+    height              : 191px;
+    background-position : -217px -144px;
+}
+
+.page-order-pay .ca-pay-save {
+    float       : left;
+    width       : 252px;
+    margin-left : 32px;
+    _display    : inline;
+    position    : relative;
+}
+
+.page-order-pay .ca-pay-save .pay-mod-tv {
+    width               : 242px;
+    height              : 154px;
+    background-position : -20px -430px;
+    margin-top          : 12px;
+}
+
+.page-order-pay .ca-pay-save .money-mod {
+    text-align    : center;
+    font-size     : 16px;
+    color         : #333;
+    margin-bottom : 10px;
+}
+
+.page-order-pay .ca-pay-save .money-mod b {
+    font-size : 26px;
+    color     : #f40;
+    margin    : 0 3px;
+}
+
+.page-order-pay .ca-pay-save .error {
+    color      : #f50;
+    text-align : center;
+    font-size  : 14px;
+    margin-top : 10px;
+}
+
+.page-order-pay .ca-pay-save .pay-button {
+    display          : block;
+    width            : 235px;
+    height           : 50px;
+    line-height      : 50px;
+    background-color : #f40;
+    text-align       : center;
+    font-size        : 20px;
+    color            : #fff;
+    cursor           : pointer;
+}
+
+.page-order-pay .ca-pay-save .pay-button:hover {
+    background-color : #e30;
+}
+
+.page-order-pay .ca-pay-save .pay-button-wx {
+    display     : block;
+    margin      : 0 auto;
+    width       : 123px;
+    height      : 28px;
+    line-height : 28px;
+    text-align  : center;
+    font-size   : 14px;
+    color       : #333;
+    border      : solid 1px #eaeaea;
+    cursor      : pointer;
+}
+
+.page-order-pay .pay-mod-scan {
+    text-align : center;
+}
+
+.page-order-pay .ca-pay-save .pay-button.disabled {
+    background-color : #999;
+}
+
+.page-order-pay .ca-pay-save .pay-button-wx.disabled {
+    color : #ccc;
+}
+
+.page-order-pay .ca-pay-save .pay-mod-guide {
+    width               : 197px;
+    height              : 170px;
+    background-position : 0 -165px;
+    position            : absolute;
+    right               : -170px;
+    top                 : -10px;
+}
+
+.page-order-pay .pay-mod-scan img {
+    width   : 161px;
+    height  : 161px;
+    border  : solid 1px #e2e2e2;
+    padding : 2px;
+}
+
+.page-order-pay .delivery-txt {
+    font-size     : 20px;
+    color         : #333;
+    margin-bottom : 6px;
+}
+
+.page-order-pay .delivery-txt-other {
+    font-size : 14px;
+    color     : #999;
+}
+
+.page-order-pay .delivery-txt-other cite {
+    color : #f50;
+}
+
+.page-order-pay .ca-pay-delivery {
+    width : 480px;
+}
+
+.page-order-pay .ca-pay-delivery .money-mod {
+    text-align : left;
+}
+
+.page-order-pay .ca-pay-delivery .money-mod strong {
+    font-size : 18px;
+    color     : #000;
+}
+
+.page-order-pay .pay-mod-delivery {
+    padding : 60px 0 30px 0;
+}
+
+.page-order-pay .hbfq-block {
+    padding       : 0;
+    margin-bottom : 10px;
+}
+
+.page-order-pay .cashier-bd {
+    border-top : solid 1px #ededed;
+    padding    : 12px 0 4px 0;
+    margin-top : 12px;
+}
+
+.page-order-pay .cashier-bd p {
+    font-size : 12px;
+    color     : #999;
+    margin    : 3px 0 4px 0;
+}
+
+.page-order-pay .pay-period-help.cashier-box .hidden {
+    display : none;
+}
+
+.page-order-pay .period-pannel {
+    padding : 45px 150px 10px 150px;
+}
+
+.page-order-pay .pay-period-list {
+    padding-left : 22px;
+    overflow     : hidden;
+}
+
+.page-order-pay .pay-period-list li {
+    width        : 244px;
+    height       : 70px;
+    padding      : 8px 12px;
+    border       : solid 1px #999;
+    margin-right : 10px;
+    _display     : inline;
+    float        : left;
+    position     : relative;
+    cursor       : pointer;
+}
+
+.page-order-pay .pay-period-list .active {
+    border  : solid 2px #f40;
+    padding : 7px 11px;
+}
+
+.page-order-pay .pay-period-list .active b {
+    width               : 37px;
+    height              : 36px;
+    display             : block;
+    background-position : -68px -63px;
+    position            : absolute;
+    right               : 0;
+    bottom              : 0;
+    _bottom             : -1px;
+}
+
+.page-order-pay .pay-period-list i {
+    display : block;
+    width   : 71px;
+    height  : 71px;
+    float   : left;
+}
+
+.page-order-pay .pay-period-list .icon-three {
+    background-position : -3px -345px;
+}
+
+.page-order-pay .pay-period-list .icon-six {
+    background-position : -85px -345px;
+}
+
+.page-order-pay .pay-period-list .icon-twelve {
+    background-position : -171px -345px;
+}
+
+.page-order-pay .pay-period-list .period-view {
+    float       : left;
+    margin-left : 20px;
+    margin-top  : 2px;
+    _display    : inline;
+}
+
+.page-order-pay .pay-period-list .period-view span {
+    display : block;
+}
+
+.page-order-pay .pay-period-list .period-view span.price {
+    color     : #000;
+    font-size : 30px;
+}
+
+.page-order-pay .pay-period-list .period-view span.commission {
+    color : #b8b8b8;
+}
+
+.page-order-pay .pay-period-help {
+    width  : 740px;
+    margin : 10px 0 0 170px;
+}
+
+.page-order-pay .pay-period-help li {
+    color       : #999;
+    line-height : 24px;
+    font-size   : 14px;
+    margin-top  : 4px;
+}
+
+.page-order-pay .period-button {
+    border-top : solid 1px #eaeaea;
+    padding    : 10px 0;
+    overflow   : hidden;
+}
+
+.page-order-pay .period-button .period-icon {
+    float        : right;
+    margin-right : 30px;
+    margin-top   : 10px;
+    font-size    : 18px;
+    color        : #333;
+    _display     : inline;
+}
+
+.page-order-pay .period-button .period-icon i {
+    display             : inline-block;
+    width               : 33px;
+    height              : 33px;
+    background-position : -174px -125px;
+    vertical-align      : middle;
+    margin-right        : 12px;
+}
+
+.page-order-pay .period-pay-block {
+    padding  : 20px 0 20px 80px;
+    overflow : hidden;
+    _zoom    : 1;
+}
+
+.page-order-pay .period-pay-block .btn-btn-money {
+    float     : left;
+    width     : 220px;
+    font-size : 14px;
+    _display  : inline;
+}
+
+.page-order-pay .period-pay-block .btn-btn-money p {
+    color          : #999;
+    vertical-align : middle;
+}
+
+.page-order-pay .period-pay-block .btn-btn-money p b {
+    margin-left : 6px;
+    display     : inline-block;
+}
+
+.page-order-pay .period-pay-block .period-num {
+    color : #333;
+}
+
+.page-order-pay .period-pay-block .period-num b {
+    font-size : 28px;
+    color     : #f40;
+}
+
+.page-order-pay .period-pay-block .btn-once-pay {
+    float            : left;
+    width            : 235px;
+    height           : 50px;
+    line-height      : 50px;
+    margin-left      : 20px;
+    text-align       : center;
+    font-size        : 20px;
+    color            : #fff;
+    background-color : #f40;
+    margin-top       : 10px;
+    cursor           : pointer;
+    _display         : inline;
+}
+
+.page-order-pay .ca-status-mod .desc-txt,
+.page-order-pay .ca-status-mod .d-num,
+.page-order-pay .ca-status-mod .d-txt,
+.page-order-pay .ca-status-mod .h-num,
+.page-order-pay .ca-status-mod .h-txt,
+.page-order-pay .ca-status-mod .desc-txt-behind {
+    display : none;
+}
+
+.page-order-pay .cashier-method .hidden {
+    display : none;
+}
+
+.page-order-pay .period-pay-block .btn-once-pay:hover {
+    background-color : #e30;
+}
+
+.page-order-pay .period-pay-block .btn-once-pay.disabled {
+    background-color : #999;
+}
+
+/*订单支付确认panel*/
+.common-payment-confirm-panel-wrap{
+    border: 0;
+}
+
+.common-payment-confirm-panel-wrap .dialog-inner{
+    padding: 0;
+}
+
+.common-payment-confirm-panel {
+    width  : 524px;
+    border : solid 1px #c1c1c1;
+}
+
+.common-payment-confirm-panel .payment-hd {
+    margin        : 0 15px;
+    height        : 72px;
+    line-height   : 72px;
+    font-size     : 24px;
+    border-bottom : 1px solid #cbcbcb;
+    text-align    : center;
+}
+
+.common-payment-confirm-panel .payment-hd .close {
+    float      : right;
+    width      : 41px;
+    height     : 41px;
+    margin-top : 15px;
+    background : url("https://p.ssl.qhimg.com/t011ccfaa5874f58a59.jpg") no-repeat;
+    cursor     : pointer;
+}
+
+.common-payment-confirm-panel .payment-bd {
+    margin : 30px auto 15px auto;
+    width  : 440px;
+}
+
+.payment-confirm-btn span {
+    display     : inline-block;
+    width       : 200px;
+    height      : 47px;
+    line-height : 47px;
+    border      : solid 1px #eaeaea;
+    text-align  : center;
+    color       : #666;
+    font-size   : 16px;
+    margin-left : 12px;
+    cursor      : pointer;
+}
+
+.payment-bd p {
+    padding-left : 12px;
+    padding-top  : 14px;
+    font-size    : 14px;
+    color        : #666;
+}
+
+.payment-bd .error {
+    color : #f50;
+}
+
+.bg-payment {
+    background-color : #f5f5f5;
+    padding-top      : 5px;
+}

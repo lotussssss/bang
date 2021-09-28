@@ -1,0 +1,270 @@
+.blur {
+    -webkit-filter: blur(.08rem);
+}
+
+.page-hd-66iphone8 {
+    background-color: #f5f5f5;
+    color: #333;
+}
+.page-hd-66iphone8 .dialog-wrap .dialog-close,
+.page-hd-66iphone8.dialog-wrap .dialog-close:hover{
+    display: none;
+}
+
+.page-hd-66iphone8 .block .block-inner {
+    margin: 0 .12rem;
+    border-radius: .04rem;
+    background-color: #fff;
+}
+
+.page-hd-66iphone8 .block1 {
+    height: 2.551111111111111rem;
+    background: url(https://p2.ssl.qhmsg.com/t01835f9884a663acee.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.page-hd-66iphone8 .block2 {
+}
+
+.page-hd-66iphone8 .block2 .block-inner {
+    margin-top: -.32rem;
+    padding: 1.9rem 0 0 0;
+    background: #fff url(https://p0.ssl.qhmsg.com/t016502a84fe2c8a073.jpg) no-repeat center .05rem;
+    background-size: 1.9733333333333334rem 1.9733333333333334rem;
+    text-align: center;
+}
+
+.page-hd-66iphone8 .block2 .btn-rolling {
+    margin: 0 .2rem;
+    display: block;
+    height: .44rem;
+    line-height: .44rem;
+    font-size: .20rem;
+    background-color: #ff4500;
+    color: #fff;
+    border: 0;
+}
+
+.page-hd-66iphone8 .block2 .desc {
+    padding: .12rem 0;
+    color: #333;
+
+}
+
+.page-hd-66iphone8 .block2 .desc .trigger-show-my-prize {
+    text-decoration: underline;
+    color: #ff4500;
+}
+
+.page-hd-66iphone8 .block-desc {
+    padding-top: .12rem;
+    margin-bottom: .12rem;
+}
+
+.page-hd-66iphone8 .block-desc .block-inner {
+    padding: .2rem .2rem;
+}
+
+.page-hd-66iphone8 .block-desc .desc-title {
+    width: 1rem;
+    height: .24rem;
+    line-height: .24rem;
+    font-size: .16rem;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    border-radius: 9999px;
+    margin: 0 auto .1rem;
+}
+
+.page-hd-66iphone8 .block-desc .row {
+    padding: .02rem 0;
+}
+
+.page-hd-66iphone8 .block-desc .col-left-fixed {
+    width: 0.16444444444444445rem;
+    height: 0.15555555555555556rem;
+    text-align: center;
+    line-height: 0.15555555555555556rem;
+    background: url("https://p1.ssl.qhmsg.com/t01a44f9270dc106df7.png");
+    background-size: cover;
+    color: #fff;
+    font-size: .1rem;
+    margin-top: .03rem;
+}
+
+.page-hd-66iphone8 .block-desc .col-right {
+    margin-left: .2rem;
+}
+
+/*抽奖转盘*/
+.page-hd-66iphone8 .rolling-bonus-dialog {
+    width: 100%;
+    border: 0;
+}
+
+.page-hd-66iphone8 .rolling-bonus-dialog .dialog-inner {
+    padding: 0;
+}
+
+.page-hd-66iphone8 .block-roll-bonus {
+    padding: .21rem 0 0 .36rem;
+    width: 100%;
+    height: 2.64rem;
+    background: url(https://p2.ssl.qhmsg.com/t0195e0cf4a459638b0.png) no-repeat center;
+    background-size: cover;
+}
+
+.page-hd-66iphone8 .block-roll-bonus .block-lottery-2 {
+    margin: 0;
+    padding: 0;
+}
+
+/*抽奖成功*/
+.page-hd-66iphone8 .rolling-success-dialog {
+    left: 0;
+    right: 0;
+    /*width: 100%;*/
+    width: 2.3955555555555557rem;
+    background: transparent url(https://p4.ssl.qhmsg.com/t01cfa5b3c6c524ecc5.png) no-repeat center 0;
+    /*background-size: contain;*/
+    background-size: 3.2rem;
+    border: 0;
+}
+
+.page-hd-66iphone8 .rolling-success-dialog .dialog-inner {
+    margin: 0 auto;
+    padding: 0;
+    width: 2.3955555555555557rem;
+}
+
+.page-hd-66iphone8 .rolling-success-dialog .block-rolling-success {
+    margin: 0 auto;
+    padding-top: .9rem;
+    width: 2.3955555555555557rem;
+    border-radius: .06rem;
+    overflow: hidden;
+}
+
+.page-hd-66iphone8 .rolling-success-dialog .success-top {
+    padding-top: .5rem;
+    width: 100%;
+    height: 0.7911111111111111rem;
+    background: url(https://p4.ssl.qhmsg.com/t01cd18d7c89f99c1d0.png) no-repeat center 0;
+    background-size: cover;
+    text-align: center;
+}
+
+.page-hd-66iphone8 .rolling-success-dialog .success-top .btn-go-to-iphone7 {
+    font-size: .14rem;
+    color: #f00;
+    text-decoration: underline;
+}
+
+.page-hd-66iphone8 .rolling-success-dialog .success-content {
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    background-color: #fff;
+}
+
+.page-hd-66iphone8 .rolling-success-dialog .success-content .bonus-card {
+    position: relative;
+    margin: 0 auto;
+    padding: .06rem;
+    width: 1.9644444444444444rem;
+    background-color: #f6a92f;
+    border-radius: .04rem;
+    color: #fff;
+}
+
+.page-hd-66iphone8 .rolling-success-dialog .success-content .bonus-count {
+    line-height: 1;
+    font-size: .64rem;
+    font-weight: bolder;
+}
+
+.page-hd-66iphone8 .rolling-success-dialog .success-content .bonus-symbol {
+    font-size: .18rem;
+}
+
+.page-hd-66iphone8 .rolling-success-dialog .success-content .bonus-desc {
+    position: absolute;
+    top: .28rem;
+    right: .1rem;
+    text-align: right;
+    line-height: 1.2;
+}
+
+.page-hd-66iphone8 .rolling-success-dialog .success-content .bonus-desc-cnt {
+    padding: .02rem 0;
+    background-color: #d28000;
+}
+
+.page-hd-66iphone8 .rolling-success-dialog .success-content .desc {
+    padding: .1rem 0 .2rem;
+    text-align: center;
+}
+
+.page-hd-66iphone8 .rolling-success-dialog .success-content .btn,
+.page-hd-66iphone8 .rolling-success-dialog .success-content .btn:hover {
+    margin: 0 auto;
+    display: block;
+    width: 1.5rem;
+    height: .4rem;
+    line-height: .4rem;
+    background-color: #ff4500;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.page-hd-66iphone8 .rolling-success-dialog .success-content .btn-use-it {
+    margin-bottom: .1rem;
+}
+
+.page-hd-66iphone8 .rolling-success-dialog .success-content .btn-continue-roll {
+}
+
+/*奖品列表*/
+.page-hd-66iphone8 .prize-list-dialog{
+    background-color: #f0f2f5;
+    border: 0;
+}
+.page-hd-66iphone8 .prize-list-dialog .dialog-inner{
+    max-height: 3.51rem;
+    overflow-y: auto;
+}
+.page-hd-66iphone8 .prize-list-dialog .block-prize-list{
+    padding: .1rem 0 0;
+}
+.page-hd-66iphone8 .prize-list-dialog .prize-item{
+    margin: 0 auto .1rem auto;
+    width: 2.7422222222222223rem;
+    height: 0.7422222222222222rem;
+    background: url(https://p1.ssl.qhmsg.com/t0137ffd3b573c02f22.png) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+.page-hd-66iphone8 .prize-list-dialog .prize-item .col-left-fixed{
+    width: 1.13rem;
+}
+.page-hd-66iphone8 .prize-list-dialog .prize-item .col-left-fixed .prize-discount{
+    padding: .1rem 0 .03rem 0;
+    line-height: 1;
+    font-size: .34rem;
+}
+.page-hd-66iphone8 .prize-list-dialog .prize-item .col-left-fixed .prize-discount-symbol{
+    padding: 0 .1rem;
+    font-size: .16rem;
+}
+.page-hd-66iphone8 .prize-list-dialog .prize-item .col-left-fixed .desc{
+    text-align: center;
+    font-weight: normal;
+}
+.page-hd-66iphone8 .prize-list-dialog .prize-item .col-right{
+    margin-left: 1.13rem;
+}
+.page-hd-66iphone8 .prize-list-dialog .prize-item .col-right .desc{
+    padding: .08rem 0 0 .12rem;
+    color: #333;
+}

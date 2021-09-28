@@ -1,0 +1,65 @@
+/* 箭头 */
+.arrow-down,
+.arrow-up,
+.arrow-left,
+.arrow-right {
+    position: relative;
+}
+
+.arrow-down:after,
+.arrow-up:after,
+.arrow-left:after,
+.arrow-right:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    /*margin-top: -7px;*/
+    /*width: 8px;*/
+    /*height: 8px;*/
+    /*right: 6px;*/
+    margin-top: -.04rem;
+    width: .08rem;
+    height: .08rem;
+    border-top: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+}
+
+.arrow-down:after {
+    right: .06rem;
+    margin-top: -0.06rem;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+.arrow-up:after {
+    right: .06rem;
+    margin-top: -0.028rem;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.arrow-left:after {
+    right: .02rem;
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+.arrow-right:after {
+    right: .06rem;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/*.arrow-down:after {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*width: 8px;*/
+    /*height: 8px;*/
+    /*right: 10px;*/
+    /*top: 50%;*/
+    /*margin-top: -7px;*/
+    /*border-top: 2px solid #ccc;*/
+    /*border-right: 2px solid #ccc;*/
+    /*-webkit-transform: rotate(135deg);*/
+    /*transform: rotate(135deg);*/
+/*}*/
+
+/* END箭头 */

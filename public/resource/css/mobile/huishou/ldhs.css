@@ -1,0 +1,76 @@
+.m-huishou-partner-ldhs.page-order .block-order-style .row-hs-style-check .col-12-1 {
+    display: none;
+}
+.m-huishou-partner-ldhs .block-order > .block-inner {
+    padding-top: 0.53rem;
+    position: relative;
+}
+
+.m-huishou-partner-ldhs .block-order-shangmen .row-hs-style-check {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 52%;
+    height: .53rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    padding: 0 0;
+}
+
+.m-huishou-partner-ldhs .block-order-youji .row-hs-style-check {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: .53rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+}
+
+.m-huishou-partner-ldhs .service-type-icon {
+    height: 0 !important;
+    width: 0 !important;
+}
+
+.m-huishou-partner-ldhs .icon-youjihuishou:before {
+    content: '';
+}
+
+.m-huishou-partner-ldhs .icon-shangmenhuishou:before {
+    content: '';
+}
+
+.m-huishou-partner-ldhs .block-order-shangmen .col-12-4, .m-huishou-partner-ldhs .block-order-youji .col-12-4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .2rem;
+    font-weight: 600;
+}
+
+.m-huishou-partner-ldhs .block-order-shangmen .col-12-6, .m-huishou-partner-ldhs .block-order-youji .col-12-6 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .2rem;
+
+}
+.m-huishou-partner-ldhs .block-order-shangmen .col-12-6 span{
+    text-align: center;
+    /*width: 85%;*/
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+.m-huishou-partner-ldhs .block-order-shangmen .row-hs-style-checked, .m-huishou-partner-ldhs .block-order-youji .row-hs-style-checked {
+    background-color: #fff;
+}

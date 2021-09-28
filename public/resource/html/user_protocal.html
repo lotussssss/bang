@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<style type="text/css">
+body{ padding:10px 20px;  line-height:1.86}
+
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:黑体;
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:华文细黑;
+	panose-1:2 1 6 0 4 1 1 1 1 1;}
+@font-face
+	{;
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:"\@黑体";
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:"\@楷体";
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"\@Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"\@华文细黑";
+	panose-1:2 1 6 0 4 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Calibri","sans-serif";}
+h1
+	{mso-style-link:"标题 1 Char";
+	margin-top:17.0pt;
+	margin-right:0cm;
+	margin-bottom:16.5pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:240%;
+	page-break-after:avoid;
+	font-size:22.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"批注文字 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.5pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	layout-grid-mode:char;
+	border:none;
+	padding:0cm;
+	font-size:9.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-link:"副标题 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:center;
+	line-height:130%;
+	font-size:16.0pt;
+	font-family:"Cambria","serif";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"批注主题 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.5pt;
+	font-family:"Calibri","sans-serif";
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"批注框文本 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:9.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoRMPane, li.MsoRMPane, div.MsoRMPane
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.5pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:21.0pt;
+	font-size:10.5pt;
+	font-family:"Calibri","sans-serif";}
+span.1Char
+	{mso-style-name:"标题 1 Char";
+	mso-style-link:"标题 1";
+	font-weight:bold;}
+span.Char
+	{mso-style-name:"副标题 Char";
+	mso-style-link:副标题;
+	font-family:"Cambria","serif";
+	font-weight:bold;}
+p.360, li.360, div.360
+	{mso-style-name:360正文二级编号;
+	mso-style-link:"360正文二级编号 Char";
+	margin-top:5.0pt;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:0cm;
+	line-height:15.0pt;
+	font-size:11.0pt;
+	font-family:"Arial Unicode MS","sans-serif";}
+span.360Char
+	{mso-style-name:"360正文二级编号 Char";
+	mso-style-link:360正文二级编号;
+	font-family:"Arial Unicode MS","sans-serif";}
+span.Char0
+	{mso-style-name:"批注框文本 Char";
+	mso-style-link:批注框文本;}
+span.Char1
+	{mso-style-name:"页眉 Char";
+	mso-style-link:页眉;}
+span.Char2
+	{mso-style-name:"页脚 Char";
+	mso-style-link:页脚;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+span.Char3
+	{mso-style-name:"批注文字 Char";
+	mso-style-link:批注文字;}
+span.Char4
+	{mso-style-name:"批注主题 Char";
+	mso-style-link:批注主题;
+	font-weight:bold;}
+ /* Page Definitions */
+ @page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	layout-grid:15.6pt;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+
+</style>
+
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='text-justify-trim:punctuation'>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal style="text-align:center"><span lang=EN-US style='font-size:15.0pt;font-family:黑体'>360</span><span
+style='font-size:15.0pt;font-family:黑体'>同城帮用户服务协议</span></p>
+
+<p class=MsoNormal style='line-height:20.0pt'><span lang=EN-US
+style=''>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:20.0pt'><span style=''>欢迎使用<span
+lang=EN-US>360</span>同城帮服务！</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style=''>360</span><span
+style=''>同城帮（<span lang=EN-US>bang.360.cn</span>）针对用户（定义见下文）所提供的各项服务的所有权和经营权均归天津奇思科技有限公司及其关联公司（下称<span
+lang=EN-US>“360”</span>）所有。<span lang=EN-US>360</span>同城帮用户服务协议（以下简称<span
+lang=EN-US>“</span>本协议<span lang=EN-US>”</span>）系由<span lang=EN-US>360</span>同城帮用户与<span
+lang=EN-US>360</span>就<span lang=EN-US>360</span>同城帮服务的各项内容所订立的相关权利义务规范。<span
+lang=EN-US>360</span>同城帮用户通过注册<span lang=EN-US>360</span>账号并使用<span lang=EN-US>360</span>同城帮服务，即表示接受并同意本协议的所有条件和条款。</span></p>
+
+<p class=MsoNormal><span lang=EN-US style=''>&nbsp;</span></p>
+
+<p class=MsoNormal><span style=''>如用户不同意本协议及<span lang=EN-US>/</span>或<span
+lang=EN-US>360</span>随时对其的修改或补充内容，用户应不使用或主动取消<span lang=EN-US>360</span>提供的服务；用户的使用行为或接受<span
+lang=EN-US>360</span>同城帮提供的任何服务将被视为用户对本协议条款全部内容的完全接受，包括接受<span lang=EN-US>360</span>对本协议条款随时所做的任何修改和补充。本协议内容包括协议正文及所有<span
+lang=EN-US>360</span>同城帮已经发布的或将来可能发布的各类规则。所有规则为协议不可分割的一部分，与协议正文具有同等法律效力。</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:-21.25pt'><b><span
+lang=EN-US style='font-size:11.0pt;'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></b><b><span style='font-size:11.0pt;'>重要定义</span></b></p>
+
+<p class=MsoListParagraph style='margin-left:22.5pt;text-indent:0cm'><span
+lang=EN-US style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>1.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style='font-size:11.0pt;'>360</span><span
+style='font-size:11.0pt;'>同城帮，是指由<span lang=EN-US>360</span>所拥有、控制和运营的网络平台（<span
+lang=EN-US>bang.360.cn</span>）。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>1.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style='font-size:11.0pt;'>360</span><span
+style='font-size:11.0pt;'>同城帮服务，是指<span lang=EN-US>360</span>同城帮作为<span
+lang=EN-US>360</span>同城帮消费者和<span lang=EN-US>360</span>同城帮商户进行交易的第三方媒介平台，为交易双方提供的居间服务，<span
+lang=EN-US>360</span>同城帮向<span lang=EN-US>360</span>同城帮用户提供的<span lang=EN-US>360</span>网管服务，及<span
+lang=EN-US>360</span>同城帮不时推出的其他服务。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>1.3.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style='font-size:11.0pt;'>360</span><span
+style='font-size:11.0pt;'>同城帮用户，是指注册了<span lang=EN-US>360</span>账号，符合本协议所规定的条件，同意遵守<span
+lang=EN-US>360</span>同城帮各种规则、条款（包括但不限于本协议），并使用<span lang=EN-US>360</span>同城帮服务的个人或机构（以下简称“用户”）。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>1.4.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style='font-size:11.0pt;'>360</span><span
+style='font-size:11.0pt;'>同城帮商户，是指通过<span lang=EN-US>360</span>同城帮商户审核后，在<span
+lang=EN-US>360</span>同城帮出售或提供物品的用户（以下简称“商户”）。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>1.5.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style='font-size:11.0pt;'>360</span><span
+style='font-size:11.0pt;'>同城帮消费者，是指完成<span lang=EN-US>360</span>同城帮用户注册程序，并购买或使用商户和<span
+lang=EN-US>/</span>或<span lang=EN-US>360</span>物品的用户（以下简称“消费者”）。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>1.6.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:11.0pt;'>物品，是指一切可供依法交易的、有形的或无形的、以各种形态存在的某种具体的物品，或某种权利或利益，或某种服务或行为。本协议中“物品”一词均含此义。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>1.7.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:11.0pt;'>订单，是指消费者根据商户和<span
+lang=EN-US>/</span>或<span lang=EN-US>360</span>所刊登的交易要求，在特定时间内提出交易需求，商户和<span
+lang=EN-US>/</span>或<span lang=EN-US>360</span>接受该需求，双方就该交易的达成所形成的共同意思表示。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>1.8.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:11.0pt;'>货款，指订单成立后，交易双方中的付款方依据订单信息或其与交易对方的约定而应向交易对方支付的物品对价。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>1.9.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:11.0pt;'>付款方，是指发生交易的双方中，因购买或使用交易对方提供的物品而负有支付货款义务的一方。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>1.10.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:11.0pt;'>交易对方，是指就一方而言，与其发生交易的另一方。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>1.11.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:11.0pt;'>“知识产权”，指任何专利、著作权、商标、域名、精神权利、商业秘密或依法产生的任何其他知识产权以及所有附属和相关的权利，包括所有注册权、续展权以及对违约、侵占或侵害任一前述权利进行起诉的权利。</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:-21.25pt'><b><span
+lang=EN-US style='font-size:11.0pt;'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></b><b><span style='font-size:11.0pt;'>服务内容</span></b></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:0cm'><b><span
+lang=EN-US style='font-size:11.0pt;'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:11.0pt;'>360</span><span
+style='font-size:11.0pt;'>同城帮用户服务内容包括本协议正文及所有<span lang=EN-US>360</span>同城帮已经发布的或将来可能发布的各类规则，具体内容由<span
+lang=EN-US>360</span>根据实际情况提供，包括但不限于：</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>2.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:11.0pt;'>用户可以注册<span
+lang=EN-US>360</span>用户账户并予以使用和管理；</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>2.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:11.0pt;'>消费者和商户可以发布、浏览、查询物品及服务信息，进行信息交流，达成交易意向，及提供其他与交易有关的辅助信息服务的空间；</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>2.3.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:11.0pt;'>消费者可以与提供物品的商户进行交易，包括但不限于使用<span
+lang=EN-US>360</span>用户账户购买物品，并针对交易结果进行评价，将有争议的订单提交<span lang=EN-US>360</span>同城帮予以仲裁裁决等；</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>2.4.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:11.0pt;'>用户可以购买<span
+lang=EN-US>360</span>同城帮提供的<span lang=EN-US>360</span>网管服务，由<span lang=EN-US>360</span>同城帮专业解决其设备的<span
+lang=EN-US>IT</span>问题；</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>2.5.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:11.0pt;'>用户可以参加<span
+lang=EN-US>360</span>同城帮的有关活动及有权享受<span lang=EN-US>360</span>同城帮提供的其他的有关资讯及信息服务；</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style='font-size:11.0pt;'>2.6.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style='font-size:11.0pt;'>有权使用<span
+lang=EN-US>360</span>同城帮不时推出的其他服务。</span></p>
+
+<p class=MsoNormal><span lang=EN-US style=''>360</span><span
+style='font-size:11.0pt;'>同城帮</span><span style=''>保留对服务内容和服务模式进行调整的权利，包括但不限于增加或者减少服务项目、对免费服务进行收费、提高或降低收费标准等。</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:11.0pt;'>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:-21.25pt'><b><span
+lang=EN-US style='font-size:11.0pt;'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></b><b><span style='font-size:11.0pt;'>服务使用规范</span></b></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:0cm'><b><span
+lang=EN-US style='font-size:11.0pt;'>&nbsp;</span></b></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>3.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>用户在申请使用<span lang=EN-US>360</span>同城帮服务时，必须向<span
+lang=EN-US>360</span>提供准确的个人资料。如个人资料有任何变动，必须及时更新。用户有义务确保其向<span lang=EN-US>360</span>同城帮提供的任何资料、注册信息的真实性、完整性和准确性，包括但不限于真实姓名、身份证号、联系方式、地址等，保证<span
+lang=EN-US>360</span>和<span lang=EN-US>/</span>或消费者和<span lang=EN-US>/</span>或商户可以通过上述联系方式与该用户进行联系。同时，用户也有义务在相关资料实际变更时及时更新有关资料。否则，用户应当承担由此可能造成的一切不利后果。<span
+lang=EN-US>360</span>有权对用户的注册资料进行随时查阅，对存在任何问题或怀疑的注册资料，<span lang=EN-US>360</span>有权发出通知询问用户并要求用户做出解释、改正，或直接做出处罚乃至删除账户并终止向用户提供服务等处理。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>3.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style=''>360</span><span
+style=''>账户注册成功后，用户将获得由<span lang=EN-US>360</span>分配的一个密码和账号，用户应当妥善保管其账号及相关密码，并对以该账户进行的所有活动和事件负全部责任（包括但不限于重新设置账户密码）。除非有法律规定或行政司法机关的指令，且征得<span
+lang=EN-US>360</span>同城帮的同意，否则，账户和密码不得以任何方式转让、赠与或继承（与账户相关的财产权益除外）。如果发现任何人不当使用您的账户或有任何其他可能危及您的账户安全的情形时，您应当立即以有效方式通知<span
+lang=EN-US>360</span>同城帮，要求<span lang=EN-US>360</span>同城帮暂停相关服务。您理解<span
+lang=EN-US>360</span>同城帮对您的请求采取行动需要合理时间，<span lang=EN-US>360</span>同城帮对在采取行动前已经产生的后果（包括但不限于您的任何损失）不承担任何责任。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>3.3.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>用户了解并同意，<span lang=EN-US>360</span>同城帮有权应政府部门（包括司法及行政部门）的要求，向其提供用户在<span
+lang=EN-US>360</span>同城帮平台填写的注册信息和发布纪录等必要信息。 </span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>3.4.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style=''>360</span><span
+style=''>同城帮非常重视对青少年个人信息搜集和使用的安全性的保护。<span lang=EN-US>360</span>同城帮建议，任何未满<span
+lang=EN-US>18</span>周岁的未成年人参加网上活动应事先取得其监护人（以下简称<span lang=EN-US>&quot;</span>监护人<span
+lang=EN-US>&quot;</span>）的同意并遵守《青少年网络文明公约》。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>3.5.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>用户理解并接受，<span lang=EN-US>360</span>仅提供与<span
+lang=EN-US>360</span>同城帮相关的网络服务，除此之外与相关网络服务有关的设备（如个人电脑、手机、及其他与接入互联网或移动互联网有关的装置）及所需的费用（如为接入互联网而支付的电话费及上网费、为使用移动网而支付的手机费）均应由用户自行负担。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>3.6.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>用户在使用<span lang=EN-US>360</span>同城帮服务过程中，必须遵循以下原则：</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>遵守中国有关的法律和法规，以及各种社会公共利益或公共道德；</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>遵守所有与网络服务有关的网络协议、规定和程序；</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>不得以任何机器人软件、蜘蛛软件、爬虫软件、刷屏软件或其它自动方式访问或登录<span
+lang=EN-US>360</span>同城帮；</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(4)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>不得为任何非法目的而使用网络服务系统；</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(5)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>不得利用<span lang=EN-US>360</span>网络服务系统进行任何可能对互联网或移动网正常运转造成不利影响的行为；</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(6)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>不得利用<span lang=EN-US>360</span>提供的网络服务上传、展示或传播任何虚假的、骚扰性的、中伤他人的、辱骂性的、恐吓性的、庸俗淫秽的或其他任何非法的信息资料；</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(7)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>不得侵犯<span lang=EN-US>360</span>和其他任何第三方的专利权、著作权、商标权、名誉权或其他任何合法权益；</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(8)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>遵守<span lang=EN-US>360</span>同城帮页面公布之活动规则，包括但不限于不得发布虚假信息、作弊或通过其他手段进行虚假交易；</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(9)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>不得利用<span lang=EN-US>360</span>网络服务系统进行任何不利于<span
+lang=EN-US>360</span>的行为；</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(10)<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>如发现任何非法使用用户账号或账号出现安全漏洞的情况，应立即通告<span
+lang=EN-US>360</span>。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>3.7.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>如用户在使用网络服务时违反任何上述规定，<span
+lang=EN-US>360</span>或其授权人有权要求用户改正或直接采取一切必要的措施（包括但不限于更改或删除用户收藏的内容等、暂停或终止用户使用网络服务的权利），以减轻用户不当行为造成的影响。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:0cm'><span
+lang=EN-US style=''>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:-21.25pt'><b><span
+lang=EN-US style=''>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></b><b><span style=''>货款的收取和结算</span></b></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:0cm'><b><span
+lang=EN-US style=''>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style=''>关于消费者与商户之间的交易</span></p>
+
+<p class=MsoNormal style='text-indent:21.1pt'><b><span lang=EN-US
+style=''>&nbsp;</span></b></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>4.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>为确保付款方在交易完成后向交易对方支付货款，付款方应在订单成立后按照相应的交易规则的规定将相应货款通过支付系统交由<span
+lang=EN-US>360</span>同城帮代管；交易对方在<span lang=EN-US>360</span>同城帮收到货款后应尽快按照订单描述向付款方提供物品。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>4.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style=''>360</span><span
+style=''>同城帮将根据付款方指示或相应的交易规则的规定将代管的货款支付给交易对方。即，在付款方向<span
+lang=EN-US>360</span>同城帮发送关于交易对方已向付款方提供与订单描述一致的物品的确认后，<span lang=EN-US>360</span>同城帮将按照相应的交易规则的规定将代管的货款支付给交易对方。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>4.3.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>如因交易对方注册信息和<span lang=EN-US>/</span>或所提供的账户信息不完整、不正确而导致其无法收到前述货款的，其应独立承担因此造成的损失，<span
+lang=EN-US>360</span>同城帮免予承担任何责任。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:0cm'><span
+lang=EN-US style=''>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:0cm'><span
+style=''>关于消费者与<span lang=EN-US>360</span>之间的交易</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:0cm'><span
+lang=EN-US style=''>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>4.4.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>消费者应就购买<span lang=EN-US>360</span>网管服务，在订单成立后按照相应的交易规则的规定将相应货款支付给<span
+lang=EN-US>360</span>。</span></p>
+
+<p class=MsoNormal><span lang=EN-US style=''>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:-21.25pt'><b><span
+lang=EN-US style='font-size:11.0pt;'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></b><b><span style='font-size:11.0pt;'>处理交易争议</span></b></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:0cm'><b><span
+lang=EN-US style=''>&nbsp;</span></b></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>5.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>用户完全理解并不可撤销地授权<span lang=EN-US>360</span>同城帮或用户与<span
+lang=EN-US>360</span>同城帮一致同意的第三方，根据本协议及<span lang=EN-US>360</span>同城帮相关规则的规定，处理消费者与商户之间在<span
+lang=EN-US>360</span>同城帮平台上发生的所有交易及可能产生的交易纠纷。据此，用户同意<span lang=EN-US>360</span>同城帮有权依据消费者和商户共同提出的仲裁申请，对消费者和商户之间的交易纠纷进行单方判断，并予以仲裁裁决，该裁决结果对消费者和商户均具有法律约束力。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>5.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>用户理解并同意，<span lang=EN-US>360</span>同城帮并非司法机构，仅能以普通人的身份及知识对证据进行鉴别，<span
+lang=EN-US>360</span>同城帮对争议的仲裁完全是基于用户不可撤销得授权，其无法保证争议处理结果符合用户的期望，也不对争议调处结论承担任何责任。如用户因此遭受损失，则应自行向受益人索偿。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>5.3.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>用户理解并同意，商户公布在<span lang=EN-US>360</span>同城帮上的交易物品是商户自主上传进行交易的物品，并非<span
+lang=EN-US>360</span>同城帮所有，<span lang=EN-US>360</span>同城帮的前述介入行为并不意味着<span
+lang=EN-US>360</span>同城帮对商户物品的真实性、合法性及有效性作出担保，也不意味着<span lang=EN-US>360</span>成为商户在<span
+lang=EN-US>360</span>同城帮上与消费者所进行交易的参与者。</span></p>
+
+<p class=MsoNormal><a name="_GoBack"></a><span lang=EN-US style='font-family:
+楷体'>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:-21.25pt'><b><span
+lang=EN-US style='font-size:11.0pt;'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></b><b><span style='font-size:11.0pt;'>服务的终止</span></b></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:0cm'><b><span
+lang=EN-US style=''>&nbsp;</span></b></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>6.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>鉴于网络服务的特殊性，用户同意<span lang=EN-US>360</span>有权根据业务发展情况随时变更、中断或终止部分或全部的网络服务而无需通知用户，也无需对任何用户或任何第三方承担任何责任。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>6.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>用户可以向<span lang=EN-US>360</span>同城帮提出注销<span
+lang=EN-US>360</span>同城帮注册用户身份，经<span lang=EN-US>360</span>同城帮审核同意，由<span
+lang=EN-US>360</span>同城帮注销该注册用户，用户即解除与<span lang=EN-US>360</span>同城帮的协议关系。 </span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>6.3.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>因用户违反相关法律法规或者违反本协议中的任何承诺或保证，包括但不限于本协议项下的任何约定，<span
+lang=EN-US>360</span>同城帮均有权立刻终止本协议，且按有关规则对用户进行处罚。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>6.4.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>根据相关法令的指定或者<span lang=EN-US>360</span>同城帮服务规则的判断，当用户的行为涉嫌违反法律法规的规定或违反本协议和<span
+lang=EN-US>/</span>或规则的条款的，<span lang=EN-US>360</span>同城帮有权采取相应措施，包括但不限于直接屏蔽、删除侵权信息、降低用户的信用值（如有）或直接停止提供服务。
+</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>6.5.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>对于用户在<span lang=EN-US>360</span>同城帮平台上实施的行为，包括用户未在<span
+lang=EN-US>360</span>同城帮平台上实施但已经对<span lang=EN-US>360</span>同城帮平台及其他用户产生影响的行为，<span
+lang=EN-US>360</span>同城帮有权单方认定用户行为的性质及是否构成对本协议和<span lang=EN-US>/</span>或规则的违反，并据此采取相应的处理措施。用户应自行保存与用户行为有关的全部证据，并应对无法提供证据而承担的不利后果。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>6.6.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>对于用户涉嫌违反承诺的行为对任意第三方造成损害的，用户均应当以自己的名义独立承担所有的法律责任，并应确保<span
+lang=EN-US>360</span>同城帮免于承担因此产生的损失或增加的费用。 </span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>6.7.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>如用户涉嫌违反有关法律或者本协议之规定，使<span
+lang=EN-US>360</span>同城帮遭受任何损失，或受到任何第三方的索赔，或受到任何行政管理部门的处罚，用户应当赔偿<span
+lang=EN-US>360</span>同城帮因此造成的损失及（或）发生的费用，包括合理的律师费用。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>6.8.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>协议终止后，<span lang=EN-US>360</span>同城帮没有义务为用户保留<span
+lang=EN-US>360</span>同城帮服务账户中或与之相关的任何信息，或转发任何未曾阅读或发送的信息给用户或第三方，亦不就终止协议而对用户或任何第三者承担任何责任。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>6.9.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>用户同意，协议终止后，<span lang=EN-US>360</span>同城帮仍享有下列权利：
+</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>继续保存用户的注册信息及用户使用<span lang=EN-US>360</span>同城帮平台服务期间发布的所有信息；</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>用户在使用<span lang=EN-US>360</span>同城帮平台服务期间存在违法行为或违反本协议和<span
+lang=EN-US>/</span>或规则的行为的，<span lang=EN-US>360</span>同城帮仍可依据本协议向用户主张权利。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:0cm'><span
+lang=EN-US style=''>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:-21.25pt'><b><span
+lang=EN-US style=''>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></b><b><span style=''>知识产权</span></b></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:0cm'><b><span
+lang=EN-US style=''>&nbsp;</span></b></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>7.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style=''>360</span><span
+style=''>是<span lang=EN-US>360</span>同城帮的所有者及运营方<span lang=EN-US>,</span>拥有<span
+lang=EN-US>360</span>同城帮内容及资源的版权<span lang=EN-US>,</span>受知识产权法律法规及规范性文件的保护<span
+lang=EN-US>,</span>享有对<span lang=EN-US>360</span>同城帮各种协议、声明的修改权；未经<span
+lang=EN-US>360</span>的明确书面许可，任何第三方不得为任何非私人或商业目的获取或使用<span lang=EN-US>360</span>同城帮的任何部分或通过<span
+lang=EN-US>360</span>同城帮可直接或间接获得的任何内容、服务或资料。任何第三方违反本协议的规定以任何方式，和<span
+lang=EN-US>/</span>或以任何文字对<span lang=EN-US>360</span>同城帮的任何部分进行发表、复制、转载、更改、引用、链接、下载或以其他方式进行使用，或向任何其他第三方提供获取<span
+lang=EN-US>360</span>同城帮任何内容的渠道，则对<span lang=EN-US>360</span>同城帮的使用权将立即终止，且任何第三方必须按照<span
+lang=EN-US>360</span>的要求，归还或销毁使用<span lang=EN-US>360</span>同城帮任何部分的内容所创建的资料的任何副本。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>7.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style=''>360</span><span
+style=''>未向任何第三方转让<span lang=EN-US>360</span>同城帮或其中的任何内容所相关的任何权益或所有权，且一切未明确向任何第三方授予的权利均归<span
+lang=EN-US>360</span>所有。未经本协议明确允许而擅自使用<span lang=EN-US>360</span>同城帮任何内容、服务或资料的，构成对本协议的违约行为，且可能触犯著作权、商标、专利和<span
+lang=EN-US>/</span>或其他方面的法律法规，<span lang=EN-US>360</span>保留对任何违反本协议规定的第三方（包括单位或个人等）提起法律诉讼的权利。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>7.3.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>用户授予<span lang=EN-US>360</span>免费的、非独占的、世界范围内的、永久的、不可撤销的权利和许可，对用户的任何以及全部资料进行使用、复制、演示、展示、分发、改编、修改、重新排版、制作衍生作品以及商业化或非商业化，并可再许可前述权利，惟其前提是，<span
+lang=EN-US>360</span>不会更改用户所提供的商标的形式（除非为了推广介绍的目的而改变商标的大小，前提是相关比例保持不变），并将遵守用户就其商标的特定使用提出的移除商标的要求（如果用户不能通过<span
+lang=EN-US>360</span>同城帮或服务提供的标准化功能进行此操作），然而，如果未经用户同意，但依据所适用法律未经用户授权仍允许使用的资料（例如，著作权法项下的合理使用或第三方的有效许可），则本协议的任何规定均不阻止或者损害<span
+lang=EN-US>360</span>使用该等资料的权利。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:0cm'><span
+lang=EN-US style=''>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:-21.25pt'><b><span
+lang=EN-US style=''>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></b><b><span style=''>免责与责任限制</span></b></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:0cm'><b><span
+lang=EN-US style=''>&nbsp;</span></b></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>8.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>用户了解并同意，<span lang=EN-US>360</span>同城帮不对因下述任一情况而导致用户的任何损害赔偿承担责任，包括但不限于利润、商誉、使用、数据等方面的损失或其它无形损失的损害赔偿<span
+lang=EN-US> (</span>无论<span lang=EN-US>360</span>同城帮是否已被告知该等损害赔偿的可能性<span
+lang=EN-US>)</span>：</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>使用或未能使用<span lang=EN-US>360</span>同城帮平台服务；</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>第三方未经批准的使用用户的账户或更改用户数据；</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>通过<span lang=EN-US>360</span>同城帮平台服务购买或获取任何商品、样品、数据、信息等行为或替代行为产生的费用及损失；</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(4)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>用户对<span lang=EN-US>360</span>同城帮平台服务的误解；</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(5)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>任何非因<span lang=EN-US>360</span>同城帮的原因而引起的与<span
+lang=EN-US>360</span>同城帮平台服务有关的其它损失。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>8.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span style=''>用户了解<span lang=EN-US>360</span>同城帮平台上的信息系用户自行发布，且可能存在风险和瑕疵。用户应自行谨慎判断确定相关信息的真实性、合法性和有效性，并自行承担因此产生的责任与损失。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>8.3.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style=''>360</span><span
+style=''>有义务在现有技术水平的基础上努力确保整个网上交易平台的正常运行，尽力避免服务中断或将中断时间（如有）限制在最短时间内，保证用户网上交易活动的顺利进行。但<span
+lang=EN-US>360</span>同城帮服务不作任何明示或暗示的保证，包括但不限于<span lang=EN-US>360</span>同城帮服务的适用性、没有错误或疏漏、持续性、准确性、可靠性、适用于某一特定用途。同时，<span
+lang=EN-US>360</span>同城帮也不对其服务所涉及的技术及信息的有效性、准确性、正确性、可靠性、质量、稳定、完整和及时性作出任何承诺和保证。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>8.4.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style=''>360</span><span
+style=''>同城帮对由于政府行为譬如政策或法规的变更、自然灾害或战争、通讯线路中断、黑客攻击、计算机病毒侵入或发作、电信部门技术调整、因政府管制而造成网站的暂时性关闭等任何影响网络正常运营的不可抗力事件，以及他人蓄意破坏、正常的系统维护、系统升级，或者因网络拥塞而导致<span
+lang=EN-US>360</span>同城帮不能访问而造成的<span lang=EN-US>360</span>同城帮所提供的信息及数据的延误、停滞或错误，以及使用者由此受到的一切损失不承担任何责任。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>8.5.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style=''>360</span><span
+style=''>同城帮不对用户所发布信息的保存、修改、删除或储存失败负责。对网站上的非因<span lang=EN-US>360</span>同城帮故意所导致的排字错误、疏忽等不承担责任。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>8.6.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style=''>360</span><span
+style=''>同城帮有权但无义务，改善或更正网站任何部分之疏漏、错误。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:0cm'><span
+lang=EN-US style=''>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:-21.25pt'><b><span
+lang=EN-US style=''>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></b><b><span style=''>隐私权保护</span></b></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:0cm'><b><span
+lang=EN-US style=''>&nbsp;</span></b></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>9.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style=''>360</span><span
+style=''>制定了严格的用户上传信息处理规则和安全保护措施来确保不超越目的和范围收集用户信息，确保用户上传信息的安全，确保用户上传信息不被滥用。除征得用户明确同意和法律明确规定外，<span
+lang=EN-US>360</span>不会向任何第三方提供用户上传文件及信息：</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>9.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN-US style=''>360</span><span
+style=''>制定了以下四项隐私权保护原则，指导我们如何来处理产品中涉及到用户隐私权和用户信息等方面的问题 </span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>利用我们收集的信息为用户提供有价值的产品和服务。</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>开发符合隐私权标准和隐私权惯例的产品。</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>将个人信息的收集透明化，并由权威第三方监督。</span></p>
+
+<p class=MsoListParagraph style='margin-left:2.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>(4)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style=''>尽最大的努力保护我们掌握的信息。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:0cm'><span
+style=''>您可通过<span lang=EN-US>360</span>安全中心网站查看我们有关隐私保护的详细内容，网址为：<a target="_blank" href="http://www.360.cn/privacy/v2/index.html">http://www.360.cn/privacy/v2/index.html</a></span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:0cm'><span
+lang=EN-US style=''>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:-21.25pt'><b><span
+lang=EN-US style=''>10.<span style='font:7.0pt "Times New Roman"'>
+</span></span></b><b><span style=''>争议解决方式</span></b></p>
+
+<p class=MsoNormal><span lang=EN-US style=''>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>10.1.<span style='font:7.0pt "Times New Roman"'>
+</span></span><span style=''>本协议的订立、执行和解释及争议的解决均应适用中国法律。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>10.2.<span style='font:7.0pt "Times New Roman"'>
+</span></span><span style=''>如双方就本合同内容或其执行发生任何争议，双方应进行友好协商；因本合同引起的或与本合同有关的任何争议，均提请北京仲裁委员会按照该会仲裁规则进行仲裁。仲裁裁决是终局的，对双方均有约束力。</span></p>
+
+<p class=MsoNormal><span lang=EN-US style=''>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:-21.25pt'><b><span
+lang=EN-US style=''>11.<span style='font:7.0pt "Times New Roman"'>
+</span></span></b><b><span style=''>其他条款</span></b></p>
+
+<p class=MsoNormal><span lang=EN-US style=''>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>11.1.<span style='font:7.0pt "Times New Roman"'>
+</span></span><span style=''>用户与<span lang=EN-US>360</span>就<span
+lang=EN-US>360</span>同城帮服务事宜签署了其他协议（如有）的，其他协议将作为本协议的补充和附件，与本协议具有同等法律效力。用户承诺同时遵守本协议和其他协议的约定。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>11.2.<span style='font:7.0pt "Times New Roman"'>
+</span></span><span style=''>如果本协议中的任何条款无论因何种原因完全或部分无效或不具有执行力，或违反任何适用的法律，则该条款被视为删除，但本协议的其余条款仍应有效并且有约束力。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>11.3.<span style='font:7.0pt "Times New Roman"'>
+</span></span><span lang=EN-US style=''>360</span><span
+style=''>有权随时根据有关法律、法规的变化以及公司经营状况和经营策略的调整等修改本协议。当发生有关争议时，以最新的协议文本为准。如果不同意改动的内容，用户可以自行停止使用本服务。如果用户继续使用本服务，则视为您接受本协议的变动。</span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0cm;text-indent:-1.0cm'><span
+lang=EN-US style=''>11.4.<span style='font:7.0pt "Times New Roman"'>
+</span></span><span lang=EN-US style=''>360</span><span
+style=''>在法律允许最大范围内对本协议拥有解释权与修改权。</span></p>
+
+</div>
+
+</body>
+
+</html>

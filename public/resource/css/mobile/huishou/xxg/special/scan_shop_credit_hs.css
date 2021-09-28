@@ -1,0 +1,40 @@
+.page-xxg-special-scan-shop-credit-hs {
+}
+
+.page-xxg-special-scan-shop-credit-hs .block-shop-hs-order-info {
+    padding: .1rem;
+    line-height: .32rem;
+    background-color: #fff;
+}
+
+.page-xxg-special-scan-shop-credit-hs .block-shop-hs-order-info .col-left-fixed {
+    width: .75rem;
+}
+
+.page-xxg-special-scan-shop-credit-hs .block-shop-hs-order-info .row-credit-price {
+    color: #ff4500;
+}
+
+.page-xxg-special-scan-shop-credit-hs .block-shop-hs-order-info .row-desc {
+    padding: .2rem 0;
+    line-height: 1.6;
+    font-size: .14rem;
+    text-align: center;
+    color: #ff4500;
+}
+
+.page-xxg-special-scan-shop-credit-hs .block-shop-hs-order-info .row-btn {
+}
+
+.page-xxg-special-scan-shop-credit-hs .block-shop-hs-order-info .row-btn .btn {
+    width: 100%;
+    height: .42rem;
+    line-height: .42rem;
+    font-size: .14rem;
+    border-radius: 0;
+    background-color: #ff4500;
+    text-align: center;
+}
+.page-xxg-special-scan-shop-credit-hs .block-shop-hs-order-info .row-btn .btn.btn-disabled {
+    background: #ddd;
+}

@@ -1,0 +1,203 @@
+.page-zhimacredit-order-detail{
+    min-height: 100%;
+    color: #666;
+}
+.page-zhimacredit-order-detail #Main .main-inner{
+    padding-bottom: .5rem;
+}
+.page-zhimacredit-order-detail .block{
+    background-color: #fff;
+}
+.page-zhimacredit-order-detail .row{
+    margin-left: .1rem;
+    margin-right: .1rem;
+}
+.page-zhimacredit-order-detail .row-title{
+    line-height: 2.6;
+    font-size: .12rem;
+    color: #000;
+}
+
+/*订单商品信息*/
+.block-order-detail-product .row-title{
+    padding-left: .24rem;
+    background: url(https://p1.ssl.qhmsg.com/t012565b1f8f4b4f73b.png) no-repeat 0 center;
+    background-size: .2rem;
+}
+.block-order-detail-product .row-credit-price{
+    margin: 0;
+    padding: .04rem .1rem;
+    background-color: #e0e0e0;
+    color: #000;
+    font-weight: bold;
+}
+.block-order-detail-product .row-credit-price .col-12-9{
+    padding-left: .24rem;
+    background: url(https://p1.ssl.qhmsg.com/t014c54e3e9eaaa37a0.png) no-repeat 0;
+    background-size: contain;
+}
+.block-order-detail-product .row-credit-price .col-12-3{
+    text-align: right;
+}
+
+.block-order-detail-product .row-shop-hs-xxg-info{
+    margin: 0;
+    padding: .1rem .1rem .1rem .34rem;
+    background-color: #e0e0e0;
+}
+.block-order-detail-product .row-shop-hs-xxg-info b{
+    color: #f50;
+}
+
+.block-order-detail-product .row-price{
+    padding-bottom: .04rem;
+}
+.block-order-detail-product .row-price .col-12-4{
+    text-align: right;
+    color: #f50;
+}
+.block-order-detail-product .row-price .btn-view-check-info{
+    margin: 0 auto;
+    display: block;
+    width: .8rem;
+    font-size: .12rem;
+    color: #4088CB;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.block-order-detail-product .row-promo-code .col-12-4{
+    text-align: right;
+}
+
+.block-order-detail-product .row-product{
+
+}
+
+.block-order-detail-product .row-product .col-left-fixed{
+    margin-right: .1rem;
+    width: .55rem;
+    height: .55rem;
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*订单状态信息*/
+.block-order-detail-status{}
+.block-order-detail-status .row{
+    padding-left: .24rem;
+}
+.block-order-detail-status .row-title{
+    background: url(https://p1.ssl.qhmsg.com/t0196036fc0825e60a1.png) no-repeat 0 center;
+    background-size: .2rem;
+}
+
+/*订单快递信息*/
+.block-order-detail-express{}
+.block-order-detail-express .row{
+    padding-left: .24rem;
+}
+.block-order-detail-express .row-title{
+    background: url(https://p2.ssl.qhmsg.com/t0143f43e4f7a6ac02d.png) no-repeat 0 center;
+    background-size: .2rem;
+}
+.block-order-detail-express .row-fill-express-info{
+    padding: 0;
+}
+.block-order-detail-express .btn-fill-express-info{
+    margin: 0 auto;
+    display: block;
+    width: .8rem;
+    font-size: .12rem;
+    color: #4088CB;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*订单上门信息*/
+.block-order-detail-shangmen-info{}
+.block-order-detail-shangmen-info .row{
+    padding-left: .24rem;
+}
+.block-order-detail-shangmen-info .row-title{
+    background: url(https://p2.ssl.qhmsg.com/t0143f43e4f7a6ac02d.png) no-repeat 0 center;
+    background-size: .2rem;
+}
+
+
+/*订单基本信息*/
+.block-order-detail-basic{}
+.block-order-detail-basic .col-right{
+    color: #999;
+}
+
+
+/**/
+.page-zhimacredit-order-detail .block-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: .1rem;
+    max-width: 1080px;
+    min-width: 320px;
+    text-align: right;
+}
+.page-zhimacredit-order-detail .block-bottom .btn{
+    padding: 0 .1rem;
+    display: inline-block;
+    height: .28rem;
+    line-height: .28rem;
+    font-size: .12rem;
+    color: #999;
+    text-align: center;
+}
+/**/
+
+
+/* 添加快递信息 */
+.page-zhimacredit-order-detail .dialog-mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.page-zhimacredit-order-detail .dialog-add-express-no .dialog-inner{
+    background-color: #fff;
+}
+.page-zhimacredit-order-detail .dialog-add-express-no .hd{
+    font-size: .2rem;
+    text-align: center;
+    line-height: 2.2;
+}
+.page-zhimacredit-order-detail .dialog-add-express-no .row{
+    margin-bottom: .1rem;
+    line-height: .36rem;
+}
+.page-zhimacredit-order-detail .dialog-add-express-no .col-left-fixed{
+    width: 1rem;
+    text-align: right;
+}
+.page-zhimacredit-order-detail .dialog-add-express-no .col-right{
+    margin-left: 1rem;
+}
+.page-zhimacredit-order-detail .dialog-add-express-no .btn{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    border: 0;
+    border-bottom: 2px solid #FB4808;
+    font-size: .14rem;
+    background: #FC7A00;
+    color: #fff;
+}
+.page-zhimacredit-order-detail .dialog-add-express-no .btn:hover{
+    background: #f07800;
+}

@@ -1,0 +1,293 @@
+html,body{
+    background: #fff;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+.errorblink{
+    border: 1px solid #fb0909 !important;
+}
+.relative{
+    position: relative;
+}
+.f12{font-size: 12px;}
+.w100{width: 100%;}
+/*行的基本模式*/
+.block,.row,
+.col-2-1,
+.col-4-1,
+.col-left-fixed, .col-left,
+.col-right,.col-right-fixed{
+    display: block;
+}
+.row:after{
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    content: '\20';
+}
+.row{
+    zoom: 1;
+    clear: both;
+}
+.col-2-1,
+.col-4-1,
+.col-left-fixed{
+    float: left;
+}
+.col-2-1{
+    width: 50%;
+}
+.col-4-1{
+    width: 25%;
+}
+.col-right-fixed{
+    float: right;
+}
+/*END行的基本模式*/
+/* 箭头 */
+.arrow-down,
+.arrow-right{
+    position: relative;
+}
+.arrow-right:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 6px;
+    top: 50%;
+    margin-top: -7px;
+    border-top: 2px solid #CCCCCC;
+    border-right: 2px solid #CCCCCC;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.arrow-down:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 10px;
+    top: 50%;
+    margin-top: -7px;
+    border-top: 2px solid #CCCCCC;
+    border-right: 2px solid #CCCCCC;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+/* END箭头 */
+
+
+/*天猫以旧换新*/
+.page-hd-tmall{}
+.page-hd-tmall .topbar{
+    /*display: none;*/
+}
+.page-hd-tmall .block{}
+.page-hd-tmall .block .block-inner{
+    margin: 0 auto;
+    width: 960px;
+}
+.page-hd-tmall .block0{
+    background: #fff;
+}
+.page-hd-tmall .block0 .block-inner{
+    height: 61px;
+    background: url(https://p.ssl.qhimg.com/t0186f40299a7677788.jpg) no-repeat center 0;
+}
+.page-hd-tmall .block1{
+    background: #FC8A03 url(https://p.ssl.qhimg.com/t0142c98bebf87b7622.jpg) no-repeat center -1px;
+    border: 0;
+    border-top: 1px solid #FED09A;
+}
+.page-hd-tmall .block1 .block-inner{
+    position: relative;
+    height: 468px;
+    background: url(https://p.ssl.qhimg.com/t0142c98bebf87b7622.jpg) no-repeat center -1px;
+}
+.page-hd-tmall .block1 .btn-liji-huanxin{
+    position: absolute;
+    top: 369px;
+    left: 187px;
+    width: 293px;
+    height: 67px;
+    border-radius: 999px;
+}
+.page-hd-tmall .block1 .btn-liji-huanxin:hover{
+    text-decoration: none;
+}
+.page-hd-tmall .block2{
+    background: #FF9600;
+}
+.page-hd-tmall .block2 .block-inner{
+    height: 200px;
+    background: url(https://p.ssl.qhimg.com/t014ca208b74b32f458.png) no-repeat center 0;
+}
+.page-hd-tmall .block3{
+    background: #FF9600;
+}
+.page-hd-tmall .block3 .block-inner{
+    height: 200px;
+    background: url(https://p.ssl.qhimg.com/t01d3e05f44f8615772.png) no-repeat center 0;
+}
+.page-hd-tmall .block4{
+    background: #FF9600;
+}
+.page-hd-tmall .block4 .block-inner{
+    height: 200px;
+    background: url(https://p.ssl.qhimg.com/t01ef89f39e846d87f3.png) no-repeat center 0;
+}
+.page-hd-tmall .block5{
+    background: #FF9600;
+}
+.page-hd-tmall .block5 .block-inner{
+    height: 200px;
+    background: url(https://p.ssl.qhimg.com/t015c830ed91533aa53.jpg) no-repeat center 0;
+}
+.page-hd-tmall .block6{
+    background: #FF9600;
+}
+.page-hd-tmall .block6 .block-inner{
+    height: 123px;
+    background: url(https://p.ssl.qhimg.com/t01460e7e14da91f58a.png) no-repeat center 0;
+}
+
+.page-hd-tmall .block7{
+    background: #FF9600;
+}
+.page-hd-tmall .block7 .block-inner{
+    position: relative;
+    height: 99px;
+    background: url(https://p.ssl.qhimg.com/t0166c49f7432307a08.jpg) no-repeat center 0;
+}
+
+.page-hd-tmall .block7 .br{
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    display: block;
+    width: 105px;
+    height: 48px;
+}
+.page-hd-tmall .block7 .br:hover{
+    text-decoration: none;
+    box-shadow: 0 0 6px #497fcc;
+}
+.page-hd-tmall .block7 .apple{
+    left: 0px;
+}
+.page-hd-tmall .block7 .samsung{
+    left: 107px;
+}
+.page-hd-tmall .block7 .honor{
+    left: 214px;
+}
+.page-hd-tmall .block7 .meizu{
+    left: 319px;
+}
+.page-hd-tmall .block7 .xiaomi{
+    left: 426px;
+}
+.page-hd-tmall .block7 .vivo{
+    left: 533px;
+}
+.page-hd-tmall .block7 .yijia{
+    left: 640px;
+}
+.page-hd-tmall .block7 .oppo{
+    left: 747px;
+}
+.page-hd-tmall .block7 .chuizi{
+    left: 855px;
+}
+
+.page-hd-tmall .block7 .htc{
+    top: 50px;
+    left: 0px;
+}
+.page-hd-tmall .block7 .blackberry{
+    top: 50px;
+    left: 107px;
+}
+.page-hd-tmall .block7 .lg{
+    top: 50px;
+    left: 214px;
+}
+.page-hd-tmall .block7 .nokia{
+    top: 50px;
+    left: 319px;
+}
+.page-hd-tmall .block7 .letv{
+    top: 50px;
+    left: 426px;
+}
+.page-hd-tmall .block7 .motorola{
+    top: 50px;
+    left: 533px;
+}
+.page-hd-tmall .block7 .lenovo{
+    top: 50px;
+    left: 640px;
+}
+.page-hd-tmall .block7 .sony{
+    top: 50px;
+    left: 747px;
+}
+.page-hd-tmall .block7 .other{
+    top: 50px;
+    left: 855px;
+}
+
+.page-hd-tmall .block7 .btn-kankan-jiuji{
+    position: absolute;
+    top: 308px;
+    left: 213px;
+    width: 533px;
+    height: 82px;
+    border-radius: 999px;
+    background: transparent;
+}
+.page-hd-tmall .block7 .btn-kankan-jiuji:hover{
+    text-decoration: none;
+}
+
+.page-hd-tmall .block8{
+    background: #FF9600;
+}
+.page-hd-tmall .block8 .block-inner{
+    height: 200px;
+    background: url(https://p.ssl.qhimg.com/t01b73a1718f65ea206.png) no-repeat center 0;
+}
+.page-hd-tmall .block9{
+    background: #FF9600;
+}
+.page-hd-tmall .block9 .block-inner{
+    height: 369px;
+    background: url(https://p.ssl.qhimg.com/t013c1fc9fdc6ead45f.png) no-repeat center 0;
+}
+.page-hd-tmall .block10{
+    background: #FF9600;
+}
+.page-hd-tmall .block10 .block-inner{
+    position: relative;
+    height: 500px;
+    background: url(https://p.ssl.qhimg.com/t0139d86b835f87927b.png) no-repeat center 0;
+    text-indent: -99999px;
+}
+.page-hd-tmall .block10 .goto-liangpin{
+    position: absolute;
+    top: 264px;
+    left: 603px;
+    width: 122px;
+    height: 23px;
+    background: #0063C8;
+    opacity: .1;
+    filter: alpha(opacity=10);
+    text-indent: 0;
+}
+.page-hd-tmall .block10 .goto-liangpin:hover{
+    opacity: .2;
+    filter: alpha(opacity=20);
+}

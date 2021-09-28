@@ -1,0 +1,636 @@
+body{
+	background: #F6F7F5;
+}
+.service-main{}
+
+.doc-hd{
+	background: #fff;
+}
+.service-main a:hover{
+	color: #f00;
+}
+.service-main .yh{
+	font-family: "微软雅黑";
+}
+.service-main .f14{
+	font-size: 14px
+}
+
+.service-main .f16{
+	font-size: 16px
+}
+.service-main .f27{
+	font-size: 27px
+}
+
+.service-main .f31{
+	font-size: 31px
+}
+
+.service-main .c333{
+	color: #333333;
+}
+.service-main .c666{
+	color: #666666;
+}
+.service-main .c999{
+	color: #999;
+}
+
+.service-main .icon-info-green{
+	width: 16px;
+	height: 16px;
+	background: url(https://p.ssl.qhimg.com/t0180b461b0ff6b5640.png) no-repeat center;
+}
+
+.service-main .green{
+	color: #337d39;
+}
+
+.service-main .b{
+	font-weight: bold;
+}
+
+.service-main .pl-10{
+	padding-left: 10px;
+}
+
+.service-main .bread{
+	height: 30px;
+	line-height: 30px;
+	color: #333333;
+	padding-bottom:6px;
+}
+
+.service-main .com-service-pic{
+	height: 170px;
+	background: url(https://p.ssl.qhimg.com/t0186178a16f99ba8f1.jpg) no-repeat center;
+}
+
+.service-main .area-wrap{
+	margin: 10px 0 20px 0;
+	border: 1px solid #E8E8E8;
+	padding: 10px 20px;
+}
+.service-main .area-wrap .area-left{
+	width: 70px;
+	float: left;
+	padding-top: 8px;
+}
+.service-main .area-list .item{
+	margin-right: 8px;
+}
+.service-main .area-wrap .area-right{
+	width: 840px;
+	float: left;
+}
+
+.service-main .body-left{
+	width: 710px;
+	float: left;
+	position: relative;
+}
+
+.service-main .body-right{
+	width: 240px;
+	float: right;
+}
+
+.service-main .com-h1{
+	font-size: 14px;
+	color: #333333;
+	font-weight: bold;
+	line-height: 30px;
+}
+.service-main .total-s-times{
+	font-size: 12px;
+	font-weight: normal;
+	color: #999999;
+}
+.service-main .total-s-num{
+	color: #ff9900;
+}
+
+.service-main .extra{color:#666666}
+
+
+.service-main .prices{
+	color: #FFFFFF;
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -490px -210px;
+	width: 200px;
+	height: 62px;
+	padding-left: 13px;
+	position: relative;
+	left:-7px;
+}
+
+.service-main .prices strong{
+	font:28px/56px "微软雅黑";	
+}
+
+.service-main .prices span{
+	font:12px/56px "微软雅黑";	
+	margin-left: 10px;
+}
+
+.service-main .prices del{
+	font-size: 14px;
+}
+
+.service-main .prices .f1{
+	font-size: 21px;
+}
+.service-main .prices .f2{
+	font-size: 24px;
+}
+
+.service-main .buy-btn{
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -201px -300px;
+	display: block;
+	width: 124px;
+	height: 46px;
+	margin: 15px auto 10px;
+	text-indent: -9999px;
+	outline: none;
+}
+.service-main .buy-btn:hover{
+	text-decoration: none;
+	background-position: -201px -346px;
+}
+.service-main .buy-btn:active{
+	background-position: -201px -392px;
+}
+
+.service-main .tuan-info .promise{
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -340px -300px;
+	width: 192px;
+	height:59px;
+	margin-left: 15px;	
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.service-main .tuan-info .left-time{
+	display: none;
+	height: 40px;
+	border: 1px solid #EFEFEF;
+	border-width: 1px 0;
+	margin: 0 10px;
+	color: #666666;
+	font:14px/40px "微软雅黑";
+	text-align: center;
+}
+
+.service-main .tuan-info .buy-num{
+	font:18px/1.2 "微软雅黑";
+	color: #333333;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.service-main .buy-num .num{
+	color: #ff6c00;
+}
+
+
+.service-main .tuan-detail{
+	background: #fff;
+	position: relative;
+	border: 1px solid #E8E8E8;
+	padding-top: 40px;
+	border-width: 0 1px;
+}
+
+.service-main .tuan-nav{
+	position: absolute;
+	top:0;
+	width: 708px;
+	height: 36px;
+	line-height: 36px;
+	font:14px/36px "微软雅黑";
+	color: #333333;
+	border-top: 2px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	background: #fff;
+	z-index: 99999;	
+	zoom:1;
+}
+
+.service-main .tuan-nav li{
+	float: left;
+	width: 96px;
+	padding-right: 4px;
+	text-align: center;
+	cursor: pointer;
+	border-left:1px solid #FFF;
+}
+
+.service-main .tuan-nav li.on{
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -250px -450px;
+	position: relative;
+	top: -2px;
+	line-height: 40px;
+	height: 39px;
+	color: #128422;
+	border-left: 1px solid #DDDDDD;
+}
+
+.service-main .tuan-nav li.first{
+	border-left:1px solid #FFF;
+}
+
+.service-main .tuan-nav .buy-mini-box{
+	float: left;
+	width: 84px;
+}
+.service-main .tuan-nav .buy-mini{
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -360px -450px;
+	display: block;
+	width: 84px;
+	height: 28px;
+	text-indent: -9999px;
+	position: absolute;
+	right: 30px;
+	top:3px;
+	outline: none;
+}
+.service-main .tuan-nav .buy-mini:hover{
+	text-decoration: none;
+	background-position: -444px -450px;
+}
+.service-main .tuan-nav .buy-mini:active{
+	background-position: -528px -450px;
+}
+
+.service-main .tuan-detail h3{
+	height: 36px;
+	background: #F5F5F5 url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -580px -275px;
+	text-indent: -9999px;
+	margin: 20px 10px 25px 10px;
+
+}
+
+.service-main .tuan-detail h3.tit2{
+	background-position: -580px -320px;
+}
+
+.service-main .tuan-detail h3.tit3{
+	background-position: -580px -370px;
+}
+
+.service-main .tuan-detail h3.tit4{
+	background-position: -580px -410px;
+}
+
+.service-main .tuan-detail .cnt{
+	padding: 0 20px;
+	line-height: 1.8;
+}
+
+.service-main .promise-intro{
+	border: 1px solid #ECECEC;
+	background: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.service-main .promise-intro dl{
+	margin-bottom: 10px;
+}
+
+.service-main .promise-intro dt{
+	width: 38px;	
+	float: left;	
+}
+.service-main .promise-intro dd{
+
+	width: 170px;
+	float: right;
+}
+
+.service-main .promise-intro h3{
+	font-size: 14px;
+	color: #128422;
+	font-weight: bold;
+	line-height: 1.6;
+}
+.service-main .promise-intro p{
+	color: #666666;
+}
+
+.service-main .icon-s-bz,
+.service-main .icon-s-rz,
+.service-main .icon-s-sh{
+	width: 35px;
+	height: 40px;	
+	background: url(https://p.ssl.qhimg.com/t0154e108c3ac20384b.jpg) no-repeat 0 0;
+}
+
+.service-main .icon-s-rz{
+	background-position: 0 -66px;
+}
+
+.service-main .icon-s-sh{
+	background-position: 0 -142px;
+	width: 80px;
+}
+
+.service-main .pr-cnt1,
+.service-main .pr-cnt2{
+	width: 206px;
+	height: 40px;
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -483px 0;
+	margin: 0 auto;
+	padding: 20px 10px 10px 10px;
+	color: #666666;
+}
+
+.service-main .pr-cnt2{
+	background-position: -483px -110px;
+}
+
+.service-main .huodong-list .qinghui,
+.service-main .huodong-list .luyouqi{
+	display: block;
+	width: 240px;
+	height: 132px;
+	background: url(https://p.ssl.qhimg.com/t01350bde0f189252a4.jpg) no-repeat 0 -328px;
+	margin-top: 10px;
+	text-indent: -9999px;
+	outline: none;
+}
+
+.service-main .huodong-list .luyouqi{
+	background-position: 0 -468px;
+}
+
+.service-main .tuan-detail .list1 li{
+	padding-left: 18px;
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -696px -450px;
+}
+
+.service-main .tuan-detail .ser-pic{
+	width: 686px;
+	height: 220px;
+	background: url(https://p.ssl.qhimg.com/t01350bde0f189252a4.jpg) no-repeat 0 0;
+	margin-left: -10px;
+	margin-top: 14px;
+}
+
+.service-main .tuan-detail .yellow-box{
+	background: #FFF2D3;
+	border: 1px solid #E2D9C5;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 2px;
+}
+
+.service-main .tuan-detail .yellow-box li{
+	padding-left: 20px;
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -696px -474px;
+}
+
+.service-main .tuan-detail .kf-tel{
+	line-height: 2;
+	padding: 0px 20px 20px 20px;
+}
+.service-main .online-kefu{
+	background: url(https://p.ssl.qhimg.com/t01d7f5dbe4d93c0afe.png) no-repeat 0 -510px;
+    height: 23px;
+    line-height: 23px;
+    width: 74px;
+    display: inline-block;
+    _zoom:1;
+    text-indent: -9999px;
+    vertical-align: middle;
+    outline: none;
+}
+
+.service-main .buttom-buy{
+	background: url(https://p.ssl.qhimg.com/t01350bde0f189252a4.jpg) no-repeat 0 -230px;
+	width: 710px;
+	height: 91px;
+	margin-bottom: 440px;	
+}
+
+.service-main .buttom-buy table{
+	width: 100%;
+}
+
+.service-main .buttom-buy td{
+	height:90px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1.8;
+}
+
+.service-main .rednum{
+	color: #ff6e03;
+	font-size: 36px;
+}
+
+.service-main .dp-list table{
+	table-layout: fixed;
+}
+.service-main .dp-list th{
+	font-weight: bold;
+	color: #95989c;
+	background: #EFF5FC;
+	height: 28px;
+	line-height: 28px;
+	border-bottom: 3px solid #CBD6E4;
+	border-right: 2px solid #FFFFFF;
+	padding:0 10px;
+}
+.service-main .dp-list td{
+	color: #999999;
+	border-bottom: 1px solid #CBD6E4;
+	height: 34px;
+	vertical-align: middle;
+	padding: 0 10px;	
+}
+
+
+.service-main .dp-list-box{
+	/*max-height: 520px;
+	_height:520px;
+	overflow-y: auto;
+	overflow-x: hidden;*/
+
+}
+
+.service-main .icon-kxunion{
+	background: url(https://p.ssl.qhimg.com/t01883bcbcb794fdb5c.png) no-repeat 0 0;
+	width: 33px;
+	height: 18px;
+	margin-left: 4px;
+}
+
+.service-main .nowrap{
+	white-space: nowrap;
+}
+
+.service-main .wx-liucheng{
+	background: url(https://p.ssl.qhimg.com/t01de302d74995e4d67.jpg) no-repeat 0 0;
+	width: 707px;
+	height: 90px;
+	margin: 13px 0;
+}
+
+.service-main .title1{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	border: 1px solid #E8E8E8;
+	background: #F5F5F5;
+
+	color: #010101;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	border-bottom: 0;
+}
+.service-main .com-res-list{
+	
+}
+
+.service-main .title2{
+	height: 30px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	color: #010101;
+	font-size: 14px;
+	border-bottom: 1px solid #E8E8E8;
+	padding-left: 10px;
+}
+
+.service-main .fangan-rec{
+	background: #fff;
+	border: 1px solid #E8E8E8;
+	border-top: 0;
+}
+
+.service-main .go-shangjia{
+	display: block;
+	margin: 20px auto;
+	width: 123px;
+	height: 45px;
+	line-height: 45px;
+	background: url(https://p.ssl.qhimg.com/t019f7593594bbc8387.png) no-repeat 0 0;
+	text-indent: -9999px;
+}
+
+.service-main .rel-case{
+	margin-bottom: 16px;
+	padding: 10px 10px 10px 30px;
+	background: #fff;
+	border: 1px solid #E8E8E8;
+	border-top:0;
+}
+
+.service-main .rel-case li{
+	list-style: disc;
+	height: 30px;
+	line-height: 30px;
+	white-space: nowrap;
+	word-break: keep-all;
+	color: #666666;
+}
+
+.service-main .rel-case li a{
+	color: #666666;	
+}
+
+.service-main .dp-list-box{
+	border: 1px solid #E8E8E8;
+	border-top: 0;
+	margin-bottom: 16px;
+	padding: 10px;
+}
+.service-main .dp-list{
+	
+}
+.service-main .dp-list .dp-item{
+	padding: 10px 0;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.service-main .dp-item .dp-pic{
+	width: 70px;
+	height: 70px;
+	border: 1px solid #DFDFE1;
+	float: left;
+}
+
+.service-main .dp-item h4{
+	font-size: 14px;
+	width: 350px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	line-height: 20px;	
+	margin-bottom: 4px;
+	margin-top: 2px;
+}
+
+.service-main .dp-item h4 a{
+	display: inline-block;
+	vertical-align: middle;
+	_zoom:1;
+	font-size: 14px;
+	max-width: 300px;
+	_width:300px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+
+.service-main .dp-item .info{
+	line-height: 1.8;
+}
+.service-main .dp-item .info-p-name{
+	color: #333;
+}
+
+.service-main .dp-item .dp-info-box{
+	margin-left: 80px;
+	position: relative;
+}
+
+.service-main .dp-item .dp-info{
+	width: 350px;
+	float: left;
+}
+
+.service-main .dp-item .dp-info .info{
+	width: 350px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	line-height: 1.8;
+	margin-bottom: 2px;
+}
+
+.service-main .dp-item .dp-info2{
+	width: 120px;
+	float: left;
+	padding-top:28px; 
+	margin-left: 20px;
+}
+.service-main .dp-item .dp-info3{
+	width: 96px;
+	float: right;
+	padding-top:22px;
+	padding-right: 10px;
+}
+
+.service-main .go-yuyue-buy{background:url(https://p.ssl.qhimg.com/t01fd30fb25c0c2dbc1.png) no-repeat;width:96px;height:31px;display:block; color: #fff; font-size: 14px; line-height: 31px; font-weight: bold; text-align: center;}
+.service-main .go-yuyue-buy:hover{background-position:0 -31px; text-decoration: none; color: #fff;}
+.service-main .go-yuyue-buy:active{background-position:0px -62px;}
+
+
+.service-main .overtxt{
+	white-space: nowrap;
+	word-break:keep-all;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}

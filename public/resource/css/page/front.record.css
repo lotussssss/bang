@@ -1,0 +1,65 @@
+.displayinline{display:inline-block;vertical-align:middle;}
+.icoV{vertical-align:middle;width:15px;height:13px;background:url(https://p.ssl.qhimg.com/t016e4c6de6510a48fa.png) no-repeat;}
+
+/*评价星星*/
+.safePaystartico{width:19px;height:19px;background:url(https://p.ssl.qhimg.com/t012e01619ed8e961ad.png) no-repeat;zoom:1;margin:1px 1px;}
+.safePaystartico2{width:19px;height:19px;background:url(https://p.ssl.qhimg.com/t01200310feb44e5675.png) no-repeat;zoom:1;margin:1px 1px;}
+.verticaltop{vertical-align:top;}
+/*维修报告*/
+.btnxiazaibendi{width:109px;height:33px;background:url(https://p.ssl.qhimg.com/t0117ffe6c17a612cf3.png) no-repeat;}
+.navtop34{height:34px;text-align:right;padding:20px 0 10px 0;}
+
+.weixiubaocontainer{
+	padding:20px 20px;
+	-webkit-box-shadow:0px 0px 10px #ccc;
+	-moz-box-shadow:0px 0px 10px #ccc;
+	box-shadow:0px 0px 10px #ccc;
+	border-top:solid 16px #75B150;
+	overflow:hidden;
+	float:left;
+	width:920px;
+}
+
+.ie6 .weixiubaocontainer, .ie7 .weixiubaocontainer, .ie8 .weixiubaocontainer{
+	border:1px solid #ccc;
+	border-top:solid 16px #75B150;
+	width:918px;
+}
+
+.weixiubaocontainer a{color:#247731;}
+.weixiubaogaobann{height:62px;background:url(https://p.ssl.qhimg.com/t012acfa2a8cf83092c.png) no-repeat;padding-bottom:15px;}
+.weixiubaocontainer table.baogaocont{border-collapse:collapse;border-top:solid 3px #d7d7d7;border-left:solid 1px #d7d7d7;border-right:solid 1px #d7d7d7;border-bottom:solid 3px #d7d7d7;}
+.weixiubaocontainer td{font:20px/1.5 "微软雅黑";color:#666;border:solid 1px #d7d7d7;}
+.weixiubaocontainer td.bgcolor1{background:#F1FCFF;font-weight:bold;width:154px;padding:10px 0 10px 28px;}
+.weixiubaocontainer td.bgcolor2{background:#F4FFED;}
+.weixiubaocontainer td span.times{font-size:14px;color:#666;font-weight:normal;}
+.weixiubaocontainer td.wd84{width:84px;text-align:center;border-right:solid 1px #d7d7d7;padding:10px 0 10px 0;}
+.weixiubaocontainer td.padleft28{padding:10px 0 10px 28px;}
+.weixiubaocontainer td.padleft10{padding:10px 10px;vertical-align:top;}
+.weixiubaocontainer td .padleft13{padding-left:13px;}
+.weixiubaocontainer .linehei1{height:1px;overflow:hidden;background:#d7d7d7;width:100%;}
+.weixiubaocontainer td span.wd507{width:510px;padding-right: 5px;}
+.weixiubaocontainer td  div{border-bottom:solid 1px #d7d7d7;padding:10px 0 5px 13px;}
+.weixiubaocontainer td  div.padbom{padding:20px 0 20px 13px;}
+.weixiubaocontainer td  div.noborder{border:none;}
+.weixiubaocontainer td  div span{display:inline-block;}
+
+.icoright{width:30px;height:30px;background:url(https://p.ssl.qhimg.com/t01e4e6670bf3558400.png) no-repeat;}
+/*360logo同城帮logo*/
+.logsico{width:349px;height:61px;background:url(https://p.ssl.qhimg.com/t011cae0610d4301a3d.png) no-repeat;margin-top:40px;float:right;}
+/*审核企业*/
+.quanweirenzheng{width:287px;height:159px;background:url(https://p.ssl.qhimg.com/t01e84ef7825826c065.png) no-repeat;}
+
+.weixiubaocontainer .le-rating {padding:0;border:0;margin-top:-7px;*margin-top:0;}
+/*预约报告页面*/
+.mod-subscribe .weixiubaogaobann{background:url(https://p.ssl.qhimg.com/t0147b63fbda13ecc3d.png) no-repeat;margin-bottom: 15px;width:289px;margin:0 auto;}
+.mod-subscribe .yuyue .padleft{text-align:right;padding:25px 19px 25px 0;}
+.mod-subscribe .btn_jiedian{margin-top:25px;}
+.mod-subscribe .btn_jiedian a{display:inline;background:url(https://p.ssl.qhimg.com/t016736d2c44da4cdb8.png) no-repeat;width:127px;height:44px;float:right;margin-left:20px;}
+.mod-subscribe .btn_jiedian a.enter_jiedian{background-position:0 0;}
+.mod-subscribe .btn_jiedian a.enter_jiedian:hover{background-position:-127px 0px;}
+.mod-subscribe .btn_jiedian a.enter_jiedian:active{background-position:-254px 0px;}
+
+.mod-subscribe .btn_jiedian a.cancel_jiedian{background-position:0 -62px;}
+.mod-subscribe .btn_jiedian a.cancel_jiedian:hover{background-position:-127px -62px;}
+.mod-subscribe .btn_jiedian a.cancel_jiedian:active{background-position:-254px -62px;}

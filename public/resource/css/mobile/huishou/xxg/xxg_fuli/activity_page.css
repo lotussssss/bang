@@ -1,0 +1,159 @@
+/*-----------------------活动一、活动二------------------------------*/
+.page-xxg-fuli-activity {}
+.page-xxg-fuli-activity #header .header-inner {
+    background-color: #000;
+}
+
+.page-xxg-fuli-activity .block1{
+    width: 3.2rem;
+    heigth: 3.2rem;
+}
+.page-xxg-fuli-activity .block1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.page-xxg-fuli-activity .block2 .make-order {
+    display: block;
+    height: .45rem;
+    line-height: .45rem;
+    width: 2.67rem;
+    margin: 0 auto;
+    background-color: #ff5500;
+    border-radius: .05rem;
+    text-align: center;
+    color: #fff;
+    font-size: .18rem;
+}
+.page-xxg-fuli-activity .block3{
+    padding: .2rem .1rem .1rem;
+    color: #666666;
+}
+.page-xxg-fuli-activity .block3 .activity-rule-tit {
+    text-align: center;
+    font-size: .16rem;
+}
+/*-------------------------活动三--------------------------------*/
+.page-xxg-fuli-activity3 {
+    background-color: #fff;
+}
+.page-xxg-fuli-activity3 #header .header-inner {
+    background-color: #000;
+}
+.page-xxg-fuli-activity3 .block1 {
+    width: 3.2rem;
+    height: 2.43rem;
+}
+.page-xxg-fuli-activity3 .block1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.page-xxg-fuli-activity3 .block2 .block-inner {
+    position: relative;
+}
+.page-xxg-fuli-activity3 .block2 .block-inner:before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: .12rem;
+    left: 50%;
+    width: 2.8rem;
+    height: .01rem;
+    transform: translateX(-50%);
+    background-color: #e4cba6;
+}
+.page-xxg-fuli-activity3 .block2 .block-inner .tit {
+    position: relative;
+    width: 1.24rem;
+    height:.25rem;
+    line-height: .25rem;
+    margin: 0 auto;
+    border: .01rem solid #e4cba6;
+    border-radius: 1.3rem;
+    background-color: #fff;
+    color: #e4cba6;
+    font-size: .14rem;
+    text-align: center;
+}
+.page-xxg-fuli-activity3 .block2 .block-inner .time-container{
+    text-align: center;
+    padding: .1rem 0;
+}
+.page-xxg-fuli-activity3 .block2 .time-container .d-num,
+.page-xxg-fuli-activity3 .block2 .time-container .h-num,
+.page-xxg-fuli-activity3 .block2 .time-container .m-num,
+.page-xxg-fuli-activity3 .block2 .time-container .s-num{
+    display: inline-block;
+    width: .4rem;
+    height: .36rem;
+    line-height: .36rem;
+    background-image:linear-gradient(to bottom,#f4e7d3 50%,#ebd5b3 50%);
+    border-radius: .05rem;
+    text-align: center;
+    font-size: .26rem;
+    color: #915c00;
+}
+.page-xxg-fuli-activity3 .block2 .time-container .d-txt,
+.page-xxg-fuli-activity3 .block2 .time-container .h-txt,
+.page-xxg-fuli-activity3 .block2 .time-container .m-txt,
+.page-xxg-fuli-activity3 .block2 .time-container .s-txt{
+    display: inline-block;
+    height: .36rem;
+    line-height: .36rem;
+    margin: 0 .05rem;
+    text-align: center;
+    font-size: .14rem;
+    color: #915c00;
+}
+.page-xxg-fuli-activity3 .block2 .medal-container {
+    text-align: center;
+    padding: .1rem 0;
+}
+.page-xxg-fuli-activity3 .block2 .medal-container .con-item {
+    display: inline-block;
+    width: .47rem;
+    height: .65rem;
+    margin-right: .1rem;
+}
+.page-xxg-fuli-activity3 .block2 .medal-container .con-item:last-child {
+    margin-rigth: 0;
+}
+.page-xxg-fuli-activity3 .block2 .medal-container .medal {
+    background: url("https://p1.ssl.qhmsg.com/t0114250cec6178685b.png") no-repeat center center/100% 100%;
+}
+.page-xxg-fuli-activity3 .block2 .medal-container .unmedal {
+    background: url("https://p0.ssl.qhmsg.com/t01efef3346ad27edaf.png") no-repeat center center/100% 100%;
+}
+.page-xxg-fuli-activity3 .block2 .btn-make-order{
+    display: block;
+    width: 2.68rem;
+    height: .43rem;
+    line-height: .43rem;
+    margin: 0 auto;
+    border-radius: .05rem;
+    background-color: #ff5500;
+    font-size: .13rem;
+    text-align: center;
+    color: #fff;
+}
+.page-xxg-fuli-activity3 .block3{
+    padding: .2rem .1rem .1rem;
+    color: #666666;
+}
+.page-xxg-fuli-activity3 .block3 .activity-rule-tit {
+    text-align: center;
+    font-size: .16rem;
+}
+.page-xxg-fuli-activity3 .block3 .btn-get-package{
+    display: block;
+    width: 2.68rem;
+    height: .43rem;
+    line-height: .43rem;
+    margin: 0 auto;
+    border-radius: .05rem;
+    background-color: #ffe07b;
+    font-size: .13rem;
+    text-align: center;
+    color: #915c00;
+}

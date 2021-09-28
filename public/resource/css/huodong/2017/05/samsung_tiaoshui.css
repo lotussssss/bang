@@ -1,0 +1,290 @@
+.w100 {
+    width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.block-inner {
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #33c4fe;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.page-hd-samsung-tiaoshui {
+    background: #33c4fe;
+}
+
+.page-hd-samsung-tiaoshui .mainbody {
+    padding-bottom: 60px;
+}
+
+.page-hd-samsung-tiaoshui .block1,
+.page-hd-samsung-tiaoshui .block1 .block-inner {
+    height: 300px;
+    /*background: url(https://p.ssl.qhimg.com/t0134e457724f3ddf5c.jpg) no-repeat center 0;*/
+    background: url(https://p.ssl.qhimg.com/t0180aaf54ccdefced2.jpg) no-repeat center 0;
+}
+
+.page-hd-samsung-tiaoshui .block2,
+.page-hd-samsung-tiaoshui .block2 .block-inner {
+    height: 300px;
+    /*background: url(https://p.ssl.qhimg.com/t013a67a0bfece6c799.jpg) no-repeat center 0;*/
+    background: url(https://p.ssl.qhimg.com/t01bfb5f4ab7bd0c739.jpg) no-repeat center 0;
+}
+
+.page-hd-samsung-tiaoshui .block3,
+.page-hd-samsung-tiaoshui .block3 .block-inner {
+
+}
+
+.page-hd-samsung-tiaoshui .block3 .hd-product-list {
+    /*margin-top: -230px;*/
+    margin-top: -164px;
+}
+
+.page-hd-samsung-tiaoshui .block3-2 .block-tit {
+    height: 79px;
+    background: url(https://p.ssl.qhimg.com/t0176697a77b9ee3461.jpg) no-repeat center;
+}
+
+.page-hd-samsung-tiaoshui .block4 {
+    margin: 20px 0;
+}
+
+.page-hd-samsung-tiaoshui .block4 .block-inner {
+    height: 240px;
+    background: url(https://p.ssl.qhimg.com/t01f3932b8858ab4702.jpg) no-repeat center 0;
+}
+
+.page-hd-samsung-tiaoshui .block4 .trigger-show-video,
+.page-hd-samsung-tiaoshui .block4 .trigger-show-video:hover{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.page-hd-samsung-tiaoshui .block5 {
+}
+
+.page-hd-samsung-tiaoshui .block5 .block-inner {
+}
+
+.page-hd-samsung-tiaoshui .block5 .block-tit {
+    height: 99px;
+    background: url(https://p.ssl.qhimg.com/t01531a564a7834fca6.jpg) no-repeat center;
+}
+
+/* 优品商品列表 */
+.page-hd-samsung-tiaoshui .hd-product-list {
+    font-size: 0;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .item {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 25%;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .item a,
+.page-hd-samsung-tiaoshui .hd-product-list .item a:hover {
+    padding-top: 40px;
+    display: block;
+    border-right: 1px solid #f0eff4;
+    border-bottom: 1px solid #f0eff4;
+    color: #333;
+    text-align: center;
+    background: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .item.item-right a {
+    border-right: 0;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .p-figure {
+    margin: 0 auto;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .p-figure img {
+    width: 100%;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .p-name {
+    padding: 20px 0 0 0;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .p-price-sale {
+    padding: 10px 0 0;
+    font-size: 12px;
+    color: #999;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .p-price-promo {
+    padding-bottom: 10px;
+    color: #f30;
+    font-size: 16px;
+}
+
+.page-hd-samsung-tiaoshui .hd-product-list .p-price-promo span {
+    font-size: 32px;
+}
+
+/* 回收商品列表 */
+.page-hd-samsung-tiaoshui .hd-huishou-list {
+    font-size: 0;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .item {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 25%;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .item a,
+.page-hd-samsung-tiaoshui .hd-huishou-list .item a:hover {
+    position: relative;
+    padding-top: 40px;
+    display: block;
+    border-right: 1px solid #f0eff4;
+    color: #333;
+    text-align: center;
+    background: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .item.item-right a {
+    border-right: 0;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .p-figure {
+    margin: 0 auto;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .p-figure img {
+    width: 100%;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .p-name {
+    padding: 20px 0 20px 0;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .p-price-promo {
+    padding-bottom: 20px;
+    color: #f30;
+    font-size: 16px;
+}
+
+.page-hd-samsung-tiaoshui .hd-huishou-list .p-price-promo span {
+    font-size: 32px;
+}
+.page-hd-samsung-tiaoshui .hd-huishou-list .p-label{
+    position: absolute;
+    top: 160px;
+    left: 175px;
+    padding-top: 20px;
+    width: 75px;
+    height: 66px;
+    background: url(https://p.ssl.qhimg.com/t01a663a458814e893d.png) no-repeat center 0;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+/*品牌推荐*/
+.page-hd-samsung-tiaoshui .block-brand-recommend .block-tit {
+    height: 79px;
+    background: url(https://p.ssl.qhimg.com/t01aaf6c17308b75742.png) no-repeat center;
+}
+
+.page-hd-samsung-tiaoshui .brand-recommend-list .brand-recommend-item,
+.page-hd-samsung-tiaoshui .brand-recommend-list .brand-recommend-item:hover {
+    float: left;
+    display: block;
+    width: 300px;
+    height: 200px;
+    font-size: 0;
+    background-image: url(https://p.ssl.qhimg.com/t01435371c07709bab1.jpg);
+    text-decoration: none;
+}
+
+.page-hd-samsung-tiaoshui .brand-recommend-list .brand-recommend-item-meizu {
+    background-position: 0 0;
+}
+
+.page-hd-samsung-tiaoshui .brand-recommend-list .brand-recommend-item-le {
+    background-position: -300px 0;
+}
+
+.page-hd-samsung-tiaoshui .brand-recommend-list .brand-recommend-item-oppo {
+    background-position: -600px 0;
+}
+
+.page-hd-samsung-tiaoshui .brand-recommend-list .brand-recommend-item-vivo {
+    background-position: -900px 0;
+}
+
+.page-hd-samsung-tiaoshui .brand-recommend-list .brand-recommend-item-huawei {
+    background-position: 0 -200px;
+}
+
+.page-hd-samsung-tiaoshui .brand-recommend-list .brand-recommend-item-mi {
+    background-position: -300px -200px;
+}
+
+.page-hd-samsung-tiaoshui .brand-recommend-list .brand-recommend-item-samsung {
+    background-position: -600px -200px;
+}
+
+.page-hd-samsung-tiaoshui .brand-recommend-list .brand-recommend-item-apple {
+    background-position: -900px -200px;
+}
+
+/*服务介绍*/
+.page-hd-samsung-tiaoshui .block-service-intro,
+.page-hd-samsung-tiaoshui .block-service-intro .block-inner {
+    height: 266px;
+    background: url(https://p3.ssl.qhmsg.com/t01dbb90b6bb1527a89.png) no-repeat center 0;
+    margin-top: 20px;
+}
+
+/*二维码扫一扫*/
+.page-hd-samsung-tiaoshui .block-qrcode-info,
+.page-hd-samsung-tiaoshui .block-qrcode-info .block-inner {
+    height: 266px;
+    background: url(https://p1.ssl.qhmsg.com/t019b8044c3ecaa9607.png) no-repeat center 0;
+    margin: 20px auto 10px;
+}
+
+/*视频弹窗*/
+.video-player-panel{
+    border: 0;
+}
+.video-player-panel .dialog-inner{
+    padding: 0;
+    width: 800px;
+    height: 460px;
+    font-size: 0;
+}
+.video-player-panel .dialog-inner video,
+.video-player-panel .dialog-inner object,
+.video-player-panel .dialog-inner embed{
+    width: 100%;
+    height: 100%;
+}

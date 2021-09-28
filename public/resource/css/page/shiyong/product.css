@@ -1,0 +1,580 @@
+/* =================产品详情================== */
+.page-shiyong-product{
+
+}
+.page-shiyong-product .brand-product{
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.page-shiyong-product .brand-product .product-pics{
+    position: relative;
+    float: left;
+    margin: 20px 50px 20px 10px;
+    width: 352px;
+    z-index: 10;
+}
+.page-shiyong-product .brand-product .product-pics .img-zoom-bigger{
+    position: absolute;
+    top: 0;
+    right: -350px;
+    display: block;
+    width: 350px;
+    height: 350px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    background: #fff;
+}
+
+.page-shiyong-product .brand-product .product-infos{
+    float: left;
+    padding: 20px 0;
+    width: 780px;
+}
+.page-shiyong-product .brand-product .p-pic-shower{
+    position: relative;
+    /*border: 1px solid #EAEAEA;*/
+    border: 1px solid #FFF;
+    width: 350px;
+    height: 350px;
+    line-height: 350px;
+    font-size: 0;
+    text-align: center;
+    overflow: hidden;
+}
+.page-shiyong-product .brand-product .product-pics .label-new{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 45px;
+    height: 44px;
+    background: url(https://p.ssl.qhimg.com/t016437928690bcac90.png) no-repeat 0 0;
+}
+.page-shiyong-product .p-pic-shower img{
+    /*height: 240px;*/
+    width: 350px;
+    height: 350px;
+
+    -moz-transition:width .5s ease-out, height .5s ease-out;
+    -webkit-transition:width .5s ease-out, height .5s ease-out;
+    -o-transition:width .5s ease-out, height .5s ease-out;
+    -ms-transition:width .5s ease-out, height .5s ease-out;
+    transition:width .5s ease-out, height .5s ease-out;
+}
+.page-shiyong-product .p-pic-item{
+    float: left;
+    margin:10px 10px 0 0;
+    padding: 3px;
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 0;
+    text-align: center;
+    border: 1px solid #EAEAEA;
+    cursor: pointer;
+    overflow: hidden;
+}
+.page-shiyong-product .p-pic-curr{
+    border-color: #fa0;
+}
+.page-shiyong-product .p-pic-last{
+    margin-right: 0;
+}
+.page-shiyong-product .p-pic-item img{
+    width: 54px;
+    height: 54px;
+
+    cursor: pointer;
+
+    -moz-transition:width .5s ease-out, height .5s ease-out;
+    -webkit-transition:width .5s ease-out, height .5s ease-out;
+    -o-transition:width .5s ease-out, height .5s ease-out;
+    -ms-transition:width .5s ease-out, height .5s ease-out;
+    transition:width .5s ease-out, height .5s ease-out;
+}
+
+.page-shiyong-product .product-infos .tit{
+    font-size: 24px;
+    color: #333333;
+    font-weight: normal;
+    text-align: left;
+}
+.page-shiyong-product .product-infos .desc{
+    color: #666666;
+}
+
+.page-shiyong-product .brand-product .product-price{
+    line-height: 28px;
+    height: 28px;
+    background: #FEE0D3;
+    margin: 10px 0;
+    padding: 16px;
+    color: #666;
+    position: relative;
+}
+.page-shiyong-product .brand-product .flash-price{
+    position: absolute;
+    left: 200px;
+    top: 18px;
+    color: #fc6621;
+    font-size: 16px;
+    font-weight: 600;
+}
+.page-shiyong-product .brand-product .flash-price .tit{
+    color: #fc6621;
+}
+.page-shiyong-product .brand-product .flash-price .money-symbol{
+    color: #fc6621;
+    font-size: 20px;
+}
+.page-shiyong-product .brand-product .flash-price .price-val{
+    color: #fc6621;
+    font-size: 22px;
+}
+.page-shiyong-product .brand-product .flash-price .countdown{
+    margin-left: 8px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    color: #333;
+    font-size: 0px;
+    font-weight: normal;
+}
+.page-shiyong-product .brand-product .flash-price .countdown span{
+    margin-right: 4px;
+    font-size: 12px;
+}
+/*.page-shiyong-product .brand-product .flash-price .countdown .desc-txt{*/
+/*margin-right: 3px;*/
+/*}*/
+.page-shiyong-product .brand-product .flash-price .countdown .d-num,
+.page-shiyong-product .brand-product .flash-price .countdown .h-num,
+.page-shiyong-product .brand-product .flash-price .countdown .m-num,
+.page-shiyong-product .brand-product .flash-price .countdown .s-num{
+    padding: 0 3px;
+    background: #f60;
+    color: #fff;
+}
+.page-shiyong-product .brand-product .flash-price .countdown .d-num,
+.page-shiyong-product .brand-product .flash-price .countdown .d-txt,
+.page-shiyong-product .brand-product .flash-price .countdown .desc-txt-behind{
+    display: none;
+}
+.page-shiyong-product .brand-product .flash-price .countdown-start-prev,
+.page-shiyong-product .brand-product .flash-price .countdown-end-next{
+    color: #999;
+    font-size: 14px;
+}
+.page-shiyong-product .brand-product .flash-price .countdown-start-prev .d-num,
+.page-shiyong-product .brand-product .flash-price .countdown-start-prev .h-num,
+.page-shiyong-product .brand-product .flash-price .countdown-start-prev .m-num,
+.page-shiyong-product .brand-product .flash-price .countdown-start-prev .s-num{
+    padding: 0 3px;
+    background: #999;
+    color: #fff;
+}
+
+.page-shiyong-product .product-price .m-money{
+    font-size: 18px;
+    color: #fc6621;
+}
+.page-shiyong-product .product-price .m-money-num{
+    font-size: 28px;
+}
+.page-shiyong-product .product-price .m-money-num-del{
+    text-decoration: line-through;
+}
+.page-shiyong-product .product-price .prd-cmt,
+.page-shiyong-product .product-price .prd-deal{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    text-align: center;
+    line-height: 1.42;
+}
+.page-shiyong-product .product-price .prd-deal{
+    right: 90px;
+}
+.page-shiyong-product .product-price .p-num{
+    font-size: 28px;
+    color: #fc6621;
+}
+
+.page-shiyong-product .prd-choices .prd-c-line{
+    padding: 5px 0;
+}
+.page-shiyong-product .prd-choices .prd-c-tit{
+    width: 70px;
+    float: left;
+    line-height: 32px;
+    color: #444;
+}
+.page-shiyong-product .prd-choices .prd-c-cnt{
+    width: 710px;
+    float: left;
+}
+.page-shiyong-product .prd-choices .p-c-item{
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    color: #333;
+    margin: 2px 10px 2px 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.page-shiyong-product .prd-choices .p-c-curr{
+    border-color: #FF7B10;
+    color: #FF7B10;
+}
+.page-shiyong-product .prd-choices .p-c-disabled{
+    border: 1px dashed #e0e0e0;
+    color: #aaa;
+    background: #fff;
+    /*cursor: not-allowed;*/
+    cursor: pointer;
+}
+.page-shiyong-product .prd-choices .p-c-disabled-hover{
+    border: 1px dashed #aaa;
+}
+
+.page-shiyong-product .prd-choices .prd-buy{
+    display: inline-block;
+    _zoom:1;
+    width: 186px;
+    height: 40px;
+    line-height: 40px;
+    background: #FC6621;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.page-shiyong-product .prd-choices .prd-buy:hover{
+    background: #f70;
+}
+.page-shiyong-product .prd-choices .prd-buy:active{
+    background: #f60;
+}
+.page-shiyong-product .prd-choices .prd-buy-huanxin{
+    padding: 0 30px;
+    width: auto;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+}
+.page-shiyong-product .prd-choices .prd-buy-huanxin-real{
+    margin-left: 10px;
+    padding: 0 20px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+    height: 58px;
+    line-height: 58px;
+    /*color: #999;*/
+    color: #666;
+    /*text-decoration: underline;*/
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid #999;
+}
+.page-shiyong-product .prd-choices .prd-buy-huanxin-real:hover{
+    text-decoration: none;
+    color: #f70;
+    border: 1px solid #f70;
+}
+.page-shiyong-product .prd-choices .prd-buy-huanxin-real:active{
+    color: #f60;
+    border: 1px solid #f60;
+}
+.page-shiyong-product .prd-choices .prd-buy-disabled{
+    display: inline-block;
+    _zoom:1;
+    width: 186px;
+    height: 40px;
+    line-height: 40px;
+    background: #D8D3D0;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.page-shiyong-product .prd-choices .prd-buy-disabled:hover{
+    background: #D8D3D0;
+}
+.page-shiyong-product .prd-choices .prd-buy-disabled:active{
+    background: #D8D3D0;
+}
+.page-shiyong-product .prd-choices .prd-buy-disabled-desc{
+    padding-left:25px;
+    color: #666;
+}
+.page-shiyong-product .prd-choices .prd-buy-locked-desc{
+    padding-left:25px;
+    color: #ff0011;
+}
+.page-shiyong-product .prd-choices .prd-buy-locked-desc .countdown{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    font-size: 0;
+}
+.page-shiyong-product .prd-choices .prd-buy-locked-desc .countdown span{
+    display: none;
+    font-size: 12px;
+}
+.page-shiyong-product .prd-choices .prd-buy-locked-desc .countdown .m-num,
+.page-shiyong-product .prd-choices .prd-buy-locked-desc .countdown .m-txt,
+.page-shiyong-product .prd-choices .prd-buy-locked-desc .countdown .s-num,
+.page-shiyong-product .prd-choices .prd-buy-locked-desc .countdown .s-txt{
+    display: inline;
+    font-size: 12px;
+}
+
+.page-shiyong-product .prd-choices .treaty-fee{
+    font-size: 24px;
+    color: #FC6621;
+}
+
+.page-shiyong-product .product-detail{
+    border: 1px solid #EAEAEA;
+    border-top: 0;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.page-shiyong-product .product-detail .product-tab{
+    border-top: 2px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    background: #F6F6F6;
+    height: 44px;
+}
+.page-shiyong-product .product-detail .p-tab-item{
+    width: 160px;
+    height: 44px;
+    line-height: 44px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    border-right: 1px solid #E5E5E5;
+    cursor: pointer;
+
+}
+.page-shiyong-product .product-detail .p-tab-curr{
+    color: #ff4234;
+    background: #fff;
+    border-top: 2px solid #FF4600;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    top: -2px;
+    z-index: 10;
+}
+
+.page-shiyong-product .product-detail .model-i-list{
+    padding: 20px;
+    border-bottom: 1px solid #EAEAEA;
+}
+.page-shiyong-product .product-detail .model-i-item{
+    line-height: 24px;
+    width: 33%;
+    margin-right: 0.33%;
+    float: left;
+    color: #666;
+    font-size: 12px;
+    white-space: nowrap;
+    word-break:keep-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.page-shiyong-product .p-detail-cnt{
+    padding: 20px 0;
+    margin: 0 30px;
+    overflow: hidden;
+}
+.page-shiyong-product .p-detail-cnt img{
+    max-width: 100%;
+}
+
+.page-shiyong-product .p-shop-info{
+    border:1px solid #F9E78D;
+}
+.page-shiyong-product .p-shop-info .tit{
+    font-size: 18px;
+    color: #999999;
+    line-height: 30px;
+}
+
+.page-shiyong-product .p-shop-baseinfo{
+    padding: 10px 20px;
+    color: #666;
+}
+
+.page-shiyong-product .p-shop-info .shop-name{
+    color: #333;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.page-shiyong-product .p-shop-info .s-info-line{
+    padding: 4px 0;
+    line-height: 20px;
+}
+.page-shiyong-product .p-shop-info .s-info-line .line-left{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 62px;
+    vertical-align: top;
+}
+.page-shiyong-product .p-shop-info .s-info-line .line-right{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 134px;
+    vertical-align: top;
+}
+.page-shiyong-product .p-shop-info .shop-grade{
+    width: 90%;
+    margin: 0 5% 16px 5%;
+    border: 1px solid #EAEAEA;
+    border-width: 1px 0;
+    line-height: 30px;
+}
+.page-shiyong-product .p-shop-info .shop-grade td{
+    width:33%;
+    text-align: center;
+}
+
+.page-shiyong-product .p-shop-info .num-up{
+    color: #FF4700;
+}
+.page-shiyong-product .p-shop-info .num-down{
+    color: #00BA97;
+}
+
+.page-shiyong-product .p-shop-info .s-g-br{
+    border-right: 1px solid #EAEAEA;
+}
+
+.page-shiyong-product .p-shop-tj{
+    padding: 10px 0;
+    border-left: 1px solid #EAEAEA;
+}
+
+.page-shiyong-product .p-shop-tj .tit{
+    display: none;
+    font-size: 14px;
+    color: #333;
+    padding-left: 10px;
+}
+.page-shiyong-product .p-shop-tj .s-tj-list{
+    display: none;
+}
+.page-shiyong-product .p-shop-tj .s-tj-item{
+    width: 108px;
+    height: 110px;
+    float: left;
+    padding-top: 10px;
+}
+
+.page-shiyong-product .p-shop-tj .tj-i-pic{
+    margin: 0 auto;
+    width: 80px;
+    overflow: hidden;
+    text-align: center;
+}
+.page-shiyong-product .p-shop-tj .tj-i-pic img{
+    height: 80px;
+}
+
+.page-shiyong-product .p-shop-tj .tj-i-price{
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    color: #fc6621;
+}
+.page-shiyong-product .p-shop-tj-more{
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #258AF2;
+    background: #fff;
+}
+.page-shiyong-product .p-shop-tj-more:hover{
+    background: #eee;
+}
+
+.page-shiyong-product .cmt-list{}
+.page-shiyong-product .cmt-item{
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+.page-shiyong-product .img-zoom-cover{
+    background: #fa0;
+    opacity: .4;
+    cursor: move;
+    -ms-filter: alpha(opacity:40);
+    filter: alpha(opacity:40);
+}
+
+/*相关商品*/
+.page-shiyong-product .product-relation-h3{
+    padding-left: 20px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    background: #F6F6F6;
+    border: 1px solid #ECECEC;
+    border-top: 2px solid #E5E5E5;
+}
+.page-shiyong-product .product-relation-list{
+
+}
+.page-shiyong-product .product-relation-list a{
+    padding: 10px;
+    border-bottom: 1px dashed #ECECEC;
+    color: inherit;
+    text-decoration: none;
+}
+.page-shiyong-product .product-relation-list a:hover{
+    background: #fbfbfb;
+    text-decoration: none;
+}
+.page-shiyong-product .product-relation-list .col-left-fixed{
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 0;
+}
+.page-shiyong-product .product-relation-list .col-left-fixed img{
+    width: 95%;
+}
+.page-shiyong-product .product-relation-list .col-right{
+    margin-left: 120px;
+    height: 120px;
+    vertical-align: middle;
+}
+.page-shiyong-product .product-relation-list .tit{
+    padding-top: 30px;
+}
+.page-shiyong-product .product-relation-list .pr{
+    padding-top: 8px;
+}

@@ -1,0 +1,204 @@
+.page-zhimacredit-shopHs-order-coupon {
+    width: 100%;
+    max-width: 3.2rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* 页面主体部分 */
+.page-zhimacredit-shopHs-order-coupon #Main.main {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+/* 顶部区域 */
+.page-zhimacredit-shopHs-order-coupon .coupon-top {
+    height: 2.2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 伪元素模拟背景图案 */
+.page-zhimacredit-shopHs-order-coupon .coupon-top:before {
+    content: '';
+    position: absolute;
+    top: -.18rem;
+    left: -.2rem;
+    width: 110vw;
+    height: 1.8rem;
+    background-color: #f5f5f5;
+    transform: rotate(-6deg);
+}
+
+/* 顶部区域背景 */
+.page-zhimacredit-shopHs-order-coupon .coupon-top .coupon-top-bg {
+    height: 1.8rem;
+    position: relative;
+}
+
+/* 提示文字 */
+.page-zhimacredit-shopHs-order-coupon .coupon-top-bg span {
+    padding-top: .4rem;
+    display: block;
+    text-align: center;
+    font-size: .15rem;
+    line-height: .24rem;
+    color: #999;
+}
+
+/* 加价券图 */
+.page-zhimacredit-shopHs-order-coupon .coupon-top .coupon-pic {
+    width: 2.88rem;
+    height: 1rem;
+    position: absolute;
+    bottom: .1rem;
+    left: 52%;
+    transform: translate(-50%, 0);
+    background: url(https://p4.ssl.qhmsg.com/t01b4af983842efdcaa.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 0 .1rem .1rem .08rem;
+    display: flex;
+}
+
+/* 左边价格 */
+.page-zhimacredit-shopHs-order-coupon .coupon-top .coupon-pic .price {
+    color: #b48b3a;
+    width: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-zhimacredit-shopHs-order-coupon .coupon-top .coupon-pic .price span {
+    font-size: .2048rem;
+    height: .2048rem;
+    line-height: .4rem;
+    margin-right: .04rem;
+}
+
+.page-zhimacredit-shopHs-order-coupon .coupon-top .coupon-pic .price em {
+    font-size: .48rem;
+    font-weight: bold;
+}
+
+/* 右边文字 */
+.page-zhimacredit-shopHs-order-coupon .coupon-top .coupon-pic .price-text {
+    color: #b48a39;
+    width: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-zhimacredit-shopHs-order-coupon .coupon-top .coupon-pic .price-text .price-title {
+    color: #b48b3a;
+    font-size: .1962rem;
+    height: .1962rem;
+    line-height: .1962rem;
+    font-weight: bold;
+    margin-bottom: .02rem;
+}
+
+/* 文字说明 */
+.page-zhimacredit-shopHs-order-coupon .coupon-top .coupon-pic .price-text p {
+    font-size: .1195rem;
+    line-height: .1707rem;
+    text-align: center;
+}
+
+/* 加价券码 */
+.page-zhimacredit-shopHs-order-coupon .coupon-top .coupon-pic .price-text .coupon-code {
+    font-size: .12rem;
+    height: .18rem;
+    line-height: .18rem;
+    padding: 0 .06rem;
+    border: 1px solid #dbb771;
+    border-radius: 100px;
+    font-weight: bold;
+    position: relative;
+}
+
+/* 提示文字 */
+.page-zhimacredit-shopHs-order-coupon .coupon-tips {
+    font-size: .14rem;
+    text-align: center;
+    color: #926100;
+}
+
+/* 返回首页按钮 */
+.page-zhimacredit-shopHs-order-coupon .back-to-index {
+    margin-top: .25rem;
+}
+
+.page-zhimacredit-shopHs-order-coupon .back-to-index .back-btn {
+    display: block;
+    font-size: .15rem;
+    width: 1.9rem;
+    height: .38rem;
+    margin: 0 auto;
+    line-height: .38rem;
+    text-align: center;
+    color: #926100;
+    border-radius: 100px;
+    border: 1px solid #9c6d0d;
+    position: relative;
+}
+
+/* 查看身边的苏宁门店 */
+.page-zhimacredit-shopHs-order-coupon .back-to-index .shop-tips {
+    padding: 0 .170rem;
+    text-align: center;
+    color: #9f7634;
+    font-size: .1024rem;
+    line-height: .1536rem;
+    margin-top: .2rem;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .page-zhimacredit-shopHs-order-coupon .back-to-index .back-btn {
+        border: 0;
+    }
+
+    .page-zhimacredit-shopHs-order-coupon .back-to-index .back-btn:before {
+        content: '';
+        width: 200%;
+        height: 200%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: scale(.5);
+        transform-origin: 0 0;
+        border: 1px solid #9c6d0d;
+        border-radius: 100px;
+    }
+    /* 加价券 */
+    .page-zhimacredit-shopHs-order-coupon .coupon-top .coupon-pic .price-text .coupon-code {
+        border: 0;
+    }
+    .page-zhimacredit-shopHs-order-coupon .coupon-top .coupon-pic .price-text .coupon-code:before {
+        content: '';
+        width: 200%;
+        height: 200%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: scale(.5);
+        transform-origin: 0 0;
+        border: 1px solid #dbb771;
+        border-radius: 100px;
+    }
+}
+
+/* vivo 活动页面,底部显示的 banner 图 */
+.page-zhimacredit-shopHs-order-coupon .bottom-vivo-pic {
+    width: 3.2rem;
+    height: 1.28rem;
+    background: url(https://p4.ssl.qhmsg.com/t012be54c2e145aa6b6.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+

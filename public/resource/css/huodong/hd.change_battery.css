@@ -1,0 +1,103 @@
+html,body{
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    /*line-height: 100%;*/
+}
+.errorblink{
+    border: 1px solid #fb0909 !important;
+}
+.relative{
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.clearfix{
+    zoom:1;
+}
+.w100{width: 100%;}
+.fl{ float:left;}
+.fr{ float:right;}
+.page-hd-change_battery{
+}
+
+.block-inner{
+    width:1200px;
+    margin: 0 auto;
+}
+
+.page-hd-change_battery .block1,
+.page-hd-change_battery .block1 .block-inner{
+    height: 400px;
+    background: url(https://p0.ssl.qhmsg.com/t01597817381f2ebc31.jpg) no-repeat center 0;
+}
+.page-hd-change_battery .btn-top{
+    width: 295px;
+    height: 58px;
+    position: absolute;
+    left: 443px;
+    bottom: 60px;
+}
+.page-hd-change_battery .block2,
+.page-hd-change_battery .block2 .block-inner{
+    height: 650px;
+    background: url(https://p.ssl.qhimg.com/t015531fbcffbca9d54.jpg) no-repeat center 0;
+}
+.page-hd-change_battery .block3,
+.page-hd-change_battery .block3 .block-inner{
+    height: 535px;
+    background: url(https://p.ssl.qhimg.com/t01ae62f3fe1a9b818b.jpg) no-repeat center 0;
+}
+.page-hd-change_battery .block4,
+.page-hd-change_battery .block4 .block-inner{
+    height: 541px;
+    background: url(https://p.ssl.qhimg.com/t01256f26758331b0e0.jpg) no-repeat center 0;
+}
+.page-hd-change_battery .block5,
+.page-hd-change_battery .block5 .block-inner{
+    height: 517px;
+    background: url(https://p.ssl.qhimg.com/t01041da9a8403f0769.jpg) no-repeat center 0;
+}
+.page-hd-change_battery .block2 .gif-list{
+    padding-top: 240px;
+}
+.page-hd-change_battery .block2 .gif-list img{
+    width: 370px;
+    height: 370px;
+    float: left;
+    margin: 0 15px;
+}
+.page-hd-change_battery .btn-fuwudao{
+    position: absolute;
+    left: 470px;
+    bottom: 20px;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.page-hd-change_battery .block-bottom{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+}
+.page-hd-change_battery .block-bottom,
+.page-hd-change_battery .block-bottom .block-inner{
+    height: 89px;
+    background: url(https://p.ssl.qhimg.com/t01bfa3ad5d3998143d.jpg) no-repeat center 0;
+    z-index: 999;
+}
+.page-hd-change_battery .btn-bottom{
+    width: 236px;
+    height: 58px;
+    position: absolute;
+    left: 833px;
+    top: 15px;
+}
+
+
+

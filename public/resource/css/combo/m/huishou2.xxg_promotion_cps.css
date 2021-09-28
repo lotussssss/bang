@@ -1,0 +1,73 @@
+
+/**import from `/resource/css/mobile/huishou/xxg_promotion_cps/_common.css` **/
+html,body{height:100%;}
+#Main.main{width:100%;min-width:320px;height:100%;background-color:#fff;}
+#Main .main-inner{margin:0 auto;/*padding-bottom: .56rem;*//*此处padding是为了处理某些浏览器，尤其是iOS的Safari下vh的bug*/max-width:720px;min-width:320px;background-color:#fff;}
+
+/**import from `/resource/css/mobile/huishou/xxg_promotion_cps/index.css` **/
+/*加载ing*/.ui-loading{display:block;height:.35rem;line-height:.35rem;text-align:center;}
+.ui-loading .ui-loading-txt{}
+.ui-loading .ui-loading-img{width:.2rem;height:.2rem;}
+/*没有更多了*/.ui-no-more{display:block;height:.35rem;line-height:.35rem;text-align:center;}
+.page-xxg-promotion-cps-index{}
+.page-xxg-promotion-cps-index #Main.main{background-color:#fff;}
+.page-xxg-promotion-cps-index a,.page-xxg-promotion-cps-index a:hover{text-decoration:none;}
+.page-xxg-promotion-cps-index .block-customer-scan-qrcode{margin:0 .1rem;padding:.3rem 0;line-height:1.8;font-size:.16rem;text-align:center;}
+.page-xxg-promotion-cps-index .block-customer-scan-qrcode img{margin-top:.1rem;width:1.4rem;height:1.4rem;}
+.page-xxg-promotion-cps-index .block-btn{padding:.4rem .1rem;background-color:transparent;}
+.page-xxg-promotion-cps-index .block-btn .btn{width:100%;height:.42rem;line-height:.42rem;font-size:.14rem;border-radius:0;background-color:#ff4500;text-align:center;}
+.page-xxg-promotion-cps-index .row-fragment-tab{}
+.page-xxg-promotion-cps-index .row-fragment-tab .btn{display:block;height:.36rem;line-height:.36rem;color:#333;border-radius:0;font-size:.14rem;}
+.page-xxg-promotion-cps-index .row-fragment-tab .btn.btn-selected{border-bottom:2px solid #4a7;}
+.page-xxg-promotion-cps-index .block-fragment{}
+/*订单状态切换tab*/.page-xxg-promotion-cps-index .block-tab-list{margin:.08rem .06rem;overflow:hidden;}
+.page-xxg-promotion-cps-index .block-tab-list .tab-list-inner{width:5rem;}
+.page-xxg-promotion-cps-index .block-tab-list .item{padding:.02rem .1rem;float:left;color:#4a7;border-radius:999px;}
+.page-xxg-promotion-cps-index .block-tab-list .item-cur{background-color:#4a7;color:#fff;}
+/* END 订单状态切换tab*/.page-xxg-promotion-cps-index .block-tips{padding:.06rem 0 .06rem .06rem;background-color:#efefef;}
+.page-xxg-promotion-cps-index .block-order-list{}
+.page-xxg-promotion-cps-index .block-order-list .item{display:block;padding:.12rem;font-size:.12rem;color:#999;}
+.page-xxg-promotion-cps-index .block-order-list .model-name{color:#333;}
+.page-xxg-promotion-cps-index .block-order-list .order-status{color:#4a7;text-align:right;}
+.page-xxg-promotion-cps-index .block-order-list .price{color:#f50;}
+.page-xxg-promotion-cps-index .block-order-list .btn-view-hs-express{padding:.02rem .1rem;font-size:.12rem;color:#fff;background-color:#f50;}
+.page-xxg-promotion-cps-index .block-order-list .btn-view-express-info,.page-xxg-promotion-cps-index .block-order-list .btn-view-check-info{text-align:right;color:#0f97e9;text-decoration:underline;font-size:.1rem;}
+
+/**import from `/resource/css/mobile/huishou/xxg_promotion_cps/register.css` **/
+.page-xxg-promotion-cps-register{}
+.page-xxg-promotion-cps-register .block-xxg-register{}
+.page-xxg-promotion-cps-register .block-xxg-register input[readonly]{cursor:pointer;}
+.page-xxg-promotion-cps-register .block-xxg-register .row{margin:0 .08rem;padding:1px;line-height:.36rem;}
+.page-xxg-promotion-cps-register .block-xxg-register .pic-code-img{width:100%;height:.36rem;vertical-align:top;}
+.page-xxg-promotion-cps-register .block-xxg-register .radio-label{margin-right:.1rem;padding:0 .08rem;display:inline-block;}
+.page-xxg-promotion-cps-register .block-xxg-register .btn-trigger-get-sms-code{display:block;text-align:center;}
+.page-xxg-promotion-cps-register .block-xxg-register .btn-trigger-get-sms-code.btn-trigger-get-sms-code-disabled,.page-xxg-promotion-cps-register .block-xxg-register .btn-trigger-get-sms-code.btn-trigger-get-sms-code-disabled:hover{color:#ccc;text-decoration:none;}
+.page-xxg-promotion-cps-register .block-xxg-register .block-xxg-register-suning{padding:.02rem 0 .02rem 0;}
+.page-xxg-promotion-cps-register .block-xxg-register .col-12-4{padding-right:.06rem;text-align:right;}
+.page-xxg-promotion-cps-register .block-xxg-register .btn-xxg-confirm{margin:.1rem auto;display:block;width:80%;height:.36rem;line-height:.36rem;background-color:#4a7;color:#fff;text-align:center;}
+.page-xxg-promotion-cps-register .block-xxg-register .btn-xxg-confirm.btn-disabled{background-color:#ccc;}
+
+/**import from `/resource/css/mobile/huishou/xxg_promotion_cps/promotion.css` **/
+.page-xxg-promotion-cps-promotion{}
+.page-xxg-promotion-cps-promotion .main-inner{background:url(https://p2.ssl.qhmsg.com/t01e16cbec0cf680d9a.png) repeat-y center 0;background-size:contain;}
+.page-xxg-promotion-cps-promotion .block{}
+.page-xxg-promotion-cps-promotion .block1{height:2.8755555555555556rem;background:url(https://p3.ssl.qhmsg.com/t01e3cd46a0bd5b44fc.jpg) no-repeat center 0;background-size:cover;text-align:center;}
+.page-xxg-promotion-cps-promotion .block1 .tit,.page-xxg-promotion-cps-promotion .block1 .tit-success{padding-top:1.05rem;font-size:.24rem;font-weight:bolder;text-align:center;}
+.page-xxg-promotion-cps-promotion .block1 .tit-success{padding-left:.4rem;display:inline-block;height:.36rem;line-height:.36rem;background:url(https://p2.ssl.qhmsg.com/t0159f3a12f2fecf224.png) no-repeat 0 bottom;background-size:0.36rem 0.36rem;box-sizing:content-box;}
+.page-xxg-promotion-cps-promotion .block2{margin-top:-1.1rem;padding-bottom:.1rem;}
+.page-xxg-promotion-cps-promotion .block2 .tit{font-size:.24rem;text-align:center;color:#f60;}
+.page-xxg-promotion-cps-promotion .block2 .bonus-max{font-size:.36rem;text-align:center;color:#f60;}
+.page-xxg-promotion-cps-promotion .block2 .bonus-desc{margin-left:.8rem;}
+.page-xxg-promotion-cps-promotion .block2 .bonus-desc li{padding-left:.24rem;height:.24rem;line-height:.24rem;background:url(https://p0.ssl.qhmsg.com/t01983b6b6cbb94c416.png) no-repeat 0 center;background-size:0.2222222222222222rem 0.19111111111111112rem;}
+.page-xxg-promotion-cps-promotion .block3,.page-xxg-promotion-cps-promotion .block4{margin:0 auto;padding-bottom:.5rem;width:3.04rem;background:url(https://p4.ssl.qhmsg.com/t012b6b11c23379a305.jpg) no-repeat center .5rem;background-size:contain;}
+.page-xxg-promotion-cps-promotion .block4{background-position:center 0;}
+.page-xxg-promotion-cps-promotion .block3 form{margin:0 auto;width:2.72rem;}
+.page-xxg-promotion-cps-promotion .block3 .block-btn{margin-top:.14rem;}
+.page-xxg-promotion-cps-promotion .block3 .btn-submit,.page-xxg-promotion-cps-promotion .block4 .btn-submit{width:100%;height:.42rem;line-height:.42rem;background-color:transparent;color:#fff;font-size:.2rem;text-align:center;}
+.page-xxg-promotion-cps-promotion .block5{margin:-.1rem auto 0 auto;padding-bottom:.2rem;width:2.8rem;background-position:center 0;}
+.page-xxg-promotion-cps-promotion .block5 .tit{text-align:center;color:#f60;}
+.page-xxg-promotion-cps-promotion .block5 ul{padding-left:.2rem;list-style:decimal;list-style-position:outside;}
+.page-xxg-promotion-cps-promotion .block5 ul li{}
+.page-xxg-promotion-cps-promotion .block5 dl{padding:.06rem 0;}
+.page-xxg-promotion-cps-promotion .block5 dl dt{color:#f60;}
+.page-xxg-promotion-cps-promotion .block5 dl dd{}

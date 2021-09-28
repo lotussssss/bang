@@ -1,0 +1,64 @@
+/* =================描述页====================== */
+.page-liangpin-desc {
+    background: #fff;
+}
+
+/*.page-liangpin-desc .liangpin-main .inner-1200{*/
+/*padding: 40px 0;*/
+/*text-align: center;*/
+/*}*/
+.page-liangpin-desc .liangpin-main .block-inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.page-liangpin-desc .liangpin-main .block1,
+.page-liangpin-desc .liangpin-main .block1 .block-inner {
+    height: 488px;
+    background: url("https://p2.ssl.qhmsg.com/t014dc71cef9ac22dee.png") no-repeat center 0;
+}
+
+.page-liangpin-desc .liangpin-main .block2,
+.page-liangpin-desc .liangpin-main .block2 .block-inner {
+    height: 364px;
+    background: url("https://p3.ssl.qhmsg.com/t0186fae25111d57f77.png") no-repeat center 0;
+}
+
+.page-liangpin-desc .liangpin-main .block3,
+.page-liangpin-desc .liangpin-main .block3 .block-inner {
+    height: 350px;
+    background: url("https://p0.ssl.qhmsg.com/t0125e1a2bf26f9fd9b.png") no-repeat center 0;
+}
+
+.page-liangpin-desc .liangpin-main .block4,
+.page-liangpin-desc .liangpin-main .block4 .block-inner {
+    height: 426px;
+    background: url("https://p3.ssl.qhmsg.com/t017572cb786cdc0295.png") no-repeat center 0;
+}
+
+.page-liangpin-desc .liangpin-main .block5,
+.page-liangpin-desc .liangpin-main .block5 .block-inner {
+    height: 415px;
+    background: url("https://p3.ssl.qhmsg.com/t017a479e0cc8927714.png") no-repeat center 0;
+}
+
+.page-liangpin-desc .liangpin-main .block6,
+.page-liangpin-desc .liangpin-main .block6 .block-inner {
+    height: 623px;
+    background: url("https://p3.ssl.qhmsg.com/t0128d11ee159534c9d.png") no-repeat center 0;
+}
+
+.page-liangpin-desc .liangpin-main .block7,
+.page-liangpin-desc .liangpin-main .block7 .block-inner {
+    height: 934px;
+    background: url("https://p3.ssl.qhmsg.com/t015206ba6a8aab8257.png") no-repeat center 0;
+    position: relative;
+}
+
+.page-liangpin-desc .liangpin-main .block7 .to-liangpin {
+    position: absolute;
+    left: 360px;
+    bottom: 142px;
+    width: 500px;
+    height: 40px;
+}

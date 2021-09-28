@@ -1,0 +1,269 @@
+.w100{
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+.block-inner {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.page-hd-418 {
+    background:#2c37cd;
+}
+.page-hd-418 .topbar .in{
+    width: 1000px;
+}
+
+.page-hd-418 .block-tit{
+    /*margin: 45px 0 10px;*/
+    height: 124px;
+    line-height: 124px;
+    position: relative;
+    text-align: center;
+    background: url("https://p3.ssl.qhmsg.com/t013fa2e171621609c6.png") no-repeat center 0;
+}
+.page-hd-418 .block2 .block-tit{
+    /*background: url("https://p4.ssl.qhmsg.com/t014bff05dacbe405c2.jpg") no-repeat center;*/
+}
+.page-hd-418 .block3 .block-tit{
+    /*background: url("https://p3.ssl.qhmsg.com/t012cc6c521f6cc9fbd.jpg") no-repeat center;*/
+}
+.page-hd-418 .block4 .block-tit{
+    /*background: url("https://p0.ssl.qhmsg.com/t01a30a7d2c54d3f3be.jpg") no-repeat center;*/
+}
+.page-hd-418 .block5 .block-tit{
+    /*background: url("https://p2.ssl.qhmsg.com/t016355ab22171ce18a.jpg") no-repeat center;*/
+}
+.page-hd-418 .block-tit .tit-cont{
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+}
+.page-hd-418 .block-tit .more{
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    width: 110px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    /*background: #79b01e;*/
+    color: #fff;
+    /*box-shadow: 1px 2px 10px 1px #ff5a80;*/
+    border:2px solid #fff;
+    border-radius: 999px;
+}
+.page-hd-418 .block1,
+.page-hd-418 .block1 .block-inner {
+    height: 435px;
+    background:url(https://p2.ssl.qhmsg.com/t016f8211109c77498e.jpg) no-repeat center 0;
+    position: relative;
+}
+.page-hd-418 .block1 .back{
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    font-size: 16px;
+    color: #ffe386;
+    text-decoration: none;
+}
+.page-hd-418 .block-flash{
+    background: #307eed;
+}
+
+.page-hd-418 .block-flash .ui-sp-product-list-1{
+    min-height: 332px;
+}
+
+.page-hd-418 .block-flash .p-item{
+    height: 320px;
+}
+
+/*日期tab*/
+.page-hd-418 .tab-list{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.page-hd-418 .tab-list .date-item{
+    float: left;
+    width: 166px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.page-hd-418 .tab-list .date-item.cur{
+    background: #307eed;
+}
+/*日期tab end*/
+
+/*抽奖抽奖抽奖抽奖抽奖*/
+/*奖品图*/
+.page-hd-418 .block-lottery .lottery-pic{
+    float: left;
+    width: 570px;
+    height: 310px;
+    background:url(https://p2.ssl.qhmsg.com/t01a4456bb7133718f2.jpg) no-repeat center 0;
+    position: relative;
+}
+.page-hd-418 .block-lottery .ewm {
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    right: 160px;
+    top: 117px;
+}
+/*中奖名单*/
+.page-hd-418 .block-lottery .lottery-user{
+    float: right;
+    width: 410px;
+    height: 310px;
+    border-radius: 8px;
+    background: #02b2fd;
+}
+.page-hd-418 .block-lottery .lottery-user-tit{
+    font-size: 28px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+}
+.page-hd-418 .block-lottery .lottery-user-list {
+    position: relative;
+    width: 300px;
+    height: 240px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.page-hd-418 .block-lottery .lottery-user-list-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.page-hd-418 .block-lottery .lottery-user-list .lottery-item{
+    color: #fff;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+.page-hd-418 .block-lottery .lottery-user-list .lottery-item-inner{
+    padding-left: 15px;
+    position: relative;
+}
+.page-hd-418 .block-lottery .lottery-user-list .lottery-item i{
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left: 0px;
+    top:11px;
+    border-radius: 999px;
+    background: #fff;
+}
+/*抽奖抽奖抽奖抽奖抽奖 end*/
+
+.page-hd-418 .block-sub,
+.page-hd-418 .block-sub .block-inner{
+    height: 156px;
+    background:#307eed url(https://p2.ssl.qhmsg.com/t01f636287209e2a717.png) no-repeat center 0;
+}
+/*418活动商品列表样式*/
+.page-hd-418 .ui-sp-product-list-1{
+    min-height: 600px;
+}
+.page-hd-418 .ui-sp-product-list-1 .p-item{
+    margin: 5px;
+}
+/*418活动商品列表样式 end*/
+
+
+
+/*品牌推荐*/
+.page-hd-418 .block-brand-recommend .block-tit{
+    background: url("https://p0.ssl.qhmsg.com/t010459a8d5faa896a5.png") no-repeat center;
+}
+.page-hd-418 .brand-recommend-list .brand-recommend-item,
+.page-hd-418 .brand-recommend-list .brand-recommend-item:hover {
+    float: left;
+    display: block;
+    width: 300px;
+    height: 200px;
+    font-size: 0;
+    background-image: url(https://p.ssl.qhimg.com/t01435371c07709bab1.jpg);
+    text-decoration: none;
+}
+
+.page-hd-418 .brand-recommend-list .brand-recommend-item-meizu {
+    background-position: 0 0;
+}
+
+.page-hd-418 .brand-recommend-list .brand-recommend-item-le {
+    background-position: -300px 0;
+}
+
+.page-hd-418 .brand-recommend-list .brand-recommend-item-oppo {
+    background-position: -600px 0;
+}
+
+.page-hd-418 .brand-recommend-list .brand-recommend-item-vivo {
+    background-position: -900px 0;
+}
+
+.page-hd-418 .brand-recommend-list .brand-recommend-item-huawei {
+    background-position: 0 -200px;
+}
+
+.page-hd-418 .brand-recommend-list .brand-recommend-item-mi {
+    background-position: -300px -200px;
+}
+
+.page-hd-418 .brand-recommend-list .brand-recommend-item-samsung {
+    background-position: -600px -200px;
+}
+
+.page-hd-418 .brand-recommend-list .brand-recommend-item-apple {
+    background-position: -900px -200px;
+}
+
+/*服务介绍*/
+.page-hd-418 .block-service-intro,
+.page-hd-418 .block-service-intro .block-inner {
+    height: 260px;
+    background:url(https://p2.ssl.qhmsg.com/t01f0283f3698526c0f.png) no-repeat center 0;
+    margin-top: 20px;
+}
+/*二维码扫一扫*/
+.page-hd-418 .block-qrcode-info,
+.page-hd-418 .block-qrcode-info .block-inner {
+    height: 260px;
+    background:url(https://p0.ssl.qhmsg.com/t013d31f58db24ece6f.png) no-repeat center 0;
+    margin: 20px auto 10px;
+}
+/*活动说明*/
+.page-hd-418 .block-desc{
+    color: #fff;
+    margin-bottom: 80px;
+}
+.page-hd-418 .block-desc .block-desc-cont{
+    color: #fff;
+    padding: 15px 0 0;
+}
+.page-hd-418 .block-desc .block-desc-cont h3{
+    font-weight: bold;
+    font-size: 22px;
+}
+.page-hd-418 .block-desc .block-desc-cont p{
+    font-size: 16px;
+}
+

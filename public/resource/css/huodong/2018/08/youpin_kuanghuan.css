@@ -1,0 +1,212 @@
+.w100{
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+.block-inner {
+    margin: 0 auto;
+    width: 990px;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.page-hd-youpin-kuanghuan {
+    background:#dd0000;
+    min-width: 990px;
+}
+.page-hd-youpin-kuanghuan .dialog-inner{
+    /*padding: 0;*/
+}
+.page-hd-youpin-kuanghuan .topbar .in{
+    width: 990px;
+}
+.page-hd-youpin-kuanghuan .mainbody{
+    padding-bottom: 50px;
+}
+
+/*头图*/
+.page-hd-youpin-kuanghuan .block-top,
+.page-hd-youpin-kuanghuan .block-top .block-inner{
+    height: 451px;
+    background: url(https://p2.ssl.qhmsg.com/t01ee4b8a2279288a51.jpg) no-repeat center 0;
+}
+/*头图end*/
+/*优惠券*/
+.page-hd-youpin-kuanghuan .block-coupon,
+.page-hd-youpin-kuanghuan .block-coupon .block-inner{
+    height: 310px;
+    background: url(https://p0.ssl.qhmsg.com/t01d9391090c33edebe.jpg) no-repeat center 0;
+}
+.page-hd-youpin-kuanghuan .block-coupon .coupon-list{
+    width: 810px;
+    margin: 0 auto;
+    position: relative;
+}
+.page-hd-youpin-kuanghuan .block-coupon .coupon-item{
+    position: absolute;
+    top: 100px;
+    width: 373px;
+    height: 157px;
+    background: url("https://p1.ssl.qhmsg.com/t01d69541cdeaee7879.png") no-repeat center;
+    color: #f10438;
+    text-align: center;
+}
+.page-hd-youpin-kuanghuan .block-coupon .coupon-item.coupon-item-disabled{
+    cursor: default;
+}
+.page-hd-youpin-kuanghuan .block-coupon .coupon-item1{
+    left: 0px;
+}
+.page-hd-youpin-kuanghuan .block-coupon .coupon-item2{
+    right: 0px;
+}
+.page-hd-youpin-kuanghuan .block-coupon .coupon-price{
+    font-size: 30px;
+    line-height: 1;
+    padding-top: 30px;
+}
+.page-hd-youpin-kuanghuan .block-coupon .coupon-price .price-num{
+    font-size: 66px;
+    font-weight: bold;
+}
+.page-hd-youpin-kuanghuan .block-coupon .coupon-desc{
+    font-size: 22px;
+}
+.page-hd-youpin-kuanghuan .block-coupon .coupon-btn{
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 30px;
+}
+.page-hd-youpin-kuanghuan .block-coupon .coupon-item.coupon-item-disabled .coupon-btn{
+    padding-top: 42px;
+}
+/*优惠券 end*/
+
+.page-hd-youpin-kuanghuan .block-baokuan,
+.page-hd-youpin-kuanghuan .block-baokuan .block-inner{
+    background: url(https://p4.ssl.qhmsg.com/t014815421a5a74c88b.jpg) no-repeat center 0;
+}
+
+/*标题*/
+.page-hd-youpin-kuanghuan .block-tit{
+    height: 155px;
+    background: no-repeat center;
+}
+.page-hd-youpin-kuanghuan .block-baokuan .block-tit{
+    background-image: url("https://p3.ssl.qhmsg.com/t01f276ac78aaaf729f.png");
+}
+.page-hd-youpin-kuanghuan .block-youxuan .block-tit{
+    background-image: url("https://p1.ssl.qhmsg.com/t01ee6aa0711c430847.png");
+}
+.page-hd-youpin-kuanghuan .block-recommend .block-tit{
+    background-image: url("https://p1.ssl.qhmsg.com/t01d290ac00b83091c8.png");
+}
+/*标题 end*/
+
+/*更多*/
+.page-hd-youpin-kuanghuan .more{}
+.page-hd-youpin-kuanghuan .more a{
+    margin: 20px auto;
+    display: block;
+    width: 513px;
+    height: 90px;
+    background: url("https://p1.ssl.qhmsg.com/t01fd910525abf3401b.png") no-repeat center 0;
+}
+/*更多 end*/
+
+/*活动商品列表样式*/
+.page-hd-youpin-kuanghuan .ui-sp-product-list-1{
+    min-height: 310px;
+}
+
+.page-hd-youpin-kuanghuan .ui-sp-product-list-1 .p-item{
+    margin:0 10px 10px 0;
+    width: 240px;
+    height: 316px;
+    border:none;
+}
+.page-hd-youpin-kuanghuan .ui-sp-product-list-1 .p-item.p-item-last{
+    margin-right: 0;
+}
+.page-hd-youpin-kuanghuan .ui-sp-product-list-1 .p-item .p-tit{
+    font-size: 22px;
+    font-weight: bold;
+}
+.page-hd-youpin-kuanghuan .ui-sp-product-list-1 .p-item .p-tit-sub{
+    padding-top: 0;
+    font-size: 14px;
+}
+.page-hd-youpin-kuanghuan .ui-sp-product-list-1 .p-item .p-pic{
+    height: 166px;
+    padding-top: 30px;
+}
+.page-hd-youpin-kuanghuan .ui-sp-product-list-1 .p-item .p-pic img {
+    height: 156px;
+}
+.page-hd-youpin-kuanghuan .ui-sp-product-list-1 .p-item .p-price{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 25px 0 0;
+    height: 54px;
+    line-height: 54px;
+    text-align: right;
+    background: url("https://p3.ssl.qhmsg.com/t01560d33d754ddcaf1.jpg") no-repeat center;
+    overflow: hidden;
+}
+.page-hd-youpin-kuanghuan .ui-sp-product-list-1 .p-item .p-price-cur{
+    font-size: 16px;
+    color: #f00;
+}
+.page-hd-youpin-kuanghuan .ui-sp-product-list-1 .p-item .p-price-cur .p-price-num{
+    font-size: 30px;
+}
+/*活动商品列表样式 end*/
+
+/*服务介绍*/
+.page-hd-youpin-kuanghuan .block-service-intro,
+.page-hd-youpin-kuanghuan .block-service-intro .block-inner {
+    background: url(https://p1.ssl.qhmsg.com/t0136198a9aee311b26.jpg) no-repeat center;
+}
+.page-hd-youpin-kuanghuan .block-service-intro .block-inner{
+    height: 445px;
+    /*margin: 20px auto;*/
+}
+/*二维码扫一扫*/
+/*.page-hd-youpin-kuanghuan .block-qrcode-info,*/
+/*.page-hd-youpin-kuanghuan .block-qrcode-info .block-inner {*/
+    /*background:url(https://p2.ssl.qhmsg.com/t01546ef631a962c3cc.jpg) no-repeat center 0;*/
+/*}*/
+/*.page-hd-youpin-kuanghuan .block-qrcode-info .block-inner {*/
+    /*height: 268px;*/
+    /*margin: 0px auto 0px;*/
+/*}*/
+
+/*合作伙伴*/
+.page-hd-youpin-kuanghuan .block-partner,
+.page-hd-youpin-kuanghuan .block-partner .block-inner {
+    background:url(https://p3.ssl.qhmsg.com/t01bc8f36ef3a0c0647.jpg) no-repeat center 0;
+}
+.page-hd-youpin-kuanghuan .block-partner .block-inner {
+    height: 401px;
+    /*margin: 0px auto 30px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

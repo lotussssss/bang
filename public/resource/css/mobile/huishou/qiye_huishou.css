@@ -1,0 +1,275 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before,
+*:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    /*height: 100%;*/
+    height: auto;
+    min-height: 100%;
+}
+body{
+    margin: 0 auto;
+    max-width: 720px;
+    min-width: 320px;
+    /*height: 100%;*/
+    height: auto;
+    min-height: 100%;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    -webkit-overflow-scrolling : touch;
+}
+.mainbody{
+    /*height: 100%;*/
+    min-height: 100%;
+    /*overflow-x: hidden;*/
+    /*overflow-y: scroll;*/
+}
+.mainbody-inner{
+    min-height: 100%;
+}
+html,body{
+    background: #fff;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+.relative{
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.clearfix{
+    zoom:1;
+}
+.w100{width: 100%;}
+.fl{ float:left;}
+.fr{ float:right;}
+
+.qiye-huishou .block_inner{
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.qiye-huishou .block{
+    padding: 0 0.08rem;
+}
+.qiye-huishou .block1,.qiye-huishou .block1 .block_inner{
+    height: 2.022222222222222rem;
+    background: url("https://p.ssl.qhimg.com/t018c3ad2d80c579a31.jpg") no-repeat center 0;
+    background-size: 100%;
+}
+.qiye-huishou .btn-write-info{
+    width: 1.644444444444444rem;
+    height: 0.3644444444444444rem;
+    position: absolute;
+    left: 0.7733333333333333rem;
+    top: 1.226666666666667rem;
+    /*background: rgba(0,0,0,0.3);*/
+}
+.qiye-huishou .block-tit{
+    padding-top: 0.35rem;
+    text-align: center;
+}
+.qiye-huishou .block-tit .title{
+    font-size: 0.2rem;
+    color: #333;
+    padding-bottom: 0.115rem;
+    font-weight: normal;
+}
+.qiye-huishou .block-tit .desc{
+    font-size: 0.14rem;
+    color: #666;
+}
+
+.qiye-huishou .block2 .block-inner{
+    padding-bottom: 64px;
+}
+.qiye-huishou .border-b{
+    border-bottom: 1px solid #ebebeb;
+}
+.qiye-huishou .phone-list{
+    /*padding-top: 0.2rem;*/
+    margin: 0 auto;
+}
+.qiye-huishou .phone-list li{
+    float: left;
+    width: 1.066rem;
+    text-align: center;
+    margin: 0.2rem 0 ;
+}
+.qiye-huishou .phone-list div{
+    width: 0.472rem;
+    height: 0.591rem;
+    margin: 0 auto;
+    background:url("https://p.ssl.qhimg.com/t01a598dfade97c66c8.jpg") no-repeat 0 0;
+    background-size: 7.111111111111111rem;
+}
+.qiye-huishou .phone-list .phone-pic1{
+    background-position:-0.19rem 0;
+}
+.qiye-huishou .phone-list .phone-pic2{
+    background-position:-1.38rem 0;
+}
+.qiye-huishou .phone-list .phone-pic3{
+    background-position:-2.54rem 0;
+}
+.qiye-huishou .phone-list .phone-pic4{
+    background-position:-3.568888888888889rem 0;
+}
+.qiye-huishou .phone-list .phone-pic5{
+    background-position:-4.786666666666667rem 0;
+}
+.qiye-huishou .phone-list .phone-pic6{
+    background-position:-5.982222222222222rem 0;
+}
+.qiye-huishou .phone-list .phone-name{
+    font-size: 0.1066666666666667rem;
+    color: #333;
+    padding-top: .1333333333333333rem;
+}
+
+.qiye-huishou .step-list{
+    margin: 0.2rem auto;
+}
+.qiye-huishou .step-list li{
+    float: left;
+    width: 50%;
+    margin-bottom: 0.08rem;
+}
+.qiye-huishou .step-list div{
+    float: left;
+}
+.qiye-huishou .step-num{
+    width: 0.28rem;
+    height: 0.28rem;
+    text-align: center;
+    line-height: 0.28rem;
+    background: #54bf8d;
+    color: #fff;
+    font-size: 0.2rem;
+    border-radius: 50%;
+    margin-top: 0.03rem;
+}
+.qiye-huishou .step-list .step-pic1{
+    background-position:-114px 0;
+}
+.qiye-huishou .step-list .step-pic2{
+    background-position:-410px 0;
+}
+.qiye-huishou .step-list .step-pic3{
+    background-position:-708px 0;
+}
+.qiye-huishou .step-list .step-pic4{
+    background-position:-995px 0;
+}
+.qiye-huishou .step-con{
+     padding-left: 0.04rem;
+ }
+.qiye-huishou .step-list .step-tit{
+    font-size: 0.12rem;
+    color: #333;
+    padding-bottom: 0.03rem;
+}
+.qiye-huishou .step-list .step-info{
+    font-size: .1rem;
+    color: #666;
+}
+.qiye-huishou .block3 .block-inner{
+    /*padding-bottom: 0.2rem;*/
+}
+.qiye-huishou .submit-huishou-form{
+    width: 100%;
+    margin: 0.2rem auto;
+}
+.qiye-huishou input{
+    width: 100%;
+    height: 0.4rem;
+    margin-bottom: 0.1rem;
+    padding: 0 0.1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.14rem;
+    outline: none;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+.qiye-huishou .secode{
+    width: 2rem;
+}
+.qiye-huishou .secode-pic{
+    width: 0.89rem;
+}
+.qiye-huishou .re-info{
+    width: 100%;
+    height: 1rem;
+    margin-bottom: .2rem;
+    padding: 0.1rem;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.14rem;
+    line-height: 0.24rem;
+    outline: none;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+.qiye-huishou .submit{
+    width: 100%;
+    height: 0.45rem;
+    background: #54bf8d;
+    color: #fff;
+    text-align: center;
+    line-height: 0.4rem;
+    border-radius: 5px;
+    font-size: .2rem;
+    cursor: pointer;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+.qiye-huishou .form-succ-tip{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.qiye-huishou .form-succ-tip-inner{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -1.3rem;
+    margin-top: -0.7rem;
+    width: 2.6rem;
+    height: 1.4rem;
+    background: #fff;
+    color: #333;
+    font-size: 0.14rem;
+    /* text-align: center; */
+    padding: 0.2rem;
+}
+.qiye-huishou .form-succ-btn{
+    width: 1rem;
+    height: 0.3rem;
+    background: #54bf8d;
+    color: #fff;
+    text-align: center;
+    line-height: 0.3rem;
+    border-radius: 3px;
+    font-size: 0.16rem;
+    margin-top: 0.3rem;
+}
+.qiye-huishou .block5 .block-inner{
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+.qiye-huishou .ewm{
+    width: 1.164444444444444rem;
+    padding-top: 32px;
+    margin: 0 auto;
+}

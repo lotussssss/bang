@@ -1,0 +1,241 @@
+.ui-comservice-yuyue{
+	padding: 0 30px;
+}
+
+.ui-comservice-yuyue .icon-xq,
+.ui-comservice-yuyue .icon-poi,
+.ui-comservice-yuyue .icon-tel{
+	background: url(https://p.ssl.qhimg.com/t01c14e5048e806c065.png) no-repeat 0 0;
+	width: 16px;
+	height: 16px;
+}
+
+.ui-comservice-yuyue .icon-xq{background-position: 2px -70px;}
+.ui-comservice-yuyue .icon-poi{background-position: -14px -70px;}
+.ui-comservice-yuyue .icon-tel{background-position: -29px -70px;}
+
+.ui-comservice-yuyue .cnt-box{
+	background: #fff;
+}
+
+.ui-comservice-yuyue .require,
+.ui-comservice-yuyue .addr,
+.ui-comservice-yuyue .tel{
+	border:1px solid #DEDEDE;
+	padding: 0 10px;
+	line-height: 30px;
+	height: 30px;
+	width:240px;
+}
+.ui-comservice-yuyue .require{
+	width: 516px;
+	height: 56px;
+	line-height: 24px;
+}
+
+.ui-comservice-yuyue dl{
+	margin: 10px 0;
+}
+.ui-comservice-yuyue .relative{
+	display: inline;
+	position: relative;	
+}
+.ui-comservice-yuyue .bottom-submit{
+	text-align: center;
+	margin-top: 30px;
+}
+.ui-comservice-yuyue .bottom-submit .orgen{
+	color: #ff5500;
+	font-weight: bold;
+	line-height: 2;
+	margin-top: 10px;
+}
+.ui-comservice-yuyue .ele4phtips{
+    position: absolute;
+    top:3px;
+    left:10px;
+    color:#aaa;
+   	line-height: 30px;
+}
+
+.ui-comservice-yuyue h2{
+	font: 34px/70px "微软雅黑";
+	text-align: center;
+}
+.ui-comservice-yuyue h3{
+	font: 12px/30px "宋体";
+	font-weight: bold;
+}
+
+.ui-comservice-yuyue h3 .green{
+	font-weight: normal;
+	color: #27a827;
+}
+
+.ui-comservice-yuyue .process{
+	background: url(https://p.ssl.qhimg.com/t01c14e5048e806c065.png) no-repeat 0 0;
+	width: 537px;
+	height: 30px;
+}
+.ui-comservice-yuyue .yuyue-step-1 .process{
+	background-position: 0 0;
+}
+.ui-comservice-yuyue .yuyue-step-2 .process{
+	background-position: 0 -30px;
+}
+
+.ui-comservice-yuyue .btn-submit{
+	background:url(https://p.ssl.qhimg.com/t01c14e5048e806c065.png) no-repeat -156px -60px;
+	width: 127px;
+	height: 39px;	
+	text-indent: -9999px;
+	border: 0;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+}
+.ui-comservice-yuyue .btn-submit:hover{
+	background-position: -283px -60px;
+}
+
+.ui-comservice-yuyue .btn-submit:active{
+	background-position: -410px -60px;
+}
+
+/*预约单成功*/
+.ui-comservice-yuyue .order-done{
+	padding: 30px 0 20px 90px;
+}
+.ui-comservice-yuyue .user-certify{
+	padding-left:90px;
+}
+
+.ui-comservice-yuyue .icon-ok{
+	background:url(https://p.ssl.qhimg.com/t01c14e5048e806c065.png) no-repeat -110px -60px;
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+}
+.ui-comservice-yuyue .ok-tip{
+	font: 16px/24px "微软雅黑";
+	color: #337d39;
+}
+
+.ui-comservice-yuyue .ok-tip2{
+	font: 12px/2 "宋体";
+	color: #ff5500;
+}
+
+.ui-comservice-yuyue .user-cer-tab{
+	width: 360px;
+	font-size: 14px;	
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 2px solid #CCCCCC;
+}
+
+.ui-comservice-yuyue .user-cer-tab li{
+	width: 50%;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+
+.ui-comservice-yuyue .user-cer-tab .on{
+	border-bottom:2px solid #27A827;
+	position: relative;
+	margin-bottom: -2px;
+	z-index: 10;	
+	color: #27A827;
+	font-weight: bold;
+	cursor: default;
+}
+
+/*重新登陆框的样式*/
+.ui-comservice-yuyue .reg-new-account{
+	display: none;
+}
+.ui-comservice-yuyue .mod-qiuser-pop .tips-msg{
+	left:0;
+}
+
+.ui-comservice-yuyue .mod-qiuser-pop .reg-wrap dd{
+	height: 56px;
+}
+
+.ui-comservice-yuyue .mod-qiuser-pop .btn-register, 
+.ui-comservice-yuyue .mod-qiuser-pop .btn-register:hover,
+.ui-comservice-yuyue .mod-qiuser-pop .btn-register:active, 
+.ui-comservice-yuyue .mod-qiuser-pop .btn-register-loading{
+	width: 113px;
+	height: 38px;
+	background:url(https://p.ssl.qhimg.com/t01c14e5048e806c065.png) no-repeat 0 -100px;
+}
+.ui-comservice-yuyue .mod-qiuser-pop .btn-register:hover{
+	background-position: -113px -100px;
+}
+.ui-comservice-yuyue .mod-qiuser-pop .btn-register:active{
+	background-position: -226px -100px;
+}
+
+.ui-comservice-yuyue .reg-wrap .submit{
+	width: 180px;
+	float: left;
+}
+.ui-comservice-yuyue .reg-wrap .rules{
+	float: left;
+	line-height: 56px;
+}
+
+.ui-comservice-yuyue .reg-wrap .rules label{
+	width: 120px;
+}
+
+.ui-comservice-yuyue .mod-qiuser-pop .reg-tips-wrong{
+
+}
+
+.ui-comservice-yuyue .reg-wrap .clk-quc-login{
+	visibility: hidden;
+}
+
+/*城市选择*/
+.ui-comservice-yuyue .select-type{
+    height: 24px;
+    padding: 5px 0;
+    display: inline-block;
+    vertical-align: middle;
+    _display:inline;
+    _zoom:1;
+    float: left;
+}
+
+.ui-comservice-yuyue  .area-sel {
+    background: url(https://p.ssl.qhimg.com/t010d71e7b045cd4e73.png) repeat-x scroll 0 2px;
+    border: 1px solid #D8D8D8;
+    color: #666;
+    cursor: pointer;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 4px;
+    position: relative;
+    z-index: 101;
+}
+
+.ui-comservice-yuyue .mr-10 {
+    margin-right: 4px;
+}
+
+.ui-comservice-yuyue .icon-arrow {
+    background: url(https://p.ssl.qhimg.com/t010d71e7b045cd4e73.png) no-repeat scroll  5px -30px;
+    height: 22px;
+    width: 20px;
+}
+
+.ui-comservice-yuyue .select-pannel{display:none;position: absolute;width: 340px;background: #FBFBFB;border: solid 1px #CFCFCF;left: -1px;top: 28px;padding: 8px 0;z-index: 10001;}
+.ui-comservice-yuyue .select-pannel h3{ font-weight: normal;height: 20px; line-height: 20px; padding: 0 10px; position: relative;}
+.ui-comservice-yuyue .select-pannel h3 .close{background: url(https://p.ssl.qhimg.com/t011be77565f0a2f8e8.png) no-repeat 0 -7px;cursor: pointer; display: block; height: 20px; line-height: 100px; overflow: hidden; position: absolute; right: 10px; top: 0; width: 55px;}
+.ui-comservice-yuyue .select-pannel .select-list{background: #FFFFFF;border: solid 1px #E8E8E8;margin: 12px 12px 3px; padding: 12px 12px 0;}
+.ui-comservice-yuyue .select-pannel .select-list a{color: #000000;display: inline-block; height: 18px; line-height: 18px; margin: 0 18px 5px 0;}

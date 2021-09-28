@@ -1,0 +1,148 @@
+a,a:hover{
+    text-decoration: none;
+}
+
+.page-hd-shortrent {
+    background:#ffefd0;
+    font-size: .12rem;
+}
+
+.page-hd-shortrent .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-shortrent .block {
+    margin: 0 auto;
+}
+
+
+/*头图*/
+.page-hd-shortrent .block-top1{
+    height: 2.8rem;
+    background: url(https://p4.ssl.qhmsg.com/t017f131ca3149766ad.png) no-repeat center 0;
+    background-size: cover;
+}
+/*.page-hd-shortrent .block-top2{*/
+    /*height: 1.5066666666666666rem;*/
+    /*background: url(https://p0.ssl.qhmsg.com/t01fa6ea8911721bdd4.jpg) no-repeat center 0;*/
+    /*background-size: cover;*/
+/*}*/
+/*头图 end*/
+
+
+
+/* 更多 */
+.page-hd-shortrent .more,
+.page-hd-shortrent .more :hover {
+    margin: 0.05rem auto;
+    display: block;
+    width: 1.1rem;
+    height: .28rem;
+    line-height: .28rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: .14rem;
+    background-color: #ce0d12;
+    border-radius: 999px;
+    color: #fff;
+}
+/* END 更多 */
+
+.page-hd-shortrent .product-block{
+    min-height: 1.9022222222222223rem;
+}
+.page-hd-shortrent .product-block .block-tit{
+    padding: .1rem 0;
+}
+.page-hd-shortrent .product-block .block-tit img{
+    width: 100%;
+}
+.page-hd-shortrent .product-list{
+    font-size: 0;
+    padding: 0 .1rem;
+}
+
+.page-hd-shortrent .product-list .p-item{
+    position: relative;
+    display: inline-block;
+    background: url(https://p0.ssl.qhmsg.com/t0140ca8e8d608c597f.png) no-repeat center;
+    background-size: 100% 100%;
+    border:none;
+    width: 49%;
+    margin-right: 2%;
+    margin-bottom:.1rem;
+    text-align: center;
+    padding:.1rem;
+}
+.page-hd-shortrent .product-list .p-item:nth-of-type(2n){
+    margin-right:0;
+}
+.page-hd-shortrent .product-list .p-pic{
+    height:1.0355555555555556rem;
+}
+.page-hd-shortrent .product-list .p-pic img{
+    height:100%;
+}
+.page-hd-shortrent .product-list .p-tit{
+    color: #444;
+    font-size: .14rem;
+    line-height: 1;
+    padding: .1rem 0 .05rem;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.page-hd-shortrent .product-list .p-price{
+    color:#ff3300;
+    font-size: .12rem;
+    line-height: 1;
+    padding-bottom: .05rem;
+}
+.page-hd-shortrent .product-list .p-price-num{
+    font-size: .24rem;
+}
+.page-hd-shortrent .active-introduce{
+    display: block;
+    width: 3rem;
+    margin: 0 auto;
+    background: url(https://p0.ssl.qhmsg.com/t01fbb7de8675a11993.png) no-repeat center;
+    background-size: 100% 100%;
+    padding:.1rem;
+    color: #fff;
+}
+.page-hd-shortrent .icon-gender{
+    display: inline-block;
+    position: absolute;
+    top: .2rem;
+    left: 0;
+    width: .6rem;
+    height: .26rem;
+}
+.page-hd-shortrent .bottom-block{
+    background-color: #ce0d12;
+    padding-bottom: .5rem;
+}
+/*服务介绍*/
+.block-service-intro,
+.block-qrcode-info{
+    margin: .1rem;
+}
+/* 合作商 */
+.block-partner{
+    margin: .1rem .1rem .3rem;
+}
+.block-service-intro img,
+.block-qrcode-info img,
+.block-partner img,
+.block-other-plant img{
+    width: 100%;
+    border-radius: .06rem;
+}
+
+
+
+
+

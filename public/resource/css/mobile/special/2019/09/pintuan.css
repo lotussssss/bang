@@ -1,0 +1,478 @@
+a,a:hover{
+    text-decoration: none;
+}
+
+.page-hd-pintuan {
+    background:#f6f6f6;
+    font-size: .12rem;
+}
+
+.page-hd-pintuan .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-pintuan .block {
+    margin: 0 auto;
+}
+
+/***主态活动首页***/
+.page-hd-pintuan .block-index{
+    background-color: #fff;
+    padding-bottom: .5rem;
+}
+/*头图*/
+.page-hd-pintuan .block-top-banner {
+    height: 2.9696rem;
+    background: url(https://p1.ssl.qhimg.com/t01c1d7668decfe0740.jpg) no-repeat center 0;
+    background-size: cover;
+}
+/*头图 end*/
+
+/*倒计时*/
+.page-hd-pintuan .block-countdown{
+    padding: .1rem 0 .05rem;
+    text-align: center;
+    color: #999;
+}
+.page-hd-pintuan .block-countdown .countdown{
+    font-size: 0;
+}
+.page-hd-pintuan .block-countdown span{
+    vertical-align: middle;
+    font-size: .12rem;
+    margin: 0 .01rem;
+}
+.page-hd-pintuan .block-countdown .d-num,
+.page-hd-pintuan .block-countdown .h-num,
+.page-hd-pintuan .block-countdown .m-num{
+    background: #333;
+    color: #fff;
+    font-size: .14rem;
+    padding: 2px .04rem;
+    border-radius: 3px;
+}
+.page-hd-pintuan .block-countdown .s-num{
+    display: none;
+}
+/*倒计时 end*/
+
+/*滚动名单*/
+.page-hd-pintuan .block-lottery-list{
+    height: 0.3584rem;
+    background: #f2f2f2;
+    position: relative;
+}
+.page-hd-pintuan .block-lottery-list .icon-speaker{
+    position: absolute;
+    left: .1rem;
+    top: .1rem;
+    width: 0.16rem;
+    height: 0.16rem;
+    background: url("https://p5.ssl.qhimg.com/t018ccdd6021d1a60f7.png") no-repeat center;
+    background-size: cover;
+}
+.page-hd-pintuan .block-lottery-list .lottery-user-list {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.page-hd-pintuan .block-lottery-list .lottery-user-list-inner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+.page-hd-pintuan .block-lottery-list .lottery-user-list .lottery-item{
+    padding-left: .35rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #999;
+}
+.page-hd-pintuan .block-lottery-list .lottery-user-list .lottery-item .head-img{
+    width: .25rem;
+    height: .25rem;
+    border-radius: 999px;
+    overflow: hidden;
+    background: no-repeat center/cover;
+}
+.page-hd-pintuan .block-lottery-list .lottery-user-list .lottery-item .model-name{
+    padding: 0 .15rem 0 .1rem;
+}
+.page-hd-pintuan .block-lottery-list .lottery-user-list .lottery-item .price{
+    color: #ff1122;
+}
+/*滚动名单 end*/
+
+/*拼团入口*/
+.page-hd-pintuan .block-pintuan-entry{
+    position: relative;
+    padding-top: .15rem;
+}
+.page-hd-pintuan .block-pintuan-entry .entry-tit{
+    height: 0.3157333333333333rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-hd-pintuan .block-pintuan-entry .entry-tit .entry-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: .13rem;
+    width: 1.5232rem;
+    height: 100%;
+    background: url("https://p3.ssl.qhimg.com/t01c3abc147a317a755.png") no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-pintuan .block-pintuan-entry .entry-tit .entry-tips{
+    color: #999;
+    padding-right: .1rem;
+}
+.page-hd-pintuan .block-pintuan-entry .entry-list{
+    padding: .25rem .2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-hd-pintuan .block-pintuan-entry .entry-list a{
+    display: inline-block;
+}
+.page-hd-pintuan .block-pintuan-entry .entry-list .item{
+    width: 50%;
+}
+.page-hd-pintuan .block-pintuan-entry .entry-list .pic{
+    display: inline-block;
+    width: .62rem;
+    height: .62rem;
+    border-radius: 999px;
+    background: no-repeat center/cover;
+}
+.page-hd-pintuan .block-pintuan-entry .entry-list .tit{
+    color: #333;
+}
+/*拼团入口 end*/
+
+/*回收流程*/
+.page-hd-pintuan .block-recovery-process {
+    height: 0.9258666666666666rem;
+    background: url(https://p2.ssl.qhimg.com/t01d19d4e45a5f837e5.jpg) no-repeat center 0;
+    background-size: cover;
+}
+/*回收流程 end*/
+
+/*活动规则*/
+.page-hd-pintuan .block-desc {
+    background: url(https://p5.ssl.qhimg.com/t01135d4ce67899159e.jpg) no-repeat center 0;
+    background-size: contain;
+}
+.page-hd-pintuan .block-desc .desc-cont{
+    font-size: .1rem;
+    color: #666;
+    line-height: 1.4;
+    padding: .25rem .15rem 0;
+}
+.page-hd-pintuan .block-desc .desc-cont p{
+    padding-bottom: .08rem;
+    display: flex;
+}
+.page-hd-pintuan .block-desc .desc-cont p i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: .14rem;
+    height: .14rem;
+    border-radius: 999px;
+    background-color: #c82d2b;
+    color: #fff;
+    margin-right: .03rem;
+}
+/*活动规则 end*/
+
+/*安全回收*/
+.page-hd-pintuan .block-qualification {
+    height: 2.2186666666666666rem;
+    background: url(https://p2.ssl.qhimg.com/t013da7ec6a0c553c19.jpg) no-repeat center 0;
+    background-size: cover;
+}
+/*安全回收 end*/
+
+/*底部按钮*/
+.page-hd-pintuan .block-btn-entry{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.page-hd-pintuan .block-btn-entry a{
+    display: inline-block;
+    width: 2.944rem;
+    height: .49493333333333334rem;
+    background: url(https://p1.ssl.qhimg.com/t014e79e2cad1335e0f.png) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-pintuan .block-btn-entry .icon-caidan{
+    position: absolute;
+    top: -.1rem;
+    right: .25rem;
+    width: 0.6144rem;
+    height: 0.24746666666666667rem;
+    background: url("https://p4.ssl.qhimg.com/t01cee7fab0c87ec52e.png") no-repeat center 0;
+    background-size: cover;
+}
+/*底部按钮 end*/
+/***主态活动首页 end***/
+
+/***主态拼单成功页***/
+/*拼单成功*/
+.page-hd-pintuan .block-pintuan-succ{
+    padding-bottom: .1rem;
+    margin: .1rem auto .08rem;
+    width: 2.9952rem;
+    /*height: 5.819733333333334rem;*/
+    background: url(https://p4.ssl.qhimg.com/t015a45729095380403.png) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-pintuan .block-succ-tips{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .1rem 0 .08rem;
+}
+.page-hd-pintuan .block-succ-tips .icon-circle-tick{
+    font-size: .3rem;
+    color: #0ca;
+}
+.page-hd-pintuan .block-succ-tips .succ-cont{
+    line-height: 1.3;
+    padding-left: .1rem;
+}
+.page-hd-pintuan .block-succ-tips .succ-tit{
+    font-size: .14rem;
+    color: #333;
+}
+.page-hd-pintuan .block-succ-tips .succ-info{
+    color: #666;
+}
+/*拼单成功 end*/
+
+/*进度条*/
+.page-hd-pintuan .block-process .block-succ-tips{}
+.page-hd-pintuan .block-process .process-tit{
+    text-align: center;
+    font-size: .14rem;
+    color: #333;
+}
+.page-hd-pintuan .block-process .process-tit i{
+    color: #ff5155;
+}
+.page-hd-pintuan .block-process .process-bar{
+    width: 2.688rem;
+    height: 0.1024rem;
+    margin: .03rem auto 0;
+    background: #e9e9e9;
+    border-radius: 999px;
+}
+.page-hd-pintuan .block-process .process-bar .process-bar-inner{
+    height: 100%;
+    background-color: #ff5155;
+    border-radius: 999px;
+}
+.page-hd-pintuan .block-process .process-price{
+    position: relative;
+    width: 2.688rem;
+    margin: 0 auto;
+    color: #666;
+}
+.page-hd-pintuan .block-process .process-price .price-cur{
+    position: absolute;
+    bottom: 0;
+}
+/*进度条 end*/
+
+/*助力按钮*/
+.page-hd-pintuan .block-btn-help{
+    margin: .1rem auto .08rem;
+    width: 2.688rem;
+    height: 0.6186666666666667rem;
+}
+.page-hd-pintuan .block-btn-help.block-btn-help-end{
+    background-color: #fff6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-hd-pintuan .block-btn-help a{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.068rem;
+    height: 0.3584rem;
+    background-color: #ff5155;
+    color: #fff;
+    font-size: .16rem;
+    border-radius: 999px;
+}
+.page-hd-pintuan .block-btn-help .countdown{
+    font-size: 0;
+    text-align: center;
+    color: #ff5155;
+}
+.page-hd-pintuan .block-btn-help .countdown span{
+    /*vertical-align: middle;*/
+    font-size: .12rem;
+}
+.page-hd-pintuan .block-btn-help .countdown .d-num,
+.page-hd-pintuan .block-btn-help .countdown .d-txt{
+    display: none;
+}
+.page-hd-pintuan .block-btn-help .help-tips{
+    color: #333;
+    font-size: .16rem;
+}
+.page-hd-pintuan .block-btn-help .help-tips .icon-gantanhao{
+    color: #fc9630;
+    padding-right: .05rem;
+}
+/*助力按钮 end*/
+
+/*金额说明*/
+.page-hd-pintuan .block-price-desc{
+    color: #666;
+    line-height: 1.3;
+    padding-left: .25rem;
+}
+/*金额说明 end*/
+
+/*邮寄信息&加价记录*/
+.page-hd-pintuan .block-youji-info{
+    width: 2.688rem;
+    margin: .35rem auto 0;
+}
+.page-hd-pintuan .block-youji-info .tit,
+.page-hd-pintuan .block-helper-list .tit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .4rem;
+    font-size: .14rem;
+    background-color: #ffeeee;
+    color: #333;
+}
+.page-hd-pintuan .block-youji-info .cont{
+    padding: .1rem .05rem;
+    background-color: #fff6f6;
+    color: #666;
+}
+.page-hd-pintuan .block-helper-list{
+    width: 2.688rem;
+    margin: .1rem auto 0;
+}
+.page-hd-pintuan .block-helper-list .cont{
+    padding: .1rem .05rem;
+    background-color: #fff6f6;
+    color: #666;
+}
+.page-hd-pintuan .block-helper-list .helper-list-none{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.page-hd-pintuan .block-helper-list .helper-list-none .icon-circle-q{
+    font-size: .5rem;
+    color: #999;
+}
+.page-hd-pintuan .block-helper-list .helper-list .head-img{
+    margin-right: .03rem;
+    width: .25rem;
+    height: .25rem;
+    border-radius: 999px;
+    overflow: hidden;
+    background: no-repeat center/cover;
+}
+/*邮寄信息&加价记录 end*/
+
+/***主态拼单成功页 end***/
+
+/*客态页*/
+.page-hd-pintuan .block-share-top{
+    width: 2.944rem;
+    margin: .1rem auto;
+    padding: .2rem 0 .15rem;
+    background-color: #fff;
+    border-radius: .05rem;
+}
+.page-hd-pintuan .block-share-top .user-info{
+    display: flex;
+    align-items: center;
+    line-height: 1.3;
+    padding: 0 .1rem .1rem;
+}
+.page-hd-pintuan .block-share-top .user-info .head-img{
+    margin-right: .06rem;
+    width: .34rem;
+    height: .34rem;
+    border-radius: 999px;
+    overflow: hidden;
+    background: no-repeat center/cover;
+}
+.page-hd-pintuan .block-share-top .user-info .nickname{
+    font-size: .13rem;
+    color: #333;
+    font-weight: bold;
+}
+.page-hd-pintuan .block-share-top .user-info .help-info{
+    color: #666;
+}
+.page-hd-pintuan .block-middle-banner{
+    position: relative;
+    margin: 0 auto .1rem;
+    width: 2.944rem;
+    height: 1.0666666666666667rem;
+    background: url(https://p1.ssl.qhimg.com/t01111d61021f818621.png) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-pintuan .block-middle-banner a{
+    display: block;
+    height: 100%;
+}
+.page-hd-pintuan .block-middle-banner .entry-self{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #c82d2b;
+    padding: 0 .05rem;
+    margin: .05rem;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 999px;
+    pointer-events: none;
+}
+/*客态页 end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,207 @@
+/*边框 & 1px hack */
+.border,
+.b-green{
+    border: 1px solid #e3e3e3;
+}
+
+.b-green {
+    border-color: #0b7;
+}
+
+.b-top {
+    border-top: 1px solid #e3e3e3;
+}
+
+.b-right {
+    border-right: 1px solid #e3e3e3;
+}
+
+.b-bottom {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.b-left {
+    border-left: 1px solid #e3e3e3;
+}
+
+.b-v-both {
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.border-dashed {
+    border: 1px dashed #e3e3e3;
+}
+
+.b-dashed-top {
+    border-top: 1px dashed #e3e3e3;
+}
+
+.b-dashed-right {
+    border-right: 1px dashed #e3e3e3;
+}
+
+.b-dashed-bottom {
+    border-bottom: 1px dashed #e3e3e3;
+}
+
+.b-dashed-left {
+    border-left: 1px dashed #e3e3e3;
+}
+
+.b-none {
+    border: 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .border,
+    .b-green{
+        position: relative;
+        border: 0;
+    }
+
+    .b-top, .b-bottom, .b-left, .b-right, .b-v-both {
+        border: 0;
+    }
+
+    .b-top {
+        background-position: left top;
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, transparent), color-stop(0.5, #e3e3e3));
+    }
+
+    .b-bottom {
+        background-position: left bottom;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.5, transparent), color-stop(0.5, #e3e3e3));
+    }
+
+    .b-top,
+    .b-bottom,
+    .b-v-both {
+        background-repeat: repeat-x;
+        -webkit-background-size: 100% 1px;
+    }
+
+    .b-v-both {
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, transparent), color-stop(0.5, #e3e3e3)), -webkit-gradient(linear, left top, left bottom, color-stop(0.5, transparent), color-stop(0.5, #e3e3e3));
+        background-position: top, bottom;
+    }
+
+    .b-left {
+        background-position: left top;
+        background-image: -webkit-gradient(linear, right top, left top, color-stop(0.5, transparent), color-stop(0.5, #e3e3e3));
+    }
+
+    .b-right {
+        background-position: right top;
+        background-image: -webkit-gradient(linear, left top, right top, color-stop(0.5, transparent), color-stop(0.5, #e3e3e3));
+    }
+
+    .b-left,
+    .b-right {
+        background-repeat: repeat-y;
+        -webkit-background-size: 1px 100%;
+    }
+
+    .border:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, transparent), color-stop(0.5, #e3e3e3)), -webkit-gradient(linear, left top, right top, color-stop(0.5, transparent), color-stop(0.5, #e3e3e3)), -webkit-gradient(linear, left top, left bottom, color-stop(0.5, transparent), color-stop(0.5, #e3e3e3)), -webkit-gradient(linear, right top, left top, color-stop(0.5, transparent), color-stop(0.5, #e3e3e3));
+        -webkit-background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        -webkit-background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-repeat: no-repeat;
+        background-position: top, right, bottom, left;
+        padding: 1px;
+        -webkit-box-sizing: border-box;
+        z-index: 10;
+        pointer-events: none;
+    }
+
+    .b-green:before {
+        content: "";
+        width: 200%;
+        height: 200%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 1px solid #0b7;
+        -webkit-transform: scale(0.5);
+        -webkit-transform-origin: 0 0;
+        padding: 1px;
+        -webkit-box-sizing: border-box;
+        pointer-events: none;
+    }
+
+}
+
+/* 圆角边框 */
+.b-radius,
+.b-radius-green {
+    border: 1px solid #e3e3e3;
+    border-radius: .04rem;
+}
+
+.b-radius-green {
+    border-color: #0b7;
+}
+
+/* 圆形圆角全边框 */
+.b-radius-circle {
+    border: 1px solid #e3e3e3;
+    border-radius: 9999px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .b-radius,
+    .b-radius-green {
+        position: relative;
+        border: 0;
+    }
+
+    .b-radius:before,
+    .b-radius-green:before {
+        content: "";
+        width: 200%;
+        height: 200%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 1px solid #e3e3e3;
+        -webkit-transform: scale(0.5);
+        -webkit-transform-origin: 0 0;
+        padding: 1px;
+        -webkit-box-sizing: border-box;
+        border-radius: .08rem;
+        pointer-events: none;
+    }
+
+    .b-radius-green:before {
+        border: 1px solid #0b7;
+    }
+
+    .b-radius-circle {
+        position: relative;
+        border: 0;
+    }
+
+    .b-radius-circle:before {
+        content: "";
+        width: 200%;
+        height: 200%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 1px solid #e3e3e3;
+        -webkit-transform: scale(0.5);
+        -webkit-transform-origin: 0 0;
+        padding: 1px;
+        -webkit-box-sizing: border-box;
+        border-radius: 19998px;
+        pointer-events: none;
+    }
+}

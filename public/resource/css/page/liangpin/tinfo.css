@@ -1,0 +1,857 @@
+/* =================提交订单================== */
+.page-liangpin-tinfo{
+    background: #f5f5f5;
+}
+.page-liangpin-tinfo .line{padding: 6px 0; background: #fff}
+.page-liangpin-tinfo .user-mobile-check-order-panel .line{padding: 0;}
+.page-liangpin-tinfo .liangpin-tinfo-processwrap .head-right{
+    width: 620px;
+}
+.page-liangpin-tinfo .liangpin-tinfo-process1{
+    /*margin-top: 40px;*/
+    float: right;
+    /*margin: -25px 0 20px 0;*/
+    margin: 0 0 20px 0;
+    width: 620px;
+    height: 32px;
+    background: url(https://p.ssl.qhimg.com/t016cc2ae78196f5bd0.jpg) no-repeat 0 0;
+}
+.page-liangpin-tinfo .h3{
+    padding: 26px 0 6px 35px;
+    font-size: 18px;
+    color: #333;
+}
+.page-liangpin-tinfo .line-left,
+.page-liangpin-tinfo .line-right{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+}
+
+.page-liangpin-tinfo .mobile-logined-order-block{
+    margin: 0 0 36px 0;
+    padding: 12px 22px;
+    border: 1px solid #EAEAEA;
+    border-radius: 2px;
+}
+.page-liangpin-tinfo .mobile-logined-order-block .line{
+    line-height: 26px;
+}
+.page-liangpin-tinfo .mobile-logined-order-block .line-left{
+    margin-right: 6px;
+    width: 90px;
+    text-align: right;
+}
+.page-liangpin-tinfo .mobile-order-block{
+    margin: 0 0 36px 0;
+    padding: 12px 22px;
+    border: 1px solid #EAEAEA;
+    border-radius: 2px;
+}
+.page-liangpin-tinfo .mobile-order-block .line{
+    line-height: 26px;
+}
+.page-liangpin-tinfo .mobile-order-block .line-left{
+    margin-right: 6px;
+    width: 90px;
+    text-align: right;
+}
+.page-liangpin-tinfo .get-mobile-order-secode{
+    padding: 0 5px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    height: 26px;
+    line-height: 26px;
+    color: #fff;
+    background: red;
+    vertical-align: middle;
+}
+.page-liangpin-tinfo .get-mobile-order-secode:hover{
+    background: #FF3434;
+    text-decoration: none;
+}
+.page-liangpin-tinfo .get-mobile-order-secode-disabled,
+.page-liangpin-tinfo .get-mobile-order-secode-disabled:hover{
+    background: #ccc;
+}
+.page-liangpin-tinfo .addrinfo-block-wrap{
+    padding: 12px 0px;
+    border: 1px solid #EAEAEA;
+    border-radius: 2px;
+    background:#fff;
+}
+.page-liangpin-tinfo .addrinfo-block-wrap-selected{
+    padding: 10px 20px;
+    border: 2px solid #FF7A0E;
+    border-radius: 2px;
+}
+.page-liangpin-tinfo .addrinfo-block-wrap-noborder{padding: 0; border: 0; border-radius: 0; }
+
+
+.area-select-wrap{position: relative;}
+.area-select-wrap .area-sel{
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #EAEAEA;
+    padding-left:8px;
+    cursor: pointer;
+    color: #999999;
+    position: relative;
+    z-index: 1000;
+    float: left;
+    margin: 0 8px 0 0;
+    z-index: 9999;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius:2px;
+}
+.area-select-wrap .icon-arrow{
+    width: 26px;
+    height: 22px;
+    background: url(https://p.ssl.qhimg.com/t010d71e7b045cd4e73.png) no-repeat 10px -30px;
+}
+.area-select-wrap .select-pannel{display:none;position: absolute;width: 460px;background: #FBFBFB;border: solid 1px #CFCFCF;left: -1px;top: 31px;padding: 8px 0;z-index: 10001;line-height: 1;}
+.area-select-wrap .select-pannel h3{font-weight: normal;height: 20px; line-height: 20px; padding: 0 10px;margin: 0;position: relative;background: none;text-indent: inherit;}
+.area-select-wrap .select-pannel h3 .close{background: url(https://p.ssl.qhimg.com/t011be77565f0a2f8e8.png) no-repeat 0 -7px;cursor: pointer; display: block; height: 20px; line-height: 100px; overflow: hidden; position: absolute; right: 10px; top: 0; width: 55px;}
+.area-select-wrap .select-pannel .select-list{background: #FFFFFF;border: solid 1px #E8E8E8;margin: 12px 12px 3px; padding: 12px 12px 0;}
+.area-select-wrap .select-pannel .select-list a{color: #000000;display: inline-block; height: 18px; line-height: 18px; margin: 0 18px 5px 0;}
+.area-select-wrap .area-sel .sel-txt{_zoom:1;}
+
+.page-liangpin-tinfo .payinfo-block-h3{
+    margin-top: 36px;
+    background: url(https://p.ssl.qhimg.com/t0194fd3769b699470c.png) no-repeat center;
+}
+.page-liangpin-tinfo .payinfo-block-wrap{
+    margin: 0 0 36px 0;
+    padding: 12px 22px;
+    border: 1px solid #EAEAEA;
+    border-radius: 2px;
+}
+.page-liangpin-tinfo .payinfo-block-wrap-selected{
+    margin: 0 0 36px 0;
+    padding: 10px 20px;
+    border: 2px solid #FF7A0E;
+    border-radius: 2px;
+}
+.page-liangpin-tinfo .payinfo-block .line{padding: 12px 0;}
+.page-liangpin-tinfo .payinfo-block .pay-label{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    vertical-align: middle;
+    color: #999;
+}
+.page-liangpin-tinfo .payinfo-block .pay-label input{
+    margin-right: 160px;
+}
+.page-liangpin-tinfo .payinfo-block .pay-label-zfb{
+    background: url(https://p.ssl.qhimg.com/t01c08cd69974123c1a.jpg) no-repeat 45px 0;
+}
+.page-liangpin-tinfo .payinfo-block .pay-label-wangyin{
+    background: url(https://p.ssl.qhimg.com/t01263f727b7b24d9f4.jpg) no-repeat 45px 0;
+}
+.page-liangpin-tinfo .payinfo-block .pay-label-unpay2{
+    background: url(https://p.ssl.qhimg.com/t015660004c6d8b44bf.jpg) no-repeat 45px 0;
+}
+.page-liangpin-tinfo .payinfo-block2{}
+.page-liangpin-tinfo .payinfo-block2 .line{padding: 12px 0;}
+.page-liangpin-tinfo .payinfo-block2 .pay-label{
+    margin-right: 30px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    vertical-align: middle;
+    color: #333;
+}
+.page-liangpin-tinfo .payinfo-block2 .pay-label input{
+    margin-right: 12px;
+}
+.page-liangpin-tinfo .payinfo-block2 .line-bank{
+    padding: 0;
+}
+
+.page-liangpin-tinfo .payinfo-block3{
+
+}
+.page-liangpin-tinfo .payinfo-block3 .pay-label{
+    position: relative;
+    margin-left: 12px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+}
+.page-liangpin-tinfo .payinfo-block3 .pay-label-checked{}
+.page-liangpin-tinfo .payinfo-block3 .pay-icon{
+    display: block;
+    width: 141px;
+    height: 40px;
+    background: url(https://p.ssl.qhimg.com/t01a27e192a865f3463.png) no-repeat -5px -5px;
+    border: 2px solid #E1DFE0;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+.page-liangpin-tinfo .payinfo-block3 .pay-label-checked .pay-icon{
+    border: 2px solid #FF8200;
+}
+.page-liangpin-tinfo .payinfo-block3 .selected-cover{
+    display: none;
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    width: 20px;
+    height: 20px;
+    background: url(https://p.ssl.qhimg.com/t01ffc99c13178d7926.png) no-repeat 0 0;
+}
+.page-liangpin-tinfo .payinfo-block3 .pay-label-checked .selected-cover{
+    display: block;
+}
+.page-liangpin-tinfo .payinfo-block3 .pay-zhifubao{
+    background-position: -5px -5px;
+}
+.page-liangpin-tinfo .payinfo-block3 .pay-wangyin{
+    background-position: -5px -50px;
+}
+.page-liangpin-tinfo .payinfo-block3 .pay-yinlian{
+    background-position: -5px -95px;
+}
+.page-liangpin-tinfo .payinfo-block3 .pay-weixin{
+    background-position: -5px -140px;
+}
+.page-liangpin-tinfo .payinfo-block3 .pay-daofu{
+    background-position: -5px -187px;
+}
+.page-liangpin-tinfo .payinfo-block3 .pay-daofu-disabled{
+    background-position: -5px -232px;
+}
+.page-liangpin-tinfo .payinfo-block3 .line-bank{
+    padding: 8px 0 0 12px;
+}
+.page-liangpin-tinfo .zhifu-tips{
+    padding: 10px 0 0 10px;
+    color: #666;
+}
+.page-liangpin-tinfo .orderinfo-block{
+    margin-bottom: 200px;
+}
+.page-liangpin-tinfo .orderinfo-block-top{
+    margin-bottom: 0;
+}
+.page-liangpin-tinfo .orderinfo-block table{
+    background: #fff;
+    margin-bottom: 15px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #EAEAEA;
+}
+.page-liangpin-tinfo .orderinfo-block th{
+    height: 50px;
+    border-bottom: 1px solid #EAEAEA;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    /*font-weight: bold;*/
+    color: #333;
+}
+.page-liangpin-tinfo .orderinfo-block .th1{width: auto;}
+.page-liangpin-tinfo .orderinfo-block .th2{width: 250px;}
+.page-liangpin-tinfo .orderinfo-block .th3{width: 250px;}
+.page-liangpin-tinfo .orderinfo-block .th4{width: 250px;}
+.page-liangpin-tinfo .orderinfo-block td{text-align: center;vertical-align: middle;}
+.page-liangpin-tinfo .orderinfo-block .td1{text-align: left;}
+.page-liangpin-tinfo .orderinfo-product-img{
+    margin: 8px 30px 8px 40px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 82px;
+    height: 82px;
+    border: 1px solid #EBEBEB;
+    background: #EEE;
+    vertical-align: middle;
+}
+.page-liangpin-tinfo .orderinfo-base{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 290px;
+    vertical-align: middle;
+}
+.page-liangpin-tinfo .orderinfo-num{font-size: 16px;}
+.page-liangpin-tinfo .orderinfo-price,
+.page-liangpin-tinfo .orderinfo-total{
+    font-size: 16px;
+    color: #FF7A0E;
+}
+.page-liangpin-tinfo .orderinfo-desc-line{
+    padding: 10px 40px;
+    color: #444;
+}
+.page-liangpin-tinfo .orderinfo-desc-line span{margin-right: 10px;}
+.page-liangpin-tinfo .orderinfo-totalcount-desc{
+    float: right;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.page-liangpin-tinfo .orderinfo-totalcount-desc-txt{
+    font-size: 20px;
+    color: #f40;
+}
+.page-liangpin-tinfo .orderinfo-totalcount-desc-num{
+    font-size: 27px;
+    color: #f40;
+}
+.page-liangpin-tinfo .line-submit{
+    background: #fff;
+    border:1px solid #eaeaea;
+    z-index: 2;
+    width: 1198px;
+    height: 48px;
+    line-height:1;
+}
+.page-liangpin-tinfo .orderinfo-submit{
+    margin-left: 20px;
+    float: right;
+    width: 148px;
+    height: 48px;
+    line-height: 48px;
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    background: #f40;
+    /*background: url(https://p.ssl.qhimg.com/t017ef56b407759e139.jpg) no-repeat 0 0;*/
+    cursor: pointer;
+    text-align: center;
+}
+.page-liangpin-tinfo .form-disabled .orderinfo-submit{
+    background: #adadad;
+}
+
+/*银行列表*/
+.line-bank{
+    padding: 0 0 0 25px;
+    overflow: hidden;
+}
+.bank-list{
+    overflow: hidden;
+}
+.bank-list li{
+    position: relative;
+    /*float: left;*/
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin: 0 20px 20px 0;
+    border: 1px solid #fff;
+}
+.bank-list a{
+    display: block;
+    width: 177px;
+    height: 35px;
+    background: url(https://p.ssl.qhimg.com/t0174dc8c1d1d0a809b.png) no-repeat 0 0;
+    border: 1px solid #EAEAEA;
+}
+.bank-list a:hover{
+    border: 1px solid #FF7A0E;
+}
+.bank-list .selected,
+.bank-list .selected a{
+    border: 1px solid #FF7A0E;
+}
+.bank-list .bank_cebbank{background-position: -6px -6px;}
+.bank-list .bank_gdb{background-position: -6px -48px;}
+.bank-list .bank_spabank{background-position: -6px -90px;}
+.bank-list .bank_bjbank{background-position: -6px -132px;}
+.bank-list .bank_hxb{background-position: -6px -174px;}
+.bank-list .bank_spdb{background-position: -6px -216px;}
+.bank-list .bank_cmbc{background-position: -6px -258px;}
+.bank-list .bank_cib{background-position: -6px -300px;}
+.bank-list .bank_citic{background-position: -6px -342px;}
+.bank-list .bank_comm{background-position: -6px -384px;}
+.bank-list .bank_bocb2c{background-position: -6px -426px;}
+.bank-list .bank_psbc-debit{background-position: -6px -468px;}
+.bank-list .bank_cmb{background-position: -6px -510px;}
+.bank-list .bank_ccb{background-position: -6px -552px;}
+.bank-list .bank_abc{background-position: -6px -594px;}
+.bank-list .bank_icbcb2c{background-position: -6px -636px;}
+.bank-list .selected-cover{
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    background: url(https://p.ssl.qhimg.com/t01ffc99c13178d7926.png) no-repeat 0 0;
+}
+.bank-list .selected .selected-cover{
+    display: block;
+}
+
+.page-liangpin-tinfo .added-server-list{
+    background: #fff;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border:1px solid #eaeaea;
+}
+.page-liangpin-tinfo .added-server-list li{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px dashed #ededed;
+    padding-left: 160px;
+}
+.page-liangpin-tinfo .added-server-list .added-server-tit{
+    padding-left: 0;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    left: 40px;
+    top:0;
+}
+.page-liangpin-tinfo .added-server-list-checklable-wrap{
+    width: 386px;
+}
+.page-liangpin-tinfo .added-server-list-checklable{
+    cursor: pointer;
+}
+.page-liangpin-tinfo .added-server-list-checklable-checked{
+}
+.page-liangpin-tinfo .added-server-list-checklable [type=checkbox]{
+    display: none;
+}
+.page-liangpin-tinfo .added-server-list-checklable .checkbox{
+    margin:15px 5px 0 0;
+    width: 18px;
+    height: 18px;
+    border:1px solid #999;
+    border-radius: 4px;
+}
+.page-liangpin-tinfo .added-server-list-checklable-checked .checkbox{
+    border:none 0;
+    width: 20px;
+    height: 20px;
+    background: url(https://p.ssl.qhimg.com/t01cbeeb802ad1e1fcb.png) no-repeat 0 0;
+}
+.page-liangpin-tinfo .added-server-info{
+    width: 600px;
+}
+.page-liangpin-tinfo .added-server-list .added-server-price{
+    color: #FF7A0E;
+    width: 274px;
+}
+.page-liangpin-tinfo .added-server-num{
+    width: 226px;
+}
+.page-liangpin-tinfo .added-server-total-price{
+    color: #FF7A0E;
+}
+
+.page-liangpin-tinfo .extendservice-confirm-panel-wrap{}
+.page-liangpin-tinfo .extendservice-confirm-panel-wrap .hd,
+.page-liangpin-tinfo .extendservice-confirm-panel-wrap .ft{
+    display: none;
+}
+.page-liangpin-tinfo .extendservice-confirm-panel-wrap .close{
+    position: absolute;
+    top: 10px;
+    right: 17px;
+    display: block;
+    width: 41px;
+    height: 41px;
+    background: url(https://p.ssl.qhimg.com/t011ccfaa5874f58a59.jpg) no-repeat 0 0;
+}
+.page-liangpin-tinfo .extendservice-confirm-panel{
+    padding: 10px;
+    width: 855px;
+    height: 550px;
+    background: #fff;
+    color: #434444;
+    font-size: 18px;
+    /*border: 1px solid #333;*/
+}
+.page-liangpin-tinfo .extendservice-confirm-panel .tit{
+    padding: 5px 0 10px 25px;
+    color: #000;
+    font-size: 24px;
+}
+.page-liangpin-tinfo .extendservice-confirm-panel .cnt{
+    padding: 5px 0 10px 25px;
+}
+.page-liangpin-tinfo .extendservice-confirm-panel .cnt p{
+    margin-bottom: 10px;
+}
+.page-liangpin-tinfo .extendservice-confirm-panel .cnt .inner-tit{
+    margin-top: 30px;
+    font-size: 22px;
+    color: #434444;
+}
+.page-liangpin-tinfo .extendservice-confirm-panel .cnt .impt{
+    color: #000;
+    font-size: 24px;
+}
+.page-liangpin-tinfo .extendservice-confirm-panel .btn-line{
+    position: relative;
+    padding: 20px 30px 0 0;
+    /*padding: 0 30px 0 0;*/
+    text-align: right;
+}
+.page-liangpin-tinfo .extendservice-confirm-panel .btn-confirm,
+.page-liangpin-tinfo .extendservice-confirm-panel .btn-cancel{
+    margin-right: 6px;
+    padding: 0 40px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: #FF831F;
+    border: 1px solid #FF831F;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.page-liangpin-tinfo .extendservice-confirm-panel .btn-cancel{
+    color: #000;
+    background: #fff;
+    border: 1px solid #CBCBCB;
+}
+.page-liangpin-tinfo .extendservice-confirm-panel .btn-line .cnf-tip2{
+    position: absolute;
+    top: 1px;
+    left: -8px;
+    color: #185;
+    font-size: 12px;
+}
+.page-liangpin-tinfo .extendservice-confirm-panel .btn-line .cur-pointer{
+    cursor: pointer;
+}
+
+/*发票、优惠码*/
+.page-liangpin-tinfo .fapiao-promo-block{
+    margin-bottom: 15px;
+    background: #fff;
+    border: 1px solid #eaeaea;
+}
+.page-liangpin-tinfo .use-promo-wrap{
+    padding: 20px 0 40px 70px;
+}
+/*发票发票*/
+.page-liangpin-tinfo .fapiao-block{
+    color: #333;
+    min-height: 36px;
+    padding: 14px 0 0 40px;
+}
+.page-liangpin-tinfo .need-fapiao-checkable .checkbox{
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #999;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.page-liangpin-tinfo .need-fapiao-checkable .check-txt{
+    font-size: 16px;
+    line-height: 20px;
+}
+.page-liangpin-tinfo .fapiao-block .need-fapiao-checked .checkbox{
+    background: url(https://p.ssl.qhimg.com/t0166185e214fb9e498.jpg) no-repeat 0 0;
+}
+.page-liangpin-tinfo .fapiao-block .block-fapiao-tip{
+    font-size: 14px;
+    margin: 10px 30px;
+    color: #f00;
+}
+
+/*选择发票信息弹框*/
+.page-liangpin-tinfo .change-fapiao-info-panel{
+    width: 500px;
+    padding: 0 6px 0 16px;
+    border: 5px solid #929292;
+    border-radius: 5px;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .close{
+    position: absolute;
+    top: 19px;
+    right: 10px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(https://p.ssl.qhimg.com/t011ccfaa5874f58a59.jpg) no-repeat center;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .hd{
+    height: 62px;
+    color: #000;
+    font-size: 18px;
+    line-height: 62px;
+    border-bottom: 2px solid #efefef;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .line{
+    padding-top: 14px;
+    line-height: 42px;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .tit{
+    font-size: 16px;
+    color: #333;
+    padding-right: 15px;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-info-cont{
+    padding-bottom: 26px;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-tab-box{
+    font-size: 14px;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-info-tab{
+    width: 140px;
+    height: 40px;
+    line-height:40px;
+    text-align: center;
+    margin-right: 20px;
+    border:2px solid #ccc;
+    display: block;
+    color: #666;
+    position: relative;
+    cursor: pointer;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-tab-checked{
+    border: 2px solid #fd8224;
+    color: #fd8224;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-checked-icon{
+    display: none;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 20px;
+    height: 20px;
+    background: url(https://p.ssl.qhimg.com/t01ffc99c13178d7926.png) no-repeat 0 0;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-tab-checked .fapiao-checked-icon{
+    display: block;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-info-dianzi{
+    display: none;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-dianzi-tips{
+    margin-left: 95px;
+    padding: 5px 0;
+    width: 300px;
+    color: #fd8224;
+    line-height: normal;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-duanxin-tips{
+    color: #f00;
+    margin-left: 95px;
+    padding: 5px 0;
+    width: 300px;
+    line-height: normal;
+    font-size: 14px;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-input-email,
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-input-company,
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-input-credit-code{
+    width: 286px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    margin-left: 95px;
+    font-size: 14px;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-input-company-wrap,
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-input-credit-code-wrap{
+    visibility: hidden;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-input-credit-code-wrap{
+    margin-top: 6px;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-info-btn{
+    padding: 20px 0 30px 95px;
+    font-size: 16px;
+    border-top: 1px solid #efefef;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-info-btn a{
+    display: block;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-info-btn a:hover{
+    text-decoration: none;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .btn-save{
+    width: 190px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ff831f;
+    color: #fff;
+    margin-right: 12px;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .btn-cancel{
+    width: 102px;
+    height: 38px;
+    line-height: 38px;
+    border:1px solid #cbcbcb;
+    text-align: center;
+    color: #333;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .ele4phtips{
+    position: absolute;
+    top:3px;
+    left:100px;
+    color:#aaa;
+    line-height: 30px;
+}
+.page-liangpin-tinfo .change-fapiao-info-panel .fapiao-dianzi-tips-bottom{
+    width: 300px;
+    margin: 0 auto;
+}
+/*发票发票END*/
+
+/*未登录，登陆浮层*/
+.tinfo-login-cover {
+    position   : absolute;
+    top        : 0;
+    left       : 0;
+    right      : 0;
+    bottom     : 0;
+    z-index    : 999;
+    height     : 1615px;
+    background : #000;
+    filter     : alpha(opacity:60);
+    opacity    : .6;
+}
+
+.tinfo-login-panel {
+    position : absolute;
+    top      : 160px;
+    left     : 0;
+    right    : 0;
+    z-index  : 1000;
+    margin   : 0 auto;
+    /*margin   : 0;*/
+    width    : 480px;
+    height   : auto;
+}
+.tinfo-login-panel .btn-go-back-close,
+.tinfo-login-panel .btn-go-back-close:hover{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 36px;
+    height: 36px;
+    z-index: 9999;
+    background: url(https://p.ssl.qhimg.com/t01a22268e647e8b152.png) no-repeat center;
+    background-size: 36px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.tinfo-login-panel .tit {
+    padding-top : 15px;
+    text-align  : center;
+    font-size   : 24px;
+    line-height : 2;
+}
+
+.tinfo-login-panel .desc {
+    text-align : center;
+    color      : #ff831f;
+}
+
+.tinfo-login-panel .sub-btn {
+    margin  : 0 auto;
+    display : block;
+}
+.tinfo-login-panel .row-protocol{
+    margin-top: 15px;
+}
+.tinfo-login-panel .row-protocol .col-check{
+    margin-top: 4px;
+}
+.tinfo-login-panel .row-protocol .col-txt{
+    margin-left: 18px;
+}
+
+/*老用户顺丰包邮弹窗*/
+.panel-cover-vip-user-sf-free {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    height: 1615px;
+    background: #000;
+    filter: alpha(opacity:60);
+    opacity: .6;
+}
+.panel-vip-user-sf-free {
+    display: none;
+    position: absolute;
+    top: 160px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin: 0 auto;
+    padding: 1px;
+    width: 614px;
+    height: 429px;
+    background-color: #fff;
+}
+.panel-vip-user-sf-free .tips {
+    margin: 44px auto 0;
+    width: 464px;
+    height: 264px;
+    background: transparent url(//p4.ssl.qhimg.com/t01c166efab3deb3bb9.jpg) no-repeat center;
+}
+.panel-vip-user-sf-free .btn-confirm-vip-user-sf-free,
+.panel-vip-user-sf-free .btn-confirm-vip-user-sf-free:hover {
+    margin: 0 auto;
+    display: block;
+    width: 279px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid #ff9050;
+    background: #fff;
+    color: #ff9050;
+    text-decoration: none;
+}
+.panel-vip-user-sf-free .check-not-show-again{
+    margin: 10px auto 0;
+    display: block;
+    width: 90px;
+    font-size: 16px;
+    color: #999;
+    user-select: none;
+}
+.panel-vip-user-sf-free .check-not-show-again input{
+    margin-right: 5px;
+}
+
+/*优惠详情价格列表*/
+.page-liangpin-tinfo .row-price-info-list{
+    text-align: right;
+    line-height: 2;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 20%;
+}
+.page-liangpin-tinfo .row-price-info-list .col-2-1{
+    width: 50%;
+    float: left;
+}
+.page-liangpin-tinfo .row-price-info-list .price-num{
+    font-size: 18px;
+    color: #f40;
+}

@@ -1,0 +1,61 @@
+.page-xxg-promotion-cps-register {
+
+}
+
+.page-xxg-promotion-cps-register .block-xxg-register {
+
+}
+
+.page-xxg-promotion-cps-register .block-xxg-register input[readonly] {
+    cursor: pointer;
+}
+
+.page-xxg-promotion-cps-register .block-xxg-register .row {
+    margin: 0 .08rem;
+    padding: 1px;
+    line-height: .36rem;
+}
+
+.page-xxg-promotion-cps-register .block-xxg-register .pic-code-img{
+    width: 100%;
+    height: .36rem;
+    vertical-align: top;
+}
+.page-xxg-promotion-cps-register .block-xxg-register .radio-label {
+    margin-right: .1rem;
+    padding: 0 .08rem;
+    display: inline-block;
+}
+
+.page-xxg-promotion-cps-register .block-xxg-register .btn-trigger-get-sms-code {
+    display: block;
+    text-align: center;
+}
+.page-xxg-promotion-cps-register .block-xxg-register .btn-trigger-get-sms-code.btn-trigger-get-sms-code-disabled,
+.page-xxg-promotion-cps-register .block-xxg-register .btn-trigger-get-sms-code.btn-trigger-get-sms-code-disabled:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.page-xxg-promotion-cps-register .block-xxg-register .block-xxg-register-suning {
+    padding: .02rem 0 .02rem 0;
+}
+
+.page-xxg-promotion-cps-register .block-xxg-register .col-12-4 {
+    padding-right: .06rem;
+    text-align: right;
+}
+
+.page-xxg-promotion-cps-register .block-xxg-register .btn-xxg-confirm {
+    margin: .1rem auto;
+    display: block;
+    width: 80%;
+    height: .36rem;
+    line-height: .36rem;
+    background-color: #4a7;
+    color: #fff;
+    text-align: center;
+}
+.page-xxg-promotion-cps-register .block-xxg-register .btn-xxg-confirm.btn-disabled {
+    background-color: #ccc;
+}

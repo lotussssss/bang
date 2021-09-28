@@ -1,0 +1,49 @@
+.blur {
+    -webkit-filter: blur(.08rem);
+}
+.yellow {
+    color:#fce700;
+}
+
+.page-hd-tcb-shuang11 {
+    background-color: #551F95;
+    color: #fff;
+}
+.page-hd-tcb-shuang11 .dialog-wrap .dialog-close,
+.page-hd-tcb-shuang11.dialog-wrap .dialog-close:hover{
+    display: none;
+}
+
+.page-hd-tcb-shuang11 .block .block-inner {
+    margin: 0 .1rem;
+    border-radius: .04rem;
+    background-color: #522080;
+}
+
+.page-hd-tcb-shuang11 .block1 {
+    height: 1.6266666666666667rem;
+    background: url(https://p0.ssl.qhmsg.com/t0186fff0c6d0a61bbb.png) no-repeat center;
+    background-size: cover;
+}
+.page-hd-tcb-shuang11 .block2 {
+    height: 1.44rem;
+    background: url(https://p0.ssl.qhmsg.com/t01944cc7ad526226a0.png) no-repeat center;
+    background-size: cover;
+}
+.page-hd-tcb-shuang11 .block3 {
+    height: 1.1111111111111112rem;
+    background: url(https://p3.ssl.qhmsg.com/t015837c691dcc4dfdd.png) no-repeat center;
+    background-size: cover;
+}
+.page-hd-tcb-shuang11 .block4 {
+    height: 0.8711111111111111rem;
+    background: url(https://p0.ssl.qhmsg.com/t01b2f5b7a9685f7d8f.png) no-repeat center;
+    background-size: cover;
+}
+.page-hd-tcb-shuang11 .block4 .btn-canyu{
+    display: block;
+    margin: 0 auto;
+    width: 1.75rem;
+    height: .5rem;
+}
+

@@ -1,0 +1,51 @@
+/* =================订单列表================== */
+
+.page-order-list{
+    font-family:"华文细黑","微软雅黑","华文细黑",Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+}
+.page-order-list .order-list-item {
+    display: block;
+    margin-top:.1rem;
+    padding: 0 .1365333rem;
+    background-color: #fff;
+}
+.page-order-list .order-list-item>a{
+    color:#555555;
+    display: block;
+}
+.page-order-list .order-list-item .order-num{
+    height: .3584rem;
+    line-height: .3584rem;
+    border-bottom:.01rem solid #D7D7D7;
+}
+.page-order-list .order-list-item .item-detail {
+    padding: .12rem 0;
+}
+.page-order-list .order-list-item .item-detail>div {
+    float: left;
+}
+.page-order-list .order-list-item .item-detail .left {
+    width: .708267rem;
+    height: .708267rem;
+    border: .01rem solid #D7D7D7;
+}
+.page-order-list .order-list-item .item-detail .left img{
+    width: 100%;
+    height: 100%;
+}
+.page-order-list .order-list-item .item-detail .middle {
+    width: 1.2rem;
+    margin:.15rem .11947rem 0;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.page-order-list .order-list-item .item-detail .right{
+    float: right;
+    margin-top:.25rem;
+    text-align: right;
+    color:#fd6637;
+}

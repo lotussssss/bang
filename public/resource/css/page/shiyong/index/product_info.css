@@ -1,0 +1,313 @@
+.shiyong-product-nav{
+    padding: 14px 0 4px 10px;
+    font-size: 0;
+}
+.shiyong-product-nav .item-name{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    font-size: 18px;
+    color: #333;
+    vertical-align: middle;
+}
+.shiyong-product-nav .item-split{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding: 0 0 0 10px;
+}
+.shiyong-product-nav .item-split .arrow-right{
+    vertical-align: middle;
+    border-width: 8px;
+    border-left-color: #333;
+}
+.shiyong-product-nav .item-split .arrow-right .arrow-inner{
+    top: -8px;
+    left: -10px;
+    border-width: 8px;
+}
+.shiyong-product-nav .btn-go-back-model{
+    margin-left: 20px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.shiyong-product-info{
+    /*margin-bottom: 20px;*/
+    background: #fff;
+}
+
+/* 商品图片 */
+.shiyong-product-info .product-pics{
+    position: relative;
+    float: left;
+    padding: 20px 50px 20px 40px;
+    width: 352px;
+    z-index: 10;
+}
+
+.shiyong-product-info .product-infos{
+    float: left;
+    padding: 20px 0;
+    width: 750px;
+}
+.shiyong-product-info .p-pic-shower{
+    position: relative;
+    /*border: 1px solid #EAEAEA;*/
+    border: 1px solid #FFF;
+    width: 350px;
+    height: 350px;
+    line-height: 350px;
+    font-size: 0;
+    text-align: center;
+    overflow: hidden;
+}
+.shiyong-product-info .product-pics .label-new{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 45px;
+    height: 44px;
+    background: url(https://p.ssl.qhimg.com/t016437928690bcac90.png) no-repeat 0 0;
+}
+
+.shiyong-product-info .p-pic-shower img{
+    /*height: 240px;*/
+    width: 350px;
+    height: 350px;
+
+    /*-moz-transition:width .5s ease-out, height .5s ease-out;*/
+    /*-webkit-transition:width .5s ease-out, height .5s ease-out;*/
+    /*-o-transition:width .5s ease-out, height .5s ease-out;*/
+    /*-ms-transition:width .5s ease-out, height .5s ease-out;*/
+    /*transition:width .5s ease-out, height .5s ease-out;*/
+}
+.shiyong-product-info .p-pic-item{
+    float: left;
+    margin:10px 10px 0 0;
+    padding: 3px;
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 0;
+    text-align: center;
+    border: 1px solid #EAEAEA;
+    cursor: pointer;
+    overflow: hidden;
+}
+.shiyong-product-info .p-pic-curr{
+    border-color: #fa0;
+}
+.shiyong-product-info .p-pic-last{
+    margin-right: 0;
+}
+.shiyong-product-info .p-pic-item img{
+    width: 54px;
+    height: 54px;
+
+    cursor: pointer;
+
+    /*-moz-transition:width .5s ease-out, height .5s ease-out;*/
+    /*-webkit-transition:width .5s ease-out, height .5s ease-out;*/
+    /*-o-transition:width .5s ease-out, height .5s ease-out;*/
+    /*-ms-transition:width .5s ease-out, height .5s ease-out;*/
+    /*transition:width .5s ease-out, height .5s ease-out;*/
+}
+
+/* 商品详细信息 */
+.shiyong-product-info .product-infos .tit{
+    padding: 5px 0;
+    font-size: 24px;
+    color: #333333;
+    font-weight: normal;
+    text-align: left;
+}
+.shiyong-product-info .product-infos .desc{
+    color: #666666;
+}
+
+.shiyong-product-info .prd-choices .prd-c-line{
+    padding: 5px 0;
+}
+.shiyong-product-info .prd-choices .prd-c-tit{
+    /*width: 70px;*/
+    width: 60px;
+    float: left;
+    line-height: 32px;
+    color: #444;
+}
+.shiyong-product-info .prd-choices .prd-c-cnt{
+    /*width: 710px;*/
+    float: left;
+}
+.shiyong-product-info .prd-choices .p-c-item{
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    color: #333;
+    margin: 3px 10px 3px 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.shiyong-product-info .prd-choices .p-c-curr{
+    border-color: #FF7B10;
+    color: #FF7B10;
+}
+.shiyong-product-info .prd-choices .p-c-disabled{
+    border: 1px dashed #e0e0e0;
+    color: #aaa;
+    background: #fff;
+    /*cursor: not-allowed;*/
+    cursor: pointer;
+}
+.shiyong-product-info .prd-choices .p-c-disabled-hover{
+    border: 1px dashed #aaa;
+}
+
+.shiyong-product-info .prd-choices .prd-buy{
+    display: inline-block;
+    _zoom:1;
+    width: 186px;
+    height: 40px;
+    line-height: 40px;
+    background: #FC6621;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.shiyong-product-info .prd-choices .prd-buy:hover{
+    background: #f70;
+}
+.shiyong-product-info .prd-choices .prd-buy:active{
+    background: #f60;
+}
+.shiyong-product-info .prd-choices .prd-buy-huanxin{
+    padding: 0 30px;
+    width: auto;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+}
+.shiyong-product-info .prd-choices .prd-buy-huanxin-real{
+    margin-left: 10px;
+    padding: 0 20px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+    height: 58px;
+    line-height: 58px;
+    /*color: #999;*/
+    color: #666;
+    /*text-decoration: underline;*/
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid #999;
+}
+.shiyong-product-info .prd-choices .prd-buy-huanxin-real:hover{
+    text-decoration: none;
+    color: #f70;
+    border: 1px solid #f70;
+}
+.shiyong-product-info .prd-choices .prd-buy-huanxin-real:active{
+    color: #f60;
+    border: 1px solid #f60;
+}
+.shiyong-product-info .prd-choices .prd-buy-disabled{
+    display: inline-block;
+    _zoom:1;
+    width: 186px;
+    height: 40px;
+    line-height: 40px;
+    background: #D8D3D0;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.shiyong-product-info .prd-choices .prd-buy-disabled:hover{
+    background: #D8D3D0;
+}
+.shiyong-product-info .prd-choices .prd-buy-disabled:active{
+    background: #D8D3D0;
+}
+
+.shiyong-product-info .prd-choices .treaty-fee{
+    font-size: 24px;
+    color: #f50;
+}
+.shiyong-product-info .prd-choices .treaty-fee-per-day{
+    font-size: 18px;
+}
+
+/*租期选择*/
+.shiyong-product-info .prd-choices .prd-treaty-day .prd-c-cnt{
+    position: relative;
+}
+.shiyong-product-info .prd-choices .prd-treaty-day .p-c-item{
+    position: relative;
+    padding: 0;
+    width: 110px;
+    text-align: center;
+}
+.shiyong-product-info .prd-choices .prd-treaty-day .p-c-item .arrow-down{
+    position: absolute;
+    top: 9px;
+    right: 2px;
+    border-width: 6px;
+}
+.shiyong-product-info .prd-choices .prd-treaty-day .p-c-item .arrow-down .arrow-inner{
+    left: -6px;
+    top: -8px;
+    border-width: 6px;
+}
+.shiyong-product-info .prd-choices .prd-treaty-day .p-c-item .arrow-up{
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    border-width: 6px;
+}
+.shiyong-product-info .prd-choices .prd-treaty-day .p-c-item .arrow-up .arrow-inner{
+    left: -6px;
+    top: -4px;
+    border-width: 6px;
+}
+.shiyong-product-info .prd-choices .prd-treaty-day .p-c-curr .arrow-down{
+    border-top-color: #FF7B10;
+}
+.shiyong-product-info .prd-choices .prd-treaty-day .p-c-curr .arrow-up{
+    border-bottom-color: #FF7B10;
+}
+.shiyong-product-info .prd-choices .prd-treaty-day-completely{
+    position: absolute;
+    left: -11px;
+    top: 42px;
+    padding: 10px 0 10px 10px;
+    width: 488px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.shiyong-product-info .prd-choices .prd-treaty-day-completely .arrow-up{
+    position: absolute;
+    top: -20px;
+    right: 55px;
+}

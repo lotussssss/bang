@@ -1,0 +1,85 @@
+/*横向状态进度条*/
+.block-huanxin-process-align {
+    position: relative;
+    display: block;
+    padding: .1rem .25rem .25rem .25rem;
+    height: .55rem;
+    color: #999;
+    background-color: #fff;
+}
+
+.block-huanxin-process-align .label {
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    line-height: .2rem;
+    border-radius: 9999px;
+    text-align: center;
+    background: #ccc;
+    color: #fff;
+    vertical-align: top;
+    font-size: .1rem;
+}
+
+.block-huanxin-process-align .process-step {
+    float: left;
+    width: 33.3333333333%;
+}
+
+.block-huanxin-process-align .process-step .label {
+    float: left;
+}
+
+.block-huanxin-process-align .process-step-actived {
+    color: #185;
+}
+
+.block-huanxin-process-align .process-line-txt {
+    position: relative;
+    padding-top: .02rem;
+}
+
+.block-huanxin-process-align .process-step-last-txt {
+    position: absolute;
+    right: -.12rem;
+}
+
+.block-huanxin-process-align .process-step-prev-txt {
+    position: absolute;
+    left: 0;
+    right: .2rem;
+}
+
+.block-huanxin-process-align .process-step-txt {
+    float: left;
+    width: 33.3333333333%;
+    text-indent: -.17rem;
+}
+
+.block-huanxin-process-align .process-step-first {
+    float: left;
+    width: .2rem;
+    height: .2rem;
+}
+
+.block-huanxin-process-align .process-step-next {
+    margin-left: .2rem;
+    height: .2rem;
+}
+
+.block-huanxin-process-align .process-step-next .label {
+    float: right;
+}
+
+.block-huanxin-process-align .process-step-next .inner-line {
+    margin: .1rem .2rem 0 0;
+    height: 1px;
+    background: #ccc;
+}
+
+.block-huanxin-process-align .process-step-actived .label,
+.block-huanxin-process-align .process-step-actived .inner-line {
+    background: #185;
+}
+
+/*END横向状态进度条*/

@@ -1,0 +1,333 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before,
+*:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    height: auto;
+    min-height: 100%;
+}
+body{
+    margin: 0 auto;
+    max-width: 720px;
+    min-width: 320px;
+    height: auto;
+    min-height: 100%;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    -webkit-overflow-scrolling : touch;
+}
+.mainbody{
+    min-height: 100%;
+}
+.mainbody-inner{
+    min-height: 100%;
+}
+html,body{
+    background: #fff;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+.relative{
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.clearfix{
+    zoom:1;
+}
+.w100{width: 100%;}
+.fl{ float:left;}
+.fr{ float:right;}
+
+.qiye-caigou .block_inner{
+    margin: 0 auto;
+}
+.qiye-caigou .block{
+    padding: 0 0.08rem;
+}
+.qiye-caigou .block1,.qiye-caigou .block1 .block_inner{
+    height:3.4rem;
+    position: relative;
+}
+.qiye-caigou .block1 .block_inner{
+    display:none;
+}
+.qiye-caigou .block1 .show{
+    display:block;
+}
+.qiye-caigou .block1 img{
+    width: 100%;
+    height:100%;
+}
+.block-banner-tab{
+    height:.73rem;
+    width: 100%;
+}
+.block-banner-tab span{
+    display:inline-block;
+    width: 24.1%;
+    height:100%;
+}
+.btn-write-purch{
+    width:1.65rem;
+    height:.36rem;
+    line-height:.36rem;
+    background: #54BE89;
+    border-radius:.05rem;
+    -webkit-border-radius: .05rem;
+    text-align:center;
+    color:#fff;
+    font-size:.15rem;
+    margin:0 auto;
+    position:absolute;
+    left:50%;
+    bottom:.24rem;
+    margin-left:-0.825rem;
+}
+.block-banner-tab span.commpany1{
+    background: url("https://p.ssl.qhimg.com/t018f80a6b01ab3f981.png") no-repeat;
+     background-size:3.2rem .73rem;
+     background-position: 0 0;
+ }
+.block-banner-tab span.commpany2{
+    background: url("https://p.ssl.qhimg.com/t018f80a6b01ab3f981.png") no-repeat;
+    background-size:3.2rem .73rem;
+    background-position: -.8rem 0;
+}
+.block-banner-tab span.commpany3{
+    background: url("https://p.ssl.qhimg.com/t018f80a6b01ab3f981.png") no-repeat;
+    background-size:3.2rem .73rem;
+    background-position: -1.6rem 0;
+}
+.block-banner-tab span.commpany4{
+    background: url("https://p.ssl.qhimg.com/t018f80a6b01ab3f981.png") no-repeat;
+    background-size:3.2rem .73rem;
+    background-position: -2.4rem 0;
+}
+.block-banner-tab .active.commpany1{
+    background: url("https://p.ssl.qhimg.com/t01aefd00aee45e8293.png") no-repeat;
+    background-size:3.2rem .73rem;
+    background-position: 0 0;
+}
+.block-banner-tab .active.commpany2{
+    background: url("https://p.ssl.qhimg.com/t01aefd00aee45e8293.png") no-repeat;
+    background-size:3.2rem .73rem;
+    background-position: -.8rem 0;
+}
+.block-banner-tab .active.commpany3{
+    background: url("https://p.ssl.qhimg.com/t01aefd00aee45e8293.png") no-repeat;
+    background-size:3.2rem .73rem;
+    background-position: -1.6rem 0;
+}
+.block-banner-tab .active.commpany4{
+    background: url("https://p.ssl.qhimg.com/t01aefd00aee45e8293.png") no-repeat;
+    background-size:3.2rem .73rem;
+    background-position: -2.4rem 0;
+}
+.qiye-caigou .block-tit{
+    padding-top: 0.25rem;
+    text-align: center;
+}
+.qiye-caigou .block-tit .title{
+    font-size: 0.2rem;
+    color: #333;
+    padding-bottom: 0.115rem;
+    font-weight: normal;
+}
+.qiye-caigou .block-tit .desc{
+    font-size: 0.14rem;
+    color: #666;
+}
+
+.qiye-caigou .block2 .block-inner{
+    /*padding-bottom: 64px;*/
+}
+.qiye-caigou .border-b{
+    border-bottom: 1px solid #ebebeb;
+}
+.qiye-caigou .advantage-list{
+    margin: 0.2rem auto;
+}
+.qiye-caigou .advantage-list li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.qiye-caigou .advantage-list div{
+    width: 0.464rem;
+    height: 0.3822222222222222rem;
+    background: url("https://p.ssl.qhimg.com/t01663042abf2b76508.png") no-repeat 0 0;
+    margin: 0 auto;
+    background-size: 3.022222222222222rem;
+}
+.qiye-caigou .advantage-list .advantage-pic1{
+    background-position:0 0;
+}
+.qiye-caigou .advantage-list .advantage-pic2{
+    background-position:-0.7955555555555556rem 0;
+}
+.qiye-caigou .advantage-list .advantage-pic3{
+    background-position:-1.697777777777778rem 0;
+}
+.qiye-caigou .advantage-list .advantage-pic4{
+    background-position:-2.54rem 0;
+}
+.qiye-caigou .advantage-list .advantage-tit{
+    font-size: .14rem;
+    color: #333;
+    padding-top: .06rem;
+}
+.qiye-caigou .advantage-list .advantage-info{
+    font-size: .10rem;
+    color: #333;
+    padding-top: .08rem;
+    line-height: .18rem;
+}
+
+.qiye-caigou .step-list{
+    margin: 0.2rem auto;
+}
+.qiye-caigou .step-list li{
+    float: left;
+    width: 50%;
+    margin-bottom: 0.13rem;
+    padding-left: .1rem;
+}
+.qiye-caigou .step-list div{
+    float: left;
+}
+.qiye-caigou .step-num{
+    width: 0.3rem;
+    height: 0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    background: #54bf8d;
+    color: #fff;
+    font-size: 0.2rem;
+    border-radius: 50%;
+    margin-top: .02rem;
+}
+.qiye-caigou .step-list .step-pic1{
+    background-position:-114px 0;
+}
+.qiye-caigou .step-list .step-pic2{
+    background-position:-410px 0;
+}
+.qiye-caigou .step-list .step-pic3{
+    background-position:-708px 0;
+}
+.qiye-caigou .step-list .step-pic4{
+    background-position:-995px 0;
+}
+.qiye-caigou .step-con{
+    padding-left: 0.04rem;
+}
+.qiye-caigou .step-list .step-tit{
+    font-size: 0.14rem;
+    color: #333;
+    padding-bottom: 0.03rem;
+}
+.qiye-caigou .step-list .step-info{
+    font-size: .1rem;
+    color: #666;
+}
+.qiye-caigou .submit-caigou-form{
+    width: 100%;
+    margin: 0.2rem auto;
+}
+.qiye-caigou input{
+    width: 100%;
+    height: 0.4rem;
+    margin-bottom: 0.1rem;
+    padding: 0 0.1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.14rem;
+    outline: none;
+    font-family: Microsoft YaHei;
+}
+.qiye-caigou .secode{
+    width: 2rem;
+}
+.qiye-caigou .secode-pic{
+    width: 0.94rem;
+}
+.qiye-caigou .re-info{
+    width: 100%;
+    height: 1.3rem;
+    margin-bottom: .1rem;
+    padding: 0.1rem;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.14rem;
+    outline: none;
+    font-family: Microsoft YaHei;
+    background: url("https://p.ssl.qhimg.com/t013ec9a5707b15aeda.png") no-repeat;
+    background-position:.1rem .1rem;
+    background-size:2.8rem;
+}
+.qiye-caigou .submit{
+    width: 100%;
+    height: 0.45rem;
+    background: #54bf8d;
+    color: #fff;
+    text-align: center;
+    line-height: 0.4rem;
+    border-radius: 5px;
+    font-size: .2rem;
+    cursor: pointer;
+    font-family: Microsoft YaHei;
+}
+.qiye-caigou .form-succ-tip{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.qiye-caigou .form-succ-tip-inner{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -1.3rem;
+    margin-top: -0.8rem;
+    width: 2.6rem;
+    height: 1.6rem;
+    background: #fff;
+    color: #333;
+    font-size: 0.14rem;
+    padding: 0.2rem;
+}
+.qiye-caigou .form-succ-btn{
+    width: 1rem;
+    height: 0.3rem;
+    background: #54bf8d;
+    color: #fff;
+    text-align: center;
+    line-height: 0.3rem;
+    border-radius: 3px;
+    font-size: 0.16rem;
+    margin-top: 0.3rem;
+}
+.qiye-caigou .block5 .block-inner{
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+.qiye-caigou .ewm{
+    width: 1.164444444444444rem;
+    padding-top: 32px;
+    margin: 0 auto;
+}
+

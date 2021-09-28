@@ -1,0 +1,51 @@
+.page-zhimacredit-fail-page{
+    background-color: #fff;
+}
+.page-zhimacredit-fail-page .main-inner{
+    background-color: #fff;
+    text-align: center;
+    padding: 0 .3rem;
+}
+.page-zhimacredit-fail-page .remind-txt{
+    padding: .2rem 0 .3rem;
+    border-bottom: .01rem solid #ddd;
+    font-size: .18rem;
+    color: #FC7B3D;
+}
+.page-zhimacredit-fail-page .buy-txt{
+    padding: .2rem 0;
+    font-size: .16rem;
+    color: #26A7E1;
+}
+.page-zhimacredit-fail-page .phone-image{
+    height: 1.5rem;
+}
+.page-zhimacredit-fail-page .phone-image img{
+    height: 100%;
+}
+.page-zhimacredit-fail-page .desc-txt{
+    font-size: .14rem;
+    padding: .15rem;
+}
+.page-zhimacredit-fail-page .desc-txt .yel{
+    color:#FC6621;
+}
+.page-zhimacredit-fail-page .link-btn{
+    display: block;
+    width: 2rem;
+    margin: 0 auto;
+    height: .38rem;
+    line-height: .38rem;
+    font-size: .14rem;
+    border-radius: .05rem;
+    text-decoration: none;
+}
+.page-zhimacredit-fail-page .btn-go-buy{
+    background-color: #FC6621;
+    color: #fff;
+}
+.page-zhimacredit-fail-page .btn-go-index{
+    background: #F2F2F2;
+    margin-top: .2rem;
+    color: #444;
+}

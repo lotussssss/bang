@@ -1,0 +1,246 @@
+/* =================产品详情================== */
+.page-shiyong-product{
+    font-size: .12rem;
+    line-height: 1.6;
+}
+/****** 图片展示、滑动、显示大图 *******/
+.slide-shower-wrap{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+.slide-shower-wrap .slide-shower{
+    position: relative;
+    overflow: hidden;
+}
+.slide-shower-wrap .s-item{
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+}
+.slide-shower-wrap .s-item-hide{
+    position: absolute;
+    z-index: -1;
+}
+.slide-shower-wrap .s-item img{
+    max-width: 100%;
+}
+.slide-shower-wrap .slide-nav{
+    height: .26rem;
+    line-height: .26rem;
+    text-align: center;
+}
+.slide-shower-wrap .slide-nav span{
+    margin: 0 .04rem;
+    display: inline-block;
+    width: .10rem;
+    height: .10rem;
+    border-radius: 999px;
+    background: #fff;
+    border: 1px solid #B5B5B5;
+}
+.slide-shower-wrap .slide-nav .cur{
+    border: 1px solid #185;
+    background: #C9E7D7;
+}
+.slide-shower-wrap .desc{
+    display: none;
+    /*margin: 5px 0;*/
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+}
+.slide-shower-wrap .desc .iconfont{font-size: 12px;}
+.slide-shower-wrap .label-new{
+    position: absolute;
+    top: 1px;
+    left: .12rem;
+    width: .34rem;
+    height: .34rem;
+    background: url(https://p.ssl.qhimg.com/t016437928690bcac90.png) no-repeat 0 0;
+    background-size: .34rem;
+}
+.show-bigger-img-mask{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: .8;
+    z-index: 9997;
+}
+.show-bigger-img-close{
+    display: block;
+    position: fixed;
+    top: .05rem;
+    right: .05rem;
+    width: .30rem;
+    height: .30rem;
+    line-height: .26rem;
+    text-align: center;
+    font-size: .24rem;
+    border-radius: 9999px;
+    color: #fff;
+    background: #666;
+    z-index: 9999;
+}
+.show-bigger-img-wrap{
+    display: table;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9998;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.show-bigger-img-wrap .show-bigger-img-wrap-inner{
+    position: relative;
+    display: table-cell;
+    min-height: 300px;
+    vertical-align: middle;
+}
+.show-bigger-img-wrap .big-img-shower{
+    position: relative;
+    overflow: hidden;
+}
+.show-bigger-img-wrap .s-item{
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    width: 100%;
+    text-align: center;
+    background: transparent;
+}
+.show-bigger-img-wrap .s-item-hide{
+    position: absolute;
+    z-index: -1;
+}
+.show-bigger-img-wrap img{
+    max-width: 100%;
+    /*max-height: 100%;*/
+    vertical-align: middle;
+}
+/****** 图片展示、滑动、显示大图END *******/
+
+.page-shiyong-product .mainbody-inner{
+    padding-bottom: .6rem;
+}
+.page-shiyong-product .slide-shower-wrap img{
+    width: 2.2rem;
+}
+.page-shiyong-product .p-base-info{
+    padding: .12rem .1rem;
+}
+.page-shiyong-product .p-tit{
+    font-size: .15rem;
+    line-height: 1.4;
+}
+.page-shiyong-product .attr-line .col-left-fixed{
+    line-height: .36rem;
+}
+.page-shiyong-product .attr-line .col-right{
+    margin-left: .65rem;
+    font-size: 0;
+}
+.page-shiyong-product .attr-line .attr-item{
+    margin-right: 3%;
+    margin-bottom: .06rem;
+    display: inline-block;
+    width: 40%;
+    height: .36rem;
+    line-height: .36rem;
+    border: 1px solid #C5C5C5;
+    background: #fff;
+    font-size: .12rem;
+    text-align: center;
+    border-radius: .04rem;
+    color: inherit;
+}
+.page-shiyong-product .attr-line .attr-item.cur{
+    border-color: #185;
+    background: #D9ECE4;
+}
+.page-shiyong-product .attr-line .attr-item.attr-item-disabled{
+    border-color: #ccc;
+    border-style: dashed;
+    background: #eee;
+}
+
+.page-shiyong-product .p-extend-info{
+
+}
+.page-shiyong-product .p-extend-info-top{
+    padding: .1rem .1rem;
+}
+.page-shiyong-product .p-extend-info-top:nth-child(2){
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+}
+.page-shiyong-product .p-extend-info-top .col-right{
+    margin-left: .65rem;
+}
+.page-shiyong-product .p-extend-info-top .treaty-day{
+    width: 100%;
+    border: 0;
+    font-size: .12rem;
+}
+.page-shiyong-product .p-extend-info-top .treaty-day option{
+    font-size: .12rem;
+}
+.page-shiyong-product .p-extend-info-tab{
+    padding: 0;
+}
+.page-shiyong-product .p-extend-info-tab a,
+.page-shiyong-product .p-extend-info-tab a:hover,
+.page-shiyong-product .p-extend-info-tab a:active,
+.page-shiyong-product .p-extend-info-tab a:visited{
+    height: .40rem;
+    line-height: .38rem;
+    font-size: .15rem;
+    text-align: center;
+    background: #F5F5F5;
+    border: .005rem solid #B2B2B2;
+    border-left: 0;
+    color: #666;
+    text-decoration: none;
+}
+.page-shiyong-product .p-extend-info-tab a:last-child{
+    border-right: 0;
+}
+.page-shiyong-product .p-extend-info-tab a.cur{
+    border-top: .03rem solid #FF6602;
+    border-bottom: 0;
+    background: #fff;
+}
+
+.page-shiyong-product .p-extend-params{
+    padding: .1rem;
+}
+.page-shiyong-product .p-extend-intro{}
+.page-shiyong-product .p-extend-intro img{
+    width: 100%;
+}
+
+.page-shiyong-product .p-buy-line{
+    padding: .04rem .1rem;
+    background: #fff;
+}
+.page-shiyong-product .p-buy-line .btn{
+    display: block;
+    width: 100%;
+    height: .44rem;
+    line-height: .44rem;
+    font-size: .16rem;
+
+}

@@ -1,0 +1,197 @@
+
+.blur{
+    filter: blur(5px);
+}
+a:hover, a:active, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.inpt {
+    width: 100%;
+    height: .34rem;
+    padding: 0 .08rem;
+    line-height: normal;
+    font-size: .12rem;
+    font-family: inherit;
+    border: 0;
+    border-radius: .04rem;
+    background-color: #fff;
+    color: #666;
+}
+
+.page-hd-autumn-festival {
+    background-color: #6a0ea8 ;
+    color: #fff3c7;
+    font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.page-hd-autumn-festival .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-autumn-festival .block {
+    position: relative;
+    padding: 0;
+    height: 1.6rem;
+    overflow: hidden;
+    font-size: 0;
+    background: #fff url(https://p.ssl.qhimg.com/t01a30049177795fcc3.jpg) no-repeat center 0;
+    background-size: contain;
+}
+
+
+.page-hd-autumn-festival .common-block {}
+.page-hd-autumn-festival .common-block .reward-list{
+    position: relative;
+    height: .3555555555555555rem;
+    line-height: .3555555555555555rem;
+    margin-bottom: 0.11555555555555555rem;
+    overflow: hidden;
+    text-align: center;
+    background-color: #702198;
+}
+.page-hd-autumn-festival .common-block .reward-list .inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.page-hd-autumn-festival .common-block .blcok-arrange{
+    height:1.008888888888889rem;
+    margin-bottom: 0.11555555555555555rem;
+}
+.page-hd-autumn-festival .common-block  .block-rule .rule-tit {
+    height: 0.48444444444444446rem;
+}
+.page-hd-autumn-festival .common-block  .block-rule .rule-detail {
+    padding: .2rem .3rem .4rem .3rem;
+    background-color: #9f34d0;
+}
+/*--------------------------index page------------------------------------*/
+.page-hd-autumn-festival-index .block1 {
+    height: 1.6222222222222222rem;
+}
+.page-hd-autumn-festival-index .block2 {
+    height: 1.2933333333333332rem;
+}
+.page-hd-autumn-festival-index .block3 {
+    height: 1.2622222222222221rem;
+}
+.page-hd-autumn-festival-index .block3 .btn-share {
+    display: block;
+    width: 2.8444444444444446rem;
+    height: 0.3688888888888889rem;
+    position: absolute;
+    top: .58rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+/*---------------------------after share page----------------------------------*/
+
+.page-hd-autumn-festival-after-share .block1 {
+    height: 1.7955555555555556rem;
+}
+.page-hd-autumn-festival-after-share .block1 p {
+    text-align: center;
+    line-height: 1;
+}
+.page-hd-autumn-festival-after-share .block1 .desc-top{
+    font-size: 0.22rem;
+    font-weight: 700;
+    color: #fde24b;
+    margin-top: .45rem;
+}
+.page-hd-autumn-festival-after-share .block1 .desc-bottom {
+    font-size: .13rem;
+    padding-top: .05rem;
+}
+.page-hd-autumn-festival-after-share .block2 {
+    width: 3.2rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9f34d0;
+}
+.page-hd-autumn-festival-after-share .block2 .ic {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+    position: relative;
+}
+.page-hd-autumn-festival-after-share .block2 .ic:last-child img {
+    margin-left: .15rem;
+}
+.page-hd-autumn-festival-after-share .block2 .ic:last-child::after {
+    content: '';
+    position: absolute;
+    top: .1rem;
+    right: 0;
+    width: .1rem;
+    height: .2rem;
+    background-color: #9f34d0;
+}
+.page-hd-autumn-festival-after-share .block2 .ic img{
+    width: 0.5555555555555556rem;
+    height: .36rem;
+}
+.page-hd-autumn-festival-after-share .block2 .ic .txt {
+    text-align: center;
+}
+.page-hd-autumn-festival-after-share .block2 .ic .gray-color{
+    color: #a0a0a0;
+}
+.page-hd-autumn-festival-after-share .block3 {
+    height: 0.6711111111111111rem;
+}
+.page-hd-autumn-festival-after-share .block3 .btn-buy,
+.page-hd-autumn-festival-after-share .block3 .btn-share{
+    display: block;
+    width: 2.8444444444444446rem;
+    height: 0.3688888888888889rem;
+    line-height: 0.3688888888888889rem;
+    position: absolute;
+    top: .15rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    font-size: .16rem;
+    font-weight: 700;
+    color: #66300a;
+    text-align: center;
+}
+/*-------------------------for friends page---------------------------------*/
+.page-hd-autumn-festival-for-friends .block1 {
+    height: 1.8rem;
+}
+.page-hd-autumn-festival-for-friends .block2 {
+    margin-bottom: 0.2311111111111111rem;
+    background-color: #6a0ea8;
+}
+.page-hd-autumn-festival-for-friends .block2 .btn-kan,
+.page-hd-autumn-festival-for-friends .block2 .btn-ling {
+    display: block;
+    width: 2.8577777777777778rem;
+    height: 0.39555555555555555rem;
+    margin: 0 auto 0.14666666666666667rem;
+}
+.page-hd-autumn-festival-for-friends .block2 .btn-kan {
+    background: url("https://p0.ssl.qhmsg.com/t014638975c623ad7e7.jpg") no-repeat center 0/contain;
+}
+.page-hd-autumn-festival-for-friends .block2 .btn-ling{
+    background: url("https://p2.ssl.qhmsg.com/t012551b0ac053b2ffe.jpg") no-repeat center 0/contain;
+}
+.page-hd-autumn-festival-for-friends .block2 .desc{
+    text-align: center;
+    font-size:.12rem;
+}
+
+
+
+

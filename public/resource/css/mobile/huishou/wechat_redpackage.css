@@ -1,0 +1,160 @@
+.w100 {
+    width: 100%;
+}
+.page-wechat-redpackage {
+    background-color: #BD1E1E;
+    width: 100%;
+    height: 100%;
+}
+.page-wechat-redpackage .block {
+    border: none;
+}
+.page-wechat-redpackage .block-before-get-package {
+
+}
+.page-wechat-redpackage .block-before-get-package .block-1{}
+.page-wechat-redpackage .block-before-get-package .block-2{}
+.page-wechat-redpackage .block-before-get-package .block-3{
+    padding-bottom: .4rem;
+    /*background-color: #DC3736;*/
+    color:#ffdea9;
+    background: linear-gradient(to right, #C92728 2%, #DC3736  15%, #DC3736  87%, #C92728);
+}
+.page-wechat-redpackage .block-before-get-package .block-3 .inner-top{
+    text-shadow: .02rem .03rem .1rem #5f2222;
+    font-size: .22rem;
+}
+.page-wechat-redpackage .block-before-get-package .block-3 {
+    text-align: center;
+}
+.page-wechat-redpackage .block-before-get-package .block-3  .font-b{
+    font-size: .7rem;
+}
+.page-wechat-redpackage .block-before-get-package .block-3 .first-yuan{
+    padding-right: .2rem;
+    position: relative;
+}
+.page-wechat-redpackage .block-before-get-package .block-3 .first-yuan:before{
+    content: '+';
+    display: block;
+    position: absolute;
+    top: -.15rem;
+    right: 0;
+    width: .22rem;
+    height: .22rem;
+    line-height: .2rem;
+    background-color: #ffdea9;
+    color: #DC3736;
+    border-radius: .11rem;
+    text-shadow: none;
+}
+.page-wechat-redpackage .block-before-get-package .block-3 .inner-btm {
+    font-size: .14rem;
+}
+.page-wechat-redpackage .block-before-get-package .block-3 .inner-btm .cur-package{
+    padding:.02rem .25rem;
+    border:.01rem solid #ffdea9;
+}
+.page-wechat-redpackage .block-before-get-package .block-3 .inner-btm .random-package{
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding-right:.1rem;
+    border:.01rem solid #ffdea9;
+}
+.page-wechat-redpackage .block-before-get-package .block-3 .inner-btm .random-text{
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 .05rem;
+    margin-right: .05rem;
+    background-color: #ffdea9;
+    color:#DC3736;
+}
+
+.page-wechat-redpackage .block-before-get-package .block-4{
+    position: relative;
+}
+.page-wechat-redpackage .block-before-get-package .block-4 .get-redpackage{
+    position: absolute;
+    top: .03rem;
+    left: .3rem;
+    width: 80%;
+    height: .45rem;
+    border-radius: .225rem;
+}
+.page-wechat-redpackage .block-before-get-package .block img{
+    width: 100%;
+    height: 100%;
+}
+
+.page-wechat-redpackage .block-after-get-package {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.7);
+    display: none;
+}
+
+.page-wechat-redpackage .block-after-get-package .package-wrap{
+    width: 80%;
+    margin: 1rem auto 0;
+    background-color: #D83334;
+    border-radius: .08rem;
+    overflow: hidden;
+}
+.page-wechat-redpackage .block-after-get-package .package-wrap .package-wrap-inner {
+    /*box-shadow: 0px 0px 0px 100px #000;*/
+}
+.page-wechat-redpackage .block-after-get-package .package-wrap .btn-close{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.page-wechat-redpackage .block-after-get-package .package-wrap .block-top {
+
+}
+.page-wechat-redpackage .block-after-get-package .package-wrap .block-top img {
+    width: 100%;
+    height: 100%;
+}
+.page-wechat-redpackage .block-after-get-package .package-wrap .block-text {
+    padding: .1rem;
+    margin: 0 .1rem;
+    text-align: center;
+    background-color: #EBD491;
+    border-radius: .05rem;
+    color: #965b20;
+    font-size: .13rem;
+ }
+.page-wechat-redpackage .block-after-get-package .package-wrap .block-text .congratulate {
+    font-size: .3rem;
+}
+.page-wechat-redpackage .block-after-get-package .package-wrap .block-text .reward {
+    font-size: .15rem;
+}
+.page-wechat-redpackage .block-after-get-package .package-wrap .block-text .money {
+    color: #743e15;
+}
+.page-wechat-redpackage .block-after-get-package .package-wrap .block-text .num {
+     font-size: .40rem;
+ }
+
+.page-wechat-redpackage .block-after-get-package .package-wrap .share-wrap {
+    width: 80%;
+    margin:.2rem auto;
+}
+.page-wechat-redpackage .block-after-get-package .package-wrap .share-package {
+    display: block;
+    width: 100%;
+    height: .5rem;
+    line-height: .5rem;
+    text-align: center;
+    text-decoration: none;
+    color:#743e15;
+    font-size: .20rem;
+    background: url("https://p3.ssl.qhmsg.com/t01d56f76cf54a1dea9.png") no-repeat center;
+    background-size: 100% 100%;
+}

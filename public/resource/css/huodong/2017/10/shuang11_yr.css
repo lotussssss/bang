@@ -1,0 +1,350 @@
+.w100{
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+.block-inner {
+    margin: 0 auto;
+    width: 1200px;
+    /*background-color:#00061c;*/
+}
+a:hover{
+    text-decoration: none;
+}
+
+.page-hd-shuang11-yr {
+    background:#FA5363 url("https://p0.ssl.qhmsg.com/t01b2384ea1636f65f0.jpg") repeat-y center 571px;
+    min-width: 1200px;
+}
+.page-hd-shuang11-yr .topbar .in{
+    /*width: 1000px;*/
+}
+
+.page-hd-shuang11-yr .block-tit{
+    height: 76px;
+    background: url(https://p3.ssl.qhmsg.com/t011e96d43d516707a0.png) no-repeat center 0px;
+}
+.page-hd-shuang11-yr .block-tit .tit-cont{
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    line-height: 76px;
+    text-align: center;
+    /*text-indent: -999px;*/
+}
+
+.page-hd-shuang11-yr .block-tit .more{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 110px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: #aa242f;
+    background: #fbd743;
+    border-radius: 999px;
+    text-indent: 0;
+}
+
+/*tab切换*/
+.page-hd-shuang11-yr .block-tab{
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    background: #eb1242;
+}
+.page-hd-shuang11-yr .block-tab .tab-tit{
+    height: 100%;
+}
+.page-hd-shuang11-yr .block-tab .tab-tit h2{
+    font-size: 22px;
+}
+.page-hd-shuang11-yr .block-tab .tab-list{}
+.page-hd-shuang11-yr .block-tab .tab-list .tab-item{
+    height: 60px;
+    background: #cb0a35;
+    color: #f5ae47;
+}
+.page-hd-shuang11-yr .block-tab .tab-list .tab-item.cur{
+    background: #eb1242;
+    color: #fff;
+}
+.page-hd-shuang11-yr .block-tab .tab-list .tab-item.disabled{
+    cursor: default;
+}
+.page-hd-shuang11-yr .block-tab .tab-list h3{
+    padding-top: 8px;
+}
+.page-hd-shuang11-yr .block-tab .tab-list p{
+    font-size: 14px;
+}
+.page-hd-shuang11-yr .block-tab-cont .tab-cont-item{
+    display: none;
+}
+.page-hd-shuang11-yr .block-tab-cont .tab-cont-item.cur{
+    display: block;
+}
+/*tab切换end*/
+
+/*头图*/
+.page-hd-shuang11-yr .block-top,
+.page-hd-shuang11-yr .block-top .block-inner{
+    height: 480px;
+    background: url(https://p2.ssl.qhmsg.com/t01c22e4320091ed689.jpg) no-repeat center 0;
+}
+/*头图end*/
+
+
+/*活动商品列表样式*/
+.page-hd-shuang11-yr .ui-sp-product-list-1{
+    min-height: 350px;
+    background-color: #fff;
+}
+.page-hd-shuang11-yr .block-flash{
+    position: relative;
+    margin-top: -180px;
+}
+.page-hd-shuang11-yr .ui-sp-product-list-1 .p-item{
+    /*margin: 5px;*/
+    width: 298px;
+    height: 350px;
+}
+.page-hd-shuang11-yr .ui-sp-product-list-1 .p-item .p-tit{
+    font-size: 14px;
+}
+.page-hd-shuang11-yr .ui-sp-product-list-1 .p-item .p-pic{
+    height: 150px;
+    padding-top: 50px;
+}
+.page-hd-shuang11-yr .ui-sp-product-list-1 .p-item  .p-price-orig {
+    width: auto;
+}
+.page-hd-shuang11-yr .ui-sp-product-list-1 .p-item .p-pic img {
+    height: 115px;
+}
+.page-hd-shuang11-yr .ui-sp-product-list-1 .p-item .p-sold-out{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(https://p0.ssl.qhmsg.com/t01659da13a41c7d3e5.png) no-repeat center;
+}
+.page-hd-shuang11-yr .block-price-range .more{
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 999px;
+}
+/*活动商品列表样式 end*/
+
+/*服务介绍*/
+.page-hd-shuang11-yr .block-service-intro,
+.page-hd-shuang11-yr .block-service-intro .block-inner {
+    background: url(https://p3.ssl.qhmsg.com/t017601da27bf0accd7.png) no-repeat center;
+}
+.page-hd-shuang11-yr .block-service-intro .block-inner{
+    height: 268px;
+    margin: 20px auto;
+}
+/*二维码扫一扫*/
+.page-hd-shuang11-yr .block-qrcode-info,
+.page-hd-shuang11-yr .block-qrcode-info .block-inner {
+    background:url(https://p0.ssl.qhmsg.com/t0151ced401fe2e7c9b.png) no-repeat center 0;
+}
+.page-hd-shuang11-yr .block-qrcode-info .block-inner {
+    height: 268px;
+    margin: 0px auto 60px;
+}
+
+/*合作伙伴*/
+.page-hd-shuang11-yr .block-partner,
+.page-hd-shuang11-yr .block-partner .block-inner {
+    background:url(https://p4.ssl.qhmsg.com/t01daeefc52986556e8.png) no-repeat center 0;
+}
+.page-hd-shuang11-yr .block-partner .block-inner {
+    height: 470px;
+    margin: 0px auto 60px;
+}
+
+
+/*抽奖抽奖抽奖抽奖抽奖*/
+/*奖品图*/
+.page-hd-shuang11-yr .block-roll-bonus{}
+.page-hd-shuang11-yr .block-roll-bonus .cont{
+}
+.page-hd-shuang11-yr .block-roll-bonus .cont-inner{
+    height: 358px;
+}
+.page-hd-shuang11-yr .block-roll-bonus .lottery-pic{
+    float: left;
+    position: relative;
+    width: 766px;
+    height: 418px;
+    background: url("https://p2.ssl.qhmsg.com/t012b9f13590c9506cc.jpg") no-repeat center 0;
+}
+.page-hd-shuang11-yr .block-roll-bonus .ewm {
+    position: absolute;
+    top: 160px;
+    width: 90px;
+    height: 90px;
+    right: 220px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+/*中奖名单*/
+.page-hd-shuang11-yr .block-roll-bonus .lottery-user{
+    float: right;
+    width: 420px;
+    height: 418px;
+    border-radius: 5px;
+    background: #fbd743;
+}
+.page-hd-shuang11-yr .block-roll-bonus .lottery-user-tit{
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+    color: #aa242f;
+    text-align: center;
+}
+.page-hd-shuang11-yr .block-roll-bonus .lottery-user-list {
+    position: relative;
+    width: 260px;
+    height: 327px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.page-hd-shuang11-yr .block-roll-bonus .lottery-user-list-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.page-hd-shuang11-yr .block-roll-bonus .lottery-user-list .lottery-item{
+    height: 42px;
+    line-height: 42px;
+    color: #aa242f;
+    font-size: 14px;
+}
+.page-hd-shuang11-yr .block-roll-bonus .lottery-user-list .lottery-item-inner{
+    padding-left: 32px;
+    position: relative;
+}
+.page-hd-shuang11-yr .block-roll-bonus .lottery-user-list .lottery-item i{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0px;
+    top: 13px;
+    border-radius: 999px;
+    background: #aa242f;
+}
+/*抽奖抽奖抽奖抽奖抽奖 end*/
+
+/*活动说明*/
+.page-hd-shuang11-yr .block-desc{
+    margin: 20px 0 40px 0;
+    color: #fff;
+}
+.page-hd-shuang11-yr .block-desc .block-inner{
+    box-shadow: 0 0 25px 6px #0943fb;
+}
+.page-hd-shuang11-yr .block-desc .block-tit{
+    height: 65px;
+    line-height: 80px;
+    background-image: url(https://p1.ssl.qhmsg.com/t015e17d6cde1b264da.jpg);
+}
+.page-hd-shuang11-yr .block-desc .block-tit .tit-cont{
+    height: auto;
+    line-height: 80px;
+    font-size: 28px;
+    text-indent: 0;
+}
+.page-hd-shuang11-yr .block-desc .cont{
+    background: url(https://p3.ssl.qhmsg.com/t018434ac0a6bf7ffc6.jpg) repeat-y center 0;
+}
+.page-hd-shuang11-yr .block-desc .block-bottom{
+    height: 56px;
+    background-image: url(https://p0.ssl.qhmsg.com/t0113b4f6cc2bda8d09.jpg);
+}
+.page-hd-shuang11-yr .block-desc .cont-inner{
+    padding: 10px 100px 0;
+}
+.page-hd-shuang11-yr .block-desc .cont-inner h3{
+    font-weight: bold;
+    font-size: 22px;
+}
+.page-hd-shuang11-yr .block-desc .cont-inner p{
+    font-size: 16px;
+}
+.page-hd-shuang11-yr .block-desc .cont-inner li{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+/*搜索框*/
+.page-hd-shuang11-yr .block-search{
+    margin: 6px auto;
+    padding: 10px 0;
+    width: 1200px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.page-hd-shuang11-yr .block-search .block-search-form{
+    position: relative;
+    margin: 0 auto;
+    width: 1138px;
+    height: 58px;
+    background: url(https://p2.ssl.qhmsg.com/t0193258b6bb44c15f0.png) no-repeat center;
+}
+.page-hd-shuang11-yr .block-search .block-search-form input{
+    border: 0;
+}
+.page-hd-shuang11-yr .block-search .block-search-form .input-search{
+    position: absolute;
+    top: 2px;
+    left: 70px;
+    width: 916px;
+    height: 54px;
+    background-color: transparent;
+    font-size: 16px;
+}
+.page-hd-shuang11-yr .block-search .block-search-form .btn-submit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 152px;
+    height: 58px;
+    background: transparent;
+}
+/*END搜索框*/
+
+/*216元大礼包免费送*/
+.page-hd-shuang11-yr .block-dalibao,
+.page-hd-shuang11-yr .block-dalibao .block-inner{
+    height: 483px;
+    background: url("https://p0.ssl.qhmsg.com/t0174f20d894b31f0dc.png") no-repeat center 76px;
+
+}
+.page-hd-shuang11-yr .block-dalibao .ewm{
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    right: 56px;
+    bottom: 74px;
+    padding: 3px;
+    background: #fff;
+    border-radius: 5px;
+}

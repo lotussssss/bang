@@ -1,0 +1,110 @@
+a:hover, a:active, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.inpt {
+    width: 100%;
+    height: .34rem;
+    padding: 0 .08rem;
+    line-height: normal;
+    font-size: .12rem;
+    font-family: inherit;
+    border: .01rem solid #aba6a6;
+    border-radius: .04rem;
+}
+
+.page-hd-anhui-univer-active {
+    background-color: #fff;
+}
+
+.page-hd-anhui-univer-active .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+.page-hd-anhui-univer-active .block {
+    position: relative;
+    padding: 0;
+    height: 1.6rem;
+    overflow: hidden;
+    font-size: 0;
+    background: #fff url(https://p.ssl.qhimg.com/t01a30049177795fcc3.jpg) no-repeat center 0;
+    background-size: contain;
+}
+.page-hd-anhui-univer-active .block1 {
+    height: 0.6577777777777778rem;
+}
+.page-hd-anhui-univer-active .block2 {
+    height: 2.888888888888889rem;
+}
+.page-hd-anhui-univer-active .trigger-btn-apply{
+    display: block;
+    height: 0.5688888888888889rem;
+    line-height: 0.5688888888888889rem;
+    width:2.6666666666666665rem;
+    margin: .2rem auto 0;
+    border-top-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    background-color: #ff6600;
+    text-align: center;
+    color: #fff;
+    font-size: .2rem;
+}
+
+.page-hd-anhui-univer-active  .active-rules{
+    padding:.2rem;
+    color: #666666;
+    font-size: .14rem;
+}
+.page-hd-anhui-univer-active  .rule-tit{
+    font-size: .17rem;
+    color: #444;
+    text-align: center;
+}
+.page-hd-anhui-univer-active .anhui-active-apply-panel{
+    background-color: #fff;
+    border-top-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    padding: 0 .2rem;
+}
+.page-hd-anhui-univer-active .anhui-active-apply-panel .dialog-inner{
+    padding: 0;
+}
+.page-hd-anhui-univer-active .anhui-active-apply-panel .dialog-close{
+    display: none;
+}
+.page-hd-anhui-univer-active .anhui-active-apply-panel .form-img{
+    width: 100%;
+}
+.page-hd-anhui-univer-active .anhui-active-apply-panel .row{
+    padding-bottom: .1rem;
+}
+.page-hd-anhui-univer-active .anhui-active-apply-panel .row-server-wrap{
+    position: relative;
+}
+.page-hd-anhui-univer-active .anhui-active-apply-panel .row-server-wrap .arrow-down{
+    position: absolute;
+    top: .07rem;
+    right: .1rem;
+}
+.page-hd-anhui-univer-active .anhui-active-apply-panel .vcode-img{
+    float: right;
+}
+.page-hd-anhui-univer-active .anhui-active-apply-panel .btn-get-secode{
+    background-color: #17e0e0;
+    color: #fff;
+    float: right;
+    padding: .03rem;
+}
+.page-hd-anhui-univer-active .anhui-active-apply-panel .btn-submit{
+    display: block;
+    height: .44rem;
+    width: 90%;
+    margin: .2rem auto 0;
+    border-top-right-radius: .2rem;
+    border-bottom-left-radius: .2rem;
+    background-color: #17e0e0;
+    font-size: .16rem;
+    color: #fff;
+}

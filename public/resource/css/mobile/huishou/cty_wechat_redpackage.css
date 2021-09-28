@@ -1,0 +1,211 @@
+/*传天羽修修哥领红包*/
+.w100 {
+    width: 100%;
+}
+.m-huishou #hsheader{
+    width: 100%;
+    height: .44rem;
+    line-height: .44rem;
+    background: url(https://p.ssl.qhimg.com/t01a17a47515b3c0d4a.png) repeat-x 0 0;
+    background-size: contain;
+    position: absolute;
+}
+.m-huishou .hsheader-placeholder{
+    display: block;
+    width: 100%;
+    height: .44rem;
+}
+.m-huishou .header-left{
+    display: inline-block;
+    width: .44rem;
+    height: .44rem;
+    text-align: center;
+}
+.m-huishou .page-back,
+.m-huishou .page-close,
+.m-huishou .page-restart{
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    color: #fff;
+}
+.m-huishou .icon-back {
+    font-size: .18rem;
+}
+.m-huishou .header-center{
+    display: inline-block;
+    height: .44rem;
+    text-align: center;
+    vertical-align: top;
+}
+.m-huishou .page-title{
+    font-size: .16rem;
+    color: #fff;
+}
+.m-huishou .header-right{
+    float: right;
+    width: .8rem;
+    height: .44rem;
+    text-align: center;
+}
+.m-huishou .header-right a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: .14rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.page-hd-mothers-day-promotion .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+.page-cty-wechat-redpackage {
+    background-color: #efefef;
+}
+.page-cty-wechat-redpackage .block-tit{
+    height: .88rem;
+    padding: 0;
+    color: #444;
+    text-align: center;
+    background:#fff url("https://p2.ssl.qhmsg.com/t0172235edf4461fa86.png") no-repeat center 0;
+    background-size: contain;
+    border-bottom: 1px solid #d8d8d8;
+}
+.page-cty-wechat-redpackage .block-tit h2{
+    padding: .26rem 0 .05rem;
+    font-size: .18rem;
+}
+.page-cty-wechat-redpackage .block-redpackage{
+    padding: 0 .1rem;
+    color: #555;
+    text-align: center;
+}
+.page-cty-wechat-redpackage .block-redpackage .btn-to-huanxin{
+    display: block;
+    width: 1.77rem;
+    height: .28rem;
+    margin: .2rem auto;
+    background: #ff4400;
+    color: #fff;
+    text-align: center;
+    line-height: .28rem;
+    font-size: .14rem;
+}
+.page-cty-wechat-redpackage .block-redpackage .tit{
+    padding: .2rem 0 .1rem;
+    font-size: .14rem;
+    font-weight: bold;
+    color: #555;
+}
+.page-cty-wechat-redpackage .block-redpackage i{
+    color: #f40;
+    font-size: .18rem;
+}
+.page-cty-wechat-redpackage .block-redpackage-list .row{
+    height: .26rem;
+    line-height: .26rem;
+}
+.page-cty-wechat-redpackage .block-redpackage-list .num,
+.page-cty-wechat-redpackage .block-redpackage-list .amount{
+    border-left: 1px solid #cfcfcf;
+    border-top: 1px solid #cfcfcf;
+}
+.page-cty-wechat-redpackage .block-redpackage-list .row:last-child .num,
+.page-cty-wechat-redpackage .block-redpackage-list .row:last-child .amount{
+    border-bottom: 1px solid #cfcfcf;
+}
+.page-cty-wechat-redpackage .block-redpackage-list .amount{
+    border-right: 1px solid #cfcfcf;
+}
+.page-cty-wechat-redpackage .block-redpackage-list .btn-get-redpackage{
+    display: inline-block;
+    width: .57rem;
+    height: .22rem;
+    line-height: .22rem;
+    background: #ff4400;
+    color: #fff;
+    font-size: .12rem;
+}
+.page-cty-wechat-redpackage .block-redpackage-list .btn-disabled{
+    background: #d2d2d2;
+}
+.page-cty-wechat-redpackage .block-desc{
+    padding: .2rem .15rem .3rem;
+}
+.page-cty-wechat-redpackage .block-desc .tit{
+    color: #444;
+    font-weight: bold;
+    font-size: .16rem;
+    text-align: center;
+}
+.page-cty-wechat-redpackage .block-desc .block-desc-cont{
+    color: #666;
+    padding: 0 0 0.1rem;
+}
+.page-cty-wechat-redpackage .block-desc .block-desc-cont p{
+    padding-top: .04rem;
+}
+
+/*红包金额弹窗*/
+.dialog-redpackage-wrap{
+    width: 80%;
+    background-color: #D83334;
+    border-radius: .1rem;
+    border: 0;
+    padding-bottom: .3rem;
+}
+.dialog-redpackage-wrap .dialog-inner{
+    padding: 0;
+    border-radius: .1rem;
+    overflow: hidden;
+}
+.dialog-redpackage-wrap .dialog-redpackage-top {
+    height: 1.07rem;
+    background: url("https://p1.ssl.qhmsg.com/t01dc8831b521b5e31f.jpg") no-repeat center 0;
+    background-size: cover;
+}
+.dialog-redpackage-wrap .dialog-redpackage-top .tit{
+    font-size: .14rem;
+    color: #ffdea9;
+    padding-top: .84rem;
+    text-align: center;
+}
+.dialog-redpackage-wrap .dialog-redpackage-cont {
+    margin: 0 .1rem;
+    background: #EBD491;
+    background: -webkit-linear-gradient(top, #f3e19f 0%,#e0c167 100%);
+    background: linear-gradient(to bottom, #f3e19f 0%,#e0c167 100%);
+    border-radius: .05rem;
+    color: #965b20;
+    font-size: .12rem;
+    text-align: center;
+    line-height: 1.4;
+}
+.dialog-redpackage-wrap .dialog-redpackage-cont .tit {
+    font-size: .3rem;
+}
+.dialog-redpackage-wrap .dialog-redpackage-cont .tit p {
+    font-size: .14rem;
+}
+.dialog-redpackage-wrap .dialog-redpackage-cont .amount {
+    color: #743e15;
+}
+.dialog-redpackage-wrap .dialog-redpackage-cont .num {
+    font-size: .40rem;
+}
+.dialog-redpackage-wrap .dialog-redpackage-cont .desc{
+    font-size: .12rem;
+    padding-bottom: .1rem;
+}
+.dialog-redpackage-wrap .dialog-redpackage-tips{
+    font-size: .12rem;
+    color: #ffdea9;
+    padding-top: .1rem;
+    text-align: center;
+}

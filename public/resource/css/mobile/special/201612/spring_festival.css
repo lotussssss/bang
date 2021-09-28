@@ -1,0 +1,504 @@
+* {
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing    : border-box;
+    box-sizing         : border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing    : border-box;
+    box-sizing         : border-box;
+}
+
+html {
+    /*height: 100%;*/
+    height     : auto;
+    min-height : 100%;
+}
+
+body {
+    margin                     : 0 auto;
+    max-width                  : 720px;
+    min-width                  : 320px;
+    /*height: 100%;*/
+    height                     : auto;
+    min-height                 : 100%;
+    font-family                : "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    -webkit-overflow-scrolling : touch;
+}
+
+.mainbody {
+    /*height: 100%;*/
+    min-height : 100%;
+    /*overflow-x: hidden;*/
+    /*overflow-y: scroll;*/
+}
+
+.mainbody-inner {
+    min-height : 100%;
+}
+
+html, body {
+    background  : #fff;
+    font-family : "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    line-height: 100%;
+}
+
+.relative {
+    position : relative;
+}
+
+a {
+    text-decoration : none;
+}
+
+.clearfix:after {
+    display : block;
+    content : '';
+    clear   : both;
+}
+
+.clearfix {
+    zoom : 1;
+}
+
+.w100 {
+    width : 100%;
+}
+
+.fl {
+    float : left;
+}
+
+.fr {
+    float : right;
+}
+/*块、行的基本模式*/
+.row {
+    zoom: 1;
+    clear: both;
+}
+
+.row:after {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    content: '\20';
+}
+
+.row,
+.row .col-1-1,
+.row .col-2-1,
+.row .col-3-1,
+.row .col-3-2,
+.row .col-3-3,
+.row .col-4-1,
+.row .col-4-2,
+.row .col-4-3,
+.row .col-4-4,
+.row .col-6-1,
+.row .col-12-1,
+.row .col-12-2,
+.row .col-12-3,
+.row .col-12-4,
+.row .col-12-5,
+.row .col-12-6,
+.row .col-12-7,
+.row .col-12-8,
+.row .col-12-9,
+.row .col-12-10,
+.row .col-12-11,
+.row .col-12-12,
+.row .col-left-fixed, .row .col-left,
+.row .col-right, .row .col-right-fixed,
+.row .col-left-float {
+    display: block;
+    float: left;
+}
+
+.row,
+.row .col-left,
+.row .col-right {
+    float: none;
+}
+
+.row .col-right-float,
+.row .col-right-fixed {
+    float: right;
+}
+
+.row .col-12-1 {
+    width: 8.3333333333333333%;
+}
+
+.row .col-12-2 {
+    width: 16.6666666666666666%;
+}
+
+.row .col-4-1,
+.row .col-12-3 {
+    width: 25%;
+}
+
+.row .col-3-1,
+.row .col-12-4 {
+    width: 33.3333333333333333%;
+}
+
+.row .col-12-5 {
+    width: 41.6666666666666666%;
+}
+
+.row .col-2-1,
+.row .col-4-2,
+.row .col-12-6 {
+    width: 50%;
+}
+
+.row .col-12-7 {
+    width: 58.3333333333333333%;
+}
+
+.row .col-3-2,
+.row .col-12-8 {
+    width: 66.6666666666666666%;
+}
+
+.row .col-4-3,
+.row .col-12-9 {
+    width: 75%;
+}
+
+.row .col-12-10 {
+    width: 83.3333333333333333%;
+}
+
+.row .col-12-11 {
+    width: 91.6666666666666666%;
+}
+
+.row .col-1-1,
+.row .col-3-3,
+.row .col-4-4,
+.row .col-12-12 {
+    width: 100%;
+}
+
+.row .col-6-1 {
+    width:16.6666666667%;
+}
+
+/*END行的基本模式*/
+.spring-festival{
+    background-color: #bf3242;
+}
+.block {
+    border: none;
+}
+
+
+/*公用的block-title样式start*/
+.spring-festival .block-title {
+    width: 100%;
+    /*height:.28rem;*/
+    /*background:url(https://p.ssl.qhimg.com/t0134dbeae7cf59f625.png) no-repeat center 0;*/
+    /*background-size: contain;*/
+    /*text-align: center;*/
+    padding: 0.102222rem 0;
+}
+.spring-festival .block-title .inner {
+    height:.28rem;
+    width: 100%;
+}
+.spring-festival .block-title .title-baopin {
+    position: relative;
+    margin-top: .2rem;
+    margin-left: .05rem;
+    display: inline-block;
+    font-size: .24rem;
+    font-weight: 700;
+    color: #fff;
+}
+.spring-festival .block-title .title-name{
+    position: absolute;
+    top: -.2rem;
+    left: .2rem;
+}
+.spring-festival .block-title .title-sig {
+    position: relative;
+    margin-top: .35rem;
+    margin-left: .05rem;
+    display: inline-block;
+    font-size: .16rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+/*公用的block-title样式end*/
+
+
+
+/*头部start*/
+.spring-festival .block-header {
+    width: 100%;
+    position: relative;
+}
+.spring-festival .block-header img {
+    width: 100%;
+}
+.spring-festival .block-header .img1{
+    height: 1.48rem;
+}
+.spring-festival .block-header .img2{
+    height: 1.2rem;
+}
+
+/*头部end*/
+
+/*点击加载更多start*/
+.spring-festival .block-more {
+    background-color: #000;
+    width: 100%;
+    height: .577777778rem;
+    background-size: cover;
+    text-align: center;
+    padding-top: .07rem;
+}
+/*点击加载更多end*/
+
+/*狂欢图片入口部分start*/
+.spring-festival .photo-entrance {
+    /*background-color: #761ABD;*/
+}
+.spring-festival .photo-entrance-title {
+    width: 100%;
+    height:.915555556rem;
+    line-height:.915555556rem;
+    background-color: #9C6BFF;
+    text-align:center;
+    color:#fff;
+    font-size: .16rem;
+}
+.spring-festival .photo-entrance li {
+    float: left;
+    height: 1.06rem;
+
+}
+.spring-festival .photo-entrance li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.spring-festival .photo-entrance li a img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+/*狂欢图片入口部分end*/
+
+/*产品列表部分start*/
+.spring-festival .p-item{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.spring-festival .product-list .item{
+    position: relative;
+    float: left;
+    width: 50%;
+    padding: 0 .1rem .12rem;
+    background: #fff;
+}
+.spring-festival .item{
+    border: 1px solid #f1f1f1;
+    border-top: 1px solid transparent;
+}
+.spring-festival .item:nth-child(even){
+    border-left: 1px solid transparent;
+}
+.spring-festival .product-list .item a{
+    display: block;
+}
+.spring-festival .product-list .item a:hover{
+    text-decoration: none;
+}
+.spring-festival .product-list .p-img{
+    width: 1.2rem;
+    height: 1.3rem;
+    margin: 0.03rem auto;
+}
+.spring-festival .product-list .p-img img{
+    width: 100%;
+}
+.spring-festival .product-list .p-tit{
+    height: .32rem;
+    font-size: .12rem;
+    /*padding-top: .05rem;*/
+    color: #333;
+    vertical-align: middle;
+    text-align: left;
+    line-height: .16rem;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+.spring-festival .product-list .p-price-new{
+    line-height: 100%;
+    color: #999;
+    font-size: .1rem;
+    padding-top: .08rem;
+    padding-bottom: .08rem;
+}
+.spring-festival .product-list .p-price-new .price-tit{
+}
+.spring-festival .product-list .p-price-new .price-cnt{
+    text-decoration: line-through;
+}
+.spring-festival .product-list .p-price{
+    width: 1.1rem;
+    font-size: .12rem;
+    border: 1px solid #ff3300;
+    border-radius: .15rem;
+    overflow: hidden;
+    margin-left: .1rem;
+}
+.spring-festival .product-list .p-price .price-tit{
+    display: inline-block;
+    padding: .05rem ;
+    color: #fff;
+    background-color: #ff3300;
+}
+.spring-festival .product-list .p-price .price-cnt{
+    display: inline-block;
+    width: .5rem;
+    color: #ff3300;
+    background-color: #fff;
+    text-align: center;
+}
+
+.spring-festival .product-list .btn-qiang{
+    z-index:9;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+.spring-festival .product-list .btn-disabled{
+    background: url(https://p.ssl.qhimg.com/t01c26442fb2f8c9618.png) no-repeat center .3rem;
+    background-size: .9rem .9rem;
+}
+.spring-festival .product-list .p-label{
+    position: absolute;
+    top: 0;
+    left: 4px;
+    width: .35rem;
+}
+.spring-festival .product-list .offset-label{
+    position: absolute;
+    top: 0;
+    left: .04rem;
+    padding: .08rem 0;
+    width: .4rem;
+    /*height: .6rem;*/
+    text-align: center;
+    font-size: .1rem;
+    line-height: 1.4;
+    color: #fff;
+    background: #f53b3c;
+}
+.spring-festival .more{
+    width: 100%;
+    /* height: 1rem; */
+    line-height: .6rem;
+    /* padding: .1rem 0; */
+    /*background-color: #ffbf37;*/
+    text-align: center;
+}
+.spring-festival .more a {
+    display: inline-block;
+    height: .3rem;
+    line-height: .3rem;
+    text-align: center;
+    font-size:.14rem;
+    color: #bf3242;
+    background-color: #FFFAA8;
+    /*border:1px solid #FFFAA8;*/
+    border-radius: .187rem;
+    padding:0 .3rem;
+}
+
+/*产品列表部分end*/
+
+
+.spring-festival  .block-intro{
+    padding-top: 0.2rem ;
+}
+
+/*底布二维码start*/
+.spring-festival .block-ewm-bottom{
+    background: #f8e7c7;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.spring-festival .block-ewm-bottom h3{
+    font-size: .14rem;
+    font-weight: normal;
+    padding: .15rem 0 .1rem;
+    color: #bf3242;
+}
+.spring-festival .block-ewm-bottom p{
+    font-size: .12rem;
+    color: #bf3242;
+    padding-bottom: .15rem;
+}
+.spring-festival .block-ewm-bottom img{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 5px;
+    margin-bottom: .1rem;
+}
+.block-ewm-bottom-wrap {
+    padding: .1rem .1rem .2rem;
+}
+/*二维码换图片*/
+/*.spring-festival .block-ewm-bottom-wrap {*/
+    /*width: 100%;*/
+    /*height: 2.89777777777rem;*/
+    /*background-color: red;*/
+/*}*/
+/*.spring-festival .block-ewm-bottom-wrap img {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+/*底布二维码end*/
+
+/*固定向上按钮*/
+.spring-festival .top-fix {
+    position: fixed;
+    bottom: .3rem;
+    right: .3rem;
+    width: .4rem;
+    height: .4rem;
+    border: 1px solid #c1c1c1;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #f5f5f5;
+    z-index: 99999;
+    opacity: .8;
+    line-height: .35rem;
+    font-size: .14rem;
+    display: none;
+    color: #000;
+}

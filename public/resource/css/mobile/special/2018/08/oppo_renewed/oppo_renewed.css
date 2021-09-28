@@ -1,0 +1,240 @@
+.page-hd-oppo-renewed {
+    width: 100%;
+    max-width: 3.2rem;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* 模块标题 */
+.page-hd-oppo-renewed .part-title {
+    font-size: .1877rem;
+    line-height: .384rem;
+    height: .384rem;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+.page-hd-oppo-renewed .part-title:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: .3754rem;
+    height: .0341rem;
+    background: linear-gradient(to right, #4199ff, #5c4df4 ,#c965f8);
+    background: -webkit-linear-gradient(to right, #4199ff, #5c4df4 ,#c965f8);
+    background: -o-linear-gradient(to right, #4199ff, #5c4df4 ,#c965f8);
+}
+
+/* 模块内阴影 */
+.page-hd-oppo-renewed .part-inset-shadow {
+    padding: .1066rem .1706rem .2133rem;
+    -webkit-box-shadow: 0 .15rem .5rem -.2rem #b0a9e9 inset;
+    -moz-box-shadow: 0 .15rem .5rem -.2rem #b0a9e9 inset;
+    box-shadow: 0 .15rem .5rem -.2rem #b0a9e9 inset;
+}
+
+
+/* 渐变背景色 */
+.page-hd-oppo-renewed .linear-bg {
+    background: linear-gradient(to right, #5c4df4, #c965f8);
+    background: -webkit-linear-gradient(to right, #5c4df4, #c965f8);
+    background: -o-linear-gradient(to right, #5c4df4, #c965f8);
+}
+
+/* 顶部的 banner 部分 */
+.page-hd-oppo-renewed .top-banner {
+    height: 5.1399rem;
+    position: relative;
+}
+
+/* 考虑页面图片加载的问题,图片拆分为2部分加载,第一部分放在 before 中,第二部分在 after 中 */
+.page-hd-oppo-renewed .top-banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    width: 3.2rem;
+    height: 2.8444rem;
+    background: url(https://p3.ssl.qhmsg.com/t010f4119304ee61bbf.png) no-repeat;
+    background-size: cover;
+}
+
+.page-hd-oppo-renewed .top-banner:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    width: 3.2rem;
+    height: 2.2954rem;
+    background: url(https://p4.ssl.qhmsg.com/t013b4170beb5490ea0.png) no-repeat;
+    background-size: cover;
+}
+
+/* 预约按钮 */
+.page-hd-oppo-renewed .top-banner .order-btn {
+    text-indent: -9999em;
+    display: block;
+    width: 1.7749rem;
+    height: .31rem;
+    background: url(https://p4.ssl.qhmsg.com/t0163e7a6f5ade2ba55.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 10;
+    bottom: .5034rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page-hd-oppo-renewed .top-banner .order-tips {
+    position: absolute;
+    bottom: .2986rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    font-size: .1024rem;
+    height: .1024rem;
+    line-height: .1024rem;
+    color: #000;
+}
+
+/* 活动流程 */
+/* 流程图 */
+.page-hd-oppo-renewed .liucheng .liucheng-pic {
+    width: 2.816rem;
+    height: .9415rem;
+    margin: .1877rem auto 0;
+}
+
+.page-hd-oppo-renewed .liucheng .liucheng-pic img {
+    width: 100%;
+    height: auto;
+    display: block;
+    font-size: 0;
+}
+
+/* 活动说明 */
+.page-hd-oppo-renewed .shuoming .list>li {
+    padding-left: .256rem;
+    position: relative;
+    color: #a65df7;
+    font-size: .1024rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: .128rem;
+}
+
+.page-hd-oppo-renewed .shuoming .list>li:last-child {
+    margin-bottom: 0;
+}
+
+/* 列表前面的序号 */
+.page-hd-oppo-renewed .shuoming .list>li:before {
+    content: attr(data-item);
+    position: absolute;
+    left: 0;
+    top: .0256rem;
+    width: .1877rem;
+    height: .1877rem;
+    line-height: .1877rem;
+    font-size: .1365rem;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 100px;
+    color: #fff;
+    background: linear-gradient(to right, #5c4df4, #c965f8);
+    background: -webkit-linear-gradient(to right, #5c4df4, #c965f8);
+    background: -o-linear-gradient(to right, #5c4df4, #c965f8);
+}
+
+/* 弹窗样式 */
+.page-hd-oppo-renewed .oppo-order-panel {
+    background-color: #fff;
+    border-radius: .2rem;
+    border: 0 none;
+    padding: .1706rem;
+}
+
+/* 标题 */
+.page-hd-oppo-renewed .oppo-order-panel .panel-title {
+    font-size: .1536rem;
+    height: .1536rem;
+    line-height: .1536rem;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* 内容区 */
+.page-hd-oppo-renewed .oppo-order-panel .panel-cont {
+    padding-top: .1792rem;
+}
+
+/* a标签 */
+.page-hd-oppo-renewed .oppo-order-panel .panel-cont a {
+    text-decoration: none;
+}
+.page-hd-oppo-renewed .oppo-order-panel .panel-cont a:hover {
+    text-decoration: none;
+}
+
+/* 每行 */
+.page-hd-oppo-renewed .oppo-order-panel .panel-cont .login-form .row {
+    margin-bottom: .0853rem;
+    position: relative;
+}
+
+.page-hd-oppo-renewed .oppo-order-panel .oppo-input-radius {
+    padding-left: .1rem;
+}
+
+/* 边框 */
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .page-hd-oppo-renewed .oppo-order-panel .oppo-input-radius:before {
+        border: 1px solid #8e58f6;
+        border-radius: 100px;
+    }
+}
+
+/* 图片验证码 */
+.page-hd-oppo-renewed .oppo-order-panel .panel-cont .code-pic {
+    position: absolute;
+    height: .36rem;
+    right: .08rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.page-hd-oppo-renewed .oppo-order-panel .panel-cont .code-pic img {
+    height: 100%;
+    width: auto;
+}
+
+/* 获取验证码 */
+.page-hd-oppo-renewed .oppo-order-panel .panel-cont .get-code .get-oppo-code-btn {
+    width: .9rem;
+    line-height: .36rem;
+    text-align: center;
+    color: #fff;
+    font-size: .1024rem;
+    border-radius: 100px;
+}
+
+/* 提交按钮 */
+.page-hd-oppo-renewed .oppo-order-panel .panel-cont .btn-order-confirm-submit {
+    line-height: .36rem;
+    text-align: center;
+    color: #fff;
+    font-size: .1536rem;
+    border-radius: 100px;
+}
+
+
+

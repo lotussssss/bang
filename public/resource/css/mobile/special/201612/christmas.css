@@ -1,0 +1,741 @@
+.blur {
+    -webkit-filter : blur(.10rem);
+}
+
+@-webkit-keyframes button-clicking {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+    50% {
+        -webkit-transform: translate3d(0, -.03rem, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+}
+
+@-moz-keyframes button-clicking{
+    0% {
+        -moz-transform: translate3d(0, 0, 0);
+    }
+    50% {
+        -moz-transform: translate3d(0, -.03rem, 0);
+    }
+    100% {
+        -moz-transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes button-clicking{
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        transform: translate3d(0, -.03rem, 0);
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+@-webkit-keyframes button-clicking-stop {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+}
+
+@-moz-keyframes button-clicking-stop{
+    0% {
+        -moz-transform: translate3d(0, 0, 0);
+    }
+    100% {
+        -moz-transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes button-clicking-stop{
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.page-hd-xmas {
+}
+
+.page-hd-xmas .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+    /*background-color: #4a7;*/
+    background: #438ebf url(https://p1.ssl.qhmsg.com/t01b6e60827b0b967cc.png) repeat;
+    background-size: .32rem .32rem;
+}
+
+.page-hd-xmas .block {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.page-hd-xmas .block-tit {
+    margin-top: .08rem;
+    margin-bottom: .08rem;
+    width: 100%;
+    height: 0.48rem;
+    line-height: 0.39rem;
+    /*height: 0.3377777777777778rem;*/
+    /*line-height: 0.3377777777777778rem;*/
+    /*background: url(https://p0.ssl.qhmsg.com/t018a90053303851a12.png) no-repeat 0 0;*/
+    background: url(https://p0.ssl.qhmsg.com/t01853bfaac0eec065a.png) no-repeat 0 0;
+    background-size: cover;
+    /*font-size: .24rem;*/
+    font-size: .2rem;
+    text-align: center;
+    /*color: #fffaa8;*/
+    color: #fff;
+}
+
+.page-hd-xmas .block1-1 {
+    height: .8rem;
+    background: url(https://p0.ssl.qhmsg.com/t01e66d4bd4728a5bd7.jpg) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-xmas .block1-2 {
+    height: .8rem;
+    background: url(https://p2.ssl.qhmsg.com/t012d7fb0d5442c7ccd.jpg) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-xmas .block1-3 {
+    position: relative;
+    z-index: 2;
+    padding-top: .12rem;
+    height: 1.6rem;
+    background: url(https://p1.ssl.qhmsg.com/t01d17e47dc620aeddd.jpg) no-repeat center 0;
+    background-size: cover;
+}
+/*.page-hd-xmas .block1 {*/
+    /*padding-top: 1.55rem;*/
+    /*padding-bottom: .1rem;*/
+    /*background: #cf1e24 url(https://p.ssl.qhimg.com/t01591484703374175e.jpg) no-repeat center 0;*/
+    /*background-size: contain;*/
+/*}*/
+
+/* 抽奖 */
+.page-hd-xmas .block-lottery {
+    position: relative;
+    margin: 0 auto;
+    padding: .05rem 0;
+    width: 3rem;
+    height: 1.66rem;
+    background: #ffc150;
+    border-radius: .06rem;
+}
+
+.page-hd-xmas .block-lottery .lottery-cell-list{
+    margin: 0 auto;
+    width: 2.89rem;
+    height: 1.56rem;
+    font-size: 0;
+}
+
+.page-hd-xmas .block-lottery .lottery-cell-list .cell{
+    margin-right: .03rem;
+    margin-bottom: .03rem;
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.5rem;
+    background-color: #fff;
+    border-radius: .04rem;
+}
+.page-hd-xmas .block-lottery .lottery-cell-list .cell:nth-child(4n){
+    margin-right: 0;
+}
+.page-hd-xmas .block-lottery .lottery-cell-list .cell.cur{
+    background-color: #ffc150;
+}
+
+.page-hd-xmas .block-lottery .canvas-lottery-bonus{
+    position: absolute;
+    top: .05rem;
+    left: .05rem;
+    display: block;
+    width: 2.89rem;
+    height: 1.56rem;
+}
+
+.page-hd-xmas .block-lottery .btn-get-my-luck{
+    position: absolute;
+    top: .58rem;
+    left: .78rem;
+    right: .78rem;
+    bottom: .58rem;
+    display: block;
+    /*background-color: #cf1e24;*/
+    background-color: #fd3f99;
+    border-radius: .06rem;
+    font-size: 0;
+    text-align: center;
+    line-height: .5rem;
+}
+.page-hd-xmas .block-lottery .btn-get-my-luck:hover{
+    text-decoration: none;
+}
+.page-hd-xmas .block-lottery .btn-get-my-luck .txt{
+    margin-right: .06rem;
+    display: inline-block;
+    font-size: .18rem;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.page-hd-xmas .block-lottery .btn-get-my-luck .sim-shadow {
+    display: inline-block;
+    width: .36rem;
+    height: .36rem;
+    font-size: 0;
+    line-height: 0;
+    background-color: #ffb3d7;
+    border-radius: 999px;
+    vertical-align: middle;
+}
+
+.page-hd-xmas .block-lottery .btn-get-my-luck .sim{
+    display: inline-block;
+    width: .36rem;
+    height: .36rem;
+    line-height: .36rem;
+    font-size: .16rem;
+    vertical-align: middle;
+    background: #fff;
+    color: #fd3f99;
+    /*background: #f8e7c7;*/
+    /*color: #cf1e24;*/
+    border-radius: 999px;
+    /*-webkit-transform: translate3d(0, -.03rem, 0);*/
+    /*transform: translate3d(0, -.03rem, 0);*/
+    -webkit-animation: button-clicking .8s ease 1s infinite;
+    -moz-animation: button-clicking .8s ease 1s infinite;
+    animation: button-clicking .8s ease 1s infinite;
+}
+.page-hd-xmas .block-lottery .btn-get-my-luck .sim-inner{
+    margin: .02rem;
+    display: block;
+    width: .32rem;
+    height: .32rem;
+    line-height: .28rem;
+    /*border: #cf1e24 .02rem solid;*/
+    border: #fd3f99 .02rem solid;
+    border-radius: 999px;
+}
+
+.page-hd-xmas .block-lottery .btn-get-my-luck.disabled{
+    background-color: #eee;
+}
+
+.page-hd-xmas .block-lottery .btn-get-my-luck.disabled .sim{
+    background-color: #ddd;
+    color: #d0d0d0;
+    /*-webkit-transform: translate3d(0, 0, 0);*/
+    /*transform: translate3d(0, 0, 0);*/
+    -webkit-animation: button-clicking-stop .8s ease 1;
+    -moz-animation: button-clicking-stop .8s ease 1;
+    animation: button-clicking-stop .8s ease 1;
+}
+
+.page-hd-xmas .block-lottery .btn-get-my-luck.disabled .sim-inner{
+    border-color: #d0d0d0;
+}
+
+.page-hd-xmas .block2 {
+    position: relative;
+    width: 100%;
+    height: 2.24rem;
+    /*height: 0.7555555555555555rem;*/
+    /*background: #4a7 url(https://p2.ssl.qhmsg.com/t0147f1ed82e9b78cf0.jpg) no-repeat 0 0;*/
+    background: url(https://p3.ssl.qhmsg.com/t01a8d43e69a4aed53e.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+
+.page-hd-xmas .block2 .block-lottery-bingo-list{
+    position: absolute;
+    top: .39rem;
+    left: .1rem;
+    right: .1rem;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    /*color: #cf1e24;*/
+    color: #fff;
+    overflow: hidden;
+}
+.page-hd-xmas .block2 .block-lottery-bingo-list .inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.page-hd-xmas .block2 .block-lottery-bingo-list .item {
+    display: block;
+}
+.page-hd-xmas .block2 .block-lottery-bingo-list .item span{
+    padding-right: .04rem;
+    font-size: .16rem;
+}
+
+.page-hd-xmas .block3{
+    position: relative;
+    margin-top: -1rem;
+}
+
+.page-hd-xmas .block4 {
+    padding-top: .1rem;
+    /*background: #cf1e24;*/
+}
+
+/* 大屏手机列表 */
+.block-big-mobile-list {
+    background-color: #fff;
+}
+
+.block-big-mobile-list a {
+    padding: .08rem .08rem;
+    display: block;
+    font-size: .12rem;
+}
+
+.block-big-mobile-list a:hover {
+    text-decoration: none;
+}
+
+/*三列*/
+.block-big-mobile-list .col-12-4 .item-brand {
+    color: #000;
+}
+
+.block-big-mobile-list .col-12-4 .item-model {
+    color: #858588;
+}
+
+.block-big-mobile-list .col-12-4 .item-saledot {
+    height: .36rem;
+    color: #d01702;
+    font-size: .1rem;
+}
+
+.block-big-mobile-list .col-12-4 .img-wrap {
+    margin: .08rem auto;
+    width: .6rem;
+    height: .6rem;
+    text-align: center;
+    background: transparent no-repeat center;
+    background-size: contain;
+}
+
+/*两列*/
+.block-big-mobile-list .col-12-6 .co-left {
+    margin-right: .75rem;
+}
+
+.block-big-mobile-list .col-12-6 .item-brand {
+    color: #000;
+}
+
+.block-big-mobile-list .col-12-6 .item-model {
+    color: #858588;
+}
+
+.block-big-mobile-list .col-12-6 .item-saledot {
+    color: #d01702;
+    font-size: .1rem;
+}
+
+.block-big-mobile-list .col-12-6 .col-right-fixed {
+    margin: .1rem 0;
+    width: .6rem;
+    height: .6rem;
+    text-align: center;
+    background: transparent no-repeat center;
+    background-size: contain;
+}
+
+/* 推荐商品列表 */
+.block-xmas-promo-product-list {
+    min-height: 2.18rem;
+    background-color: #fff;
+}
+
+.block-xmas-promo-product-list a {
+    padding: .1rem .08rem;
+    display: block;
+}
+
+.block-xmas-promo-product-list a:hover {
+    text-decoration: none;
+}
+
+.block-xmas-promo-product-list .p-img {
+    margin: 0 auto;
+    padding: .16rem 0;
+    height: 1.1rem;
+    text-align: center;
+}
+
+.block-xmas-promo-product-list .p-img img {
+    height: 100%;
+}
+
+.block-xmas-promo-product-list .p-tit {
+    height: .32rem;
+    font-size: .12rem;
+    color: #333;
+    vertical-align: middle;
+    text-align: left;
+    line-height: .16rem;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.block-xmas-promo-product-list .p-price-new {
+    line-height: 100%;
+    color: #999;
+    font-size: .1rem;
+    padding-top: .08rem;
+    padding-bottom: .08rem;
+}
+
+.block-xmas-promo-product-list .p-price-new .price-cnt {
+    text-decoration: line-through;
+}
+
+.block-xmas-promo-product-list .p-price {
+    margin: .02rem auto;
+    width: 80%;
+    border: 1px solid #f30;
+    border-radius: 999px;
+    overflow: hidden;
+    font-size: 0;
+    text-align: center;
+}
+
+.block-xmas-promo-product-list .p-price .price-tit {
+    display: inline-block;
+    padding: .02rem;
+    width: 45%;
+    color: #fff;
+    background-color: #f30;
+    font-size: .12rem;
+    vertical-align: middle;
+}
+
+.block-xmas-promo-product-list .p-price .price-cnt {
+    display: inline-block;
+    width: 55%;
+    color: #f30;
+    background-color: #fff;
+    font-size: .12rem;
+    vertical-align: middle;
+}
+/*产品列表部分end*/
+
+.page-hd-xmas .block4 .btn-xmas-promo-more{
+    margin: .12rem auto;
+    display: block;
+    width: 1.5rem;
+    height: .32rem;
+    line-height: .32rem;
+    border-radius: 999px;
+    color: #fffaa8;
+    border: 1px solid #fffaa8;
+    /*color: #ffc150;*/
+    /*border: 1px solid #ffc150;*/
+    text-align: center;
+}
+.page-hd-xmas .block4 .btn-xmas-promo-more:hover{
+    text-decoration: none;
+}
+
+.page-hd-xmas .block5{
+    /*padding-bottom: .2rem;*/
+    padding-bottom: .1rem;
+}
+
+.brand-pic-item{
+    height: 1rem;
+    font-size: 0;
+    background: transparent url(https://p4.ssl.qhmsg.com/t01f8c4644e6dac1073.jpg) no-repeat 0 0;
+    background-size: cover;
+    text-decoration: none;
+}
+.brand-pic-item:hover {
+    text-decoration: none;
+}
+
+.brand-pic-item-huawei {
+    background-position: 0 -.03rem;
+}
+
+.brand-pic-item-xiaomi {
+    background-position: 0 -1.24rem;
+}
+
+.brand-pic-item-oppo {
+    background-position: 0 -2.42rem;
+}
+.brand-pic-item-vivo {
+    background-position: 0 -3.63rem;
+}
+
+.brand-pic-item-samsung {
+    background-position: 0 -4.86rem;
+}
+
+.brand-pic-item-apple {
+    background-position: 0 -6.06rem;
+}
+
+.page-hd-xmas .block6,
+.page-hd-xmas .block7{
+    /*background-color: #cf1e24;*/
+}
+
+/*服务介绍*/
+.block-service-intro{
+    margin: .1rem;
+    padding: .1rem 0;
+    /*background-color: #f8e7c7;*/
+    background-color: #f8e7c7;
+    border-radius: .06rem;
+}
+.block-service-intro .tit{
+    margin: 0 auto;
+    width: 1.635rem;
+}
+.block-service-intro .tit-under{
+    margin: 0 auto;
+    width: 1.56rem;
+    height: .24rem;
+    /*background: #d01702;*/
+    background: #fd3f99;
+    border-radius: 999px;
+}
+.block-service-intro .tit-inner{
+    margin-top: -.29rem;
+    margin-left: -.06rem;
+    width: 1.635rem;
+    height: 0.34555772rem;
+    background: url(https://p0.ssl.qhmsg.com/t0166374946eb81bd5a.png) no-repeat center;
+    background-size: contain;
+}
+.block-service-intro .cnt{
+    padding: .1rem 0;
+    font-size: 0;
+}
+.block-service-intro .cnt .service-keyword{
+    margin: .08rem .04rem .08rem .08rem;
+    display: inline-block;
+    height: .3rem;
+    width: .3rem;
+    line-height: .3rem;
+    font-size: .2rem;
+    border-radius: 999px;
+    text-align: center;
+    color: #fff;
+    /*background-color: #d01702;*/
+    background-color: #fd3f99;
+    vertical-align: middle;
+}
+.block-service-intro .cnt .col-2-1:nth-child(2n) .service-keyword{
+    margin-left: 0;
+}
+.block-service-intro .cnt .service-desc{
+    display: inline-block;
+    font-size: .1rem;
+    /*color: #d01702;*/
+    color: #fd3f99;
+    vertical-align: middle;
+    line-height: 1.2;
+}
+.block-service-intro .cnt .service-desc em{
+    font-size: .14rem;
+}
+
+/* 二维码扫一扫 */
+.block-qrcode-info{
+    margin: .1rem;
+    padding: .2rem 0;
+    background-color: #f8e7c7;
+    border-radius: .06rem;
+    font-size: .12rem;
+    text-align: center;
+    /*color: #d01702;*/
+    color: #fd3f99;
+}
+.block-qrcode-info .tit{
+    font-size: .16rem;
+}
+.block-qrcode-info .desc{}
+.block-qrcode-info .qrcode{
+    margin: .1rem auto;
+    padding: .06rem;
+    width: 50%;
+    background-color: #fff;
+    border-radius: .06rem;
+}
+.block-qrcode-info .qrcode img{
+    width: 100%;
+    border-radius: .06rem;
+}
+
+/* 圣诞弹层 */
+.xmas-panel{
+    left: 0!important;
+    right: 0!important;
+    padding-bottom: .25rem;
+    border: 0;
+}
+.xmas-panel .xmas-panel-bottom{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1rem;
+    background: url(https://p.ssl.qhimg.com/t01b3587e89cd3fc400.png) no-repeat center bottom;
+    background-size: contain;
+    background-position-y: -.05rem;
+}
+.xmas-panel .dialog-inner{
+    margin: 0 .2rem;
+    padding: 0 .14rem .3rem .14rem;
+    display: block;
+    /*background-color: #cf1e24;*/
+    background-color: #fd3f99;
+    border-radius: .06rem;
+    color: #fff;
+    font-size: .12rem;
+}
+.xmas-panel .dialog-close,
+.xmas-panel .dialog-close:hover{
+    top: -0.18rem;
+    right: 0.04rem;
+    width: .4rem;
+    height: .4rem;
+    background-image: url(https://p.ssl.qhimg.com/t01deb9471fcdd55a10.png);
+    background-size: .4rem;
+}
+
+/* 登录弹层 */
+.xmas-login-panel{ }
+.xmas-login-panel .dialog-inner{
+    text-align: center;
+}
+.xmas-login-panel .tit{
+    padding: .1rem 0;
+    color: #fff;
+    font-size: .24rem;
+}
+
+.xmas-login-panel .row{
+    padding-bottom: .08rem;
+}
+.xmas-login-panel .btn{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    background-color: #ffc705;
+    border-radius: 999px;
+    color: #770408;
+    font-size: .18rem;
+}
+.xmas-login-panel .vcode-img{
+    width: 100%;
+    height: .36rem;
+}
+.xmas-login-panel .btn-get-sms-code{
+    font-size: .12rem;
+    border-radius: .06rem;
+}
+.xmas-login-panel .btn-get-sms-code-disabled{
+    color: #999;
+    background: #f2f2f2;
+}
+.xmas-login-panel .desc{
+    padding-top: .05rem;
+    padding-bottom: .1rem;
+    line-height: 2;
+}
+
+/* 中奖弹窗 */
+.xmas-bingo-panel{
+    text-align: center;
+}
+.xmas-bingo-panel .dialog-inner{
+    padding-top: .15rem;
+    padding-bottom: .7rem;
+}
+.xmas-bingo-panel .bingo-cnt{
+    margin: 0 auto;
+    padding-top: .14rem;
+    width: 2.5733333333333333rem;
+    height: 0.8222222222222222rem;
+    line-height: 1.2;
+    background: url(https://p3.ssl.qhmsg.com/t0177ec830c31921bbc.png) no-repeat center;
+    background-size: cover;
+    color: #cf1e24;
+    font-size: .18rem;
+}
+.xmas-bingo-panel .bingo-cnt span{
+    font-size: .24rem;
+}
+.xmas-bingo-panel .bingo-desc{
+    padding: .05rem 0 .08rem 0;
+}
+.xmas-bingo-panel .btn{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    background-color: #ffc705;
+    border-radius: 999px;
+    color: #770408;
+    font-size: .18rem;
+}
+
+/* 抽奖次数用光 */
+.xmas-roll-empty-panel{
+    text-align: center;
+}
+
+.xmas-roll-empty-panel .dialog-inner{
+    padding-top: .15rem;
+    padding-bottom: .7rem;
+}
+.xmas-roll-empty-panel .cnt{
+    margin: .2rem auto;
+    padding-top: .14rem;
+    width: 2.5733333333333333rem;
+    height: 0.5555555555555556rem;
+    line-height: 1.2;
+    background: url(https://p3.ssl.qhmsg.com/t01de39a38fda89b3b1.png) no-repeat center;
+    background-size: cover;
+    color: #cf1e24;
+    font-size: .18rem;
+}
+.xmas-roll-empty-panel .btn{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    background-color: #ffc705;
+    border-radius: 999px;
+    color: #770408;
+    font-size: .18rem;
+}

@@ -1,0 +1,70 @@
+/*优品登录页*/
+.page-xxg-login,
+.page-xxg-login .block-slogan,
+.page-xxg-login .block-form{
+    background: #fff;
+}
+.page-xxg-login .block-slogan{
+    height: 1.9333333333333333rem;
+    background: url(https://p3.ssl.qhimg.com/t01e1f34340fcda543f.jpg) no-repeat center/cover;
+}
+
+.page-xxg-login .t-center{
+    text-align:center;
+}
+
+.page-xxg-login .input-radius{
+    border: 0;
+}
+.page-xxg-login .input-radius:before{
+    display: none;
+}
+.page-xxg-login .input-radius-circle{
+    margin: .5rem auto 0;
+    width: 80%;
+}
+.page-xxg-login .login-form .row .input-radius-circle input{
+    border-radius: 9999px;
+}
+.page-xxg-login .login-form .row{
+    margin: 0 .1rem;
+    font-size: .14rem;
+    padding: .05rem;
+}
+
+.page-xxg-login .login-form .row input {
+    border:none;
+    border-radius: 0;
+}
+.page-xxg-login .login-form .vcode-img,
+.page-xxg-login .login-form .btn-get-sms-code{
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+}
+.page-xxg-login .login-form .btn-get-sms-code{
+    border: 1px solid #259468;
+    color: #259468;
+    border-radius: .05rem!important;
+}
+.page-xxg-login .login-form .btn-get-sms-code.waiting{
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    color: #f5f5f5;
+}
+.page-xxg-login .login-form .btn-order-confirm-submit{
+    width: 80%;
+    height: .4rem;
+    margin-top: .4rem;
+    background: #259468;
+    color: #fff;
+    font-size: .18rem;
+    border-radius: 1rem!important;
+}
+
+@media screen  and (min-width:480px){
+    .page-xxg-login .block-slogan{
+        height: 1.2rem;
+        background: #259469 url(https://p1.ssl.qhimg.com/t01e1f34340fcda543f.jpg) no-repeat center 0/640px auto;
+    }
+}

@@ -1,0 +1,247 @@
+.border {
+    border: 1px solid #858585;
+}
+.border-red {
+    border: 1px solid #ff3300;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .border,
+    .border-red {
+        position: relative;
+        border: 0;
+    }
+
+    .border:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, transparent), color-stop(0.5, #858585)), -webkit-gradient(linear, left top, right top, color-stop(0.5, transparent), color-stop(0.5, #858585)), -webkit-gradient(linear, left top, left bottom, color-stop(0.5, transparent), color-stop(0.5, #858585)), -webkit-gradient(linear, right top, left top, color-stop(0.5, transparent), color-stop(0.5, #858585));
+        -webkit-background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        -webkit-background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-repeat: no-repeat;
+        background-position: top, right, bottom, left;
+        padding: 1px;
+        -webkit-box-sizing: border-box;
+        z-index: 10;
+        pointer-events: none;
+    }
+    .border-red:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, transparent), color-stop(0.5, #ff3300)), -webkit-gradient(linear, left top, right top, color-stop(0.5, transparent), color-stop(0.5, #f30)), -webkit-gradient(linear, left top, left bottom, color-stop(0.5, transparent), color-stop(0.5, #f30)), -webkit-gradient(linear, right top, left top, color-stop(0.5, transparent), color-stop(0.5, #f30));
+        -webkit-background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        -webkit-background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-repeat: no-repeat;
+        background-position: top, right, bottom, left;
+        padding: 1px;
+        -webkit-box-sizing: border-box;
+        z-index: 10;
+        pointer-events: none;
+    }
+}
+
+
+/*iphone7以旧换新*/
+
+/*html.android .arrow-down:after {*/
+    /*display: none;*/
+/*}*/
+
+.page-hd-hxiphone7{
+    background: #f7f7f7;
+}
+.page-hd-hxiphone7 .mainbody{
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+.page-hd-hxiphone7 .block{
+    position: relative;
+    border: 0;
+}
+
+.page-hd-hxiphone7 .block1{
+    height: 2.4rem;
+    background: #000 url(https://p.ssl.qhimg.com/t01f755a732d254d8bd.jpg) no-repeat center 0;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.page-hd-hxiphone7 .block1 .tit{
+    padding-top: .34rem;
+    font-size: .26rem;
+}
+.page-hd-hxiphone7 .block1 .cont{
+    font-size: .3rem;
+    line-height: 1.4;
+}
+.page-hd-hxiphone7 .block1 .desc{
+    font-size: .14rem;
+}
+
+.page-hd-hxiphone7 .block2,
+.page-hd-hxiphone7 .block2-2{
+    padding: 0 0 .2rem 0;
+    background: #000;
+    text-align: center;
+    color: #fff;
+}
+.page-hd-hxiphone7 .block2 .tit{
+    font-size: .16rem;
+    line-height: 3;
+}
+.page-hd-hxiphone7 .block2 .row .col{
+    position: relative;
+}
+
+.page-hd-hxiphone7 .block2 .row-select{
+    font-size: 0;
+}
+.page-hd-hxiphone7 .block2 .select-trigger:hover,
+.page-hd-hxiphone7 .block2 .select-trigger{
+    position: absolute;
+    top: 1px;
+    left: 0;
+    right: 1px;
+    bottom: 1px;
+    z-index: 1;
+    line-height: .44rem;
+    background-color: #000;
+    font-size: .12rem;
+    color: #fff;
+    text-decoration: none;
+}
+.page-hd-hxiphone7 .block2 select{
+    margin: .04rem 3%;
+    display: block;
+    width: 94%;
+    height: .36rem;
+    line-height: .36rem;
+    font-size: .12rem;
+    color: #fff;
+    background-color: #000;
+    border: 0;
+}
+
+.page-hd-hxiphone7 .block2 .tip{
+    padding: .1rem 0;
+    font-size: .16rem;
+}
+.page-hd-hxiphone7 .block2 .tip .price{
+    font-size: .18rem;
+    color: #f30;
+}
+.page-hd-hxiphone7 .block2 .btn-go-huanxin,
+.page-hd-hxiphone7 .block2 .btn-go-huanxin:hover{
+    margin: 0 .1rem;
+    display: block;
+    /*width: 88%;*/
+    height: .38rem;
+    line-height: .38rem;
+    background-color: #f30;
+    font-size: .18rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.page-hd-hxiphone7 .block2-2 h3{
+    font-size: .16rem;
+    line-height: 2;
+}
+
+.page-hd-hxiphone7 .block2-2 .tips{
+    padding-top: .1rem;
+    padding-left: .8rem;
+    padding-bottom: .12rem;
+    font-size: .12rem;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.page-hd-hxiphone7 .block2-2 .row{
+    padding: 0 .1rem .08rem .1rem;
+}
+.page-hd-hxiphone7 .block2-2 .row-show-mobile{
+    text-align: left;
+}
+.page-hd-hxiphone7 .block2-2 .row-show-mobile .col-left-fixed{
+    width: .76rem;
+}
+.page-hd-hxiphone7 .block2-2 .row-show-mobile .col-right{}
+.page-hd-hxiphone7 .block2-2 .row-show-mobile a{
+    color: #0b7;
+    text-decoration: underline;
+}
+.page-hd-hxiphone7 .block2-2 .btn-send-vcode {
+    display: inline-block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    vertical-align: top;
+    background-color: #fff;
+    color: #0b7;
+    text-align: center;
+}
+
+.page-hd-hxiphone7 .block2-2 .btn-send-vcode.hsbtn-vcode-dis {
+    border: 1px solid #eee;
+    color: #999;
+    background: #f2f2f2;
+    background-clip: padding-box;
+}
+
+.page-hd-hxiphone7 .block2-2 .btn-send-vcode.hsbtn-vcode-dis:before {
+    display: none;
+}
+
+.page-hd-hxiphone7 .block2-2 .btn-submit-huanxin{
+    display: block;
+    width: 100%;
+    height: .38rem;
+    line-height: .38rem;
+    background-color: #f30;
+    font-size: .18rem;
+    color: #fff;
+    border: 0;
+}
+
+
+.page-hd-hxiphone7 .block3{
+    height: 1.88rem;
+    background: #fff url(https://p.ssl.qhimg.com/t0163637ad81a6db604.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.page-hd-hxiphone7 .block4{
+    padding: .1rem .1rem .3rem .1rem;
+    font-size: .14rem;
+    color: #333;
+}
+.page-hd-hxiphone7 .block4 .intro-tit{
+    margin: 0 auto .1rem auto;
+    width: 1rem;
+    height: .28rem;
+    line-height: .28rem;
+    background-color: #f30;
+    color: #fff;
+    border-radius: 999px;
+    text-align: center;
+}
+.page-hd-hxiphone7 .block4 .intro-cnt{}
+.page-hd-hxiphone7 .block4 .intro-cnt li{
+    padding-bottom: .1rem;
+}
+
+

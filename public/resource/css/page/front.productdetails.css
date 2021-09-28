@@ -1,0 +1,1018 @@
+/**
+ *	产品详细
+ */
+.crumb label{color:#666;}
+.pduct-info{}
+.pduct-info h3.tit{font:18px/1.2 "微软雅黑";color:#333333;margin-bottom:6px;}
+.pduct-info .co-info .pic{width:300px;height:300px;margin-bottom: 20px;border:none;}
+.pduct-info .co-info{margin-bottom:0px;}
+.pduct-info .figure-h .pic {margin-top: 0px;}
+.pduct-info span.y-num{color:#FF6600;font-weight:bold;margin-left:8px;}
+.pduct-info .icon-360{width:17px;height:19px;background:url(https://p.ssl.qhimg.com/t01c3af3c4158cf1ef2.png) no-repeat;}
+.pduct-info .icon-360-disabled{width:17px;height:19px;background:url(https://p.ssl.qhimg.com/t014f915f0fe21f894e.png) no-repeat;}
+.pduct-info .icon-shangmen{width:20px;height:19px;background:url(https://p.ssl.qhimg.com/t016eae98f9ea9b104a.png) no-repeat;}
+.pduct-info .icon-shangmen-disabled{width:20px;height:19px;background:url(https://p.ssl.qhimg.com/t01e3b539143715b575.png) no-repeat;}
+.pduct-info .vertical-line{font-size:19px;color:#D2D3D3;}
+.pduct-info .rating {float: left;}
+.pduct-info .float-right {float: right;}
+.pduct-info .f-l{float:left;}
+.pduct-info .m-t3{margin-top:3px;}
+.pduct-info .m-l7{margin-left:1px;margin-right:5px;}
+.pduct-info .m-l25{margin-left:27px;*margin-left:25px;}
+.pduct-info .rating{margin-top:3px;}
+.pduct-info .p-assess{margin:10px 0 13px 0;overflow:auto;width:100%;}
+.pduct-info .p-assess .grade{font-size:12px;font-weight:normal;margin-right:10px; float: left;}
+.pduct-info .rea-position{position:relative;}
+.pduct-info .vertical-line{width:1px;height:16px;overflow:hidden;background:#D2D3D3;display:block;position:absolute;}
+.pduct-info .col-1{width:750px;}
+.pduct-info .col-2{width:210px;margin-bottom:19px;*margin-bottom:0;}
+.pduct-info .cert{margin-bottom:18px;}
+.pduct-info .p-buy{overflow:auto;width:100%;height:30px;overflow:hidden}
+.pduct-info .p-service{margin:18px 0 18px 0;overflow:hidden;width:100%;}
+.pduct-info .p-service ul{margin-right:-20px;}
+
+
+.pduct-info .p-service li{
+height:26px;
+float:left;
+background:url(https://p.ssl.qhimg.com/t014c2f97c0bdbf6f64.png) no-repeat;
+margin-right:10px;
+text-align:center;
+line-height:27px;
+color:#666;
+padding-right:3px;
+letter-spacing:0px;
+cursor: pointer;
+position:relative;
+}
+
+.pduct-info .p-service li b{bottom: 0;height: 26px;overflow: hidden;position: absolute;right: 0;_right:-1px;width: 5px;background:url(https://p.ssl.qhimg.com/t0112c869394d0b7eec.png) no-repeat;}
+.pduct-info .p-service li div{height:26px;padding:0 10px 0 8px;line-height:26px;_display:inline;_zoom:1;}
+.pduct-info .p-service li.cur{background:url(https://p.ssl.qhimg.com/t0129813858fb44fc0f.png) no-repeat;}
+.pduct-info .p-service li.cur b{width: 19px;background:url(https://p.ssl.qhimg.com/t01a0ba24cb333f2611.png) no-repeat;}
+.pduct-info .p-service li.blinkbg{background:url(https://p.ssl.qhimg.com/t01aba2e639dafa8954.png) no-repeat;}
+.pduct-info .p-service li.blinkbg b{width: 4px;background:url(https://p.ssl.qhimg.com/t01fe65669ef8d0b576.png) no-repeat;}
+.pduct-info .p-msg-info,
+.pduct-info .service-p-msg-info,
+.pduct-info .cate-p-msg-info, .pduct-info .cate-p-msg-info-none{
+    color:#ff3000;
+	font-size:12px;
+	position:absolute;
+    display:none;
+}
+.pduct-info .service-p-msg-info{
+    top: -63px;
+}
+.pduct-info .cate-p-msg-info, .pduct-info .cate-p-msg-info-none{
+    top:-13px;    
+}
+.pduct-info  .msg-info{
+    background:url(https://p.ssl.qhimg.com/t01fc2468b26da4cbf1.png) no-repeat 0 1px;
+    vertical-align: middle;
+    width: 18px;
+    height: 20px;
+    display: inline-block;
+}
+.pduct-info .p-service em{font-family: "Microsoft Yahei";}
+.pduct-info .p-buy-info{padding-left:60px;position:relative;padding-top:8px;}
+.pduct-info a.btn-buy{width:156px;height:49px;background:url(https://p.ssl.qhimg.com/t012aabf9fc5c716725.png) no-repeat;display:block;}
+.pduct-info a.btn-offline{width:156px;height:49px;background:url(https://p.ssl.qhimg.com/t01318a8c7d11140717.png) no-repeat;display:block;cursor: default}
+
+.pduct-info .p-buy-info{
+    padding-left: 0;
+    padding-bottom: 20px;
+}
+.pduct-info a.btn-buy{
+    display: inline-block;
+    _zoom:1;
+    background: url(https://p.ssl.qhimg.com/t0137d9fdaff96e03ea.gif) 0 0;
+    width: 194px;
+    height: 48px;
+    line-height: 48px;
+    color: #fff;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    text-align: center;
+    text-indent: -9999px;
+}
+.pduct-info a.btn-buy-offline{
+    background-position: -196px 0;
+}
+.pduct-info .btn-buy:hover{
+    text-decoration: none;
+    background-position: 0 -50px;
+}
+.pduct-info .btn-buy:active{
+    text-decoration: none;
+    background-position: 0 -100px;
+}
+.pduct-info a.btn-buy-offline:hover{
+    background-position: -196px -50px;
+}
+.pduct-info a.btn-buy-offline:active{
+    background-position: -196px -100px;
+}
+.pduct-info .OR{
+    font-size: 14px;
+    margin: 0 30px;
+    color: #666;
+}
+.page-client .pduct-info .OR{
+    margin: 0 10px;
+}
+.pduct-info .sidebar{border:solid 1px #b6daac;background:#F3FEEA;padding:0;height:299px;overflow:hidden;}
+.pduct-info .agreement{width:208px;height:51px;background:url(https://p.ssl.qhimg.com/t01689a27a2abc8f66d.png) no-repeat;border-bottom:solid 1px #C0E6B5;}
+.pduct-info .agreement a{width:208px;height:54px;display:block;}
+.pduct-info .sidebar .cont{padding:7px 9px 0 9px;color:#666;}
+.pduct-info .sidebar .com-name{width:99px;*width:96px;overflow:hidden;text-overflow:ellipsis;height:20px;white-space:nowrap;display:block;}
+.pduct-info .sidebar em{color:#FF9600;}
+.pduct-info .sidebar .cont p{line-height:200%;}
+.pduct-info .sidebar .bd-bm{border-bottom:solid 1px #C0E6B5;}
+.pduct-info .sidebar .pad-t5{padding-top:5px;}
+.pduct-info .sidebar .pad-t3{padding-top:3px;}
+.pduct-info .sidebar .pad-b3{padding-top:3px;}
+.pduct-info .sidebar .pad-b5{padding-bottom:5px;}
+.pduct-info .sidebar .cont .hei105{height:87px;overflow:hidden;}
+.pduct-info .sidebar .cont .details span{display:inline-block;*display:inline;*zoom:1;vertical-align:top;}
+.pduct-info .sidebar .cont .details .btn-bg{margin-top:2px;}
+.pduct-info .sidebar .cont .details span{}
+.pduct-info .sidebar .cont .details p{height:20px;_line-height:180%;}
+.pduct-info .sidebar .sleft{width:60px;text-align:right;text-align:justify;}
+.pduct-info .sidebar .sright{width:120px;overflow:hidden;text-overflow:ellipsis; white-space:nowrap;}
+.pduct-info .sidebar .btn-bg{width:79px;height:27px;background:url(https://p.ssl.qhimg.com/t014033193b4a8c666b.png) no-repeat;line-height:27px;text-align:center;display: inline-block;text-decoration: none;}
+.pduct-info .sidebar .cont .details .btn-bg{color:#257731;}
+.pduct-info .col-left-siderbar{width:182px;float:right; }
+
+.pduct-info .hot-sale{ border:solid 1px #E5E5E5;  margin-bottom: 10px;}
+.pduct-info .hot-sale h2{background: #F7F7F7; font: 14px/36px "微软雅黑"; padding-left: 10px; border-bottom:solid 1px #E5E5E5; color: #333333;  }
+
+.pduct-info .hot-sale .sale-prd{
+    height: 279px;
+    overflow: hidden;
+}
+.pduct-info .hot-sale .sale-item{
+    height: 72px; overflow: hidden;
+    padding: 10px;
+    border-bottom: 1px solid #DFDFE1;
+    float: left;
+    width: 160px;
+}
+.pduct-info .hot-sale .sale-pic{
+    width: 70px;
+    float: left;
+    border: 1px solid #DFDFE1;
+}
+.pduct-info .hot-sale .sale-pic img{
+    width: 70px;
+}
+.pduct-info .hot-sale .sale-info{
+    width: 80px;
+    float: right;
+}
+.pduct-info .hot-sale .sale-num{
+    margin-top: 2px;
+    color: #999999;
+}
+.pduct-info .hot-sale .sale-ctr{
+    text-align: center;    
+}
+.pduct-info .hot-sale .sale-ctr a:hover{
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+}
+.pduct-info .hot-sale .pre-page,
+.pduct-info .hot-sale .next-page{
+    background:url(https://p.ssl.qhimg.com/t015357803a89544669.jpg) no-repeat 0 0;
+    width: 34px;
+    height: 34px;
+    text-indent: -9999px;
+    float: left;
+    margin-left: 50px;
+}
+.pduct-info .hot-sale .next-page{
+    background-position: -54px 0;
+    margin-left: 10px;
+}
+
+.pduct-info .col-right-siderbar{width:766px;float:left;}
+.pduct-info .col-right-siderbar .tit-container{width:766px;}
+.pduct-info .col-right-siderbar .col-tit-bd{margin-top:4px;height:34px;line-height:34px;background:#F7F7F7;border-top:solid 2px #D2D3D3;border-bottom:solid 1px #E5E5E5;border-right:solid 1px #DFDFE1;border-left:solid 1px #DFDFE1;width:724px;}
+.pduct-info .col-right-siderbar .tit-right-bd{width:150px;height:34px;float:right;margin-right:10px;line-height:100%;text-align:right;}
+.pduct-info .col-right-siderbar .tit-right-bd a{margin-top:8px;}
+.pduct-info .mod-datails-lxinfo{margin-top:5px;}
+.pduct-info .mod-datails-lxinfo td{height:19px;overflow:hidden;font-family:arial,SimSun,georgia,verdana,helvetica,sans-serif,"宋体";}
+.pduct-info .mod-datails-lxinfo td .padt3{line-height:80%;margin-bottom:-3px;*margin-bottom:0px!important;margin-bottom:-2px\0;margin-bottom:-3px\0\9}
+.pduct-info .martop1{position:relative;top:-2px;}
+
+.pduct-info .col-right-siderbar .p-tab-list{}
+
+.pduct-info .col-right-siderbar .col-cont-bd{border-style:none solid solid solid;border-width:1px;border-color:#DFDFE1;margin-top:-1px;padding:5px 10px 10px 20px;color:#333;}
+.pduct-info .col-right-siderbar .col-cont-bd p{margin:10px 0 0 10px;}
+.pduct-info .col-right-siderbar .col-doc-bd{border-style:none solid solid solid;border-width:1px;border-color:#DFDFE1;padding:10px 10px;margin-bottom:30px;}
+.pduct-info .col-right-siderbar .md .hd{margin-top:15px;}
+/*商品详细介绍*/
+#pdetails-cont-info{
+    overflow: visible;
+    background: url(https://p.ssl.qhimg.com/t01e7611760503ab095.png) repeat-x scroll 0 -36px transparent;
+    overflow: visible;
+    
+}
+#pdetails-cont-info .mt {
+    overflow: visible;
+}
+#pdetails-cont-info .mt {
+    top: auto;
+    z-index: 100;
+}
+.pduct-info .mt{font: 14px/30px 'microsoft yahei';}
+.pduct-info .mt {
+    background: none repeat scroll 0 center transparent;
+    border-left: 1px solid #DFDFE1;
+    border-right: 1px solid #DFDFE1;
+    height: 37px;
+    line-height: 37px;
+    overflow: visible;
+}
+#pdetails-cont-info .tab {
+    float: left;
+}
+.pduct-info .mt .tab {
+    overflow: visible;
+}
+
+.pduct-info .tab .curr {
+    background-color: #F7F7F7;
+    color: #257731;
+
+    border-top: 2px solid #2FAF14;
+    margin-left:-1px;
+    _position:relative;
+}
+.pduct-info .tab .curr a {
+    color: #257731;
+    border-left: 1px solid #DFDFE1;
+    border-right: 1px solid #DFDFE1;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 24px;
+}
+
+.pduct-info .tab a {
+    float: left;
+    height: 37px;
+    border-right: 1px solid #DFDFE1;
+    line-height: 38px;
+    padding: 0 24px;
+    color:#333;
+    }
+.pduct-info .tab a em{color:#2e74d3;}
+
+
+#pdetails-cont-info .nav-fixed {
+    background: url(https://p.ssl.qhimg.com/t01e7611760503ab095.png) repeat-x scroll 0 -31px #000;
+    padding-top: 5px;
+    position: fixed;
+    top: 0;
+}
+#pdetails-cont-info .nav-fixed .curr {
+    background-color: #F7F7F7;
+    color: #257731;
+    margin-top: -4px;
+    border-top: 2px solid #2FAF14;
+    margin-left:-1px;
+    _position:relative;
+}
+
+.mod-buy-number{display: inline-block;}
+.mod-buy-number .ico_sub{width:20px;height:20px;background:url(https://p.ssl.qhimg.com/t01a5529c399a6217ef.png) no-repeat;border:none;margin:3px 4px 0 0;cursor: pointer;}
+.mod-buy-number .ico_add{width:20px;height:20px;background:url(https://p.ssl.qhimg.com/t01660f5a50e8d3843c.png) no-repeat;border:none;margin:3px 0 0 4px;cursor: pointer;}
+.mod-buy-number .ico_input{width:45px;height:21px;background:url(https://p.ssl.qhimg.com/t0118f028aecc08b69b.png) no-repeat;border:none;color:#333;padding:2px 3px 2px 3px;text-align:center;font-size:16px;}
+
+.tab-wrap{
+}
+
+﻿.col-doc-bd .list-paddingleft-1{
+    padding-left: 0;
+}
+.col-doc-bd .list-paddingleft-2{
+    padding-left: 30px;
+}
+.col-doc-bd .list-paddingleft-3{
+    padding-left: 60px;
+}
+.top-hd-solagn{
+    top:-18px;
+}
+
+/*快照*/
+.mod-kuaizhao-wrap{width:389px;border:solid 1px #ddd;margin-bottom:65px;}
+.mod-kuaizhao-wrap .mod-tit{background:#f7f7f7;border-bottom:solid 1px #E5E5E5;padding:1px 1px 0 1px;}
+.ie6 .ie6-h3{margin-top:10px;}
+.mod-kuaizhao-wrap .h3-tit{background:#F3F3F3;height:34px;line-height:34px;color:#434242;padding-left:10px;position:relative;}
+.mod-kuaizhao-wrap .h3-tit a{color:#ff6600;}
+.icon-iq{width:19px;height:19px;background:url(https://p.ssl.qhimg.com/t01af7d1896b21bc578.png) no-repeat;margin-right:5px;}
+.mod-kuaizhao-wrap .mod-cont{padding:10px 5px 20px 30px;color:#666;background:url(https://p.ssl.qhimg.com/t015045d350ac168c8e.png) no-repeat 97% center;}
+.mod-kuaizhao-wrap .mod-cont a{color:#3366cc;font-weight:bold;}
+.mod-kuaizhao-info{width:297px;border:solid 1px #e7e7e7;
+position:absolute;
+top:30px;
+left:115px;
+background:#fff;
+-moz-box-shadow:0 2px 5px rgba(102,102,102,.5);     
+-webkit-box-shadow:0 2px 5px rgba(102,102,102,.5);  
+box-shadow:0 2px 5px rgba(102,102,102,.5);         
+}
+.mod-kuaizhao-info .mod-info-tit{
+	height:31px;background:url(https://p.ssl.qhimg.com/t01b25e5cb9455e6fe7.png);border-bottom:solid 1px #E1E1E1;line-height:31px;color:#434242;padding-left:18px;
+}
+.mod-kuaizhao-info .mod-info-tit b{font-weight:bold;}
+.mod-kuaizhao-info .mod-info-cont{padding:10px 16px 5px 18px;color:#666;line-height:24px;}
+
+
+.sidebar .real-tel{
+    background: url(https://p.ssl.qhimg.com/t01424dea83211756f8.png) no-repeat right center;
+    padding-right: 20px ;
+    color: #0E900D;
+}
+
+.sidebar .show-real-mobile{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#productDesc strong{
+    font-weight:bold;
+}
+#productDesc em{
+    font-style:italic;
+}
+
+.col-right-siderbar .md .hd2 {
+height: 34px;
+line-height: 34px;
+border-bottom: 1px solid #DFDFE1;
+background: #F7F7F7;
+font-size: 14px;
+font-weight: bold;
+padding-left: 16px;
+color: #444444;
+}
+.col-right-siderbar .bor {
+border: 1px solid #DFDFE1;
+border-top: 0;
+}
+
+/*============以下css针对客户端内嵌页面============*/
+.page-client .pduct-info{
+    background: #F9F9F9;
+}
+.page-client .col-left-siderbar,
+.page-client .pduct-info .col-2,
+.page-client .pduct-info .tit{
+    display: none;
+}
+
+.page-client .pduct-info .col-1,
+.page-client .col-right-siderbar{
+    width: 690px;
+}
+
+.page-client .col-doc-bd img{
+    max-width: 670px;
+    _width: 670px;
+}
+
+.page-client .col-right-siderbar .tit-container{
+    width: auto;
+}
+
+.page-client .co-info .pic, .page-client .co-info .pic img{
+    width: 222px;
+    height: 222px;
+}
+
+.page-client .pduct-info .pic{
+    border: 2px solid #fff;
+}
+.page-client .co-info .pic img{
+    border: 1px solid #DDDDDD;
+}
+
+.page-client .pduct-info .price{
+    display: block;
+    font-family:simsun;
+}
+
+.page-client .pduct-info .price del{
+    font-family: arial;
+}
+
+.page-client .pduct-info span.y-num{
+    font-weight: normal;
+}
+
+.shopinfo-box .rating, 
+.shopinfo-box .rating span{
+    width: 80px;
+    height: 16px;
+    position: relative;
+    background: url(https://p.ssl.qhimg.com/t010813d9ce48a42705.png) no-repeat -110px -20px;
+    float: left;
+    margin-right: 5px;
+}
+
+.shopinfo-box .rating span{
+    background-position: -110px -40px;
+}
+
+.shopinfo-box .rating{
+    margin-top: 2px;
+}
+
+.shopinfo-box .rating2,
+.shopinfo-box .rating2 span{
+    width: 108px;
+    height: 18px;    
+}
+.shopinfo-box .rating2{
+    margin-top: 3px;
+    background-position: 0 -20px;
+}
+.shopinfo-box .rating2 span{
+    background-position: 0 -40px;
+}
+.shopinfo-box .grade2 em{
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF9000;
+}
+
+.page-client .icon-infoarrow{
+    width: 16px;
+    height: 16px;
+    background: url(https://p.ssl.qhimg.com/t010813d9ce48a42705.png) no-repeat -92px -64px;
+    cursor: pointer;
+}
+
+.shopinfo-box{
+    width: 434px;
+    height: 258px;
+    background: url(https://p.ssl.qhimg.com/t010359ea6e44424f1a.png) no-repeat 0 0;
+    padding: 15px;
+    color: #666666;
+}
+
+.shopinfo-box .box-content{
+    padding: 20px;
+}
+
+.shopinfo-box .close-pop-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(https://p.ssl.qhimg.com/t0192f1144bb7a81086.png) no-repeat 0 0;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+}
+
+.shopinfo-box .thumb-pic{
+    width: 70px;
+    height: 70px;
+    float: left;
+    border: 1px solid #BCBCBC;
+}
+
+.shopinfo-box .shop-name{
+    width: 300px;
+    float: right;
+    height: 70px;
+}
+.shopinfo-box .shop-name h2{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.shopinfo-box .line{
+    border-top: 2px dotted #D6D6D6;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    margin: 10px 0;
+}
+
+.shopinfo-box .renzheng{
+    padding-bottom: 4px;
+}
+
+.shopinfo-box .renzheng span{
+    margin-right: 2px;
+}
+
+.shopinfo-box-float{
+    position: absolute;
+    z-index: 9999;
+}
+
+.shopinfo-box .mid-info .dt-item{
+    padding: 4px 0;
+}
+
+.page-client .mid-info .green-num,
+.page-client .mid-info .blue-num,
+.page-client .mid-info .tel-num{
+    font-weight: bold;
+    font-family: "arial";    
+}
+
+.page-client .mid-info .green-num{color:#009900; }
+.page-client .mid-info .blue-num{color:#2E74DB; }
+.page-client .mid-info .tel-num{color:#E24E4C; }
+
+.page-client  .col-right-siderbar .col-doc-bd2{
+    padding: 10px 30px;
+    color: #666;
+    line-height: 2;
+}
+.page-client .col-doc-bd2 h2{
+    font-size: 14px;
+    font-weight: bold;
+}
+.page-client .p-service{
+    margin-top:  1px;
+}
+
+.page-client .p-assess{
+    margin: 5px 0;
+}
+
+.page-client .p-buy{
+    margin-top: 6px;
+    margin-bottom: 15px;
+}
+
+.page-client .p-buy-info{
+    position: relative;
+}
+
+.page-client .p-buy-info .see-phone{
+    position: absolute;
+    top:20px;
+    left: 210px;
+    cursor: pointer;    
+}
+
+.page-client .pduct-info .func{
+    width: 220px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    text-align: center;
+}
+.page-client .pduct-info .func-item{
+    margin-right: 14px;
+}
+.page-client .pduct-info .func a{
+    color: #666666;
+}
+
+.pduct-info .p-cate{margin:18px 0 18px 0;overflow:hidden;width:100%;}
+.pduct-info .p-cate ul{margin-right:-20px;}
+
+
+.pduct-info .p-cate li{
+height:26px;
+float:left;
+background:url(https://p.ssl.qhimg.com/t014c2f97c0bdbf6f64.png) no-repeat;
+margin-right:20px;
+text-align:center;
+line-height:27px;
+color:#666;
+/*padding-right:3px;*/
+padding-right: 10px;
+letter-spacing:0px;
+cursor: pointer;
+position:relative;
+}
+.pduct-info .p-cate li b{bottom: 0;height: 26px;overflow: hidden;position: absolute;right: 0;_right:-1px;width: 5px;background:url(https://p.ssl.qhimg.com/t0112c869394d0b7eec.png) no-repeat;}
+.pduct-info .p-cate li div{height:26px;padding:0 10px 0 8px;line-height:26px;_display:inline;_zoom:1;}
+.pduct-info .p-cate li.cur{background:url(https://p.ssl.qhimg.com/t0129813858fb44fc0f.png) no-repeat;}
+.pduct-info .p-cate li.cur b{width: 19px;background:url(https://p.ssl.qhimg.com/t01a0ba24cb333f2611.png) no-repeat;}
+.pduct-info .p-cate li.blinkbg{background:url(https://p.ssl.qhimg.com/t01aba2e639dafa8954.png) no-repeat;}
+.pduct-info .p-cate li.blinkbg b{width: 4px;background:url(https://p.ssl.qhimg.com/t01fe65669ef8d0b576.png) no-repeat;}
+
+.pduct-info .p-cate .disabled-selected{color: #dedede;cursor: no-drop;}
+
+.page-client .p-cate{
+    margin-top:  1px;
+}
+
+
+.page-client .show-shop-info,
+.page-client .see-phone{
+    cursor: pointer;
+}
+.page-client .xd-baozhang-tip{display: none}
+.page-client .co-info .contact strong{
+    margin-left: 0;    
+    font-size: 12px;
+}
+
+.page-client .doc-bd .grid-2c1{
+    height: 500px;
+    padding-top: 4px;
+}
+
+
+/*=========新版详情页pc版顶部信息==========*/
+.top-container-pc .dp-info{
+    background: url(https://p.ssl.qhimg.com/t01fbb1fae27061df6b.jpg) repeat-x 0 0;
+    border: 1px solid #E9F0F5;
+    padding: 6px 20px;
+    height: 64px;
+    line-height: 32px;
+}
+
+.top-container-pc .com-name{
+    font-size:16px ;
+    font-family:"微软雅黑";
+    color: #333;
+}
+
+.top-container-pc .dp-i-left{
+    width: 530px;
+    float: left;
+}
+
+.top-container-pc .dp-i-right{
+    width: 380px;
+    float: right;
+}
+.top-container-pc .dp-i-grp1{
+    height: 32px;
+}
+.top-container-pc .dp-i-grp2{
+    color: #666666;
+}
+.top-container-pc .dp-i-grp3,
+.top-container-pc .dp-i-grp4{
+    text-align: right;
+    color: #888888;
+}
+
+.top-container-pc  .dp-info .rating{
+    float: none;
+    display: inline-block;
+    _zoom:1;
+    vertical-align: middle;
+    margin-top: 0;
+    height: 15px;
+}
+
+.top-container-pc .dp-info .grade{
+    color: #666666;
+}
+
+.top-container-pc .icon-infoarrow{
+    width: 16px;
+    height: 16px;
+    background: url(https://p.ssl.qhimg.com/t010813d9ce48a42705.png) no-repeat -92px -64px;
+    cursor: pointer;
+}
+
+.top-container-pc .icon-infoarrow:hover{
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+}
+
+.top-container-pc .mobile-box{color: #f00}
+
+.top-container-pc .prd-info{
+    margin: 10px 0 20px 0;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    box-shadow: 1px 1px 3px #aaa;
+}
+.top-container-pc .prd-i-left{
+    width: 340px;
+    float: left;
+}
+
+.top-container-pc .prd-i-right{
+    margin-left: 340px;
+    background: #FAFAFA;
+    border-left: 1px solid #E7E6E6;
+    min-height: 400px;
+    _height: 400px;
+}
+
+.top-container-pc .prd-pic{
+    padding: 20px;
+}
+
+.top-container-pc .prd-pic img{
+    width: 298px;
+    height: 298px;
+    border: 1px solid #DEDEE0;
+}
+
+.top-container-pc .func{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+.top-container-pc .func .func-item{
+    margin:0 20px;
+}
+.top-container-pc .func a{
+    color: #666;
+}
+
+.top-container-pc .prd-produce{
+    padding: 20px 30px;
+}
+
+.top-container-pc label {
+    color: #666666;
+}
+.top-container-pc .price{
+    margin: 10px 0;
+    font-family:simsun;
+    color: #666;
+}
+.top-container-pc .price del{
+    font-family: arial;
+}
+.price-orig-label{margin-left: 15px;}
+.top-container-pc .price-orig{
+    color: #666;
+}
+.top-container-pc .price span {
+    color: #999999;
+    font-family: "Microsoft Yahei";
+    font-size: 24px;
+}
+.top-container-pc .price strong {
+    color: #E24D4D;
+    font: bold 24px "Microsoft Yahei";
+}
+
+.top-container-pc .price .y-num{
+    color: #FF6600;
+}
+
+.top-container-pc .prd-renqi{
+    border:1px dotted #D2D2D2;
+    border-width: 1px 0;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.top-container-pc .prd-renqi td{
+    width: 33%;
+    /*height: 54px;*/
+    padding: 5px 0;
+    text-align: center;
+}
+
+.top-container-pc .prd-renqi .prow1,
+.top-container-pc .prd-renqi .prow2{
+    border-right:1px dotted #D2D2D2;
+}
+
+.top-container-pc .prd-renqi .f-1{ line-height: 30px; font-size: 14px; font-weight: bold;}
+.top-container-pc .prd-renqi .f-2{ line-height: 24px; color: #999999;}
+
+.top-container-pc .prd-renqi .c1{color: #4bac20}
+.top-container-pc .prd-renqi .c2{color: #31a3d7;}
+.top-container-pc .prd-renqi .c3{color: #b69443; font-size: 18px;}
+
+.top-container-pc .p-i-item{
+    margin: 14px 0;
+}
+.top-container-pc .p-buy-info{
+    padding-bottom: 0;
+}
+.top-container-pc .service-p-msg-info{
+    top: -57px;
+}
+
+/*.product-memory-more-attr{position: absolute;top: 0px;left: 0px;}*/
+
+.top-container-pc .p-buy-info2{
+    float: left;
+    margin-top: 0;
+    font-family: "微软雅黑";
+}
+.p-buy-info2-nav{
+    border-left: 1px solid #CBD9E3;
+}
+.p-buy-info2-nav-li{
+    float: left;
+    padding-top: 10px;
+    width: 216px;
+    height: 45px;
+    border-top: 4px solid #CBD9E3;
+    border-bottom: 1px solid #CBD9E3;
+    border-right: 1px solid #CBD9E3;
+    background: #EEF2F5;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.4;
+    cursor: pointer;
+}
+.p-buy-info2-nav-li-c1{
+    font-weight: normal;
+    color: #FF3300;
+    font-size: 12px;
+}
+.p-buy-info2-nav-li-c2{
+    padding-left: 5px;
+    font-weight: normal;
+    color: #333333;
+    font-size: 12px;
+}
+.p-buy-info2-nav .selected{
+    color: #4BAC20;
+    background: #FFF;
+    border-top: 4px solid #4BAC20;
+    border-bottom: 1px solid #FFF;
+}
+.p-buy-info2-nav .disabled{
+    color: #ccc;
+    background: #F0F0F0;
+    border-top: 4px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.p-buy-info2-nav .disabled span{
+    color: #ccc;
+}
+.p-buy-info2-cont{
+    padding: 10px 0 0 30px;
+    width: 403px;
+    height: 162px;
+    border: 1px solid #CBD9E3;
+    border-top: 0;
+}
+.p-buy-info2-cont-line{
+    margin-top: 10px;
+}
+.p-buy-info2-cont-ipt{
+    padding: 0 0 0 10px;
+    width: 216px;
+    height: 28px;
+    border: 1px solid #DEDEDE;
+    line-height: 28px;
+}
+.p-buy-info2-cont-pay{
+    line-height: 2;
+}
+.bank-selector-wrap{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+}
+.p-buy-info2-cont-pay label{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 96px;
+    height: 26px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.p-buy-info2-cont-pay .pay-method{
+    margin-right: 4px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+}
+.p-buy-info2-cont-unpay-label{padding-left: 64px;}
+.p-buy-info2-cont-goumai{
+    padding: 0 0 0 64px;
+}
+.p-buy-info2-cont-buy-tip{
+    display: block;
+    padding-top: 8px;
+    padding-left: 64px;
+    color: #666;
+}
+.p-buy-info2-cont-pay-sub{
+    width: 116px;
+    height: 39px;
+    background: url(https://p.ssl.qhimg.com/t0192d8484f4674d497.png) no-repeat 0 0;
+    border: 0;
+    cursor: pointer;
+}
+.p-buy-info2-cont-buy-sub{
+    width: 116px;
+    height: 39px;
+    background: url(https://p.ssl.qhimg.com/t01df903d253ed8fce2.png) no-repeat 0 0;
+    border: 0;
+    cursor: pointer;
+}
+.p-buy-info2-cont-li-daodian{
+    line-height: 2;
+}
+
+.page-client .p-buy-info2{margin-bottom: 15px;}
+
+.prd-produce-tit-desc{color:#FF3300;font-size:16px;font-weight:bold;font-family: "微软雅黑";}
+
+
+.pduct-info .p-buy-info3{position: relative;margin:18px 0 18px 0;/*overflow:hidden;width:100%;*/}
+.pduct-info .p-buy-info3-nav{margin-right:-20px;}
+.pduct-info .p-buy-info3-nav li{
+    height:26px;
+    float:left;
+    background:url(https://p.ssl.qhimg.com/t014c2f97c0bdbf6f64.png) no-repeat;
+    margin-right:10px;
+    text-align:center;
+    line-height:27px;
+    color:#666;
+    padding: 0 21px;
+    letter-spacing:0px;
+    cursor: pointer;
+    position:relative;
+}
+.pduct-info .p-buy-info3-nav li b{bottom: 0;height: 26px;overflow: hidden;position: absolute;right: 0;_right:-1px;width: 5px;background:url(https://p.ssl.qhimg.com/t0112c869394d0b7eec.png) no-repeat;}
+.pduct-info .p-buy-info3-nav li div{height:26px;padding:0 10px 0 8px;line-height:26px;_display:inline;_zoom:1;}
+.pduct-info .p-buy-info3-nav .cur{background:url(https://p.ssl.qhimg.com/t0129813858fb44fc0f.png) no-repeat;}
+.pduct-info .p-buy-info3-nav .cur b{width: 19px;background:url(https://p.ssl.qhimg.com/t01a0ba24cb333f2611.png) no-repeat;}
+.pduct-info .p-buy-info3-nav .blinkbg{background:url(https://p.ssl.qhimg.com/t01aba2e639dafa8954.png) no-repeat;}
+.pduct-info .p-buy-info3-nav .blinkbg b{width: 4px;background:url(https://p.ssl.qhimg.com/t01fe65669ef8d0b576.png) no-repeat;}
+.pduct-info .p-buy-info3-nav .disabled-selected{color: #dedede;cursor: no-drop;}
+
+.p-buy-info3-item1-desc{
+    position: absolute;
+    top: 30px;
+    *top: 46px;
+    left: 60px;
+    z-index: 10;
+    font-family: "微软雅黑";
+}
+.p-buy-info3-item2-desc{
+    position: absolute;
+    top: 30px;
+    *top: 46px;
+    left: 179px;
+    z-index: 10;
+    font-family: "微软雅黑";
+}
+.p-buy-info3-c1{padding-right: 5px;color: #5ABB47;font-weight: bold;}
+.p-buy-info3-c2{padding-right: 5px;color: #666;}
+.p-buy-info3-dline{
+    padding-top: 50px;
+    *padding-top: 30px;
+    /**margin-top: 100px;*/
+    margin-left: 50px;
+    width: 380px;
+    border-bottom: 1px solid #D7D7D7;
+    background: transparent;
+}
+.p-buy-info3 .p-buy-info2-cont-pay-form,
+.p-buy-info3 .p-buy-info2-cont-buy-form{
+    width: 420px;
+    height: 145px;
+    *height: 155px;
+}
+.p-buy-info3 .p-buy-info2-cont-line{
+    color: #666;
+}
+.p-buy-info3 .p-buy-info2-cont-goumai{
+    text-align: right;
+}
+.p-buy-info3 .p-buy-info2-cont-buy-sub{}
+.default-text{color: #A9A9A9 !important;}
+
+.p-buy-info3 .p-binfo-form{ height: auto; }
+.p-buy-info3 .p-binfo-left{width: 300px; float: left; padding-top: 5px;}
+.p-buy-info3 .p-binfo-right{width: 120px; float: left; padding-left: 0}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====================================鲁大师内嵌页面调整======================================= */
+/* 页面尺寸800x500 */
+
+.C-LDS .doc-bd .grid-2c1 {
+    height: 430px;
+}
+
+.C-LDS .pduct-info .col-1, .C-LDS .col-right-siderbar{
+    width: 770px;
+}

@@ -1,0 +1,498 @@
+body{
+	background: #F6F7F5;
+}
+.hd-setupsys{}
+
+.doc-hd{
+	background: #fff;
+}
+.hd-setupsys a:hover{
+	color: #f00;
+}
+.hd-setupsys .yh{
+	font-family: "微软雅黑";
+}
+.hd-setupsys .f14{
+	font-size: 14px
+}
+
+.hd-setupsys .f16{
+	font-size: 16px
+}
+.hd-setupsys .f27{
+	font-size: 27px
+}
+
+.hd-setupsys .f31{
+	font-size: 31px
+}
+
+.hd-setupsys .c333{
+	color: #333333;
+}
+.hd-setupsys .c666{
+	color: #666666;
+}
+
+.hd-setupsys .green{
+	color: #337d39;
+}
+
+.hd-setupsys .b{
+	font-weight: bold;
+}
+
+.hd-setupsys .pl-10{
+	padding-left: 10px;
+}
+
+.hd-setupsys .bread{
+	height: 30px;
+	line-height: 30px;
+	color: #333333;
+	padding-bottom:6px;
+}
+
+.hd-setupsys .body-left{
+	width: 710px;
+	float: left;
+	position: relative;
+}
+
+.hd-setupsys .body-right{
+	width: 240px;
+	float: right;
+}
+
+.hd-setupsys .tuan-info{
+	border: 1px solid #E8E8E8;
+	margin-bottom: 10px;
+	background: #fff;
+	padding: 12px 0;
+}
+
+.hd-setupsys .tuan-info h1{
+	font:18px/1.6 "微软雅黑";
+	color: #000;
+	padding-left: 6px
+}
+
+.hd-setupsys .tuan-info h2{
+	font:16px/1.6 "微软雅黑";
+	padding-left: 16px;
+	margin-bottom: 20px;
+}
+
+.hd-setupsys .tuan-price-box{
+	width: 210px;
+	float: left;
+}
+
+.hd-setupsys .tuan-pic-box{
+	width: 480px;
+	float: right;
+	margin-right:10px;
+}
+
+.hd-setupsys .sys-tuan-pic{
+	width: 478px;
+	height: 288px;
+	border: 1px solid #DAE4E9;
+	background: url(https://p.ssl.qhimg.com/t01c1c5ce6cc177f542.png) no-repeat 0 0;
+}
+
+.hd-setupsys .prices{
+	color: #FFFFFF;
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -490px -210px;
+	width: 200px;
+	height: 62px;
+	padding-left: 13px;
+	position: relative;
+	left:-7px;
+}
+
+.hd-setupsys .prices strong{
+	font:28px/56px "微软雅黑";	
+}
+
+.hd-setupsys .prices span{
+	font:12px/56px "微软雅黑";	
+	margin-left: 10px;
+}
+
+.hd-setupsys .prices del{
+	font-size: 14px;
+}
+
+.hd-setupsys .prices .f1{
+	font-size: 21px;
+}
+.hd-setupsys .prices .f2{
+	font-size: 24px;
+}
+
+.hd-setupsys .buy-btn{
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -201px -300px;
+	display: block;
+	width: 124px;
+	height: 46px;
+	margin: 15px auto 10px;
+	text-indent: -9999px;
+	outline: none;
+}
+.hd-setupsys .buy-btn:hover{
+	text-decoration: none;
+	background-position: -201px -346px;
+}
+.hd-setupsys .buy-btn:active{
+	background-position: -201px -392px;
+}
+
+.hd-setupsys .tuan-info .promise{
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -340px -300px;
+	width: 192px;
+	height:59px;
+	margin-left: 15px;	
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.hd-setupsys .tuan-info .left-time{
+	display: none;
+	height: 40px;
+	border: 1px solid #EFEFEF;
+	border-width: 1px 0;
+	margin: 0 10px;
+	color: #666666;
+	font:14px/40px "微软雅黑";
+	text-align: center;
+}
+
+.hd-setupsys .tuan-info .buy-num{
+	font:18px/1.2 "微软雅黑";
+	color: #333333;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.hd-setupsys .buy-num .num{
+	color: #ff6c00;
+}
+
+
+.hd-setupsys .tuan-detail{
+	background: #fff;
+	position: relative;
+	border: 1px solid #E8E8E8;
+	padding-top: 40px;
+	border-width: 0 1px;
+}
+
+.hd-setupsys .tuan-nav{
+	position: absolute;
+	top:0;
+	width: 708px;
+	height: 36px;
+	line-height: 36px;
+	font:14px/36px "微软雅黑";
+	color: #333333;
+	border-top: 2px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	background: #fff;
+	z-index: 99999;	
+	zoom:1;
+}
+
+.hd-setupsys .tuan-nav li{
+	float: left;
+	width: 96px;
+	padding-right: 4px;
+	text-align: center;
+	cursor: pointer;
+	border-left:1px solid #FFF;
+}
+
+.hd-setupsys .tuan-nav li.on{
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -250px -450px;
+	position: relative;
+	top: -2px;
+	line-height: 40px;
+	height: 39px;
+	color: #128422;
+	border-left: 1px solid #DDDDDD;
+}
+
+.hd-setupsys .tuan-nav li.first{
+	border-left:1px solid #FFF;
+}
+
+.hd-setupsys .tuan-nav .buy-mini-box{
+	float: left;
+	width: 84px;
+}
+.hd-setupsys .tuan-nav .buy-mini{
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -360px -450px;
+	display: block;
+	width: 84px;
+	height: 28px;
+	text-indent: -9999px;
+	position: absolute;
+	right: 30px;
+	top:3px;
+	outline: none;
+}
+.hd-setupsys .tuan-nav .buy-mini:hover{
+	text-decoration: none;
+	background-position: -444px -450px;
+}
+.hd-setupsys .tuan-nav .buy-mini:active{
+	background-position: -528px -450px;
+}
+
+.hd-setupsys .tuan-detail h3{
+	height: 36px;
+	background: #F5F5F5 url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -580px -275px;
+	text-indent: -9999px;
+	margin: 20px 10px 25px 10px;
+
+}
+
+.hd-setupsys .tuan-detail h3.tit2{
+	background-position: -580px -320px;
+}
+
+.hd-setupsys .tuan-detail h3.tit3{
+	background-position: -580px -370px;
+}
+
+.hd-setupsys .tuan-detail h3.tit4{
+	background-position: -580px -410px;
+}
+
+.hd-setupsys .tuan-detail .cnt{
+	padding: 0 20px;
+	line-height: 1.8;
+}
+
+.hd-setupsys .promise-intro{
+	border: 1px solid #ECECEC;
+	border-top: 3px solid #58A70F;
+	background: #fff;
+	padding-bottom: 16px;
+}
+
+.hd-setupsys .promise-intro table{
+	width: 100%;
+}
+
+.hd-setupsys .promise-intro h3{
+	text-indent: -9999px;	
+	height: 64px;
+	border-bottom: 1px solid #E5E5E5;
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -340px -370px;
+}
+.hd-setupsys .p-renzheng,
+.hd-setupsys .p-tuikuan,
+.hd-setupsys .p-shangmen,
+.hd-setupsys .p-dangmain{
+	width: 70px;
+	height: 90px;
+	margin: 0 auto;
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat 0 -300px;
+	text-indent: -9999px;
+	margin-top: 10px;
+}
+
+.hd-setupsys .p-tuikuan{
+	background-position: -118px -300px;
+}
+
+.hd-setupsys .p-shangmen{
+	background-position: 8px -400px;
+}
+
+.hd-setupsys .p-dangmain{
+	background-position: -110px -400px;
+	width: 80px;
+}
+
+.hd-setupsys .pr-cnt1,
+.hd-setupsys .pr-cnt2{
+	width: 206px;
+	height: 40px;
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -483px 0;
+	margin: 0 auto;
+	padding: 20px 10px 10px 10px;
+	color: #666666;
+}
+
+.hd-setupsys .pr-cnt2{
+	background-position: -483px -110px;
+}
+
+.hd-setupsys .huodong-list .qinghui,
+.hd-setupsys .huodong-list .luyouqi{
+	display: block;
+	width: 240px;
+	height: 132px;
+	background: url(https://p.ssl.qhimg.com/t01350bde0f189252a4.jpg) no-repeat 0 -328px;
+	margin-top: 10px;
+	text-indent: -9999px;
+	outline: none;
+}
+
+.hd-setupsys .huodong-list .luyouqi{
+	background-position: 0 -468px;
+}
+
+.hd-setupsys .tuan-detail .list1 li{
+	padding-left: 18px;
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -696px -450px;
+}
+
+.hd-setupsys .tuan-detail .ser-pic{
+	width: 686px;
+	height: 220px;
+	background: url(https://p.ssl.qhimg.com/t01350bde0f189252a4.jpg) no-repeat 0 0;
+	margin-left: -10px;
+	margin-top: 14px;
+	margin-bottom: 20px;
+}
+
+.hd-setupsys .tuan-detail .yellow-box{
+	background: #FFF2D3;
+	border: 1px solid #E2D9C5;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 2px;
+}
+
+.hd-setupsys .tuan-detail .yellow-box li{
+	padding-left: 20px;
+	background: url(https://p.ssl.qhimg.com/t01037ca425456a1c91.png) no-repeat -696px -474px;
+}
+
+.hd-setupsys .tuan-detail .kf-tel{
+	line-height: 2;
+	padding: 0px 20px 20px 20px;
+}
+.hd-setupsys .online-kefu{
+	background: url(https://p.ssl.qhimg.com/t01d7f5dbe4d93c0afe.png) no-repeat 0 -510px;
+    height: 23px;
+    line-height: 23px;
+    width: 74px;
+    display: inline-block;
+    _zoom:1;
+    text-indent: -9999px;
+    vertical-align: middle;
+    outline: none;
+}
+
+.hd-setupsys .buttom-buy{
+	background: url(https://p.ssl.qhimg.com/t01350bde0f189252a4.jpg) no-repeat 0 -230px;
+	width: 710px;
+	height: 91px;
+	margin-bottom: 440px;	
+}
+
+.hd-setupsys .buttom-buy table{
+	width: 100%;
+}
+
+.hd-setupsys .buttom-buy td{
+	height:90px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1.8;
+}
+
+.hd-setupsys .rednum{
+	color: #ff6e03;
+	font-size: 36px;
+}
+
+.hd-setupsys .dp-list table{
+	table-layout: fixed;
+}
+.hd-setupsys .dp-list th{
+	font-weight: bold;
+	color: #95989c;
+	background: #EFF5FC;
+	height: 28px;
+	line-height: 28px;
+	border-bottom: 3px solid #CBD6E4;
+	border-right: 2px solid #FFFFFF;
+	padding:0 10px;
+}
+.hd-setupsys .dp-list td{
+	color: #999999;
+	border-bottom: 1px solid #CBD6E4;
+	height: 34px;
+	vertical-align: middle;
+	padding: 0 10px;	
+}
+
+
+.hd-setupsys .dp-list-box{
+	max-height: 520px;
+	_height:520px;
+	overflow-y: auto;
+	overflow-x: hidden;
+
+}
+
+.area-select-wrap{display: block;height: 47px;line-height: 1;position: relative;}
+.area-select-wrap .area-sel{
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #CECECE;
+    /*background: url(https://p.ssl.qhimg.com/t010d71e7b045cd4e73.png) repeat-x 0 0;*/
+    padding-left:8px;
+    cursor: pointer;    
+    color: #999999;
+    position: relative;
+    z-index: 1000;
+    float: left;
+    margin: 0 8px 0 0;
+    z-index: 9999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+}
+.area-select-wrap .icon-arrow{
+    width: 26px;
+    height: 22px;
+    background: url(https://p.ssl.qhimg.com/t010d71e7b045cd4e73.png) no-repeat 10px -30px;
+}
+.area-select-wrap .select-pannel{display:none;position: absolute;width: 460px;background: #FBFBFB;border: solid 1px #CFCFCF;left: -1px;top: 38px;padding: 8px 0;z-index: 10001;line-height: 1;}
+.area-select-wrap .select-pannel h3{font-weight: normal;height: 20px; line-height: 20px; padding: 0 10px;margin: 0;position: relative;background: none;text-indent: inherit;}
+.area-select-wrap .select-pannel h3 .close{background: url(https://p.ssl.qhimg.com/t011be77565f0a2f8e8.png) no-repeat 0 -7px;cursor: pointer; display: block; height: 20px; line-height: 100px; overflow: hidden; position: absolute; right: 10px; top: 0; width: 55px;}
+.area-select-wrap .select-pannel .select-list{background: #FFFFFF;border: solid 1px #E8E8E8;margin: 12px 12px 3px; padding: 12px 12px 0;}
+.area-select-wrap .select-pannel .select-list a{color: #000000;display: inline-block; height: 18px; line-height: 18px; margin: 0 18px 5px 0;}
+.area-select-wrap .area-sel .sel-txt{
+	_zoom:1;
+}
+
+.hd-setupsys .icon-kxunion{
+	background: url(https://p.ssl.qhimg.com/t01883bcbcb794fdb5c.png) no-repeat 0 0;
+	width: 33px;
+	height: 18px;
+	margin-left: 4px;
+}
+
+.hd-setupsys .nowrap{
+	white-space: nowrap;
+}
+
+.hd-setupsys .wx-liucheng{
+	background: url(https://p.ssl.qhimg.com/t01de302d74995e4d67.jpg) no-repeat 0 0;
+	width: 707px;
+	height: 90px;
+	margin: 13px 0;
+}
+.hd-setupsys .xp-dunjia{
+	width: 317px;
+	height: 274px;
+	margin: 15px 0 0 150px;
+	background: url(https://p.ssl.qhimg.com/t014a938fb19598c26c.png) no-repeat 0 0;
+}

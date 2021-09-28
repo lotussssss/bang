@@ -1,0 +1,826 @@
+.blur {
+    -webkit-filter : blur(.10rem);
+}
+
+@-webkit-keyframes button-clicking {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+    50% {
+        -webkit-transform: translate3d(0, -.03rem, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+}
+
+@-moz-keyframes button-clicking{
+    0% {
+        -moz-transform: translate3d(0, 0, 0);
+    }
+    50% {
+        -moz-transform: translate3d(0, -.03rem, 0);
+    }
+    100% {
+        -moz-transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes button-clicking{
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        transform: translate3d(0, -.03rem, 0);
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+@-webkit-keyframes button-clicking-stop {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+}
+
+@-moz-keyframes button-clicking-stop{
+    0% {
+        -moz-transform: translate3d(0, 0, 0);
+    }
+    100% {
+        -moz-transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes button-clicking-stop{
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+.fixed-flag {
+    width: 100%;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.page-hd-xmas {
+}
+
+.page-hd-xmas .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+    /*background-color: #4a7;*/
+    /*background: #438ebf url(https://p1.ssl.qhmsg.com/t01b6e60827b0b967cc.png) repeat;*/
+    background-color: #d11a1a;
+    background-size: .32rem .32rem;
+}
+
+.page-hd-xmas .block {
+    /*padding-top: 1px;*/
+    /*padding-bottom: 1px;*/
+}
+
+.page-hd-xmas .block-tit {
+    /*margin-top: .08rem;*/
+    /*margin-bottom: .08rem;*/
+    width: 100%;
+    height: 0.48rem;
+    line-height: 0.39rem;
+    /*font-size: .24rem;*/
+    font-size: .2rem;
+    text-align: center;
+    /*color: #fffaa8;*/
+    color: #fff;
+    position: relative;
+}
+/*.page-hd-xmas .block-tit:before{*/
+    /*content: '';*/
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*top: .2rem;*/
+    /*left: .57rem;*/
+    /*border: 1px solid #bd2723;*/
+    /*height: 2px;*/
+    /*width: 2rem;*/
+/*}*/
+.page-hd-xmas .block-txt{
+
+}
+
+.page-hd-xmas .block1-1 {
+    height: .8rem;
+    background: url(https://p1.ssl.qhmsg.com/t0128689a74993d729e.png) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-xmas .block1-2 {
+    height: .8rem;
+    background: url(https://p1.ssl.qhmsg.com/t014d2a8fbded4aa322.png) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-xmas .block1-3 {
+    position: relative;
+    z-index: 2;
+    padding-top: .12rem;
+    height: 1.6rem;
+    background: url(https://p0.ssl.qhmsg.com/t012b99f677bbfc19c2.png) no-repeat center 0;
+    background-size: cover;
+}
+
+.page-hd-xmas .block3 .block-tit {
+    background: url(https://p4.ssl.qhmsg.com/t01708863fd78a2ef5f.png) no-repeat center 0;
+    background-size: cover;
+}
+/* 抽奖 */
+.page-hd-xmas .block-lottery {
+    position: relative;
+    margin: 0 auto;
+    padding: .05rem 0;
+    width: 3rem;
+    height: 1.66rem;
+    background: #ffc150;
+    border-radius: .06rem;
+}
+
+.page-hd-xmas .block-lottery .lottery-cell-list{
+    margin: 0 auto;
+    width: 2.89rem;
+    height: 1.56rem;
+    font-size: 0;
+}
+
+.page-hd-xmas .block-lottery .lottery-cell-list .cell{
+    margin-right: .03rem;
+    margin-bottom: .03rem;
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.5rem;
+    background-color: #fff;
+    border-radius: .04rem;
+}
+.page-hd-xmas .block-lottery .lottery-cell-list .cell:nth-child(4n){
+    margin-right: 0;
+}
+.page-hd-xmas .block-lottery .lottery-cell-list .cell.cur{
+    background-color: #ffc150;
+}
+
+.page-hd-xmas .block-lottery .canvas-lottery-bonus{
+    position: absolute;
+    top: .05rem;
+    left: .05rem;
+    display: block;
+    width: 2.89rem;
+    height: 1.56rem;
+}
+
+.page-hd-xmas .block-lottery .btn-get-my-luck{
+    position: absolute;
+    top: .58rem;
+    left: .78rem;
+    right: .78rem;
+    bottom: .58rem;
+    display: block;
+    /*background-color: #cf1e24;*/
+    background-color: #d11a1a;
+    border-radius: .06rem;
+    font-size: 0;
+    text-align: center;
+    line-height: .5rem;
+}
+.page-hd-xmas .block-lottery .btn-get-my-luck:hover{
+    text-decoration: none;
+}
+.page-hd-xmas .block-lottery .btn-get-my-luck .txt{
+    margin-right: .06rem;
+    display: inline-block;
+    font-size: .18rem;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.page-hd-xmas .block-lottery .btn-get-my-luck .sim-shadow {
+    display: inline-block;
+    width: .36rem;
+    height: .36rem;
+    font-size: 0;
+    line-height: 0;
+    background-color: #f9e7c5;
+    border-radius: 999px;
+    vertical-align: middle;
+}
+
+.page-hd-xmas .block-lottery .btn-get-my-luck .sim{
+    display: inline-block;
+    width: .36rem;
+    height: .36rem;
+    line-height: .36rem;
+    font-size: .16rem;
+    vertical-align: middle;
+    background: #fff;
+    color: #fd3f99;
+    /*background: #f8e7c7;*/
+    /*color: #cf1e24;*/
+    border-radius: 999px;
+    /*-webkit-transform: translate3d(0, -.03rem, 0);*/
+    /*transform: translate3d(0, -.03rem, 0);*/
+    -webkit-animation: button-clicking .8s ease 1s infinite;
+    -moz-animation: button-clicking .8s ease 1s infinite;
+    animation: button-clicking .8s ease 1s infinite;
+}
+.page-hd-xmas .block-lottery .btn-get-my-luck .sim-inner{
+    margin: .02rem;
+    display: block;
+    width: .32rem;
+    height: .32rem;
+    line-height: .28rem;
+    border: #cf1e24 .02rem solid;
+    /*border: #fd3f99 .02rem solid;*/
+    border-radius: 999px;
+    background-color: #f9e7c5;
+    color: #cf1e24;
+}
+
+.page-hd-xmas .block-lottery .btn-get-my-luck.disabled{
+    background-color: #eee;
+}
+
+.page-hd-xmas .block-lottery .btn-get-my-luck.disabled .sim{
+    background-color: #ddd;
+    color: #d0d0d0;
+    /*-webkit-transform: translate3d(0, 0, 0);*/
+    /*transform: translate3d(0, 0, 0);*/
+    -webkit-animation: button-clicking-stop .8s ease 1;
+    -moz-animation: button-clicking-stop .8s ease 1;
+    animation: button-clicking-stop .8s ease 1;
+}
+
+.page-hd-xmas .block-lottery .btn-get-my-luck.disabled .sim-inner{
+    border-color: #d0d0d0;
+}
+/*抽奖end*/
+
+.page-hd-xmas .block2 {
+    position: relative;
+    width: 100%;
+    height: 2.24rem;
+    /*height: 0.7555555555555555rem;*/
+    /*background: #4a7 url(https://p2.ssl.qhmsg.com/t0147f1ed82e9b78cf0.jpg) no-repeat 0 0;*/
+    /*background: url(https://p3.ssl.qhmsg.com/t01758d80602a6561c8.png) no-repeat -.04rem 0;*/
+    background: url(https://p1.ssl.qhmsg.com/t01657065d4af491c24.png) no-repeat 0 0;
+    background-size: contain;
+}
+
+.page-hd-xmas .block2 .block-lottery-bingo-list{
+    position: absolute;
+    top: .39rem;
+    left: .1rem;
+    right: .1rem;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    color: #cf1e24;
+    /*color: #fff;*/
+    overflow: hidden;
+}
+.page-hd-xmas .block2 .block-lottery-bingo-list .inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.page-hd-xmas .block2 .block-lottery-bingo-list .item {
+    display: block;
+}
+.page-hd-xmas .block2 .block-lottery-bingo-list .item span{
+    padding-right: .04rem;
+    font-size: .16rem;
+}
+
+.page-hd-xmas .block3{
+    position: relative;
+    margin-top: -1.1rem;
+}
+
+.page-hd-xmas .block4 {
+    /*padding-top: .1rem;*/
+    /*background: #cf1e24;*/
+}
+
+/* 推荐商品列表 */
+/*产品列表部分start*/
+.page-hd-xmas .product-list .item{
+    position: relative;
+    float: left;
+    width: 50%;
+    background: #fff;
+}
+.page-hd-xmas .item{
+    /*border: 1px solid #f1f1f1;*/
+    border-top: 1px solid transparent;
+}
+.page-hd-xmas .item:nth-child(even){
+    border-left: 1px solid transparent;
+}
+.page-hd-xmas .product-list .item a{
+    display: block;
+    padding: .1rem .1rem .12rem;
+}
+.page-hd-xmas .product-list .item a:hover{
+    text-decoration: none;
+}
+.page-hd-xmas .product-list .p-img{
+    height: 1rem;
+    margin-bottom: .1rem;
+    text-align: center;
+    overflow: hidden;
+}
+.page-hd-xmas .product-list .p-img img{
+    height: 100%;
+}
+.page-hd-xmas .product-list .p-tit{
+    height: .32rem;
+    font-size: .12rem;
+    color: #333;
+    vertical-align: middle;
+    text-align: left;
+    line-height: .16rem;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+.page-hd-xmas .product-list .p-price-new{
+    line-height: 100%;
+    color: #999;
+    font-size: .1rem;
+    padding-top: .08rem;
+    padding-bottom: .08rem;
+}
+.page-hd-xmas .product-list .p-price-new .price-tit{
+}
+.page-hd-xmas .product-list .p-price-new .price-cnt{
+    text-decoration: line-through;
+}
+.page-hd-xmas .product-list .p-price{
+    height: .26rem;
+    line-height: .26rem;
+    font-size: .12rem;
+    border: 1px solid #ff3300;
+    border-radius: 999px;
+    overflow: hidden;
+}
+.page-hd-xmas .product-list .p-price .price-tit{
+    display: inline-block;
+    width: .6rem;
+    color: #fff;
+    background-color: #ff3300;
+    text-align: center;
+}
+.page-hd-xmas .product-list .p-price .price-cnt{
+    padding-left: .1rem;
+    color: #ff3300;
+}
+
+.page-hd-xmas .product-list .btn-qiang{
+    z-index:9;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.page-hd-xmas .product-list .btn-disabled{
+    background: url(https://p.ssl.qhimg.com/t01c26442fb2f8c9618.png) no-repeat center .3rem;
+    background-size: .9rem .9rem;
+}
+.page-hd-xmas .product-list .p-label{
+    position: absolute;
+    top: 0;
+    left: 4px;
+    width: .35rem;
+}
+.page-hd-xmas .product-list .offset-label{
+    position: absolute;
+    top: 0;
+    left: .04rem;
+    padding: .08rem 0;
+    width: .4rem;
+    /*height: .6rem;*/
+    text-align: center;
+    font-size: .1rem;
+    line-height: 1.4;
+    color: #fff;
+    background: #f53b3c;
+}
+.page-hd-xmas .product-list .p-label-soldout {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    cursor: default;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.page-hd-xmas .more{
+    padding: .1rem 0;
+    text-align: center;
+}
+.page-hd-xmas .more a {
+    display: inline-block;
+    height: .3rem;
+    line-height: .3rem;
+    font-size:.14rem;
+    color: #d40000;
+    background-color: #ffea9f;
+    /*border:1px solid #FFFAA8;*/
+    /*box-shadow: 1px 2px 10px 1px #fb95ad;*/
+    border-radius: 999px;
+    padding:0 .3rem;
+}
+.countdown {
+    text-align: center;
+    padding: .05rem 0 0 0;
+}
+.countdown .desc-txt,
+.countdown .h-txt,
+.countdown .m-txt {
+    color: #000;
+}
+.countdown .h-num,
+.countdown .s-num,
+.countdown .m-num {
+    color:#FF2F00;
+}
+.countdown .d-txt,
+.countdown .d-num
+{
+    display: none;
+}
+/*产品列表部分end*/
+
+.page-hd-xmas .block4 .btn-xmas-promo-more{
+    margin: .12rem auto;
+    display: block;
+    width: 1.5rem;
+    height: .32rem;
+    line-height: .32rem;
+    border-radius: 999px;
+    color: #fffaa8;
+    border: 1px solid #fffaa8;
+    /*color: #ffc150;*/
+    /*border: 1px solid #ffc150;*/
+    text-align: center;
+}
+.page-hd-xmas .block4 .btn-xmas-promo-more:hover{
+    text-decoration: none;
+}
+
+.page-hd-xmas .block5{
+    /*padding-bottom: .2rem;*/
+    padding-bottom: .1rem;
+}
+.page-hd-xmas .block5 .block-tit{
+    background:  url(https://p2.ssl.qhmsg.com/t012d63c66eac1ec808.png) no-repeat 0 0;
+    background-size: cover;
+}
+.brand-pic-item{
+    height: 1rem;
+    font-size: 0;
+    background: transparent url(https://p4.ssl.qhmsg.com/t01f8c4644e6dac1073.jpg) no-repeat 0 0;
+    background-size: cover;
+    text-decoration: none;
+}
+.brand-pic-item:hover {
+    text-decoration: none;
+}
+
+.brand-pic-item-huawei {
+    background-position: 0 -.03rem;
+}
+
+.brand-pic-item-xiaomi {
+    background-position: 0 -1.24rem;
+}
+
+.brand-pic-item-oppo {
+    background-position: 0 -2.42rem;
+}
+.brand-pic-item-vivo {
+    background-position: 0 -3.63rem;
+}
+
+.brand-pic-item-samsung {
+    background-position: 0 -4.86rem;
+}
+
+.brand-pic-item-apple {
+    background-position: 0 -6.06rem;
+}
+
+/*.page-hd-xmas .block6,*/
+.page-hd-xmas .block7{
+    background-color: #cf1e24;
+    padding-bottom: .1rem;
+}
+
+/*服务介绍*/
+.block-service-intro{
+    margin: .1rem;
+    padding: .1rem 0;
+    /*background-color: #f8e7c7;*/
+    background-color: #f8e7c7;
+    border-radius: .06rem;
+}
+.block-service-intro .tit{
+    margin: 0 auto;
+    width: 1.635rem;
+}
+.block-service-intro .tit-under{
+    margin: 0 auto;
+    width: 1.56rem;
+    height: .24rem;
+    /*background: #d01702;*/
+    background: #d11a1a;
+    border-radius: 999px;
+}
+.block-service-intro .tit-inner{
+    margin-top: -.29rem;
+    margin-left: -.06rem;
+    width: 1.635rem;
+    height: 0.34555772rem;
+    background: url(https://p0.ssl.qhmsg.com/t0166374946eb81bd5a.png) no-repeat center;
+    background-size: contain;
+}
+.block-service-intro .cnt{
+    padding: .1rem 0;
+    font-size: 0;
+}
+.block-service-intro .cnt .service-keyword{
+    margin: .08rem .04rem .08rem .08rem;
+    display: inline-block;
+    height: .3rem;
+    width: .3rem;
+    line-height: .3rem;
+    font-size: .2rem;
+    border-radius: 999px;
+    text-align: center;
+    color: #fff;
+    /*background-color: #d01702;*/
+    background-color: #d11a1a;
+    vertical-align: middle;
+}
+.block-service-intro .cnt .col-2-1:nth-child(2n) .service-keyword{
+    margin-left: 0;
+}
+.block-service-intro .cnt .service-desc{
+    display: inline-block;
+    font-size: .1rem;
+    /*color: #d01702;*/
+    color: #d11a1a;
+    vertical-align: middle;
+    line-height: 1.2;
+}
+.block-service-intro .cnt .service-desc em{
+    font-size: .14rem;
+}
+
+/* 二维码扫一扫 */
+.block-qrcode-info{
+    margin: .1rem;
+    padding: .2rem 0;
+    background-color: #f8e7c7;
+    border-radius: .06rem;
+    font-size: .12rem;
+    text-align: center;
+    color: #d11a1a;
+}
+.block-qrcode-info .tit{
+    font-size: .16rem;
+}
+.block-qrcode-info .desc{}
+.block-qrcode-info .qrcode{
+    margin: .1rem auto;
+    padding: .06rem;
+    width: 50%;
+    background-color: #fff;
+    border-radius: .06rem;
+}
+.block-qrcode-info .qrcode img{
+    width: 100%;
+    border-radius: .06rem;
+}
+
+/* 圣诞弹层 */
+.xmas-panel{
+    left: 0!important;
+    right: 0!important;
+    padding-bottom: .25rem;
+    border: 0;
+}
+.xmas-panel .xmas-panel-bottom{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1rem;
+    background: url(https://p.ssl.qhimg.com/t01b3587e89cd3fc400.png) no-repeat center bottom;
+    background-size: contain;
+    background-position-y: -.05rem;
+}
+.xmas-panel .dialog-inner{
+    margin: 0 .2rem;
+    padding: 0 .14rem .3rem .14rem;
+    display: block;
+    /*background-color: #cf1e24;*/
+    background-color: #fd3f99;
+    border-radius: .06rem;
+    color: #fff;
+    font-size: .12rem;
+}
+.xmas-panel .dialog-close,
+.xmas-panel .dialog-close:hover{
+    top: -0.18rem;
+    right: 0.04rem;
+    width: .4rem;
+    height: .4rem;
+    background-image: url(https://p.ssl.qhimg.com/t01deb9471fcdd55a10.png);
+    background-size: .4rem;
+}
+
+/* 登录弹层 */
+.xmas-login-panel{ }
+.xmas-login-panel .dialog-inner{
+    text-align: center;
+}
+.xmas-login-panel .tit{
+    padding: .1rem 0;
+    color: #fff;
+    font-size: .24rem;
+}
+
+.xmas-login-panel .row{
+    padding-bottom: .08rem;
+}
+.xmas-login-panel .btn{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    background-color: #ffc705;
+    border-radius: 999px;
+    color: #770408;
+    font-size: .18rem;
+}
+.xmas-login-panel .vcode-img{
+    width: 100%;
+    height: .36rem;
+}
+.xmas-login-panel .btn-get-sms-code{
+    font-size: .12rem;
+    border-radius: .06rem;
+}
+.xmas-login-panel .btn-get-sms-code-disabled{
+    color: #999;
+    background: #f2f2f2;
+}
+.xmas-login-panel .desc{
+    padding-top: .05rem;
+    padding-bottom: .1rem;
+    line-height: 2;
+}
+
+/* 中奖弹窗 */
+.xmas-bingo-panel{
+    text-align: center;
+}
+.xmas-bingo-panel .dialog-inner{
+    padding-top: .15rem;
+    padding-bottom: .7rem;
+}
+.xmas-bingo-panel .bingo-cnt{
+    margin: 0 auto;
+    padding-top: .14rem;
+    width: 2.5733333333333333rem;
+    height: 0.8222222222222222rem;
+    line-height: 1.2;
+    background: url(https://p3.ssl.qhmsg.com/t0177ec830c31921bbc.png) no-repeat center;
+    background-size: cover;
+    color: #cf1e24;
+    font-size: .18rem;
+}
+.xmas-bingo-panel .bingo-cnt span{
+    font-size: .24rem;
+}
+.xmas-bingo-panel .bingo-desc{
+    padding: .05rem 0 .08rem 0;
+}
+.xmas-bingo-panel .btn{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    background-color: #ffc705;
+    border-radius: 999px;
+    color: #770408;
+    font-size: .18rem;
+}
+
+/* 抽奖次数用光 */
+.xmas-roll-empty-panel{
+    text-align: center;
+}
+
+.xmas-roll-empty-panel .dialog-inner{
+    padding-top: .15rem;
+    padding-bottom: .7rem;
+}
+.xmas-roll-empty-panel .cnt{
+    margin: .2rem auto;
+    padding-top: .14rem;
+    width: 2.5733333333333333rem;
+    height: 0.5555555555555556rem;
+    line-height: 1.2;
+    background: url(https://p3.ssl.qhmsg.com/t01de39a38fda89b3b1.png) no-repeat center;
+    background-size: cover;
+    color: #cf1e24;
+    font-size: .18rem;
+}
+.xmas-roll-empty-panel .btn{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    background-color: #ffc705;
+    border-radius: 999px;
+    color: #770408;
+    font-size: .18rem;
+}
+/*tab部分start*/
+.block-tab {
+}
+.block-tab ul {
+    /*width: 100%;*/
+}
+.block-tab li{
+    float: left;
+    width: 50%;
+}
+.block-tab li a{
+    display: inline-block;
+    width: 100%;
+    height: .46667rem;
+    line-height: .46667rem;
+    background-color: #ecdbc6;
+    text-align: center;
+    text-decoration: none;
+    font-size: .2rem;
+    font-weight:700;
+    color: #ce0000;
+}
+.block-tab li a.cur {
+    background-color: #ce0000;
+    color: #ecdbc6;
+}
+.block-tab li a span {
+    border-bottom: 2px solid #ce0000;
+}
+
+/*tab部分end*/
+
+/*活动说明start*/
+#to-action-desc {
+    position: absolute;
+    top: .88rem;
+    left: 1.15rem;
+    font-size: .13rem;
+    color:#ce0000;
+}
+
+.block-action-desc {
+    margin: .1rem;
+    padding: .1rem;
+    /* background-color: #f8e7c7; */
+    background-color: #f8e7c7;
+    border-radius: .06rem;
+    color:#ce0000;
+}
+.block-action-desc .desc-tit{
+    text-align: center;
+    font-size: .24rem;
+    font-weight:700;
+}
+/*活动说明end*/

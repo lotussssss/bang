@@ -1,0 +1,1016 @@
+html{
+	color:#000;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	background:transparent
+}
+html,body,h1,h2,h3,h4,h5,ul,li,div,header,section,footer,a,p,em{
+	padding:0;
+	margin:0
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal
+}
+body{
+	color:#000;
+	font-size:100%;
+	font-family:"Microsoft YaHei","Microsoft JhengHei",STHeiti,MingLiu;
+	font-size:16px;
+	background:transparent
+}
+img{
+	border:0
+}
+ul,li{
+	list-style-type:none
+}
+a:link{
+	text-decoration:none;
+	color:#000
+}
+a:visited{
+	color:#444
+}
+.icon-dj{
+	background:url(https://p.ssl.qhimg.com/t01bc347bfed13eeb19.png) no-repeat 0 0;
+	width:16px;
+	height:20px; 
+	vertical-align: middle;
+	background-size: 20px;
+}
+.icon-dj-1{background-position:0 -20px;}
+.icon-dj-2{background-position:0 -38px;}
+.icon-dj-3{background-position:0 -80px;}
+.icon-dj-4{background-position:0 -100px;}
+.f12{
+	font-size: 12px;
+}
+.clearfix:after{
+	display:block;
+	content:'';
+	clear:both;
+	visibility:hidden
+}
+.overflow{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis
+}
+.fleft{
+	float:left
+}
+.fright{
+	float:right
+}
+.talign{
+	text-align:center
+}
+.hide{
+	display:none
+}
+.show{
+	display:block
+}
+.bt_line{
+	border-bottom:1px solid #e4e4e4
+}
+.tcb_busin .basic_info{
+	padding:1px;
+	padding-bottom:5px;
+	background-color:#efefef
+}
+.tcb_busin .bcinfo_cont{
+	margin:7px;
+	background-color:#FFF;
+	border-radius:7px;
+	box-shadow:0 0 6px #AAA;
+	overflow: hidden;
+}
+.tcb_busin h1{
+	font-size:1.2em
+}
+.tcb_busin .location a,
+.tcb_busin .phone a{
+	display:block;
+	height:50px;
+	line-height:45px;
+	padding:5px;
+	position:relative;
+	padding-right:60px
+}
+.basic_info .location span,
+.basic_info .phone span{
+	display:block;
+	position:absolute;
+	top:3px;
+	right:10px;
+	width:45px;
+	height:45px
+}
+.basic_info .location span{
+	background:url(https://p.ssl.qhimg.com/d/_picassoysh/tcb/map_logo.png) no-repeat 50% 50%;
+	-webkit-background-size:100% auto;
+	background-size:100% auto
+}
+.basic_info .phone span{
+	background:url(https://p.ssl.qhimg.com/d/_picassoysh/tcb/phone_logo.png) no-repeat 50% 50%;
+	-webkit-background-size:100% auto;
+	background-size:100% auto
+}
+
+.tcb_busin .basic_info .contact_info,.tcb_busin .basic_info h1{
+	border-bottom:1px solid #e4e4e4;
+	height:50px;
+	line-height:50px
+}
+.tcb_busin .basic_info .busin_time{
+	margin:5px 0
+}
+.tcb_busin .busin_time{
+	padding:5px;
+	color:#b6b6b6
+}
+.tcb_busin .bus_list h5{
+	padding:5px;
+	background-color:#f1f1f1;
+	color:#666;
+	font-size:1em
+}
+#tabs{
+	border-top:1px solid #d7d7d7;
+	overflow:auto
+}
+#tabs li{
+	float:left;
+	width:50%
+}
+#tabs li a{
+	display:block;
+	text-align:center;
+	border-top:1px solid #e3e3e3;
+	background-color:#e2e2e2;
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#e0e0e0),color-stop(1,#FFF));
+	border-bottom:1px solid #cfd0c8;
+	font-size:17px
+}
+#tabs li #service_items{
+	border-left:1px solid #cfd0c8
+}
+#tabs .tab_current{
+	border-top:2px solid #7db93f;
+	border-left:1px solid #FFF;
+	background-image:none;
+	border-bottom:1px solid #FFF;
+	background-color:#FFF
+}
+#list-comments li,#list-container li{
+	padding:8px;
+	border-bottom:1px solid #e4e4e4
+}
+#list-comments>div{
+	overflow:hidden
+}
+#list-comments .eval{
+	float:right;
+	color:#b3b3b3
+}
+#list-comments .eval div{
+	font-family:"SimSun","Arial Narrow";
+	font-style:normal;
+	color:#ececeb
+}
+#list-comments .username,#list-comments .star{
+	display:inline-block
+}
+#list-comments .com{
+	line-height:26px;
+	margin-top:5px;
+	font-size:15px
+}
+#list-comments .star{
+	width:80px;
+	position:relative;
+	height:22px;
+	line-height:22px;
+	font-size:16px
+}
+#list-comments .star em{
+	position:absolute;
+	top:0;
+	left:0;
+	overflow:hidden;
+	color:#fccc7d;
+	font-family:"SimSun","Arial Narrow";
+	font-style:normal
+}
+#list-comments span{
+	padding:2px 3px;
+	background-color:#81bf1c;
+	border-radius:3px;
+	color:#FFF;
+	margin-right:5px
+}
+#list-comments .expect span{
+	background-color:#BBB
+}
+#list-comments .user_commen span{
+	background-color:#feac0a
+}
+#more-comments{
+	text-align:center
+}
+#more-comments a{
+	display:block;
+	padding:10px
+}
+#more-comments span{
+	text-align:center;
+	background-color:#FFF
+}
+.moredata{
+	color:#555;
+	font-size:13px
+}
+.tcb_busin .bus_list h4{
+	font-size:16px
+}
+.tcb_busin .bus_list .price{
+	color:#555
+}
+.tcb_busin .bus_list .price span{
+	margin:8px 0;
+	display:inline-block;
+	color:#ff6c00
+}
+.tcb_busin .bus_list .service_cont{
+	color:#999
+}
+.tcb_busin .bus_list li a{
+	padding:10px 15px 10px 5px;
+	display:block;
+	position:relative;
+	font-size:1em
+}
+#list-container li a:after{
+	content:'';
+	position:absolute;
+	top:50%;
+	right:10px;
+	width:10px;
+	height:10px;
+	margin-top:-5px;
+	border:#6ac038 solid;
+	border-width:2px 2px 0 0;
+	-webkit-transform:rotate(45deg)
+}
+.tcb_busin #more-container a{
+	display:block
+}
+.tcb_busin #more-container a,.tcb_busin #more-container span{
+	padding:10px;
+	text-align:center
+}
+.tcb_pro .pro_brief h5{
+	padding:5px;
+	background-color:#f1f1f1;
+	color:#666;
+	font-size:1em
+}
+.tcb_pro h1{
+	font-size:1.1em;
+	padding:0 5px
+}
+.tcb_pro .basic_info a{
+	display:block;
+	height:40px;
+	line-height:40px;
+	padding:5px 30px 5px 5px
+}
+.tcb_pro .basic_info .contact_info,.tcb_pro .basic_info h1{
+	height:50px;
+	line-height:50px
+}
+.tcb_pro .basic_info .busin_time{
+	margin:5px 0;
+	color:#666
+}
+.tcb_pro .basic_info .location{
+	background:url(https://p.ssl.qhimg.com/d/_picassoysh/tcb/map_logo.png) no-repeat 98% 50%;
+	background-size:12% auto
+}
+.tcb_pro .basic_info .phone{
+	background:url(https://p.ssl.qhimg.com/d/_picassoysh/tcb/phone_logo.png) no-repeat 98% 50%;
+	background-size:12% auto
+}
+.tcb_pro .busin_time{
+	padding:5px
+}
+.tcb_pro h4{
+	font-size:15px;
+	padding:0 5px
+}
+.tcb_pro .price{
+	height:50px;
+	line-height:50px;
+	color:#555;
+	padding:0 5px;
+	font-size:1em
+}
+.tcb_pro .price span{
+	color:#ff6c00;
+	position:static;
+	display:inline
+}
+.tcb_pro .basic_info .tit{
+	overflow:hidden;
+	border-bottom:1px solid #e4e4e4
+}
+.tcb_pro .basic_info .tit h1{
+	text-align:left
+}
+.tcb_pro .pro_brief p{
+	padding:5px;
+	color:#555;
+	line-height:1.7em
+}
+
+#list-comments  .com{
+    position: relative;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+#list-comments .com span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 25px;
+}
+
+.page-app-prd{
+	background:#EFEFEF;
+}
+
+.page-app-prd .bus_list .show{
+	background: #fff;	
+}
+.page-app-prd .tcb-prd-name{
+	margin-bottom: 10px;
+	box-shadow:  0 2px 5px #D0D0D0;
+	background: #fff;
+}
+.page-app-prd .pt-name{
+	padding: 16px;
+}
+
+.page-app-prd h1{
+	font-size: 1.4em;
+	margin-bottom: 2px;
+}
+.page-app-prd .pt-buy{
+	padding:10px 16px;
+	background: #FCFCFC;
+	border-top: 1px solid #eee;	
+	padding-bottom: 4px;
+}
+
+.page-app-prd .pt-left{
+	width: 44%;
+	float: left;
+	line-height: 58px;
+	
+}
+.page-app-prd .pt-price{
+	font-size: 1.5em;
+	color: #dd0000;
+}
+.page-app-prd .zhekou{
+	color: #dd0000;
+	font-size: 0.75em;
+}
+.page-app-prd .pt-right{
+	width: 56%;
+	float: right;
+	text-align: right;
+
+}
+.page-app-prd .service_cont{
+	color: #999999;
+	font-size: 14px;
+}
+.page-app-prd .pay-tip{
+	font-size: 12px;
+	color: #999;
+}
+
+.page-app-prd .go-buy{
+	background: #FE7A0B;
+	padding: 10px 30px;
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	border-radius: 4px;
+	border: 0;
+}
+.page-app-prd .go-buy:hover{
+	opacity: 0.9;
+}
+.page-app-prd .go-buy:active{
+	opacity: 0.8;
+}
+.page-app-prd .t360-zx-top{
+	padding: 10px 16px;
+	line-height: 1.6;
+	border-bottom: 1px solid #F0F0F0;
+	box-shadow: 0 1px 3px #F0F0F0;
+	margin-bottom: 3px;
+	padding-left: 74px;
+	background: url(https://p.ssl.qhimg.com/t010eaee398f9f492c7.png) no-repeat 10px center;
+	background-size: 60px;
+}
+.page-app-prd .t360-zx-top h2{
+	font-size: 1.3em;
+	color: #333;
+}
+.page-app-prd .t360-zx-top h3{
+	font-size: 16px;
+	color: #559900;
+}
+
+.page-app-prd .t360-zx-btm{
+	background-color: #FCFCFC;
+	padding: 10px 0;
+}
+
+.page-app-prd .t360-zx-btm .zxleft{
+	width: 50%;
+	float: left;
+	text-align: center;
+	box-shadow: 1px 0 0 #EDEDED;
+}
+.page-app-prd .t360-zx-btm .zxright{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.page-app-prd .t360-zx-btm .zx-pay,
+.page-app-prd .t360-zx-btm .zx-pay2{
+	display: inline-block;
+	text-align: left;
+	background: url(https://p.ssl.qhimg.com/t01ba76333b716c281c.jpg) no-repeat 0 0;
+	background-size: 42px;
+	padding-left: 50px;
+}
+.page-app-prd .t360-zx-btm .zx-pay2{
+	background-position: 0 -53px;
+}
+
+.page-app-prd .t360-zx-btm .tit-b{
+	font-size: 1.3em;
+	color: #2F8DDD;
+}
+.page-app-prd .t360-zx-btm .tit-s{
+	font-size: 12px;
+	color: #999;
+}
+.page-app-prd .t360-zx-btm .zx-pay .tit-b{
+	color: #80CC22;
+}
+
+.page-app-prd .t360-detail-top{
+	padding: 10px 16px;
+}
+.page-app-prd .t360-detail-top h2{
+	font-size: 1.3em;
+	color: #333;
+}
+
+.page-app-prd .t360-detail-btm{
+	padding: 0 16px 10px 16px;
+	font-size: 14px;
+	color: #999;
+	line-height: 1.2;
+}
+.page-app-prd .t360-detail-btm .see-d-box{
+	border-top: 1px solid #E4E4E4;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+.page-app-prd .t360-detail-btm .see-detail{
+	display: block;
+	position: relative;
+	color: #559900;
+	padding: 2px 0;
+}
+
+.page-app-prd .t360-detail-btm .see-detail:after{
+	border:#6ac038 solid;
+	border-width:2px 2px 0 0;
+	content:'';
+	width:10px;
+	height:10px;
+	margin-top:-8px;
+	position:absolute;
+	right:14px;
+	top:50%;
+	-webkit-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	transform:rotate(45deg);
+}
+
+.page-app-prd .t360-detail-btm .fw-item{
+	padding: 4px 0;
+}
+.page-app-prd .t360-detail-btm td{
+	vertical-align: top;
+}
+
+/*结算页*/
+.page-app-pconf .prd-tit{
+	padding: 10px 0;
+	font-size: 18px;
+	color: #333;
+}
+.page-app-pconf .prd-confirm{
+	width: 100%;
+}
+.page-app-pconf .trborder{
+	border-bottom: 1px dotted #CCCCCC;
+}
+.page-app-pconf .prd-confirm td{
+	padding: 6px 16px;	
+}
+.page-app-pconf .prd-confirm .cleft{
+	color: #999;
+	font-size:12px;
+	text-align: left;	
+}
+.page-app-pconf .prd-confirm .cright{
+	color: #474747;
+	font-size:20px;
+	text-align: right;	
+	padding-left: 0;
+}
+
+.page-app-pconf .prd-confirm .money-s{
+	font-size: 16px;
+}
+
+.page-app-pconf .buy-num{
+	font-size: 20px;
+	border: 1px solid #eee;
+	width: 40px;
+	text-align: center;
+}
+
+.page-app-pconf .prd-confirm .prd-amount{
+	color: #dd0000;
+}
+
+.page-app-pconf .pb10{
+	padding-bottom: 10px !important;
+}
+.page-app-pconf .tit2{
+	font-size: 14px;
+	color: #999;
+	padding: 10px;
+	padding-bottom: 0;
+}
+.page-app-pconf .tit3{
+	font-size: 12px;
+	color: #999;
+	padding: 10px;
+}
+
+.page-app-pconf .pay-m-choice{
+	padding: 10px;
+	border-bottom: 1px dotted #D3D3D3;
+}
+
+.page-app-pconf .no-b-btm{ border-bottom: 0 !important;}
+
+.page-app-pconf .pay-m-rad{
+	float: right;
+	width: 24px;
+	height: 24px;
+	border: 2px solid #e6e6e6;
+	border-radius: 12px;
+}
+
+.page-app-pconf .pay-m-rad:checked{
+	border-color: #89CC12;
+	background: url(https://p.ssl.qhimg.com/t018164359d3cb706e3.png) no-repeat center;
+	background-size: 24px;
+
+}
+
+.page-app-pconf .ser-m-rad{		
+	width: 24px;
+	height: 24px;
+	border: 2px solid #e6e6e6;
+	border-radius: 12px;
+	margin: 0;
+}
+
+.page-app-pconf .ser-m-rad:checked{
+	border-color: #89CC12;
+	background: url(https://p.ssl.qhimg.com/t018164359d3cb706e3.png) no-repeat center;
+	background-size: 24px;
+
+}
+
+.page-app-pconf .pay-m-info{
+	margin-right: 30px;
+	padding-left: 74px;
+	background: url(https://p.ssl.qhimg.com/t0169579ca50ffd2405.png) no-repeat 0 0;
+	background-size: 62px;
+	height: 40px;
+}
+.page-app-pconf .pay-m-online{
+	background-position: 0 -60px;
+}
+
+.page-app-pconf .pay-tip{
+	font-size: 10px;
+	color: #999;
+}
+
+.page-app-pconf .buy-mobile{
+	width: 100%;
+	border: 1px solid #ddd;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	border-radius: 3px;
+	box-shadow: -1px -1px 0px #aaa;
+}
+.page-app-pconf .buy-mobile::-webkit-input-placeholder,
+.page-app-pconf .buy-mobile::input-placeholder{
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #bbb;
+}
+
+.page-app-pconf .bottom-buy{
+	background: #fff;
+	padding: 10px;
+	position: fixed;	
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-top: 1px solid #eee;
+	box-shadow: 0 -1px 5px #eee;
+}
+
+.page-app-pconf .blank-place{
+	height: 60px;
+}
+
+.page-app-pconf .bb-left{
+	float: left;
+	width: 60%;
+	font-size: 14px;
+	color: #999;
+	line-height: 34px;
+}
+.page-app-pconf .bb-right{
+	float: right;
+	width: 40%;
+	text-align: right;
+}
+
+.page-app-pconf .bottom-buy .money-spm{
+	font-size: 12px;
+}
+
+.page-app-pconf .bottom-buy .money-amount,
+.page-app-pconf .bottom-buy .ma-price{
+	color: #dd0000;
+}
+
+.page-app-pconf .ma-price{
+	font-size: 24px;
+}
+
+.page-app-pconf .server-m-choice{
+	padding: 10px 16px;
+	font-size: 12px;
+	color: #999;
+	width: 100%;
+}
+.page-app-pconf .server-m-choice .sleft{
+	white-space: nowrap;
+	word-break: keep-all;
+	padding: 4px 16px;	
+	line-height: 1.4;
+}
+
+.page-app-pconf .server-m-choice .sright{
+	text-align: right;
+}
+
+.page-app-pconf .server-m-choice label{
+	font-size: 12px;
+	color: #666;
+}
+
+.page-app-pconf .ser-m-c{
+	float: right;
+}
+.page-app-pconf .ser-m-c td{
+	padding: 6px 16px;	
+	text-align: center;
+}
+
+
+.page-app-pconf .ser-fee{
+	color: #999;
+	font-size: 10px;
+}
+
+.page-app-pconf .buy-num-spiner{
+	padding: 10px 16px;
+}
+.page-app-pconf .buy-num-more,
+.page-app-pconf .buy-num-less{
+	display: inline-block;
+	vertical-align: middle;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	background: #FA8624;
+	color: #fff;	
+	border-radius: 4px;
+	font-size: 28px;		
+}
+.page-app-pconf .buy-num-more:active,
+.page-app-pconf .buy-num-less:active{
+	opacity: 0.7;
+}
+.page-app-pconf .buy-num-more{
+	margin-left: 6px;
+}
+.page-app-pconf .buy-num-less{
+	margin-right: 6px;
+}
+.page-app-pconf .buy-num-disable{
+	background: #DEDEDE;
+	color: #fff;
+}
+
+/*支付成功*/
+.page-app-done{
+
+}
+
+.page-app-done .done-box{
+	padding: 30px;
+}
+
+.page-app-done .tit-ok{
+	color: #559900;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 50px;
+	background: url(https://p.ssl.qhimg.com/t0127b449aa1b392305.png) no-repeat 0 0;
+	background-size: 40px;
+}
+
+.page-app-done .tit-ok2{
+	font-size: 14px;
+	line-height: 2.2;
+}
+
+.page-app-done .send-tip{
+	margin-top: 10px;
+	font-size: 14px;
+	color: #999;
+}
+
+.page-app-done .send-tip2{
+	font-size: 14px;
+	color: #999;
+	margin-top: 60px;
+	line-height: 1.68;
+}
+
+.page-app-done .btn-send{
+	border: 2px solid #7FB714;
+	font-size: 16px;
+	padding: 6px 20px;
+	color: #fff;
+	display: inline-block;
+	border-radius: 6px;
+	background-color: #7FB714;
+}
+
+.page-app-done .btn-send:hover{
+	opacity: 0.9;
+}
+.page-app-done .btn-send:active{
+	opacity: 0.8;
+}
+.page-app-done .tit-wait{
+	background: none;
+	color: #ff6600;
+	padding-left: 0;
+}
+
+.page-app-done .btn-send-pay{
+	
+}
+
+.page-app-done .doen-pending{
+	text-align: center;
+}
+
+.page-app-done .doen-pending .btn-send{
+	background-color: #FFAF34;
+	border-color: #FFAF34;
+}
+
+/*=================列表================*/
+.page-app-list{
+	background: #EFEFEF;
+}
+
+.page-app-list .section-header{
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	color: #333333;	
+	text-align: center;
+	box-shadow: 0 1px 4px #D4D4D4;	
+	background: #fff url(https://p.ssl.qhimg.com/t017c81a25eb8aadc69.png) no-repeat 0 3px;
+	background-size: auto 40px;
+	padding-left: 100px;
+}
+
+.page-app-list .money-symbol{
+	color: #dd0000;
+	font-size: 12px;
+}
+.page-app-list .money-20{
+	color: #dd0000;
+	font-size: 20px;
+}
+.page-app-list .money-14{
+	color: #dd0000;
+	font-size: 14px;
+}
+.page-app-list .money-12{
+	color: #dd0000;
+	font-size: 12px;
+}
+
+.page-app-list .section-func{
+	margin: 6px 0;
+}
+.page-app-list .func-table{
+	width: 100%;
+}
+
+.page-app-list .func-table td{
+	padding: 2px 0;
+	text-align: center;
+}
+.page-app-list .func-table .func-item{
+	display: inline-block;
+	height: 36px;
+	line-height: 36px;
+	padding-left: 40px;
+	background: url(https://p.ssl.qhimg.com/t01146d5462faeb0ed2.png) no-repeat 0 0;
+	background-size: 36px;
+	font-size: 14px;
+}
+
+.page-app-list .list-tab{
+	
+}
+.page-app-list .list-tab li{
+	float: left;
+	width: 33.33%;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	font-size: 14px;
+	background-color: #E9E9E9;
+	background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #F1F1F1), color-stop(1, #DFDFDF));
+
+	border-top: 1px solid #CECECE;
+	border-bottom: 1px solid #CDCDCD;
+}
+
+.page-app-list .list-tab li div{
+
+}
+
+.page-app-list .list-tab .rline{
+	border-right: 1px solid #C6C6C6;
+}
+
+.page-app-list .list-tab .on{
+	border-top-color: #83B644;
+	border-bottom-color: #F1F1F1;
+	background: #fff;
+}
+
+.page-app-list .list-show{
+	background: #fff;
+	line-height: 28px;
+}
+.page-app-list .list-show li{
+	padding: 10px 10px 6px 10px;
+	border-bottom: 1px solid #CECECE;
+	position: relative;
+}
+.page-app-list .list-show li:after{
+	border:#6ac038 solid;
+	border-width:2px 2px 0 0;
+	content:'';
+	width:10px;
+	height:10px;
+	margin-top:-5px;
+	position:absolute;
+	right:14px;
+	top:50%;
+	-webkit-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	transform:rotate(45deg);
+}
+
+.page-app-list .list-show li:hover{
+	background: #FCFCED;
+}
+.page-app-list .list-show li:active{
+	background: #FFFFD6;
+}
+
+.page-app-list .list-show .iright{
+	float: right;
+	width: 90px;
+}
+
+.page-app-list .list-show .ileft{
+	margin-right: 100px;
+}
+
+.page-app-list .list-show .distance{
+	font-size: 12px;
+	color: #327d39;
+}
+
+.page-app-list .list-show .tit1{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	word-break: keep-all;
+	font-size: 16px;
+	color: #333;
+}
+.page-app-list .list-show .info{
+	font-size: 14px;
+	color: #999;
+}
+
+.page-app-list .list-show .level{
+	
+}
+
+.page-app-list .page-bar{
+	color: #666;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	text-align: center;
+	background-color: #fafafa;
+	background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #f0f0f0));
+	border-bottom: 1px solid #ddd;
+}
+
+.page-app-list .page-bar:active{
+	background: #FCFADE;
+}
+
+/*商品详情*/
+.page-app-pdt{}
+
+.page-app-pdt .product-detail{
+	padding: 10px;
+	font-size: 12px;
+}
+
+.page-app-pdt .prd-name{
+	clear:both;		
+	border-bottom: 1px solid #ddd;
+	white-space: nowrap;
+	word-break: keep-all;
+	font-size: 40px;
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+
+.page-app-pdt .product-detail img{ max-width: 320px; }

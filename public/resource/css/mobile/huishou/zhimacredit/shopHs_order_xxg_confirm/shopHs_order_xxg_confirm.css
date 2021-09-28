@@ -1,0 +1,32 @@
+.page-zhimacredit-shopHs-order-xxg-confirm {
+}
+
+.page-zhimacredit-shopHs-order-xxg-confirm .block-zhimacredit-shophs-top-tips {
+    padding-top: .1rem;
+    height: 1.5422222222222222rem;
+    background: url(https://p0.ssl.qhmsg.com/t0115daafb3e7a98f39.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+.page-zhimacredit-shopHs-order-xxg-confirm .block-zhimacredit-shophs-top-tips h3{
+    line-height: 2;
+    font-size: .34rem;
+    color: #fff;
+}
+.page-zhimacredit-shopHs-order-xxg-confirm .block-zhimacredit-shophs-top-tips p{
+    font-size: .14rem;
+}
+
+.page-zhimacredit-shopHs-order-xxg-confirm .block-zhimacredit-shophs-qrcode {
+    position: relative;
+    height: 1.8222222222222222rem;
+    background: url(https://p4.ssl.qhmsg.com/t01b6132ebcd19f412e.png) no-repeat center;
+    background-size: cover;
+}
+.page-zhimacredit-shopHs-order-xxg-confirm .block-zhimacredit-shophs-qrcode img{
+    position: absolute;
+    top: 0.12rem;
+    left: 1.12rem;
+    width: .95rem;
+    height: .95rem;
+}

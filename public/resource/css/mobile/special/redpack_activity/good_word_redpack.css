@@ -1,0 +1,153 @@
+.page-good-word {
+    background: linear-gradient(to right, #C92728 2%, #DC3736  15%, #DC3736  87%, #C92728);
+}
+
+.page-good-word .block1{
+    width: 3.2rem;
+    height: 2.33rem;
+}
+.page-good-word .block1 img {
+    width: 100%;
+    height: 100%;
+}
+.page-good-word .block2 .input-line {
+    width: 2.4rem;
+    height: .4rem;
+    margin: 0 auto .1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.page-good-word .block2 .input-line input {
+    box-sizing: border-box;
+    border-style: none;
+    background-color: #fff;
+    padding: .15rem 0 .15rem .15rem;
+    height: 100%;
+}
+.page-good-word .block2 .input-line .phone-num {
+    flex: 1;
+}
+.page-good-word .block2 .input-line .input-v-code,
+.page-good-word .block2 .input-line .input-phone-code {
+    width: 1.5rem;
+}
+.page-good-word .block2 .btn-send-code {
+    height: 100%;
+    line-height: .4rem;
+    width: .82rem;
+    background-color: #ecd65b;
+    margin-left: .08rem;
+    text-align: center;
+}
+.page-good-word .block2 .vcode-img{
+    height: 100%;
+    width: .82rem;
+    margin-left: .08rem;
+}
+
+.page-good-word .block2 .btn-get-redpack1{
+    display: block;
+    width: 2.4rem;
+    height: .525rem;
+    margin: .25rem auto;
+    border-style: none;
+    background: url("https://p3.ssl.qhmsg.com/t019c1eeb98930b820b.png") no-repeat 0 0/100% 100%;
+}
+.page-good-word .block2 .btn-get-sms-code-disabled{
+    background-color: #fff;
+    color: #aaa;
+}
+
+
+
+
+
+
+
+
+
+
+.page-good-word  .block-after-get-package {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.7);
+    display: none;
+}
+
+.page-good-word  .block-after-get-package .package-wrap{
+    width: 80%;
+    margin: 1rem auto 0;
+    background-color: #D83334;
+    border-radius: .08rem;
+}
+.page-good-word  .block-after-get-package .package-wrap .package-wrap-inner {
+    position: relative;
+    padding-bottom: .15rem;
+}
+.page-good-word  .block-after-get-package .package-wrap .btn-close{
+    position: absolute;
+    right: -.2rem;
+    top: -.4rem;
+    width: .35rem;
+    height: .35rem;
+    line-height: .35rem;
+    border: .01rem solid #fff;
+    border-radius: 1rem;
+    font-size: .30rem;
+    color: #fff;
+    text-align: center;
+
+}
+.page-good-word  .block-after-get-package .package-wrap .block-top {
+
+}
+.page-good-word  .block-after-get-package .package-wrap .block-top img {
+    width: 100%;
+    height: 100%;
+}
+.page-good-word  .block-after-get-package .package-wrap .block-text {
+    padding: .1rem;
+    margin: 0 .1rem;
+    text-align: center;
+    background-color: #EBD491;
+    border-radius: .05rem;
+    color: #965b20;
+    font-size: .13rem;
+}
+.page-good-word  .block-after-get-package .package-wrap .block-text .congratulate {
+    font-size: .3rem;
+}
+.page-good-word  .block-after-get-package .package-wrap .block-text .reward {
+    font-size: .15rem;
+}
+.page-good-word  .block-after-get-package .package-wrap .block-text .money {
+    color: #743e15;
+}
+.page-good-word  .block-after-get-package .package-wrap .block-text .num {
+    font-size: .40rem;
+}
+.page-good-word  .block-after-get-package .package-wrap .remain-num {
+    color: #EBD491;
+    font-size: .14rem;
+    text-align: center;
+    padding: .07rem 0;
+}
+.page-good-word  .block-after-get-package .package-wrap .get-redpack-wrap {
+    width: 80%;
+    margin:0 auto;
+}
+.page-good-word  .block-after-get-package .package-wrap .btn-get-redpack {
+    display: block;
+    width: 100%;
+    height: .5rem;
+    line-height: .5rem;
+    text-align: center;
+    text-decoration: none;
+    color:#743e15;
+    font-size: .20rem;
+    background: url("https://p3.ssl.qhmsg.com/t01d56f76cf54a1dea9.png") no-repeat center;
+    background-size: 100% 100%;
+}

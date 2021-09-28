@@ -1,0 +1,224 @@
+html,body{
+    background: #fff;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+.relative{
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+.page-qiye-huishou a:hover{
+    text-decoration: none;
+}
+.clearfix:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.clearfix{
+    zoom:1;
+}
+.w100{width: 100%;}
+.fl{ float:left;}
+.fr{ float:right;}
+
+.block-inner{
+    width:1200px;
+    margin: 0 auto;
+}
+
+.page-qiye-huishou .block1,.page-qiye-huishou .block1 .block-inner{
+    height: 399px;
+    background: url("https://p.ssl.qhimg.com/t01f8158b3be39f96c1.jpg") no-repeat center 0;
+}
+.page-qiye-huishou .btn-write-info{
+    width: 246px;
+    height: 60px;
+    position: absolute;
+    left: 475px;
+    top: 239px;
+}
+.page-qiye-huishou .block-tit{
+    padding-top: 70px;
+    text-align: center;
+}
+.page-qiye-huishou .block-tit .title{
+    font-size: 38px;
+    color: #333;
+    padding-bottom: 20px;
+}
+.page-qiye-huishou .block-tit .desc{
+    font-size: 16px;
+    color: #666;
+}
+
+.page-qiye-huishou .block2 .block-inner{
+    padding-bottom: 64px;
+}
+.page-qiye-huishou .border-b{
+    border-bottom: 1px solid #ebebeb;
+}
+.page-qiye-huishou .phone-list{
+    padding-top: 43px;
+    width: 1116px;
+    margin: 0 auto;
+}
+.page-qiye-huishou .phone-list li{
+    float: left;
+    /*width: 130px;*/
+    width: 96px;
+    text-align: center;
+    margin: 0 45px;
+}
+.page-qiye-huishou .phone-list div{
+    width: 86px;
+    height: 75px;
+    background: url("https://p.ssl.qhimg.com/t01bf37d4a0c220e35b.jpg") no-repeat 0 0;
+    margin: 0 auto;
+}
+.page-qiye-huishou .phone-list .phone-pic2{
+    background-position-x:-182px ;
+}
+.page-qiye-huishou .phone-list .phone-pic3{
+    background-position-x:-370px ;
+}
+.page-qiye-huishou .phone-list .phone-pic4{
+    background-position-x:-548px ;
+}
+.page-qiye-huishou .phone-list .phone-pic5{
+    background-position-x:-726px ;
+}
+.page-qiye-huishou .phone-list .phone-pic6{
+    background-position-x:-913px ;
+}
+.page-qiye-huishou .phone-list .phone-name{
+    font-size: 16px;
+    color: #333;
+    padding-top: 15px;
+}
+
+.page-qiye-huishou .step-list{
+    padding-top: 43px;
+    /*width: 1116px;*/
+    margin: 0 auto;
+}
+.page-qiye-huishou .step-list li{
+    float: left;
+    /*width: 130px;*/
+    width: 300px;
+    text-align: center;
+    /*margin: 0 50px;*/
+}
+.page-qiye-huishou .step-list div{
+    width: 90px;
+    height: 91px;
+    background:url("https://p.ssl.qhimg.com/t0168739c4fd3fafe5f.jpg") no-repeat 0 1px;
+    margin: 0 auto;
+}
+.page-qiye-huishou .step-list .step-pic1{
+    background-position-x:-114px ;
+}
+.page-qiye-huishou .step-list .step-pic2{
+    background-position-x:-410px ;
+}
+.page-qiye-huishou .step-list .step-pic3{
+    background-position-x:-708px ;
+}
+.page-qiye-huishou .step-list .step-pic4{
+    background-position-x:-995px ;
+}
+.page-qiye-huishou .step-list .step-tit{
+    font-size: 20px;
+    color: #333;
+    padding: 20px 0 16px;
+}
+.page-qiye-huishou .step-list .step-info{
+    font-size: 14px;
+    color: #666;
+}
+.page-qiye-huishou .block3 .block-inner{
+    padding-bottom: 50px;
+}
+.page-qiye-huishou .submit-huishou-form{
+    width: 794px;
+    margin: 50px auto;
+}
+.page-qiye-huishou input{
+    width: 744px;
+    height: 56px;
+    margin-bottom: 28px;
+    padding: 0 25px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+.page-qiye-huishou .secode{
+    width: 590px;
+}
+.page-qiye-huishou .secode-pic{
+    width: 140px;
+}
+.page-qiye-huishou .re-info{
+    width: 744px;
+    height: 140px;
+    margin-bottom: 28px;
+    padding: 25px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+}
+.page-qiye-huishou .submit{
+    width: 246px;
+    height: 58px;
+    background: #54bf8d;
+    color: #fff;
+    text-align: center;
+    line-height: 58px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.page-qiye-huishou .form-succ-tip{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.page-qiye-huishou .form-succ-tip-inner{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -80px;
+    width: 520px;
+    height: 160px;
+    background: #fff;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px;
+}
+.page-qiye-huishou .form-succ-btn{
+    width: 150px;
+    height: 50px;
+    background: #54bf8d;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.page-qiye-huishou .block5 .block-inner{
+    padding-bottom: 50px;
+    text-align: center;
+}
+.page-qiye-huishou .ewm{
+    padding-top: 32px;
+}

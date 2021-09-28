@@ -1,0 +1,26 @@
+.block-assess_report-offer .block-inner{
+    background-color: #fff;
+}
+.block-assess_report-offer .row{
+    height: .44rem;
+    line-height: .44rem;
+    color: #666;
+}
+.block-assess_report-offer .col-2-1{
+    position: relative;
+    padding:0 .1rem;
+}
+.block-assess_report-offer .col-3-1 span{
+    color: #f50;
+}
+
+.block-assess_report-offer .highest{
+    position: absolute;
+    top: .04rem;
+    left: .8rem;
+    background-color: #FF6600;
+    color: #fff;
+    font-size: .1rem;
+    line-height: 1.4;
+    padding: 0 .02rem;
+}

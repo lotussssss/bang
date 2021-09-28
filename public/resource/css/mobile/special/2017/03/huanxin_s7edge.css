@@ -1,0 +1,96 @@
+.page-hd-huanxin-s7edge {
+}
+
+.page-hd-huanxin-s7edge .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+    background-color: #f5f5f4;
+    color: #333;
+    font-size: .12rem;
+}
+
+.page-hd-huanxin-s7edge .block {
+    width: 100%;
+    text-align: center;
+}
+
+.page-hd-huanxin-s7edge .block1 {
+    height: 2rem;
+    background: #bda97b url(https://p0.ssl.qhmsg.com/t011a21820b957611ba.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.page-hd-huanxin-s7edge .block2 {
+    height: 2.5644444444444443rem;
+    background:#bda97b url(https://p0.ssl.qhmsg.com/t019dd657e63a99d06a.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.page-hd-huanxin-s7edge .block3 {
+    height: 1.6rem;
+    background: url(https://p1.ssl.qhmsg.com/t0117634b236746d3a5.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.page-hd-huanxin-s7edge .btn-liji-huanxin-trigger{
+    position: absolute;
+    left: 0.28888888888888886rem;
+    bottom: .3rem;
+    width: 2.8rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: .24rem;
+    color: #fff;
+    background: #db4633;
+    font-weight: bold;
+    text-align: center;
+}
+
+.page-hd-huanxin-s7edge .block5 {
+    background: url(https://p1.ssl.qhmsg.com/t01d3704a5f0ce15031.jpg) no-repeat center .9rem;
+    background-size: contain;
+    font-size: .14rem;
+}
+
+.page-hd-huanxin-s7edge .block5 .support-city {
+    margin-top: -.14rem;
+}
+
+.page-hd-huanxin-s7edge .block5 .post-address {
+    margin-top: .2rem;
+}
+
+.page-hd-huanxin-s7edge .block4 {
+    padding-top: .2rem;
+    padding-bottom: .3rem;
+    text-align: left;
+}
+
+.page-hd-huanxin-s7edge .block4 h3 {
+    margin-bottom: .1rem;
+    font-size: .22rem;
+    text-align: center;
+}
+
+.page-hd-huanxin-s7edge .block4 ul{
+    padding: 0 .12rem 0 .26rem;
+    list-style-type: decimal;
+}
+.page-hd-huanxin-s7edge .block4 ul li{
+    margin-bottom: .1rem;
+}
+.page-hd-huanxin-s7edge .block4 .tips {
+    line-height: 3;
+    /*font-size: .14rem;*/
+    text-align: center;
+}
+.page-hd-huanxin-s7edge .block4 .contact-tel {
+    line-height: 3;
+    text-align: center;
+    font-size: .18rem;
+}
+
+
+

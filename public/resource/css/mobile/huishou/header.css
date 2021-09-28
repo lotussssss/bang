@@ -1,0 +1,115 @@
+/*header*/
+header.header {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 1080px;
+    width: 100%;
+    /*height: .44rem;*/
+    /*height: auto;*/
+    background-color: #fff;
+}
+
+header.header.header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin: 0 auto;
+    max-width: 1080px;
+    min-width: 320px;
+}
+
+header.header .header-status-bar {
+    background-color: transparent;
+}
+
+header.header .header-inner {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 320px;
+    height: .44rem;
+    line-height: .44rem;
+    color: #fff;
+    background-color: transparent;
+}
+
+/*header中间内容*/
+header.header .header-inner .h-center {
+    text-align: center;
+    color: #333;
+    font-size: .14rem;
+}
+
+/*header左侧内容*/
+header.header .header-inner .h-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/*返回icon*/
+header.header .header-inner .h-left .icon-back2,
+header.header .header-inner .h-left .icon-close,
+header.header .header-inner .h-left .icon-back4 {
+    display: inline-block;
+    width: .44rem;
+    height: .44rem;
+    line-height: .44rem;
+    text-align: center;
+    vertical-align: top;
+    font-size: .3rem;
+    color: #666;
+}
+
+header.header .header-inner .h-left .icon-close,
+header.header .header-inner .h-left .icon-back4 {
+    font-size: .2rem;
+}
+
+header.header .header-inner .h-left .icon-back2:hover,
+header.header .header-inner .h-left .icon-back2:active,
+header.header .header-inner .h-left .icon-close:hover,
+header.header .header-inner .h-left .icon-close:active,
+header.header .header-inner .h-left .icon-back4:hover,
+header.header .header-inner .h-left .icon-back4:active {
+    opacity: .8;
+    text-decoration: none;
+}
+
+/*header右侧内容*/
+header.header .header-inner .h-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: .14rem;
+    color: #fff;
+}
+
+header.header .header-inner .h-right span,
+header.header .header-inner .h-right span:hover,
+header.header .header-inner .h-right a,
+header.header .header-inner .h-right a:hover {
+    padding: 0;
+    display: block;
+    text-decoration: none;
+}
+
+/*header placeholder*/
+.header-placeholder {
+    font-size: 0;
+}
+
+.header-placeholder .header-status-bar-placeholder {
+    height: 0;
+    transition: height .1s;
+}
+
+.header-placeholder .header-nav-bar-placeholder {
+    height: .44rem;
+    transition: height .1s;
+}
+

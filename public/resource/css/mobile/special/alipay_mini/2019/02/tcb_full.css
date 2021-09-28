@@ -1,0 +1,178 @@
+.page-hd-alipay-credit-full {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(#c1d0ff, #c1d0ff), linear-gradient(#fff8eb, #fff8eb);
+    line-height: 1;
+}
+
+/* 顶部头图 */
+.page-hd-alipay-credit-full .mainbody .top-banner {
+    width: 100%;
+    height: 1.08rem;
+    background: url(https://p0.ssl.qhmsg.com/t01aa40ada297fe384b.png) no-repeat;
+    background-size: contain;
+}
+
+/* 活动标题框样式 start */
+.page-hd-alipay-credit-full .active-h3-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 线块 */
+.page-hd-alipay-credit-full .active-h3-title .line-block {
+    width: .5rem;
+    height: 1px;
+    background-color: #2320c5;
+    position: relative;
+}
+
+.page-hd-alipay-credit-full .active-h3-title .line-block:after {
+    content: '';
+    width: .04rem;
+    height: .04rem;
+    position: absolute;
+    top: 0;
+    right: -.06rem;
+    transform: rotate(45deg) translate(-66%, 0);
+    background-color: #2320c5;
+}
+
+/* 左边的线 */
+.page-hd-alipay-credit-full .active-h3-title .line-block.left {
+    margin-right: .12rem;
+}
+
+/* 右边的线 */
+.page-hd-alipay-credit-full .active-h3-title .line-block.right {
+    transform: rotate(180deg);
+    margin-left: .14rem;
+}
+
+/* 活动标题框 end */
+
+/* 活动介绍说明 */
+.page-hd-alipay-credit-full .mainbody .activity-container {
+    padding: .26rem .09rem;
+}
+
+.page-hd-alipay-credit-full .mainbody .activity-container .info h3{
+    color: #2320c5;
+    font-size: .16rem;
+    font-weight: bold;
+}
+
+.page-hd-alipay-credit-full .mainbody .activity-container .tips {
+    margin-top: .09rem;
+    font-size: .11rem;
+    color: #333;
+    text-align: center;
+}
+
+/* 奖品列表 */
+.page-hd-alipay-credit-full .mainbody .full-prize-list {
+    padding: 0 .09rem;
+}
+
+.page-hd-alipay-credit-full .mainbody .full-prize-list .prize-item {
+    margin-top: .11rem;
+    width: 3.03rem;
+    height: .72rem;
+    padding: 0 .1rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: #2320c5;
+    border-radius: .06rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.page-hd-alipay-credit-full .full-prize-list .prize-item:first-child {
+    margin-top: 0;
+}
+
+/* 前面加价金额 */
+.page-hd-alipay-credit-full .full-prize-list .prize-item .prize-plus {
+    width: .64rem;
+    display: flex;
+    align-items: center;
+}
+
+.page-hd-alipay-credit-full .full-prize-list .prize-item .prize-plus .symbol {
+    font-size: .12rem;
+    height: .28rem;
+    line-height: .4rem;
+    margin-right: .04rem;
+}
+
+.page-hd-alipay-credit-full .full-prize-list .prize-item .prize-plus .price {
+    font-size: .28rem;
+}
+
+/* 奖品信息 */
+.page-hd-alipay-credit-full .full-prize-list .prize-item .prize-info {
+    width: 2.3rem;
+}
+
+/* 信息标题 */
+.page-hd-alipay-credit-full .full-prize-list .prize-item .prize-info .info-title {
+    font-size: .12rem;
+    font-weight: bold;
+}
+
+/* 奖品描述 */
+.page-hd-alipay-credit-full .full-prize-list .prize-item .prize-info .prize-desc {
+    font-size: .1rem;
+    line-height: 1.1;
+    margin-top: .07rem;
+}
+
+/* 奖品标签 */
+.page-hd-alipay-credit-full .full-prize-list .prize-item .prize-tag {
+    padding: .04rem .2rem;
+    font-size: .1rem;
+    position: absolute;
+    top: .06rem;
+    right: -.18rem;
+    transform: rotate(40deg);
+    background-color: #ff0000;
+}
+
+/* 特等奖 */
+.page-hd-alipay-credit-full .full-prize-list .prize-item.full-price {
+    background-color: #ff0000;
+}
+
+.page-hd-alipay-credit-full .full-prize-list .prize-item.full-price .full-icon {
+    width: .60rem;
+    height: .44rem;
+    background: url(https://p2.ssl.qhmsg.com/t012ca0c015b1c3ca79.png) no-repeat;
+    background-size: contain;
+}
+
+.page-hd-alipay-credit-full .full-prize-list .prize-item.full-price .prize-tag {
+    color: #ff0000;
+    background-color: #ffe400;
+}
+
+/* 底部活动规则 */
+.page-hd-alipay-credit-full .mainbody .activity-rule {
+    padding: .23rem .09rem;
+}
+
+.page-hd-alipay-credit-full .mainbody .activity-rule .rule-list {
+    margin-top: .21rem;
+}
+
+.page-hd-alipay-credit-full .mainbody .activity-rule .rule-list .rule-item {
+    font-size: .11rem;
+    line-height: 1.4;
+    margin-bottom: .14rem;
+}
+
+.page-hd-alipay-credit-full .mainbody .activity-rule .rule-list .rule-item:last-child {
+    margin-bottom: 0;
+}
+

@@ -1,0 +1,370 @@
+/*修修哥订单详情页*/
+.page-xxg-order-detail{}
+.page-xxg-order-detail *{
+    user-select: text;
+}
+.page-xxg-order-detail .marked{
+    color: #ff8844;
+}
+.page-xxg-order-detail .align-right{
+    text-align: right;
+}
+.page-xxg-order-detail .mainbody-inner{
+    margin-bottom: 1.1rem;
+}
+.page-xxg-order-detail .swipe-section{
+    position: fixed;
+}
+
+.page-xxg-order-detail .flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.page-xxg-order-detail .flex-col{
+    flex-basis: 100%;
+    flex-shrink: 1;
+}
+.page-xxg-order-detail .flex-col-fixed{
+    flex-shrink: 0;
+}
+.page-xxg-order-detail .icon-take-photo{
+    display: block;
+    width: .3rem;
+    height: .3rem;
+    background: url(https://p5.ssl.qhimg.com/t01ad0bbe2ac475b3fe.png) no-repeat center;
+    background-size: 60% 60%;
+}
+
+
+/*弹窗*/
+.page-xxg-order-detail .dialog-wrap{
+    padding: .3rem .1rem .25rem;
+    border-radius: .04rem;
+    border: 0;
+    background-color: #fff;
+}
+.page-xxg-order-detail .dialog-wrap .item-tit{
+    font-size: .12rem;
+    color: #666;
+}
+.page-xxg-order-detail .dialog-wrap .row{
+    padding: .03rem 0;
+    line-height: .36rem;
+}
+.page-xxg-order-detail .dialog-wrap .col-left-fixed{
+    width: .75rem;
+    line-height: .36rem;
+    color: #666;
+}
+.page-xxg-order-detail .dialog-wrap .col-right{
+    margin-left: .75rem;
+}
+.page-xxg-order-detail .dialog-wrap .btn{
+    margin-top: .15rem;
+    width: 100%;
+    height: .36rem;
+    background-color: #ff8844;
+    font-size: .14rem;
+}
+/*hs_detail、hs_sku*/
+.page-xxg-order-detail .dialog-wrap .tab-list{
+    padding: 0;
+    border-radius: 999px;
+    overflow: hidden;
+}
+.page-xxg-order-detail .dialog-wrap .tab-list .item{
+    height: .3rem;
+    line-height: .3rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: .12rem;
+    color: #fff;
+    background-color: #ddd;
+}
+.page-xxg-order-detail .dialog-wrap .tab-list .item-cur{
+    /*background-color: #4a7;*/
+    background-color: #16a654;
+}
+.page-xxg-order-detail .dialog-wrap .tab-cont{
+    padding-top: .1rem;
+    font-size: .12rem;
+}
+.page-xxg-order-detail .dialog-wrap .tab-cont .selected-txt{
+    padding-left: .12rem;
+}
+.page-xxg-order-detail .dialog-wrap .hs-detail .item-tit{
+    display: inline-block;
+    width: 28%;
+    vertical-align: middle;
+    line-height: 1.2;
+}
+.page-xxg-order-detail .dialog-wrap .hs-detail .input-radius,
+.page-xxg-order-detail .dialog-wrap .hs-detail .selected-txt{
+    display: inline-block;
+    width: 70%;
+    vertical-align: middle;
+}
+
+/*免检修修哥精细评估*/
+.page-xxg-order-detail .dialog-wrap .hs-detail .tit{
+    font-size: .14rem;
+    color: #4a7;
+    border-left: 5px solid #4a7;
+    padding-left: .1rem;
+    margin-top: .1rem;
+}
+.page-xxg-order-detail .dialog-wrap .hs-detail .row-error{
+    background-color: #ff550040;
+}
+.page-xxg-order-detail .md_panel.show{
+    z-index: 9999;
+}
+/*免检修修哥精细评估 end*/
+
+/*底部二维码*/
+.page-xxg-order-detail .bottom-qrcode{
+    display: inline-block;
+    padding: .1rem 0;
+    text-decoration: underline;
+}
+.page-xxg-order-detail .qrcode-wrap{
+    padding:0
+}
+
+/*抽奖面板*/
+
+/*抽奖成功*/
+.page-xxg-order-detail .prize-wrap {
+    text-align: center;
+    color: #f00;
+    background-color: #fff;
+    margin-bottom: .1rem;
+    padding: .1rem 0;
+}
+
+.page-xxg-order-detail  .btn-get-prize{
+    display: block;
+    width: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    background: #ff8844;
+    color: #fff;
+    border-radius: 1rem;
+}
+.page-xxg-order-detail .prize-success-dialog {
+    left: 0;
+    right: 0;
+    /*width: 100%;*/
+    width: 2.3955555555555557rem;
+    background: transparent url(https://p4.ssl.qhmsg.com/t01cfa5b3c6c524ecc5.png) no-repeat center 0;
+    /*background-size: contain;*/
+    background-size: 3.2rem;
+    border: 0;
+    padding: .9rem .1rem .25rem;
+}
+
+.page-xxg-order-detail .prize-success-dialog .dialog-inner {
+    margin: 0 auto;
+    padding: 0;
+    width: 2.3955555555555557rem;
+}
+
+.page-xxg-order-detail .prize-success-dialog .block-success {
+    margin: 0 auto;
+    width: 2.311111111111111rem;
+    height: 2.8rem;
+    border-radius: .06rem;
+    background: url("https://p1.ssl.qhmsg.com/t01cd0a43878ee912d2.png") no-repeat center center/100% 100%;
+    position: absolute;
+}
+.page-xxg-order-detail .prize-success-dialog .success-panel {
+    margin-right: .12rem;
+    text-align: center;
+    padding-top: .1rem;
+}
+.page-xxg-order-detail .prize-success-dialog .success-panel  .congrt{
+    color: #fff;
+    font-size: .22rem;
+    padding-top: .1rem;
+    height: .8rem;
+}
+.page-xxg-order-detail .prize-success-dialog .success-panel .price-name{
+    color: #EB3F40;
+    font-size: .14rem;
+}
+
+.page-xxg-order-detail .prize-success-dialog .success-panel .price-desc{
+    color: #EB3F40;
+    font-size: .14rem;
+    padding-top: .1rem;
+}
+.page-xxg-order-detail .prize-success-dialog .success-panel .btn-use{
+    display: inline-block;
+    background: #FEE53E;
+    margin-top: .3rem;
+    padding: .05rem .5rem;
+    border-radius: 1rem;
+    font-size: 0.18rem;
+    color: #EB3F40;
+}
+.page-xxg-order-detail .prize-success-dialog .dialog-close{
+    display: none;
+}
+/*提醒抽奖弹框*/
+.page-xxg-order-detail .show-remind-pirze{
+    padding: 0;
+    border: none;
+    left: .5rem;
+    right: .5rem;
+    border-radius: .05rem;
+    overflow: hidden;
+}
+.page-xxg-order-detail .show-remind-pirze .dialog-inner{
+    padding: 0;
+    height: 3rem;
+    background: url("https://p1.ssl.qhmsg.com/t0105ed770a7ec9371a.jpg") no-repeat center/100% 100%;
+    position: relative;
+}
+.page-xxg-order-detail .show-remind-pirze .btn-get-my-prize{
+    position: absolute;
+    bottom: .15rem;
+    left: 50%;
+    width: 1.7rem;
+    height: .45rem;
+    transform: translateX(-50%);
+}
+/*END 提醒抽奖弹框*/
+
+/*精細評估傳圖*/
+.block-jingxi-take-picture {
+    overflow: auto;
+    color: #666;
+}
+
+.block-jingxi-take-picture .tit {
+    padding: .1rem .1rem;
+    font-size: .14rem;
+    color: #333;
+}
+
+.block-jingxi-take-picture .row-picture-tit {
+    padding: .06rem .1rem;
+    line-height: .24rem;
+    color: #666;
+}
+.block-jingxi-take-picture .row-picture-tit i {
+    margin-right: .08rem;
+    display: inline-block;
+    vertical-align: middle;
+    width: .24rem;
+    height: .24rem;
+    line-height: .24rem;
+    border-radius: 999px;
+    text-align: center;
+    background-color: #44aa77;
+    color: #fff;
+}
+.block-jingxi-take-picture .row-picture {
+    text-align: center;
+    background-color: #fff;
+}
+.block-jingxi-take-picture .row-picture .col-2-1 {
+    padding: .1rem 0;
+}
+.block-jingxi-take-picture .row-picture .figure-picture{
+    margin: 0 auto;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: transparent no-repeat center;
+    background-size: contain;
+}
+.block-jingxi-take-picture .row-picture .figure-picture-1 {
+    background-image: url(https://p2.ssl.qhimg.com/t011996025a57310723.png);
+    width: 94%;
+}
+.block-jingxi-take-picture .row-picture .figure-picture-2 {
+
+    background-image: url(https://p5.ssl.qhimg.com/t011a79677e0e83dd63.png);
+    width: 94%;
+}
+
+
+.block-jingxi-take-picture .trigger-wrap {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    /*width: 1.5rem;*/
+    width: 94%;
+    height: 1.5rem;
+    padding-top: 14px;
+}
+
+.block-jingxi-take-picture .trigger-wrap a:hover {
+    text-decoration: none;
+}
+
+.block-jingxi-take-picture .trigger-upload-picture {
+    position: static;
+    display: block;
+    width: 100%;
+    /*height: 100%;*/
+    /*line-height: .6rem;*/
+    font-size: 0;
+    text-align: center;
+    background: transparent url(https://p3.ssl.qhimg.com/t0104ed49268cd4bfe5.jpg) no-repeat center;
+    background-size: contain;
+    padding-bottom: 100%;
+    height: 0;
+    border: thin solid #ddd;
+}
+
+.block-jingxi-take-picture .icon-circle-solid-error {
+    display: none;
+    position: absolute;
+    /*top: .04rem;*/
+    /*right: .04rem;*/
+    top: 0;
+    right: 0;
+    z-index: 999;
+    width: .32rem;
+    height: .32rem;
+    line-height: .32rem;
+    font-size: 0;
+    text-align: center;
+    border-radius: 999px;
+    /*color: #f00;*/
+    color: #999;
+    /*background-color: #fff;*/
+}
+
+.block-jingxi-take-picture .icon-circle-solid-error:before {
+    font-size: .18rem;
+}
+
+.block-jingxi-take-picture .fake-upload-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: .04rem;
+}
+.block-jingxi-take-picture .fake-upload-progress-inner {
+    display: block;
+    width: 0;
+    height: 100%;
+    background-color: #16a654;
+    transition: width .5s;
+}
+.block-jingxi-take-picture .trigger-invoke-camera {
+    position: absolute;
+    /*top: 50%;*/
+    /*left: -50%;*/
+    top: -9999px;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+}
+/*END精細評估傳圖*/
+

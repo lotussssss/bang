@@ -1,0 +1,140 @@
+.wuyouhuanji-tip-panel-wrap {
+
+}
+
+.wuyouhuanji-tip-panel-wrap .hd,
+.wuyouhuanji-tip-panel-wrap .ft {
+    display: none;
+}
+
+.wuyouhuanji-tip-panel-wrap .close {
+    position: absolute;
+    top: 10px;
+    right: 17px;
+    display: block;
+    width: 41px;
+    height: 41px;
+    background: url(https://p.ssl.qhimg.com/t011ccfaa5874f58a59.jpg) no-repeat 0 0;
+}
+
+.wuyouhuanji-tip-panel-wrap .extendservice-confirm-panel {
+    padding: 10px;
+    width: 855px;
+    height: 490px;
+    background: #fff;
+    color: #434444;
+    font-size: 18px;
+    /*border: 1px solid #333;*/
+}
+
+.wuyouhuanji-tip-panel-wrap .extendservice-confirm-panel .tit {
+    margin-bottom: 10px;
+    padding: 5px 0 10px 25px;
+    color: #000;
+    font-size: 24px;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.wuyouhuanji-tip-panel-wrap .extendservice-confirm-panel .cnt {
+    padding: 0;
+}
+
+.wuyouhuanji-tip-panel-wrap .extendservice-confirm-panel .show-wuyouhuanji-agreement {
+    position: absolute;
+    top: 334px;
+    left: 198px;
+    z-index: 9;
+    display: block;
+    width: 231px;
+    height: 30px;
+    font-size: 14px;
+    background: url("http://");
+}
+
+.wuyouhuanji-tip-panel-wrap .extendservice-confirm-panel .show-wuyouhuanji-agreement:hover {
+    background: rgba(0, 99, 200, 0.1);
+    text-decoration: none;
+}
+
+/*无忧换机服务协议*/
+.extendservice-agreement-panel {
+    /*padding-bottom: 20px;*/
+    width: 880px;
+    height: 600px;
+}
+
+.extendservice-agreement-panel span.close,
+.extendservice-agreement-panel span.close:hover {
+    width: 40px;
+    height: 40px;
+    background: url(https://p.ssl.qhimg.com/t0182e4cf77d4fea2f7.png) no-repeat center;
+    background-size: 40px;
+}
+
+.extendservice-agreement-panel .ft {
+    display: none;
+}
+
+.wuyouhuanji-agreement-panel-inner {
+    width: 860px;
+    height: 560px;
+    padding: 20px 10px;
+    overflow-y: auto;
+}
+
+.wuyouhuanji-agreement-panel-inner h3 {
+    color: #222;
+    font-size: 16px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.wuyouhuanji-agreement-panel-inner dl {
+    margin: 10px 0 0;
+}
+
+.wuyouhuanji-agreement-panel-inner dt {
+    color: #222;
+    margin: 0 0 4px;
+}
+
+.wuyouhuanji-agreement-panel-inner dd {
+    color: #555;
+    margin: 0 0 10px 10px;
+}
+
+.wuyouhuanji-agreement-panel-inner li {
+    margin-bottom: 6px;
+}
+
+.wuyouhuanji-agreement-panel-inner .wuyou-table {
+    width: 600px;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.wuyouhuanji-agreement-panel-inner .wuyou-table th,
+.wuyouhuanji-agreement-panel-inner .wuyou-table td {
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.wuyouhuanji-agreement-panel-inner .wuyou-table tr {
+    height: 35px;
+}
+
+.wuyouhuanji-agreement-panel-inner .wuyou-table .t1 {
+    width: 200px;
+}
+
+.wuyouhuanji-agreement-panel-inner .ul-sub {
+    padding-left: 20px;
+}
+
+.wuyouhuanji-agreement-panel-inner .ul-sub li {
+    list-style-type: disc;
+}
+
+.wuyouhuanji-agreement-panel-inner .ul-sub2 {
+    padding-left: 16px;
+}

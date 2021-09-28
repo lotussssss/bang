@@ -1,0 +1,46 @@
+/* =================支付成功页面================== */
+.page-shiyong-pay-success{
+    font-size: .14rem;
+    line-height: 1.6;
+}
+.page-shiyong-pay-success .p-tit{
+    margin: 0 auto;
+    padding: .2rem 0 .08rem 0;
+    display: block;
+    font-size: .28rem;
+    line-height: normal;
+    color: #008953;
+    text-align: center;
+}
+.page-shiyong-pay-success .icon-zhifuchenggong:before{
+    vertical-align: text-bottom;
+}
+.page-shiyong-pay-success .block{
+    margin-bottom: .10rem;
+}
+.page-shiyong-pay-success .block p{
+
+}
+.page-shiyong-pay-success .btn-outline-green{
+    margin: .2rem 0;
+    padding: .06rem .15rem;
+}
+
+.page-shiyong-pay-success .block-tt{
+    padding: .1rem 0;
+    font-size: .20rem;
+    text-align: center;
+    font-weight: normal;
+}
+.page-shiyong-pay-success .block-tt span{
+    padding-left: .06rem;
+    border-left-color: #185;
+    border-left-width: .03rem;
+    line-height: 1;
+}
+.page-shiyong-pay-success .qrcode{
+    margin: 0 auto;
+    padding: .2rem 0;
+    display: block;
+    width: 2.311111111111rem;
+}

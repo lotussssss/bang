@@ -1,0 +1,12 @@
+/*包装清单*/
+.p-detail-cnt-package-list {
+    margin-bottom: 30px;
+}
+
+.p-detail-cnt-package-list .cnt-inner {
+    margin: 30px auto 0 auto;
+    width: 800px;
+    text-align: center;
+}
+
+/*END包装清单*/

@@ -1,0 +1,197 @@
+/***** 基本通用样式 */
+.height5 {height: 5px; clear: both; overflow: hidden; }
+.height10 {height: 10px; clear: both; overflow: hidden; }
+.height15 {height: 15px; clear: both; overflow: hidden; }
+.height40 {height: 40px; clear: both; overflow: hidden; }
+.wd40{width: 40px;}
+.wd102{width: 102px;}
+.wd132{width: 132px;}
+.wd200{width: 200px;}
+.wd350{width: 350px;}
+.fleft{float: left;}
+.fright{float: right;}
+.mer-inpt{border: solid 1px #ccc; border-radius: 3px; -webkit-box-shadow: 2px 2px 3px #EDEDED inset; vertical-align: middle; -moz-box-shadow: 2px 2px 3px #EDEDED inset; box-shadow: 2px 2px 3px #EDEDED inset; height: 26px; padding: 0 4px; line-height: 26px; background:#fff; }
+.mer-selt{border: solid 1px #ccc; border-radius: 3px; -webkit-box-shadow: 2px 2px 3px #EDEDED inset; vertical-align: middle; -moz-box-shadow: 2px 2px 3px #EDEDED inset; box-shadow: 2px 2px 3px #EDEDED inset; height: 26px; padding: 0 4px; line-height: 26px; background:#fff; }
+.mer-selt2{border: solid 1px #ccc; border-radius: 3px; -webkit-box-shadow: 2px 2px 3px #EDEDED inset; vertical-align: middle; -moz-box-shadow: 2px 2px 3px #EDEDED inset; box-shadow: 2px 2px 3px #EDEDED inset; padding: 5px; line-height: 26px; background:#fff; }
+.mer-tare{border: solid 1px #ccc; border-radius: 3px; -webkit-box-shadow: 2px 2px 3px #EDEDED inset; vertical-align: middle; -moz-box-shadow: 2px 2px 3px #EDEDED inset; box-shadow: 2px 2px 3px #EDEDED inset; height: 90px; padding: 5px; line-height: 26px; background:#fff; }
+.mer-btn-cx{width: 109px; height: 33px; background: url(https://p.ssl.qhimg.com/t0169bb48b3b6d0f8c8.png) no-repeat; border: none; box-shadow: none; cursor: pointer;}
+.vtop{vertical-align: top;}
+.mt20{margin-top: 20px;}
+.ml20{margin-left: 20px;}
+.mb8{margin-bottom: 8px;}
+.tcenter{text-align: center;}
+.tleft{text-align: left;}
+.tright{text-align: right;}
+.mer-table{}
+.mer-table td{padding: 4px 5px 4px 0;}
+.p100{width: 100%;}
+.tablefixd{table-layout: fixed;}
+.c1{color: red;}
+button{padding: 5px 12px;text-align: center;border: 1px solid #ccc;color: #333;background: #fff;cursor: pointer;}
+button:hover{background: #eee;}
+button:active{background: #ddd;}
+.upload-btn-wrap{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+.errorblink{border: 1px solid #FF7A0E !important;}
+.iblock{display: inline-block;*display: inline;*zoom: 1;}
+.disabled{background: #f0f0f0;}
+.disabled:hover{background: #f0f0f0;}
+.disabled:hover{background: #f0f0f0;}
+
+/***** 商家顶部高 */
+.topbanner {height: 81px; border-bottom: solid 3px #329900; overflow: hidden; }
+.topbanner_logo {width: 225px; height: 68px; float: left; background: url(https://p.ssl.qhimg.com/t018923cd666517b496.png) no-repeat; margin-top: 12px; }
+ 
+/******* page-admin-wx 维修管理页面 *******/
+.page-mer-wx{
+    font-family: "微软雅黑";
+}
+.mer-nav-title{
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+}
+.mer-search-block{
+    padding: 15px 12px;
+    border: 1px solid #E1E1E1;
+}
+
+.mer-wxdetail-nav{
+    border-bottom: 1px solid #ccc;
+}
+.mer-wxdetail-nav a{
+    display: block;
+    /*color: #333;*/
+    color: #337D39;
+    text-decoration: none;
+}
+.mer-wxdetail-nav a:hover{text-decoration: none;}
+.mer-wxdetail-nav li{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    color: #ccc;
+}
+.mer-wxdetail-nav .cur{
+    height: 38px;
+    border-bottom: 3px solid #329900;
+}
+
+.mer-wxdetail-cont{
+    padding: 16px 5px 0 5px;
+    margin: 0 auto;
+    /*width: 700px;*/
+}
+.mer-wxdetail-cont-left, .mer-wxdetail-cont-right{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 50%;
+    vertical-align: top;
+}
+.cont-line{
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+.cont-line .line-left{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding-right: 5px;
+    width: 120px;
+    text-align: right;
+    /*vertical-align: top;*/
+}
+.cont-line .line-right{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.cont-line .line-both{
+    /*text-align: center;*/
+}
+.cont-line textarea{
+    padding: 5px;
+    width: 300px;
+    height: 90px;
+}
+.cont-line .sub-line{
+    padding: 5px 0;
+    margin-bottom: 5px;
+    line-height: 26px;
+}
+
+.mer-wxpplist-selt{
+    width: 200px;
+    margin-left: 8px;
+}
+.mer-wxxhlist-selt{
+    width: 200px;
+    margin-left: 8px;
+}
+.mer-wxfalist-selt, .mer-wxfalist-selt-selected{
+    width: 232px;
+}
+.line-right-pl{
+    margin-right: 20px;
+}
+.line-right-pr{
+
+}
+.mer-wxfa-sub{
+    margin-top: 100px;
+}
+.mer-shebei-imglist{
+    margin-top: 5px;
+}
+.mer-shebei-imglist li{
+    float: left;
+    margin-right: 8px;
+    width: 82px;
+    height: 98px;
+    text-align: center;
+}
+.mer-shebei-imglist li span{
+    display: block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background: #E1E1E1;
+}
+.jx-order-list{}
+.jx-order-list th{
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.jx-order-list td{
+    padding: 12px 5px 0 5px;
+}
+.jx-order-list .th-orderid{width: 160px; }
+.jx-order-list .th-brand{width: 80px; }
+.jx-order-list .th-model{width: 95px; }
+.jx-order-list .th-createtime{width: 140px; }
+.jx-order-list .th-faultdesc{/*width: 180px;*/ }
+.jx-order-list .th-status{width: 80px; }
+.jx-order-list .th-yjreceiver{width: 70px; }
+.jx-order-list .th-yjmobile{width: 100px; }
+.jx-order-list .th-caozuo{width: 60px; }
+.jx-order-list .td-yjmobile,
+.jx-order-list .td-caozuo{text-align: center;}
+
+.mer-cancel-repair{margin-left: 30px;}
+/*****订单详情页修改*/
+.mer-line-middle{ width:184px;}
+.mer-send-msg-btn{ width:120px; text-align:center;}
+.mer-send-msg-div{ width:230px; padding-left:89px;}

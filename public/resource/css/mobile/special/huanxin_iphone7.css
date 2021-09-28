@@ -1,0 +1,213 @@
+.border {
+    border: 1px solid #858585;
+}
+.border-red {
+    border: 1px solid #ff3300;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .border,
+    .border-red {
+        position: relative;
+        border: 0;
+    }
+
+    .border:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, transparent), color-stop(0.5, #858585)), -webkit-gradient(linear, left top, right top, color-stop(0.5, transparent), color-stop(0.5, #858585)), -webkit-gradient(linear, left top, left bottom, color-stop(0.5, transparent), color-stop(0.5, #858585)), -webkit-gradient(linear, right top, left top, color-stop(0.5, transparent), color-stop(0.5, #858585));
+        -webkit-background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        -webkit-background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-repeat: no-repeat;
+        background-position: top, right, bottom, left;
+        padding: 1px;
+        -webkit-box-sizing: border-box;
+        z-index: 10;
+        pointer-events: none;
+    }
+    .border-red:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, transparent), color-stop(0.5, #ff3300)), -webkit-gradient(linear, left top, right top, color-stop(0.5, transparent), color-stop(0.5, #f30)), -webkit-gradient(linear, left top, left bottom, color-stop(0.5, transparent), color-stop(0.5, #f30)), -webkit-gradient(linear, right top, left top, color-stop(0.5, transparent), color-stop(0.5, #f30));
+        -webkit-background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        -webkit-background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-repeat: no-repeat;
+        background-position: top, right, bottom, left;
+        padding: 1px;
+        -webkit-box-sizing: border-box;
+        z-index: 10;
+        pointer-events: none;
+    }
+}
+
+
+/*iphone7以旧换新*/
+.page-hd-hxiphone7{
+    background: #f7f7f7;
+}
+.page-hd-hxiphone7 .mainbody{
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+.page-hd-hxiphone7 .block{
+    position: relative;
+    border: 0;
+}
+
+.page-hd-hxiphone7 .block1{
+    height: 2.6666666666666665rem;
+    background: #000 url(https://p.ssl.qhimg.com/t0132ba78cc2ce9e652.jpg) no-repeat center 0;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.page-hd-hxiphone7 .block1 .tit{
+    padding-top: .3rem;
+    font-size: .2rem;
+}
+.page-hd-hxiphone7 .block1 .cont{
+    font-size: .3rem;
+    line-height: 2;
+}
+.page-hd-hxiphone7 .block1 .desc{
+    font-size: .14rem;
+}
+
+.page-hd-hxiphone7 .block2{
+    padding: 0 0 .2rem 0;
+    background: #000;
+    text-align: center;
+    color: #fff;
+}
+.page-hd-hxiphone7 .block2 .tit{
+    font-size: .16rem;
+    line-height: 3;
+}
+.page-hd-hxiphone7 .block2 .model-list{
+    font-size: 0;
+}
+.page-hd-hxiphone7 .block2 .model-list a,
+.page-hd-hxiphone7 .block2 .model-list a:hover{
+    float: left;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    display: block;
+    width: 30%;
+    height: .36rem;
+    line-height: .36rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: .14rem;
+}
+.page-hd-hxiphone7 .block2 .model-list a.border-red{
+    color: #f30;
+    background-color: rgba(255, 51, 0, 0.3);
+}
+.page-hd-hxiphone7 .block2 .model-list .other{
+    color: #363636;
+}
+.page-hd-hxiphone7 .block2 .tip{
+    padding-bottom: 2.5%;
+    font-size: .16rem;
+}
+.page-hd-hxiphone7 .block2 .tip .price{
+    font-size: .18rem;
+    color: #f30;
+}
+.page-hd-hxiphone7 .block2 .btn-go-huanxin{
+    margin: 0 auto;
+    display: block;
+    width: 88%;
+    height: .38rem;
+    line-height: .38rem;
+    background-color: #f30;
+    font-size: .18rem;
+    color: #fff;
+}
+
+
+.page-hd-hxiphone7 .block3{
+    padding: 0 0 .2rem 0;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+.page-hd-hxiphone7 .block3 .tit{
+    font-size: .22rem;
+    line-height: 3;
+}
+.page-hd-hxiphone7 .block3 .product-info{ }
+.page-hd-hxiphone7 .block3 .product-info .col-left-fixed{
+    width: 1.288888888888889rem;
+    height: 1.288888888888889rem;
+}
+.page-hd-hxiphone7 .block3 .product-info .col-left-fixed img{
+    width: 100%;
+}
+.page-hd-hxiphone7 .block3 .product-info .col-right{
+    margin-left: 1.3rem;
+    text-align: left;
+    font-size: .18rem;
+}
+.page-hd-hxiphone7 .block3 .product-info .col-right .tit{
+    line-height: normal;
+    font-size: .18rem;
+}
+.page-hd-hxiphone7 .block3 .product-info .col-right .price{
+    font-size: .14rem;
+    color: #f30;
+}
+.page-hd-hxiphone7 .block3 .product-info .col-right .price span{
+    font-size: .2rem;
+}
+.page-hd-hxiphone7 .block3 .product-info .col-right .btn-buy,
+.page-hd-hxiphone7 .block3 .product-info .col-right .btn-buy:hover{
+    margin: .08rem 0;
+    display: block;
+    width: 75%;
+    height: .32rem;
+    line-height: .32rem;
+    background-color: #f30;
+    font-size: .14rem;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.page-hd-hxiphone7 .block3 .product-info .col-right .desc{
+    color: #f30;
+    font-size: .12rem;
+}
+
+.page-hd-hxiphone7 .block4{
+    padding: .1rem .1rem .3rem .1rem;
+    font-size: .14rem;
+    color: #333;
+}
+.page-hd-hxiphone7 .block4 .intro-tit{
+    margin: 0 auto .1rem auto;
+    width: 1rem;
+    height: .28rem;
+    line-height: .28rem;
+    background-color: #f30;
+    color: #fff;
+    border-radius: 999px;
+    text-align: center;
+}
+.page-hd-hxiphone7 .block4 .intro-cnt{}
+.page-hd-hxiphone7 .block4 .intro-cnt li{
+    padding-bottom: .1rem;
+}
+
+

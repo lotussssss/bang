@@ -1,0 +1,252 @@
+a,a:hover{
+    text-decoration: none;
+}
+
+.page-hd-word-cup {
+    background:#182048;
+    font-size: .12rem;
+}
+
+.page-hd-word-cup .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-word-cup .block {
+    margin: 0 auto;
+}
+
+/*头图*/
+.page-hd-word-cup .block-top{
+    height: 1.5317333333333334rem;
+    background: url(https://p0.ssl.qhmsg.com/t012de4628279f90043.jpg) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-word-cup .block-top .btn-login{
+    position: absolute;
+    right: 0;
+    top: .1rem;
+    background: rgba(255,255,255,0.8);
+    color: #000;
+    border-radius: 999px 0 0 999px;
+    padding: 0 .1rem;
+}
+/*头图 end*/
+
+/*倒计时*/
+.page-hd-word-cup .block-countdown{
+    height: 0.37546666666666667rem;
+    line-height: .3755rem;
+    background: url(https://p0.ssl.qhmsg.com/t01153aa303dd8ab94e.jpg) no-repeat center 0;
+    background-size: cover;
+    text-align: center;
+    font-size: .12rem;
+    color: #fff;
+}
+.page-hd-word-cup .block-countdown .countdown{
+    font-size: 0;
+}
+.page-hd-word-cup .block-countdown span{
+    vertical-align: middle;
+    font-size: .12rem;
+    margin: 0 .01rem;
+}
+.page-hd-word-cup .block-countdown .d-num,
+.page-hd-word-cup .block-countdown .d-txt{
+    display: none;
+}
+.page-hd-word-cup .block-countdown .h-num,
+.page-hd-word-cup .block-countdown .m-num,
+.page-hd-word-cup .block-countdown .s-num{
+    background: #ff2326;
+    padding: 2px .02rem;
+    border-radius: 3px;
+}
+/*倒计时 end*/
+
+/*竞猜*/
+.page-hd-word-cup .block-guess{
+    text-align: center;
+}
+.page-hd-word-cup .block-guess-champion{
+    height: 1.3098666666666667rem;
+    background: url(https://p3.ssl.qhmsg.com/t0117787039eed2a19c.jpg) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-word-cup .block-guess-third{
+    height: 2.0138666666666665rem;
+    background: url(https://p1.ssl.qhmsg.com/t01648f7aef80f7d509.jpg) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-word-cup .block-guess .guess-item{
+    position: absolute;
+    width: 1.2416rem;
+    height: 0.394rem;
+    border: 2px solid #0064cd;
+    border-radius: 999px;
+    text-align: left;
+    font-size: .14rem;
+    color: #013cb0;
+    line-height: .36rem;
+}
+.page-hd-word-cup .block-guess .guess-item.cur{
+    color: #fff;
+    background: #0074db;
+    background: -moz-linear-gradient(top, #0074db 0%, #004fb9 100%);
+    background: -webkit-linear-gradient(top, #0074db 0%,#004fb9 100%);
+    background: linear-gradient(to bottom, #0074db 0%,#004fb9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0074db', endColorstr='#004fb9',GradientType=0 );
+}
+.page-hd-word-cup .block-guess .guess-item1{
+    left: .16rem;
+}
+.page-hd-word-cup .block-guess .guess-item2{
+    right: .16rem;
+}
+.page-hd-word-cup .block-guess-champion .guess-item{
+    bottom: .16rem;
+}
+.page-hd-word-cup .block-guess-third .guess-item{
+    top: .57rem;
+}
+.page-hd-word-cup .block-guess .label-checked{
+    display: none;
+    position: absolute;
+    right: -.02rem;
+    top: -.08rem;
+    width: 0.3072rem;
+    height: 0.3072rem;
+    background: url(https://p2.ssl.qhmsg.com/t010176b4c3c4734dfa.png) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-word-cup .block-guess .guess-item.cur .label-checked{
+    display: block;
+}
+.page-hd-word-cup .block-guess .guess-item .team-flag{
+    position: absolute;
+    left: .02rem;
+    top:.014rem;
+    width: 0.33rem;
+    height: 0.33rem;
+    border-radius: 999px;
+    border: 1px solid #013cb0;
+}
+.page-hd-word-cup .block-guess .guess-item .team-name{
+    padding-left: .4rem;
+}
+.page-hd-word-cup .block-guess .btn-submit{
+    display: inline-block;
+    margin-top: 1.1rem;
+    padding: .06rem .3rem;
+    font-size: .14rem;
+    color: #fff;
+    border-radius: .06rem;
+    background: #0074db;
+    background: -moz-linear-gradient(top, #0074db 0%, #004fb9 100%);
+    background: -webkit-linear-gradient(top, #0074db 0%,#004fb9 100%);
+    background: linear-gradient(to bottom, #0074db 0%,#004fb9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0074db', endColorstr='#004fb9',GradientType=0 );
+}
+.page-hd-word-cup .block-guess .btn-submit.btn-disabled{
+    background: #ddd;
+}
+.page-hd-word-cup .block-guess .guess-tips{
+    color: #333;
+    line-height: 1.4;
+    padding-top: .1rem;
+}
+/*竞猜 end*/
+
+/*回收送优酷会员*/
+.page-hd-word-cup .block-middle-banner{
+    height: 0.9472rem;
+    background: url(https://p3.ssl.qhmsg.com/t01db86f21a305dc827.jpg) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-word-cup .block-middle-banner a{
+    display: block;
+    height: .94rem;
+    padding-top: .3rem;
+}
+/*回收送优酷会员 end*/
+
+/*活动规则*/
+.page-hd-word-cup .block-desc{
+    color: #fff;
+    padding: .1rem .1rem .3rem;
+}
+.page-hd-word-cup .block-desc .desc-tit{
+    font-size: .15rem;
+}
+/*活动规则 end*/
+
+/*弹窗*/
+.page-hd-word-cup .dialog-wrap.submit-panel{
+    width: 2.3rem;
+    text-align: center;
+    border: none;
+}
+.page-hd-word-cup .submit-panel .dialog-close{
+    display: none;
+}
+.page-hd-word-cup .submit-panel .dialog-inner{
+    background: #fff;
+    border-radius: .06rem;
+    padding: 0;
+}
+.page-hd-word-cup .submit-panel .panel-logo{
+    position: absolute;
+    left: -.42rem;
+    top: -.2rem;
+    width: 0.7296rem;
+    height: 0.4693333333333333rem;
+    background: url(https://p0.ssl.qhmsg.com/t012b6eaaed2d2d33f2.png) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-word-cup .submit-panel .panel-tit{
+    font-size: .16rem;
+    color: #333;
+    padding-top: .2rem;
+}
+.page-hd-word-cup .submit-panel .panel-desc{
+    color: #666;
+}
+.page-hd-word-cup .submit-panel .panel-btn{
+    font-size: .14rem;
+    margin-top: .25rem;
+}
+.page-hd-word-cup .submit-panel .panel-btn a{
+    padding: .1rem 0;
+}
+.page-hd-word-cup .submit-panel .panel-btn .btn-close{
+    color: #666;
+}
+.page-hd-word-cup .submit-panel .panel-btn .btn-ok{
+    color: #fff;
+    background: #0074db;
+    background: -moz-linear-gradient(top, #0074db 0%, #004fb9 100%);
+    background: -webkit-linear-gradient(top, #0074db 0%,#004fb9 100%);
+    background: linear-gradient(to bottom, #0074db 0%,#004fb9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0074db', endColorstr='#004fb9',GradientType=0 );
+}
+
+.page-hd-word-cup .submit-panel.submit-fail-panel .panel-desc{
+    padding: .2rem 0;
+}
+.page-hd-word-cup .submit-panel.share-success-panel .panel-btn{
+    margin: .15rem 0;
+}
+.page-hd-word-cup .submit-panel.share-success-panel .panel-btn .btn-ok{
+    display: inline-block;
+    padding: .06rem .4rem;
+    border-radius: .06rem;
+    box-shadow: 0 4px 5px 0px #ccd7ec;
+}
+/*弹窗 end*/
+
+
+
+
+
+

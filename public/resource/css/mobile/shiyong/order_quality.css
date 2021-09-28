@@ -1,0 +1,141 @@
+
+/*质检报告*/
+.page-shiyong-order-quality{
+
+}
+.page-shiyong-order-quality .top-label{
+    border-bottom: 1px solid #118855;
+    font-size: 0;
+}
+.page-shiyong-order-quality .top-label h4{
+    padding: 0 .20rem;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    height: .32rem;
+    line-height: .32rem;
+    font-size: .16rem;
+    text-align: center;
+    background: #118855;
+    color: #fff;
+}
+.page-shiyong-order-quality .p-detail-cnt-quality{}
+.page-shiyong-order-quality .p-detail-cnt-quality .cnt-inner{
+    position: relative;
+    padding: 0 2% 20px 2%;
+    background: #F8F8F8 url(https://p.ssl.qhimg.com/t010a1d892976430ab2.jpg) repeat-y center 0;;
+}
+.page-shiyong-order-quality .p-detail-cnt-quality .cnt-inner .tt{
+    padding-top: .1rem;
+    font-size: .18rem;
+    text-align: center;
+    line-height: .44rem;
+}
+.page-shiyong-order-quality .p-detail-cnt-quality .cnt-inner .tb1{
+    width: 100%;
+}
+.page-shiyong-order-quality .p-detail-cnt-quality .cnt-inner .tb1 td{
+    border: 1px solid #CFCFCF;
+    font-size: .14rem;
+    height: .28rem;
+    line-height: .28rem;
+    text-align: center;
+}
+.page-shiyong-order-quality .p-detail-cnt-quality .cnt-inner .tb1 .td-tt{
+    width: 1.50rem;
+}
+.page-shiyong-order-quality .p-detail-cnt-quality .cnt-inner .tb2{
+    width: 100%;
+}
+.page-shiyong-order-quality .p-detail-cnt-quality .cnt-inner .tb2 td{
+    padding: 5px 0;
+    border: 0;
+    border-bottom: 1px dashed #BEBEBE;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.page-shiyong-order-quality .p-detail-cnt-quality .cnt-inner .tb2 .td-tt{
+    width: 200px;
+}
+.page-shiyong-order-quality .p-detail-cnt-quality .cnt-inner .tb2 .m{
+    width: 40px;
+    border: 0;
+}
+.page-shiyong-order-quality .p-detail-cnt-quality .cnt-inner .tb2 .td-last{
+    padding: .15rem 0;
+    background: transparent;
+    border: 0;
+}
+.page-shiyong-order-quality .icon-option{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: .22rem;
+    height: .22rem;
+    vertical-align: middle;
+}
+.page-shiyong-order-quality .icon-option-ok{
+    background: url(https://p.ssl.qhimg.com/t01bde288894afc02d9.png) no-repeat center;
+    background-size: contain;
+}
+.page-shiyong-order-quality .icon-option-none{
+    background: url(https://p.ssl.qhimg.com/t018808e391aa5c7542.png) no-repeat center;
+    background-size: contain;
+}
+.page-shiyong-order-quality .icon-option-warn{
+    background: url(https://p.ssl.qhimg.com/t01bfbf5d762d805737.png) no-repeat center;
+    background-size: contain;
+}
+.page-shiyong-order-quality .p-detail-cnt-quality .cnt-inner .td-last div{
+    margin-right: 10px;
+    padding-left: 26px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    height: 22px;
+    line-height: 22px;
+    font-size: .14rem;
+}
+/*.page-shiyong-order-quality .p-detail-cnt-quality .cnt-inner .p-option-ok{*/
+    /*background: url(https://p.ssl.qhimg.com/t01bde288894afc02d9.png) no-repeat 0 0;*/
+    /*background-size: 22px;*/
+/*}*/
+/*.page-shiyong-order-quality .p-detail-cnt-quality .cnt-inner .p-option-none{*/
+    /*background: url(https://p.ssl.qhimg.com/t018808e391aa5c7542.png) no-repeat 0 0;*/
+    /*background-size: 22px*/
+/*}*/
+/*.page-shiyong-order-quality .p-detail-cnt-quality .cnt-inner .p-option-warn{*/
+    /*background: url(https://p.ssl.qhimg.com/t01bfbf5d762d805737.png) no-repeat 0 0;*/
+    /*background-size: 22px*/
+/*}*/
+.page-shiyong-order-quality .p-detail-cnt-quality-procedure{
+    background: #fff;
+}
+.page-shiyong-order-quality .p-detail-cnt-quality-procedure img{
+    width: 100%;
+}
+.page-shiyong-order-quality .p-detail-cnt-quality-procedure .cnt-inner{
+    padding: .20rem 0;
+    font-size: 0;
+    text-align: center;
+}
+.page-shiyong-order-quality .p-detail-cnt-quality-procedure .cnt-inner .quality-procedure-step{
+    margin-bottom: 5px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 33.333333333%;
+    font-size: .14rem;
+}
+.page-shiyong-order-quality .p-detail-cnt-quality-procedure .cnt-inner .quality-procedure-step6{
+    padding: 0;
+}
+.page-shiyong-order-quality .p-detail-cnt-zhenji{
+    background: #fff;
+}
+.page-shiyong-order-quality .p-detail-cnt-zhenji img{
+    width: 100%;
+}

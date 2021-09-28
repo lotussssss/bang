@@ -1,0 +1,108 @@
+/*后台页面css*/
+
+.necessary {
+    display: inline-block;
+    color: red;
+}
+.active_main_block{
+    width: 1200px;
+    min-height:400px;
+    margin: 0 auto;
+    /*background-color: pink;*/
+}
+/*活动添加页面start*/
+.active-base-info{
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+
+}
+.clear-cache {
+    float: right;
+}
+.base-info-tit{
+    display: inline-block;
+    font-size: 25px;
+    margin-top:25px;
+}
+.active-base-info .btn-submit-base-info {
+    padding: 6px 35px;
+}
+.active-base-info .form-inline .form-group{
+    margin-bottom : 20px;
+}
+.active-base-info .form-inline .form-group {
+    margin-right: 40px;
+}
+.module-detail ,
+.show-module-detail{
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-top:none;
+}
+.module-detail li,
+.show-module-detail li {
+    display: none;
+}
+.module-detail li.active ,
+.show-module-detail li.active {
+    display: block;
+}
+.module-detail>li>div {
+    margin: 20px 50px 20px  20px;
+    min-height:100px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #B1D7CE;
+    position: relative;
+}
+.module-detail>li>div>.item-model-name {
+    text-align: center;
+}
+.module-detail .glyphicon {
+    display: inline-block;
+    position: absolute;
+    top: 52px;
+    right: 128px;
+    line-height: 1;
+    font-size: 30px;
+    color: #fff;
+}
+/*活动添加页面end*/
+/*编辑模块部分start*/
+.edit-module-wrap {
+    width: 800px;
+    min-height : 400px;
+    padding: 30px;
+    background-color: #dedcdc;
+    position: relative;
+}
+/*.edit-module-wrap .row {*/
+    /*margin: 0 !important;*/
+/*}*/
+.edit-module-wrap .bottom-btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+.edit-module-wrap .bottom-btn .btn-success {
+    margin-right: 50px;
+}
+.edit-module-wrap  .form-inline .form-group {
+    margin: 0 20px 20px 0;
+}
+.edit-module-wrap  .radio-inline {
+    margin-top: 0;
+    margin-left: 10px;
+}
+.edit-module-wrap .data-block {
+    margin-top : 20px;
+}
+.show-module-detail .edit-view-btn {
+    margin-bottom: 10px;
+}
+.edit-module-wrap .fit-name {
+    margin-bottom: 20px;
+}
+/*编辑模块部分end*/

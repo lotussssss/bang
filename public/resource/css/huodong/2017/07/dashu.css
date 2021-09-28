@@ -1,0 +1,148 @@
+.w100{
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+.block-inner {
+    margin: 0 auto;
+    width: 1200px;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.page-hd-dashu {
+    background:#3e20d8;
+}
+.page-hd-dashu .topbar .in{
+    /*width: 1000px;*/
+}
+
+.page-hd-dashu .block-tit{
+    height: 120px;
+    line-height: 120px;
+    background: url(https://p2.ssl.qhmsg.com/t01dd5a8c7ea5997c01.jpg) no-repeat center 0;
+    /*background:  no-repeat center 0;*/
+    /*text-indent: -99999px;*/
+}
+.page-hd-dashu .block-tit .tit-cont{
+    font-weight: bold;
+    font-size: 42px;
+    color: #fff;
+    text-align: center;
+}
+.page-hd-dashu .block-tit .more{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 110px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: #aa242f;
+    background: #fbd743;
+    border-radius: 999px;
+    text-indent: 0;
+}
+
+.page-hd-dashu .block-top,
+.page-hd-dashu .block-top .block-inner{
+    height: 437px;
+    background: url(https://p0.ssl.qhmsg.com/t01ec4f99a1450d4066.jpg) no-repeat center;
+}
+
+.page-hd-dashu .block-sub,
+.page-hd-dashu .block-sub .block-inner{
+    height: 163px;
+    background: url(https://p0.ssl.qhmsg.com/t010b681f286b8da9aa.jpg) no-repeat center;
+}
+.page-hd-dashu .block-sub .block-coupon{
+    position: absolute;
+    left: 260px;
+    top:25px;
+    width: 920px;
+    height: 110px;
+    font-size: 0;
+}
+.page-hd-dashu .block-sub .block-coupon .coupon-item{
+    display: inline-block;
+    width: 230px;
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+}
+.page-hd-dashu .block-sub .block-coupon .money-symbol{
+    font-size: 20px;
+}
+.page-hd-dashu .block-sub .block-coupon .money-num{
+    font-size: 70px;
+}
+.page-hd-dashu .block-sub .block-coupon .coupon-item-desc{
+    font-size: 24px;
+    padding-top: 8px;
+}
+
+/*活动商品列表样式*/
+.page-hd-dashu .ui-sp-product-list-1{
+    min-height: 350px;
+}
+.page-hd-dashu .ui-sp-product-list-1 .p-item{
+    /*margin: 5px;*/
+    width: 298px;
+    height: 350px;
+}
+.page-hd-dashu .ui-sp-product-list-1 .p-item .p-tit{
+    font-size: 14px;
+}
+.page-hd-dashu .ui-sp-product-list-1 .p-item .p-pic{
+    height: 150px;
+    padding-top: 50px;
+}
+.page-hd-dashu .ui-sp-product-list-1 .p-item .p-pic img {
+    height: 115px;
+}
+/*活动商品列表样式 end*/
+
+/*服务介绍*/
+.page-hd-dashu .block-service-intro,
+.page-hd-dashu .block-service-intro .block-inner {
+    background: url(https://p2.ssl.qhmsg.com/t01b1f1d476f4cff87f.jpg) no-repeat center;
+}
+.page-hd-dashu .block-service-intro .block-inner{
+    height: 266px;
+    margin: 20px auto;
+}
+/*二维码扫一扫*/
+.page-hd-dashu .block-qrcode-info,
+.page-hd-dashu .block-qrcode-info .block-inner {
+    background:url(https://p0.ssl.qhmsg.com/t01be0f1cc8af7c2931.jpg) no-repeat center 0;
+}
+.page-hd-dashu .block-qrcode-info .block-inner{
+    height: 266px;
+    margin: 0 auto 60px;
+}
+
+/*活动说明*/
+.page-hd-dashu .block-desc{
+    color: #aa242f;
+}
+.page-hd-dashu .block-desc .block-inner{
+    padding: 20px 0 80px 0;
+}
+.page-hd-dashu .block-desc .block-desc-cont{
+    color: #aa242f;
+    /*padding: 15px 0 0;*/
+    background-color: #fbd743;
+    /*text-align: center;*/
+    /*border-radius: 5px;*/
+    padding: 10px 20px 20px;
+}
+.page-hd-dashu .block-desc .block-desc-cont h3{
+    font-weight: bold;
+    font-size: 22px;
+}
+.page-hd-dashu .block-desc .block-desc-cont p{
+    font-size: 16px;
+}

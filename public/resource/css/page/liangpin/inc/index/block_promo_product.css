@@ -1,0 +1,241 @@
+/*8成新促销--轮播*/
+.block-promo-product .roundabout_box {
+    height:250px;
+    width:1200px;
+    /*background: rgba(0,0,0,1);!*6个*!*/
+    background: rgba(0,0,0,0.7);
+    *background:#999;
+    overflow-y: visible;
+    position: relative;
+}
+.block-promo-product .promo-product-cont{
+    height: 290px;
+    padding-top: 20px;
+    overflow-x: hidden;
+}
+.block-promo-product .btn-switch{
+    position: absolute;
+    top:0%;
+    width: 150px;
+    height: 100%;
+    display: none;
+    z-index: 999;
+    cursor: pointer;
+}
+.block-promo-product .btn-prev{
+    left: 0px;
+    background: url("https://p0.ssl.qhmsg.com/t01624e42c2b5e4a1d6.png") no-repeat center;
+}
+.block-promo-product .btn-next{
+    right: 0px;
+    background: url("https://p0.ssl.qhmsg.com/t0169c6ce3d7043d873.png") no-repeat center;
+}
+
+.block-promo-product .roundabout-holder{
+    width:750px;
+    height:290px;
+    margin:0px auto;
+}
+.block-promo-product .roundabout-moveable-item{
+    font-size:14px;
+    width:900px;
+    height:290px;
+    cursor:pointer;
+    background:#fff;
+    overflow: hidden;
+    /*margin-top: -16px;*/
+    margin-top: -18px;
+}
+.block-promo-product .roundabout-in-focus{
+}
+.block-promo-product .roundabout-moveable-item a{
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
+
+.block-promo-product .roundabout-moveable-item-style-one .p-pic{
+    width: 280px;
+    height: 280px;
+    margin-left: 60px;
+}
+.block-promo-product .roundabout-moveable-item-style-one img{
+    height:100%;
+    width:100%;
+}
+.block-promo-product .roundabout-moveable-item-style-one .p-cont{
+    margin-left: 410px;
+    padding-top: 40px;
+}
+.block-promo-product .roundabout-moveable-item-style-one .p-tit{
+    font-size: 0;
+}
+.block-promo-product .roundabout-moveable-item-style-one .tit-cont{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    font-size: 22px;
+    color: #333;
+}
+.block-promo-product .roundabout-moveable-item-style-one .storage-label{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    font-size: 0;
+    color: #ff5500;
+}
+.block-promo-product .roundabout-moveable-item-style-one .storage-label i{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin-left: 4px;
+    font-size: 12px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid #ffaa7f;
+    border-radius: 2px;
+}
+.block-promo-product .roundabout-moveable-item-style-one .p-desc{
+    color: #888;
+}
+.block-promo-product .roundabout-moveable-item-style-one .p-line{
+    padding-top: 20px;
+    font-size: 0;
+}
+.block-promo-product .roundabout-moveable-item-style-one .progress-bar{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    width: 240px;
+    height: 12px;
+    border:1px solid #ff9865;
+    border-radius: 999px;
+    overflow: hidden;
+}
+.block-promo-product .roundabout-moveable-item-style-one .progress-bar-inner{
+    display: block;
+    width: 190px;
+    height: 100%;
+    background: #ffaa7f;
+}
+.block-promo-product .roundabout-moveable-item-style-one .line-txt{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #888;
+}
+.block-promo-product .roundabout-moveable-item-style-one .p-price{
+    font-size: 0;
+    padding-top: 10px;
+}
+.block-promo-product .roundabout-moveable-item-style-one .p-price-cur{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    color: #ff5500;
+    font-size: 14px;
+}
+.block-promo-product .roundabout-moveable-item-style-one .price-num{
+    font-size: 24px;
+    padding: 0 5px;
+}
+.block-promo-product .roundabout-moveable-item-style-one .p-price-origin{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    color: #888;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+.block-promo-product .roundabout-moveable-item-style-one .btn-buy{
+    margin-top: 15px;
+    width: 150px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    color: #fff;
+    font-size: 18px;
+    background: #ff5500;
+    border-radius: 4px;
+}
+
+
+.block-promo-product .roundabout-moveable-item-style-two{
+    position: relative;
+}
+.block-promo-product .roundabout-moveable-item-style-two .p-pic{
+    width: 470px;
+    height: 290px;
+}
+.block-promo-product .roundabout-moveable-item-style-two img{
+    height:100%;
+    width:100%;
+}
+.block-promo-product .roundabout-moveable-item-style-two .p-cont{
+    margin-left: 480px;
+    padding-top: 80px;
+}
+.block-promo-product .roundabout-moveable-item-style-two .p-tit{
+    font-size: 0;
+}
+.block-promo-product .roundabout-moveable-item-style-two .tit-cont{
+    font-size: 20px;
+    color: #333;
+    vertical-align: middle;
+}
+.block-promo-product .roundabout-moveable-item-style-two .storage-label{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #ff5400;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid #ffaa7b;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+.block-promo-product .roundabout-moveable-item-style-two .p-desc{
+    font-size: 14px;
+    color: #888;
+    padding-top: 10px;
+}
+.block-promo-product .roundabout-moveable-item-style-two .p-bottom{
+    font-size: 0;
+    padding-top: 35px;
+}
+.block-promo-product .roundabout-moveable-item-style-two .p-price{
+    display: inline-block;
+    font-size: 12px;
+    color: #ff5400;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+.block-promo-product .roundabout-moveable-item-style-two .p-price .p-price-num{
+    font-size: 24px;
+}
+.block-promo-product .roundabout-moveable-item-style-two .btn-buy{
+    display: inline-block;
+    width: 100px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    font-size: 14px;
+    background: #ff5400;
+    border-radius: 4px;
+    vertical-align: bottom;
+}
+

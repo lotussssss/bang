@@ -1,0 +1,322 @@
+.w100{
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+.block-inner {
+    margin: 0 auto;
+    width: 1200px;
+    background-color:#f62a4d;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.page-hd-618 {
+    background:#f62a4d;
+}
+.page-hd-618 .topbar .in{
+    width: 1000px;
+}
+
+.page-hd-618 .block-tit{
+    margin: 0 auto;
+    padding-top: 10px;
+    height: 90px;
+    line-height: 90px;
+    position: relative;
+    background: url(https://p2.ssl.qhmsg.com/t01263502b4a2acbafc.jpg) no-repeat center 10px;
+    text-indent: -99999px;
+}
+.page-hd-618 .block-tit .tit-cont{
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+}
+.page-hd-618 .block-tit .more{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 110px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: #aa242f;
+    background: #fbd743;
+    border-radius: 999px;
+    text-indent: 0;
+}
+
+.page-hd-618 .block-crazy-sale .block-tit{
+    background-image: url(https://p3.ssl.qhmsg.com/t019feee56a3cd78806.jpg);
+}
+.page-hd-618 .block-flash .block-tit{
+    background-image: url(https://p3.ssl.qhmsg.com/t011380320f35b87850.jpg);
+}
+.page-hd-618 .block-apple .block-tit{
+    background-image: url(https://p3.ssl.qhmsg.com/t01ba0a185332e00b64.jpg);
+}
+.page-hd-618 .block-android .block-tit{
+    background-image: url(https://p1.ssl.qhmsg.com/t01fa85c708864fb75e.jpg);
+}
+.page-hd-618 .block-mianxi .block-tit{
+    background-image: url(https://p3.ssl.qhmsg.com/t01e5013a61a2e85d94.jpg);
+}
+.page-hd-618 .block-lottery .block-tit{
+    background-image: url(https://p3.ssl.qhmsg.com/t011380320f35b87850.jpg);
+}
+
+.page-hd-618 .block-top,
+.page-hd-618 .block-top .block-inner{
+    height: 418px;
+    background: url(https://p4.ssl.qhmsg.com/t0195a97e191d3fbaf9.jpg) no-repeat center;
+}
+.page-hd-618 .block-sub,
+.page-hd-618 .block-sub .block-inner{
+    height: 220px;
+    background: url(https://p1.ssl.qhmsg.com/t01d4902746fdf42892.jpg) no-repeat center;
+}
+.page-hd-618 .block-video,
+.page-hd-618 .block-video .block-inner{
+    background: #f62a4d url(https://p2.ssl.qhmsg.com/t01c55f25aea9634064.jpg) no-repeat center;
+}
+.page-hd-618 .block-video .block-inner {
+    padding: 20px 0 0;
+    height: 240px;
+}
+.page-hd-618 .block-video .trigger-play-video{
+    margin: 0 auto;
+    display: block;
+    width: 983px;
+    height: 100%;
+}
+
+.page-hd-618 .block-crazy-sale{
+    margin-top: -25px;
+}
+.page-hd-618 .block-crazy-sale .block-date{
+    height: 130px;
+}
+.page-hd-618 .block-date .date-list .date-item{
+    float: left;
+    width: 133.333px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background: url("https://p3.ssl.qhmsg.com/t013aa584220220e785.png") no-repeat center 0;
+}
+.page-hd-618 .block-date .date-list .date-item:hover{
+    background-image: url("https://p0.ssl.qhmsg.com/t01bf0580a630207f1d.png");
+}
+.page-hd-618 .block-date .date-list .date-item .date{
+    height: 40px;
+    line-height: 40px;
+}
+.page-hd-618 .block-date .date-list .date-item .brand-name{
+    padding-top: 56px;
+}
+.page-hd-618 .block-date .date-list .cur{
+    background-image: url("https://p3.ssl.qhmsg.com/t012f39e11e3b37e6ba.png");
+}
+.page-hd-618 .block-date .date-list .cur .brand-name{
+    color: #fef505;
+}
+.page-hd-618 .block-date .date-line{
+    height: 6px;
+    margin-top: -52px;
+    background-color: #ff8b00;
+    border-radius: 999px;
+}
+.page-hd-618 .block-crazy-sale .block-tab-cont{
+    display: none;
+}
+
+.page-hd-618 .block-crazy-sale .block-product-list-crazy-sale .p-item{
+    width: 298px;
+    height: 350px;
+    font-size: 14px;
+}
+.page-hd-618 .block-crazy-sale .block-product-list-crazy-sale .p-pic{
+    padding: 55px 0 0 0;
+    height: 140px;
+}
+.page-hd-618 .block-crazy-sale .block-product-list-crazy-sale .price-orig{
+    color: #999;
+    padding:15px 0 0px;
+}
+.page-hd-618 .block-crazy-sale .block-product-list-crazy-sale .price-orig .price-num{
+    text-decoration: line-through;
+}
+.page-hd-618 .block-crazy-sale .block-product-list-crazy-sale .price-sale{
+    color: #ff5500;
+}
+.page-hd-618 .block-crazy-sale .block-product-list-crazy-sale .price-sale .price-num{
+    font-size: 30px;
+}
+.page-hd-618 .block-crazy-sale .p-item-disabled,
+.page-hd-618 .block-crazy-sale .p-item-disabled .p-tit,
+.page-hd-618 .block-crazy-sale .p-item-disabled .price-sale,
+.page-hd-618 .block-crazy-sale .p-item-disabled .price-orig{
+    cursor: default;
+    color: #999;
+}
+
+/*活动商品列表样式*/
+.page-hd-618 .ui-sp-product-list-1{
+    min-height: 300px;
+}
+.page-hd-618 .ui-sp-product-list-1 .p-item{
+    /*margin: 5px;*/
+}
+.page-hd-618 .block-flash .p-item{
+    width: 298px;
+    height: 350px;
+    font-size: 14px;
+}
+.page-hd-618 .block-flash .p-item .p-pic{
+    padding: 55px 0 0 0;
+    height: 140px;
+}
+.page-hd-618 .ui-sp-product-list-1 .p-item .countdown span{
+    font-size: 16px;
+}
+/*活动商品列表样式 end*/
+
+
+/*抽奖抽奖抽奖抽奖抽奖*/
+/*奖品图*/
+.page-hd-618 .block-lottery .lottery-pic{
+    float: left;
+    width: 766px;
+    height: 418px;
+    background:url(https://p2.ssl.qhmsg.com/t016a763fd09597700f.jpg) no-repeat center 0;
+    position: relative;
+}
+.page-hd-618 .block-lottery .ewm {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 210px;
+    top: 156px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+/*中奖名单*/
+.page-hd-618 .block-lottery .lottery-user{
+    float: right;
+    width: 420px;
+    height: 418px;
+    border-radius: 8px;
+    background: #fbd743;
+}
+.page-hd-618 .block-lottery .lottery-user-tit{
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+    color: #aa242f;
+    text-align: center;
+}
+.page-hd-618 .block-lottery .lottery-user-list {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.page-hd-618 .block-lottery .lottery-user-list-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.page-hd-618 .block-lottery .lottery-user-list .lottery-item{
+    color: #aa242f;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+}
+.page-hd-618 .block-lottery .lottery-user-list .lottery-item-inner{
+    padding-left: 32px;
+    position: relative;
+}
+.page-hd-618 .block-lottery .lottery-user-list .lottery-item i{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 0px;
+    top:11px;
+    border-radius: 999px;
+    background: #aa242f;
+}
+/*抽奖抽奖抽奖抽奖抽奖 end*/
+
+/*服务介绍*/
+.page-hd-618 .block-service-intro,
+.page-hd-618 .block-service-intro .block-inner {
+    background: #f62a4d url(https://p3.ssl.qhmsg.com/t0169af6efa643786be.jpg) no-repeat center;
+}
+.page-hd-618 .block-service-intro .block-inner{
+    height: 266px;
+    padding: 20px 0;
+}
+/*二维码扫一扫*/
+.page-hd-618 .block-qrcode-info .block-inner {
+    /*height: 266px;*/
+    /*background:url(https://p0.ssl.qhmsg.com/t01e695bf1f4dee8050.png) no-repeat center 0;*/
+    padding: 20px 0;
+}
+.page-hd-618 .block-qrcode-info .block-inner{
+    background-color: #fbd743;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0 20px;
+}
+.page-hd-618 .block-qrcode-info h3{
+    font-size: 16px;
+    color: #aa242f;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 20px;
+}
+.page-hd-618 .block-qrcode-info img{
+    width: 120px;
+    margin: 0 10px;
+}
+.page-hd-618 .qun-ewm-list .row{
+    margin: 0 auto;
+    width: 715px;
+    font-size: 0;
+}
+.page-hd-618 .qun-ewm-list .row .col{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 20%;
+    font-size: 12px;
+    color: #aa242f;
+}
+
+/*活动说明*/
+.page-hd-618 .block-desc{
+    color: #aa242f;
+}
+.page-hd-618 .block-desc .block-inner{
+    padding: 20px 0 80px 0;
+}
+.page-hd-618 .block-desc .block-desc-cont{
+    color: #aa242f;
+    /*padding: 15px 0 0;*/
+    background-color: #fbd743;
+    /*text-align: center;*/
+    /*border-radius: 5px;*/
+    padding: 10px 20px 20px;
+}
+.page-hd-618 .block-desc .block-desc-cont h3{
+    font-weight: bold;
+    font-size: 22px;
+}
+.page-hd-618 .block-desc .block-desc-cont p{
+    font-size: 16px;
+}

@@ -1,0 +1,250 @@
+
+a,a:hover{
+    text-decoration: none;
+}
+
+.page-hd-818 {
+    background: #f62a4d;
+    font-size: .12rem;
+}
+
+.page-hd-818 .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-818 .block {
+    width: 100%;
+}
+
+/*公用的block-title样式start*/
+.page-hd-818 .block-tit {
+    text-align: center;
+    height: 0.28888888888888886rem;
+    /*line-height: 0.6088888888888889rem;*/
+    background:no-repeat center 0;
+    background-size: cover;
+    text-indent: -99999px;
+    color: #fff;
+    font-size: .24rem;
+    font-weight: bold;
+}
+/*公用的block-title样式end*/
+.page-hd-818 .block-1 .block-tit{
+    height: 0.44rem;
+    background-image:url(https://p2.ssl.qhmsg.com/t014aac4b8889132bde.jpg);
+}
+.page-hd-818 .block-2 .block-tit{
+    height: 0.6rem;
+    background-image:url(https://p0.ssl.qhmsg.com/t0110e72a47f383283b.jpg);
+}
+.page-hd-818 .block-3 .block-tit{
+    height: 2.3022222222222224rem;
+    background-image:url(https://p3.ssl.qhmsg.com/t015d3537d6d4c35638.jpg);
+}
+
+.page-hd-818 .block-top{
+    height: 1.6488888888888888rem;
+    background: url(https://p0.ssl.qhmsg.com/t01c09509ed1f199d79.jpg) no-repeat center 0;
+    background-size: cover;
+    position: relative;
+}
+.page-hd-818 .block-top .back{
+    width: .28rem;
+    height: .28rem;
+    position: absolute;
+    top: .06rem;
+    left: .06rem;
+    background: url("https://p0.ssl.qhmsg.com/t010ba0d91557ebd726.png") no-repeat center;
+    text-decoration: none;
+    border-radius: 999px;
+    background-size: cover;
+}
+
+.page-hd-818 .block-bottom{
+    height: 0.3688888888888889rem;
+    background: url(https://p3.ssl.qhmsg.com/t01f54cea34f76cbc93.jpg) no-repeat center 0;
+    background-size: contain;
+}
+/*更多*/
+.page-hd-818 .more {
+    padding: .1rem 0;
+    text-align: center;
+}
+.page-hd-818 .more a,
+.page-hd-818 .more a:hover {
+    margin: 0 auto;
+    display: block;
+    width: 1.1rem;
+    height: .28rem;
+    line-height: .28rem;
+    font-size: .12rem;
+    color: #aa242f;
+    border-radius: 999px;
+    text-decoration: none;
+    text-align: center;
+    background: #fbd743;
+}
+/*更多 end*/
+
+/*活动商品列表样式*/
+.page-hd-818 .ui-sp-product-list-1{
+    min-height: 2.6rem;
+}
+.page-hd-818 .ui-sp-product-list-1 .p-item .p-desc{
+    -webkit-line-clamp: 2;
+    padding-left:.1rem;
+    padding-right:.1rem;
+    line-height: 1.45;
+    font-size: .1rem;
+}
+.page-hd-818 .ui-sp-product-list-1 .p-item .p-sold-out{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(https://p0.ssl.qhmsg.com/t01659da13a41c7d3e5.png) no-repeat center;
+    background-size: cover;
+}
+/*活动商品列表样式 end*/
+
+/*活动二: 400台iPhone 手慢无*/
+.page-hd-818 .block-2 .p-item{
+    height: 2.63rem;
+}
+.page-hd-818 .block-2 .p-buy{
+    padding: 0 .1rem;
+}
+.page-hd-818 .block-2 .col-left-fixed{
+    width: .65rem;
+}
+.page-hd-818 .block-2 .btn{
+    background-color: #fd3f49;
+    color: #fff;
+    font-size: .12rem;
+    width: 100%;
+    height: .25rem;
+    text-align: center;
+    line-height: .25rem;
+}
+.page-hd-818 .block-2 .col-right{
+    margin-left: .7rem;
+    padding-top: .04rem;
+}
+.page-hd-818 .block-2 .progress-bar{
+    width: 100%;
+    height: .06rem;
+    background-color: #bbbbbb;
+    border-radius: 9999px;
+    overflow: hidden;
+}
+.page-hd-818 .block-2 .progress-bar .progress-bar-inner{
+    display: block;
+    height: 100%;
+    background-color: #fd3f49;
+}
+.page-hd-818 .block-2 .p-stock{
+    color: #999;
+    font-size: .1rem;
+}
+
+.page-hd-818 .block-3 .tab-list-placeholder,
+/*活动三: 百元机型送大礼*/
+.page-hd-818 .block-3 .tab-list{
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    margin: 0 auto;
+    max-width: 720px;
+    min-width: 320px;
+    height: .3rem;
+    background-color: #ffef00;
+}
+.page-hd-818 .block-3 .tab-list-placeholder{
+    display: none;
+}
+.page-hd-818 .block-3 .tab-item{
+    text-align: center;
+    line-height: .3rem;
+    color: #333;
+}
+.page-hd-818 .block-3 .tab-item.cur{
+    color: #f85b3a;
+}
+.page-hd-818 .block-3 .tab-item.cur span{
+    padding: 0 .15rem;
+    background: url(https://p2.ssl.qhmsg.com/t014185baaa345b2f55.png) no-repeat 0 center;
+    background-size: 0.09777777777777778rem;
+}
+.page-hd-818 .block-3 .p-stock{
+    margin: 0 .1rem;
+    background-color: #f62a4d;
+    color: #fff;
+    padding: .02rem 0;
+}
+
+/*服务介绍*/
+.block-service-intro{
+    margin: .1rem;
+}
+/* 二维码扫一扫 */
+.block-qrcode-info{
+    margin: .1rem;
+}
+/* 合作伙伴 */
+.block-partner{
+    margin: .1rem .1rem .3rem;
+}
+.block-service-intro img,
+.block-qrcode-info img,
+.block-partner img{
+    width: 100%;
+    /*border-radius: .06rem;*/
+}
+
+
+
+.page-hd-818 .block-countdown{
+    margin: .1rem;
+    height: .24rem;
+    line-height: .24rem;
+    text-align: center;
+    background: #ffef00;
+    color: #a73ee7;
+    border-radius: 999px;
+    font-size: .14rem;
+}
+.page-hd-818 .block-countdown .countdown{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+.page-hd-818 .block-countdown span{
+    font-size: .14rem;
+}
+.page-hd-818 .block-countdown .d-num,
+.page-hd-818 .block-countdown .h-num,
+.page-hd-818 .block-countdown .m-num,
+.page-hd-818 .block-countdown .s-num {
+    padding: 0;
+    color: #f62a4d;
+}
+
+.page-hd-818 .btn-load-more {
+    margin: .1rem;
+    display: block;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    font-size: .14rem;
+    color: #f62a4d;
+    border-radius: 999px;
+    background-color: #ffef00;
+}

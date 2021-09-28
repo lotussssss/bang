@@ -1,0 +1,292 @@
+/* START 公共样式 */
+.page-xxg-order-detail.page-xxg-order-detail-v2020 {
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .gutter-line {
+    margin: 0 -.12rem;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .c999 {
+    color: #999;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .bg-dark {
+    background-color: #f5f5f5;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .marked {
+    /*color: #fe5800;*/
+    color: #f84;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .marked-second {
+    color: #16a654;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .text-right {
+    text-align: right;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .text-center {
+    text-align: center;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .underline {
+    text-decoration: underline;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .mainbody-inner {
+    /*margin-bottom: .94rem;*/
+    margin-bottom: 1.44rem;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .bang-ui-dialog {
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .bang-ui-dialog .dialog-content {
+    left: .16rem;
+    right: .16rem;
+    margin: auto;
+    padding: .2rem 0 0 0;
+    max-width: 1080px;
+    border-radius: .09rem;
+    overflow: hidden;
+    font-size: .14rem;
+    color: #000;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .bang-ui-dialog .alert-title {
+    font-size: .14rem;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .bang-ui-dialog .btn-box-alert .ui-btn {
+    width: 100%;
+    height: .44rem;
+    font-size: .14rem;
+    background-color: #fff;
+    color: #16a654;
+    box-shadow: none;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .bang-ui-dialog .btn-box-alert .ui-btn.ui-btn-disabled {
+    color: #ccc;
+    opacity: .8;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .bang-ui-dialog .btn-box-confirm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .bang-ui-dialog .btn-box-confirm .ui-btn {
+    flex-shrink: 1;
+    -webkit-flex-shrink: 1;
+    padding: 0 .1rem;
+    width: 50%;
+    border-radius: 0;
+    font-size: .14rem;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .bang-ui-dialog .btn-box-confirm .ui-btn:first-child {
+    margin-right: 0;
+    border-right: thin solid #ebebeb;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .bang-ui-dialog .btn-box-confirm .ui-btn.ui-btn-succ {
+    color: #16a654;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .bang-ui-dialog .btn-box-confirm .ui-btn.ui-btn-succ.ui-btn-disabled {
+    color: #ccc;
+    opacity: .8;
+}
+
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 {
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .dialog-xxg-order-detail-v2020.dialog-wrap {
+    left: .16rem;
+    right: .16rem;
+    overflow: hidden;
+    border-radius: .09rem;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .dialog-xxg-order-detail-v2020.dialog-wrap.dialog-wrap-from-bottom {
+    left: .04rem;
+    right: .04rem;
+    padding: 0;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .dialog-wrap .btn {
+    background-color: #16a654;
+    color: #fff;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .dialog-wrap .dialog-close,
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .dialog-wrap .dialog-close:hover {
+    position: absolute;
+    top: 0.08rem;
+    right: 0.08rem;
+    z-index: 9999;
+    width: .24rem;
+    height: .24rem;
+    line-height: .24rem;
+    font-size: .18rem;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    text-decoration: none;
+    color: #999;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .dialog-wrap .dialog-close:before {
+    /*content: "\e67a";*/
+    content: "\e603";
+}
+
+/* 按钮 */
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .btn {
+    padding: 0 .1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: .22rem;
+    font-size: 0.11rem;
+    border-radius: 0;
+    border: thin solid #e1e1e1;
+    color: #000;
+    background: #fff;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .btn:hover,
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .btn:active {
+    text-decoration: none;
+    opacity: .8;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .btn.btn-bigger {
+    height: .36rem;
+    font-size: 0.15rem;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .btn.btn-big {
+    height: .28rem;
+    font-size: 0.13rem;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .btn.btn-mini {
+    height: .18rem;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .btn.btn-radius {
+    border-radius: .08rem;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .btn.btn-circle {
+    border-radius: 9999px;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .btn.btn-none-border {
+    border: 0;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .btn.btn-gradient {
+    border: 0;
+    background: linear-gradient(to left, #ff5200, #ff8900);
+    color: #fff;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .btn.btn-primary {
+    background: #16a654;
+    color: #fff;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .btn.btn-plain {
+    border: thin solid #ccc;
+    color: #999;
+    background: #fff;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .a-trigger {
+    color: inherit;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .a-trigger:hover {
+    background-color: #f5f5f5;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .default {
+    color: #999;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .icon-you {
+    font-size: .14rem;
+    color: #999;
+}
+
+/* 按钮 END */
+
+/* END 公共样式 */
+
+.page-xxg-order-detail-v2020 .block-order-extend a:active {
+    background-color: #eee;
+}
+
+.page-xxg-order-detail-v2020 .block-order-sf-fix-suning-one-stop-order {
+    overflow: hidden;
+    line-height: .3rem;
+    /*color: #666;*/
+    color: #232323;
+}
+
+.page-xxg-order-detail-v2020 .block-order-sf-fix-suning-one-stop-order .block-title {
+    margin: 0 -.12rem;
+    padding: 0 .12rem;
+    height: .38rem;
+    line-height: .38rem;
+    color: #232323;
+}
+
+.page-xxg-order-detail-v2020 .block-order-sf-fix-suning-one-stop-order .block-title .auto {
+    color: #232323;
+}
+
+
+.page-xxg-order-detail-v2020 .panel-complete .title {
+    padding: .1rem 0 .2rem 0;
+    font-size: 0.13rem;
+    line-height: 1;
+}
+
+.page-xxg-order-detail-v2020 .panel-complete .title .iconfont {
+    margin-bottom: .1rem;
+    font-size: 0.56rem;
+    color: #18a654;
+}
+
+.page-xxg-order-detail-v2020 .panel-complete.panel-complete-cancel .title .iconfont {
+    color: #fe5800;
+}
+
+.page-xxg-order-detail-v2020 .panel-complete .shipping-info-detail {
+    position: relative;
+    padding: .08rem .12rem;
+    line-height: 1.68;
+    border-radius: 0.08rem;
+    background: #f2f2f2;
+}
+
+.page-xxg-order-detail-v2020 .panel-complete .shipping-info-detail .btn-copy {
+    position: absolute;
+    top: .1rem;
+    right: .1rem;
+    width: auto;
+    height: .18rem;
+    font-size: 0.11rem;
+    color: #000;
+    background: #fff;
+}

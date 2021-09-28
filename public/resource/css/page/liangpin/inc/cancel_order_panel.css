@@ -1,0 +1,82 @@
+/*取消订单panel*/
+.liangpin-cancel-order-panel-wrap{
+
+}
+.liangpin-cancel-order-panel{
+    width: 830px;
+    height: 280px;
+}
+.liangpin-cancel-order-panel .tit{
+    margin: 0 15px;
+    padding: 0 0 0 5px;
+    height: 66px;
+    line-height: 66px;
+    font-size: 24px;
+    border-bottom: 1px solid #CBCBCB;
+}
+.liangpin-cancel-order-panel .cnt{
+
+}
+.liangpin-cancel-order-panel .cnt-inner{
+    font-size: 24px;
+    line-height: 92px;
+}
+.liangpin-cancel-order-panel .cnt-inner .col-left-fixed{
+    padding: 20px 80px;
+}
+.liangpin-cancel-order-panel .cnt-inner .col-right{
+    padding: 20px 0;
+}
+.liangpin-cancel-order-panel .warn-icon{
+    width: 92px;
+    height: 92px;
+    background: url(https://p.ssl.qhimg.com/t010e60d9dd1a7d1c4a.jpg) no-repeat 0 0;
+}
+.liangpin-cancel-order-panel-wrap .close{
+    position: absolute;
+    top: 10px;
+    right: 17px;
+    display: block;
+    width: 41px;
+    height: 41px;
+    background: url(https://p.ssl.qhimg.com/t011ccfaa5874f58a59.jpg) no-repeat 0 0;
+}
+
+.liangpin-cancel-order-panel .form-shouhou{
+    padding: 0 35px;
+    font-size: 15px;
+    color: #868686;
+    font-family: 黑体;
+}
+.liangpin-cancel-order-panel .form-shouhou .from-line {
+
+}
+.liangpin-cancel-order-panel .form-shouhou select{
+    width: 200px;
+    padding: 5px;
+}
+.liangpin-cancel-order-panel .form-shouhou div {
+    margin-bottom: 10px;
+}
+.liangpin-cancel-order-panel .form-shouhou .shouhou-desc-area {
+    height: 50px;
+    width: 300px;
+}
+.liangpin-cancel-order-panel .cnt-btn{
+    padding: 10px 40px 0 0;
+    text-align: right;
+}
+.liangpin-cancel-order-panel .btn{
+    margin-left: 12px;
+    /*padding: 12px 30px;*/
+    padding: 12px 0;
+    width: 124px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background: #fff;
+    border: 1px solid #CBCBCB;
+    font-size: 16px;
+    color: #000;
+}
+/*END取消订单panel*/

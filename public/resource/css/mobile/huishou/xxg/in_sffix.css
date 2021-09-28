@@ -1,0 +1,112 @@
+/* in sffix app*/
+/*基础颜色 #333*/
+/*基础颜色渐变深色 #1d1d1f*/
+/*基础颜色渐变浅色 #333*/
+/*显著颜色 #cc3244*/
+
+/*通用样式*/
+.page-in-sf-fix-xxg {
+}
+
+.page-in-sf-fix-xxg .color-orange {
+    color: #cc3244;
+}
+
+.page-in-sf-fix-xxg.page-xxg-order-detail.page-xxg-order-detail-v2020 .bang-ui-dialog .btn-box-alert .ui-btn {
+    color: #cc3244;
+}
+
+.page-in-sf-fix-xxg #header {
+    background-color: #333;
+}
+
+.page-in-sf-fix-xxg #header .header-status-bar {
+}
+
+.page-in-sf-fix-xxg #header .header-inner {
+    background-color: transparent;
+}
+
+/*首页*/
+.page-in-sf-fix-xxg.page-xxg-index-sf-fix #header,
+.page-in-sf-fix-xxg.page-xxg-index-sf-fix .block-top {
+    background: linear-gradient(to right, #1d1d1f, #333);
+}
+
+/*提成列表*/
+.page-in-sf-fix-xxg.page-xxg-special-sf-fix-reward-list #header,
+.page-in-sf-fix-xxg.page-xxg-special-sf-fix-reward-list .block-top {
+    background: linear-gradient(to right, #1d1d1f, #333);
+}
+
+.page-in-sf-fix-xxg.page-xxg-special-sf-fix-reward-list .block-list .reward-list .num {
+    color: #cc3244;
+}
+
+/*订单列表*/
+.page-in-sf-fix-xxg.page-xxg-order-list {
+}
+
+.page-in-sf-fix-xxg.page-xxg-order-list .block-tab-list .item {
+    color: #333;
+}
+
+.page-in-sf-fix-xxg.page-xxg-order-list .block-tab-list .item-cur {
+    background-color: #cc3244;
+    color: #fff;
+}
+
+.page-in-sf-fix-xxg.page-xxg-order-list .block-order-list .order-status {
+    color: #cc3244;
+}
+
+.page-in-sf-fix-xxg.page-xxg-order-list .block-order-list .price {
+    color: #cc3244;
+}
+
+.page-in-sf-fix-xxg.page-xxg-order-list .block-order-list .btn-yellow-plain-small {
+    background-color: #cc3244;
+}
+
+.page-in-sf-fix-xxg.page-xxg-order-list .zlyd-alert-model-btn-wrap .zlyd-alert-model-btn .zlyd-alert-model-btn-cancel,
+.page-in-sf-fix-xxg.page-xxg-order-list .zlyd-alert-model-btn-wrap .zlyd-alert-model-btn .zlyd-alert-model-btn-confirm {
+    color: #cc3244;
+}
+
+/*订单详情*/
+.page-in-sf-fix-xxg.page-m-xxg .block-order-detail-info .btn {
+    background-color: #cc3244;
+}
+
+.page-in-sf-fix-xxg.page-xxg-order-detail-v2020 .btn.btn-primary {
+    border: 0;
+    background-color: #cc3244;
+    color: #fff;
+}
+
+.page-in-sf-fix-xxg.page-xxg-order-detail-v2020 .block-order-bottom-btn .row-btn .btn.btn-go-next {
+    background-color: #cc3244;
+}
+
+.page-in-sf-fix-xxg.page-xxg-order-detail.page-xxg-order-detail-v2020 .marked {
+    color: #cc3244;
+}
+
+.page-in-sf-fix-xxg.page-xxg-order-detail.page-xxg-order-detail-v2020 .marked-second {
+    color: #cc3244;
+}
+
+.page-in-sf-fix-xxg.page-xxg-order-detail .block-order-deal .btn-scan-qrcode {
+    border-color: #cc3244;
+    color: #cc3244;
+}
+
+.page-in-sf-fix-xxg.page-xxg-order-detail-v2020 .block-order-status .shipping-info .btn-edit-express-confirm {
+    border: 0;
+    background-color: #cc3244;
+}
+
+/*再来一单--扫码下单*/
+.page-in-sf-fix-xxg.page-xxg-special-sf-another-one-scan-code .another-one-order-wrap .another-one-confirm {
+    background-color: #cc3244;
+}

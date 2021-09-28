@@ -1,0 +1,100 @@
+/*修修哥*/
+@import url("../../mobile/huishou/xxg/inc/common.css");
+@import url("../../mobile/huishou/xxg/inc/header.css");
+@import url("../../mobile/huishou/xxg/inc/block_order_detail_info.css");
+
+@import url("../../mobile/huishou/xxg/login/login.css");
+@import url("../../mobile/huishou/xxg/index/index.css");
+
+@import url("../../mobile/huishou/xxg/user_info/user_info.css");
+@import url("../../mobile/huishou/xxg/user_info/user_bank_info.css");
+
+@import url("../../mobile/huishou/xxg/order_create.css");
+@import url("../../mobile/huishou/xxg/order_list.css");
+@import url("../../mobile/huishou/xxg/gold_infos.css");
+
+@import url("../../mobile/huishou/xxg/order_detail/block_order_base_info.css");
+@import url("../../mobile/huishou/xxg/order_detail/block_order_deal_info.css");
+@import url("../../mobile/huishou/xxg/order_detail/block_order_deal_info_bottom_btn.css");
+@import url("../../mobile/huishou/xxg/order_detail/block_order_manager_check.css");
+@import url("../../mobile/huishou/xxg/order_detail/block_manager_check_reject.css");
+@import url("../../mobile/huishou/xxg/order_detail/swipe_page_upload_picture.css");
+@import url("../../mobile/huishou/xxg/order_detail/swipe_page_customer_signature.css");
+@import url("../../mobile/huishou/xxg/order_detail/swipe_page_customer_service_complete.css");
+@import url("../../mobile/huishou/xxg/order_detail/swipe_page_locked_tips.css");
+@import url("../../mobile/huishou/xxg/order_detail/process_align.css");
+@import url("../../mobile/huishou/xxg/order_detail/remote_check/block_order_remote_check_options.css");
+@import url("../../mobile/huishou/xxg/order_detail/remote_check/block_order_remote_check_success_perfect.css");
+@import url("../../mobile/huishou/xxg/order_detail/remote_check/block_order_remote_check_success_diff.css");
+@import url("../../mobile/huishou/xxg/order_detail/remote_check/block_order_remote_check_reject.css");
+@import url("../../mobile/huishou/xxg/order_detail/dialog_ocr_imei.css");
+@import url("../../mobile/huishou/xxg/order_detail/suning_one_stop_order/block_order_suning_one_stop_order.css");
+@import url("../../mobile/huishou/xxg/order_detail/sf_fix_order/block_order_sf_fix_order.css");
+
+@import url("../../mobile/huishou/xxg/order_detail/sf_fix_suning_one_stop_order/common.css");
+@import url("../../mobile/huishou/xxg/order_detail/sf_fix_suning_one_stop_order/block-order-bottom-btn.css");
+@import url("../../mobile/huishou/xxg/order_detail/sf_fix_suning_one_stop_order/block-order-deal.css");
+@import url("../../mobile/huishou/xxg/order_detail/sf_fix_suning_one_stop_order/block-order-full-pay.css");
+@import url("../../mobile/huishou/xxg/order_detail/sf_fix_suning_one_stop_order/block-order-info.css");
+@import url("../../mobile/huishou/xxg/order_detail/sf_fix_suning_one_stop_order/block-order-product.css");
+@import url("../../mobile/huishou/xxg/order_detail/sf_fix_suning_one_stop_order/block-order-status.css");
+
+@import url("../../mobile/huishou/xxg/order_detail/service_remote_check/block_order_remote_check_options.css");
+@import url("../../mobile/huishou/xxg/order_detail/service_remote_check/block_order_remote_check_reject.css");
+@import url("../../mobile/huishou/xxg/order_detail/service_remote_check/block_order_remote_check_success_diff.css");
+@import url("../../mobile/huishou/xxg/order_detail/service_remote_check/block_order_remote_check_success_perfect.css");
+@import url("../../mobile/huishou/xxg/order_detail/service_upload_picture/swipe_page_service_upload_picture.css");
+@import url("../../mobile/huishou/xxg/order_detail/service_shangmen_to_youji/service_shangmen_to_youji.css");
+@import url("../../mobile/huishou/xxg/order_detail/service_intro_app_detect/service_intro_app_detect.css");
+@import url("../../mobile/huishou/xxg/order_detail/service_cant_scan_buy_new/service_cant_scan_buy_new.css");
+@import url("../../mobile/huishou/xxg/order_detail/service_privacy_protocol_sign/service_privacy_protocol_sign.css");
+@import url("../../mobile/huishou/xxg/order_detail/service_privacy_protocol_sign/service_sku_not_match_alert.css");
+@import url("../../mobile/huishou/xxg/order_detail/service_private_data/service_private_data.css");
+@import url("../../mobile/huishou/xxg/order_detail/service_new_device_activation/service_new_device_activation.css");
+
+@import url("../../mobile/huishou/xxg/order_detail/order_detail.css");
+
+@import url("../../mobile/huishou/xxg/imei_check.css");
+@import url("../../mobile/huishou/xxg/assess_diff_detail.css");
+@import url("../../mobile/huishou/xxg/special/scan_shop_credit_hs.css");
+@import url("../../mobile/huishou/xxg/special/shop_credit_hs.css");
+@import url("../../mobile/huishou/xxg/special/shop_youji_hs.css");
+@import url("../../mobile/huishou/xxg/special/shop_tuijian_hs.css");
+@import url("../../mobile/huishou/xxg/special/feedback_assess.css");
+@import url("../../mobile/huishou/xxg/special/quality_handbook.css");
+@import url("../../mobile/huishou/xxg/special/user_pay.css");
+@import url("../../mobile/huishou/xxg/special/sf_fix_reward_list.css");
+@import url("../../mobile/huishou/xxg/special/demo_product_list.css");
+
+@import url("../../mobile/huishou/xxg/special/xxg-suning-fill-up-bank-info.css");
+
+/*门店人员管理*/
+@import url("../../mobile/huishou/xxg/manager.css");
+/*订单审核*/
+@import url("../../mobile/huishou/xxg/order_check.css");
+
+/*修修哥福利*/
+@import url("../../mobile/huishou/xxg/xxg_fuli/index.css");
+@import url("../../mobile/huishou/xxg/xxg_fuli/activity_page.css");
+@import url("../../mobile/huishou/xxg/xxg_fuli/pretty_xxg_info_page.css");
+
+/*修修哥取消订单支付*/
+@import url("../../mobile/huishou/xxg/engineer_refund_cashier_desk.css");
+
+/*回收通用支付*/
+@import url("../../mobile/huishou/xxg/normal_cashier_desk.css");
+
+/*顾客收款信息*/
+@import url("../../mobile/huishou/xxg/payee_info.css");
+
+/* in shalou */
+@import url("../../mobile/huishou/xxg/in_shalou.css");
+
+/* in suning */
+@import url("../../mobile/huishou/xxg/in_suning.css");
+
+/* in sffix */
+@import url("../../mobile/huishou/xxg/in_sffix.css");
+
+/* in zjyd app */
+@import url("../../mobile/huishou/xxg/in_zjyd_app.css");

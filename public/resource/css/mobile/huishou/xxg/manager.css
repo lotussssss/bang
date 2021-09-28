@@ -1,0 +1,91 @@
+/*修修哥门店人员管理*/
+.page-hs-xxg-manager{
+    background-color: #fff;
+}
+/*.page-hs-xxg-manager #header .header-inner .h-right{*/
+    /*width: .6rem;*/
+    /*font-size: .12rem;*/
+/*}*/
+.page-hs-xxg-manager a,
+.page-hs-xxg-manager a:hover{
+    text-decoration: none;
+}
+
+.page-hs-xxg-manager .row-shop-info{
+    padding: .3rem .1rem .2rem;
+    text-align: center;
+    color: #666;
+    line-height: 2.2;
+}
+.page-hs-xxg-manager .row-shop-info .col-2-1:nth-child(1){
+    text-align: left;
+}
+.page-hs-xxg-manager .row-shop-info .col-2-1:nth-child(2){
+    text-align: right;
+}
+.page-hs-xxg-manager .row-shop-info .shop-name{
+    color: #333;
+    font-size: .14rem;
+}
+.page-hs-xxg-manager .block-staff-list{}
+.page-hs-xxg-manager .block-staff-list .item{
+    display: block;
+    padding: .1rem;
+    font-size: .12rem;
+    color: #666;
+    text-align: center;
+}
+.page-hs-xxg-manager .block-staff-list .btn-edit-job-status{
+    color: #0F97E9;
+}
+.page-hs-xxg-manager .btn-add-staff{
+    margin: 0 auto;
+    width: .8rem;
+    height: .36rem;
+    line-height: .36rem;
+    font-size: .12rem;
+}
+
+
+
+/*弹窗*/
+.page-hs-xxg-manager .dialog-wrap{
+    background-color: #fff;
+    padding: .15rem .25rem;
+}
+.page-hs-xxg-manager .dialog-wrap .tit{
+    padding-bottom: .1rem;
+    font-size: .18rem;
+    color: #666;
+    text-align: center;
+}
+.page-hs-xxg-manager .dialog-wrap .row{
+   text-align: center;
+    line-height: .36rem;
+}
+.page-hs-xxg-manager .dialog-wrap .btn{
+    height: .36rem;
+    width: 90%;
+    background-color: #18a653;
+    font-size: .14rem;
+}
+.page-hs-xxg-manager .dialog-wrap.xxg-edit-job-status-panel .col-2-1:nth-child(2) .btn{
+    background: #666;
+}
+/*添加店员*/
+.page-hs-xxg-manager .dialog-wrap.xxg-add-staff-panel .row{
+    padding: .03rem 0;
+}
+.page-hs-xxg-manager .dialog-wrap.xxg-add-staff-panel .col-left-fixed{
+    width: .5rem;
+    line-height: .36rem;
+    color: #666;
+}
+.page-hs-xxg-manager .dialog-wrap.xxg-add-staff-panel .col-right{
+    margin-left: .5rem;
+}
+.page-hs-xxg-manager .dialog-wrap.xxg-add-staff-panel .btn-confirm{
+    width: 100%;
+    margin-top: .15rem;
+}
+

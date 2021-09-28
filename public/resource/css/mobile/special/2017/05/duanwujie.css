@@ -1,0 +1,252 @@
+.page-hd-duanwujie {
+    background: #85c497;
+    font-size: .12rem;
+}
+
+.page-hd-duanwujie .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-duanwujie .block {
+    width: 100%;
+}
+.page-hd-duanwujie .block1{
+    height: 1.76rem;
+    background: url(https://p0.ssl.qhmsg.com/t01336b618182eeae22.png) no-repeat center 0;
+    background-size: cover;
+    position: relative;
+}
+.page-hd-duanwujie .block1 .back{
+    width: .28rem;
+    height: .28rem;
+    position: absolute;
+    top: .06rem;
+    left: .06rem;
+    background: url("https://p0.ssl.qhmsg.com/t010ba0d91557ebd726.png") no-repeat center;
+    text-decoration: none;
+    border-radius: 999px;
+    background-size: cover;
+}
+
+/*优惠券*/
+.page-hd-duanwujie .block-sub{
+    height: 1.5866666666666667rem;
+    background:url(https://p0.ssl.qhmsg.com/t01bb6452634d40f13d.png) no-repeat center 0;
+    background-size: cover;
+}
+
+.page-hd-duanwujie .block-flash,
+.page-hd-duanwujie .block-flash .block-inner{
+}
+.page-hd-duanwujie .block-flash .ui-sp-product-list-1 .p-item{
+    height: 2.6rem;
+}
+/*公用的block-title样式start*/
+.page-hd-duanwujie .block-title {
+    text-align: center;
+    height: 0.8088888888888889rem;
+    /*line-height: 0.44rem;*/
+     margin: .1rem 0 0rem;
+    /*background: url(https://p0.ssl.qhmsg.com/t015f58ddad7a654f3b.png) no-repeat center 0;*/
+    /*background-size: cover;*/
+    text-indent: -99999px;
+    color: #fff;
+    font-size: .22rem;
+    font-weight: bold;
+}
+/*公用的block-title样式end*/
+
+.page-hd-duanwujie .block-flash .block-title{
+    background: url(https://p4.ssl.qhmsg.com/t0197c5a0cffc9142b9.png) no-repeat center 0;
+    background-size: contain;
+}
+.page-hd-duanwujie .block-mianxi .block-title{
+    background: url(https://p0.ssl.qhmsg.com/t01ca308cc0f12628dd.png) no-repeat center 0;
+    background-size: contain;
+}
+.page-hd-duanwujie .block-ios .block-title{
+    background: url(https://p4.ssl.qhmsg.com/t01ba96e380c644edcf.png) no-repeat center 0;
+    background-size: contain;
+}
+.page-hd-duanwujie .block-android .block-title{
+    background: url(https://p4.ssl.qhmsg.com/t015048f3fe1236d28d.png) no-repeat center 0;
+    background-size: contain;
+}
+
+
+.page-hd-duanwujie .more {
+    padding: .1rem 0;
+    text-align: center;
+}
+.page-hd-duanwujie .more a,
+.page-hd-duanwujie .more a:hover {
+    margin: 0 auto;
+    display: block;
+    width: 1.1rem;
+    height: .28rem;
+    line-height: .28rem;
+    font-size: .14rem;
+    color: #0a7c36;
+    /*border: 1px solid #fff;*/
+    border-radius: 999px;
+    text-decoration: none;
+    text-align: center;
+    background: #fff44c;
+    /*background-size: contain;*/
+}
+
+.page-hd-duanwujie .ui-sp-product-list-1{
+    min-height: 2.6rem;
+}
+
+/*品牌推荐start*/
+.page-hd-duanwujie .block-brand-recommend {}
+.page-hd-duanwujie .block-brand-recommend .block-title {
+    background: url(https://p3.ssl.qhmsg.com/t0100470587c69adb96.png) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-duanwujie .block-brand-recommend .brand-recommend-list a {
+    height: 1.0666666666666667rem;
+}
+.page-hd-duanwujie .block-brand-recommend .brand-recommend-list img {
+    height: 100%;
+}
+/*品牌推荐end*/
+
+/*服务介绍*/
+.block-service-intro{
+    margin: .1rem;
+    padding: .1rem 0;
+    background-color: #16996f;
+    border-radius: .06rem;
+}
+.block-service-intro .tit{
+    margin: 0 auto;
+    width: 1.635rem;
+}
+.block-service-intro .tit-under{
+    margin: 0 auto;
+    width: 1.56rem;
+    height: .24rem;
+    background: #6bb880;
+    border-radius: 999px;
+}
+.block-service-intro .tit-inner{
+    margin-top: -.29rem;
+    margin-left: -.06rem;
+    width: 1.635rem;
+    height: 0.34555772rem;
+    background: url(https://p0.ssl.qhmsg.com/t0166374946eb81bd5a.png) no-repeat center;
+    background-size: contain;
+}
+.block-service-intro .cnt{
+    padding: .1rem 0;
+    font-size: 0;
+}
+.block-service-intro .cnt .service-keyword{
+    margin: .08rem .04rem .08rem .08rem;
+    display: inline-block;
+    height: .3rem;
+    width: .3rem;
+    line-height: .3rem;
+    font-size: .2rem;
+    border-radius: 999px;
+    text-align: center;
+    color: #fff;
+    background-color: #6bb880;
+    vertical-align: middle;
+}
+.block-service-intro .cnt .col-2-1:nth-child(2n) .service-keyword{
+    margin-left: 0;
+}
+.block-service-intro .cnt .service-desc{
+    display: inline-block;
+    font-size: .1rem;
+    color: #fff;
+    vertical-align: middle;
+    line-height: 1.2;
+}
+.block-service-intro .cnt .service-desc em{
+    font-size: .14rem;
+    color:#fff ;
+}
+.page-hd-duanwujie  .block-intro{
+    padding-top: 0.2rem ;
+}
+/* 二维码扫一扫 */
+.block-qrcode-info{
+    margin: .1rem .1rem .3rem;
+    padding: .2rem 0;
+    background-color: #16996f;
+    border-radius: .06rem;
+    font-size: .12rem;
+    text-align: center;
+    color: #fff;
+}
+.block-qrcode-info .tit{
+    font-size: .14rem;
+}
+.block-qrcode-info .desc{
+    color: #fff;
+}
+.block-qrcode-info .qrcode{
+    margin: .1rem auto;
+    padding: .06rem;
+    width: 50%;
+    background-color: #fff;
+    border-radius: .06rem;
+    /*border: 1px solid #0e803b;*/
+}
+.block-qrcode-info .qrcode img{
+    width: 100%;
+    border-radius: .06rem;
+}
+
+
+/*固定向上按钮*/
+.page-hd-duanwujie .top-fix {
+    position: fixed;
+    bottom: .3rem;
+    right: .3rem;
+    width: .4rem;
+    height: .4rem;
+    border: 1px solid #c1c1c1;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #f5f5f5;
+    z-index: 99999;
+    opacity: .8;
+    line-height: .35rem;
+    font-size: .14rem;
+    display: none;
+    color: #000;
+}
+
+/*活动说明*/
+.page-hd-duanwujie .block-desc{
+    color: #fff;
+    padding: 0 .15rem .3rem;
+}
+.page-hd-duanwujie .block-desc .block-desc-cont{
+    color: #fff;
+    padding: 0 0 0.1rem;
+}
+.page-hd-duanwujie .block-desc .block-desc-cont h3{
+    font-weight: bold;
+    font-size: .16rem;
+}
+.page-hd-duanwujie .block-desc .block-desc-cont p{
+    font-size: .12rem;
+}
+/*视频*/
+.page-hd-duanwujie .block-video{
+    
+}
+.page-hd-duanwujie .block-video .trigger-play-video{
+    display: block;
+    height: 1.24rem;
+    background: url(https://p.ssl.qhimg.com/t01f1f717b67721d0c2.jpg) no-repeat center;
+    background-size: cover;
+}

@@ -1,0 +1,325 @@
+/*秒杀&清仓活动页*/
+a, a:hover {
+    text-decoration: none;
+}
+
+.page-hd-youpin-flash-clearance {
+    background: #df1d35;
+    font-size: .12rem;
+    line-height: 1;
+}
+
+.page-hd-youpin-flash-clearance .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-youpin-flash-clearance .block-tit {
+    margin-top: .1rem;
+    padding-top: .19rem;
+    height: 0.51rem;
+    font-size: 0.18rem;
+    text-align: center;
+    font-family: Lantinghei SC;
+    font-weight: 800;
+    color: #fff;
+    background: url("https://p5.ssl.qhimg.com/t01262a1930f8c39247.png") no-repeat center 0/cover;
+}
+
+/*秒杀商品列表*/
+.page-hd-youpin-flash-clearance .block-flash .countdown {
+    padding: .11rem 0 0.08rem;
+    background: linear-gradient(to left, #ff5200, #ff8900);
+    font-size: 0;
+    text-align: center;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .countdown span {
+    padding: .02rem;
+    color: #fff;
+    font-size: .1rem;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .countdown .h-num,
+.page-hd-youpin-flash-clearance .block-flash .countdown .m-num,
+.page-hd-youpin-flash-clearance .block-flash .countdown .s-num {
+    display: inline-flex;
+    width: .14rem;
+    height: .14rem;
+    justify-content: center;
+    align-items: center;
+    color: #ff4b0c;
+    background: #fff;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .countdown .d-num,
+.page-hd-youpin-flash-clearance .block-flash .countdown .d-txt,
+.page-hd-youpin-flash-clearance .block-flash .countdown .s-txt /*,
+.page-hd-youpin-flash-clearance .block-flash .countdown .desc-txt-before,
+.page-hd-youpin-flash-clearance .block-flash .countdown .desc-txt-behind*/
+{
+    display: none;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-container {
+    margin: .11rem .11rem 0;
+    /*height: 1.58rem;*/
+    background-color: #fff;
+    border-radius: 0.07rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list {
+    padding: 0 1px;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .p-item,
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .p-item:hover,
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .p-item:active {
+    width: 1rem;
+    height: 1.9rem;
+    padding: .12rem .06rem 0;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-size: .1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .label-purple,
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .label-orange,
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .label-red,
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .label-sold-out {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0.15rem;
+    text-align: center;
+    line-height: .15rem;
+    font-size: 0.08rem;
+    color: #fff;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .label-purple {
+    background: linear-gradient(to left, #8f1ef6, #a91afc);
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .label-orange {
+    background: linear-gradient(to left, #ff5200, #ff8900);
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .label-red {
+    background: linear-gradient(to left, #db1b2a, #e94136);
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .label-sold-out {
+    background: #999;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .p-pic {
+    width: 0.88rem;
+    height: 0.88rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .p-pic img {
+    width: 100%;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .p-tit {
+    margin-top: .08rem;
+    /*height: .26rem;*/
+    line-height: .14rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    font-size: .11rem;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .p-price {
+    font-size: 0;
+    padding-top: .06rem;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .p-price-cur,
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .p-price-orig {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 100%;
+    font-size: .1rem;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .p-price-cur {
+    color: #ff4d00;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .p-price-num {
+    font-size: .16rem;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .p-price-bottom {
+    padding-top: .04rem;
+    align-items: flex-end;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .p-price-orig {
+    padding-left: .02rem;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-product-list .p-discount {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 0.32rem;
+    height: 0.12rem;
+    background-color: #ff5400;
+    color: #fff;
+    font-size: .09rem;
+    margin-left: .04rem;
+    border-radius: 999px;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-nav {
+    position: absolute;
+    bottom: 0.11rem;
+    left: 50%;
+    margin-left: -0.13rem;
+    width: 0.26rem;
+    height: 0.03rem;
+    background: #d1d1d1;
+    border-radius: 999px;
+}
+
+.page-hd-youpin-flash-clearance .block-flash .flash-nav .inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.13rem;
+    height: 100%;
+    border-radius: 999px;
+    background: #ff4b0c;
+}
+
+/*秒杀商品列表 end*/
+
+/*尾货清仓商品列表*/
+.page-hd-youpin-flash-clearance .block-clearance-sale .tab-list {
+    line-height: 1;
+    height: 0.55rem;
+    background: linear-gradient(to left, #ff5200, #ff8900);
+}
+
+.page-hd-youpin-flash-clearance .block-clearance-sale .tab-item {
+    text-align: center;
+    font-weight: 600;
+}
+
+.page-hd-youpin-flash-clearance .block-clearance-sale .tab-item .time {
+    color: #fff;
+    font-size: .14rem;
+}
+
+.page-hd-youpin-flash-clearance .block-clearance-sale .tab-item .txt {
+    margin-top: 0.04rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: .11rem;
+}
+
+.page-hd-youpin-flash-clearance .block-clearance-sale .tab-item.cur {
+    font-weight: 500;
+}
+
+.page-hd-youpin-flash-clearance .block-clearance-sale .tab-item.cur .time {
+    font-size: .19rem;
+}
+
+.page-hd-youpin-flash-clearance .block-clearance-sale .tab-item.cur .txt {
+    padding: 0.02rem 0.08rem;
+    color: #ff4b0c;
+    background: #fff;
+    border-radius: 999px;
+}
+
+.page-hd-youpin-flash-clearance .block-clearance-sale .clearance-sale-product-list {
+}
+
+.page-hd-youpin-flash-clearance .block-clearance-sale .clearance-sale-product-list .p-item {
+    position: relative;
+    margin: 0.08rem .11rem;
+    padding: .1rem;
+    height: 0.98rem;
+    background: #fff;
+    border-radius: .07rem;
+}
+
+.page-hd-youpin-flash-clearance .block-clearance-sale .clearance-sale-product-list .p-pic {
+    margin-right: .05rem;
+    width: .74rem;
+    height: .74rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.page-hd-youpin-flash-clearance .block-clearance-sale .clearance-sale-product-list .p-pic img {
+    height: 100%;
+}
+
+.page-hd-youpin-flash-clearance .block-clearance-sale .clearance-sale-product-list .p-tit {
+    color: #000;
+    font-size: .12rem;
+    height: .32rem;
+    line-height: 1.4;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    word-break: break-all;
+}
+
+.page-hd-youpin-flash-clearance .block-clearance-sale .clearance-sale-product-list .p-price-cur {
+    padding-top: 0.08rem;
+    color: #ff4d00;
+}
+
+.page-hd-youpin-flash-clearance .block-clearance-sale .clearance-sale-product-list .p-price-cur .p-price-num {
+    font-size: .18rem;
+}
+
+.page-hd-youpin-flash-clearance .block-clearance-sale .clearance-sale-product-list .p-price-orig {
+    padding-top: 0.04rem;
+    text-decoration: line-through;
+    font-size: .1rem;
+    color: #999;
+}
+
+.page-hd-youpin-flash-clearance .block-clearance-sale .clearance-sale-product-list .p-btn {
+    position: absolute;
+    right: 0.14rem;
+    bottom: 0.14rem;
+    width: 0.78rem;
+    height: 0.3rem;
+    color: #fff;
+    font-size: .13rem;
+    border-radius: 999px;
+    background: linear-gradient(to left, #ff5200, #ff8900);
+    box-shadow: 0rem 0.02rem 0.05rem 0rem rgba(187, 91, 0, 0.3);
+}
+
+.page-hd-youpin-flash-clearance .block-clearance-sale .clearance-sale-product-list .p-btn .icon-you {
+    font-size: .1rem;
+}
+
+/*尾货清仓商品列表 end*/

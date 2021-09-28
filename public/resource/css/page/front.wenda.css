@@ -1,0 +1,12 @@
+/**
+ *	问答中心
+ */
+
+/* 问题分类 */
+.topic-cate{background:url(https://p.ssl.qhimg.com/t0117799ded57075776.png) repeat-x #fff;border:1px solid #d4d4d4;}
+.topic-cate .hd{border:none;padding:8px 0 0 15px;}
+.topic-cate .bd{background:none;padding-top:0;padding-left:15px;}
+.topic-cate .tlist-h li{font-size:14px;width:132px;padding-bottom:5px;}
+
+/* 问答页面最小高度 */
+.doc-bd {min-height:700px;_height:700px;}

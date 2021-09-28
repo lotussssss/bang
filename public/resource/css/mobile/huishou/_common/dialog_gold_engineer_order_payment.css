@@ -1,0 +1,45 @@
+.dialog-gold-engineer-order-payment {
+    background: #fff;
+    border: 0;
+}
+
+.dialog-gold-engineer-order-payment .dialog-inner {
+    padding: .3rem .08rem .2rem .08rem;
+    font-size: .12rem;
+}
+
+.dialog-gold-engineer-order-payment .tit {
+    font-size: .16rem;
+    text-align: center;
+    line-height: 3;
+}
+
+.dialog-gold-engineer-order-payment .row {
+    margin-bottom: .08rem;
+    line-height: .36rem;
+}
+
+.dialog-gold-engineer-order-payment .row input {
+    line-height: .36rem;
+    box-sizing: border-box;
+}
+
+.dialog-gold-engineer-order-payment .col-right {
+    margin-left: .62rem;
+}
+
+.dialog-gold-engineer-order-payment .desc {
+    text-align: center;
+    font-size: .14rem;
+}
+
+.dialog-gold-engineer-order-payment .btn {
+    margin: 0 auto;
+    display: block;
+    width: 1.2rem;
+    height: .36rem;
+    line-height: .36rem;
+    text-align: center;
+    font-size: .14rem;
+    font-weight: normal;
+}

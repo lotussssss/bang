@@ -1,0 +1,264 @@
+@keyframes shine {
+    0% {transform: scale(1.5) }
+    50% {transform: scale(2.0) }
+    100% {transform: scale(1.5) }
+}
+
+.start-shine {
+    animation: shine 1s linear  1;
+}
+.w100 {
+    width: 100%;
+}
+.color-orange {
+    color: #FF5500;
+}
+.font-15rem{
+    font-size: .15rem;
+}
+.font-17rem{
+    font-size: .17rem;
+}
+.font-20rem{
+    font-size: .20rem;
+}
+.page-redpack_for_customer .block{
+    border: none;
+}
+.page-redpack_for_customer .block-1{
+    height: 2.34rem;
+    text-align: center;
+    font-size: .16rem;
+    color: #fff;
+}
+.page-redpack_for_customer .block-1 .star1{
+    position: absolute;
+    top: .57rem;
+    right: .93rem;
+    display: inline-block;
+    width: .5rem;
+    height: .5rem;
+    background: url("https://p0.ssl.qhmsg.com/t01cc4f4588737b9c1d.png") no-repeat center center/100% 100%;
+    transform: scale(1.5);
+}
+.page-redpack_for_customer .block-1 .star2{
+    position: absolute;
+    top: .57rem;
+    left: .98rem;
+    display: inline-block;
+    width: .5rem;
+    height: .5rem;
+    background: url(https://p2.ssl.qhmsg.com/t0111e1121f300f6b86.png) no-repeat center center/100% 100%;
+    transform:  scale(1.5);
+}
+
+.page-redpack_for_customer .block-2{
+    text-align: center;
+    padding:.2rem 0 .3rem;
+    color:#666666;
+    font-size: .15rem;
+}
+.page-redpack_for_customer .block-2 .user-name{
+    margin-bottom: .1rem;
+}
+
+.page-redpack_for_customer .block-3 {
+    height:.615rem;
+    background: url("https://p0.ssl.qhmsg.com/t014b3d8c53ae7c3420.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.page-redpack_for_customer .block-4 {
+    text-align: center;
+}
+.page-redpack_for_customer .block-4 .share-package{
+    margin-bottom: .2rem;
+    text-decoration: underline;
+}
+.page-redpack_for_customer .block-4 .btn-share {
+    display: inline-block;
+    width: 2.59rem;
+    height: .38rem;
+    line-height: .38rem;
+    margin-bottom: .35rem ;
+    background-color: #FF5500;
+    color: #fff;
+    font-size:.2rem;
+    text-align: center;
+    border-radius: .03rem;
+}
+
+.page-redpack_for_customer .block-5 {
+    height:1.185rem;
+    background: url("https://p3.ssl.qhmsg.com/t01dd1c7361cbae56e6.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+
+.page-redpack_for_customer .block-after-get-package {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.7);
+    display: none;
+}
+
+.page-redpack_for_customer .block-after-get-package .package-wrap{
+    width: 80%;
+    margin: 1rem auto 0;
+    background-color: #D83334;
+    border-radius: .08rem;
+    overflow: hidden;
+}
+.page-redpack_for_customer .block-after-get-package .package-wrap .package-wrap-inner {
+    /*box-shadow: 0px 0px 0px 100px #000;*/
+}
+.page-redpack_for_customer .block-after-get-package .package-wrap .btn-close{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.page-redpack_for_customer .block-after-get-package .package-wrap .block-top {
+
+}
+.page-redpack_for_customer .block-after-get-package .package-wrap .block-top img {
+    width: 100%;
+    height: 100%;
+}
+.page-redpack_for_customer .block-after-get-package .package-wrap .block-text {
+    padding: .1rem;
+    margin: 0 .1rem;
+    text-align: center;
+    background-color: #EBD491;
+    border-radius: .05rem;
+    color: #965b20;
+    font-size: .13rem;
+ }
+.page-redpack_for_customer .block-after-get-package .package-wrap .block-text .congratulate {
+    font-size: .3rem;
+}
+.page-redpack_for_customer .block-after-get-package .package-wrap .block-text .reward {
+    font-size: .15rem;
+}
+.page-redpack_for_customer .block-after-get-package .package-wrap .block-text .money {
+    color: #743e15;
+}
+.page-redpack_for_customer .block-after-get-package .package-wrap .block-text .num {
+     font-size: .40rem;
+ }
+
+.page-redpack_for_customer .block-after-get-package .package-wrap .share-wrap {
+    width: 80%;
+    margin:.2rem auto;
+}
+.page-redpack_for_customer .block-after-get-package .package-wrap .share-package {
+    display: block;
+    width: 100%;
+    height: .5rem;
+    line-height: .5rem;
+    text-align: center;
+    text-decoration: none;
+    color:#743e15;
+    font-size: .20rem;
+    background: url("https://p3.ssl.qhmsg.com/t01d56f76cf54a1dea9.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.page-redpack_for_customer .login-wrap {
+    width: 100%;
+}
+.page-redpack_for_customer .dialog-wrap{
+    background-color: #D83334;
+}
+.page-redpack_for_customer .dialog-wrap .dialog-inner{
+    padding:0;
+    text-align: center;
+}
+.page-redpack_for_customer .login-wrap .block-top{
+    overflow: hidden;
+    border-radius:20px;
+}
+.page-redpack_for_customer .login-wrap .block-top img {
+    width: 100%;
+}
+.page-redpack_for_customer .login-wrap .login-from {
+    margin:.1rem;
+    padding: .1rem;
+    background-color: #EBD491;
+    border-radius: .05rem;
+}
+
+.page-redpack_for_customer .login-wrap .row div {
+    float: left;
+}
+.page-redpack_for_customer .login-wrap .input-wrap {
+    margin-right:.15rem;
+}
+.page-redpack_for_customer .login-wrap .input-wrap .code-check  {
+    width: 1.1rem;
+}
+.page-redpack_for_customer .login-wrap input{
+    padding: 0 .08rem;
+    display: block;
+    width: 100%;
+    line-height: normal;
+    border: 0;
+}
+.page-redpack_for_customer .login-wrap label{
+    overflow: hidden;
+}
+.page-redpack_for_customer .login-wrap .get-red-package {
+    width: 60%;
+    margin:0 auto;
+}
+.page-redpack_for_customer .login-wrap .bottom-desc{
+    color: #743e15;
+}
+/* 登录弹层 */
+.xmas-login-panel{ }
+.xmas-login-panel .dialog-inner{
+    text-align: center;
+}
+
+.xmas-login-panel .row{
+    padding-bottom: .08rem;
+}
+.xmas-login-panel .row div {
+    float: left;
+}
+.xmas-login-panel .btn{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    background-color: #F4E56B;
+    border-radius: 999px;
+    color:#743e15;
+    font-size: .18rem;
+    font-weight: 700;
+}
+.xmas-login-panel .vcode-img{
+    width: 100%;
+    height: .36rem;
+}
+.xmas-login-panel .btn-get-sms-code{
+    font-size: .12rem;
+    border-radius: .06rem;
+    padding:0 .06rem;
+}
+.xmas-login-panel .btn-get-sms-code-disabled{
+    color: #999;
+    background: #f2f2f2;
+}
+.xmas-login-panel .desc{
+    padding-top: .05rem;
+    padding-bottom: .1rem;
+    line-height: 2;
+}
+.xmas-login-panel .btn-order-confirm-submit{
+
+    background: url("https://p3.ssl.qhmsg.com/t01d56f76cf54a1dea9.png") no-repeat center;
+    background-size: 100% 100%;
+}

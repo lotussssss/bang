@@ -1,0 +1,248 @@
+.page-liangpin-product .brand-product .product-price {
+    background: #f5f5f5;
+    margin: 20px 0 10px;
+    padding: 16px;
+    padding-top: 8px;
+    color: #666;
+    position: relative;
+}
+
+.page-liangpin-product .brand-product .product-price .prd-c-tit {
+    display: inline-block;
+    width: 74px;
+    line-height: 32px;
+    color: #666;
+}
+
+.page-liangpin-product .brand-product .product-price .prd-c-cnt {
+    line-height: 32px;
+    color: #f30;
+}
+
+.page-liangpin-product .brand-product .product-price .prd-c-cnt .num {
+    font-size: 14px;
+    color: #707070;
+}
+
+.page-liangpin-product .brand-product .product-price .prd-c-cnt .text {
+    margin-right: 5px;
+    padding: 0 3px;
+    background-color: #f30;
+    color: #fff;
+}
+
+.page-liangpin-product .brand-product .product-price .prd-c-line-promo-info .prd-c-cnt {
+    padding-top: 4px;
+}
+
+.page-liangpin-product .brand-product .product-price .prd-c-line-promo-info .prd-c-cnt .c1 {
+    line-height: 24px;
+    color: #f30;
+}
+
+.page-liangpin-product .brand-product .product-price .prd-c-line-promo-info .prd-c-cnt .c1 .text {
+    background-color: #f30;
+}
+
+.page-liangpin-product .brand-product .product-price .prd-c-line-promo-info .prd-c-cnt .c2 {
+    line-height: 24px;
+    color: #ff7645;
+}
+
+.page-liangpin-product .brand-product .product-price .prd-c-line-promo-info .prd-c-cnt .c2 .text {
+    background-color: #ff7645;
+}
+
+.page-liangpin-product .brand-product .flash-price {
+    position: relative;
+}
+
+.page-liangpin-product .brand-product .flash-price .tit {
+}
+
+.page-liangpin-product .brand-product .flash-price .money-symbol {
+    color: #f30;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.page-liangpin-product .brand-product .flash-price .price-val {
+    color: #f30;
+    font-size: 30px;
+}
+
+.page-liangpin-product .brand-product .flash-price .m-money {
+    font-size: 14px;
+    color: #707070;
+}
+
+.page-liangpin-product .brand-product .flash-price .countdown {
+    float: right;
+    /*margin-right: 12px;*/
+    margin-right: 155px;
+    margin-top: 18px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    color: #333;
+    font-size: 0px;
+    font-weight: normal;
+}
+
+.page-liangpin-product .brand-product .flash-price .countdown span {
+    margin-right: 4px;
+    color: #666;
+    font-size: 14px;
+}
+
+.page-liangpin-product .brand-product .flash-price .countdown .d-num,
+.page-liangpin-product .brand-product .flash-price .countdown .h-num,
+.page-liangpin-product .brand-product .flash-price .countdown .m-num,
+.page-liangpin-product .brand-product .flash-price .countdown .s-num {
+    padding: 3px 5px;
+    background: #ff8976;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.page-liangpin-product .brand-product .flash-price .countdown .d-num,
+.page-liangpin-product .brand-product .flash-price .countdown .d-txt,
+.page-liangpin-product .brand-product .flash-price .countdown .desc-txt-behind {
+    display: none;
+}
+
+.page-liangpin-product .brand-product .flash-price .countdown-start-prev,
+.page-liangpin-product .brand-product .flash-price .countdown-end-next {
+    color: #999;
+    font-size: 14px;
+}
+
+.page-liangpin-product .brand-product .flash-price .countdown-start-prev .d-num,
+.page-liangpin-product .brand-product .flash-price .countdown-start-prev .h-num,
+.page-liangpin-product .brand-product .flash-price .countdown-start-prev .m-num,
+.page-liangpin-product .brand-product .flash-price .countdown-start-prev .s-num {
+    padding: 0 3px;
+    background: #999;
+    color: #fff;
+}
+
+.page-liangpin-product .product-price .m-money {
+    font-size: 18px;
+    color: #f30;
+    margin-left: -5px;
+}
+
+.page-liangpin-product .product-price .m-money-num {
+    font-size: 28px;
+}
+
+.page-liangpin-product .product-price .m-money-num-del {
+    text-decoration: line-through;
+}
+
+.page-liangpin-product .product-price .prd-cmt,
+.page-liangpin-product .product-price .prd-deal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    text-align: center;
+    line-height: 1.42;
+}
+
+.page-liangpin-product .product-price .prd-deal {
+    right: 90px;
+}
+
+.page-liangpin-product .product-price .p-num {
+    font-size: 28px;
+    color: #f30;
+}
+
+.page-liangpin-product .product-price .p-c-coupon {
+    display: inline-block;
+    cursor: pointer;
+}
+
+/*商品价格描述*/
+.page-liangpin-product .product-price .product-price-desc {
+    /*display: none;*/
+    font-size: 12px;
+    color: #333;
+}
+
+.page-liangpin-product .product-price .btn-year-middle-promo {
+    color: #2e74d3;
+}
+
+.page-liangpin-product .product-price .today-dispatch-countdown {
+    color: #f30;
+}
+
+.page-liangpin-product .product-price .today-dispatch-countdown .desc-txt {
+    color: #333;
+}
+
+.page-liangpin-product .product-price .today-dispatch-countdown .d-num,
+.page-liangpin-product .product-price .today-dispatch-countdown .d-txt {
+    display: none;
+}
+
+.page-liangpin-product .product-price .prd-c-line-vip-plus {
+
+}
+
+.page-liangpin-product .product-price .prd-c-line-vip-plus a {
+    padding-left: 136px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    line-height: 20px;
+    background: url(//p4.ssl.qhimg.com/t01ce182546351a7c98.png) no-repeat 0 0;
+    color: #666;
+}
+
+.page-liangpin-product .product-price .prd-c-line-vip-plus a:hover {
+    text-decoration: none;
+}
+
+.page-liangpin-product .product-price .prd-c-line-vip-plus a span {
+    padding-right: 24px;
+    display: block;
+    height: 20px;
+    background: url(//p2.ssl.qhimg.com/t01bcf52cc9757fd7ab.png) no-repeat right 0;
+}
+
+
+/*202007微信扫码获取最低价*/
+.page-liangpin-product .brand-product .product-price .scan-get-price-wrap {
+    padding: 0 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    width: 100px;
+    background: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+.page-liangpin-product .brand-product .product-price .scan-get-price-wrap .scan-get-price {
+    width: 100px;
+    height: 136px;
+    position: absolute;
+    top: 50%;
+    margin-top: -68px;
+}
+
+.page-liangpin-product .brand-product .product-price .scan-get-price-wrap img {
+    width: 100%;
+}
+
+.page-liangpin-product .brand-product .product-price .scan-get-price-wrap .scan-tit {
+    color: #999;
+}
+
+.page-liangpin-product .brand-product .product-price .scan-get-price-wrap .scan-desc {
+    color: #ff4d00;
+}

@@ -1,0 +1,77 @@
+.page-order-expired a,
+.page-order-expired a:active,
+.page-order-expired a:visited {
+    text-decoration: none;
+}
+
+.page-order-expired .main{
+    height: 100vh;
+    overflow: hidden;
+}
+.page-order-expired .main-inner{
+    /*padding-bottom: .56rem;*/
+    padding-bottom: 1rem;/*此处padding-bottom正常是.56rem，多余的部分是为了处理某些浏览器，尤其是iOS的Safari下vh的bug*/
+}
+
+/* 按钮行 */
+.page-order-expired .block-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/******* 弹出面板 ******/
+.page-order-expired .pop-panel-mask{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #333;
+    opacity: 0;
+    z-index: 9997;
+}
+.page-order-expired .pop-panel-wrap{
+    display: table;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 9998;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: #666;
+}
+.page-order-expired .pop-panel-wrap-inner{
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+}
+.page-order-expired .pop-panel-main{
+    position: relative;
+    margin: 0 .1rem;
+}
+.page-order-expired .pop-panel-main-content{
+    height: 2rem;
+    background-color: #fff;
+}
+
+.page-order-expired .pop-panel-main-content h3{
+    padding: .1rem 0;
+    font-size: .2rem;
+}
+.page-order-expired .pop-panel-main-content .cnt-txt{
+    padding: .1rem 0 .2rem 0;
+}
+.page-order-expired .pop-panel-main-content .cnt .row-btn{
+    text-align: right;
+}
+.page-order-expired .pop-panel-main-content .btn-reassess{
+    margin-left: .1rem;
+    margin-right: .2rem;
+    display: inline-block;
+}
+/******* 弹出面板END ******/

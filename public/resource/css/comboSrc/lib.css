@@ -1,0 +1,19 @@
+@import url("../lib/reset.css");
+@import url("../lib/grid.css");
+@import url("../lib/module.css");
+@import url("../lib/calendar.css");
+@import url("../lib/panel.css");
+@import url("../lib/popup.css");
+@import url("../lib/citypanel.css");
+@import url("../lib/header.css");
+@import url("../lib/footer.css");
+@import url("../lib/rate.css");
+@import url("../lib/map.css");
+@import url("../lib/use_promo.css");
+
+@import url("../component/web/addr_search_sug.css");/*地址搜索联想*/
+@import url("../component/web/float_card.css");/*浮动卡片*/
+@import url("../component/web/countdown.css");/*倒计时*/
+@import url("../component/web/myorder_enter_qrcode.css");/*我的订单入口二维码弹窗*/
+@import url("../component/web/simple_dialog.css");/*简易弹窗样式*/
+@import url("../component/web/ui_common_login_dialog.css");/*pc端全业务通用登陆框*/

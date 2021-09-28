@@ -1,0 +1,597 @@
+/*=== 商家列表 ===*/
+.page-shangmen-diannao .shop-list-filter{
+    font-size: 14px;
+    border: 1px solid #D6D6D6;
+    color: #666;
+}
+.page-shangmen-diannao .shop-list-filter .icon{
+    display: none;
+}
+.page-shangmen-diannao .shop-list-filter .sort-type{
+    margin-right: 20px;
+    width: auto;
+}
+.page-shangmen-diannao .shop-list-filter .sort-type li{
+    width: 120px;
+    height: 42px;
+    line-height: 42px;
+    border: 1px solid #F5F5F5;
+    border-top: 0;
+    border-bottom: 0;
+}
+.page-shangmen-diannao .shop-list-filter .sort-type li.active{
+    border-color: #D6D6D6;
+    color: #185;
+    background: #fff;
+}
+.page-shangmen-diannao .shop-list-filter .sort-type li.li-first{
+    border-left: 0;
+}
+.page-shangmen-diannao .shop-list-filter .sort-type li a{
+    color: #666;
+}
+.page-shangmen-diannao .shop-list-filter .sort-type li.active a{
+    color: #185;
+}
+.page-shangmen-diannao .shop-list-filter .filter-check{
+    line-height: 42px;
+}
+
+
+.page-shangmen-diannao .shop-list{
+    font-size: 14px;
+}
+.page-shangmen-diannao .shop-list .list-item{
+    padding: 20px 0;
+    height: 92px;
+    line-height: 31px;
+}
+.page-shangmen-diannao .shop-list .list-item-hover{
+    background: #fafafa;
+}
+.page-shangmen-diannao .shop-list .list-item .pic{
+    margin-top: 0;
+}
+.page-shangmen-diannao .shop-list .list-item .pic img{
+    width: 90px;
+    height: 90px;
+}
+.page-shangmen-diannao .shop-list .list-item .cont{
+    margin: 0 0 0 102px;
+}
+.page-shangmen-diannao .shop-list .list-item .cont .shop-score{
+    text-align: left;
+    right: 180px;
+    top: 22px;
+}
+.page-shangmen-diannao .shop-list .list-item .cont .into-shop-n{
+    display: none;
+    top: 45px;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: normal;
+    border: 1px solid #185;
+    background: #fff;
+    color: #185;
+}
+.page-shangmen-diannao .shop-list .list-item-hover .cont .into-shop-n{
+    display: block;
+}
+.page-shangmen-diannao .shop-list .list-item .cont .desc,
+.page-shangmen-diannao .shop-list .list-item .cont .addr{
+    width: 390px;
+}
+.page-shangmen-diannao .shop-list .list-item .cont h3{
+    font-size: 0;
+}
+.page-shangmen-diannao .shop-list .list-item .cont h3 a{
+    font-size: 14px;
+    color: #185;
+}
+.page-shangmen-diannao .shop-list .list-item .cont .shop-grade{
+    margin-left: 8px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    font-size: 14px;
+}
+.page-shangmen-diannao .shop-list .list-item .icon{
+    margin-top: -2px;
+    margin-right: 4px;
+}
+.page-shangmen-diannao .shop-list .no-valid-warn{
+    padding: 5px 20px;
+    /*background: #D6D6D6;*/
+    background: #f7f7f7;
+    color: #666;
+}
+
+
+.page-shangmen-diannao .pagination{
+    font-size: 16px;
+}
+.page-shangmen-diannao .pagination span{
+    padding: 0;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    border: 1px solid #FC6621;
+    background: #FC6621;
+    color: #fff;
+}
+.page-shangmen-diannao .pagination a{
+    margin-left: 3px;
+    padding: 0;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    border: 1px solid #D6D6D6;
+    background: #fff;
+    color: #999;
+    border-radius: 0;
+}
+.page-shangmen-diannao .pagination a.first{
+    margin-left: 0;
+    width: 60px;
+}
+.page-shangmen-diannao .pagination a.last{
+    width: 60px;
+}
+.page-shangmen-diannao .pagination a.pre,
+.page-shangmen-diannao .pagination a.next{
+    width: 100px;
+}
+/*=== END商家列表 ===*/
+
+/*电脑维修*/
+.page-shangmen-diannao{
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+.page-shangmen-diannao .topbar .in{
+    width: 1200px;
+}
+.page-shangmen-diannao .pop_city{
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+.page-shangmen-diannao .top-banner{
+    position: relative;
+    z-index: 9;
+    width: 100%;
+    height: 420px;
+    /*overflow: hidden;*/
+    /*overflow-y: hidden;*/
+    /*overflow-x: visible;*/
+}
+.page-shangmen-diannao .top-banner .item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.page-shangmen-diannao .top-banner .item-0{
+    z-index: 1;
+    height: 420px;
+    background: url(https://p.ssl.qhimg.com/t013c59e0cc424006a1.jpg) no-repeat center 0;
+}
+.page-shangmen-diannao .top-banner .item-inner{
+    margin: 0 auto;
+    width: 1200px;
+    height: 420px;
+}
+.page-shangmen-diannao .top-banner .item-0 .item-inner{
+    background: url(https://p.ssl.qhimg.com/t013c59e0cc424006a1.jpg) no-repeat center 0;
+}
+
+.page-shangmen-diannao .fault-list{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.page-shangmen-diannao .fault-list-inner{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.page-shangmen-diannao .fault-list .item{
+    float: left;
+    /*width: 20%;*/
+    width: 16.666666%;
+    text-align: center;
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+}
+.page-shangmen-diannao .fault-list .item:hover{
+    color: #20AAED;
+    text-decoration: none;
+}
+
+.page-shangmen-diannao .fault-list .icon{
+    display: inline-block;
+    /*background: url(https://p.ssl.qhimg.com/t01c47c60b95345f977.png) no-repeat;*/
+    background: url(https://p.ssl.qhimg.com/t01a5ee140324e29932.png) no-repeat;
+    width: 100px;
+    height: 100px;
+    /*width: 68px;*/
+    /*height: 68px;*/
+}
+/* normal */
+/*系统重装*/
+.page-shangmen-diannao .fault-list .icon-1{
+    background-position: 0 0;
+}
+/*电脑清灰*/
+.page-shangmen-diannao .fault-list .icon-2{
+    background-position: -100px 0;
+}
+/*数据恢复*/
+.page-shangmen-diannao .fault-list .icon-3{
+    background-position: -200px 0;
+}
+/*系统故障修复*/
+.page-shangmen-diannao .fault-list .icon-4{
+    background-position: -300px 0;
+}
+/*驱动安装*/
+.page-shangmen-diannao .fault-list .icon-5{
+    background-position: -400px 0;
+}
+/*游戏加速*/
+.page-shangmen-diannao .fault-list .icon-6{
+    background-position: -600px 0;
+}
+/*VR安装/移机*/
+.page-shangmen-diannao .fault-list .icon-16{
+    background-position: -500px 0;
+}
+/*more*/
+.page-shangmen-diannao .fault-list .icon-more{
+    background-position: -700px 0;
+}
+
+/* hover */
+/*系统重装*/
+.page-shangmen-diannao .fault-list .item:hover .icon-1{
+    background-position: 0 -100px;
+}
+/*电脑清灰*/
+.page-shangmen-diannao .fault-list .item:hover .icon-2{
+    background-position: -100px -100px;
+}
+/*数据恢复*/
+.page-shangmen-diannao .fault-list .item:hover .icon-3{
+    background-position: -200px -100px;
+}
+/*系统故障修复*/
+.page-shangmen-diannao .fault-list .item:hover .icon-4{
+    background-position: -300px -100px;
+}
+/*驱动安装*/
+.page-shangmen-diannao .fault-list .item:hover .icon-5{
+    background-position: -400px -100px;
+}
+/*游戏加速*/
+.page-shangmen-diannao .fault-list .item:hover .icon-6{
+    background-position: -600px -100px;
+}
+/*VR安装/移机*/
+.page-shangmen-diannao .fault-list .item:hover .icon-16{
+    background-position: -500px -100px;
+}
+/*more*/
+.page-shangmen-diannao .fault-list .item:hover .icon-more{
+    background-position: -700px -100px;
+}
+
+/*.page-shangmen-diannao .fault-list .icon-1{*/
+    /*background-position: -169px -11px;*/
+/*}*/
+/*.page-shangmen-diannao .fault-list .icon-2{*/
+    /*background-position: -732px -11px;*/
+/*}*/
+/*.page-shangmen-diannao .fault-list .icon-3{*/
+    /*background-position: -361px -11px;*/
+/*}*/
+/*.page-shangmen-diannao .fault-list .icon-4{*/
+    /*background-position: -552px -11px;*/
+/*}*/
+/*.page-shangmen-diannao .fault-list .icon-5{*/
+    /*background-position: -933px -13px;*/
+/*}*/
+/*.page-shangmen-diannao .fault-list .icon-more{*/
+    /*display: none;*/
+    /*background-position: -1121px -11px;*/
+/*}*/
+/*.page-shangmen-diannao .fault-list .item:hover .icon-0{*/
+    /*background-position: 7px -123px;*/
+/*}*/
+/*.page-shangmen-diannao .fault-list .item:hover .icon-1{*/
+    /*background-position: -169px -123px;*/
+/*}*/
+/*.page-shangmen-diannao .fault-list .item:hover .icon-2{*/
+    /*background-position: -732px -123px;*/
+/*}*/
+/*.page-shangmen-diannao .fault-list .item:hover .icon-3{*/
+    /*background-position: -361px -123px;*/
+/*}*/
+/*.page-shangmen-diannao .fault-list .item:hover .icon-4{*/
+    /*background-position: -552px -123px;*/
+/*}*/
+/*.page-shangmen-diannao .fault-list .item:hover .icon-5{*/
+    /*background-position: -933px -125px;*/
+/*}*/
+/*.page-shangmen-diannao .fault-list .item:hover .icon-more{*/
+    /*background-position: -1121px -123px;*/
+/*}*/
+
+.page-shangmen-diannao .anim-box{
+    overflow: hidden;
+}
+.page-shangmen-diannao .fault-more-list{
+    /*display: none;*/
+    margin-bottom: 20px;
+    border: 1px solid #E3E3E3;
+    background: #F5F5F5;
+}
+.page-shangmen-diannao .fault-more-list-inner{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+}
+.page-shangmen-diannao .fault-more-list-block{
+    padding: 25px 0;
+}
+.page-shangmen-diannao .fault-more-list .arrow{
+    display: none;
+    position:absolute;
+    top:-16px;
+    right: 78px;
+    z-index: 1;
+}
+.page-shangmen-diannao .fault-more-list .item{
+    float: left;
+    width: 222px;
+    margin: 8px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #E0E0E0;
+    text-align: center;
+    background: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    color: #333;
+    cursor: pointer;
+}
+.page-shangmen-diannao .fault-more-list .item:hover{
+    border-color: #20AAED;
+    text-decoration: none;
+}
+
+
+.page-shangmen-diannao .sm-shop-block-inner{
+    margin: 0 auto 40px auto;
+    width: 1200px;
+    clear: both;
+    zoom: 1;
+    font-size: 14px;
+}
+.page-shangmen-diannao .sm-shop-block-inner:after{
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    content: '\20';
+}
+.page-shangmen-diannao .sm-shop-block-left{
+    float: left;
+    width: 960px;
+}
+.page-shangmen-diannao .sm-shop-block-right{
+    margin-left: 970px;
+}
+
+
+/*商家列表-扩展过滤项*/
+.page-shangmen-diannao .shop-list-extend-filter{
+    padding: 0 0 20px 0;
+}
+.page-shangmen-diannao .shop-list-extend-filter .col-left-fixed{
+    width: 300px;
+}
+.page-shangmen-diannao .shop-list-extend-filter .col-right{
+    margin-left: 300px;
+}
+.page-shangmen-diannao .shop-list-extend-filter .area-select-wrap{
+    margin: 0;
+    height: 42px;
+}
+.page-shangmen-diannao .shop-list-extend-filter .area-select-wrap .area-sel{
+    padding: 4px 7px 4px 13px;
+    width: 120px;
+    border: 1px solid #185;
+    border-radius: 0;
+    color: #333;
+}
+.page-shangmen-diannao .shop-list-extend-filter .area-select-wrap .select-pannel{
+    top: 42px;
+}
+.page-shangmen-diannao .shop-list-extend-filter .addr-search-box{
+    height: 40px;
+    border: 1px solid #185;
+    background: #fff;
+    margin: 0;
+}
+.page-shangmen-diannao .shop-list-extend-filter .addr-search-box form{
+    width: 100%;
+}
+.page-shangmen-diannao .shop-list-extend-filter .addr-search-box .addr-ipt{
+    height: 20px;
+    line-height: 20px;
+    /*width: 449px;*/
+    width: 519px;
+    padding: 10px 5px 10px 14px;
+    border: 0;
+    background: transparent;
+    float: left;
+    color: #666;
+    font-size: 14px;
+}
+.page-shangmen-diannao .shop-list-extend-filter .addr-search-box .addr-btn{
+    float: left;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    text-indent: 0;
+    background: #185;
+    color: #fff;
+}
+.page-shangmen-diannao .shop-list-extend-filter .addr-search-box .default{
+    color: #999;
+}
+.page-shangmen-diannao .shop-list-extend-filter .addr-search-err{
+    display: none;
+    color:#f00;
+    float: left;
+    height: 29px;
+    line-height: 29px;
+    margin-left: 10px;
+}
+.page-shangmen-diannao .shop-list-extend-filter .ui-addrsug-suglist,
+.page-shangmen-diannao .shop-list-extend-filter .ui-addrsug-suglist .ui-addrsug-sugitem,
+.page-shangmen-diannao .shop-list-extend-filter .ui-addrsug-defsug{
+    font-size: 14px;
+}
+
+
+/*商家列表-列表+基本过滤*/
+.page-shangmen-diannao .shop-list-wrap{
+}
+
+.page-shangmen-diannao .area-select-wrap{display: block;height: 36px;margin:8px 0;line-height: 1;position: relative;}
+.page-shangmen-diannao .area-select-wrap .area-sel{
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #CECECE;
+    /*background: url(https://p.ssl.qhimg.com/t010d71e7b045cd4e73.png) repeat-x 0 0;*/
+    padding-left:8px;
+    cursor: pointer;
+    color: #999999;
+    position: relative;
+    float: left;
+    margin: 0 8px 0 0;
+    z-index: 9999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+    font-size: 14px;
+}
+.page-shangmen-diannao .area-select-wrap .icon-arrow{
+    width: 26px;
+    height: 22px;
+    background: url(https://p.ssl.qhimg.com/t010d71e7b045cd4e73.png) no-repeat 10px -30px;
+}
+.page-shangmen-diannao .area-select-wrap .select-pannel{display:none;position: absolute;width: 460px;background: #FBFBFB;border: solid 1px #CFCFCF;left: -1px;top: 38px;padding: 8px 0;z-index: 10001;line-height: 1;}
+.page-shangmen-diannao .area-select-wrap .select-pannel h3{font-weight: normal;height: 20px; line-height: 20px; padding: 0 10px;margin: 0;position: relative;background: none;text-indent: inherit;}
+.page-shangmen-diannao .area-select-wrap .select-pannel h3 .close{background: url(https://p.ssl.qhimg.com/t011be77565f0a2f8e8.png) no-repeat 0 -7px;cursor: pointer; display: block; height: 20px; line-height: 100px; overflow: hidden; position: absolute; right: 10px; top: 0; width: 55px;}
+.page-shangmen-diannao .area-select-wrap .select-pannel .select-list{background: #FFFFFF;border: solid 1px #E8E8E8;margin: 12px 12px 3px; padding: 12px 12px 0;}
+.page-shangmen-diannao .area-select-wrap .select-pannel .select-list a{color: #000000;display: inline-block; height: 18px; line-height: 18px; margin: 0 18px 5px 0;}
+.page-shangmen-diannao .area-select-wrap .area-sel .sel-txt{
+    _zoom:1;
+}
+
+.page-shangmen-diannao .haoping-list{
+    border: 1px solid #dfdfe1;
+}
+.page-shangmen-diannao .haoping-list .tit{
+    padding-left: 20px;
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 2px solid #50bac7;
+    font-size: 16px;
+}
+.page-shangmen-diannao .haoping-list .cont-list{
+    padding: 9px 5px 9px 5px;
+}
+.page-shangmen-diannao .haoping-list .cont-list-item{
+    padding: 10px 0;
+    height: 42px;
+}
+.page-shangmen-diannao .haoping-list .s-num{
+    margin-right: 6px;
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    width: 26px;
+    text-align: center;
+    font-size: 18px;
+    color: #999;
+}
+.page-shangmen-diannao .haoping-list .s-num-red{
+    color: #ff0011;
+}
+.page-shangmen-diannao .haoping-list .pic{
+    margin-right: 6px;
+    float: left;
+    border: 1px solid #E6E6E6;
+}
+.page-shangmen-diannao .haoping-list .pic img{
+    width: 40px;
+    height: 40px;
+}
+.page-shangmen-diannao .haoping-list .cont{
+    float: left;
+    width: 135px;
+    overflow: hidden;
+}
+.page-shangmen-diannao .haoping-list .cont h3{
+    margin-bottom: 4px;
+    height: 21px;
+    line-height: 21px;
+    overflow: hidden;
+}
+
+
+
+.page-shangmen-diannao .doc-ft{
+    padding-bottom: 0;
+    background: #494E51;
+    border: 0;
+}
+.page-shangmen-diannao .doc-ft .icon{
+    background-image: url(https://p.ssl.qhimg.com/t0187eed48e2466bf92.png);
+}
+.page-shangmen-diannao .doc-ft .icon-buy{
+    background-position: 0 0;
+}
+.page-shangmen-diannao .doc-ft .icon-pay{
+    background-position: 0 -43px;
+}
+.page-shangmen-diannao .doc-ft .icon-service{
+    background-position: 0 -86px;
+}
+.page-shangmen-diannao .doc-ft .icon-protect{
+    background-position: 0 -129px;
+}
+.page-shangmen-diannao .doc-ft .icon-company{
+    background-position: 0 -172px;
+}
+.page-shangmen-diannao .doc-ft a{
+    color: #fff;
+}
+.page-shangmen-diannao .doc-ft .footer-nav{
+    border: 0;
+}
+.page-shangmen-diannao .doc-ft .f-nav-box h3{
+    color: #fff;
+}
+.page-shangmen-diannao .doc-ft .copyright-info{
+    padding: 10px 0 60px 0;
+    background: #242C31;
+}

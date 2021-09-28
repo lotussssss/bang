@@ -1,0 +1,288 @@
+/*合作伙伴-苏宁小店分享*/
+/*基础颜色 #333*/
+/*显著颜色 #fb8903*/
+/*渐变按钮浅色 #fe8802*/
+/*渐变按钮深色 #fe8802*/
+/*未选中背景色 #f6f6f6*/
+/*已选中背景色 #ffecd5*/
+.m-huishou-partner-suning-store-share.m-huishou .btn-yellow {
+    display: block;
+    width: 100%;
+    /*height: .44rem;*/
+    /*line-height: .44rem;*/
+    background: #fe8802;
+    background: -webkit-gradient(linear, left top, right top, from(#fe8802), to(#fe8802));
+    box-shadow: 0 0.05rem 0.2rem #fe880233;
+    color: #fff;
+}
+
+.m-huishou-partner-suning-store-share.m-huishou .block-assess_report-product .btn-show-assess-report,
+.m-huishou-partner-suning-store-share.m-huishou .block-assess_report-product .btn-reassess {
+    background-color: #fb8903;
+    color: #fff;
+}
+
+.m-huishou-partner-suning-store-share.m-huishou .shipping-address-select-block .ctrl-item.ctrl-ok {
+    color: #fb8903;
+}
+
+.m-huishou-partner-suning-store-share.m-huishou .huishou-protocol-panel-wrap .close-btn,
+.m-huishou-partner-suning-store-share.m-huishou .huishou-white-goods-protocol-panel-wrap .close-btn {
+    background-color: #fb8903;
+}
+
+.m-huishou-partner-suning-store-share.m-huishou .bang-ui-dialog .btn-box-alert .ui-btn {
+    background-color: #fb8903;
+}
+
+.m-huishou-partner-suning-store-share.m-huishou .ui-datetime .date-curr,
+.m-huishou-partner-suning-store-share.m-huishou .ui-datetime .time-curr {
+    color: #fb8903;
+}
+
+.m-huishou-partner-suning-store-share.m-huishou .ui-datetime .ctrl-item.ctrl-ok {
+    color: #fb8903;
+}
+
+.m-huishou-partner-suning-store-share.m-huishou .block-schedule-pickup .btn.btn-submit {
+    color: #fb8903;
+}
+
+.m-huishou-partner-suning-store-share.m-huishou .block-schedule-pickup-success .btn {
+    color: #fb8903;
+}
+
+.m-huishou-partner-suning-store-share.m-huishou .agree-protocol-label [type="checkbox"]:checked {
+    color: #fb8903;
+}
+
+
+/* START 首页 */
+.m-huishou-partner-suning-store-share.page-index .block-recycle-cate-tab .item-selected .cate-name {
+    color: #fb8903;
+    border-bottom: solid 3px #fb8903;
+}
+
+.m-huishou-partner-suning-store-share.page-index .block-model-list .item,
+.m-huishou-partner-suning-store-share.page-index .block-brand-list .item {
+    color: #333;
+}
+
+.m-huishou-partner-suning-store-share.page-index .block-brand-list .item {
+    background-color: #f6f6f6;
+}
+
+.m-huishou-partner-suning-store-share.page-index .block-brand-list .item.checked {
+    color: #fb8903;
+    background-color: #fff;
+    border-top: 1px solid #fb8903;
+    border-left: 3px solid #fb8903;
+}
+
+.m-huishou-partner-suning-store-share.page-index .block-brand-list .item.checked-next {
+    border-top: 1px solid #fb8903;
+}
+
+.m-huishou-partner-suning-store-share.page-index .block-brand-list .item .item-inner {
+    display: block;
+    border-right: 1px solid #fb8903;
+}
+
+.m-huishou-partner-suning-store-share.page-index .block-brand-list .item.checked .item-inner {
+    border-right: 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    .m-huishou-partner-suning-store-share.page-index .block-brand-list .item.checked-next,
+    .m-huishou-partner-suning-store-share.page-index .block-brand-list .item.checked {
+        border-top: 0;
+        background-position: left top;
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, transparent), color-stop(0.5, #fb8903));
+        background-repeat: repeat-x;
+        -webkit-background-size: 100% 1px;
+    }
+
+    .m-huishou-partner-suning-store-share.page-index .block-brand-list .item .item-inner {
+        border: 0;
+        background-position: right top;
+        background-image: -webkit-gradient(linear, left top, right top, color-stop(0.5, transparent), color-stop(0.5, #fb8903));
+        background-repeat: repeat-y;
+        -webkit-background-size: 1px 100%;
+    }
+
+    .m-huishou-partner-suning-store-share.page-index .block-brand-list .item.checked .item-inner {
+        border-right: none;
+        background-image: none;
+    }
+}
+
+.m-huishou-partner-suning-store-share.page-index .block-brand-list.inner-col-3 .item .item-inner {
+    border-right: 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    .m-huishou-partner-suning-store-share.page-index .block-brand-list.inner-col-3 .item .item-inner {
+        border: 0;
+        background-image: none;
+    }
+}
+
+/* END 首页 */
+
+/* START 评估页 */
+.m-huishou-partner-suning-store-share.page-assess .block-process-status-bar .block-inner {
+    background-color: #fb8903;
+}
+
+.m-huishou-partner-suning-store-share.page-assess .block-assess-info .block-option-group .row-option-group-tit .icon-circle-solid-q {
+    color: #fb8903 !important;
+}
+
+.m-huishou-partner-suning-store-share.page-assess .block-assess-info .block-option-group .row-option-box .option-item {
+    border: 0;
+    background-color: #f6f6f6;
+}
+
+.m-huishou-partner-suning-store-share.page-assess .block-assess-info .block-option-group .row-option-box .option-item.option-item-selected {
+    border: 1px solid #fb8903;
+    background-color: #ffecd5;
+    color: #fb8903;
+}
+
+.m-huishou-partner-suning-store-share.page-assess .block-assess-info .block-option-group .row-option-selected .btn-action {
+    color: #fb8903;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .m-huishou-partner-suning-store-share.page-assess .block-assess-info .block-option-group .row-option-box .option-item:before {
+        border: 1px solid #f6f6f6;
+    }
+
+    .m-huishou-partner-suning-store-share.page-assess .block-assess-info .block-option-group .row-option-box .option-item.option-item-selected {
+        border: 0;
+    }
+
+    .m-huishou-partner-suning-store-share.page-assess .block-assess-info .block-option-group .row-option-box .option-item.option-item-selected:before {
+        border: 1px solid #fb8903;
+    }
+}
+
+/* END 评估页 */
+
+/* START 评估结果页 */
+.m-huishou-partner-suning-store-share .block-assess_report-product .p-price {
+    color: #fb8903;
+}
+
+.m-huishou-partner-suning-store-share .block-city .switch-city {
+    color: #fb8903;
+}
+
+.m-huishou-partner-suning-store-share .shipping-address-select-block .i-item.selected {
+    color: #fb8903;
+}
+
+.m-huishou-partner-suning-store-share .block-order-style .service-type-icon {
+    color: #fb8903;
+}
+
+.m-huishou-partner-suning-store-share.page-order .block-btn .remove-lock {
+    color: #fb8903;
+}
+
+.m-huishou-partner-suning-store-share .page-order_submit .block-tit {}
+
+.m-huishou-partner-suning-store-share .page-order_submit .row-hs-style-checked .icon-circle {
+    color: #fb8903;
+}
+
+.m-huishou-partner-suning-store-share .page-order_submit .block-order-submit-yundian-mini-no-service-support {
+    padding: .6rem .1rem;
+    text-align: center;
+}
+
+.m-huishou-partner-suning-store-share .page-order_submit .block-order-form {
+    color: #333;
+}
+
+.m-huishou-partner-suning-store-share .page-order_submit .block-sub-order-form .row {
+    height: .44rem;
+}
+
+.m-huishou-partner-suning-store-share .page-order_submit .block-order-form .row-payout-method .payout-method-item.b-radius-green {
+    color: #333;
+    /*color: #fb8903;*/
+    background-color: #ffecd5;
+}
+
+.m-huishou-partner-suning-store-share .page-order_submit .block-order-form .row-payout-method .payout-method-item .iconfont.icon-payment-bank {
+    color: #fb8903;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .m-huishou-partner-suning-store-share .b-radius-green:before {
+        border: 1px solid #fb8903;
+    }
+}
+
+.m-huishou-partner-suning-store-share .page-order_submit .block-order-form .btn-send-vcode {
+    background-color: #fb8903;
+    color: #fff;
+}
+
+.m-huishou-partner-suning-store-share .page-order_submit .row.row-use-promo {
+    padding-top: .1rem;
+}
+
+.m-huishou-partner-suning-store-share .page-order_submit .row-use-promo .use-promo-wrap .promo-selector,
+.m-huishou-partner-suning-store-share .page-order_submit .row-use-promo .use-promo-wrap .promo-code {
+    width: 100%;
+}
+
+.m-huishou-partner-suning-store-share .page-order_submit .block-order-form-suning-yundian-mini-qrcode .qrcode {
+    margin: 0 auto;
+    padding: .2rem 0;
+    width: 2rem;
+}
+
+.m-huishou-partner-suning-store-share .page-order_submit .block-order-form-suning-yundian-mini-qrcode .tit {
+    padding: .1rem 0;
+    text-align: center;
+}
+
+.m-huishou-partner-suning-store-share .page-order_submit .block-order-form-suning-yundian-mini-qrcode .tit-desc {
+    padding-bottom: .2rem;
+    font-size: .1rem;
+    color: #999;
+    text-align: center;
+}
+
+.m-huishou-partner-suning-store-share .page-order_submit .block-suning-store-share {
+    color: #fb8903;
+    margin-top: .1rem;
+    font-size: .12rem;
+    text-align: center;
+}
+
+.m-huishou-partner-suning-store-share .page-order_submit .block-suning-store-share .suning-store-share-img {
+    margin: .4rem auto .2rem;
+    height: 1.6rem;
+    width: 80%;
+    background: transparent url(https://p3.ssl.qhimg.com/t01a72ff6f9d8cae6b1.png) no-repeat center;
+    background-size: contain;
+}
+
+/* END 评估结果页 */
+
+/* START 下单成功页 */
+.m-huishou-partner-suning-store-share.page-order-succ h2 {
+    color: #fb8903;
+}
+
+.m-huishou-partner-suning-store-share.page-order-succ .contact-info .btn-style {
+    background-color: #fb8903;
+}
+
+/* END 下单成功页 */

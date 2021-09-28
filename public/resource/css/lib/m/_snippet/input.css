@@ -1,0 +1,107 @@
+/* input框，边框带1px hack */
+
+.input,
+.input-radius,
+.input-radius-circle,
+.input-none-border {
+    display: block;
+    height: .36rem;
+    border: 1px solid #e3e3e3;
+}
+
+.input-none-border {
+    border: 0;
+}
+
+/* 圆角边框 */
+.input-radius,
+.input-radius input,
+.input-radius select{
+    border-radius: .04rem;
+}
+.input-radius-circle,
+.input-radius-circle input,
+.input-radius-circle select {
+    border-radius: 9999px;
+}
+
+.input input,
+.input-radius input,
+.input-radius-circle input,
+.input-none-border input,
+.input select,
+.input-radius select,
+.input-radius-circle select {
+    padding: 0 .08rem;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: normal;
+    border: 0;
+}
+.input-none-border input{
+    border-radius: 0;
+}
+
+.input select,
+.input-radius select,
+.input-radius-circle select {
+    color: #333;
+    border: 0;
+    background: transparent url(https://p.ssl.qhimg.com/t01ce64930c8626c5d2.png) no-repeat right center;
+    background-size: .12rem;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .input {
+        position: relative;
+        border: 0;
+    }
+
+    .input:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, transparent), color-stop(0.5, #e3e3e3)), -webkit-gradient(linear, left top, right top, color-stop(0.5, transparent), color-stop(0.5, #e3e3e3)), -webkit-gradient(linear, left top, left bottom, color-stop(0.5, transparent), color-stop(0.5, #e3e3e3)), -webkit-gradient(linear, right top, left top, color-stop(0.5, transparent), color-stop(0.5, #e3e3e3));
+        -webkit-background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        -webkit-background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+        background-repeat: no-repeat;
+        background-position: top, right, bottom, left;
+        padding: 1px;
+        -webkit-box-sizing: border-box;
+        z-index: 10;
+        pointer-events: none;
+    }
+
+    .input-radius,
+    .input-radius-circle{
+        position: relative;
+        border: 0;
+    }
+
+    .input-radius:before,
+    .input-radius-circle:before {
+        content: "";
+        width: 200%;
+        height: 200%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 1px solid #e3e3e3;
+        -webkit-transform: scale(0.5);
+        -webkit-transform-origin: 0 0;
+        padding: 1px;
+        -webkit-box-sizing: border-box;
+        border-radius: .08rem;
+        pointer-events: none;
+    }
+    .input-radius-circle:before{
+        border-radius: 9999px;
+    }
+}
+

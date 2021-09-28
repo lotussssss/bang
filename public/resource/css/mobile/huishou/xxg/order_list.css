@@ -1,0 +1,768 @@
+/*修修哥订单中心*/
+.page-xxg-order-list {
+    background-color: #fff;
+    padding-bottom: .4rem;
+}
+
+.page-xxg-order-list a,
+.page-xxg-order-list a:hover {
+    text-decoration: none;
+}
+
+.page-xxg-order-list .dialog-wrap .btn {
+    height: .36rem;
+    width: 100%;
+    background-color: #f84;
+    margin-top: .15rem;
+}
+
+.page-xxg-order-list .btn-green-plain,
+.page-xxg-order-list .btn-green-plain-small,
+.page-xxg-order-list .btn-yellow-plain-small,
+.page-xxg-order-list .dialog-wrap .btn-green-plain,
+.page-xxg-order-list .dialog-wrap .btn-green-plain-small,
+.page-xxg-order-list .dialog-wrap .btn-yellow-plain-small {
+    padding: 0 .06rem;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: .19rem;
+    font-size: .11rem;
+    border-radius: .06rem;
+    color: #fff;
+    background-color: #f84;
+    text-align: center;
+}
+
+.page-xxg-order-list .btn-green-plain,
+.page-xxg-order-list .btn-green-plain-small,
+.page-xxg-order-list .dialog-wrap .btn-green-plain,
+.page-xxg-order-list .dialog-wrap .btn-green-plain-small {
+    background-color: #4a7;
+}
+
+.page-xxg-order-list .btn-green-plain,
+.page-xxg-order-list .dialog-wrap .btn-green-plain {
+    padding: 0 .12rem;
+    font-size: .12rem;
+    line-height: .24rem;
+}
+
+.page-xxg-order-list .mainbody-inner {
+    padding-bottom: .6rem;
+}
+
+.page-xxg-order-list .block-tab-list {
+    margin: .08rem .06rem;
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: hidden;
+}
+
+.page-xxg-order-list .block-tab-list .tab-list-inner {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-shrink: 0;
+    /*overflow: hidden;*/
+    /*width: 7.4rem;*/
+}
+
+.page-xxg-order-list .block-tab-list .item {
+    padding: .02rem .1rem;
+    /*float: left;*/
+    flex-shrink: 0;
+    color: #4a7;
+    border-radius: 999px;
+}
+
+.page-xxg-order-list .block-tab-list .item-cur {
+    background-color: #4a7;
+    color: #fff;
+}
+
+.page-xxg-order-list .form-search-order {
+    padding-top: .1rem;
+}
+
+.page-xxg-order-list .form-search-order .row {
+    position: relative;
+    margin: 0 .1rem;
+}
+
+.page-xxg-order-list .form-search-order input {
+    float: left;
+    padding: 0 .08rem;
+    display: block;
+    height: .36rem;
+    width: 90%;
+    line-height: normal;
+    border: 0;
+    background-color: transparent;
+}
+
+.page-xxg-order-list .form-search-order .icon-circle-solid-error {
+    display: none;
+    position: absolute;
+    right: 10%;
+    top: 0;
+    bottom: 0;
+    width: .36rem;
+    height: .36rem;
+    line-height: .36rem;
+    color: #ddd;
+    font-size: .14rem;
+    text-align: center;
+}
+
+.page-xxg-order-list .form-search-order .icon-search {
+    float: left;
+    padding: 0;
+    width: 10%;
+    height: .36rem;
+    background-color: #ddd;
+    text-align: center;
+    border-radius: 0 .04rem .04rem 0;
+}
+
+.page-xxg-order-list .block-order-list {
+}
+
+.page-xxg-order-list .block-order-list .item {
+    display: block;
+    padding: .12rem;
+    font-size: .12rem;
+    color: #999;
+    position: relative;
+}
+
+.page-xxg-order-list .block-order-list .model-name {
+    color: #333;
+}
+
+.page-xxg-order-list .block-order-list .order-status {
+    color: #4a7;
+    text-align: right;
+    position: relative;
+}
+
+.page-xxg-order-list .block-order-list .order-status input[type="checkbox"] {
+    width: .6rem;
+    height: .8rem;
+    position: absolute;
+    right: -.1rem;
+    top: .3rem;
+    -webkit-appearance: none !important;
+    border: none !important;
+    background: url("https://p0.ssl.qhmsg.com/t0150fce8087bfff0e4.png") center no-repeat;
+    background-size: .2rem .2rem;
+}
+
+.page-xxg-order-list .block-order-list .order-status input[type="checkbox"]:checked {
+    background-image: url("https://p4.ssl.qhmsg.com/t0132189de8dd46870b.png");
+}
+
+.page-xxg-order-list .block-order-list .order-status input[type="checkbox"]:disabled {
+    opacity: .2;
+}
+
+.page-xxg-order-list .block-order-list .price {
+    color: #f84;
+}
+
+/* 发货码 */
+.page-xxg-order-list .block-order-list .five-code-text {
+    color: #4a7;
+}
+
+.page-xxg-order-list .block-order-list .btn-view-hs-express {
+    padding: .02rem .1rem;
+    font-size: .12rem;
+    color: #fff;
+    background-color: #f84;
+}
+
+.page-xxg-order-list .block-order-list .btn-view-express-info,
+.page-xxg-order-list .block-order-list .btn-view-check-info,
+.page-xxg-order-list .block-order-list .btn-edit-complaint {
+    text-align: right;
+    color: #0f97e9;
+    text-decoration: underline;
+    font-size: .1rem;
+}
+
+.page-xxg-order-list .block-order-list .complaint-status {
+    color: #999;
+    font-size: .12rem;
+    text-align: right;
+}
+
+.page-xxg-order-list .block-order-list .btn-green-plain,
+.page-xxg-order-list .block-order-list .btn-green-plain-small,
+.page-xxg-order-list .block-order-list .btn-yellow-plain-small {
+    padding: 0 .06rem;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: .19rem;
+    font-size: .11rem;
+    border-radius: .06rem;
+    color: #fff;
+    background-color: #f84;
+    text-align: center;
+}
+
+.page-xxg-order-list .block-order-list .btn-green-plain,
+.page-xxg-order-list .block-order-list .btn-green-plain-small {
+    background-color: #4a7;
+}
+
+.page-xxg-order-list .block-order-list .btn-green-plain {
+    padding: 0 .12rem;
+    font-size: .12rem;
+    line-height: .24rem;
+}
+
+/*免检修修哥*/
+.page-xxg-order-list .block-order-list .exempt-reward-price-num {
+    color: #f84;
+}
+
+.page-xxg-order-list .block-order-list .exempt-info-right {
+    position: absolute;
+    right: .12rem;
+    bottom: .35rem;
+    color: #333;
+    text-align: right;
+}
+
+.page-xxg-order-list .block-order-list .exempt-info-right .exempt-label-access {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f84;
+    border-radius: .03rem;
+    color: #f84;
+    line-height: 1;
+    font-size: .1rem;
+    width: .6rem;
+    height: .16rem;
+}
+
+/*免检修修哥 end*/
+
+/*加载ing*/
+.ui-loading {
+    display: block;
+    height: .35rem;
+    line-height: .35rem;
+    text-align: center;
+}
+
+.ui-loading .ui-loading-txt {
+
+}
+
+.ui-loading .ui-loading-img {
+    width: .2rem;
+    height: .2rem;
+}
+
+/*没有更多了*/
+.ui-no-more {
+    display: block;
+    height: .35rem;
+    line-height: .35rem;
+    text-align: center;
+}
+
+/*弹窗*/
+.page-xxg-order-list .dialog-wrap {
+    background-color: #fff;
+    padding: .2rem .1rem;
+}
+
+.page-xxg-order-list .dialog-wrap .item-tit {
+    font-size: .12rem;
+    color: #666;
+}
+
+.page-xxg-order-list .dialog-wrap .row {
+    padding: .03rem 0;
+    line-height: .36rem;
+}
+
+.page-xxg-order-list .dialog-wrap .col-left-fixed {
+    width: .75rem;
+    line-height: .36rem;
+    color: #666;
+}
+
+.page-xxg-order-list .dialog-wrap .col-right {
+    margin-left: .75rem;
+}
+
+/*特殊修修哥快递信息展示*/
+.page-xxg-order-list .dialog-wrap .row-express-info {
+    margin-top: .2rem;
+    padding-top: .1rem;
+}
+
+.page-xxg-order-list .dialog-wrap .row-express-info .row {
+    line-height: 1.4;
+    padding: .05rem 0;
+}
+
+.page-xxg-order-list .dialog-wrap .row-express-info .row span {
+    color: #666;
+}
+
+/* 手动发货弹窗 */
+/* 标题 */
+.page-xxg-order-list .dialog-wrap .fahuo-title {
+    height: .3rem;
+    line-height: .3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-xxg-order-list .dialog-wrap .fahuo-title .title-text {
+    color: #666;
+}
+
+/* 列表 */
+.page-xxg-order-list .dialog-wrap .fahuo-list .fahuo-item {
+    display: flex;
+    justify-content: space-between;
+    line-height: .3rem;
+}
+
+.page-xxg-order-list .dialog-wrap .fahuo-item .fahuo-item-text {
+    width: 2.1rem;
+    padding-right: .5rem;
+    position: relative;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.page-xxg-order-list .dialog-wrap .fahuo-item .five-code {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: .52rem;
+    text-align: left;
+    color: #4a7;
+}
+
+/* 逆向物流 */
+.page-xxg-order-list .__xxg-mendianfahuo {
+    margin: .12rem;
+    min-height: .7rem;
+    border-radius: .06rem;
+    overflow: hidden;
+    box-shadow: .01rem .01rem .13rem rgba(0, 0, 0, .2);
+}
+
+/* 待叫快递 */
+.page-xxg-order-list .wait-fahuo {
+    padding: .16rem 0 .16rem .16rem;
+}
+
+.page-xxg-order-list .wait-fahuo {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page-xxg-order-list .wait-fahuo .wait-con {
+    display: flex;
+}
+
+.page-xxg-order-list .wait-fahuo .wait-con ._icon-fahuo {
+    width: .25rem;
+    height: .25rem;
+    background-color: pink;
+}
+
+.page-xxg-order-list .wait-fahuo .wait-con .text {
+    height: .25rem;
+    line-height: .25rem;
+    margin-left: .05rem;
+    font-size: .2rem;
+    font-weight: bold;
+    color: #4a7;
+}
+
+.page-xxg-order-list .wait-fahuo .wait-tips {
+    margin-top: .05rem;
+    margin-right: .16rem;
+    color: #999;
+    font-size: .12rem;
+    line-height: .16rem;
+}
+
+/* 上门失败 */
+.page-xxg-order-list .wait-fahuo .shangmen-fail {
+    color: #fb8900;
+}
+
+/* 发货码 */
+.page-xxg-order-list .wait-fahuo .five-code {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: .1rem;
+}
+
+.page-xxg-order-list .wait-fahuo .five-code .five-code-tiem {
+    padding: .05rem .04rem;
+    min-width: .53rem;
+    font-size: .14rem;
+    color: #4a7;
+    margin-right: .12rem;
+    margin-bottom: .1rem;
+    position: relative;
+    text-align: center;
+}
+
+/* 外边框 */
+.page-xxg-order-list .wait-fahuo .five-code .five-code-tiem:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #4a7;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .page-xxg-order-list .wait-fahuo .five-code .five-code-tiem:after {
+        width: 200%;
+        height: 200%;
+        -webkit-transform: translate(-25%, -25%) scale(.5);
+        -moz-transform: translate(-25%, -25%) scale(.5);
+        -ms-transform: translate(-25%, -25%) scale(.5);
+        -o-transform: translate(-25%, -25%) scale(.5);
+        transform: translate(-25%, -25%) scale(.5);
+    }
+}
+
+/* 待叫快递-标 */
+.page-xxg-order-list .wait-fahuo .wait-con ._icon-wait {
+    background: url(data:image/png;base64,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) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* 上门联系成功-标 */
+.page-xxg-order-list .wait-fahuo .wait-con ._icon-shangmen-chenggong {
+    background: url(data:image/png;base64,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) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* 订单已寄出-标 */
+.page-xxg-order-list .wait-fahuo .wait-con ._icon-yijichu {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAABRCAMAAACdUboEAAAAhFBMVEUAAABEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndebb9pAAAAK3RSTlMA+eIhBSn0153pwDLu0mEIjxVNPhpSxXARtDkNr6OVe2tYRci7qnfcZ4mCjiqS0QAABKZJREFUWMO1Wem6oyAMRXGr+1ZtrVattXrr+7/fCNK5ZXGdb85PCDGcEBIiWIMHI7f0jbZtDb90I+iBf4Fipa0jDd+QnLaylIP6sh9nEMP5yfaru/QJZZpkS5SxSX/ZpS8o5c9S2bxX58hSY9WKztXd/J0ot+tUUrJMMssoYD8WlaZEdFYbCY0SwtZLnZFQS8JwsoVP72cSNkNlSepsTrt4r54mdZJsQrCGsJm+rK6InZDUaRNBXjoJL368x5znEGwDzPHO+3mJEgukYDtSbMJrbvqNN/EAe/A4LahM0Zyugn1QdbSsEk3V2McQ7AVEKqUzP2FpyMIYgGMqbYu7GdCwDMERQBlF2I0ZLcZBLTt676H9GfTYGZHogqNw0XKKykDGHzkOY1zffd9uPvLK5bA+YtLP15lCPITH9RHaNJWyOWdioVr2+612aefm37ypEtLPftI25l0fl90wFPR5HpVIHyX3b/WfIYSr+NZVfRzM9o07fz5hdZyXLGbTJJU0aG80opbM3QFn5GnKSj2yhgtKw57WdXTKC5+f9Fqz9l//HmkkIwh0+CYZsaX4xZDyh9jdT7xSGw25Ca99f0qiX8ZMI44ldP9ogQZJBN2Fabvq8Pr3dwRjLjQDzgWOS3wUzqftrqb9nONRO1UEaW/AR8rTx/mYr3vuEibM52Kz7uaSf2yPhHgAjitNfsfXKRlnohj2pYHEHINkNAFiD/m8ifZS2s4wITU37mMCX4ROfrKAC7XWicsgxMkv7KBI5BgLLCF+BIJUi4/NlWPkOFQN3WHmyNdttaKcwE/w7JtAH4PCm7kD46h+/RTXxJEn6Mmz8Ev3AWdM8E7j8UEaHf7jgdX7z04bxJBOppE+Yn4rzphcBBqD6P2Uh3XYzb2G6xrjKpeH7bCTd8ZoZHkshr3QIM0j6+vrbo2SSvuaPY/tfhsD+jyyMePv1ijf6Jhh4zrdrTFRmLg+0+XFY7dGg97gmb0fY3uvxp69Hz2dpFmCp5h+27a1NVfH4+HRvcm74RKR9vUVqnEcw8g1Om62Ueg8w+dCyJjSveD35XFm95AyuZDJ13zUCDIXFaWnmM3XhLmQrl8+0GrAAzZfGn8ENQXomerR+GW9FmcE/dfEgA7g/rc2UwHlMqr64hD93UbF1mbi+tH9OHk2GeZE4qrQW/Pnatw7kQdzqElIx/SbTVLn6nDvSZVQPNTJbxlbh8+/FYIE2zibI1NMyoN7Kyy8ZwJspVMLE6rVcgovHTpJi28uzyB1eMA5upD4qhRJyxeOapcuYk4T+4Vr3YipHjx/emnGTfAupFDwb2RoSJ/07DyvIxr5E/NNyL9dC9H7uoP8g0GAxlX497V+EfYAHJY1mJo203/0I1FQatbMqU1iQV33uucmwtV416onvDik8//rpfD9Hnlvv2cxut4He1LlvECFBdqjfTNxb29781OpmN6eGGoyFQqb+4+JurVH+lzskSqhSfKMB9YRNat93NenjxuBTfB+e82v7MKG61evOVUO98MzC8bQyph+eLCvJdQ3VDhrtsb17Hcj8/VBDN0/2rPzrDTXmX8fep5aK/St/5/pS79o27bY9n/mD5O2Ni3VAEzEAAAAAElFTkSuQmCC) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* 上门失败-标 */
+.page-xxg-order-list .wait-fahuo .wait-con ._icon-shangmen-shibai {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAABRCAMAAACdUboEAAAAhFBMVEUAAABEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndebb9pAAAAK3RSTlMA9Rbx55SMBPqrpCu7miMSs0wIRTHh24BW1J9dOMR7ZR8O64U/HM1sUXMnfRbiuQAAA/ZJREFUWMO9WNmSqjAQDUtYwr6KIiCjIsr//98lyYgOCZHFuudlpor2VKeX052AT5Ct9q45Zg9Hu2exDDZBDjRb7f7gp4DtdSVd3aKBbcRq5itcfZyTNw5JUVVF6l5QYbyMz3KUjkJp0L09Wq4sn6xjcDsUzw+GeVwQPu33Z4mTueOPpwCmv5zOaSZhntKTmm3NNwgjpNCz32Y5iOhpoSWycrUfYua7Hwkv1EHno+VVk4ibLRCjImbFBcxAbHcYpdDoTCK+C8E83CVyHn3aQiMJjsBsHPddj4MuJCzcRX3qiyh3JHkeWITwQA7OTwohDMFC6M5Uei4SJVwO4mXLBiTFMfTACoQ+1iMm/AhXq7tSRnHG7VF2MlyHEViJGEfsb497WAzPYDVu+Nynca804XpG3cZV+a4kWJwuYAMsqY/amwTDnhBtIaT9Zr5kuXdRcTeOTbV3Mn5vPwdsRPlGEqY9vbWV8frTp1um/we4/cBm4P6uXu2SbWc84sahu0PS95+3nVHf9/klVR4xpbOhgLJnpnP2u1faaGLOtcguOYtP9Mx230CSy9eTDk6Ot/2JW5KNTsO41zmZI4j4GeAEivqmXPslzKDtw4Z5wsmSflE9biAv9PS77zBWtCIrfmIOHUHAGUjkA9sTg3M7frROxEnEG8SQ7AkWR8oNkmxINIOFfPb9ij/Zc9PX2OqgGmYSRmmlTLDlQxjNLzL28lN8n/H7px4ysxpsZkpaPdtBqwcyFb4BtMKHP9sxOOdSpRBD93p83DkgVYo67dVMZOxWsEjVHkmD7jHTRayaDYrLR+BL3RuM4laLiqfRh6nAx9HuGKS5IDHOU52Q4L7CAnmCySWcrrCbQCFPTdfrMFIy/oSapKz5SuwLt5S2EwDyVb8aNimmtUlVCWBcmE1KGTYpmu0D2wBC+LwYOS96VtH0QswoueyyZ8SCrRkrkxiZaGumm33E2xyktDicb3kWBVleldBvEqOjODM3GuM4urbuwxGjVGiBNe54zwpKc9/TasLbB/DSbmRT727TzR4+ci1mb0hM8RnB6vWW3uLY+lQfKydWyrlpAg9vJc2627CNvTnxPbfDFYyIrlws8i2vCvfJW1NnywuPTDzURK8zjbXopmXPePBRFxTRJWUIuRuxVs8MYSkRc11klBOb5m+PC8eacZ/1Etahj9E8QaIZyecYeXSnV8RPv9bzRXPWS3aWUuH3s4kWqgOTjt2kmtun51+5VVH+GIfdzZzkVzvhgqd2FypP9W/MMoti6/Gw4kt2R83wwVm4Gbu79H30SYoivS8YiWatkJQAJR0XqpnVYB3qaGcnIzZbC2SwCd4juO0gMk0Ez7fAksH/xz/ohs414Htz2AAAAABJRU5ErkJggg==) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* 刷新快递 */
+.page-xxg-order-list .refresh-express-status {
+    display: block;
+    height: .3rem;
+    line-height: .3rem;
+    width: 100%;
+    color: #fff;
+    background-color: #4a7;
+    text-align: center;
+}
+
+/* 刷新快递--不可点击 */
+.page-xxg-order-list .refresh-express-status.btn-disabled {
+    color: #999;
+    background-color: #ebebeb;
+}
+
+/* 手动发货 */
+.page-xxg-order-list .__xxg-mendianweifahuo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .12rem;
+    height: .3rem;
+    line-height: .3rem;
+    background-color: #ebebeb;
+}
+
+.page-xxg-order-list .__xxg-mendianweifahuo .manual {
+    display: flex;
+    align-items: center;
+    color: #4a7;
+    visibility: hidden;
+}
+
+.page-xxg-order-list .__xxg-mendianweifahuo .manual ._icon {
+    width: .16rem;
+    height: .16rem;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAhFBMVEUAAABEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndEqndebb9pAAAAK3RSTlMA8Uw/UUT7Yvauj8meEhoid2zbKIkGlALnmbeANRwMvmleMNPSqqdXzznhIh/s1QAAAelJREFUSMe91dmyojAUheEFYgBR5kEE5/ms93+/Dmpr4jlI+lz0d2FRRf2V2ltT4rfak/UubfCJy5/sV+i1488O6LUgRWw7CrtmZ40+FhlD5/DmiB4eOYJuw7uy/xQbuoQPsVGi79A1TSI+tYYJ8tfXY5ToTWSaILLPjr0V5Hgw0Xn/nMxkMupPwmV4Jx+MkugiKB4o1jOD5ERNY5BsqLFNZmldRWY0vu4/JYVBkkwVi3I5nMRUiTHuCUm7L5lQYVWo6qMLVCWDrC8p6uDlDKxJXjJgCdP7MmaaBM85ivFuOElYAyWF/JgHSUrWkR19TpbkFnLA2mdnLSjZb0k2emkBh905C3IRJZygpfDp6cmZqliec2CA4nYpmQJflL2jJT41uZzZ4gY5gwqTL2A7h82Fllw9ag4Fxt30FBVuKoTkSpslHGu28u2eCSJlTwGdoV+ywxSqmNOhRL6ZQZHR6v+zkEZNUu2YQzXn80Ee+O5M0mqEBdXxb1KSPOUTRYSQXjKl5OjD4G7l8c1OvoyBTEalvo/nWCl1mUxOkK7yQMWWr4ueHH1Vhoj0v++kJD64WmS6+bZ0fLJqPBlp0+dM8dmssciLW+Bh0u1lyCwmOc/bAlWW7EkXBsLcYpcJkocRzKxcP+2i9Qa/9ge6O2FJPrJtSQAAAABJRU5ErkJggg==) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* 手动发货页面底部悬浮按钮 */
+.page-xxg-order-list .fahuo-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: .4rem;
+    padding: 0 .1rem;
+    background-color: #16a654;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 全选按钮 */
+.page-xxg-order-list .fahuo-bottom .all-check {
+    display: flex;
+    align-items: center;
+}
+
+.page-xxg-order-list .fahuo-bottom .all-check input[type=checkbox] {
+    width: .16rem;
+    height: .16rem;
+    margin-right: .02rem;
+    -webkit-appearance: none !important;
+    border: none !important;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAA9CAMAAAApvJHbAAAAgVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9d3yJTAAAAKnRSTlMABWwI8O3qPpXmOfrYMBbj3pp1Iywo8tvQj3xFsa4KuGZvGQ61YlVOYWDaIhpsAAACAklEQVRIx7VXaXOCMBAlXAmIlMsDqyjWc///D+wb1LZYQDYZ35dlSN5s9szGegtml3Ib+ROa+NG2vMw41FB9UBsfKhxHdewFdWFhVy+5IvObvfPD6jSNhSXi6Wl1mDf//EwMkz8jAtxUtvcJmboERJ9Dh1YEJDuna22XEKCcPnK+xLJniz6jbA/ry7x7dRpgcR0PnC3eYEcw7VqSsGxiW8OwJ/CK7NAMsietV5Ae6P+05z7OVFivUcA+/8n2aol/4/KxcOG6duKksDkcm8ewPW0lCXy5s8bCxu4/aeMgETaMKkLgkt+syeDumMGO4fjsRzX83QSac/bgobxG/QoWW6D+6/v3olHNVb64RwDZ4zDZDoJ+i7BqwscEEkQ1H7BBstkSvmq6J8Il2GyBoM0gjyhqi4810RGiJFppsFdEJcSW6KzBPhNtIdBFCw12gQ4LgTSNNdh7JCsEqlVosL9wY0CgWPncG89Mt5ndZj43i7dZrpnluVmNGdb3rbcoDrFNCnF0dl/DwUPjngpkWv08e6Ssp3GXeF9G95j5HWp+fwOKOTuodvyYc4ujOTPNmplJc14L/Y55DZDzkbPiXPbOqZv9UC+7zakDM7Jb987Itds/IwNV+nI+TyuTtwHjXbJHJXDeJUDV9yaqq7HvseSJmuA9xkB+LddR4JIbROvymlvvwDfp/k2NSt5PJgAAAABJRU5ErkJggg==) center no-repeat;
+    background-size: contain;
+}
+
+/* 选中状态 */
+.page-xxg-order-list .fahuo-bottom .all-check input[type=checkbox]:checked {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAA9CAMAAAApvJHbAAAAhFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8g2+bRAAAAK3RSTlMACAW177f5mGzq3fLm2EUtTD84vJIW43UjKLF8YTG7rWbSza9vDlU7GYsaNtEJQAAAAn9JREFUSMe1l9uSojAQhtMRCaCIMKKIOI6n0dm8//vtH0ftQiCE3bJvUiR81cckHfEWWVeLcRz62g/j8aJaD0EztdR1WarMDaUg0m0SBdTLylWojUxGm+9tLoXMk+/NaHKbC1fSDs9iDfFUWv9PpsrTkHhmM3pxM/GL2ta+bg4tOs0vDkZvILucCoz+Q9G+up1i8ZhbbMuP+GO6bVtKERo/EHYJfAQ0bc4nHqy+iD65mN8a2osQNiWiXxL4F774TnvM9dUjG7mvR17B50y4yQW+q1qRIJZfwlUC/D3jT0Ih7IS7IHER275CHPMBdA7XV0/ViHfghFE5f9g+fSg/Yf9KJ3is/Rsusf9P98kIqh1hDfyuPL6fJCg+coQfOKGss0eulSP8xBmCD+kA+De5KWIlIGukSw6BR+ZviaStMVZal0NhSKl1hQGn0WY4LDY4pTBgYT4cFnOtxxhirZPhsEh+M44yzYfD4g+KFQN2K8/NSnKDxRk1hgGzDPv6g1zgJ2d0M6yB98Os2/jNMOMWmP3mmBuYcRvMMed8o3oYt8Kcb641+nzBadQFc62hzo+iiVtgrnPeY3X8k2ww7zHe33XtYwvM+1so40ETt8ImWupxrnnEuBNMMDxrOVPpwwrzZRTxVbKUDdwGyyVfJmePlTPOcKtq79xxj9G+B85DVt28Q+ng22Cxg9dkub/nPsOW+5vT52d1vBPOnr0D2/rat8yPsrtvOdA/9kzrZs8E2br1a1nI/dr/9YrNPnV3tbDXXbNPZd9NlXinzh755GF9X3TeGqq3P1f0jrdB812SXLET7O8S9zfRiVzfY9ErqjIxQIrqp4ynEz2ZxuVPVYh3yF9nBYiNIasVXwAAAABJRU5ErkJggg==);
+}
+
+.page-xxg-order-list .fahuo-bottom .fahuo-count {
+    width: .52rem;
+}
+
+/* 注意提示 */
+.page-xxg-order-list .fahuo-bottom .fahuo-tips {
+    font-size: .1rem;
+    display: flex;
+    align-items: center;
+}
+
+.page-xxg-order-list .fahuo-bottom .fahuo-tips .fahuo-icon {
+    width: .1rem;
+    height: .1rem;
+    margin-right: .02rem;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAkFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+WABnwAAAAL3RSTlMAWB/E5mgtIvfHubJxT0I62MCqpaCalzMaE/Dq08tsSUY9KCUOBfvij419e2NiXpBZvLYAAADpSURBVCjPfZPXcoMwFAVPkEBgmik24LjFJT3R//9dhowlDmJgn9i7A0gawMA9T+pCVF/ZDVMuW6kf7KoXt271iLjjGKy1w/N5qCc7TPyDufZNVWYSKgDS2OmR38wg6m1j7LXFyLXsNbJ66NXjBXvtB2lGWyLoZfednqdFzirP+Z7dR8L6CzTsNSrWFFDsKxSsT0DALiCWc+nky/jhn0722EtkSznBLVzIV6Ccz2sAzSSzAqu5LNHThXxq3ZAb/JPx3UpPPjbfriUP7Cm+w5KG2uUIQhXjuHf/k5Q2EP1gyvV7EwsR18cAlj9/VG48SaHp6wAAAABJRU5ErkJggg==) center no-repeat;
+    background-size: contain;
+}
+
+/* 手动发货按钮 */
+.page-xxg-order-list .fahuo-bottom .xxg_batch_express_delivery_btn {
+    margin: 0;
+    padding: 0 .1rem;
+    height: .3rem;
+    line-height: .3rem;
+    border-radius: .05rem;
+    background-color: #fff;
+    color: #4a7;
+    font-size: .14rem;
+    position: relative;
+}
+
+.page-xxg-order-list .fahuo-bottom .xxg_batch_express_delivery_btn.fahuo-btn-disabled {
+    background-color: #dadada;
+    color: #999;
+}
+
+.page-xxg-order-list .fahuo-bottom .xxg_batch_express_delivery_btn .fahuo-disabled-click {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.page-xxg-order-list .fahuo-bottom .fahuo-btn-disabled .fahuo-disabled-click {
+    display: block;
+}
+
+/* 门店订单页 */
+.page-xxg-order-list .mendian-list-date {
+    height: .3rem;
+    line-height: .3rem;
+}
+
+.page-xxg-order-list .mendian-list-date .date-title {
+    padding: 0 .12rem;
+    height: .3rem;
+    line-height: .3rem;
+    color: #333;
+    background-color: #ebebeb;
+    display: flex;
+    align-items: center;
+}
+
+.page-xxg-order-list .mendian-list-date .date-title .mendian-date-icon {
+    width: .12rem;
+    height: .12rem;
+    margin-right: .05rem;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAb1BMVEUAAAAwMDAyMjIzMzMyMjIzMzMvLy8yMjIyMjIzMzMwMDAyMjIzMzMyMjIwMDAyMjIyMjIyMjIfHx8xMTExMTEvLy8tLS0yMjIyMjIyMjIxMTEyMjIwMDAvLy8uLi4yMjIyMjIxMTEzMzMuLi4zMzOJrl4WAAAAJHRSTlMAP8C/gPEPcNGwIN/Pji+noGAEhk41Fvnqx2dIRR0LqHZYMidCmnsVAAABOElEQVRIx9WV2ZKCMBBFzZ6wqLjPorOd///GkULiyBQByhe9D9StkEPRfVPp2aMrC2V3SYcsATjovgadADSIhwFsVSqlcijUrSA/P8uN7XzaMKB883f/khEqb7ppKpuqIXMGqvj/Bm+HirYe09ZRwXy4S3NwsQJ/beu8t62ecHESeXGZadGoYMS/bUXthiXh4pgOFGKEiiswUvcAXoyQn1z0MwBHrfVbs/Sq9adtztx5cdsDHDhrVztdu3XtdnvA9AALID/V7t0AX7VbvQCyr4YfIWzjTkK05/xbiNXztHUysFEyNDnYhVTaNolIuejLYR9zKGMORwZy+Fi1ORy2MYd1B/Bja5DRFWOAAtkZVGll4K53qxoGAsa23oES6e1CgbudD7lKKAeW0yaQcZ0Z54JMKDg7e1j9AuLjPQLkbod+AAAAAElFTkSuQmCC) no-repeat center;
+    background-size: contain;
+}
+
+.page-xxg-order-list .mendian-list-date .date-title.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+/* 底部操作按钮 */
+.page-xxg-order-list .block-bottom-button {
+    position: fixed;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    /*padding: 0 .12rem;*/
+    max-width: 1080px;
+    background-color: #fff;
+    border-top: thin solid #eee;
+}
+
+.page-xxg-order-list .block-bottom-button .btn {
+    margin-top: .12rem;
+    margin-bottom: .12rem;
+}
+
+.page-xxg-order-list .block-bottom-button .btn-manual-express {
+    margin: .12rem .06rem .12rem .12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .4rem;
+    border-radius: 0.08rem;
+    font-size: 0.15rem;
+    background-color: #fe5800;
+    color: #fff;
+    /*display: none;*/
+}
+
+.page-xxg-order-list .block-bottom-button .btn-select-schedule-pickup-time {
+    margin: .12rem .12rem .12rem .06rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .4rem;
+    border-radius: 0.08rem;
+    font-size: 0.15rem;
+    background-color: #17a654;
+    color: #fff;
+    /*display: none;*/
+}
+
+/* 预约取件 */
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap {
+    padding: .1rem 0;
+}
+
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap .dialog-close,
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap .dialog-close:hover {
+    position: absolute;
+    top: 0.08rem;
+    right: 0.08rem;
+    z-index: 9999;
+    width: .24rem;
+    height: .24rem;
+    line-height: .24rem;
+    font-size: .18rem;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    text-decoration: none;
+    color: #999;
+}
+
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap .dialog-close:before {
+    content: "\e603";
+}
+
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap .select-schedule-pickup-time-title {
+    padding-left: .1rem;
+    line-height: 2.4;
+}
+
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap .select-schedule-pickup-time-content {
+    padding: .12rem 0;
+    height: 1.2rem;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap .select-schedule-pickup-time-content .the-day {
+    border-right: thin solid #eee;
+}
+
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap .select-schedule-pickup-time-content .the-day .col {
+    width: .6rem;
+    height: .6rem;
+    line-height: .6rem;
+    text-align: center;
+    color: #000;
+}
+
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap .select-schedule-pickup-time-content .the-time {
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap .select-schedule-pickup-time-content .the-time .col {
+    padding: 0 0 0 .2rem;
+    width: 100%;
+    height: .4rem;
+    line-height: .4rem;
+    color: #000;
+}
+
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap .select-schedule-pickup-time-content .the-day .col.selected,
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap .select-schedule-pickup-time-content .the-time .col.selected,
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap .select-schedule-pickup-time-content .the-day .col:hover,
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap .select-schedule-pickup-time-content .the-time .col:hover {
+    background-color: #eee;
+}
+
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap .select-schedule-pickup-time-bottom {
+    text-align: center;
+}
+
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap .select-schedule-pickup-time-bottom .btn {
+    margin-top: .1rem;
+    width: auto;
+    height: auto;
+    font-size: .14rem;
+    line-height: 2.4;
+}
+
+.dialog-xxg-select-schedule-pickup-time.dialog-wrap .select-schedule-pickup-time-bottom .tips {
+    padding: .1rem 0;
+    text-align: center;
+    color: #f00;
+}

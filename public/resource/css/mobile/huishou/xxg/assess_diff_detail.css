@@ -1,0 +1,54 @@
+/*修修哥验机详情页*/
+.page-hs-xxg-assess-diff-detail{
+    background-color: #fff;
+    color: #666;
+}
+.page-hs-xxg-assess-diff-detail .show-img-wrap{
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+.page-hs-xxg-assess-diff-detail .show-img-wrap .show-img-btn {
+    display: inline-block;
+    margin: .05rem 0;
+    padding: .05rem .2rem;
+    border-radius: 1rem;
+    color: #fff;
+    background-color: #f50;
+}
+.page-hs-xxg-assess-diff-detail .quality_pinggu_imgs_dialog {
+    background-color: #fff;
+}
+.page-hs-xxg-assess-diff-detail .quality_pinggu_imgs_dialog .dialog-inner{
+    height: 4rem;
+    overflow-y: scroll;
+}
+.page-hs-xxg-assess-diff-detail table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.page-hs-xxg-assess-diff-detail table tr{
+    height: .45rem;
+    border-bottom: 1px solid #eee;
+}
+.page-hs-xxg-assess-diff-detail table td{
+    padding: 0 .05rem;
+}
+.page-hs-xxg-assess-diff-detail table .td1{
+    text-align: center;
+    width: 26%;
+}
+.page-hs-xxg-assess-diff-detail table .td2{
+    border-left: 1px solid #eee;
+}
+.page-hs-xxg-assess-diff-detail table .td3{
+    width: 18%;
+    font-size: 0;
+}
+.page-hs-xxg-assess-diff-detail table .td3 span{
+    font-size: .12rem;
+    vertical-align: middle;
+}
+.page-hs-xxg-assess-diff-detail table .td3 .iconfont{
+    padding-right: .03rem;
+}
+

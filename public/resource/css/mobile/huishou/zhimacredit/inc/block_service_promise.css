@@ -1,0 +1,44 @@
+/*服务承诺*/
+.block-service-promise{
+    background-color: #fff;
+}
+.block-service-promise .service-promise-list{
+    height: .44rem;
+    line-height: .44rem;
+    text-align: center;
+}
+.block-service-promise .service-promise-list .item{
+    font-size: 0;
+    position: relative;
+}
+.block-service-promise .service-promise-list .service-promise-icon{
+    display: inline-block;
+    width: .24rem;
+    height: .24rem;
+    background: no-repeat center 0;
+    background-size: cover;
+    vertical-align: middle;
+}
+.block-service-promise .service-promise-list .item:nth-child(1) .service-promise-icon{
+    background-image: url(https://p4.ssl.qhmsg.com/t01ac8599f071857ad3.png);
+}
+.block-service-promise .service-promise-list .item:nth-child(2) .service-promise-icon{
+    background-image: url(https://p2.ssl.qhmsg.com/t01677027a881796b21.png);
+}
+.block-service-promise .service-promise-list .item:nth-child(3) .service-promise-icon{
+    background-image: url(https://p3.ssl.qhmsg.com/t01d00680c65dafc7d5.png);
+}
+.block-service-promise .service-promise-list .service-promise-cont{
+    display: inline-block;
+    color: #333;
+    font-size: .12rem;
+    vertical-align: middle;
+    padding-left: .05rem;
+}
+.block-service-promise .service-promise-list .b-left {
+    position: absolute;
+    top: .12rem;
+    right: 0;
+    width: 1px;
+    height: .2rem;
+}

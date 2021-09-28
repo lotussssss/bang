@@ -1,0 +1,45 @@
+.page-union-fenqi-pay{}
+.page-union-fenqi-pay .mainbody-inner{
+    font-size: .14rem;
+    padding: .2rem;
+    text-align: center;
+    line-height: 1.5;
+}
+.page-union-fenqi-pay .head-img{
+    height: 1.6rem;
+}
+.page-union-fenqi-pay .fenqi-item-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-union-fenqi-pay .fenqi-item-wrap .item{
+    padding: .03rem 0;
+    width: .7rem;
+    margin-right: .1rem;
+    border: .01rem solid #cfcfcf;
+    color: #cfcfcf;
+    border-radius: .05rem;
+    text-decoration: none;
+}
+.page-union-fenqi-pay .fenqi-item-wrap .item.active{
+    border: .01rem solid #1bdfdf;
+    color: #1bdfdf;
+}
+.page-union-fenqi-pay .desc{
+    font-size: .16rem;
+    color: #1bdfdf;
+    padding-top: .15rem;
+}
+.page-union-fenqi-pay .pay-btn{
+    display: block;
+    width: 2.5rem;
+    height: .38rem;
+    line-height: .38rem;
+    font-size: .16rem;
+    margin: .3rem auto .15rem;
+    color: #fff;
+    background-color: #1bdfdf;
+    border-radius: 1rem;
+    text-decoration: none;
+}

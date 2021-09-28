@@ -1,0 +1,95 @@
+/*帮我卖评估列表页*/
+#bm-wrap .bm-list .bm-item{
+    width: 3.2rem;
+    background-color: #fff;
+    margin: 0 auto .1rem;
+}
+#bm-wrap .bm-list .bm-item .bm-item-top,#bm-wrap .bm-list .bm-item .bm-item-bottom{
+    padding: .1rem .12rem .1rem;
+}
+
+#bm-wrap .bm-list .bm-item .bm-item-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: .05rem;
+}
+#bm-wrap .bm-list .bm-item .bm-item-title .model-grade{
+    width: .36rem;
+    height: .17rem;
+    background-color: #DC1C2A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: .1rem;
+    margin-right: .06rem;
+}
+#bm-wrap .bm-list .bm-item .bm-item-title .model-name{
+    font-size: 0.14rem;
+    font-weight: 600;
+    color: #000;
+}
+
+#bm-wrap .bm-list .bm-item .b-item-sku{
+    color: #9A9A9A;
+    font-size: .11rem;
+    margin-bottom: .05rem;
+}
+
+#bm-wrap .bm-list .bm-item .general-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .11rem;
+    margin-bottom: .05rem;
+}
+#bm-wrap .bm-list .bm-item .general-line .left{
+    color: #9A9A9A;
+}
+#bm-wrap .bm-list .bm-item .general-line .right{
+    color: #000000;
+}
+#bm-wrap .bm-list .bm-item .general-line .assess-price{
+    color: #DE222D;
+}
+#bm-wrap .bm-list .bm-item .general-line .no-assess-price{
+    color: #9A9A9A;
+}
+
+#bm-wrap .bm-list .bm-item .b-item-line{
+    border-bottom: thin solid #EEEEEE;
+}
+
+#bm-wrap .bm-list .bm-item .btn-wrap{
+    margin-top: .1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#bm-wrap .bm-list .bm-item .btn-wrap .bm-item-confirm{
+    width: 0.61rem;
+    height: 0.22rem;
+    background-color: #17A553;
+    color: #FEFEFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.11rem;
+    font-size: .1rem;
+}
+#bm-wrap .bm-list .bm-item .btn-wrap .bm-item-shelves{
+    width: 0.61rem;
+    height: 0.22rem;
+    background-color: #17A553;
+    color: #FEFEFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.11rem;
+    font-size: .1rem;
+    margin-left: .1rem;
+}
+#bm-wrap .bm-list .bm-item .btn-wrap .bm-item-complete-confirm{
+    font-size: .1rem;
+    color: #18A654;
+}

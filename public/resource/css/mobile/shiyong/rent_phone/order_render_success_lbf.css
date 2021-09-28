@@ -1,0 +1,45 @@
+/* =================lbf用户提交信息成功================== */
+.page-render-success-lbf {
+    background-color: #f9f9f9;
+;
+}
+.page-render-success-lbf .blo-duigou{
+    margin:1rem auto .05rem;
+    width: 1.22rem;
+    height: 1.22rem;
+}
+.page-render-success-lbf .blo-duigou img {
+    width: 100%;
+    height: 100%;
+}
+.page-render-success-lbf .txt-succ{
+    margin-top: .2rem;
+    text-align: center;
+    color: #3399ff;
+    font-size: .16rem;
+}
+.page-render-success-lbf .txt-succ-desc{
+    text-align: center;
+    color: #aaa;
+}
+.page-render-success-lbf .btn-show-ewm{
+    width: 80%;
+    height: .44rem;
+    line-height: .44rem;
+    margin: .5rem auto;
+    background-color: #3399ff;
+    color: #fff;
+    text-align: center;
+    font-size: .16rem;
+    border-radius: .05rem;
+}
+.page-render-success-lbf .bottom-desc{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #aaa;
+    width: 100%;
+    text-align: center;
+    padding: .1rem;
+}

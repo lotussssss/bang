@@ -1,0 +1,14 @@
+/*免息*/
+.prd-c-line-mianxi .prd-c-cnt {
+    line-height: 32px;
+}
+
+.prd-c-line-mianxi .prd-c-cnt span {
+    display: inline-block;
+    color: #666;
+    float: left;
+}
+
+.prd-c-line-mianxi .prd-c-cnt span:last-child {
+    display: none;
+}

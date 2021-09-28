@@ -1,0 +1,558 @@
+.w100{
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+.block-inner {
+    margin: 0 auto;
+    width: 990px;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.page-hd-shuang12 {
+    background-color:#ec4885;
+    min-width: 990px;
+}
+.page-hd-shuang12 .dialog-inner{
+    /*padding: 0;*/
+}
+.page-hd-shuang12 .topbar .in{
+    width: 990px;
+}
+.page-hd-shuang12 .mainbody{
+    /*padding-bottom: 50px;*/
+}
+
+/*活动商品列表样式*/
+.page-hd-shuang12 .ui-sp-product-list-1{
+    min-height: 310px;
+    background-color: #9861ff;
+    padding: 10px 10px 0;
+}
+
+.page-hd-shuang12 .ui-sp-product-list-1 .p-item{
+    margin:0 10px 10px 0;
+    width: 235px;
+    height: 316px;
+    border:none;
+}
+.page-hd-shuang12 .ui-sp-product-list-1 .p-item.p-item-last{
+    margin-right: 0;
+}
+.page-hd-shuang12 .ui-sp-product-list-1 .p-item .p-tit{
+    font-size: 20px;
+    font-weight: bold;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    word-break: break-all;
+}
+.page-hd-shuang12 .ui-sp-product-list-1 .p-item .p-tit-sub{
+    padding-top: 0;
+    font-size: 14px;
+}
+.page-hd-shuang12 .ui-sp-product-list-1 .p-item .p-pic{
+    height: 166px;
+    padding-top: 30px;
+}
+.page-hd-shuang12 .ui-sp-product-list-1 .p-item .p-pic img {
+    height: 156px;
+}
+.page-hd-shuang12 .ui-sp-product-list-1 .p-item .p-price{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 25px 0 0;
+    height: 53px;
+    line-height: 53px;
+    text-align: right;
+    background: url("https://p4.ssl.qhimg.com/t01de94b3cc6c8f9bb9.png") no-repeat center;
+    overflow: hidden;
+}
+.page-hd-shuang12 .ui-sp-product-list-1 .p-item .p-price-cur{
+    font-size: 16px;
+    color: #f00;
+}
+.page-hd-shuang12 .ui-sp-product-list-1 .p-item .p-price-cur .p-price-num{
+    font-size: 30px;
+}
+/*活动商品列表样式 end*/
+
+/*更多*/
+.page-hd-shuang12 .more{
+    padding: 10px 0 15px;
+    background-color: #9861ff;
+}
+.page-hd-shuang12 .more a{
+    display: block;
+    width: 242px;
+    height: 67px;
+    line-height: 67px;
+    margin: 0 auto;
+    background: url(https://p3.ssl.qhimg.com/t01dc454e1bc65016ee.png) no-repeat center 0;
+}
+/*更多 end*/
+
+/*头图*/
+.page-hd-shuang12 .block-top,
+.page-hd-shuang12 .block-top .block-inner{
+    height: 762px;
+    background: url(https://p4.ssl.qhimg.com/t01d1dad6e838330b08.jpg) no-repeat center 0;
+}
+/*头图end*/
+
+.page-hd-shuang12 .block-shuang12-product,
+.page-hd-shuang12 .block-shuang12-product .block-inner{
+    height: 978px;
+    background: url(https://p4.ssl.qhimg.com/t0196cc38d509fd0767.jpg) no-repeat center 0;
+}
+
+
+/*标题*/
+.page-hd-shuang12 .block-tit{
+    height: 118px;
+    background:url("https://p2.ssl.qhimg.com/t0167d8d46ecad2f17e.png") no-repeat center;
+    color: #a68653;
+    font-size: 48px;
+    text-align: center;
+    line-height: 118px;
+    padding: 10px 0;
+}
+.page-hd-shuang12 .block-tit-sub{
+    font-size: 24px;
+    color: #ffee0b;
+    text-align: center;
+    padding-bottom: 10px;
+}
+/*标题 end*/
+
+/*tab*/
+.page-hd-shuang12 .block-tab,
+.page-hd-shuang12 .block-tab .block-inner{
+    height: 160px;
+    background: url(https://p1.ssl.qhimg.com/t01b5d95b2f1010c738.jpg) no-repeat center 0;
+}
+.page-hd-shuang12 .block-tab .row-tab{
+    padding-top: 40px;
+    width: 890px;
+    margin: 0 auto;
+}
+.page-hd-shuang12 .block-tab .row-tab .tab-item{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.page-hd-shuang12 .block-tab .row-tab .tab-item .time{
+    padding-top: 65px;
+}
+.page-hd-shuang12 .block-tab .progress-bar{
+    position: absolute;
+    top:86px;
+    left: 0;
+    right: 0;
+    height: 37px;
+    background: no-repeat center 0;
+}
+.page-hd-shuang12 .block-tab .progress-bar.progress-bar1{
+    background-image: url("https://p5.ssl.qhimg.com/t0181c87685468d40c7.png");
+}
+.page-hd-shuang12 .block-tab .progress-bar.progress-bar2{
+    background-image: url("https://p2.ssl.qhimg.com/t01cec1303f166f0026.png");
+}
+.page-hd-shuang12 .block-tab .progress-bar.progress-bar3{
+    background-image: url("https://p5.ssl.qhimg.com/t0167e2a123acdfdf6c.png");
+}
+/*tab end*/
+
+/*优惠券*/
+.page-hd-shuang12 .block-coupon,
+.page-hd-shuang12 .block-coupon .block-inner{
+    height: 328px;
+    background: url(https://p5.ssl.qhimg.com/t016ca2ad71abf81358.jpg) no-repeat center 0;
+}
+.page-hd-shuang12 .block-coupon .coupon-list{}
+.page-hd-shuang12 .block-coupon .coupon-item{
+    float: left;
+    width: 322px;
+    height: 175px;
+    margin-right: 8px;
+    position: relative;
+}
+.page-hd-shuang12 .block-coupon .coupon-item1{
+    background: url("https://p5.ssl.qhimg.com/t01af4dda06e040a487.png") no-repeat center;
+}
+.page-hd-shuang12 .block-coupon .coupon-item2{
+    background: url("https://p4.ssl.qhimg.com/t0191cb962c870b02d2.png") no-repeat center;
+}
+.page-hd-shuang12 .block-coupon .coupon-item3{
+    background: url("https://p0.ssl.qhimg.com/t01cd43fea768c8d614.png") no-repeat center;
+    margin: 0;
+}
+.page-hd-shuang12 .block-coupon .coupon-txt{
+    font-size: 16px;
+    padding-top: 92px;
+    text-align: center;
+    color: #fdfd04;
+}
+.page-hd-shuang12 .block-coupon .coupon-item.coupon-item-received{
+    cursor: default;
+}
+.page-hd-shuang12 .block-coupon .coupon-item.coupon-item-received .coupon-cover{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://p4.ssl.qhimg.com/t010cc407186cfa6628.png") no-repeat center;
+    z-index: 2;
+}
+.page-hd-shuang12 .block-shuang12-part2 .block-coupon .coupon-item1{
+    background: url("https://p2.ssl.qhimg.com/t0104339b76d1af7bdf.png") no-repeat center;
+}
+.page-hd-shuang12 .block-shuang12-part2 .block-coupon .coupon-item2{
+    background: url("https://p0.ssl.qhimg.com/t01fd58786a6011c531.png") no-repeat center;
+}
+.page-hd-shuang12 .block-shuang12-part2 .block-coupon .coupon-item3{
+    background: url("https://p3.ssl.qhimg.com/t01f84b72f756bb5d8e.png") no-repeat center;
+    margin: 0;
+}
+/*优惠券 end*/
+
+/*神券*/
+.page-hd-shuang12 .block-shenquan,
+.page-hd-shuang12 .block-shenquan .block-inner{
+    height: 362px;
+    background: url(https://p2.ssl.qhimg.com/t01663597a6141d584e.jpg) no-repeat center 0;
+}
+.page-hd-shuang12 .block-shenquan .shenquan-list-wrap{
+    height: 210px;
+    background: url("https://p5.ssl.qhimg.com/t01342e07b843ea60fd.png") no-repeat center;
+    position: relative;
+}
+.page-hd-shuang12 .block-shenquan .shenquan-list{}
+.page-hd-shuang12 .block-shenquan .shenquan-item{
+    position: absolute;
+    top: 40px;
+    left: 43px;
+    width: 530px;
+    height: 137px;
+}
+.page-hd-shuang12 .block-shenquan .shenquan-status{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    text-align: center;
+}
+.page-hd-shuang12 .block-shenquan .shenquan-txt{
+    font-size: 16px;
+    padding-top: 44px;
+    color: #621ee8;
+}
+.page-hd-shuang12 .block-shenquan .shenquan-btn{
+    margin: 10px auto 0;
+    width: 156px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    background: url("https://p5.ssl.qhimg.com/t0176abb6bcbfc82238.png") no-repeat center;
+    color: #fff;
+}
+.page-hd-shuang12 .block-shenquan .countdown {
+    font-size  : 0;
+}
+.page-hd-shuang12 .block-shenquan .countdown span {
+    font-size : 18px;
+    vertical-align: middle;
+}
+.page-hd-shuang12 .block-shenquan .countdown .d-num,
+.page-hd-shuang12 .block-shenquan .countdown .d-txt,
+.page-hd-shuang12 .block-shenquan .countdown .desc-txt-behind {
+    display : none;
+}
+.page-hd-shuang12 .block-shenquan .shenquan-item.shenquan-item-received{
+    cursor: default;
+}
+.page-hd-shuang12 .block-shenquan .shenquan-item.shenquan-item-received .shenquan-cover{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://p1.ssl.qhimg.com/t01425e592a7a95a8fd.png") no-repeat center;
+    z-index: 2;
+}
+.page-hd-shuang12 .block-shuang12-part2 .block-shenquan .shenquan-list-wrap{
+    height: 210px;
+    background: url("https://p1.ssl.qhimg.com/t0117e0fb59f20d1389.png") no-repeat center;
+    position: relative;
+}
+/*神券 end*/
+
+/*红包*/
+.page-hd-shuang12 .block-shenquan .hongbao-item{
+    position: absolute;
+    left: 594px;
+    top: 38px;
+    width: 375px;
+    height: 140px;
+}
+.page-hd-shuang12 .block-shenquan .hongbao-btn{
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    width: 162px;
+    height: 52px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    background: url("https://p5.ssl.qhimg.com/t01525a244ed9da2101.png") no-repeat center;
+    color: #a68653;
+}
+.page-hd-shuang12 .block-shenquan .hongbao-item.hongbao-item-received .hongbao-cover{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://p3.ssl.qhimg.com/t01d199c634fc9d6be2.png") no-repeat center;
+    z-index: 2;
+}
+.page-hd-shuang12 .block-shuang12-part2 .block-shenquan .hongbao-item{
+    position: absolute;
+    left: 147px;
+    top: 38px;
+    width: 660px;
+    height: 140px;
+}
+.page-hd-shuang12 .block-shuang12-part2 .block-shenquan .hongbao-btn{
+    position: absolute;
+    right: 130px;
+    bottom: 0px;
+    width: 162px;
+    height: 52px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    background: url("https://p5.ssl.qhimg.com/t01525a244ed9da2101.png") no-repeat center;
+    color: #a68653;
+}
+.page-hd-shuang12 .block-shuang12-part2 .block-shenquan .hongbao-item.hongbao-item-received .hongbao-cover{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://p1.ssl.qhimg.com/t01e6b315d51eef1e9f.png") no-repeat center;
+    z-index: 2;
+}
+/*红包 end*/
+
+/*秒杀商品*/
+.page-hd-shuang12 .block-flash,
+.page-hd-shuang12 .block-flash .block-inner{
+    height: 640px;
+    background: url(https://p2.ssl.qhimg.com/t018c0b808fee6bbbd9.jpg) no-repeat center 0;
+}
+.page-hd-shuang12 .block-flash .flash-product{
+    display: block;
+    padding: 0 50px;
+    height: 474px;
+    position: relative;
+    background: url(https://p4.ssl.qhimg.com/t017b5ee3c2c535b05a.png) no-repeat center 0;
+}
+.page-hd-shuang12 .block-flash .label-reduce{
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    width: 90px;
+    height: 106px;
+    padding-top: 15px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.2;
+    background: url("https://p2.ssl.qhimg.com/t01b5f6b5aa736387df.png") no-repeat center 0;
+}
+.page-hd-shuang12 .block-flash .p-pic{
+    float: left;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding-top: 80px;
+}
+.page-hd-shuang12 .block-flash .p-pic img{
+    height: 100%;
+}
+.page-hd-shuang12 .block-flash .p-info{
+    float: left;
+    width: 590px;
+    text-align: center;
+    padding-top: 105px;
+}
+.page-hd-shuang12 .block-flash .p-tit{
+    font-size: 38px;
+    color: #101010;
+}
+.page-hd-shuang12 .block-flash .p-reduce{
+    font-size: 28px;
+    color: #ff1200;
+}
+.page-hd-shuang12 .block-flash .p-btn-price{
+    margin: 0 auto;
+    width: 412px;
+    height: 88px;
+    line-height: 82px;
+    background: url("https://p1.ssl.qhimg.com/t01f43c81b099df9e9c.png") no-repeat center;
+}
+.page-hd-shuang12 .block-flash .p-btn{
+    width: 140px;
+    color: #a68653;
+    font-size: 22px;
+    padding-left: 20px;
+}
+.page-hd-shuang12 .block-flash .p-price{
+    margin-left: 160px;
+    color: #fff;
+    font-size: 20px;
+}
+.page-hd-shuang12 .block-flash .p-price .p-price-label{
+    font-size: 16px;
+    vertical-align: top;
+    padding-left: 20px;
+}
+.page-hd-shuang12 .block-flash .p-price .p-price-num{
+    font-size: 38px;
+    vertical-align: top;
+}
+.page-hd-shuang12 .block-flash .countdown {
+    font-size  : 0;
+    padding: 35px 0 15px;
+}
+.page-hd-shuang12 .block-flash .countdown span {
+    font-size : 16px;
+    vertical-align: middle;
+    color: #df2f1b;
+    padding:3px;
+}
+.page-hd-shuang12 .block-flash .countdown .h-num,
+.page-hd-shuang12 .block-flash .countdown .m-num,
+.page-hd-shuang12 .block-flash .countdown .s-num{
+    border-radius: 2px;
+    color: #fff;
+    background: rgb(214,2,1);
+    background: -moz-linear-gradient(top, rgba(214,2,1,1) 0%, rgba(255,47,124,1) 10%, rgba(214,2,1,1) 23%, rgba(253,75,61,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(214,2,1,1) 0%,rgba(255,47,124,1) 10%,rgba(214,2,1,1) 23%,rgba(253,75,61,1) 100%);
+    background: linear-gradient(to bottom, rgba(214,2,1,1) 0%,rgba(255,47,124,1) 10%,rgba(214,2,1,1) 23%,rgba(253,75,61,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d60201', endColorstr='#fd4b3d',GradientType=0 );
+}
+.page-hd-shuang12 .block-flash .countdown .desc-txt-behind{
+    color: #333;
+}
+.page-hd-shuang12 .block-flash .countdown .d-num,
+.page-hd-shuang12 .block-flash .countdown .d-txt,
+.page-hd-shuang12 .block-flash .countdown .desc-txt-before {
+    display : none;
+}
+/*秒杀商品 end*/
+
+/*商品列表tab*/
+.page-hd-shuang12 .block-shuang12-product .brand-tab-list .tab-item,
+.page-hd-shuang12 .block-shuang12-product .brand-tab-list .tab-item-more{
+    float: left;
+    width: 141px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    color: #ffee0b;
+    font-size: 24px;
+    background-color: #9545f0;
+    position: relative;
+}
+.page-hd-shuang12 .block-shuang12-product .brand-tab-list .tab-item:after{
+    position: absolute;
+    right: 0px;
+    top: 14px;
+    content: '\20';
+    width: 1px;
+    height: 35px;
+    background: #6520e8;
+}
+.page-hd-shuang12 .block-shuang12-product .brand-tab-list .tab-item.cur{
+    background-color: #9861ff;
+    font-weight: bold;
+}
+.page-hd-shuang12 .block-shuang12-product .brand-tab-list .tab-item-more{
+    width: 144px;
+}
+/*商品列表tab end*/
+
+/*活动说明*/
+.page-hd-shuang12 .block-desc,
+.page-hd-shuang12 .block-desc .block-inner{
+    height: 570px;
+    background: url(https://p0.ssl.qhimg.com/t01c1d1bb2fd009f7fb.jpg) no-repeat center 0;
+    color: #ffee0b;
+}
+.page-hd-shuang12 .block-desc .desc-tit{
+    font-size: 36px;
+    text-align: center;
+    padding: 15px 0;
+}
+.page-hd-shuang12 .block-desc .desc-cont{
+    font-size: 18px;
+    width: 610px;
+    margin: 0 auto;
+}
+/*活动说明 end*/
+
+/*plus会员banner*/
+.page-hd-shuang12 .block-plus-vip,
+.page-hd-shuang12 .block-plus-vip .block-inner{
+    height: 518px;
+    text-align: center;
+    padding: 20px 0 10px;
+    background: rgb(255,67,91);
+    background: -moz-linear-gradient(left, rgba(255,67,91,1) 0%, rgba(255,43,133,1) 49%, rgba(240,37,188,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(255,67,91,1) 0%,rgba(255,43,133,1) 49%,rgba(240,37,188,1) 100%);
+    background: linear-gradient(to right, rgba(255,67,91,1) 0%,rgba(255,43,133,1) 49%,rgba(240,37,188,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff435b', endColorstr='#f025bc',GradientType=1 );
+}
+.page-hd-shuang12 .block-plus-vip a{
+    display: inline-block;
+}
+/*plus会员banner end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

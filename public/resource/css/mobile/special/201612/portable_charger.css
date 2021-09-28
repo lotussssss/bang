@@ -1,0 +1,301 @@
+/* 送充电宝 */
+.page-hd-partable_charger {
+}
+
+.page-hd-partable_charger .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+    background-color: #fff;
+    color: #fff;
+    font-size: .12rem;
+}
+
+.page-hd-partable_charger .block {
+    width: 100%;
+}
+
+.page-hd-partable_charger .block1 {
+    height: 2rem;
+    background: url(https://p1.ssl.qhmsg.com/t01969736c77fbe43e2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.page-hd-partable_charger .block2 {
+    height: 2.24rem;
+    background: url(https://p0.ssl.qhmsg.com/t0163a6e1113f96ed62.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.page-hd-partable_charger .block3 {
+}
+
+.page-hd-partable_charger .block3 .btn-choose-like-trigger{
+    margin: .17rem auto 0;
+    display: block;
+    width: 2.65rem;
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .24rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 999px;
+    background: linear-gradient(#e72e3b,#b50d11);
+}
+.page-hd-partable_charger .block3 .btn-disabled{
+    background: #ddd;
+}
+.page-hd-partable_charger .block-desc .block-tit{
+    font-size: .2rem;
+    padding: .2rem 0 .08rem;
+    color: #b50d11;
+    text-align: center;
+}
+.page-hd-partable_charger .block-desc .block-desc-cont {
+    color: #b50d11;
+    font-size: .12rem;
+    padding:0 .1rem .2rem;
+}
+.page-hd-partable_charger .block-desc .block-desc-cont p{
+    line-height: 1.4;
+    padding-bottom: .08rem;
+}
+.page-hd-partable_charger .block-desc .block-desc-cont .num{
+    width: .2rem;
+    height: .2rem;
+    line-height: .2rem;
+    text-align: center;
+    color: #fff;
+    background-color: #b50d11;
+    border-radius: 999px;
+    float: left;
+}
+.page-hd-partable_charger .block-desc .block-desc-cont .cont{
+    float: left;
+    width: 2.8rem;
+    padding-left: .06rem;
+}
+.page-hd-partable_charger .block-desc .block-desc-cont .phone-num{
+    font-size: .14rem;
+    padding: .1rem;
+    text-align: center;
+}
+
+/* 选我喜欢弹窗 */
+.portable-charger-select-panel{
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+}
+.portable-charger-select-panel .dialog-close,
+.portable-charger-select-panel .dialog-close:hover{
+    top: -.18rem;
+    left: 50%;
+    right: 50%;
+    margin-left: -.18rem;
+}
+.portable-charger-select-panel .dialog-inner{
+    padding: .1rem .24rem 0;
+}
+.portable-charger-select-panel .portable-charger-select-list{ }
+.portable-charger-select-panel .portable-charger-select-list .item{
+    display: block;
+    padding: .2rem 0;
+    border-bottom: 1px solid #efefef;
+    text-decoration: none;
+}
+.portable-charger-select-panel .portable-charger-select-list .item:last-child{
+    border: 0;
+}
+.portable-charger-select-panel .portable-charger-select-list .p-img{
+    padding-left: .12rem;
+}
+.portable-charger-select-panel .portable-charger-select-list .p-img img{
+    width: .63rem;
+    height: 1rem;
+}
+.portable-charger-select-panel .portable-charger-select-list .p-name {
+    padding: .1rem 0;
+    text-align: center;
+    font-size: .2rem;
+    color: #333;
+}
+.portable-charger-select-panel .portable-charger-select-list .btn {
+    margin: 0 auto;
+    display: block;
+    width: 1.2rem;
+    height: .32rem;
+    line-height: .32rem;
+    font-size: .14rem;
+    background: linear-gradient(#e72e3b,#b50d11);
+    color: #fff;
+    border-radius: 999px;
+}
+/* 登录弹窗 */
+.portable-charger-login-panel{
+    border: none;
+}
+.portable-charger-login-panel .dialog-inner{
+    background-color: #fff;
+    text-align: center;
+    padding: .1rem .15rem .2rem;
+}
+.portable-charger-login-panel .tit{
+    padding: .1rem 0;
+    color: #333;
+    font-size: .22rem;
+}
+
+.portable-charger-login-panel .row{
+    padding-bottom: .08rem;
+}
+.portable-charger-login-panel .btn{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    background: linear-gradient(#e72e3b,#b50d11);
+    border-radius: 999px;
+    color: #fff;
+    font-size: .18rem;
+}
+.portable-charger-login-panel .vcode-img{
+    width: 100%;
+    height: .36rem;
+}
+.portable-charger-login-panel .btn-get-sms-code{
+    font-size: .12rem;
+    border-radius: .06rem;
+}
+.portable-charger-login-panel .btn-get-sms-code-disabled{
+    color: #999;
+    background: #f2f2f2;
+}
+.portable-charger-login-panel .desc{
+    padding-top: .05rem;
+    padding-bottom: .1rem;
+    line-height: 2;
+}
+/*选择成功/已参加提示弹窗*/
+.portable-charger-voted-panel{
+    border: none;
+}
+.portable-charger-voted-panel .dialog-inner{
+    background: url(https://p0.ssl.qhmsg.com/t01a34f7ba481d08d7c.jpg) no-repeat center;
+    background-size: cover;
+    background-color: #fff;
+    text-align: center;
+    padding: .1rem .15rem .2rem;
+    height: 3rem;
+}
+.portable-charger-voted-panel .tit{
+    padding: .1rem 0;
+    color: #fff;
+    font-size: .22rem;
+}
+.portable-charger-voted-panel .cont{
+    color: #fff;
+    font-size: .12rem;
+    padding-top: .1rem;
+}
+/*填写中奖信息*/
+.page-hd-partable_charger .lottery-tips{
+    color: #b50d11;
+    text-align: center;
+    font-size: .14rem;
+    padding-top: .05rem;
+}
+.portable-charger-winner-info-panel{
+    border: none;
+}
+.portable-charger-winner-info-panel .dialog-inner{
+    background-color: #fff;
+    text-align: center;
+    padding: .1rem .15rem .2rem;
+}
+.portable-charger-winner-info-panel .tit{
+    padding: .1rem 0;
+    color: #333;
+    font-size: .22rem;
+}
+
+.portable-charger-winner-info-panel .row{
+    padding-bottom: .08rem;
+}
+.portable-charger-winner-info-panel .btn{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    background: linear-gradient(#e72e3b,#b50d11);
+    border-radius: 999px;
+    color: #fff;
+    font-size: .18rem;
+}
+
+.page-hd-partable_charger .block-x{
+    display: block;
+    width: 100%;
+    height: 1.4222222222222223rem;
+    background-color: #F5F5F5;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+.page-hd-partable_charger .block-x1{
+    height: 3.7288888888888887rem;
+    background-image: url(https://p4.ssl.qhmsg.com/t0169c91889f59040c0.jpg);
+}
+.page-hd-partable_charger .block-x2{
+    height: 3.7288888888888887rem;
+    background-image: url(https://p2.ssl.qhmsg.com/t011b02ab36b25ba906.jpg);
+}
+.page-hd-partable_charger .block-x3{
+    background-image: url(https://p1.ssl.qhmsg.com/t01c0ba1f8fd9b611b2.jpg);
+}
+.page-hd-partable_charger .block-x4{
+    background-image: url(https://p2.ssl.qhmsg.com/t0179823a0647053b10.jpg);
+}
+.page-hd-partable_charger .block-x5{
+    background-image: url(https://p3.ssl.qhmsg.com/t01af4ca1f078f3cb60.jpg);
+}
+.page-hd-partable_charger .block-x6{
+    background-image: url(https://p3.ssl.qhmsg.com/t0108f71c64efd6b655.jpg);
+}
+.page-hd-partable_charger .block-x7{
+    background-image: url(https://p4.ssl.qhmsg.com/t015a03cdc1e7486f4f.jpg);
+}
+.page-hd-partable_charger .block-x8{
+    background-image: url(https://p1.ssl.qhmsg.com/t0133dc3c0ae5e200b7.jpg);
+}
+.page-hd-partable_charger .block-x9{
+    background-image: url(https://p0.ssl.qhmsg.com/t0112b992c7f336a553.jpg);
+}
+.page-hd-partable_charger .block-x10{
+    background-image: url(https://p2.ssl.qhmsg.com/t017523149f725e7cc4.jpg);
+}
+.page-hd-partable_charger .block-x11{
+    background-image: url(https://p0.ssl.qhmsg.com/t013e2c1166b2831942.jpg);
+}
+.page-hd-partable_charger .block-x12{
+    background-image: url(https://p3.ssl.qhmsg.com/t0124ee2ab81558668e.jpg);
+}
+.page-hd-partable_charger .block-x13{
+    background-image: url(https://p1.ssl.qhmsg.com/t0112e0aaa41824c63d.jpg);
+}
+.page-hd-partable_charger .block-x14{
+    background-image: url(https://p2.ssl.qhmsg.com/t01f93faa3a6545e2e3.jpg);
+}
+.page-hd-partable_charger .block-x15{
+    position: relative;
+    background-image: url(https://p2.ssl.qhmsg.com/t013f6b0faf402e9879.jpg);
+    background-size: contain;
+}
+.page-hd-partable_charger .block-x15 .btn{
+    position: absolute;
+    top: 0.05rem;
+    left: .5rem;
+    width: 2.2rem;
+    height: .42rem;
+    background: transparent;
+}

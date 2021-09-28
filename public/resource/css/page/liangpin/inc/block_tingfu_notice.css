@@ -1,0 +1,51 @@
+/*春节物流安排*/
+.block-tingfu-notice {
+    padding: 8px 0;
+    text-align: center;
+}
+
+.block-tingfu-notice .js-trigger-show-tingfu-notice {
+    position: relative;
+    z-index: 99;
+    text-decoration: underline;
+    color: #f00;
+}
+
+.block-tingfu-notice .block-notice-wrap {
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    width: 360px;
+    height: 480px;
+    text-align: left;
+    background: url(https://p2.ssl.qhimg.com/t0102ce04f12479f8e0.png) no-repeat center 0;
+    background-size: cover;
+}
+
+.block-tingfu-notice .block-notice-wrap img {
+    width: 100%;
+}
+
+.block-tingfu-notice .block-notice-wrap .block-notice-inner {
+    width: 87%;
+    margin: 0px auto;
+    padding-top: 30px;
+}
+
+.block-tingfu-notice .block-notice-wrap .notice-cont {
+    width: 100%;
+    background: url("https://p4.ssl.qhimg.com/t01cb339bd8f91b62e9.png") repeat-y center 0;
+    background-size: contain;
+}
+
+.block-tingfu-notice .block-notice-wrap .notice-cont .tit {
+    font-size: 18px;
+    text-align: center;
+    color: #9b4d0b;
+}
+
+.block-tingfu-notice .block-notice-wrap .notice-cont .cont {
+    font-size: 14px;
+    color: #9b4d0b;
+    padding: 10px 50px;
+}

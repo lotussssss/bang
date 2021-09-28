@@ -1,0 +1,78 @@
+/* body css名 */
+.page-hd-vivo-nex-activity {
+    width: 100%;
+    max-width: 3.2rem;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+/* 顶部包含公司logo部分 */
+.page-hd-vivo-nex-activity .top-title {
+    width: 3.2rem;
+    height: 4.907rem;
+    background: url(https://p0.ssl.qhmsg.com/t0124e50edd57b66506.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* 图片部分的内容标题,单独用h标签书写,不在页面显示,用于 seo 搜索 */
+.page-hd-vivo-nex-activity .title {
+    position: absolute;
+    left: -100vw;
+    top: 0;
+}
+
+/* 评估旧机,领取1000元补贴 按钮 */
+.page-hd-vivo-nex-activity .pinggu-btn {
+    text-indent: -99999px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+    bottom: .04rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2.751rem;
+    height: .4523rem;
+    background: url(https://p2.ssl.qhmsg.com/t0115a70159dfe8a6b7.png) no-repeat;
+    background-size: contain;
+}
+
+/* 底部活动说明 */
+/* 活动说明细则 */
+.page-hd-vivo-nex-activity .bottom-active-tips .active-tips {
+    padding-top: 1.536rem;
+    font-size: .0853rem;
+    line-height: .128rem;
+    position: relative;
+    min-height: 4.0846rem;
+}
+
+/* 背景图 */
+.page-hd-vivo-nex-activity .bottom-active-tips .active-tips:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 3.7546rem;
+    background: url(https://p4.ssl.qhmsg.com/t01df189276bce37ecb.png) no-repeat;
+    background-size: cover;
+}
+.page-hd-vivo-nex-activity .bottom-active-tips .active-tips:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: .3243rem;
+    background: url(https://p0.ssl.qhmsg.com/t01071547082b9f0778.png) no-repeat;
+    background-size: 100%;
+}
+
+.page-hd-vivo-nex-activity .bottom-active-tips .active-tips>li {
+    padding: .0384rem .3584rem 0;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABGUAAAACCAYAAADxVGGvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJ9JREFUeNrs1yEKQkEQxvFvNgii0WBaLyJstHgTj2B6ZzBtfZcRo57AtkUED+BbxSDYRHzPffL/wZQJHzNhwth1746SZuqUFRXzieWq0e6Qdb689r33qutaIQQBAAAAANB3KSXFGFVV1bM3GpoW84GmE9NmPe7nY9/aOG+FnO61db/ZMhcV823OOa4WAAAAAPAXzOxR7Sjssc/dhtwEGACiPBqlAR9P/gAAAABJRU5ErkJggg==) repeat-y;
+    background-size: contain;
+}
+.page-hd-vivo-nex-activity .bottom-active-tips .active-tips>li:last-child {
+    margin-bottom: 0;
+}

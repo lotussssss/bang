@@ -1,0 +1,313 @@
+.hd-neicun-new{
+    background: #F7F7F7;/* url(https://p.ssl.qhimg.com/t01ce25432d6bc8ecf5.jpg) repeat 0 0; */
+}
+.hd-neicun-new .cf60{
+    color: #f60;
+}
+.hd-neicun-new .cf00{
+    color: #f00;
+}
+.hd-neicun-new .b{
+    font-weight: bold;
+}
+.hd-neicun-new .f-left{
+    float: left;
+}
+.hd-neicun-new .doc-hd{
+    /*background: url(https://p.ssl.qhimg.com/t0159ff497737ee0b01.jpg) repeat-x 0 0;*/
+    height: auto;
+}
+
+.hd-neicun-new .header-pic{
+    height: 120px;
+    background: url(https://p.ssl.qhimg.com/t01ea1975604c6d595c.jpg) no-repeat center 0;
+}
+.hd-neicun-new .header-pic-inner{
+    margin: 0 auto;
+    width: 960px;
+    height: 120px;
+    background: url(https://p.ssl.qhimg.com/t01ea1975604c6d595c.jpg) no-repeat center 0;
+}
+
+.hd-neicun-new .side-left{
+    float: left;
+    width: 242px;
+}
+
+.hd-neicun-new .side-right{
+    float: right;
+    width: 708px;
+}
+
+.hd-neicun-new .border-box{
+    border:1px solid #D7D7D5;    
+}
+
+.hd-neicun-new .mode-question{
+    background: #fff;
+    width: 240px;
+}
+
+.hd-neicun-new .mode-question .mode-tit{
+    height: 48px;
+    background: url(https://p.ssl.qhimg.com/t0186f0efc3baa2ff78.jpg) no-repeat center 0;
+    border-bottom: 1px solid #72AB72;
+}
+
+.hd-neicun-new .mode-question .mode-content{}
+
+.hd-neicun-new .cate-wrap ul.cate-top{
+    border: 0;
+    height: 280px;
+    position: static;
+}
+
+.hd-neicun-new .cate-wrap ul.cate-top li{
+    width: auto;
+}
+
+.hd-neicun-new .cate-wrap .sub-key a{
+    margin-right: 15px;
+}
+
+.hd-neicun-new .cate-wrap .cate-name{
+    _padding-top: 12px;
+    _height:24px;
+}
+
+.hd-neicun-new .left-search{
+    padding: 12px 10px;
+}
+.hd-neicun-new .lsearch-box{
+    position: relative;
+}
+.hd-neicun-new .ele4phtips{
+    position: absolute;
+    color: #999;
+}
+
+.hd-neicun-new .lsearch-box .ele4phtips{
+    line-height: 34px;
+    padding-left: 5px;
+}
+
+.hd-neicun-new .lsearch-box .ipt-txt{
+    width: 138px;
+    height: 32px;
+    border: 1px solid #DCDCDC;
+    padding: 0 5px;
+}
+
+.hd-neicun-new .lsearch-box .ipt-sub{
+    width: 70px;
+    border: 1px solid #DCDCDC;
+    height: 34px;
+    margin-left: -1px;
+    cursor: pointer;
+}
+
+.hd-neicun-new .mode-mapshop{
+    background: #fff;    
+}
+.hd-neicun-new .mode-mapshop .mode-content{
+    padding: 10px;
+}
+.hd-neicun-new .mode-mapshop .mode-tit{
+    background: url(https://p.ssl.qhimg.com/t01be72883bc1b9f98d.jpg) repeat-x 0 0;
+    height: 23px;    
+    line-height: 23px;    
+    border-bottom: 1px solid #DFDEDE;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    padding: 13px 16px;
+}
+
+.hd-neicun-new .mode-mapshop .map-box{    
+    border: 1px solid #C3BFBF;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.hd-neicun-new .mode-mapshop .tit2{
+    height: 30px;
+    background: url(https://p.ssl.qhimg.com/t013009f76581eb4fbf.jpg) no-repeat 0 0;
+}
+
+.hd-neicun-new .menu-fixed{
+    position: fixed;
+    top: 0;
+
+    _position: absolute;
+    _top : expression(document.scrollTop + 'px');
+}
+
+.hd-neicun-new .module-index .list-2 .desc, 
+.hd-neicun-new .module-index .list-2 .addr{
+    width: 320px;
+}
+
+.hd-neicun-new .module-index .shop-selected{
+    background: #FCFCD3;
+}
+
+.hd-neicun-new .map-big-icon{
+    width: 24px;
+    height: 30px;
+    text-align: center;
+    padding-top: 2px;    
+    background: url(https://p.ssl.qhimg.com/t018c8121c6b85f2196.png) no-repeat center;
+    color: #E34F12;
+    font-family: "arial";
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.hd-neicun-new .mode-map .pop-bd{
+    height: 110px;
+}
+.hd-neicun-new .mode-map .pop-bd .into-shop{
+    text-align: right;
+}
+
+/*城市选择*/
+.hd-neicun-new .select-type{
+    height: 24px;    
+    display: inline-block;
+    vertical-align: middle;
+    _display:inline;
+    _zoom:1;    
+    font-size: 14px;    
+}
+
+.hd-neicun-new  .area-sel {
+    background: url(https://p.ssl.qhimg.com/t010d71e7b045cd4e73.png) repeat-x 0 0;
+    border: 1px solid #D8D8D8;
+    color: #666;
+    cursor: pointer;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 8px;
+    padding-right: 4px;
+    position: relative;
+    z-index: 101;
+}
+
+.hd-neicun-new .mr-10 {
+    margin-right: 4px;
+}
+
+.hd-neicun-new .icon-arrow {
+    background: url(https://p.ssl.qhimg.com/t010d71e7b045cd4e73.png) no-repeat scroll  5px -30px;
+    height: 22px;
+    width: 20px;
+}
+
+.hd-neicun-new .select-pannel{display:none;position: absolute;width: 340px;background: #FBFBFB;border: solid 1px #CFCFCF;left: -1px;top: 28px;padding: 8px 0;z-index: 10001;}
+.hd-neicun-new .select-pannel h3{ font-weight: normal;height: 20px; line-height: 20px; padding: 0 10px; position: relative;}
+.hd-neicun-new .select-pannel h3 .close{background: url(https://p.ssl.qhimg.com/t011be77565f0a2f8e8.png) no-repeat 0 -7px;cursor: pointer; display: block; height: 20px; line-height: 100px; overflow: hidden; position: absolute; right: 10px; top: 0; width: 55px;}
+.hd-neicun-new .select-pannel .select-list{background: #FFFFFF;border: solid 1px #E8E8E8;margin: 12px 12px 3px; padding: 12px 12px 0;}
+.hd-neicun-new .select-pannel .select-list a{color: #000000;display: inline-block; height: 18px; line-height: 18px; margin: 0 18px 5px 0;}
+
+
+.hd-neicun-new .mode-hot-question{
+    margin-bottom: 16px;
+}
+.hd-neicun-new .hot-question-item{
+    display: block;
+    width: 242px;
+    height: 86px;
+    /*background: url(https://p.ssl.qhimg.com/t01a44038febfcc6250.png) no-repeat 0 0;*/
+    background: url(https://p.ssl.qhimg.com/t015801546e5027eb05.png) no-repeat -290px 0;
+    color: #2869BC;
+    font-size: 20px;
+    line-height: 84px;
+    text-align: center;
+}
+.hd-neicun-new .hot-question-item:hover{
+    background-position: 0 0;
+    color: #fff;
+    text-decoration: none;
+}
+/*
+.hd-neicun-new .hot-question-1{ background-position: -290px 0; }
+.hd-neicun-new .hot-question-2{ background-position: -290px -90px; }
+.hd-neicun-new .hot-question-3{ background-position: -290px -180px; }
+.hd-neicun-new .hot-question-4{ background-position: -290px -270px; }
+.hd-neicun-new .hot-question-5{ background-position: -290px -360px; }
+.hd-neicun-new .hot-question-6{ background-position: -290px -450px; }
+
+.hd-neicun-new .hot-question-1-hover,
+.hd-neicun-new .hot-question-1:hover{ background-position: 0 0; }
+
+.hd-neicun-new .hot-question-2-hover,
+.hd-neicun-new .hot-question-2:hover{ background-position: 0 -90px; }
+
+.hd-neicun-new .hot-question-3-hover,
+.hd-neicun-new .hot-question-3:hover{ background-position: 0 -180px; }
+
+.hd-neicun-new .hot-question-4-hover,
+.hd-neicun-new .hot-question-4:hover{ background-position: 0 -270px; }
+
+.hd-neicun-new .hot-question-5-hover,
+.hd-neicun-new .hot-question-5:hover{ background-position: 0 -360px; }
+
+.hd-neicun-new .hot-question-6-hover,
+.hd-neicun-new .hot-question-6:hover{ background-position: 0 -450px; }
+*/
+
+.hd-neicun-new .win10-xgxj,
+.hd-neicun-new .win10-xgxj:hover{
+    display: block;
+    margin-bottom: 10px;
+    width: 240px;
+    height: 160px;
+    background: url(https://p.ssl.qhimg.com/t0189936914ee13c553.jpg) no-repeat 0 0;
+    text-decoration: none;
+}
+
+.hd-neicun-new .goto-windows-devices,
+.hd-neicun-new .goto-windows-devices:hover{
+    display: block;
+    text-decoration: none;
+}
+
+.hd-neicun-new .top-banner-wrap{
+    background: #F7F7F7;
+}
+.hd-neicun-new .top-banner{
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+    height: 79px;
+}
+.hd-neicun-new .top-banner .logo{
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+    width: 250px;
+    height: 79px;
+    background: url(https://p.ssl.qhimg.com/t01a9ac24b440e4a9d4.jpg) no-repeat 0 0;
+}
+.hd-neicun-new .top-banner .top-nav{
+    float: left;
+    margin-left: 80px;
+    height: 79px;
+}
+.hd-neicun-new .top-banner .top-nav li{
+    float: left;
+    padding: 0 20px;
+    width: 80px;
+}
+.hd-neicun-new .top-banner .top-nav a{
+    display: block;
+    line-height: 79px;
+    font-size: 16px;
+    color: #118855;
+    text-decoration: none;
+    text-align: center;
+}
+.hd-neicun-new .top-banner .top-nav a:hover{
+    color: #00883F;
+}

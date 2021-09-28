@@ -1,0 +1,197 @@
+.page-in-app-xxg .swipe-page-service-privacy-protocol-sign .swipe-main-content {
+    top: 0;
+}
+
+.swipe-section.swipe-page-service-privacy-protocol-sign {
+    position: fixed;
+}
+
+.swipe-section.swipe-page-service-privacy-protocol-sign .icon-close {
+    display: none;
+}
+
+.swipe-page-service-privacy-protocol-sign .swipe-main-content {
+    position: absolute;
+    top: .44rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 2.85rem;
+    background-color: #f5f5f5;
+}
+
+.swipe-page-service-privacy-protocol-sign .block-privacy-protocol {
+    margin: .13rem .13rem 0;
+    position: relative;
+    height: 100%;
+    background-color: #fff;
+    border-radius: .07rem;
+    color: #000;
+}
+
+.swipe-page-service-privacy-protocol-sign .block-privacy-protocol .tit {
+    padding: .17rem 0 0 0.13rem;
+    font-size: .14rem;
+    font-weight: 600;
+}
+
+.swipe-page-service-privacy-protocol-sign .block-privacy-protocol .cont {
+    position: absolute;
+    top: .42rem;
+    left: 0;
+    right: 0;
+    bottom: .25rem;
+    padding: 0 .12rem;
+    overflow: auto;
+    line-height: 0.23rem;
+    white-space: pre-line;
+}
+
+.swipe-page-service-privacy-protocol-sign .block-privacy-protocol .cont::-webkit-scrollbar {
+    width: .03rem;
+    background: #eee;
+}
+
+.swipe-page-service-privacy-protocol-sign .block-privacy-protocol .cont::-webkit-scrollbar-thumb {
+    background: #17a654;
+}
+
+.swipe-page-service-privacy-protocol-sign .block-privacy-protocol-end {
+    margin-bottom: .1rem;
+}
+
+.swipe-page-service-privacy-protocol-sign .block-customer-signature {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: .54rem;
+    margin: .1rem .13rem;
+    height: 1.98rem;
+    background-color: #fff;
+    border-radius: .07rem;
+}
+
+.swipe-page-service-privacy-protocol-sign .block-customer-signature .tit {
+    padding: .17rem 0 .1rem;
+    font-size: .14rem;
+    text-align: center;
+    line-height: 1;
+}
+
+.swipe-page-service-privacy-protocol-sign .block-customer-signature-area {
+    margin: 0 auto;
+    width: 2.56rem;
+    height: 1.44rem;
+    line-height: 1.44rem;
+    background-color: #eee;
+    color: #fff;
+    text-align: center;
+}
+
+.swipe-page-service-privacy-protocol-sign .block-customer-signature-area .trigger-active-customer-signature,
+.swipe-page-service-privacy-protocol-sign .block-customer-signature-area .trigger-active-customer-signature:hover {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: .16rem;
+    text-align: center;
+    text-decoration: none;
+    background: transparent no-repeat center;
+    background-size: contain;
+}
+
+.swipe-page-service-privacy-protocol-sign .swipe-block-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: .1rem .1rem .1rem .1rem;
+}
+
+.swipe-page-service-privacy-protocol-sign .btn-submit {
+    display: block;
+    width: 100%;
+    height: .44rem;
+    line-height: .44rem;
+    text-align: center;
+    font-size: .14rem;
+    border-radius: 0.05rem;
+    color: #fff;
+    background-color: #17a654;
+    box-shadow: 0 0.03rem 0.05rem 0 rgba(0, 135, 58, 0.36);
+}
+
+.swipe-page-service-privacy-protocol-sign .btn-submit:active {
+    /*background-color: rgba(23, 166, 84, 0.5);*/
+}
+
+.swipe-page-service-privacy-protocol-sign .btn-submit.btn-disabled {
+    background-color: rgba(23, 166, 84, 0.5);
+}
+
+.swipe-page-service-privacy-protocol-sign .customer-signature-pad-wrap {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.swipe-page-service-privacy-protocol-sign .customer-signature-pad {
+}
+
+.swipe-page-service-privacy-protocol-sign .customer-signature-pad-btn {
+    position: absolute;
+    top: 50%;
+    margin-top: -.22rem;
+    width: 100%;
+    height: .44rem;
+    line-height: .44rem;
+    text-align: center;
+}
+
+.swipe-page-service-privacy-protocol-sign .customer-signature-pad-btn .btn {
+    display: inline-block;
+    height: .35rem;
+    line-height: .35rem;
+    width: 1.5rem;
+    font-size: .14rem;
+    color: #fff;
+    border-radius: .07rem;
+}
+
+.swipe-page-service-privacy-protocol-sign .customer-signature-pad-btn .btn.btn-signature-clear {
+    background-color: #fe5800;
+}
+
+.swipe-page-service-privacy-protocol-sign .customer-signature-pad-btn .btn.btn-signature-clear:active {
+    background-color: rgba(254, 88, 0, 0.7);
+}
+
+.swipe-page-service-privacy-protocol-sign .customer-signature-pad-btn .btn.btn-signature-confirm {
+    background-color: #12a553;
+}
+
+.swipe-page-service-privacy-protocol-sign .customer-signature-pad-btn .btn.btn-signature-confirm:active {
+    background-color: rgba(18, 165, 83, 0.7);
+}
+
+.swipe-page-service-privacy-protocol-sign .customer-signature-pad-close,
+.swipe-page-service-privacy-protocol-sign .customer-signature-pad-close:hover {
+    position: absolute;
+    top: .1rem;
+    left: .1rem;
+    z-index: 99999;
+    width: .3rem;
+    height: .3rem;
+    line-height: .3rem;
+    text-align: center;
+    font-size: .16rem;
+    color: #333;
+    text-decoration: none;
+}

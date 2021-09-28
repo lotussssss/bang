@@ -1,0 +1,149 @@
+.page-hd-alipay-zuji {
+    width: 100%;
+    max-width: 6.4rem;
+    background: #ffe99a url(https://p2.ssl.qhmsg.com/t01828df2220f16da50.png) repeat-y;
+    background-size: cover;
+}
+
+.page-hd-alipay-zuji .mainbody {
+    min-height: 100vh;
+    background: url(https://p1.ssl.qhmsg.com/t010c1969c42118a1f7.png) no-repeat;
+    background-size: contain;
+    padding-bottom: .5rem;
+    position: relative;
+}
+
+/* 机型列表 */
+.page-hd-alipay-zuji .mainbody .phone-list {
+    padding: 1.7rem .1rem 0;
+}
+
+/* 机型项目 */
+.page-hd-alipay-zuji .mainbody .phone-list .phone-item {
+    background-color: #fff;
+    padding: .125rem;
+    margin-bottom: .1rem;
+    border-radius: .05rem;
+    overflow: hidden;
+}
+
+.page-hd-alipay-zuji .mainbody .phone-item .phone-link {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+/* 偶数行 */
+.page-hd-alipay-zuji .mainbody .phone-item:nth-child(2n) .phone-link {
+    flex-direction: row-reverse;
+}
+
+/* 机型图片 */
+.page-hd-alipay-zuji .mainbody .phone-item .phone-link .phone-pic {
+    width: .9rem;
+    height: .9rem;
+    overflow: hidden;
+}
+
+.page-hd-alipay-zuji .mainbody .phone-item .phone-link .phone-pic img {
+    height: 100%;
+}
+
+/* 机型信息说明 */
+.page-hd-alipay-zuji .mainbody .phone-item .phone-link .phone-info {
+    width: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 奇数行 */
+.page-hd-alipay-zuji .mainbody .phone-item:nth-child(2n+1) .phone-link .phone-info {
+    align-items: flex-end;
+}
+
+/* 偶数行 */
+.page-hd-alipay-zuji .mainbody .phone-item:nth-child(2n) .phone-link .phone-info {
+    align-items: flex-start;
+}
+
+/* 标题 */
+.page-hd-alipay-zuji .mainbody .phone-item .phone-info .title {
+    font-size: .15rem;
+    font-weight: bold;
+    color: #f98205;
+    height: .15rem;
+    line-height: .15rem;
+    margin-bottom: .05rem;
+}
+
+.page-hd-alipay-zuji .mainbody .phone-item .phone-info .tips {
+    font-size: .09rem;
+    line-height: .09rem;
+    height: .09rem;
+    color: #333;
+    font-weight: bold;
+}
+
+/* 租机按钮 */
+.page-hd-alipay-zuji .mainbody .phone-item .phone-info .zu-btn {
+    margin-top: .15rem;
+    width: 1.3rem;
+    height: .33rem;
+    line-height: .33rem;
+    color: #fff;
+    background-color: #f98205;
+    padding: 0 .1rem;
+    font-size: .14rem;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-shadow: .02rem .02rem .02rem #f64900;
+}
+
+.page-hd-alipay-zuji .mainbody .phone-item .phone-info .zu-btn .jiantou {
+    width: .18rem;
+    height: .18rem;
+    line-height: .18rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #f89935;
+    position: relative;
+    display: block;
+}
+
+.page-hd-alipay-zuji .mainbody .phone-item .phone-info .zu-btn .jiantou:before {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: none;
+}
+
+/* 页面底部的查看更多的按钮 */
+.page-hd-alipay-zuji .mainbody .alipay-bottom-btn {
+    width: 2.05rem;
+    height: .48rem;
+    line-height: .48rem;
+    font-size: .15rem;
+    color: #fff;
+    background-color: #f98205;
+    border-radius: 100px;
+    text-align: center;
+    margin: .2rem auto 0;
+    text-shadow: .02rem .02rem .02rem #f64900;
+}
+
+/* 页面底部小标标 */
+.page-hd-alipay-zuji .bottom-small-biao {
+    position: absolute;
+    bottom: .1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: .37rem;
+    height: .21rem;
+    background: url(https://p1.ssl.qhmsg.com/t01b4bb51cd01d2ca6d.png) no-repeat;
+    background-size: contain;
+}

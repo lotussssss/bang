@@ -1,0 +1,62 @@
+/* 行、列 */
+.row-1-col,
+.row-2-col,
+.row-3-col,
+.row-4-col,
+.row-5-col {
+    display: block;
+    width: 100%;
+    font-size: 0;
+}
+
+.row-1-col .col,
+.row-2-col .col,
+.row-3-col .col,
+.row-4-col .col,
+.row-5-col .col {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: .12rem;
+}
+
+.row-1-col .col {
+    width: 100%;
+}
+
+.row-2-col .col {
+    margin-right: 4%;
+    width: 48%;
+}
+
+.row-2-col .col:nth-child(2n) {
+    margin-right: 0;
+}
+
+.row-3-col .col {
+    margin-right: 3.5%;
+    width: 31%;
+}
+
+.row-3-col .col:nth-child(3n) {
+    margin-right: 0;
+}
+
+.row-4-col .col {
+    margin-right: 2.6666666666666666%;
+    width: 23%;
+}
+
+.row-4-col .col:nth-child(4n) {
+    margin-right: 0;
+}
+
+.row-5-col .col {
+    margin-right: 2.5%;
+    width: 18%;
+}
+
+.row-5-col .col:nth-child(5n) {
+    margin-right: 0;
+}
+
+/* END 行、列 */

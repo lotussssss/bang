@@ -1,0 +1,212 @@
+
+/**import from `/resource/css/mobile/union/_common.css` **/
+html,body{height:100%;/*background-color: #f5f5f5;*/}
+#Main.main{background-color:#fff;padding-bottom:.44rem;}
+/*列表加载ing*/.list-loading{padding:.10rem 0;width:100%;text-align:center;color:#666;font-size:0;line-height:.16rem;}
+.list-loading .list-loading-img{margin-right:.05rem;width:.12rem;height:.12rem;}
+.list-loading .list-loading-txt{font-size:.12rem;vertical-align:top;}
+/*END 商品加载ing*/
+/**import from `/resource/css/mobile/union/login.css` **/
+/*优品联盟登录页*/.page-union-login,.page-union-login .block-slogan,.page-union-login .block-form{background:#fff;}
+.page-union-login .block-slogan{height:2.1866666666666665rem;background:url('https://p2.ssl.qhmsg.com/t01b049e267828d2bc5.jpg') no-repeat 0 center/100% 100%;text-align:center;padding-top:.4rem;color:#fff;font-size:.16rem;}
+.page-union-login .t-center{text-align:center;}
+.page-union-login .input-radius:before{display:none;}
+.page-union-login .login-form .row{margin:0 .1rem;font-size:.14rem;padding:.05rem;}
+.page-union-login .login-form .row input{border:none;}
+.page-union-login .login-form .vcode-img,.page-union-login .login-form .btn-get-sms-code{width:100%;height:.36rem;line-height:.36rem;}
+.page-union-login .login-form .btn-get-sms-code{border:1px solid #1bdfdf;color:#1bdfdf;border-radius:.05rem!important;}
+.page-union-login .login-form .btn-get-sms-code.waiting{border:1px solid #ddd;background-color:#ddd;color:#f5f5f5;}
+.page-union-login .login-form .btn-order-confirm-submit{width:80%;height:.44rem;margin-top:.4rem;background:#1bdfdf;color:#fff;font-size:.18rem;border-radius:1rem;}
+
+/**import from `/resource/css/mobile/union/register.css` **/
+/*优品联盟注册页*/.page-union-register,.page-union-register .block-slogan,.page-union-register .block-form{background:#fff;}
+.page-union-register .block-slogan{height:1.2622222222222221rem;padding-top:.8rem;color:#fff;font-size:.16rem;background:url('https://p2.ssl.qhmsg.com/t017b24d1c12313c903.jpg') no-repeat 0 center/100% 100%;text-align:center;}
+.page-union-register .t-center{text-align:center;}
+.page-union-register .input-radius:before{display:none;}
+.page-union-register .login-form .row{margin:0 .1rem;font-size:.14rem;padding:.05rem;}
+.page-union-register .login-form .row input{border:none;}
+.page-union-register .login-form .vcode-img,.page-union-register .login-form .btn-get-sms-code{width:100%;height:.36rem;line-height:.36rem;}
+.page-union-register .login-form .btn-get-sms-code{border:1px solid #1bdfdf;color:#1bdfdf;border-radius:.05rem!important;}
+.page-union-register .login-form .btn-get-sms-code.waiting{border:1px solid #ddd;background-color:#ddd;color:#f5f5f5;}
+.page-union-register .login-form .btn-order-confirm-submit{width:80%;height:.44rem;margin-top:.4rem;background:#1bdfdf;color:#fff;font-size:.18rem;border-radius:1rem;}
+/*------------*/.page-union-register input{border-style:none;}
+.page-union-register .blo-user-info{background-color:#fff;margin-top:.1rem;padding:0 .1rem;display:flex;flex-direction:column;align-items:stretch;justify-content:center;}
+.page-union-register .blo-user-info .user-info-item{display:flex;align-items:center;height:.44rem;border-bottom:.01rem solid #ccc;font-size:.13rem;}
+.page-union-register .blo-user-info .user-info-item input{display:inline-block;padding:0 .1rem;border-radius:.05rem;height:.3rem;font-size:.13rem;}
+.page-union-register .blo-user-info .user-info-item input.flex-auto{flex:1;}
+.page-union-register .blo-user-info .user-info-item select{padding:.07rem;flex:1;border:none;margin-right:.3rem;background:#fff;color:#666;font-size:.13rem;}
+.page-union-register .blo-user-info .user-info-item .item-name{display:flex;/*margin-right: .15rem;*/width:1.1rem;}
+.page-union-register .blo-user-info .user-info-item-address{border-bottom:.01rem solid #ccc;}
+.page-union-register .blo-user-info .user-info-item-address .item-name{display:block;padding:.1rem 0;}
+.page-union-register .blo-user-info .user-info-item-address .input-address{width:100%;padding:.1rem 0;border-radius:.05rem;display:inline-block;}
+.page-union-register .blo-user-info .vcode-item,.page-union-register .blo-user-info .pcode-item{justify-content:space-around;}
+.page-union-register .blo-user-info .user-address{cursor:pointer;height:.3rem;line-height:.3rem;color:#666;border-radius:.05rem;padding:0 .1rem;flex:1;}
+.page-union-register .blo-user-info .vcode-item .vcode-wrap{width:.85rem;height:.35rem;}
+.page-union-register .blo-user-info .vcode-item .vcode-wrap img{height:100%;width:100%;}
+.page-union-register .blo-user-info .pcode-item .btn-get-pcode{align-self:center;padding:.07rem .1rem;color:#fff;border-radius:.05rem;background-color:#1bdfdf;text-decoration:none;}
+.page-union-register .blo-user-info .pcode-item .btn-get-pcode.disabled{background-color:#cfcfcf;}
+.page-union-register .operate-btn{display:block;width:2.5rem;line-height:.38rem;height:.38rem;text-align:center;margin:.15rem auto 0;font-size:.16rem;border-radius:1rem;text-decoration:none;}
+.page-union-register .operate-btn.light-blue{background-color:#1bdfdf;color:#fff;}
+.page-union-register .operate-btn.light-gray{background-color:#cfcfcf;color:#fff;margin-bottom:.3rem;}
+
+/**import from `/resource/css/mobile/union/product_list.css` **/
+/*优品联盟 商品列表*/.page-union-product-list{}
+.page-union-product-list .product-wrap-special,.page-union-product-list .product-wrap{padding:0 .15rem;}
+.page-union-product-list .product-item{display:flex;justify-content:flex-start;align-items:center;font-size:.12rem;padding:.1rem;/*border-bottom: .01rem solid #cfcfcf;*/}
+.page-union-product-list .product-item .pro-img{height:.9rem;width:.9rem;text-align:center;background:transparent no-repeat center;background-size:contain;}
+/*.page-union-product-list .product-item .pro-img img{*//*height: 100%;*//*}*/.page-union-product-list .product-item .pro-cnt{flex:1;line-height:1.5;color:#343338;text-align:center;}
+.page-union-product-list .product-item .pro-name{font-size:.18rem;}
+.page-union-product-list .product-item .link-item{margin-top:.1rem;display:inline-block;text-decoration:none;color:#1bdfdf;width:.6rem;padding:.03rem 0;border:.01rem solid #1bdfdf;border-radius:.03rem;}
+.page-union-product-list .product-item .link-item:last-child{margin-left:.1rem;}
+.page-union-product-list .product-loading{text-align:center;padding:.1rem;font-size:.14rem;margin-bottom:.3rem;}
+.page-union-product-list .product-loading-img{height:.2rem;margin-right:.05rem;}
+.page-union-product-list .dialog-order-confirm-ship{border:0;background-color:#fff;}
+.page-union-product-list .dialog-order-confirm-ship .dialog-inner{padding:.24rem .1rem;}
+.page-union-product-list .dialog-order-confirm-ship .row{margin-bottom:.06rem;}
+.page-union-product-list .dialog-order-confirm-ship .col-12-4{line-height:.36rem;text-align:right;}
+.page-union-product-list .dialog-order-confirm-ship .col-12-8{padding-left:.06rem;}
+.page-union-product-list .dialog-order-confirm-ship .btn-submit{margin:0 auto;display:block;width:1.4rem;height:.36rem;border:0;border-radius:0;background-color:#0b7;color:#fff;}
+
+/**import from `/resource/css/mobile/union/user_center.css` **/
+.page-user-center .block-user-base-info{padding-bottom:.44rem;}
+.page-user-center .block-user-base-info .row{line-height:.44rem;color:#6a6a6a;}
+.page-user-center .block-user-base-info .row .col-left-fixed{width:.44rem;text-align:right;color:#c9c7c7;}
+.page-user-center .block-user-base-info .row .col-right{margin-left:.44rem;}
+.page-user-center .block-user-base-info .row-bank-info,.page-user-center .block-user-base-info .row-bank-info:hover{text-decoration:none;}
+.page-user-center .block-user-base-info .row-bank-info .col-right{}
+.page-user-center .block-user-base-info .row-bank-info .row-bank-user-number{margin-top:-.24rem;padding-left:.6rem;}
+/*添加收款信息*/.page-user-center .section-add-bank-info{}
+.page-user-center .section-add-bank-info .icon-close{display:none;}
+.page-user-center .section-add-bank-info .swipe-section-inner{position:relative;height:100%;}
+.page-user-center .section-add-bank-info .block-tab{}
+.page-user-center .section-add-bank-info .block-tab .tab-item,.page-user-center .section-add-bank-info .block-tab .tab-item:hover{line-height:.44rem;font-size:.12rem;color:#999;text-align:center;text-decoration:none;}
+.page-user-center .block-tab .tab-item.selected span{margin:0 auto;display:block;width:1rem;color:#0b7;border-bottom:2px solid #0b7;}
+.page-user-center .section-add-bank-info .block-form-data{padding:.1rem;line-height:.36rem;}
+.page-user-center .section-add-bank-info .block-form-data .row{margin-bottom:.04rem;}
+.page-user-center .section-add-bank-info .block-form-data .col-12-4{text-align:right;}
+.page-user-center .section-add-bank-info .block-form-data .col-12-4 b{font-size:.1rem;color:#f50;}
+.page-user-center .section-add-bank-info .block-form-data .col-12-8{padding-left:.06rem;}
+.page-user-center .section-add-bank-info .block-form-data .btn-trigger-select-bank,.page-user-center .section-add-bank-info .block-form-data .btn-trigger-select-bank:hover,.page-user-center .section-add-bank-info .block-form-data .btn-trigger-select-province-city,.page-user-center .section-add-bank-info .block-form-data .btn-trigger-select-province-city:hover{padding-left:.08rem;color:#666;}
+.page-user-center .section-add-bank-info .block-btn{position:absolute;left:0;right:0;bottom:0;height:.44rem;}
+.page-user-center .section-add-bank-info .block-btn .btn-submit{display:block;width:100%;height:.44rem;background-color:#0b7;color:#fff;border:0;border-radius:0;}
+
+/**import from `/resource/css/mobile/union/order_list.css` **/
+.page-order-list{}
+.page-order-list .block-tab{}
+.page-order-list .block-tab .tab-item,.page-order-list .block-tab .tab-item:hover{line-height:.44rem;font-size:.14rem;background-color:#e2e0e0;color:#3b3b3b;text-align:center;text-decoration:none;}
+.page-order-list .block-tab .tab-item.selected{background-color:#cacaca;}
+.page-order-list .block-search{padding:.06rem .1rem;}
+.page-order-list .block-search .col-12-8,.page-order-list .block-search .col-12-4{}
+.page-order-list .block-search form{position:relative;font-size:0;}
+.page-order-list .block-search input{padding:0 .06rem;display:inline-block;width:80%;height:.32rem;font-size:.12rem;vertical-align:top;border:0;border-radius:0;/*border-radius: .04rem 0 0 .04rem;*/}
+.page-order-list .block-search button{display:inline-block;width:20%;height:.32rem;font-size:.24rem;vertical-align:top;border:0;/*border-radius: 0 .04rem .04rem 0;*/border-radius:0;background-color:#e2e0e0;color:#fff;}
+.page-order-list .block-search .btn-trigger-offline-replacement-order{float:right;padding:0 .2rem;line-height:.32rem;color:#0b7;font-size:.12rem;}
+.page-order-list .block-search .icon-circle-solid-error,.page-order-list .block-search .icon-circle-solid-error:hover{display:none;position:absolute;top:0;right:.6rem;width:.32rem;line-height:.32rem;font-size:.14rem;text-align:center;color:#ccc;text-decoration:none;}
+.page-order-list .block-order-list{padding:.1rem .1rem;color:#343338;}
+.page-order-list .block-order-list .order-item{margin-bottom:.1rem;}
+.page-order-list .block-order-list .order-item>.row{padding:.02rem 0;}
+.page-order-list .block-order-list .order-item>.row:first-child{color:#777777;}
+.page-order-list .block-order-list .order-p-img{height:1rem;background:transparent no-repeat center;background-size:contain;}
+.page-order-list .block-order-list .order-create-at{text-align:right;}
+.page-order-list .block-order-list .order-p-name{font-size:.24rem;}
+.page-order-list .block-order-list .order-p-sku{text-align:center;}
+.page-order-list .block-order-list .order-p-price{color:#0b7;}
+.page-order-list .block-order-list .order-status{display:flex;height:1rem;align-items:center;}
+.page-order-list .block-order-list .order-status span{display:block;width:100%;text-align:right;color:#df1b1b;}
+.page-order-list .block-order-list .order-rent-info{line-height:.28rem;}
+.page-order-list .block-order-list .btn-trigger-confirm{float:right;padding:0 .2rem;line-height:.28rem;color:#0b7;font-size:.12rem;}
+.page-order-list .dialog-order-confirm-ship{border:0;background-color:#fff;}
+.page-order-list .dialog-order-confirm-ship .dialog-inner{padding:.24rem .1rem;}
+.page-order-list .dialog-order-confirm-ship .row{margin-bottom:.06rem;}
+.page-order-list .dialog-order-confirm-ship .col-12-4{line-height:.36rem;text-align:right;}
+.page-order-list .dialog-order-confirm-ship .col-12-8{padding-left:.06rem;}
+.page-order-list .dialog-order-confirm-ship .btn-submit{margin:0 auto;display:block;width:1.4rem;height:.36rem;border:0;border-radius:0;background-color:#0b7;color:#fff;}
+
+/**import from `/resource/css/mobile/union/fenqi_page.css` **/
+.page-union-fenqiPage{font-size:.14rem;padding:0 .2rem;}
+.page-union-fenqiPage .top-info{display:flex;justify-content:flex-start;align-items:center;padding:.2rem .2rem .1rem;border-bottom:.01rem solid #cfcfcf;}
+.page-union-fenqiPage .top-info .pro-img{height:.9rem;}
+.page-union-fenqiPage .top-info .pro-group{flex:1;text-align:center;}
+.page-union-fenqiPage .top-info .pro-name{font-size:.18rem;}
+.page-union-fenqiPage .price-set-wrap{display:flex;justify-content:center;align-items:center;height:.62rem;}
+.page-union-fenqiPage .price-input{height:.25rem;width:1.3rem;border:.01rem solid #cfcfcf;border-radius:.03rem;padding:0 .1rem;font-size:.14rem;color:#1bdfdf;text-decoration:none;}
+.page-union-fenqiPage .price-btn{display:inline-block;margin-left:.1rem;border-radius:.05rem;background-color:#1bdfdf;color:#fff;padding:.02rem .1rem;}
+.page-union-fenqiPage .fenqi-detail{margin-top:.1rem;}
+.page-union-fenqiPage .fenqi-detail .fenqi-row{width:90%;margin:0 auto;display:flex;border:.01rem solid #999;}
+.page-union-fenqiPage .fenqi-detail .fenqi-row:last-child{border-top:none;}
+.page-union-fenqiPage .fenqi-detail .fenqi-col{display:inline-flex;flex:1;justify-content:center;align-items:center;height:.6rem;border-right:.01rem solid #999;}
+.page-union-fenqiPage .fenqi-detail .fenqi-col:last-child{border-right:none;}
+.page-union-fenqiPage .line-info{text-align:center;margin-top:.2rem;}
+.page-union-fenqiPage .ewm-btn{display:block;text-decoration:none;text-align:center;width:2.5rem;height:.38rem;line-height:.38rem;font-size:.16rem;margin:.3rem auto .15rem;color:#fff;background-color:#1bdfdf;border-radius:1rem;}
+.page-union-fenqiPage .qrcode img{width:1.28rem;margin:.5rem auto 0;}
+
+/**import from `/resource/css/mobile/union/fenqi_qrcode.css` **/
+.page-union-fenqi-qrcode{font-size:.14rem;padding:.2rem;text-align:center;line-height:1.7;}
+.page-union-fenqi-qrcode .thumb-img{height:1.6rem;}
+.page-union-fenqi-qrcode .pro-name{font-size:.2rem;padding-top:.2rem;}
+.page-union-fenqi-qrcode .pro-desc{font-size:.14rem;}
+.page-union-fenqi-qrcode .pro-amount{font-size:.16rem;}
+.page-union-fenqi-qrcode .qrcode img{margin:0 auto}
+
+/**import from `/resource/css/mobile/union/rent_page.css` **/
+.page-union-rentPage{font-size:.14rem;padding:0 .2rem;}
+.page-union-rentPage .top-info{display:flex;justify-content:flex-start;align-items:center;padding:.2rem .2rem .1rem;border-bottom:.01rem solid #cfcfcf;}
+.page-union-rentPage .top-info .pro-img{height:.9rem;}
+.page-union-rentPage .top-info .pro-group{flex:1;text-align:center;}
+.page-union-rentPage .top-info .pro-name{font-size:.18rem;}
+.page-union-rentPage .price-set-wrap{display:flex;justify-content:center;align-items:center;height:.62rem;}
+.page-union-rentPage .price-input{height:.25rem;width:1.3rem;border:.01rem solid #cfcfcf;border-radius:.03rem;padding:0 .1rem;font-size:.14rem;color:#1bdfdf;text-decoration:none;}
+.page-union-rentPage .doc_input{height:.25rem;width:1.3rem;border:.01rem solid #cfcfcf;border-radius:.03rem;padding:0 .1rem;font-size:.14rem;color:#1bdfdf;text-decoration:none;}
+.page-union-rentPage .price-btn{display:inline-block;margin-left:.1rem;border-radius:.05rem;background-color:#1bdfdf;color:#fff;padding:.02rem .1rem;}
+.page-union-rentPage .line-info{display:flex;justify-content:space-between;align-items:center;padding:.1rem .15rem;line-height:1.5;}
+.page-union-rentPage .ewm-btn{display:block;text-decoration:none;text-align:center;width:2.5rem;height:.38rem;line-height:.38rem;font-size:.16rem;margin:.3rem auto .15rem;color:#fff;background-color:#1bdfdf;border-radius:1rem;}
+.page-union-rentPage .qrcode-wrap{display:none;text-align:center;padding:.1rem;color:#1bdfdf;font-size:.2rem;}
+.page-union-rentPage .qrcode img{width:1.28rem;margin:.2rem auto 0;}
+
+/**import from `/resource/css/mobile/union/user_fenqi_pay.css` **/
+.page-union-fenqi-pay{}
+.page-union-fenqi-pay .mainbody-inner{font-size:.14rem;padding:.2rem;text-align:center;line-height:1.5;}
+.page-union-fenqi-pay .head-img{height:1.6rem;}
+.page-union-fenqi-pay .fenqi-item-wrap{display:flex;justify-content:center;align-items:center;}
+.page-union-fenqi-pay .fenqi-item-wrap .item{padding:.03rem 0;width:.7rem;margin-right:.1rem;border:.01rem solid #cfcfcf;color:#cfcfcf;border-radius:.05rem;text-decoration:none;}
+.page-union-fenqi-pay .fenqi-item-wrap .item.active{border:.01rem solid #1bdfdf;color:#1bdfdf;}
+.page-union-fenqi-pay .desc{font-size:.16rem;color:#1bdfdf;padding-top:.15rem;}
+.page-union-fenqi-pay .pay-btn{display:block;width:2.5rem;height:.38rem;line-height:.38rem;font-size:.16rem;margin:.3rem auto .15rem;color:#fff;background-color:#1bdfdf;border-radius:1rem;text-decoration:none;}
+
+/**import from `/resource/css/mobile/union/user_rent_pay.css` **/
+.page-union-rent-pay{}
+.page-union-rent-pay .mainbody-inner{font-size:.14rem;padding:.2rem;text-align:center;line-height:1.5;}
+.page-union-rent-pay .head-img{height:1.6rem;}
+.page-union-rent-pay .line-info{display:flex;justify-content:space-between;align-items:center;padding:.1rem .15rem;line-height:1.5;}
+.page-union-rent-pay .desc{font-size:.18rem;color:#1bdfdf;text-align:center;padding:.1rem 0;}
+.page-union-rent-pay .pay-btn{display:block;width:2.5rem;height:.38rem;line-height:.38rem;font-size:.16rem;margin:0 auto .15rem;color:#fff;background-color:#1bdfdf;border-radius:1rem;text-decoration:none;}
+.page-union-rent-pay .pay-btn.btn-disabled{background-color:#ccc;}
+/* 租用协议触发入口 */.page-union-rent-pay .agreement-block{font-size:0;}
+.page-union-rent-pay .agreement-block .sim-checkbox{display:inline-block;width:.16rem;height:.16rem;border:1px solid #ccc;border-radius:999px;vertical-align:middle;}
+.page-union-rent-pay .agreement-block .sim-checkbox.sim-checkbox-checked{margin-top:-.08rem;border:0;font-size:0;}
+.page-union-rent-pay .agreement-block .sim-checkbox-checked:before{content:"\e601";font-size:.16rem;color:#FB611D;}
+.page-union-rent-pay .agreement-block .trigger-show-zu-agreement{margin-left:.04rem;display:inline-block;vertical-align:middle;font-size:.14rem;color:#333;}
+/*租用协议*/.page-union-rent-pay .swipe-section{position:fixed;}
+.page-union-rent-pay .mobile-experience-agreement{padding-bottom:.44rem;width:100%;height:100%;overflow-x:hidden;overflow-y:auto;}
+.page-union-rent-pay .block-confirm-btn-line{position:absolute;bottom:0;left:0;right:0;margin:0 auto;padding:.05rem 0;max-width:720px;}
+.page-union-rent-pay .block-confirm-btn-line .btn{margin:0 .05rem 0 .1rem;display:block;line-height:.44rem;border:0;}
+.page-union-rent-pay .block-confirm-btn-line .btn-yellow{margin:0 .1rem 0 .05rem;background-color:#FB611D;}
+.page-union-rent-pay .block-confirm-btn-line .btn-disabled{background:#ccc;color:#fff;}
+.mobile-experience-agreement{line-height:1.6;}
+.mobile-experience-agreement h3{padding-bottom:10px;font-size:16px;text-align:center;color:#222;}
+.mobile-experience-agreement dl{margin:10px 0 0 0;}
+.mobile-experience-agreement dl > dt{margin:0 0 4px 0;color:#222;}
+.mobile-experience-agreement dl > dd{margin:0 0 10px 10px;color:#555;}
+.mobile-experience-agreement ul{}
+.mobile-experience-agreement ul > li{margin-bottom:6px;}
+.mobile-experience-agreement .ul-sub,.mobile-experience-agreement .ul-sub2{padding-left:16px;}
+.mobile-experience-agreement .ul-sub > li{list-style-type:disc;}
+.mobile-experience-agreement .ul-sub2 > li{list-style-type:none;}
+
+/**import from `/resource/css/mobile/union/inc/nav_bottom.css` **/
+.tab-bottom-block{margin:0 auto;position:fixed;bottom:0;left:0;right:0;min-width:320px;max-width:720px;background-color:#fff;border-top:.01rem solid #1bdfdf;color:#1bdfdf;}
+.tab-bottom-block .item-wrap{width:1.0666rem;float:left;text-align:center;height:.38rem;line-height:.38rem;border-right:.01rem solid #1bdfdf;}
+.tab-bottom-block .item-wrap:last-child{border-right:none;}
+.tab-bottom-block .tab-item{display:inline-block;text-align:center;color:#535353;width:100%;font-size:.14rem;}
+.tab-bottom-block .tab-item .text{font-size:.1rem;line-height:1;}
+.tab-bottom-block .tab-item.cur{color:#fff;background-color:#1bdfdf;}

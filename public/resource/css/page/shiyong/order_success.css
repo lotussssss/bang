@@ -1,0 +1,77 @@
+/* =================下单成功页面================== */
+.page-shiyong-order-success{
+
+}
+.page-shiyong-order-success .order-close-info{
+    margin: 0 auto;
+    padding: 30px 0 40px 0;
+    width: 800px;
+    text-align: center;
+    color: #333;
+}
+.page-shiyong-order-success .order-close-info .p-tit{
+    padding-left: 42px;
+    padding-bottom: 12px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    color: #185;
+    font-size: 28px;
+    line-height: 50px;
+    background: url("https://p.ssl.qhimg.com/t01e4e4bf0126ebfac6.jpg") no-repeat 0 6px;
+}
+
+.page-shiyong-order-success .order-success-info{
+    margin: 0 auto;
+    padding: 30px 0 40px 0;
+    width: 800px;
+    text-align: center;
+    color: #333;
+}
+.page-shiyong-order-success .order-success-info .p-tit{
+    padding-left: 42px;
+    padding-bottom: 12px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    color: #185;
+    font-size: 28px;
+    line-height: 50px;
+    background: url("https://p.ssl.qhimg.com/t01e4e4bf0126ebfac6.jpg") no-repeat 0 6px;
+}
+.page-shiyong-order-success .order-success-info .p-cnt{
+    font-size: 14px;
+}
+.page-shiyong-order-success .order-success-info .p-cnt p{
+    padding-bottom: 8px;
+}
+.page-shiyong-order-success .order-success-info .p-cnt .qrcode{
+    height: 247px;
+}
+.page-shiyong-order-success .btn-pay-success{
+    padding: 6px 20px;
+    background: #64BA12;
+    color: #fff;
+    vertical-align: text-bottom;
+}
+.page-shiyong-order-success .btn-pay-success:hover{
+    background: #64BA12;
+}
+
+.page-shiyong-order-success .countdown{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.page-shiyong-order-success .countdown span{
+    display: none;
+}
+.page-shiyong-order-success .countdown .m-num,
+.page-shiyong-order-success .countdown .m-txt,
+.page-shiyong-order-success .countdown .s-num,
+.page-shiyong-order-success .countdown .s-txt{
+    display: inline;
+}
+.page-shiyong-order-success .doc-ft{
+    display: none;
+}

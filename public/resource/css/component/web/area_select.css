@@ -1,0 +1,32 @@
+/*area-select 区县选择基本样式*/
+.area-select-wrap{display: block;height: 36px;margin:8px 0;line-height: 1;position: relative;}
+.area-select-wrap .area-sel{
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #CECECE;
+    /*background: url(https://p.ssl.qhimg.com/t010d71e7b045cd4e73.png) repeat-x 0 0;*/
+    padding-left:8px;
+    cursor: pointer;
+    color: #999999;
+    position: relative;
+    float: left;
+    margin: 0 8px 0 0;
+    z-index: 9999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+    font-size: 14px;
+}
+.area-select-wrap .icon-arrow{
+    width: 26px;
+    height: 22px;
+    background: url(https://p.ssl.qhimg.com/t010d71e7b045cd4e73.png) no-repeat 10px -30px;
+}
+.area-select-wrap .select-pannel{display:none;position: absolute;width: 460px;background: #FBFBFB;border: solid 1px #CFCFCF;left: -1px;top: 38px;padding: 8px 0;z-index: 10001;line-height: 1;}
+.area-select-wrap .select-pannel h3{font-weight: normal;height: 20px; line-height: 20px; padding: 0 10px;margin: 0;position: relative;background: none;text-indent: inherit;}
+.area-select-wrap .select-pannel h3 .close{background: url(https://p.ssl.qhimg.com/t011be77565f0a2f8e8.png) no-repeat 0 -7px;cursor: pointer; display: block; height: 20px; line-height: 100px; overflow: hidden; position: absolute; right: 10px; top: 0; width: 55px;}
+.area-select-wrap .select-pannel .select-list{background: #FFFFFF;border: solid 1px #E8E8E8;margin: 12px 12px 3px; padding: 12px 12px 0;}
+.area-select-wrap .select-pannel .select-list a{color: #000000;display: inline-block; height: 18px; line-height: 18px; margin: 0 18px 5px 0;}
+.area-select-wrap .area-sel .sel-txt{
+    _zoom:1;
+}

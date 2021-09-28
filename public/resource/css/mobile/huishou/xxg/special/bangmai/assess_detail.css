@@ -1,0 +1,130 @@
+/*帮我卖评估信息页*/
+.page-xxg-bangmai-assess-detail {
+    background: #f5f5f5;
+    color: #000;
+    line-height: 1;
+}
+
+.page-xxg-bangmai-assess-detail #header .header-inner {
+    background: #fff;
+    color: #000;
+    height: .36rem;
+    line-height: .36rem;
+    font-size: .14rem;
+}
+
+.page-xxg-bangmai-assess-detail #header .header-inner .h-left a {
+    color: #777;
+    font-size: .18rem;
+}
+
+.page-xxg-bangmai-assess-detail .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-xxg-bangmai-assess-detail .block-product-info {
+    margin-top: .07rem;
+    background: #fff;
+    padding: 0 .13rem;
+}
+
+.page-xxg-bangmai-assess-detail .block-product-info .product-name {
+    padding-top: .2rem;
+    font-size: 0.13rem;
+}
+
+.page-xxg-bangmai-assess-detail .block-product-info .label-level {
+    margin-right: .06rem;
+    width: 0.35rem;
+    height: 0.16rem;
+    background: linear-gradient(to right, #e94135, #db1b29);
+    font-size: 0.09rem;
+    color: #fff;
+    border-radius: 0.02rem;
+}
+
+.page-xxg-bangmai-assess-detail .block-product-info .sku {
+    font-size: .11rem;
+    color: #999;
+    margin-top: .08rem;
+}
+
+.page-xxg-bangmai-assess-detail .block-product-info .price {
+    padding-top: .12rem;
+    padding-bottom: .12rem;
+}
+
+.page-xxg-bangmai-assess-detail .block-product-info .tit {
+    color: #999;
+}
+
+.page-xxg-bangmai-assess-detail .block-product-info .num {
+    color: #de222c;
+}
+
+.page-xxg-bangmai-assess-detail .block-product-info .other-info {
+    padding-bottom: .12rem;
+}
+
+.page-xxg-bangmai-assess-detail .block-product-info .other-info .grid {
+    padding-top: .12rem;
+}
+
+.page-xxg-bangmai-assess-detail .block-assess-info {
+    margin-top: .11rem;
+    background: #fff;
+    padding: 0 .13rem .2rem;
+}
+
+.page-xxg-bangmai-assess-detail .block-assess-info .assess-tit {
+    font-size: .15rem;
+    padding-top: .2rem;
+    font-weight: 600;
+}
+
+.page-xxg-bangmai-assess-detail .block-assess-info .assess-list {
+}
+
+.page-xxg-bangmai-assess-detail .block-assess-info .assess-list .assess-item {
+    margin-top: .17rem;
+    font-size: .12rem;
+}
+
+.page-xxg-bangmai-assess-detail .block-assess-info .assess-item .icon-xuanzhong1 {
+    color: #01ccaa;
+}
+
+.page-xxg-bangmai-assess-detail .block-assess-info .assess-item .icon-warn {
+    color: #ff4d00;
+}
+
+.page-xxg-bangmai-assess-detail .block-assess-info .assess-item .icon-none {
+    color: #999;
+}
+
+.page-xxg-bangmai-assess-detail .block-assess-info .assess-item .dashed {
+    margin: 0 .11rem;
+    border-top: 1px dashed #dadada;
+}
+
+.page-xxg-bangmai-assess-detail .block-assess-info .assess-item .iconfont {
+    margin-right: .04rem;
+    font-size: .12rem;
+}
+
+.page-xxg-bangmai-assess-detail .block-assess-info .assess-item .tit {
+    color: #999;
+}
+
+.page-xxg-bangmai-assess-detail .btn-to-sale {
+    margin-top: .11rem;
+    height: .4rem;
+    background: #17a553;
+    color: #fff;
+}
+
+.page-xxg-bangmai-assess-detail .btn-to-sale.disabled {
+    background: #999;
+}

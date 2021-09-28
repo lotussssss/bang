@@ -1,0 +1,198 @@
+
+a,a:hover{
+    text-decoration: none;
+}
+
+.page-hd-fathers-day {
+    background: #e53d22;
+    font-size: .12rem;
+}
+
+.page-hd-fathers-day .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-fathers-day .block {
+    width: 100%;
+}
+
+/*公用的block-title样式start*/
+.page-hd-fathers-day .block-tit {
+    text-align: center;
+    height: 0.28888888888888886rem;
+    /*line-height: 0.6088888888888889rem;*/
+    background:url(https://p1.ssl.qhmsg.com/t01b8d91a5900d820a4.jpg)  no-repeat center 0;
+    background-size: cover;
+    text-indent: -99999px;
+    color: #fff;
+    font-size: .24rem;
+    font-weight: bold;
+    margin-top: .1rem;
+}
+/*公用的block-title样式end*/
+.page-hd-fathers-day .block-shishang .block-tit{
+    margin-top: 0;
+}
+
+.page-hd-fathers-day .block-top{
+    height: 1.4444444444444444rem;
+    background: url(https://p2.ssl.qhmsg.com/t01b9378427c80dfd48.jpg) no-repeat center 0;
+    background-size: cover;
+    position: relative;
+}
+.page-hd-fathers-day .block-top .back{
+    width: .28rem;
+    height: .28rem;
+    position: absolute;
+    top: .06rem;
+    left: .06rem;
+    background: url("https://p0.ssl.qhmsg.com/t010ba0d91557ebd726.png") no-repeat center;
+    text-decoration: none;
+    border-radius: 999px;
+    background-size: cover;
+}
+
+/*优惠券*/
+.page-hd-fathers-day .block-sub{
+    height: 0.9422222222222222rem;
+    background:url(https://p0.ssl.qhmsg.com/t012751115b6603e6ef.jpg) no-repeat center 0;
+    background-size: cover;
+}
+.block-coupon{
+    padding: .36rem .08rem 0;;
+    color: #fff;
+    font-size: 0;
+}
+
+.block-coupon .coupon-item{
+    padding-top: .02rem;
+    display: inline-block;
+    width: 25%;
+    height: .52rem;
+    font-size: .12rem;
+    text-align: center;
+    line-height: 1;
+    vertical-align: top;
+}
+.block-coupon .coupon-item .money-num{
+    font-size: .28rem;
+}
+.block-coupon .coupon-item .coupon-item-desc{
+    padding-top: .07rem;
+    font-size: .1rem;
+}
+
+.page-hd-fathers-day .block-bao{
+    height: 3.2044444444444444rem;
+    background: url(https://p0.ssl.qhmsg.com/t015ee1e109e75c21b2.jpg) no-repeat center 0;
+    background-size: contain;
+
+}
+.page-hd-fathers-day .block-bao .block-inner{
+    padding-top: 0.56rem;
+}
+.page-hd-fathers-day .block-bao a{
+    display: block;
+    height: 1.15rem;
+    margin: 0 .1rem;
+}
+.page-hd-fathers-day .block-bao a:nth-child(2){
+    margin-top: .1rem;
+}
+.page-hd-fathers-day .block-bottom{
+    height: 0.3688888888888889rem;
+    background: url(https://p3.ssl.qhmsg.com/t01f54cea34f76cbc93.jpg) no-repeat center 0;
+    background-size: contain;
+}
+/* 更多 */
+.page-hd-fathers-day .more {
+    padding: .1rem 0;
+    text-align: center;
+}
+.page-hd-fathers-day .more a,
+.page-hd-fathers-day .more a:hover {
+    margin: 0 auto;
+    display: block;
+    width: 1.1rem;
+    height: .28rem;
+    line-height: .28rem;
+    font-size: .12rem;
+    color: #aa242f;
+    border-radius: 999px;
+    text-decoration: none;
+    text-align: center;
+    background: #fbd743;
+}
+/* END 更多 */
+
+/*活动商品列表样式*/
+.page-hd-fathers-day .ui-sp-product-list-1{
+    min-height: 2.6rem;
+    margin: 0 .08rem;
+    padding-left: 1%;
+    padding-top: 1%;
+    border: 3px solid #ffd43d;
+}
+.page-hd-fathers-day .ui-sp-product-list-1 .p-item{
+    width: 49%;
+    height: 2.4rem;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.page-hd-fathers-day .ui-sp-product-list-1 .p-item .p-desc{
+    -webkit-line-clamp: 2;
+    padding-left:.1rem;
+    padding-right:.1rem;
+    line-height: 1.45;
+    font-size: .1rem;
+}
+/*活动商品列表样式 end*/
+
+/*服务介绍*/
+.block-service-intro{
+    margin: .1rem;
+}
+/* 二维码扫一扫 */
+.block-qrcode-info{
+    margin: .1rem;
+}
+/* 合作伙伴 */
+.block-partner{
+    margin: .1rem .1rem .3rem;
+}
+.block-service-intro img,
+.block-qrcode-info img,
+.block-partner img{
+    width: 100%;
+    /*border-radius: .06rem;*/
+}
+
+/*活动说明*/
+.page-hd-fathers-day .block-desc{
+    color: #fff;
+    padding: 0 .15rem .3rem;
+}
+.page-hd-fathers-day .block-desc .block-desc-cont{
+    color: #fff;
+    padding: 0 0 0.1rem;
+}
+.page-hd-fathers-day .block-desc .block-desc-cont h3{
+    font-weight: bold;
+    font-size: .16rem;
+}
+.page-hd-fathers-day .block-desc .block-desc-cont p{
+    font-size: .12rem;
+}
+/*视频*/
+.page-hd-fathers-day .block-video{
+    
+}
+.page-hd-fathers-day .block-video .trigger-play-video{
+    display: block;
+    height: 1.48rem;
+    background: url(https://p.ssl.qhimg.com/t01851d63db42511e76.jpg) no-repeat center;
+    background-size: cover;
+}
+

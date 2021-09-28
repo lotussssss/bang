@@ -1,0 +1,241 @@
+/*属性选择弹窗*/
+.page-product-detail .attr-select-mask {
+    position   : fixed;
+    top        : 0;
+    left       : 0;
+    right      : 0;
+    bottom     : 0;
+    z-index    : 9999;
+    width      : 100%;
+    height     : 100%;
+    background : rgba(0, 0, 0, 0.6);
+}
+
+.page-product-detail .attr-select-wrap {
+    position : fixed;
+    left     : 0;
+    right    : 0;
+    bottom   : 0;
+    z-index  : 10000;
+    color    : #333;
+}
+
+.page-product-detail .attr-select-wrap .attr-select-inner {
+    width      : 100%;
+    position   : absolute;
+    left       : 0;
+    bottom     : 0;
+    background : #fff;
+}
+
+.page-product-detail .attr-select-wrap .close {
+    width           : .34rem;
+    height          : .37rem;
+    position        : absolute;
+    right           : .15rem;
+    top             : -.16rem;
+    background      : url("https://p.ssl.qhimg.com/t018c8b4d601b98153b.png") no-repeat 0 0;
+    background-size : cover;
+}
+
+.page-product-detail .attr-select-wrap .attr-select-top {
+    border-bottom : 1px solid #ccc;
+    height        : .8rem;
+}
+
+.page-product-detail .attr-select-wrap .p-img {
+    position      : absolute;
+    left          : .15rem;
+    top           : -.35rem;
+    padding       : .08rem;
+    width         : 1.03rem;
+    height        : 1.03rem;
+    line-height   : .87rem;
+    /*background: url("https://p.ssl.qhimg.com/t01ae65adbd280f528b.png") no-repeat 0 0;*/
+    /*background-size: cover;*/
+    background    : #fff;
+    text-align    : center;
+    border-radius : .04rem;
+    /*box-shadow    : 0px .02rem .10rem #666;*/
+    border        : 1px solid #deeded;
+}
+
+.page-product-detail .attr-select-wrap .p-name {
+    /*padding-top  : .35rem;*/
+    padding-top   : .25rem;
+    padding-left  : 1.28rem;
+    padding-right : .1rem;
+    font-size     : .14rem;
+}
+
+.page-product-detail .attr-select-wrap .p-price del {
+    color     : #666;
+    font-size : .14rem;
+}
+
+.page-product-detail .attr-select-wrap .p-price-num {
+    font-size   : .26rem;
+    line-height : 100%;
+}
+
+.page-product-detail .attr-select-wrap .p-price-r {
+    padding-left : .05rem;
+}
+
+.page-product-detail .attr-select-wrap .p-discount {
+    width           : 0.36rem;
+    height          : 0.15rem;
+    background      : url("https://p.ssl.qhimg.com/t017237857ec0653202.png") no-repeat 0 0;
+    background-size : cover;
+    color           : #fff;
+    font-size       : .1rem;
+    padding-left    : 0.04rem;
+    text-align      : center;
+    line-height     : 0.15rem;
+}
+
+.page-product-detail .attr-select-wrap .p-price-orig {
+    color           : #999;
+    font-size       : .1rem;
+    text-align      : center;
+    line-height     : 0.14rem;
+    text-decoration : line-through;
+}
+
+.page-product-detail .attr-select-wrap .p-stock {
+    padding-left : 1.28rem;
+}
+
+.page-product-detail .attr-select-wrap .p-info {
+    font-size : .12rem;
+    color     : #999;
+}
+
+.page-product-detail .attr-select-wrap .attr-select-bottom {
+    padding : .2rem .1rem .01rem;
+}
+
+.page-product-detail .attr-select-wrap .line {
+    padding-bottom : .06rem;
+}
+
+.page-product-detail .attr-select-wrap .line .tit {
+    padding-bottom     : 0;
+    width              : .48rem;
+    height             : .28rem;
+    line-height        : .28rem;
+    /*border             : 1px solid transparent;*/
+    /*-webkit-box-sizing : content-box;*/
+    /*-moz-box-sizing    : content-box;*/
+    /*box-sizing         : content-box;*/
+}
+
+.page-product-detail .attr-select-wrap .line .cnt {
+    margin-left : .5rem;
+    font-size   : 0;
+}
+
+.page-product-detail .attr-select-wrap .attr-item {
+    position           : relative;
+    margin             : 0 .06rem .08rem 0;
+    padding            : 0 .06rem;
+    display            : inline-block;
+    height             : .28rem;
+    line-height        : .28rem;
+    border             : 1px solid #ccc;
+    /*border-radius : 2px;*/
+    font-size          : .12rem;
+    -webkit-box-sizing : content-box;
+    -moz-box-sizing    : content-box;
+    box-sizing         : content-box;
+    border-radius: .05rem;
+}
+
+.page-product-detail .attr-select-wrap .attr-item.cur {
+    border : 1px solid #92DAA1;
+    color  : #92DAA1;
+}
+
+.page-product-detail .attr-select-wrap .attr-item.disabled {
+    border : 1px dashed #aaa;
+    color  : #999;
+}
+
+.page-product-detail .attr-select-wrap .attr-item.cur.arrow-down:after,
+.page-product-detail .attr-select-wrap .attr-item.cur.arrow-up:after {
+    border-color : #f50;
+}
+
+.page-product-detail .attr-select-wrap .prd-treaty-day .cnt {
+    position : relative;
+}
+
+.page-product-detail .attr-select-wrap .prd-treaty-day .attr-item {
+    position   : relative;
+    z-index    : 1;
+    padding    : 0;
+    width      : 1.1rem;
+    text-align : center;
+    background : #fff;
+}
+
+.page-product-detail .attr-select-wrap .prd-treaty-day-completely {
+    position      : absolute;
+    z-index       : 0;
+    left          : 1.19rem;
+    bottom        : .085rem;
+    width         : 1.1rem;
+    background    : transparent;
+    border        : transparent;
+    border-radius : 0;
+    height        : .28rem;
+    line-height   : .28rem;
+}
+
+.page-product-detail .attr-select-wrap .prd-pledge .pledge_amount{
+    padding: 0 .06rem;
+    display: inline-block;
+    height: .28rem;
+    line-height: .28rem;
+    font-size: .12rem;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border-radius: .05rem;
+    border: 1px solid #92DAA1;
+    color: #92DAA1;
+}
+
+.page-product-detail .attr-select-wrap .prd-treaty-fee {
+    line-height: .28rem;
+
+}
+
+.page-product-detail .attr-select-wrap .line .treaty-fee {
+    font-size : .18rem;
+    color     : #f50;
+}
+
+.page-product-detail .attr-select-wrap .line .treaty-fee-per-day {
+    font-size : .14rem;
+    color     : #f50;
+}
+
+.page-product-detail .attr-select-wrap .btn-confirm {
+    display     : block;
+    width       : 100%;
+    height      : .4rem;
+    background  : #ff3300;
+    text-align  : center;
+    line-height : .4rem;
+    color       : #fff;
+    font-size   : .16rem;
+}
+.page-product-detail .attr-select-wrap .btn-confirm:hover,
+.page-product-detail .attr-select-wrap .btn-confirm:active{
+    opacity: .8;
+}
+.page-product-detail .attr-select-wrap .btn-disabled {
+    background: #ccc;
+    color: #fff;
+}

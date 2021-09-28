@@ -1,0 +1,202 @@
+.page-hd-suning-xiaoyuanxing {
+    background-color: #f7e9cf;
+    font-size: .12rem;
+}
+
+.page-hd-suning-xiaoyuanxing .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-suning-xiaoyuanxing .block {
+    width: 100%;
+}
+.page-hd-suning-xiaoyuanxing .block h3{
+    padding: .1rem 0;
+    font-size: .18rem;
+    text-align: center;
+}
+.page-hd-suning-xiaoyuanxing .block1 {
+    height: 2.68rem;
+    background: #f7e9cf url(https://p.ssl.qhimg.com/t01e79588c6269737fa.png) no-repeat 0 0;
+    background-size: cover;
+}
+.page-hd-suning-xiaoyuanxing .block2 {
+    background-color: #fff;
+    color: #333;
+}
+.page-hd-suning-xiaoyuanxing .block3 {
+    padding: .06rem 0 .16rem 0;
+    background-color: #efe8e0;
+    color: #a17649;
+    text-align: center;
+}
+.page-hd-suning-xiaoyuanxing .block4 {
+    background-color: #f7e9cf;
+    color: #a17649;
+}
+.page-hd-suning-xiaoyuanxing .block5 {
+    padding: .06rem 0 .16rem 0;
+    background-color: #cab299;
+    color: #fff;
+}
+
+.page-hd-suning-xiaoyuanxing .block-service-intro{
+    margin: 0;
+    padding: .15rem 0 .05rem 0;
+    border: 0;
+    border-radius: 0;
+}
+.page-hd-suning-xiaoyuanxing .block-service-intro .tit-under{
+    display: none;
+}
+.page-hd-suning-xiaoyuanxing .block-service-intro .tit-inner{
+    margin: 0 auto;
+    width: 1.36rem;
+    height: 0.47555555555555556rem;
+    background-image: url(https://p.ssl.qhimg.com/t011cfc542d16c41e88.png);
+}
+.page-hd-suning-xiaoyuanxing .block-service-intro .cnt .service-desc{
+    color: #a17649;
+}
+.page-hd-suning-xiaoyuanxing .block-service-intro .cnt .service-desc em{
+    color:#a17649 ;
+}
+.page-hd-suning-xiaoyuanxing .block-service-intro .cnt .service-keyword{
+    color: #fff;
+    background-color: #cab299;
+}
+
+.page-hd-suning-xiaoyuanxing .block2 .row,
+.page-hd-suning-xiaoyuanxing .block2 .row:hover{
+    padding: .12rem;
+    color: #333;
+    border-bottom: 2px solid #f5f5f5;
+    text-decoration: none;
+}
+.page-hd-suning-xiaoyuanxing .block2 .row:last-child{
+    border: 0;
+}
+.page-hd-suning-xiaoyuanxing .block2 .row .col-right{
+    margin-left: 1.22rem;
+    line-height: 1.8;
+}
+.page-hd-suning-xiaoyuanxing .block2 .p-figure{
+    margin: .1rem 0;
+    width: 1.1rem;
+    height: 1.1rem;
+    background: transparent no-repeat 0 0;
+    background-size: cover;
+}
+.page-hd-suning-xiaoyuanxing .block2 .tit{
+    padding-top: .06rem;
+    font-size: .16rem;
+}
+.page-hd-suning-xiaoyuanxing .block2 .desc{
+    color: #666;
+}
+.page-hd-suning-xiaoyuanxing .block2 .price-new{
+    padding-left: .04rem;
+    display: inline-block;
+    font-size: .1rem;
+    text-decoration: line-through;
+    color: #666;
+}
+.page-hd-suning-xiaoyuanxing .block2 .installment{
+    color: #ff5500;
+    font-size: .16rem;
+}
+.page-hd-suning-xiaoyuanxing .block2 .btn-go-to{
+    margin-top: .1rem;
+    display: block;
+    width: 1rem;
+    height: .32rem;
+    line-height: .32rem;
+    box-sizing: content-box;
+    text-align: center;
+    font-size: .14rem;
+    color: #ff5500;
+    border: 1px solid #ff5500;
+}
+.page-hd-suning-xiaoyuanxing .block3 ul{
+    margin: 0 auto;
+    width: 2.2rem;
+    text-align: left;
+}
+.page-hd-suning-xiaoyuanxing .block3 ul .col-left-fixed{
+
+}
+.page-hd-suning-xiaoyuanxing .block3 ul .col-right{
+    margin-left: 1.4rem;
+}
+.page-hd-suning-xiaoyuanxing .block3 .desc{
+    padding: .1rem 0 0 0;
+    color: #ff5500;
+}
+
+.page-hd-suning-xiaoyuanxing .block5 ul{
+    padding: 0 .12rem 0 .26rem;
+    list-style-type: decimal;
+}
+.page-hd-suning-xiaoyuanxing .block5 ul li{
+    margin-bottom: .05rem;
+}
+
+/*服务介绍*/
+.block-service-intro{
+    margin: .1rem;
+    padding: .1rem 0;
+    background-color: #114b97;
+    border-radius: .06rem;
+}
+.block-service-intro .tit{
+    margin: 0 auto;
+    width: 1.635rem;
+}
+.block-service-intro .tit-under{
+    margin: 0 auto;
+    width: 1.56rem;
+    height: .24rem;
+    background: #f9ed03;
+    border-radius: 999px;
+}
+.block-service-intro .tit-inner{
+    margin-top: -.29rem;
+    margin-left: -.06rem;
+    width: 1.635rem;
+    height: 0.34555772rem;
+    background: url(https://p0.ssl.qhmsg.com/t0166374946eb81bd5a.png) no-repeat center;
+    background-size: contain;
+}
+.block-service-intro .cnt{
+    padding: .1rem 0;
+    font-size: 0;
+}
+.block-service-intro .cnt .service-keyword{
+    margin: .08rem .04rem .08rem .08rem;
+    display: inline-block;
+    height: .3rem;
+    width: .3rem;
+    line-height: .3rem;
+    font-size: .2rem;
+    border-radius: 999px;
+    text-align: center;
+    color: #fff;
+    background-color: #cab299;
+    vertical-align: middle;
+}
+.block-service-intro .cnt .col-2-1:nth-child(2n) .service-keyword{
+    margin-left: 0;
+}
+.block-service-intro .cnt .service-desc{
+    display: inline-block;
+    font-size: .1rem;
+    /*color: #fff;*/
+    vertical-align: middle;
+    line-height: 1.2;
+}
+.block-service-intro .cnt .service-desc em{
+    font-size: .14rem;
+    /*color:#f9ed03 ;*/
+}

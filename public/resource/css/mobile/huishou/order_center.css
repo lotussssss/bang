@@ -1,0 +1,346 @@
+/*---------------------------------- base --------------------------------------*/
+html,body{
+    min-height: 100%;
+    background-color: #f2f2f2;
+}
+i {
+    display: inline-block;
+}
+.cl-org{
+    color: #ff4500;
+}
+.cl-gray{
+    color: #999999;
+}
+.cl-red{
+    color: #ff3300;
+}
+.font-13rem{
+    font-size: .13rem;
+}
+.font-16rem{
+    font-size: .16rem;
+}
+
+/*---------------------------------- common --------------------------------------*/
+.order-center-header {
+    height: .44rem;
+    width: 3.2rem;
+    position: relative;
+    text-align: center;
+    font-size: .16rem;
+    border-bottom: .01rem solid #d1d3d3;
+    background-color: #ffffff;
+}
+.order-center-header .center {
+    height: .44rem;
+    line-height: .44rem;
+}
+.order-center-header .left,
+.order-center-header .right {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    height: .44rem;
+    line-height: .44rem;
+    min-width: .44rem;
+    text-align: center;
+    font-size: .16rem;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.order-center-header .left{
+    left: 0;
+    padding-left: .1rem;
+}
+.order-center-header .left i {
+    font-size: .2rem;
+    vertical-align: top;
+}
+.order-center-header .right{
+    right: 0;
+    padding-right: .1rem;
+}
+
+/*---------------------------------- 确认卖出 start --------------------------------------*/
+.page-appeal_succ .block-content{
+    display: flex;
+    flex-direction: column;
+    font-size: .13rem;
+}
+.page-appeal_succ .block-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    background-color: #fff;
+    padding-bottom: .2rem;
+    margin-bottom: .1rem;
+}
+.page-appeal_succ .block-top .rend-succ{
+    padding: .2rem 0;
+    font-size: .2rem;
+}
+.page-appeal_succ .block-top .rend-succ i{
+    font-size: .25rem;
+    padding-right: .05rem;
+    vertical-align: text-top;
+}
+.page-appeal_succ .block-product{
+    background-color: #fff;
+    padding: .2rem .15rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.page-appeal_succ .product-detail{
+    height: .76rem ;
+    display: flex;
+    padding: .25rem 0 .15rem 0;
+    border-bottom: .01rem solid #d1d3d3;
+}
+.page-appeal_succ .product-detail .pro-img{
+    height: 100%;
+    margin-right: .2rem
+}
+.page-appeal_succ .product-detail .pro-img img {
+    height: 100%;
+}
+.page-appeal_succ .product-detail .right-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.page-appeal_succ .product-detail .right-info .tit {
+     font-size: .15rem;
+    padding-bottom: .07rem;
+ }
+.page-appeal_succ .block-product .time-line{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.page-appeal_succ .block-product .apply-time{
+    padding: .2rem 0;
+}
+.page-appeal_succ  .btn-normal {
+    padding: .03rem .1rem;
+    border: .01rem solid #aaa;
+    border-radius: 1rem;
+    font-size: .14rem;
+    color: #000;
+}
+/*---------------------------------- 确认卖出 end --------------------------------------*/
+/*---------------------------------- 申诉成功 start --------------------------------------*/
+.page-confirm_sale .block-content{
+    display: flex;
+    flex-direction: column;
+    font-size: .13rem;
+
+}
+.page-confirm_sale .block-product{
+    background-color: #fff;
+    padding: .2rem .15rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.page-confirm_sale .product-detail{
+    height: .76rem ;
+    display: flex;
+    padding: .25rem 0 .15rem 0;
+    border-bottom: .01rem solid #d1d3d3;
+}
+.page-confirm_sale .product-detail .pro-img{
+    height: 100%;
+    margin-right: .2rem;
+}
+.page-confirm_sale .product-detail .pro-img img {
+    height: 100%;
+}
+.page-confirm_sale .product-detail .right-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.page-confirm_sale .product-detail .right-info .tit {
+    font-size: .15rem;
+    padding-bottom: .07rem;
+}
+.page-confirm_sale .block-product .confirm-desc{
+    padding: .2rem 0;
+}
+.page-confirm_sale .btn-sale{
+    display: block;
+    width: 2.8rem;
+    height: .44rem;
+    line-height: .44rem;
+    margin: .3rem auto 0;
+    text-align: center;
+    color: #fff;
+    background-color: #ff4500;
+    border-radius: .05rem;
+    font-size: .16rem;
+}
+.page-confirm_sale .btn-disabled {
+    color: #fff;
+    background-color: #aaa;
+}
+/*---------------------------------- 申诉成功 end --------------------------------------*/
+/*---------------------------------- 质检报告 start --------------------------------------*/
+.page-quality_detail .block-content{
+    display: flex;
+    flex-direction: column;
+    font-size: .13rem;
+
+}
+.page-quality_detail .block-product{
+    background-color: #fff;
+    padding: .0rem .15rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.page-quality_detail .product-detail{
+    height: .76rem ;
+    display: flex;
+    padding: .25rem 0 .15rem 0;
+}
+.page-quality_detail .product-detail .pro-img{
+    height: 100%;
+    margin-right: .2rem
+}
+.page-quality_detail .product-detail .pro-img img {
+    height: 100%;
+}
+.page-quality_detail .product-detail .right-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.page-quality_detail .product-detail .right-info .tit {
+    font-size: .15rem;
+    padding-bottom: .07rem;
+}
+.page-quality_detail .check-info{
+    margin-top: .1rem;
+    background-color: #fff;
+    padding: .2rem .15rem ;
+    position: relative;
+}
+.page-quality_detail .check-info .fix-right{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: .5rem;
+    width: .7rem;
+    height: .75rem;
+}
+.page-quality_detail .check-info .fix-right img{
+    width: 100%;
+    height: 100%;
+}
+.page-quality_detail .check-info .row-item{
+    padding-bottom: .05rem;
+}
+.page-quality_detail .info-item{
+    margin-top: .1rem;
+    background-color: #fff;
+}
+.page-quality_detail .info-item i {
+    vertical-align: middle;
+    font-size: .2rem;
+}
+.page-quality_detail .info-item .info-tit {
+    padding: .1rem .15rem;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-size: .14rem;
+}
+.page-quality_detail .info-item .info-tit .gengduo{
+    transition: all .3s ease;
+    transform: rotate(0deg);
+}
+.page-quality_detail .info-item .info-tit .gengduo.down{
+    transform: rotate(90deg);
+}
+.page-quality_detail .info-detail{
+    /*height: 0;*/
+    overflow: hidden;
+    transition: height .5s ease;
+}
+.page-quality_detail .info-detail-item {
+    border-top: .01rem solid #F2F2F2;
+}
+.page-quality_detail .info-detail-item .info-detail-tit{
+    padding: .1rem .15rem;
+    display: flex;
+    justify-content: space-between;
+}
+.page-quality_detail .info-detail-item .disable-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F2F2F2;
+    height: .67rem;
+    padding: 0 .15rem;
+}
+.page-quality_detail .info-detail-item .disable-item .disable-item-img {
+    height: .52rem;
+}
+.page-quality_detail .info-detail-item .disable-item .btn-big-img{
+    display: inline-block;
+    /*display: none;*/
+    height: .52rem;
+    max-width: .52rem;
+    margin-right: .05rem;
+}
+.page-quality_detail .info-detail-item .disable-item .disable-item-img img {
+    height: 100%;
+    width: 100%;
+    margin-right: .15rem;
+}
+.page-quality_detail  .operate-block{
+    padding: .1rem .15rem .3rem;
+    margin-top: .1rem;
+    background-color: #ffffff;
+}
+.page-quality_detail  .apply-success-txt{
+    padding: .1rem;
+    margin-top: .1rem;
+    background-color: #ffffff;
+}
+.page-quality_detail  .operate-block .btn-normal {
+    padding: .03rem .1rem;
+    border: .01rem solid #aaa;
+    border-radius: 1rem;
+    font-size: .14rem;
+    color: #000;
+}
+.page-quality_detail  .operate-block .btn-sale {
+    background-color: #ff4500;
+    color: #fff;
+    border-color: #ff4500;
+    margin-left: .4rem;
+    position:relative;
+}
+.page-quality_detail  .operate-block .btn-sale .remind-txt{
+    position: absolute;
+    top: .3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #f00;
+    width: .7rem;
+}
+.page-quality_detail  .operate-block  .btn-disabled{
+    color: #fff;
+    background-color: #aaa;
+}
+.page-quality_detail .big-img-wrap{
+    width: 2.8rem;
+}
+.page-quality_detail .big-img-wrap img {
+    width: 100%;
+}
+/*---------------------------------- 质检报告 end --------------------------------------*/

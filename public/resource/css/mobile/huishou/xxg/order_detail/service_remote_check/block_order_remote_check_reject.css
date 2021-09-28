@@ -1,0 +1,204 @@
+.block-service-remote-check .block-order-remote-check-reject {
+    padding: 0 .1rem;
+    /*background-color: #fff;*/
+    background-color: #f5f5f5;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .title {
+    line-height: .36rem;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .title .iconfont {
+    color: #f84;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .tips {
+    padding: .08rem 0;
+    line-height: 1.68;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture {
+    overflow: auto;
+    color: #666;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture-inner {
+    padding: 0 .1rem;
+    border-radius: .04rem;
+    background-color: #fff;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .tit {
+    padding: .1rem .1rem;
+    font-size: .14rem;
+    color: #333;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .row-picture-tit {
+    padding: .06rem .1rem;
+    line-height: .24rem;
+    color: #666;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .row-picture-tit i {
+    margin-right: .08rem;
+    display: inline-block;
+    vertical-align: middle;
+    width: .24rem;
+    height: .24rem;
+    line-height: .24rem;
+    border-radius: 999px;
+    text-align: center;
+    background-color: #4a7;
+    color: #fff;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .row-picture {
+    text-align: center;
+    background-color: #fff;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .row-picture .col-12 {
+    padding: .1rem 0;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .row-picture .figure-picture {
+    margin: 0 auto;
+    padding-top: 100%;
+    width: 100%;
+    height: 0;
+    /*width: 1.5rem;*/
+    /*height: 1.5rem;*/
+    background: transparent no-repeat center;
+    background-size: contain;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .row-picture .figure-picture-1 {
+    background-image: url(https://p1.ssl.qhimg.com/t01f9cde7cd9e6cac73.jpg);
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .row-picture .figure-picture-2 {
+    background-image: url(https://p2.ssl.qhimg.com/t01307b9c1a031c2a53.jpg);
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .row-picture .figure-picture-3 {
+    background-image: url(https://p3.ssl.qhimg.com/t01cac83ec8e8319f21.jpg);
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .row-picture .figure-picture-4 {
+    background-image: url(https://p.ssl.qhimg.com/t01844a7abf6998ddbb.png);
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .trigger-wrap {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    padding-top: 100%;
+    width: 100%;
+    height: 0;
+    /*width: 1.5rem;*/
+    /*height: 1.5rem;*/
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .trigger-wrap a:hover {
+    text-decoration: none;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .trigger-wrap .tip-upload-picture {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    font-size: .1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #fe5800;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .trigger-upload-picture {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    text-align: center;
+    background: transparent url(https://p3.ssl.qhimg.com/t0104ed49268cd4bfe5.jpg) no-repeat center;
+    background-size: contain;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .icon-circle-solid-error {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    width: .32rem;
+    height: .32rem;
+    line-height: .32rem;
+    font-size: 0;
+    text-align: center;
+    border-radius: 999px;
+    color: #999;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .icon-circle-solid-error:before {
+    font-size: .18rem;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .fake-upload-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: .04rem;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .fake-upload-progress-inner {
+    display: block;
+    width: 0;
+    height: 100%;
+    background-color: #16a654;
+    transition: width .5s;
+}
+
+.block-service-remote-check .block-order-remote-check-reject .block-model-take-picture .trigger-invoke-camera {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+}
+
+
+.dialog-wrap.dialog-reject-remarks .dialog-inner {
+    font-size: .14rem;
+}
+
+.dialog-reject-remarks .remark-tit {
+    text-align: center;
+    color: #16a654;
+}
+
+.dialog-reject-remarks .remark-cnt {
+    padding: .1rem;
+    line-height: 1.6;
+}
+
+.dialog-reject-remarks .remark-btn {
+
+}
+
+.page-xxg-order-detail .dialog-wrap.dialog-reject-remarks .btn-re-upload-pic {
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+    height: .36rem;
+    line-height: .36rem;
+    border-radius: .06rem;
+    background-color: #16a654;
+}

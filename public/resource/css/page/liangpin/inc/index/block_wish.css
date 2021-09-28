@@ -1,0 +1,122 @@
+/* 发布愿望 */
+.page-liangpin .block-wish{
+    color: #999;
+    text-align: center;
+}
+.page-liangpin .block-wish .wish-cont{
+    width: 390px;
+    height: 332px;
+    font-size: 12px;
+    background: #fff;
+}
+.page-liangpin .block-wish .wish-cont-inner{
+    padding:0 0 0 20px;
+}
+.page-liangpin .block-wish .wish-sub-tit{
+    font-size: 14px;
+    padding:20px 0 16px;
+}
+.page-liangpin .block-wish .ewm{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.page-liangpin .block-wish .ewm img{
+    width: 100%;
+    height: 100%;
+}
+/*.page-liangpin .block-wish .wish-form .row{*/
+    /*margin: 10px 0;*/
+/*}*/
+/*.page-liangpin .block-wish .wish-form .row .col-left-fixed{*/
+    /*width: 56px;*/
+    /*line-height: 30px;*/
+/*}*/
+/*.page-liangpin .block-wish .wish-form .row .col-right{*/
+    /*margin-left: 56px;*/
+/*}*/
+/*.page-liangpin .block-wish .wish-form .row .wish-phone-tit{*/
+    /*line-height: 74px;*/
+/*}*/
+/*.page-liangpin .block-wish .wish-form .item{*/
+    /*margin: 0 5px 5px 0px;*/
+    /*display: inline-block;*/
+    /**display: inline;*/
+    /**zoom: 1;*/
+    /*width: 140px;*/
+    /*line-height: 30px;*/
+    /*background: #E8E8E8;*/
+    /*border: 2px solid #E8E8E8;*/
+    /*border-radius: 3px;*/
+    /*color: #333;*/
+    /*text-align: center;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.page-liangpin .block-wish .wish-form .item-cur{*/
+    /*border: 2px solid #4a7;*/
+    /*background: #C9E7D7;*/
+    /*cursor: default;*/
+/*}*/
+/*.page-liangpin .block-wish .wish-form .ipt-text{*/
+    /*width: 100px;*/
+    /*margin-right: 3px;*/
+    /*padding: 8px;*/
+    /*border: 1px solid #DDD;*/
+    /*border-radius: 3px;*/
+/*}*/
+/*.page-liangpin .block-wish .wish-form .ipt-sub,*/
+/*.page-liangpin .wish-qrcode-wrap .wish-again{*/
+    /*background: #4a7;*/
+    /*padding: 6px 40px;*/
+    /*margin-top: 20px;*/
+    /*color: #fff;*/
+    /*border: 0;*/
+    /*border-radius: 4px;*/
+    /*font-size: 14px;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.page-liangpin .wish-qrcode-wrap .wish-again,*/
+/*.page-liangpin .wish-qrcode-wrap .wish-again:hover{*/
+    /*margin-top: 5px;*/
+    /*text-decoration: none;*/
+/*}*/
+/*.page-liangpin .wish-model-select-wrap{*/
+    /*background: #fff;*/
+    /*border: 1px solid #EAEAEA;*/
+    /*overflow-y: auto;*/
+/*}*/
+/*.page-liangpin .wish-model-select-wrap li{*/
+    /*float: left;*/
+    /*display: block;*/
+    /*width: 50%;*/
+    /*line-height: 32px;*/
+    /*text-align: center;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.page-liangpin .wish-model-select-wrap li:hover{*/
+    /*background: #E0E0E0;*/
+/*}*/
+/*.page-liangpin .wish-model-select-wrap .tit,*/
+/*.page-liangpin .wish-model-select-wrap .tit:hover{*/
+    /*float: none;*/
+    /*padding-left: 20px;*/
+    /*width: auto;*/
+    /*background: #f4f4f4;*/
+    /*text-align: left;*/
+/*}*/
+
+/*.page-liangpin .wish-qrcode-wrap{*/
+    /*z-index: 9;*/
+    /*background: #fff;*/
+    /*border: 1px solid #EAEAEA;*/
+    /*color: #999;*/
+/*}*/
+/*.page-liangpin .wish-qrcode-wrap img{*/
+    /*width: 51%;*/
+/*}*/
+/*.page-liangpin .wish-qrcode-wrap .tip{*/
+    /*color: #4a7;*/
+    /*font-size: 16px;*/
+    /*font-weight: bolder;*/
+    /*padding: 3px 0;*/
+/*}*/

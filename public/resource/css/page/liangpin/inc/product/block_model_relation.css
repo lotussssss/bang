@@ -1,0 +1,28 @@
+/* 相关推荐机型 */
+.page-liangpin .model-relation-h3 {
+    height: 45px;
+    border: 1px solid #e5e5e5;
+    line-height: 45px;
+    padding: 0 0 0 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.page-liangpin .model-relation {
+    margin-bottom: 20px;
+}
+
+.page-liangpin .model-relation .p-item {
+    width: 298px;
+    height: 320px;
+    font-size: 14px;
+}
+
+.page-liangpin .model-relation .p-item .p-pic {
+    padding-top: 30px;
+    height: 140px
+}
+
+.page-liangpin .model-relation .p-item .p-pic img {
+    height: 120px;
+}

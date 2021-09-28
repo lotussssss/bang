@@ -1,0 +1,407 @@
+a:hover {
+    text-decoration: none;
+}
+
+.c999 {
+    color: #999999;
+}
+.filter{
+    filter: blur(5px);
+}
+.page-xxg-fuli-index{
+    background-color: #fff;
+}
+.page-xxg-fuli-index{
+    line-height:1;
+}
+
+#swipe-container {
+    overflow: hidden;
+    visibility: hidden;
+    position: relative;
+}
+#swipe-container .swipe-wrap {
+    overflow: hidden;
+    position: relative;
+    height: 1.2rem;
+}
+#swipe-container .swipe-wrap .swipe-item {
+    float:left;
+    width:100%;
+    position: relative;
+    height: 1.2rem;
+}
+#swipe-container .swipe-wrap .swipe-item a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#swipe-container .swipe-wrap .swipe-item a img {
+    width: 100%;
+    height: 100%;
+}
+#swipe-container .swipe-nav{
+    position: absolute;
+    bottom: .1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+#swipe-container .swipe-nav .swipe-nav-item{
+    display: inline-block;
+    width: .1rem;
+    height: .1rem;
+    background-color: #000;
+    margin: 0 .05rem;
+    border-radius: 1rem;
+}
+#swipe-container .swipe-nav .swipe-nav-item.active {
+    background-color: #fff;
+}
+/* 顶部tabs */
+.page-xxg-fuli-index .top-redpack-tab {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .1rem;
+}
+
+.page-xxg-fuli-index .top-redpack-tab .tab-btn {
+    margin: 0 .4rem;
+    text-align: center;
+    height: .3rem;
+    line-height: .3rem;
+    font-size: .14rem;
+    color: #999;
+}
+.page-xxg-fuli-index .top-redpack-tab .tab-btn.active {
+    border-bottom: .02rem solid #16a654;
+    color: #16a654;
+}
+
+.page-xxg-fuli-index .block-package-money{
+    padding: .1rem 0;
+    border-bottom: .01rem solid #ebebeb;
+    border-top: .01rem solid #ebebeb;
+    text-align: center;
+    position: relative;
+}
+/* 红包说明 */
+.page-xxg-fuli-index .block-package-money .redpack-tips {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: .06rem;
+    top: .1rem;
+    font-size: .12rem;
+    height: .18rem;
+    color: #999;
+}
+.page-xxg-fuli-index .block-package-money .redpack-tips .iconfont{
+    margin-right: .02rem;
+}
+.page-xxg-fuli-index .block-package-money .package-item {
+    display: inline-block;
+    /*width: 1.58rem;*/
+    text-align: center;
+}
+.page-xxg-fuli-index .block-package-money .package-item .item-text{
+    margin-top: .04rem;
+    color: #999;
+}
+.page-xxg-fuli-index .block-package-money .given {
+    color: #ff6666;
+    /*border-right: .01rem solid #d9d9d9;*/
+}
+.page-xxg-fuli-index .block-package-money .freezen {
+    color: #16a654;
+}
+.page-xxg-fuli-index .block-package-money .package-item .item-num {
+    font-size: .193rem;
+    padding-top : .1rem;
+}
+.page-xxg-fuli-index .block-package-detail{}
+/* 领取红包项目的标题 */
+.page-xxg-fuli-index .block-package-detail .detail-item-title{
+    background-color: #ebebeb;
+    display: flex;
+    height: .26rem;
+    line-height: .26rem;
+    color: #333;
+    padding: 0 .1rem;
+    justify-content: space-between;
+}
+
+.page-xxg-fuli-index .block-package-detail .detail-item-title .cash-fail-btn {
+    color: #fa5b21;
+}
+.page-xxg-fuli-index .block-package-detail .detail-item{
+    border-bottom: .01rem solid #ebebeb;
+    display: flex;
+    min-height: .6rem;
+}
+.page-xxg-fuli-index .block-package-detail .detail-item .left {
+    width: .6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-xxg-fuli-index .block-package-detail .detail-item .left .redbao {
+     width: .36rem;
+     /*width: .26rem;*/
+     /*height: .36rem;*/
+ }
+.page-xxg-fuli-index .block-package-detail .detail-item .left .qian {
+    width: .36rem;
+    /*width: .37rem;*/
+    /*height: .33rem;*/
+}
+/* 订单信息 */
+.page-xxg-fuli-index .block-package-detail .detail-item .detail-info-content {
+    padding: .12rem .06rem .12rem 0;
+    width: 100%;
+}
+.page-xxg-fuli-index .block-package-detail .detail-item .b-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-xxg-fuli-index .block-package-detail .detail-item .b-center .main-text {
+    font-size: .14rem;
+    line-height: .23rem;
+    height: .23rem;
+}
+.page-xxg-fuli-index .block-package-detail .detail-item .detail-info-content .sub-text {
+    margin-top: .04rem;
+    padding-left: .05rem;
+    color: #999;
+    display: flex;
+    justify-content: space-between;
+    font-size: .1rem;
+    position: relative;
+}
+
+.page-xxg-fuli-index .block-package-detail .detail-item .detail-info-content .sub-text .order-list {
+    margin-bottom: .04rem;
+    /*width: 1.06rem;*/
+    height: .12rem;
+    overflow: hidden;
+    display: flex;
+}
+.page-xxg-fuli-index .block-package-detail .detail-item .detail-info-content .sub-text .order-list .order-title {
+    width: .44rem;
+}
+.page-xxg-fuli-index .block-package-detail .detail-item .detail-info-content .sub-text .order-list .order-id {
+    width: 1.1rem;
+}
+.page-xxg-fuli-index .block-package-detail .detail-item .detail-info-content .sub-text .order-list.more-item{
+    height: auto;
+    overflow: inherit;
+}
+.page-xxg-fuli-index .block-package-detail .detail-item .detail-info-content .sub-text .more-btn {
+    color: #ebebeb;
+    position: absolute;
+    bottom: 0;
+    left: 44%;
+    transform: translate(-50%, 74%) rotate(-90deg);
+    font-size: .2rem;
+}
+
+.page-xxg-fuli-index .block-package-detail .detail-item .detail-info-content .sub-text .more-btn.single-btn {
+    transform: translate(-50%, 74%) rotate(90deg);
+}
+
+.page-xxg-fuli-index .block-package-detail .detail-item .right {
+    width: .77rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.page-xxg-fuli-index .block-package-detail .detail-item .right.right-hidden {
+    display: none;
+}
+.page-xxg-fuli-index .block-package-detail .detail-item .right .get-package {
+    width: .64rem;
+    height: .23rem;
+    line-height: .23rem;
+    border: .01rem solid #ff6666;
+    border-radius: .12rem;
+    color: #ff6666;
+    text-align: center;
+}
+.page-xxg-fuli-index .block-package-detail .detail-item .right-money {
+    /*width: .5rem;*/
+    color: #fa5b21;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.page-xxg-fuli-index .pre-loading{
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    margin-right: .1rem;
+    vertical-align: middle;
+    background: url("https://p.ssl.qhimg.com/t01ba5f7e8ffb25ce89.gif") no-repeat center/contain;
+}
+
+/*-------------------点开红包------------------------*/
+.page-xxg-fuli-index .package-wrap {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.6);
+}
+.page-xxg-fuli-index .package-wrap .btn-close{
+    position: absolute;
+    top: .6rem;
+    right: .1rem;
+    width: .3rem;
+    height: .3rem;
+    line-height: .3rem;
+    text-align: center;
+    border: .01rem solid #fff;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: .2rem;
+}
+.page-xxg-fuli-index .package-wrap .package-inner {
+    width: 2.5rem;
+    margin: 30% auto;
+    border-radius: .1rem;
+    overflow: hidden;
+}
+.page-xxg-fuli-index .package-wrap .block-header-img {
+    height: 1.13rem;
+    background:url("https://p3.ssl.qhmsg.com/t01c4419a33c40c5347.png") no-repeat center/cover;
+}
+.page-xxg-fuli-index .package-wrap .block-before-get{
+    display: none;
+    height: 2.4rem;
+    background:url("https://p2.ssl.qhmsg.com/t01b25a67ec91858ff3.png") no-repeat center/cover;
+    overflow: hidden;
+}
+.page-xxg-fuli-index .package-wrap .block-before-get .btn-kai {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    margin: .3rem auto;
+}
+.page-xxg-fuli-index .package-wrap .block-before-get .desc-placeholder{
+    text-align: center;
+    height: .33rem;
+    color: #ffdea9;
+    line-height: .33rem;
+    font-size: .2rem;
+}
+.page-xxg-fuli-index .package-wrap .block-after-get{
+    /*display: none;*/
+    display: block;
+    height: 2.4rem;
+    background:url("https://p3.ssl.qhmsg.com/t0191f761947c290c53.png") no-repeat center/cover;
+    text-align: center;
+    padding-top: .3rem;
+}
+.page-xxg-fuli-index .package-wrap .block-after-get .congratulate {
+    font-size: .3rem;
+    color: #93591f;
+}
+.page-xxg-fuli-index .package-wrap .block-after-get .desc {
+    font-size: .16rem;
+    color: #753f15;
+    padding-top: .2rem;
+}
+.page-xxg-fuli-index .package-wrap .block-after-get .money {
+    font-size: .41rem;
+    color: #743e15;
+    padding-top: .2rem
+}
+.page-xxg-fuli-index .package-wrap .block-after-get .money-txt{
+    color: #743e15;
+    font-size: .14rem
+}
+.page-xxg-fuli-index .package-wrap .block-after-get .bottom-txt{
+    color: #743e15;
+    font-size: .12rem;
+    padding-top:.1rem;
+}
+
+/* 重新提现操作 */
+.page-xxg-fuli-index .dialog-content .dialog-txt .bank-info-content {
+    color: #333;
+}
+.page-xxg-fuli-index .dialog-content .dialog-txt .bank-info-content .bank-title {
+    font-size: .17rem;
+    font-weight: bold;
+    text-align: center;
+}
+.page-xxg-fuli-index .dialog-content .dialog-txt .bank-info-content .bank-info-item {
+    display: flex;
+    font-weight: bold;
+}
+.page-xxg-fuli-index .dialog-content .dialog-txt .bank-info-content .bank-info-item.info-title {
+    margin-bottom: .1rem;
+}
+.page-xxg-fuli-index .dialog-content .dialog-txt .bank-info-content .bank-info-item .front-title {
+    width: .7rem;
+    font-weight: normal;
+}
+.page-xxg-fuli-index .dialog-content .dialog-txt .bank-info-content .bottom-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .2rem;
+}
+.page-xxg-fuli-index .dialog-content .dialog-txt .bank-info-content .bottom-btns .bank-info-btn {
+    display: block;
+    width: 2.13rem;
+    height: .37rem;
+    line-height: .37rem;
+    border-radius: .05rem;
+    text-align: center;
+    font-size: .14rem;
+}
+.page-xxg-fuli-index .dialog-content .dialog-txt .bank-info-content .bottom-btns .bank-info-btn.edit-account {
+    background-color: #41a454;
+    color: #fff;
+    margin-bottom: .1rem;
+}
+.page-xxg-fuli-index .dialog-content .dialog-txt .bank-info-content .bottom-btns .bank-info-btn.get-money-to-account {
+    background-color: #ededed;
+    /*border: .01rem solid #b4b4b4;*/
+    color: #333;
+}
+
+/* 修修哥身份实名验证 */
+.page-xxg-fuli-index .xxg-real-name-mainbody-top .top-explain {
+    padding: .4rem .2rem .2rem;
+    display: flex;
+    align-items: center;
+}
+.page-xxg-fuli-index .xxg-real-name-mainbody-top .top-explain .xxg-real-name-logo-pic {
+    width: .6rem;
+    height: .6rem;
+    margin-right: .1rem;
+}
+.page-xxg-fuli-index .xxg-real-name-mainbody-top .top-explain .xxg-real-name-explain {
+    font-size: .14rem;
+}
+.page-xxg-fuli-index .xxg-real-name-mainbody-top .waring-explain {
+    text-align: center;
+    font-size: .14rem;
+    color: red;
+    margin-bottom: .2rem;
+}
+/* 修修哥实名信息填写 */
+.page-xxg-fuli-index #mainbody #xxgRealName {
+    padding: 0 .2rem;
+}
+.page-xxg-fuli-index #mainbody #xxgRealName .btn-edit-idnum-confirm{
+    margin-top: .15rem;
+    width: 100%;
+    height: .36rem;
+    background-color: #ff8844;
+    font-size: .14rem;
+}

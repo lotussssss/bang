@@ -1,0 +1,52 @@
+.page-xxg-gift-card-suning-gift-card {
+
+}
+
+.page-xxg-gift-card-suning-gift-card .align-right {
+    text-align: right;
+}
+
+.page-xxg-gift-card-suning-gift-card .align-left {
+    text-align: left;
+}
+
+.page-xxg-gift-card-suning-gift-card .mainbody-inner {
+    padding: .3rem .1rem;
+    width: 100%;
+    height: 100vh;
+    font-size: .16rem;
+    text-align: center;
+    background-color: #fff;
+    color: #666;
+}
+
+.page-xxg-gift-card-suning-gift-card .icon-circle-tick {
+    font-size: .5rem;
+    color: #16a654;
+}
+
+.page-xxg-gift-card-suning-gift-card .tips {
+    padding: .1rem 0;
+}
+
+.page-xxg-gift-card-suning-gift-card .row {
+    line-height: 2.4;
+    color: #999;
+}
+
+.page-xxg-gift-card-suning-gift-card .row .col-12-8 {
+    padding-left: .1rem;
+}
+
+.page-xxg-gift-card-suning-gift-card .row-button {
+    padding-top: .6rem;
+}
+
+.page-xxg-gift-card-suning-gift-card .btn {
+    padding: 0 .2rem;
+    min-width: .72rem;
+    height: .36rem;
+    line-height: .36rem;
+    border-radius: .04rem;
+    background-color: #f84;
+}

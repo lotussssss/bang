@@ -1,0 +1,112 @@
+.page-hd-oppo-order-success {
+    width: 100%;
+    min-height: 100vh;
+    max-width: 3.2rem;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+    padding-bottom: .78rem;
+}
+
+/* 头部成功标志 */
+.page-hd-oppo-order-success .top-logo{
+    padding-top: .48rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-hd-oppo-order-success .top-logo .icon-zhifuchenggong {
+    color: #44cc44;
+    font-size: .5rem;
+    height: .5rem;
+    line-height: .5rem;
+}
+
+.page-hd-oppo-order-success .top-logo .tips {
+    margin-top: .17rem;
+    font-size: .18rem;
+    height: .18rem;
+    line-height: .18rem;
+    color: #44cc44;
+}
+
+/* 苏宁门店 */
+.page-hd-oppo-order-success .suning-shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .56rem;
+    text-align: center;
+}
+
+.page-hd-oppo-order-success .suning-shop .shuoming-tips {
+    font-size: .16rem;
+    line-height: .24rem;
+    color: #333;
+}
+
+/* 查看门店列表 按钮 */
+.page-hd-oppo-order-success .suning-shop .shop-list {
+    padding-top: .5rem;
+}
+
+.page-hd-oppo-order-success .suning-shop .shop-list .shop-list-btn {
+    padding: 0 .24rem;
+    text-align: center;
+    height: .36rem;
+    line-height: .36rem;
+    background-color: #44cc44;
+    color: #fff;
+    font-size: .16rem;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.page-hd-oppo-order-success .suning-shop .shop-list .shop-list-btn:hover {
+    text-decoration: none;
+}
+
+.page-hd-oppo-order-success .suning-shop .shop-tips {
+    margin-top: .1rem;
+    font-size: .12rem;
+    height: .12rem;
+    line-height: .12rem;
+    color: #999;
+    text-align: center;
+}
+
+/* 底部logo */
+.page-hd-oppo-order-success .bottom-logo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: .78rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .14rem 0;
+    background-color: #fff;
+}
+
+.page-hd-oppo-order-success .bottom-logo .logo {
+    text-indent: -9999em;
+    width: .9rem;
+    height: .28rem;
+    background: url(https://p3.ssl.qhmsg.com/t012cf4912a2dbfe610.png) no-repeat;
+    background-size: contain;
+}
+
+.page-hd-oppo-order-success .bottom-logo .logo img {
+    width: 100%;
+    height: auto;
+    font-size: 0;
+}
+
+.page-hd-oppo-order-success .bottom-logo .logo-tips {
+    line-height: .22rem;
+    font-size: .125rem;
+    color: #666;
+    text-align: center;
+}

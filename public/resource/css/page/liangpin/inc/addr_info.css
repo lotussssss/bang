@@ -1,0 +1,114 @@
+/*优品地址信息block*/
+
+/*地址列表*/
+.liangpin-addrinfo-block .addrinfo-item {
+    position    : relative;
+    padding     : 0 0 0 40px;
+    height      : 36px;
+    line-height : 36px;
+    color       : #444;
+    cursor      : pointer;
+    font-size: 0;
+}
+.liangpin-addrinfo-block .addrinfo-item span,
+.liangpin-addrinfo-block .addrinfo-item a{
+    display: inline-block;
+    *display: inline;
+    *zoom : 1;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.liangpin-addrinfo-block .addrinfo-item .addrinfo-item-radio {
+    margin-right : 10px;
+    vertical-align: middle;
+}
+
+.liangpin-addrinfo-block .addrinfo-item .addrinfo-item-default {
+    position : absolute;
+    left     : 740px;
+    display  : none;
+}
+
+.liangpin-addrinfo-block .addrinfo-item .addrinfo-item-setdefault {
+    position : absolute;
+    left     : 730px;
+    display  : none;
+}
+
+.liangpin-addrinfo-block .addrinfo-item .addrinfo-item-edit {
+    position : absolute;
+    left     : 800px;
+    display  : none;
+}
+
+.liangpin-addrinfo-block .addrinfo-item .addrinfo-item-del {
+    position : absolute;
+    left     : 838px;
+    display  : none;
+}
+
+.liangpin-addrinfo-block .selected {
+    background  : #feecdd;
+    font-weight : bold;
+}
+
+.liangpin-addrinfo-block .hover {
+    background : #feecdd;
+}
+
+/*地址编辑框*/
+.liangpin-addrinfo-block .addrinfo-block {
+    border : 0;
+}
+
+.liangpin-addrinfo-block .addrinfo-block {
+    padding    : 20px;
+    border     : 1px solid #eaeaea;
+    background : #fff;
+    color      : #444;
+}
+
+.liangpin-addrinfo-block .addrinfo-block {
+    padding : 10px 20px;
+}
+
+.liangpin-addrinfo-block .addrinfo-block .line {
+    padding : 6px 0 6px 15px;
+}
+
+.liangpin-addrinfo-block .addrinfo-block .line-left em {
+    margin-right : 10px;
+    color        : #ff8530;
+}
+
+.liangpin-addrinfo-block .addrinfo-block .line-left {
+    display        : inline-block;
+    *display       : inline;
+    *zoom          : 1;
+    width          : 90px;
+    vertical-align : middle;
+    text-align     : left;
+}
+
+.liangpin-addrinfo-block .addrinfo-block .line-right {
+    display        : inline-block;
+    *display       : inline;
+    *zoom          : 1;
+    vertical-align : middle;
+}
+
+.liangpin-addrinfo-block .addrinfo-block .line select {
+    height      : 25px;
+    line-height : 25px;
+    border      : 1px solid #dadada;
+    color       : #444;
+}
+
+.liangpin-addrinfo-block .addrinfo-block .add-addr-submit {
+    width      : 92px;
+    height     : 36px;
+    background : url(https://p.ssl.qhimg.com/t01c345961b9ebe910b.jpg) no-repeat 0 0;
+    border     : 0;
+    cursor     : pointer;
+}

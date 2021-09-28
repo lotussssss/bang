@@ -1,0 +1,99 @@
+.page-zhimacredit-shopHs-order-OMS-success {
+    width: 100%;
+    max-width: 3.2rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* 页面主体部分 */
+.page-zhimacredit-shopHs-order-OMS-success #Main.main {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+/* 页面头部 */
+.page-zhimacredit-shopHs-order-OMS-success .oms-success-top {
+    padding-top: .192rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 头部 icon 及文字 */
+.page-zhimacredit-shopHs-order-OMS-success .oms-success-top .oms-success-icon {
+    width: .48rem;
+    height: .48rem;
+    background: url(https://p0.ssl.qhmsg.com/t01e8773436a24711d0.png) no-repeat;
+    background-size: contain;
+}
+.page-zhimacredit-shopHs-order-OMS-success .oms-success-top .oms-success-text {
+    margin-top: .17066rem;
+    font-size: .18773rem;
+    line-height: .2731rem;
+    text-align: center;
+    color: #44cc44;
+}
+
+/* 邮寄 */
+.page-zhimacredit-shopHs-order-OMS-success .youji-shuoming {
+    margin-top: .17066rem;
+    text-align: center;
+}
+.page-zhimacredit-shopHs-order-OMS-success .youji-shuoming .title {
+    font-size: .1536rem;
+    height: .1536rem;
+    line-height: .1536rem;
+    color: #000;
+}
+.page-zhimacredit-shopHs-order-OMS-success .youji-shuoming .text {
+    padding: .1194rem 0;
+    font-size: .1024rem;
+    line-height: .1536rem;
+    color: #999;
+}
+
+/* 顺丰寄件 */
+.page-zhimacredit-shopHs-order-OMS-success .shunfeng-shijian {
+    padding: 0 .128rem;
+}
+.page-zhimacredit-shopHs-order-OMS-success .shunfeng-shijian .shunfeng-tips {
+    padding: .0853rem .2133rem;
+    border-radius: .0426rem;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.page-zhimacredit-shopHs-order-OMS-success .shunfeng-shijian .shunfeng-tips span {
+    line-height: .2133rem;
+    font-size: .128rem;
+    color: #666;
+}
+
+/* 我知道了 按钮 */
+.page-zhimacredit-shopHs-order-OMS-success .block-oms-success-btn {
+    padding: .19627rem 0;
+    text-align: center;
+}
+.page-zhimacredit-shopHs-order-OMS-success .block-oms-success-btn .oms-btn {
+    width: 1.8944rem;
+    height: .3584rem;
+    border-radius: 100px;
+    line-height: .3584rem;
+    font-size: .1536rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #44cc44;
+}
+
+/* 底部文字 */
+.page-zhimacredit-shopHs-order-OMS-success .bottom-text {
+    margin-top: .218rem;
+    padding: 0 .2133rem;
+}
+.page-zhimacredit-shopHs-order-OMS-success .bottom-text p {
+    line-height: .16213rem;
+    font-size: .1024rem;
+    color: #999;
+}
+
+

@@ -1,0 +1,293 @@
+.w100{
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+.block-inner {
+    margin: 0 auto;
+    width: 1000px;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.page-hd-618 {
+    background :#a8030d;
+    min-width: 1000px;
+}
+.page-hd-618 .dialog-inner{
+    /*padding: 0;*/
+}
+.page-hd-618 .topbar .in{
+    width: 1000px;
+}
+.page-hd-618 .mainbody{
+    padding-bottom: 50px;
+}
+
+/*活动商品列表样式*/
+.page-hd-618 .ui-sp-product-list-1{
+    min-height: 310px;
+    /*background-color: #c20e1d;*/
+    padding: 10px 15px 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.page-hd-618 .ui-sp-product-list-1 .p-item{
+    margin:0 10px 10px 0;
+    width: 235px;
+    height: 316px;
+    border:none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.page-hd-618 .ui-sp-product-list-1 .p-item.p-item-last{
+    margin-right: 0;
+}
+.page-hd-618 .ui-sp-product-list-1 .p-item .p-tit{
+    height: 28px;
+    font-size: 20px;
+    font-weight: bold;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    word-break: break-all;
+}
+.page-hd-618 .ui-sp-product-list-1 .p-item .p-tit-sub{
+    padding-top: 0;
+    font-size: 14px;
+}
+.page-hd-618 .ui-sp-product-list-1 .p-item .p-pic{
+    height: 166px;
+    padding-top: 30px;
+}
+.page-hd-618 .ui-sp-product-list-1 .p-item .p-pic img {
+    height: 156px;
+}
+.page-hd-618 .ui-sp-product-list-1 .p-item .p-price{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 25px 0 0;
+    height: 53px;
+    line-height: 53px;
+    text-align: right;
+    background: url("https://p5.ssl.qhimg.com/t01b92c55234414dd03.png") no-repeat center;
+    overflow: hidden;
+}
+.page-hd-618 .ui-sp-product-list-1 .p-item .p-price-cur{
+    font-size: 16px;
+    color: #ffeb9c;
+}
+.page-hd-618 .ui-sp-product-list-1 .p-item .p-price-cur .p-price-num{
+    font-size: 30px;
+    vertical-align: middle;
+}
+/*活动商品列表样式 end*/
+
+/*更多*/
+.page-hd-618 .more{}
+.page-hd-618 .more a{
+    display: block;
+    margin: 0 auto;
+    width: 248px;
+    height: 61px;
+    background: url(https://p3.ssl.qhimg.com/t019bdb8dfea9a5e4c6.png) no-repeat center 0;
+}
+/*更多 end*/
+
+/*头图*/
+.page-hd-618 .block-top,
+.page-hd-618 .block-top .block-inner{
+    height: 640px;
+    background: url(https://p3.ssl.qhimg.com/t019a7451017545cb90.jpg) no-repeat center 0;
+}
+/*头图 end*/
+
+/*标题*/
+.page-hd-618 .block-tit{
+    height: 62px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.page-hd-618 .block-coupon .block-tit{
+    background: url(https://p1.ssl.qhimg.com/t018cf08bce373d4853.jpg) no-repeat center;
+}
+.page-hd-618 .block-plus-vip .block-tit{
+    background: url(https://p1.ssl.qhimg.com/t013f87e74618f82cf2.jpg) no-repeat center;
+}
+.page-hd-618 .block-lottery .block-tit{
+    background: url(https://p1.ssl.qhimg.com/t019dd7ac7ae7e80332.jpg) no-repeat center;
+}
+.page-hd-618 .block-tehui .block-tit{
+    background: url(https://p2.ssl.qhimg.com/t01400f5e86fa72a16d.jpg) no-repeat center;
+}
+.page-hd-618 .block-flash-product .block-tit{
+    background: url(https://p5.ssl.qhimg.com/t0145ddf3bf1cedb246.jpg) no-repeat center;
+}
+.page-hd-618 .block-new-product .block-tit{
+    background: url(https://p1.ssl.qhimg.com/t011b170c4ef21f2862.jpg) no-repeat center;
+}
+.page-hd-618 .block-desc .block-tit{
+    background: url(https://p0.ssl.qhimg.com/t017961ed4bd09fd181.jpg) no-repeat center;
+}
+/*标题 end*/
+
+/*优惠券*/
+.page-hd-618 .block-coupon .coupon-bg{
+    width: 973px;
+    height: 293px;
+    background: url(https://p0.ssl.qhimg.com/t01fab41a5560cf3c97.png) no-repeat center 0px;
+    margin: 0 auto;
+    position: relative;
+}
+.page-hd-618 .block-coupon .shenquan-list{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 135px;
+}
+.page-hd-618 .block-coupon .shenquan-item{
+    width: 478px;
+    height: 100%;
+    position: relative;
+}
+.page-hd-618 .block-coupon .shenquan-item.shenquan-item1{
+    float: left;
+}
+.page-hd-618 .block-coupon .shenquan-item.shenquan-item2{
+    float: right;
+}
+.page-hd-618 .block-coupon .shenquan-item .shenquan-btn{
+    width: 140px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    position: absolute;
+    right: 20px;
+    bottom: 28px;
+    background: #e02635;
+    border-radius: 999px;
+    color: #fff;
+    font-size: 16px;
+}
+.page-hd-618 .block-coupon .shenquan-item.shenquan-item-disabled .shenquan-btn{
+    background: #c1c1c1;
+    cursor: default;
+}
+/*优惠券 end*/
+
+/*plus会员banner*/
+.page-hd-618 .block-plus-vip,
+.page-hd-618 .block-plus-vip .block-inner{
+    text-align: center;}
+/*plus会员banner end*/
+
+/*专场特惠*/
+.page-hd-618 .block-tehui .tehui-list{
+    height: 298px;
+    background: url(https://p2.ssl.qhimg.com/t01b2b4fd4dc59b74c0.png) no-repeat center 0;
+    padding: 0 15px;
+}
+.page-hd-618 .block-tehui .tehui-list a{
+    height: 100%;
+}
+/*专场特惠 end*/
+
+/*砸金蛋*/
+.page-hd-618 .block-lottery .lottery-bg{
+    width: 963px;
+    height: 358px;
+    background: url(https://p0.ssl.qhimg.com/t0124a6a1def0e64e2d.jpg) no-repeat center 0;
+    margin: 0 auto;
+    position: relative;
+    color: #fce2ae;
+}
+.page-hd-618 .block-lottery .lottery-bg .lottery-desc{
+    width: 270px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+.page-hd-618 .block-lottery .lottery-bg .lottery-desc .tit{
+    font-size: 34px;
+}
+.page-hd-618 .block-lottery .lottery-bg .lottery-desc .cont{
+    font-size: 16px;
+}
+.page-hd-618 .block-lottery .lottery-bg .lottery-desc .cont p{
+    padding-top: 10px;
+}
+.page-hd-618 .block-lottery .lottery-bg .lottery-desc .cont b{
+    font-weight: bold;
+}
+.page-hd-618 .block-lottery .lottery-user-list {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 12px;
+    /*width: 800px;*/
+    height: 25px;
+    overflow: hidden;
+}
+.page-hd-618 .block-lottery .lottery-user-list-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.page-hd-618 .block-lottery .lottery-user-list .lottery-item{
+    height: 25px;
+    line-height: 25px;
+    color: #fce2ae;
+    font-size: 0;
+}
+.page-hd-618 .block-lottery .lottery-user-list .item-sub{
+    display: inline-block;
+    width: 33.333%;
+    font-size: 18px;
+    text-align: left;
+}
+.page-hd-618 .block-lottery .lottery-ewm{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 520px;
+    top: 92px;
+}
+/*砸金蛋 end*/
+
+/*活动说明*/
+.page-hd-618 .block-desc,
+.page-hd-618 .block-desc .block-inner{}
+.page-hd-618 .block-desc .desc-cont{
+    font-size: 18px;
+    color: #ffeb9c;
+}
+.page-hd-618 .block-desc .desc-cont p{
+    padding: 30px 0 0 40px;
+}
+/*活动说明 end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

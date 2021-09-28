@@ -1,0 +1,36 @@
+/* 新春大礼包 */
+.new-year-customer-gift-shower-panel-wrap{
+
+}
+.new-year-customer-gift-shower-panel-wrap .hd,
+.new-year-customer-gift-shower-panel-wrap .ft{
+    display: none;
+}
+.new-year-customer-gift-shower-panel-wrap .close{
+    position: absolute;
+    top: 10px;
+    right: 17px;
+    display: block;
+    width: 41px;
+    height: 41px;
+    background: url(https://p.ssl.qhimg.com/t011ccfaa5874f58a59.jpg) no-repeat 0 0;
+}
+.new-year-customer-gift-shower-panel-wrap .extendservice-confirm-panel{
+    padding: 10px;
+    width: 855px;
+    height: 490px;
+    background: #fff;
+    color: #434444;
+    font-size: 18px;
+    /*border: 1px solid #333;*/
+}
+.new-year-customer-gift-shower-panel-wrap .extendservice-confirm-panel .tit{
+    margin-bottom: 10px;
+    padding: 5px 0 10px 25px;
+    color: #000;
+    font-size: 24px;
+    border-bottom: 1px solid #CBCBCB;
+}
+.new-year-customer-gift-shower-panel-wrap .extendservice-confirm-panel .cnt{
+    padding: 0;
+}

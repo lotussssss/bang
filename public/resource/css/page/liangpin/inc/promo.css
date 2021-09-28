@@ -1,0 +1,129 @@
+/*优惠码/券*/
+.block-promo{
+    color: #333;
+}
+.block-promo .block-promo-title{
+    padding: 14px 0 0 40px;
+}
+.block-promo .block-promo-title .need-promo-checkable{
+    cursor: pointer;
+}
+.block-promo .block-promo-title .need-promo-checkable .checkbox{
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #999;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.block-promo .block-promo-title .need-promo-checkable .check-txt{
+    font-size: 16px;
+    line-height: 20px;
+}
+.block-promo .block-promo-title .need-promo-checkable .coupon-disabled{
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 20px;
+    color:red;
+}
+.block-promo .block-promo-title .need-promo-checked .checkbox{
+    background: url(https://p.ssl.qhimg.com/t0166185e214fb9e498.jpg) no-repeat 0 0;
+}
+.block-promo .block-promo-title .promo-info{
+    font-size: 14px;
+    padding-left: 28px;
+}
+.block-promo .block-promo-title .youhui-count{
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 20px;
+    color: red;
+}
+.block-promo .block-promo-cont-inner{
+    padding: 15px 0 15px 70px;
+    border-bottom: 1px dashed #ededed;
+    font-size: 14px;
+}
+/*优惠码*/
+.block-promo .code .code-input{
+    width: 280px;
+    height: 40px;
+    padding-left: 15px;
+    border: 1px solid #dadada;
+}
+.block-promo .code .btn-use-code{
+    width: 80px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    background: #f40;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.block-promo .code .btn-disabled{
+    background: #c8c8c8;
+    color: #fff;
+    cursor: default;
+}
+.block-promo .code .code-tips{
+    color: #f40;
+    padding-left: 8px;
+    line-height: 42px;
+}
+/*优惠券*/
+.block-promo .coupon .coupon-title{
+    font-size: 16px;
+    line-height: 20px;
+}
+.block-promo .coupon .coupon-list .coupon-item{
+    float: left;
+    width: 240px;
+    border: 1px solid #dadada;
+    border-left: 6px solid #f40;
+    margin: 15px 30px 0px 0;
+    text-align: center;
+    font-size: 12px;
+}
+.block-promo .coupon .coupon-list .coupon-item-checked{
+    background: url(https://p.ssl.qhimg.com/t012750ecee8f66a47c.png) no-repeat right bottom;
+    border-color: #f40;
+}
+.block-promo .coupon .coupon-list .coupon-item-t,
+.block-promo .coupon .coupon-list .coupon-item-b{
+    height: 50px;
+}
+.block-promo .coupon .coupon-list .coupon-item-t{
+    border-bottom: 1px dashed #dadada;
+    color: #f40;
+}
+.block-promo .coupon .coupon-list .coupon-item-b{
+
+}
+.block-promo .coupon .coupon-item .coupon-price{
+    font-size: 16px;
+    line-height: 50px;
+}
+.block-promo .coupon .coupon-item .coupon-price-num{
+    font-size: 38px;
+    font-weight: bold;
+}
+.block-promo .coupon .coupon-item .coupon-name{
+    color: #666;
+    height: 20px;
+    padding-top: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.block-promo .coupon .coupon-item .coupon-date{
+    color: #999;
+}
+.block-promo .coupon-able .coupon-item{
+    cursor: pointer;
+}
+.block-promo .block-promo-cont .block-promo-cont-inner .coupon-disabled *{
+    color: #999;
+    border-left-color: #ccc;
+}
+/*优惠码/券END*/

@@ -1,0 +1,10 @@
+/*花呗分期*/
+.page-liangpin-product .prd-c-line-huabei { }
+
+.page-liangpin-product .prd-c-line-huabei .prd-c-cnt .p-c-item {
+    padding: 6px 0 0 0;
+    width: 138px;
+    height: 44px;
+    line-height: 1.6;
+    text-align: center;
+}

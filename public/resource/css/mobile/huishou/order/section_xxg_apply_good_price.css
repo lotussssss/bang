@@ -1,0 +1,91 @@
+.xxg-apply-good-price-section{
+
+}
+.xxg-apply-good-price-section .swipe-section-close{
+    /*display: none;*/
+}
+.xxg-apply-good-price-section .swipe-section-inner{
+    padding-top: .2rem;
+}
+.xxg-apply-good-price-section .row{
+    padding: .1rem;
+    line-height: 1.68;
+    text-align: center;
+}
+.xxg-apply-good-price-section .input-radius{
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+}
+.xxg-apply-good-price-section .btn{
+    margin: 0 auto;
+    width: 60%;
+    height: .36rem;
+    line-height: .36rem;
+    font-size: .14rem;
+}
+
+.xxg-apply-good-price-complete-dialog{
+    border: 0;
+    background-color: #fff;
+}
+.xxg-apply-good-price-complete-dialog .dialog-inner{
+    padding: .2rem 0;
+    text-align: center;
+}
+.xxg-apply-good-price-complete-dialog .row-title{
+
+}
+.xxg-apply-good-price-complete-dialog .row{
+    padding: .1rem 0;
+    line-height: 1.68;
+}
+.xxg-apply-good-price-complete-dialog .waiting{
+    margin: 0 auto;
+    width: .24rem;
+    height: .24rem;
+    background: url(https://p.ssl.qhimg.com/t015f3d5ddf0e5a1b71.png) no-repeat center;
+    background-size: contain;
+    animation:rotating 3s linear infinite;
+}
+
+.xxg-apply-good-price-checked-result-dialog {
+    border: 0;
+    background-color: #fff;
+}
+
+.xxg-apply-good-price-checked-result-dialog .dialog-inner {
+    padding: .2rem 0;
+    text-align: center;
+}
+
+.xxg-apply-good-price-checked-result-dialog .row {
+    padding: .1rem 0;
+    line-height: 1.68;
+}
+
+.xxg-apply-good-price-checked-result-dialog .btn {
+    margin: 0 auto;
+    display: block;
+    width: .8rem;
+    height: .3rem;
+    line-height: .3rem;
+    font-size: .12rem;
+    color: #fff;
+}
+
+.xxg-apply-good-price-checked-result-dialog .row-desc{
+
+}
+.xxg-apply-good-price-checked-result-dialog .row-desc em{
+    padding: .1rem 0 .06rem 0;
+    display: block;
+}
+.xxg-apply-good-price-checked-result-dialog .row-desc span{
+    display: block;
+    color: #999;
+}
+
+.xxg-apply-good-price-checked-result-dialog {
+
+}

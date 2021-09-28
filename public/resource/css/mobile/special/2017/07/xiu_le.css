@@ -1,0 +1,107 @@
+
+a,a:hover{
+    text-decoration: none;
+}
+
+.page-hd-xiu-le {
+    background: #f5f5f5;
+    font-size: .12rem;
+}
+
+.page-hd-xiu-le .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-xiu-le .block {
+    width: 100%;
+}
+
+.page-hd-xiu-le img{
+    width: 100%;
+}
+
+.page-hd-xiu-le .block1,
+.page-hd-xiu-le .block1 .block-inner{
+    height: 1.191111111111111rem;
+    background: url(https://p1.ssl.qhmsg.com/t016dacbdcfeab2c06d.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.page-hd-xiu-le .block2,
+.page-hd-xiu-le .block2 .block-inner{
+    height: 1.2622222222222221rem;
+    background: url(https://p1.ssl.qhmsg.com/t01481e97e3dd3c350f.png) no-repeat center;
+    background-size: cover;
+}
+
+.page-hd-xiu-le .xiu-item{
+    background-color: #fff;
+    box-shadow: 0 0 .3rem 1px #eaeaea;
+}
+.page-hd-xiu-le .xiu-item .tit{
+    font-size: .16rem;
+    color: #353535;
+}
+.page-hd-xiu-le .xiu-item .price{
+    font-size: .12rem;
+    color: #f30;
+}
+.page-hd-xiu-le .xiu-item .price .num{
+    font-size: .2rem;
+}
+.page-hd-xiu-le .xiu-item .btn{
+    display: inline-block;
+    width: .93rem;
+    height: .25rem;
+    text-align: center;
+    line-height: .25rem;
+    border-radius: 999px;
+    background: #ff3300;
+    color: #fff;
+    font-size: .13rem;
+    vertical-align: middle;
+}
+
+.page-hd-xiu-le .block3 .xiu-item{
+    height: 1.031111111111111rem;
+}
+.page-hd-xiu-le .block3 .pic{
+    height: 1.031111111111111rem;
+}
+.page-hd-xiu-le .block3 .pic img{
+    width: auto;
+    height: 100%;
+}
+.page-hd-xiu-le .block3 .txt{
+    margin-left: 1.6444444444444444rem;
+    text-align: center;
+}
+.page-hd-xiu-le .block3 .tit{
+    padding-top: .08rem;
+}
+
+.page-hd-xiu-le .block-tit{
+    font-size: .14rem;
+    color: #353535;
+    line-height: .38rem;
+    text-align: center;
+}
+.page-hd-xiu-le .block4 .row{
+    margin: 0 .1rem .3rem;
+}
+.page-hd-xiu-le .block4 .xiu-item{
+    width: 1.45rem;
+    text-align: center;
+    margin-bottom: .1rem;
+    padding-bottom: .2rem;
+}
+.page-hd-xiu-le .block4 .xiu-item0,
+.page-hd-xiu-le .block4 .xiu-item2{
+    margin-right: .1rem;
+}
+.page-hd-xiu-le .block4 .xiu-item .tit{
+    padding-top: .1rem;
+}
+

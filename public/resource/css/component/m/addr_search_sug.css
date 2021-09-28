@@ -1,0 +1,40 @@
+/******* address suggest *******/
+.ui-addrsug-suglist,
+.ui-addrsug-defsug{
+    overflow: hidden;
+    border: 1px solid #40AF24;
+    background: #fff;
+    margin-left: -1px;
+    font-size: 14px;
+
+}
+.ui-addrsug-suglist .ui-addrsug-sugitem{
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0 5px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.ui-addrsug-suglist .ui-addrsug-sugitem b{
+    font-weight: normal;
+}
+.ui-addrsug-suglist .ui-addrsug-sugitem span{
+    color: #ccc;
+    font-size: 12px;
+    margin-left: 6px;
+}
+.ui-addrsug-suglist .ui-addrsug-sugitem:hover,
+.ui-addrsug-suglist .ui-addrsug-sugitem.on{
+    background: #F1F1F1;
+}
+.ui-addrsug-defsug{
+    border:1px solid #d0d0d0;
+}
+.ui-addrsug-defsug .ui-addrsug-defitem{
+    color: #9A6;
+    padding: 0 5px;
+    line-height: 30px;
+}
+/******* END address suggest *******/

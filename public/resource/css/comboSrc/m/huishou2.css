@@ -1,0 +1,88 @@
+/*通用*/
+@import url("../../mobile/huishou/_common/snippet_btn.css");
+@import url("../../mobile/huishou/_common/snippet_color.css");
+@import url("../../mobile/huishou/_common/snippet_row.css");
+
+@import url("../../mobile/huishou/_common/block_schedule_pickup.css");
+@import url("../../mobile/huishou/_common/protocol.css");
+
+@import url("../../mobile/huishou/common.css");
+@import url("../../mobile/huishou/header.css");
+
+/*首页*/
+@import url("../../mobile/huishou/index/index.css");
+@import url("../../mobile/huishou/index/block_search_box.css");
+@import url("../../mobile/huishou/index/block_hot_model.css");
+@import url("../../mobile/huishou/index/block_top_default.css");
+@import url("../../mobile/huishou/index/block_recycle_cate_tab.css");
+@import url("../../mobile/huishou/index/block_brand_model_list.css");
+@import url("../../mobile/huishou/index/block_user_comment.css");
+@import url("../../mobile/huishou/index/block_recycle_white_goods.css");
+@import url("../../mobile/huishou/index/block_crazy_coupon.css");
+@import url("../../mobile/huishou/index/fill_up_blood.css");
+
+/*多个页面通用*/
+@import url("../../mobile/huishou/_common/block_detect_report.css");
+@import url("../../mobile/huishou/_common/block_trend_grid.css");
+@import url("../../mobile/huishou/_common/block_other_offer.css");
+@import url("../../mobile/huishou/_common/block_model.css");
+@import url("../../mobile/huishou/_common/block_model_suning_spread.css");
+@import url("../../mobile/huishou/_common/block_model_olduser_hs_pric.css");
+@import url("../../mobile/huishou/_common/assess_report_section.css");
+
+/*评估页*/
+@import url("../../mobile/huishou/assess/assess.css");
+@import url("../../mobile/huishou/assess/assess_model.css");
+@import url("../../mobile/huishou/assess/assess_info.css");
+@import url("../../mobile/huishou/assess/assess_option_desc.css");
+@import url("../../mobile/huishou/assess/block_assess_official_diff.css");
+
+/*评估结果下单页*/
+@import url("../../mobile/huishou/order/order.css");
+@import url("../../mobile/huishou/order/submit_daodian.css");
+@import url("../../mobile/huishou/order/submit_shangmen.css");
+@import url("../../mobile/huishou/order/submit_youji.css");
+@import url("../../mobile/huishou/order/daodian_addr_select.css");
+@import url("../../mobile/huishou/order/order_submit.css");
+@import url("../../mobile/huishou/order/hs_protocol.css");
+@import url("../../mobile/huishou/order/dialog_suning_spread_zhimacredit_auth.css");
+@import url("../../mobile/huishou/order/section_xxg_apply_good_price.css");
+@import url("../../mobile/huishou/_common/dialog_gold_engineer_order_payment.css");
+
+/*下单成功页*/
+@import url("../../mobile/huishou/order_succ/order_succ.css");
+
+/*下单页过期页*/
+@import url("../../mobile/huishou/order_expired/order_expired.css");
+
+/*预约上门取件*/
+@import url("../../mobile/huishou/order_schedule_pickup/order_schedule_pickup.css");
+
+/* 以旧换新 */
+@import url("../../mobile/huishou/huanxin.css");
+@import url("../../mobile/huishou/_common/block_huanxin_process_align.css");
+@import url("../../mobile/huishou/_common/block_huanxin_product.css");
+@import url("../../mobile/huishou/order_succ/huanxin_order_succ.css");
+
+/* 手机检测app */
+@import url("../../mobile/huishou/detect.css");
+
+/* 合作伙伴-江苏移动 */
+@import url("../../mobile/huishou/partner_jiangsu_yidong.css");
+/* 合作伙伴-苏宁小店分享 */
+@import url("../../mobile/huishou/partner_suning_store_share.css");
+/* 合作伙伴-苏宁云店 miniAPP */
+@import url("../../mobile/huishou/partner_suning_yundian_miniapp.css");
+/* 合作伙伴cps-四川超强*/
+@import url("../../mobile/huishou/partner_chaoqiang_store.css");
+/* 合作伙伴-丰修*/
+@import url("../../mobile/huishou/partner_fengxiu.css");
+/* 合作伙伴-浙江移动小程序 */
+@import url("../../mobile/huishou/partner_zhejiang_yidong_miniapp.css");
+/*离店回收样式*/
+@import url("../../mobile/huishou/ldhs.css");
+/*in河南移动app*/
+@import url("../../mobile/huishou/in_hnyd_app.css");
+/*天机汇帮卖*/
+@import url("../../mobile/huishou/tjh_bangmai.css");
+

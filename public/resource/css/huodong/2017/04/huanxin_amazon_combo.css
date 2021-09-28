@@ -1,0 +1,186 @@
+.topbar .in,
+.block-inner {
+    width: 960px;
+}
+
+.page-hd-huanxin-amazon-combo {
+    background-color: #f5f5f5;
+    color: #666;
+}
+
+.page-hd-huanxin-amazon-combo .block-tit {
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    font-size: 30px;
+    color: #444;
+}
+
+.page-hd-huanxin-amazon-combo .block1,
+.page-hd-huanxin-amazon-combo .block1 .block-inner {
+    height: 240px;
+    background: #b1ede3 url(https://p.ssl.qhimg.com/t01a6e5f89970bf9ae3.jpg) no-repeat center 0;
+}
+
+.page-hd-huanxin-amazon-combo .block2,
+.page-hd-huanxin-amazon-combo .block2 .block-inner {
+    height: 318px;
+    background: #b1ede3 url(https://p1.ssl.qhmsg.com/t01a94fced14ba8f5b7.png) no-repeat center 0;
+}
+
+.page-hd-huanxin-amazon-combo .block3 {
+
+}
+
+.page-hd-huanxin-amazon-combo .block3 .block-tit {
+    height: 96px;
+    background: url(https://p.ssl.qhimg.com/t01dfc1accbb066b037.png) no-repeat center 0;
+    text-align: left;
+    text-indent: -9999px;
+}
+
+.huanxin-product-list {
+    padding: 10px 0;
+}
+
+.huanxin-product-list .item {
+    margin: 0 8px 10px 0;
+    float: left;
+    display: block;
+    width: 234px;
+    height: 274px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    background: #fff;
+    color: #666;
+}
+
+.huanxin-product-list .item:hover {
+    text-decoration: none;
+}
+
+.huanxin-product-list .img {
+    margin: 20px auto 10px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.huanxin-product-list .tit {
+    font-size: 18px;
+}
+
+.huanxin-product-list .desc {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #ff7a71;
+}
+
+.huanxin-product-list .btn {
+    margin: 2px auto 2px;
+    width: 150px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 16px;
+    background: #ff7a71;
+    color: #fff;
+    border-radius: 999px;
+}
+
+.huanxin-product-list .item:hover .btn {
+    background: #ff8075;
+}
+
+.huanxin-product-list .item:active .btn {
+    background: #ff7a71;
+}
+.huanxin-product-list .item .btn-disabled{
+    background: #ddd;
+}
+.huanxin-product-list .item:hover .btn-disabled {
+    background: #ddd;
+}
+
+.huanxin-product-list .item:active .btn-disabled {
+    background: #ddd;
+}
+
+.huanxin-product-list .item-last {
+    margin-right: 0;
+}
+
+.huanxin-product-list .item-more {
+
+}
+.huanxin-product-list .item-more .img{
+    margin-top: 60px;
+    width: 90px;
+    height: 141px;
+}
+.huanxin-product-list .item-more .desc{
+    color: #666;
+    font-size: 16px;
+}
+
+.page-hd-huanxin-amazon-combo .block4 {
+
+}
+
+.page-hd-huanxin-amazon-combo .block4 .row-process-desc {
+    padding: 120px 0 50px;
+    background: url(https://p.ssl.qhimg.com/t019324649e56e4b547.png) no-repeat center 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.page-hd-huanxin-amazon-combo .block-desc {
+    font-size: 16px;
+}
+
+.page-hd-huanxin-amazon-combo .block-desc ul {
+    padding: 0 60px 0 90px;
+    list-style-type: decimal;
+}
+
+.page-hd-huanxin-amazon-combo .block-desc ul li {
+    margin-bottom: 10px;
+}
+
+.page-hd-huanxin-amazon-combo .block-desc .tips {
+    line-height: 3;
+    text-align: center;
+}
+
+.page-hd-huanxin-amazon-combo .block-desc .btn-details-dialog-trigger {
+    text-decoration: underline;
+}
+
+.page-hd-huanxin-amazon-combo .block-desc .contact-tel {
+    padding: 10px 0 30px;
+    text-align: center;
+}
+
+
+/*活动说明及条款*/
+.dialog-amazon-combo-activity-details-wrap{
+    width: 960px;
+}
+.dialog-amazon-combo-activity-details-wrap .dialog-inner{
+    padding: 35px 30px;
+}
+.dialog-amazon-combo-activity-details-wrap h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+.dialog-amazon-combo-activity-details-wrap ol{
+    padding: 10px 0 10px 25px;
+    height: 450px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.dialog-amazon-combo-activity-details-wrap li{
+    padding-bottom: 8px;
+    list-style-type: decimal;
+}

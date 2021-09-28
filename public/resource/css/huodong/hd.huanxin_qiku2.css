@@ -1,0 +1,730 @@
+html, body {
+    background  : #fff;
+    font-family : "Microsoft YaHei", "arial", "宋体";
+}
+
+.errorblink {
+    border : 1px solid #fb0909 !important;
+}
+
+.relative {
+    position : relative;
+}
+
+.f12 {
+    font-size : 12px;
+}
+
+.w100 {
+    width : 100%;
+}
+
+/*行的基本模式*/
+.block, .row,
+.col-2-1,
+.col-4-1,
+.col-left-fixed, .col-left,
+.col-right, .col-right-fixed {
+    display : block;
+}
+
+.row:after {
+    display    : block;
+    clear      : both;
+    visibility : hidden;
+    height     : 0;
+    content    : '\20';
+}
+
+.row {
+    zoom  : 1;
+    clear : both;
+}
+
+.col-2-1,
+.col-4-1,
+.col-left-fixed {
+    float : left;
+}
+
+.col-2-1 {
+    width : 50%;
+}
+
+.col-4-1 {
+    width : 25%;
+}
+
+.col-right-fixed {
+    float : right;
+}
+
+/*END行的基本模式*/
+/* 箭头 */
+.arrow-down,
+.arrow-right {
+    position : relative;
+}
+
+.arrow-right:after {
+    content           : "";
+    display           : block;
+    position          : absolute;
+    width             : 8px;
+    height            : 8px;
+    right             : 6px;
+    top               : 50%;
+    margin-top        : -7px;
+    border-top        : 2px solid #ccc;
+    border-right      : 2px solid #ccc;
+    -webkit-transform : rotate(45deg);
+    transform         : rotate(45deg);
+}
+
+.arrow-down:after {
+    content           : "";
+    display           : block;
+    position          : absolute;
+    width             : 8px;
+    height            : 8px;
+    right             : 10px;
+    top               : 50%;
+    margin-top        : -7px;
+    border-top        : 2px solid #ccc;
+    border-right      : 2px solid #ccc;
+    -webkit-transform : rotate(135deg);
+    transform         : rotate(135deg);
+}
+
+/* END箭头 */
+
+/*奇酷以旧换新*/
+.page-hd-qiku-huanxin .mainbody {
+}
+
+.page-hd-qiku-huanxin .mainbody-inner {
+    margin : 0 auto;
+    width  : 960px;
+}
+
+.page-hd-qiku-huanxin .block-liji-huanxin-wrap {
+    height : 362px;
+}
+
+.page-hd-qiku-huanxin .block-liji-huanxin-wrap .slide-box {
+    height   : 362px;
+    overflow : hidden;
+}
+
+.page-hd-qiku-huanxin .block-liji-huanxin-wrap .top-pic {
+    float  : left;
+    width  : 100%;
+    height : 362px;
+}
+
+.page-hd-qiku-huanxin .block-liji-huanxin-wrap .top-pic-inner {
+    height : 362px;
+}
+
+.page-hd-qiku-huanxin .block-liji-huanxin-wrap .top-pic0 {
+    /*background: url(https://p.ssl.qhimg.com/t0160f284fee4956cf7.jpg) no-repeat center 0;*/
+    background : url(https://p.ssl.qhimg.com/t0162116528586854bd.jpg) no-repeat center 0;
+}
+
+.page-hd-qiku-huanxin .block-liji-huanxin-wrap .top-pic0 .top-pic-inner {
+    /*background: url(https://p.ssl.qhimg.com/t0160f284fee4956cf7.jpg) no-repeat center 0;*/
+    background : url(https://p.ssl.qhimg.com/t0162116528586854bd.jpg) no-repeat center 0;
+}
+
+/*.page-hd-qiku-huanxin .block-liji-huanxin-wrap .pic-ctrl-wrap{*/
+/*position: relative;*/
+/*margin: 0 auto;*/
+/*width: 960px;*/
+/*z-index: 998;*/
+/*}*/
+/*.page-hd-qiku-huanxin .block-liji-huanxin-wrap .pic-ctrl{*/
+/*position: absolute;*/
+/*top: -40px;*/
+/*left: 400px;*/
+/*z-index: 999;*/
+/*}*/
+/*.page-hd-qiku-huanxin .block-liji-huanxin-wrap .ctrl-item{*/
+/*float: left;*/
+/*margin-right: 20px;*/
+/*width: 14px;*/
+/*height: 14px;*/
+/*background: url(https://p.ssl.qhimg.com/t01b5af32a14743b06a.png) no-repeat center 0;*/
+/*}*/
+/*.page-hd-qiku-huanxin .block-liji-huanxin-wrap .ctrl-item-curr{*/
+/*background: url(https://p.ssl.qhimg.com/t01c6032198bb881c2a.png) no-repeat center 0;*/
+/*}*/
+.page-hd-qiku-huanxin .block-liji-huanxin {
+    position : relative;
+    margin   : 0 auto;
+    width    : 960px;
+}
+
+.page-hd-qiku-huanxin .block-liji-huanxin .btn-liji-huanxin {
+    position      : absolute;
+    top           : -86px;
+    left          : 478px;
+    display       : block;
+    width         : 170px;
+    height        : 46px;
+    line-height   : 46px;
+    font-size     : 0;
+    color         : #fff;
+    text-align    : center;
+    border-radius : 999px;
+    background    : transparent;
+}
+
+.page-hd-qiku-huanxin .block-liji-huanxin .btn-liji-huanxin:hover {
+    text-decoration : none;
+    background      : rgba(255, 118, 74, 0.10);
+    *background     : transparent;
+}
+
+.page-hd-qiku-huanxin .block-liji-huanxin .btn-liji-huanxin:active {
+    background  : rgba(255, 118, 74, 0.20);
+    *background : transparent;
+}
+
+.page-hd-qiku-huanxin .block-liji-huanxin .btn-duojiu-huanxin {
+    position  : absolute;
+    top       : -62px;
+    left      : 39px;
+    color     : #fff;
+    font-size : 16px;
+}
+
+.page-hd-qiku-huanxin .block-chaozhi-huanxin {
+    /*height: 450px;*/
+    text-align : center;
+}
+
+.page-hd-qiku-huanxin .block-chaozhi-huanxin h3 {
+    height     : 70px;
+    background : url(https://p.ssl.qhimg.com/t012956a6f376b814d9.jpg) no-repeat center 0;
+}
+
+.page-hd-qiku-huanxin .block-chaozhi-huanxin .fangan-list {
+    padding-left : 6px;
+}
+
+.page-hd-qiku-huanxin .block-chaozhi-huanxin .item {
+    margin-right    : 11px;
+    float           : left;
+    display         : block;
+    width           : 229px;
+    text-align      : center;
+    text-decoration : none;
+    color           : #727171;
+}
+
+.page-hd-qiku-huanxin .block-chaozhi-huanxin .item:hover {
+    text-decoration : none;
+}
+
+.page-hd-qiku-huanxin .block-chaozhi-huanxin .tit {
+    font-size : 26px;
+}
+
+.page-hd-qiku-huanxin .block-chaozhi-huanxin .price {
+    font-size   : 18px;
+    line-height : 1.8;
+}
+
+.page-hd-qiku-huanxin .block-chaozhi-huanxin .btn {
+    margin-top    : 5px;
+    width         : 184px;
+    height        : 44px;
+    line-height   : 44px;
+    text-align    : center;
+    font-size     : 16px;
+    background    : #ff764a;
+    color         : #fff;
+    border-radius : 999px;
+}
+
+.page-hd-qiku-huanxin .block-chaozhi-huanxin .item:hover .btn {
+    background : #f88545;
+}
+
+.page-hd-qiku-huanxin .block-chaozhi-huanxin .item:active .btn {
+    background : #ee7448;
+}
+
+.page-hd-qiku-huanxin .block-chaozhi-huanxin .item-last {
+    margin-right : 0;
+}
+
+.page-hd-qiku-huanxin .block-chaozhi-huanxin .btn-more-xiaomi-huanxin {
+    margin     : 30px auto;
+    display    : inline-block;
+    *display   : inline;
+    *zoom      : 1;
+    text-align : center;
+    font-size  : 14px;
+}
+
+.page-hd-qiku-huanxin .block-more-jiuji h3 {
+    height     : 65px;
+    background : url(https://p.ssl.qhimg.com/t01652a6d2fd91f053a.jpg) no-repeat 173px 0;
+}
+
+.page-hd-qiku-huanxin .block-zhichi {
+    position    : relative;
+    padding-top : 1px;
+    height      : 322px;
+    /*background: url(https://p.ssl.qhimg.com/t01c5f0a68c2563938e.jpg) no-repeat center 0;*/
+    background  : url(https://p.ssl.qhimg.com/t012fbd1cacb984713c.jpg) no-repeat center 0;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .btn-kankan-jiuji {
+    /*margin        : 233px auto 0 auto;*/
+    position      : absolute;
+    left          : 277px;
+    top           : 233px;
+    display       : block;
+    width         : 410px;
+    height        : 72px;
+    line-height   : 72px;
+    font-size     : 26px;
+    text-align    : center;
+    color         : #fff;
+    background    : transparent;
+    border-radius : 999px;
+    font-size     : 0;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .btn-kankan-jiuji:hover {
+    text-decoration : none;
+    background      : transparent;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .btn-kankan-jiuji:active {
+    background : transparent;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .br {
+    position : absolute;
+    top      : 103px;
+    left     : 2px;
+    display  : block;
+    width    : 105px;
+    height   : 48px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .br:hover {
+    text-decoration : none;
+    box-shadow      : 0 0 6px #497fcc;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .apple {
+    left : 2px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .samsung {
+    left : 108px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .honor {
+    left : 215px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .oppo {
+    left : 320px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .jinli {
+    left : 426px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .doov {
+    left : 533px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .xiaomi {
+    left : 638px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .htc {
+    left : 745px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .sony {
+    left : 851px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .motorola {
+    top  : 152px;
+    left : 2px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .blackberry {
+    top  : 152px;
+    left : 108px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .lg {
+    top  : 152px;
+    left : 215px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .nokia {
+    top  : 152px;
+    left : 320px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .lenovo {
+    top  : 152px;
+    left : 426px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .vivo {
+    top  : 152px;
+    left : 533px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .meizu {
+    top  : 152px;
+    left : 638px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .yijia {
+    top  : 152px;
+    left : 745px;
+}
+
+.page-hd-qiku-huanxin .block-zhichi .other {
+    top  : 152px;
+    left : 851px;
+}
+
+.page-hd-qiku-huanxin .block-intro {
+    height     : 569px;
+    background : url(https://p.ssl.qhimg.com/t01b724f16c9a782a7d.jpg) no-repeat center 0;
+}
+
+.page-hd-qiku-huanxin .block-tip {
+    height     : 430px;
+    background : url(https://p.ssl.qhimg.com/t016914baf6aaafbb28.png) no-repeat center 20px;
+}
+
+.page-hd-qiku-huanxin .returnToTop a {
+    z-index : 999;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin-wrap {
+    /*position: absolute;*/
+    /*top: 100px;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*margin: 0 auto;*/
+    width         : 736px;
+    height        : 450px;
+    background    : #ffa00a;
+    border-radius : 8px;
+    border        : 0;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin-wrap .close {
+    position   : absolute;
+    top        : 10px;
+    right      : 10px;
+    width      : 46px;
+    height     : 47px;
+    background : url(https://p.ssl.qhimg.com/t016057f8c6e5a701b5.jpg) no-repeat center 0;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin {
+    font-size : 16px;
+    color     : #fff;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin .inpt {
+    padding       : 12px 20px;
+    width         : 320px;
+    line-height   : 20px;
+    border        : 1px solid #b2b2b2;
+    background    : #fff;
+    border-radius : 4px;
+    cursor        : text;
+    color         : #000;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin .inpt-default {
+    color : #a9a9a9;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin .inpt-secode {
+    width : 150px;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin h3 {
+    font-size      : 34px;
+    text-align     : center;
+    padding-top    : 8px;
+    padding-bottom : 8px;
+    line-height    : 2;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin .row {
+    margin : 0 0 14px 110px;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin .col-left-fixed {
+    width       : 75px;
+    line-height : 46px;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin .col-right {
+    margin-left : 75px;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin .btn-fapiao-upload {
+    margin-left : 142px;
+    display     : block;
+    width       : 213px;
+    height      : 46px;
+    background  : url(https://p.ssl.qhimg.com/t016aae5455f2abec49.jpg) no-repeat center 0;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin .btn-fapiao-upload-inner {
+    background : transparent;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin .fapiao-upload-tips {
+    display  : none;
+    position : absolute;
+    top      : 12px;
+    left     : 362px;
+    color    : #f01;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin .btn-get-secode {
+    margin-left    : 10px;
+    padding        : 0 20px;
+    display        : inline-block;
+    *display       : inline;
+    *zoom          : 1;
+    height         : 47px;
+    line-height    : 47px;
+    color          : #fff;
+    background     : #ffc150;
+    text-align     : center;
+    vertical-align : middle;
+    border-radius  : 4px;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin .btn-get-secode:hover {
+    text-decoration : none;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin .btn-get-secode-disabled {
+    background : #d8d3d3;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin .submit {
+    margin-left   : 126px;
+    display       : block;
+    width         : 240px;
+    height        : 56px;
+    line-height   : 56px;
+    font-size     : 28px;
+    color         : #fff;
+    background    : #f02a57;
+    text-align    : center;
+    border        : 0;
+    border-radius : 999px;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin .tip,
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin-succ .tip {
+    position    : absolute;
+    bottom      : 30px;
+    margin-left : 194px;
+    color       : #9b4900;
+    font-size   : 14px;
+    text-align  : left;
+}
+
+.page-hd-qiku-huanxin .model-list {
+    display    : none;
+    position   : absolute;
+    top        : 132px;
+    left       : 185px;
+    width      : 360px;
+    border     : 1px solid #b2b2b2;
+    background : #fff;
+    color      : #666;
+}
+
+.page-hd-qiku-huanxin .model-list .item {
+    float           : left;
+    display         : block;
+    width           : 50%;
+    height          : 36px;
+    line-height     : 36px;
+    text-align      : center;
+    color           : #666;
+    text-decoration : none;
+}
+
+.page-hd-qiku-huanxin .model-list .item:hover {
+    color      : #000;
+    background : #f0f0f0;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin-succ {
+    padding-top : 85px;
+    font-size   : 16px;
+    color       : #fff;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin-succ .col-left-fixed {
+    padding : 10px;
+    width   : 96px;
+    height  : 92px;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin-succ .col-right {
+    margin-left : 116px;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin-succ h3 {
+    padding-top : 1px;
+    font-size   : 26px;
+    line-height : 2;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin-succ .desc {
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin-succ .qrcode {
+    margin  : 0 auto;
+    display : block;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-huanpin-succ .succ-info {
+    margin-left   : 112px;
+    margin-bottom : 10px;
+}
+
+.page-hd-qiku-huanxin .dialog-duojiu-huanxin-tip-wrap {
+    width      : auto;
+    height     : auto;
+    border     : 0;
+    background : transparent;
+}
+
+.page-hd-qiku-huanxin .dialog-duojiu-huanxin-tip-wrap .close {
+    position : absolute;
+    top      : 0;
+    right    : 0;
+    width    : 70px;
+    height   : 70px;
+    cursor   : pointer;
+}
+
+.page-hd-qiku-huanxin .dialog-duojiu-huanxin-tip {
+    width      : 875px;
+    height     : 572px;
+    background : url(https://p.ssl.qhimg.com/t0136418d9039a043d0.jpg) no-repeat center 0;
+}
+
+.page-hd-qiku-huanxin .dialog-duojiu-huanxin-tip .btn-liji-huanxin {
+    position      : absolute;
+    top           : 496px;
+    left          : 306px;
+    display       : block;
+    width         : 218px;
+    height        : 60px;
+    line-height   : 60px;
+    font-size     : 26px;
+    color         : #fff;
+    text-align    : center;
+    border-radius : 999px;
+    background    : #ffc150;
+}
+
+.page-hd-qiku-huanxin .dialog-duojiu-huanxin-tip .btn-liji-huanxin:hover {
+    text-decoration : none;
+    background      : #ffcc58;
+}
+
+.page-hd-qiku-huanxin .dialog-duojiu-huanxin-tip .btn-liji-huanxin:active {
+    background : #ecb04d;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-select-product-wrap {
+    /*width: 875px;*/
+    background : transparent;
+    border     : 0;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-select-product-wrap .close {
+    background : transparent;
+    position   : absolute;
+    right      : 10px;
+    top        : 10px;
+    width      : 47px;
+    height     : 47px;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-select-product {
+    width      : 900px;
+    height     : 493px;
+    /*background: url(https://p.ssl.qhimg.com/t01e243441a0b885663.jpg) no-repeat 0 0;*/
+    /*background : url(https://p.ssl.qhimg.com/t01c483eaf957183367.jpg) no-repeat 0 0;*/
+    background : url(https://p.ssl.qhimg.com/t01a8993961aa7c998d.png) no-repeat 0 0;
+}
+
+/*.page-hd-qiku-huanxin .dialog-hdqiku-select-product div{*/
+/*width: 222px;*/
+/*height: 100px;*/
+/*position: absolute;*/
+/*top:372px;*/
+/*text-align: center;*/
+/*}*/
+
+/*.page-hd-qiku-huanxin .dialog-hdqiku-select-product .f4{*/
+/*left: 42px;*/
+/*}*/
+/*.page-hd-qiku-huanxin .dialog-hdqiku-select-product .qingchunban{*/
+/*left: 333px;*/
+/*}*/
+/*.page-hd-qiku-huanxin .dialog-hdqiku-select-product .qijianban{*/
+/*left: 645px;*/
+/*}*/
+/*.page-hd-qiku-huanxin .dialog-hdqiku-select-product .price{*/
+/*color: #f40;*/
+/*padding-bottom: 20px;*/
+/*font-size: 24px;*/
+/*line-height: 24px;*/
+/*}*/
+.page-hd-qiku-huanxin .dialog-hdqiku-select-product .btn-lijihuanxin {
+    float         : left;
+    /*width: 222px;*/
+    width         : 225px;
+    /*height: 56px;*/
+    height        : 493px;
+    display       : block;
+    /*border-radius: 28px;*/
+    border-radius : 0;
+    cursor        : pointer;
+}
+
+.page-hd-qiku-huanxin .dialog-hdqiku-select-product .qijianban-tips {
+    display    : none;
+    position   : absolute;
+    top        : 485px;
+    /*left: 468px;*/
+    left       : 0;
+    /*width: 400px;*/
+    width      : 100%;
+    text-align : center;
+    font-size  : 16px;
+    color      : #f01;
+}

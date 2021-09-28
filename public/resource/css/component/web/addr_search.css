@@ -1,0 +1,41 @@
+/*地址搜索表单样式*/
+.addr-search-box{
+    height: 29px;
+    background: url(https://p.ssl.qhimg.com/t01db96650f6b2fafcb.jpg) no-repeat 0 0;
+    margin: 10px 0 5px 70px;
+}
+.addr-search-box form{
+    width: 307px;
+}
+.addr-search-box .addr-ipt{
+    height: 19px;
+    line-height: 19px;
+    width: 205px;
+    padding: 5px 5px 5px 24px;
+    border: 0;
+    background: transparent;
+    float: left;
+    color: #666;
+}
+.addr-search-box .addr-btn{
+    width: 72px;
+    height: 29px;
+    border: 0;
+    background: transparent;
+    text-indent: -9999px;
+    float: left;
+    cursor: pointer;
+}
+
+.addr-search-box .default{
+    color: #999;
+}
+.addr-search-box .addr-search-err{
+    display: none;
+    color:#f00;
+    float: left;
+    height: 29px;
+    line-height: 29px;
+    margin-left: 10px;
+}
+/*END 地址搜索表单样式*/

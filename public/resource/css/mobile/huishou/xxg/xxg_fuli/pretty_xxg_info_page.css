@@ -1,0 +1,174 @@
+
+
+.page-pretty-xxg-info{
+    /*background-color: #fff;*/
+    line-height: 1;
+}
+.page-pretty-xxg-info .tab-nav {
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+.page-pretty-xxg-info .tab-nav .tab-item {
+    position: relative;
+    display: inline-block;
+    width: 1.58rem;
+    text-align: center;
+}
+.page-pretty-xxg-info .tab-nav .tab-item .item-txt {
+    display: inline-block;
+    padding: .1rem;
+    font-size: .16rem;
+    color: #aaa;
+    border-bottom: 2px solid transparent;
+}
+.page-pretty-xxg-info .tab-nav .tab-item.active .item-txt {
+    color: #4a7;
+    border-bottom: 2px solid #4a7;
+}
+.page-pretty-xxg-info .tab-nav .tab-item i {
+    position: absolute;
+    top: .04rem;
+    right: 0;
+    display: inline-block;
+    width: .01rem;
+    height: .3rem;
+    background-color: #ddd;
+}
+.page-pretty-xxg-info .tab-detail {
+    width: 3.2rem;
+    height: 4rem;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* 填写手机号 */
+.page-pretty-xxg-info .tab-detail .user-mobile-edit {
+    height: 1.32rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: .09rem;
+    background-color: #fff;
+}
+
+.page-pretty-xxg-info .tab-detail .detail-item{
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    width: 3.2rem;
+    transform: translateX(100%);
+    transition: all .5s ease ;
+    background-color: #fff;
+}
+.page-pretty-xxg-info .tab-detail .detail-item.active {
+    transform: translateX(0);
+}
+.page-pretty-xxg-info .tab-detail .user-mobile-edit .row, .page-pretty-xxg-info .tab-detail .detail-item .row {
+    height: .44rem;
+    display: flex;
+    align-items: center;
+    margin: 0 .1rem;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+.page-pretty-xxg-info .tab-detail .user-mobile-edit .row:nth-last-child(2), .page-pretty-xxg-info .tab-detail .detail-item .row:last-child {
+    border-bottom: 0 none;
+}
+.page-pretty-xxg-info .tab-detail .user-mobile-edit .require, .page-pretty-xxg-info .tab-detail .detail-item .require {
+    position: relative;
+}
+.page-pretty-xxg-info .tab-detail .user-mobile-edit .require:before, .page-pretty-xxg-info .tab-detail .detail-item .require:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: .1rem;
+    content: '*';
+    color: red;
+    line-height: .16rem;
+}
+.page-pretty-xxg-info .tab-detail .user-mobile-edit .row label, .page-pretty-xxg-info .tab-detail .detail-item .row label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.page-pretty-xxg-info .tab-detail .user-mobile-edit .row .name, .page-pretty-xxg-info .tab-detail .detail-item .row .name{
+    width: 1.1rem;
+    padding-left: .1rem;
+}
+.page-pretty-xxg-info .tab-detail .user-mobile-edit .row .content, .page-pretty-xxg-info .tab-detail .detail-item .row .content{
+    display: inline-block;
+    height: .3rem;
+    /*border: 1px solid #ccc;*/
+    border: 0 none;
+    /*border-radius: .05rem;*/
+    padding: 0 .1rem;
+    width: 1.8rem;
+}
+.page-pretty-xxg-info .tab-detail .detail-item .row select.content {
+    background-color: transparent;
+}
+.page-pretty-xxg-info .tab-detail .detail-item .row i.iconfont {
+    position: absolute;
+    right: .22rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: .12rem;
+    z-index: -1;
+}
+.page-pretty-xxg-info .tab-detail .detail-item .row .select-wrap {
+    height: 1rem;
+    overflow-y: scroll;
+}
+
+.page-pretty-xxg-info .tab-detail .user-mobile-edit .row .code-box{
+    width: .9rem;
+    padding: 0 0 0 .1rem;
+}
+
+.page-pretty-xxg-info .render-info{
+    position: fixed;
+    left: .2rem;
+    bottom: .56rem;
+    width: 2.8rem;
+    height: .44rem;
+    line-height: .44rem;
+    background-color: #4a7;
+    text-align: center;
+    color: #fff;
+    font-size: .14rem;
+    border-style: none;
+}
+
+/* 禁用效果 */
+.page-pretty-xxg-info .render-info.render-info-btn-disabled {
+    color: #999;
+    background-color: #efefef;
+}
+
+/* 图片验证码 */
+.page-pretty-xxg-info .tab-detail .user-mobile-edit .row .vcode-img {
+    width: .72rem;
+    margin-left: .16rem;
+}
+
+/* 短信验证码 */
+.page-pretty-xxg-info .tab-detail .user-mobile-edit .row .btn-get-sms-code {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-30%, -50%);
+    font-size: .12rem;
+    width: .72rem;
+    height: .3rem;
+    line-height: .3rem;
+    color: #4a7;
+    text-align: center;
+    border-radius: .04rem;
+    border: .01rem solid #4a7;
+}
+
+/* 禁用时的短信验证码 */
+.page-pretty-xxg-info .tab-detail .user-mobile-edit .row .btn-get-sms-code.btn-get-sms-code-disabled {
+    color: #999;
+    border: .01rem solid #efefef;
+}

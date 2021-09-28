@@ -1,0 +1,411 @@
+.blur {
+    -webkit-filter : blur(.10rem);
+}
+
+/*按钮*/
+.btn-a{
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+    height: .44rem;
+    line-height: .44rem;
+    color: #fffc00;
+    font-size: .18rem;
+    text-shadow: -.01rem 0 0 #510294,
+    .01rem 0 0 #510294,
+    0 .01rem 0 #510294,
+    0 -.01rem 0 #510294;
+    border: .02rem solid #510294;
+    border-radius: 999px;
+    box-sizing: content-box;
+    background-color: #ff2291;
+}
+.btn-a .btn-inner-left-top-line{
+    position: absolute;
+    top: .04rem;
+    left: .2rem;
+    width: .3rem;
+    border: .01rem solid #fffc00;
+    border-radius: 999px;
+}
+.btn-a .btn-inner-left-top-dot{
+    position: absolute;
+    top: .035rem;
+    left: .52rem;
+    width: .03rem;
+    border: .015rem solid #fffc00;
+    border-radius: 999px;
+}
+.btn-a .btn-inner-right-bottom-line{
+    position: absolute;
+    bottom: .05rem;
+    right: .3rem;
+    width: .3rem;
+    border: .01rem solid #fffc00;
+    border-radius: 999px;
+}
+.btn-a .btn-inner-right-bottom-dot{
+    position: absolute;
+    bottom: .05rem;
+    right: .25rem;
+    width: .03rem;
+    border: .015rem solid #fffc00;
+    border-radius: 999px;
+}
+
+/* page-hd-snhxjd 苏宁旧手机换新电器 */
+.page-hd-snhxjd{}
+.page-hd-snhxjd .mainbody{
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+    background: #a611ff url(https://p.ssl.qhimg.com/t019cb64915e1726da9.png) no-repeat 0 0;
+    background-size: contain;
+    color: #fff;
+}
+.page-hd-snhxjd .block1{
+    padding-top: 2rem;
+}
+.page-hd-snhxjd .huanxin-dianqi-box{
+    margin: 0 auto;
+    padding-bottom: .2rem;
+    min-height: 2.16rem;
+    width: 90%;
+    text-align: center;
+}
+.page-hd-snhxjd .huanxin-dianqi-box-date{
+    line-height: 2;
+    font-size: .14rem;
+    color: #ffea00;
+}
+
+.page-hd-snhxjd .block2{
+    margin: 0 5%;
+    padding: .1rem 0 .1rem 0;
+    font-size: .12rem;
+}
+.page-hd-snhxjd .block2 h3{
+    padding-bottom: .08rem;
+    font-size: .16rem;
+    font-weight: 600;
+}
+.page-hd-snhxjd .block2 ul{
+    padding: 0 0 0 .12rem;
+    list-style-type: decimal;
+}
+
+.page-hd-snhxjd .block3{
+    margin: 0 5%;
+    padding: .1rem 0 .3rem 0;
+    font-size: .12rem;
+}
+.page-hd-snhxjd .block3 h3{
+    padding-bottom: .08rem;
+    font-size: .16rem;
+    font-weight: 600;
+}
+.page-hd-snhxjd .block3 .col-left-fixed{
+    padding: .05rem 0 .05rem .05rem;
+    width: 1rem;
+}
+.page-hd-snhxjd .block3 .col-right{
+    padding: .05rem 0 .05rem .05rem;
+    margin-left: 1rem;
+}
+
+/* 品牌、机型列表*/
+.section-brand-model{
+    position: fixed;
+}
+.section-brand-model .block-top{
+    height: .44rem;
+    line-height: .44rem;
+    font-size: .12rem;
+    text-align: center;
+}
+.section-brand-model .block-model-list,
+.section-brand-model .block-brand-list {
+    position: absolute;
+    top: .44rem;
+    right: 0;
+    left: auto;
+    bottom: 0;
+    width: 80%;
+    overflow: hidden;
+}
+
+.section-brand-model .block-brand-list {
+    left: 0;
+    right: auto;
+    width: 20%;
+}
+.section-brand-model .block-brand-list .block-brand-list-inner{
+    visibility: hidden;
+}
+
+.section-brand-model .block-model-list .item,
+.section-brand-model .block-brand-list .item {
+    display: block;
+    height: .44rem;
+    line-height: .44rem;
+    color: #666;
+    background-color: #fff;
+}
+
+.section-brand-model .block-model-list .item {
+    padding-left: .16rem;
+    text-align: left;
+}
+.section-brand-model .block-model-list .item:active {
+    background: #f5f5f5;
+}
+
+.section-brand-model .block-brand-list .item {
+    width: 100%;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.section-brand-model .block-model-list .item,
+.section-brand-model .block-brand-list .item:hover {
+    text-decoration: none;
+}
+
+.section-brand-model .block-brand-list .item.checked {
+    background-color: #fff;
+    color: #0b7;
+}
+
+.section-brand-model .model-list-no-result{
+    padding: .4rem 0;
+    text-align: center;
+}
+
+
+/* page-hd-snhxjd-promo 苏宁旧手机换新电器 */
+.page-hd-snhxjd-promo{}
+
+.page-hd-snhxjd-promo .input{
+    padding: .1rem 0;
+    width: 100%;
+    height: .44rem;
+    line-height: normal;
+    border: .02rem solid #510294;
+    border-radius: .05rem;
+}
+
+.page-hd-snhxjd-promo .mainbody{
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+    background: #a611ff url(https://p.ssl.qhimg.com/t01ee606f60ed46e729.png) no-repeat 0 0;
+    background-size: contain;
+    color: #fff;
+}
+.page-hd-snhxjd-promo .block1{
+    padding-top: 1.05rem;
+    padding-bottom: .6rem;
+    background: url(https://p.ssl.qhimg.com/t01df2e5a2e0aff65da.png) no-repeat center bottom;
+    background-size: contain;
+}
+.page-hd-snhxjd-promo .huanxin-jiadian{
+    margin: 0 auto;
+    width: 90%;
+    border: .02rem solid #510294;
+    border-radius: .05rem;
+}
+.page-hd-snhxjd-promo .huanxin-jiadian img{
+    border-radius: .05rem;
+}
+.page-hd-snhxjd-promo .huanxin-jiadian-desc{
+    line-height: 2;
+    color: #fffc00;
+    text-align: center;
+}
+.page-hd-snhxjd-promo .block-get-promo{
+    padding: .1rem 5% 0 5%;
+}
+
+.page-hd-snhxjd-promo .block-get-promo .input{
+    margin-bottom: .1rem;
+    text-align: center;
+}
+.page-hd-snhxjd-promo .block-get-promo .btn-a{
+    display: block;
+    width: 100%;
+    height: .48rem;
+    line-height: .44rem;
+    box-sizing: border-box;
+}
+.page-hd-snhxjd-promo .block-get-promo .get-promo-desc{
+    line-height: 2;
+    color: #fffc00;
+    text-align: center;
+}
+
+.page-hd-snhxjd-promo .block2{
+    margin: -.54rem 5% 0 5%;
+    padding: .1rem 0 .1rem 0;
+    font-size: .12rem;
+}
+.page-hd-snhxjd-promo .block2 h3{
+    text-align: center;
+    font-size: .16rem;
+    font-weight: 600;
+}
+.page-hd-snhxjd-promo .block2 ul{
+    padding: 0 0 0 .12rem;
+    list-style-type: decimal;
+}
+
+.page-hd-snhxjd-promo .block3{
+    margin: 0 5%;
+    padding: .1rem 0 .3rem 0;
+    font-size: .12rem;
+}
+.page-hd-snhxjd-promo .block3 h3{
+    padding-bottom: .08rem;
+    font-size: .16rem;
+    font-weight: 600;
+    text-align: center;
+}
+.page-hd-snhxjd-promo .block3 .col-left-fixed{
+    padding: .05rem 0 .05rem .05rem;
+    width: 1rem;
+}
+.page-hd-snhxjd-promo .block3 .col-right{
+    padding: .05rem 0 .05rem .05rem;
+    margin-left: 1rem;
+}
+
+/* 提交获取优惠码弹层 */
+.sub-receive-promo-wrap{
+    background-color: #fff;
+    border: 0;
+    font-size: .12rem;
+}
+.sub-receive-promo-wrap input{
+    font-size: .12rem;
+}
+.sub-receive-promo-wrap .dialog-inner{
+    padding: .1rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.sub-receive-promo-wrap .row{
+    margin-bottom: .1rem;
+}
+.sub-receive-promo-wrap .tit{
+    line-height: 2;
+    font-size: .14rem;
+    text-align: center;
+}
+.sub-receive-promo-wrap .btn-get-sms-code{
+    display: inline-block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    color: #0b7;
+    vertical-align: top;
+    font-size: .12rem;
+}
+.sub-receive-promo-wrap .btn-get-sms-code-disabled{
+    border: 1px solid #eee;
+    color: #999;
+    background: #f2f2f2;
+    background-clip: padding-box;
+}
+.sub-receive-promo-wrap .btn-get-sms-code-disabled:before{
+    display: none;
+}
+.sub-receive-promo-wrap .btn-order-confirm-submit{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    color: #fffc00;
+    background-color: #ff2291;
+}
+
+
+
+/* 苏宁旧手机换新电器-抽奖 */
+.page-hd-snhxjd_lottery{}
+.page-hd-snhxjd_lottery .mainbody{
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+    color: #fff;
+    background-color: #0c050c;
+}
+.page-hd-snhxjd_lottery .block1{
+    height: 1.8432rem;
+    background: url(https://p.ssl.qhimg.com/t01179333c28922de20.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.page-hd-snhxjd_lottery .block2{
+    height: 3.2981333333333334rem;
+    background: url(https://p.ssl.qhimg.com/t01222f88882aca8ce1.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.page-hd-snhxjd_lottery .lottery-info{
+    height: 2.6rem;
+    padding-top: 1px;
+}
+.page-hd-snhxjd_lottery .lottery-info .lottery-info-before{
+    width: 2.517333333333333rem;
+    height: 2.4789333333333334rem;
+    margin: 0 auto;
+}
+.page-hd-snhxjd_lottery .lottery-info .lottery-info-succ{
+    width: 2.4576rem;
+    height: 1.4976rem;
+    margin: .3rem auto;
+    background: url(https://p.ssl.qhimg.com/t01330653f2f9cbb9cb.png) no-repeat 0 0;
+    background-size: cover;
+    color: #675000;
+    text-align: center;
+}
+.page-hd-snhxjd_lottery .lottery-info .lottery-info-succ h3{
+    font-size: .2rem;
+    line-height: .5rem;
+}
+.page-hd-snhxjd_lottery .lottery-info .lottery-info-succ p{
+    font-size: .16rem;
+    line-height: 1.4;
+    padding: .15rem .2rem .2rem;
+}
+.page-hd-snhxjd_lottery .lottery-btn{
+    display: block;
+    width: 1.57rem;
+    height: .512rem;
+    margin: 0 auto;
+    font-size: .2rem;
+    text-align: center;
+    line-height: .512rem;
+    background:#eb6161 url(https://p.ssl.qhimg.com/t01ba10af2a21c1cc04.png) no-repeat right .02rem;
+    background-size: contain;
+    color: #fff;
+    text-decoration: none;
+}
+.page-hd-snhxjd_lottery .lottery-btn:hover{
+    text-decoration: none;
+}
+.page-hd-snhxjd_lottery .lottery-btn.lottery-btn-disabled{
+    background-color: #d4d4d4;
+}
+.page-hd-snhxjd_lottery .block3 h3{
+    font-size: .14rem;
+    height: .32rem;
+    line-height: .32rem;
+    text-align: center;
+}
+.page-hd-snhxjd_lottery .block3 ul{
+    background-color: #4b195d;
+    padding: .1rem .1rem .1rem .2rem;
+}
+.page-hd-snhxjd_lottery .block3 ul li{
+    line-height: 1.3;
+    padding: .02rem 0;
+}

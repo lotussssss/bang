@@ -1,0 +1,97 @@
+.page-index {}
+.page-index .dialog-mask{
+    position: fixed;
+}
+
+/*----------------------首页中奖用户列表start--------------------------*/
+.page-index .block-user-of-prize-list {
+    width: 100%;
+    height: .35rem;
+    background-color: #fdfae9;
+    border: 1px solid #efc2c2;
+    line-height: .35rem;
+    text-align: center;
+    color: #cf1e24;
+    overflow: hidden;
+    position: relative;
+}
+
+.page-index .block-user-of-prize-list .inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.page-index .block-user-of-prize-list .item {
+    display: block;
+}
+
+.page-index .block-user-of-prize-list .item span {
+    color: #f60
+}
+
+/*----------------------首页中奖用户列表end--------------------------*/
+
+.page-index .block-morethan-tips{
+    padding: .1rem 0;
+    background-color: #ffffcc;
+    border: 1px solid #ffcc00;
+    text-align: center;
+}
+.page-index .block-morethan-tips .morethan-tips-tit{
+    font-size: .14rem;
+    font-weight: 800;
+}
+.page-index .block-morethan-tips .morethan-tips-cnt{
+    color: #ff6600;
+    font-weight: 800;
+}
+.page-index .block-morethan-tips .morethan-tips-date{
+    color: #999;
+}
+
+/*180613完成回收送优酷会员*/
+.page-index .block-special-youku{
+    padding: 0 .1rem;
+    background: #fff;
+    height: .3rem;
+    line-height: .3rem;
+}
+.page-index .block-special-youku a{
+    display: block;
+    color: #333;
+    position: relative;
+}
+.page-index .block-special-youku a,
+.page-index .block-special-youku a:hover,
+.page-index .block-special-youku a:active,
+.page-index .block-special-youku a:visited{
+    text-decoration: none;
+}
+.page-index .block-special-youku .label-hd{
+    background: #EE6655;
+    color: #fff;
+    padding: .02rem .03rem;
+    font-size: .1rem;
+    margin-right: .03rem;
+}
+.page-index .block-special-youku .icon-gengduo{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #333;
+}
+.page-index .huishou-youku-desc-panel{
+    background: #fff;
+    padding: .1rem;
+}
+.page-index .huishou-youku-desc-panel .desc-tit{
+    text-align: center;
+    font-size: .15rem;
+}
+.page-index .huishou-youku-desc-panel p{
+    padding-bottom: .05rem;
+}
+/*180613完成回收送优酷会员 end*/

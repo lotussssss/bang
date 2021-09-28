@@ -1,0 +1,78 @@
+/*818甩货专区*/
+.block-sale a:hover,
+.block-sale a:active{
+    text-decoration: none;
+}
+.block-sale .sale-banner{
+    height: 126px;
+    background: url("https://p3.ssl.qhmsg.com/t0163632762059d0132.jpg") no-repeat center 0;
+}
+.block-sale .tab-list{
+    height: 40px;
+    margin: 10px 0 20px;
+}
+.block-sale .tab-list .tab-item{
+    position: relative;
+    height: 40px;
+    background-color: #646464;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+}
+.block-sale .tab-list .arrow-down{
+    display: none;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -10px;
+    border-top-color: #f50;
+}
+.block-sale .tab-list .border{
+    width: 1px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top:10px;
+    background-color: #c4c4c4;
+}
+.block-sale .tab-list .cur{
+    background-color: #f50;
+}
+.block-sale .tab-list .cur .arrow-down{
+    display: block;
+}
+.block-sale .tab-list .last .border{
+    display: none;
+}
+/*.block-sale .js-sale-product-list .p-item{*/
+    /*margin: 0;*/
+    /*width: 298px;*/
+    /*height: 350px;*/
+    /*border-right-color: #eaeaea;*/
+    /*border-bottom-color: #eaeaea;*/
+/*}*/
+/*.block-sale .js-sale-product-list .p-item-last{*/
+    /*border-right-color:#fff ;*/
+/*}*/
+/*.block-sale .js-sale-product-list .p-item .p-tit{*/
+    /*font-size: 14px;*/
+/*}*/
+/*.block-sale .js-sale-product-list .p-item .p-pic{*/
+    /*height: 150px;*/
+    /*padding-top: 50px;*/
+/*}*/
+/*.block-sale .js-sale-product-list .p-item .p-pic img {*/
+    /*height: 115px;*/
+/*}*/
+.block-sale .js-sale-product-list .p-item .p-sold-out{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(https://p0.ssl.qhmsg.com/t01659da13a41c7d3e5.png) no-repeat center;
+}

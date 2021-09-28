@@ -1,0 +1,222 @@
+.page-order-schedule-pickup {
+    color: #333;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-head {
+    padding: .06rem 0 .12rem 0;
+    font-size: .16rem;
+    background: #fff url(https://p0.ssl.qhmsg.com/t0133a33127a1dee62d.png) no-repeat center bottom;
+    background-size: contain;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-head .schedule-pickup-tips {
+    text-align: center;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-head .schedule-pickup-tips b {
+    font-size: .14rem;
+    color: #f30;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-head .row {
+    padding: 0 .1rem;
+    line-height: .28rem;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-head .col-left-fixed {
+    width: .6rem;
+    font-size: .12rem;
+    color: #999;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-head .col-right {
+    margin-left: .6rem;
+}
+
+.page-order-schedule-pickup .block-rect-radius {
+    padding: 1px;
+    background-color: #fff;
+    border-radius: .06rem;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-main {
+    margin: .1rem;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-main .b-bottom {
+    border-bottom: 1px solid #e8eef5;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-main .row {
+    margin: 0 .08rem .08rem .08rem;
+    line-height: .36rem;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-main .row input {
+    line-height: .36rem;
+    background-color: transparent;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-main .col-left-fixed {
+    width: .8rem;
+    text-align: center;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-main .col-right {
+    margin-left: .8rem;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-main .row-pickup-city-area .col-right{
+    font-size: 0;
+}
+.page-order-schedule-pickup .block-schedule-pickup-main .row-pickup-city-area b{
+    padding-left: .08rem;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    font-size: .12rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.page-order-schedule-pickup .block-schedule-pickup-main .row-pickup-city-area .arrow-down{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    font-size: .12rem;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-main .row-pic-secode .col-right,
+.page-order-schedule-pickup .block-schedule-pickup-main .row-secode .col-right {
+    font-size: 0;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-main .row-pic-secode .input-radius,
+.page-order-schedule-pickup .block-schedule-pickup-main .row-secode .input-radius {
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+    font-size: .12rem;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-main .row-pic-secode .vcode-img,
+.page-order-schedule-pickup .block-schedule-pickup-main .row-secode .btn-get-secode {
+    display: inline-block;
+    width: 45%;
+    height: .36rem;
+    vertical-align: top;
+    text-align: center;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-main .row-secode .btn-get-secode {
+    border: 1px solid #4a7;
+    color: #4a7;
+    background-color: transparent;
+    font-size: .11rem;
+    border-radius: .06rem;
+}
+.page-order-schedule-pickup .block-schedule-pickup-main .row-secode .btn-get-secode.btn-get-secode-disabled {
+    color      : #fff;
+    background : #e0e0e0;
+    border     : #ccc;
+}
+
+.page-order-schedule-pickup .block-schedule-pickup-main .row .btn.btn-submit {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    text-align: center;
+    font-size: .14rem;
+    font-weight: normal;
+    border-radius: .06rem;
+    background: #2f78ec;
+    color: #fff;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .page-order-schedule-pickup .block-schedule-pickup-main .b-bottom {
+        border: 0;
+        background-position: left bottom;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.5, transparent), color-stop(0.5, #e8eef5));
+        background-repeat: repeat-x;
+        -webkit-background-size: 100% 1px;
+    }
+
+    .page-order-schedule-pickup .block-schedule-pickup-main .input:after,
+    .page-order-schedule-pickup .block-schedule-pickup-main .input-radius:before {
+        display: none;
+    }
+}
+
+.page-order-schedule-pickup .block-scheduled-success-tips,
+.page-order-schedule-pickup .block-scheduled-fail-tips {
+    padding: .2rem 0 .2rem .2rem;
+    background-color: #fff;
+}
+
+.page-order-schedule-pickup .block-scheduled-success-tips .row,
+.page-order-schedule-pickup .block-scheduled-fail-tips .row {
+    line-height: .56rem;
+}
+
+.page-order-schedule-pickup .block-scheduled-success-tips .col-left-fixed,
+.page-order-schedule-pickup .block-scheduled-fail-tips .col-left-fixed {
+    width: .8rem;
+    height: auto;
+    font-size: .51rem;
+    color: #4fc08c;
+    text-align: center;
+}
+
+.page-order-schedule-pickup .block-scheduled-fail-tips .col-left-fixed {
+    height: .56rem;
+    background: url(https://p0.ssl.qhmsg.com/t01a630c9f01d7269a1.png) no-repeat center;
+    background-size: .51rem .51rem;
+}
+
+.page-order-schedule-pickup .block-scheduled-success-tips .col-right,
+.page-order-schedule-pickup .block-scheduled-fail-tips .col-right {
+    margin-left: .8rem;
+    font-size: .22rem;
+}
+
+.page-order-schedule-pickup .block-scheduled-fail-tips .col-right {
+    padding-top: .05rem;
+    line-height: 1.1;
+}
+
+.page-order-schedule-pickup .block-scheduled-fail-tips .col-right b {
+    font-size: .14rem;
+    color: #f30;
+}
+
+.page-order-schedule-pickup .block-receiver-info {
+    margin: .1rem;
+    padding: .1rem .1rem .16rem .1rem;
+    font-size: .14rem;
+    border-radius: .08rem;
+    background: #fff url(https://p0.ssl.qhmsg.com/t01fc1fa59452bcbe8e.png) no-repeat center bottom;
+    background-size: contain;
+}
+
+.page-order-schedule-pickup .block-receiver-info .tit {
+    text-align: center;
+    line-height: 2.6;
+}
+
+.page-order-schedule-pickup .block-receiver-info .row {
+    line-height: .28rem;
+}
+
+.page-order-schedule-pickup .block-receiver-info .col-left-fixed {
+    width: .7rem;
+    color: #999;
+}
+
+.page-order-schedule-pickup .block-receiver-info .col-right {
+    margin-left: .7rem;
+}
+
+

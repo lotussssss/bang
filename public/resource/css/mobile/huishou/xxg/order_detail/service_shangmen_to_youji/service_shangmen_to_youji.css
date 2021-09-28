@@ -1,0 +1,71 @@
+.row-extend-service-shangmen-to-youji {
+    color: #000;
+    background-color: #fff;
+}
+
+.row-extend-service-shangmen-to-youji-title {
+    padding-left: .1rem;
+}
+
+.row-extend-service-shangmen-to-youji-desc {
+    padding-left: .1rem;
+    line-height: 1.68;
+    color: #999;
+    font-size: .1rem;
+}
+
+.row-extend-service-shangmen-to-youji a {
+    padding-right: .1rem;
+    color: #000;
+    background-color: #fff;
+}
+
+.row-extend-service-shangmen-to-youji .iconfont {
+    display: inline-block;
+    width: .44rem;
+    text-align: center;
+    font-size: .12rem;
+}
+
+.row-extend-service-shangmen-to-youji .col-left {
+    /*padding: 0 .1rem;*/
+}
+
+.row-extend-service-shangmen-to-youji .col-right {
+    line-height: .44rem;
+}
+
+.service-shangmen-to-youji-reason-list {
+    padding: .1rem .34rem;
+}
+
+.service-shangmen-to-youji-reason-list .reason-list-title {
+    text-align: center;
+    line-height: 2.4;
+    font-size: 0.17rem;
+}
+
+.service-shangmen-to-youji-reason-list .reason-list-content {
+}
+
+.service-shangmen-to-youji-reason-list .reason-item {
+    margin-bottom: .08rem;
+    padding: .1rem .13rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 0.12rem;
+    border-radius: 0.05rem;
+    border: thin solid #f6f6f6;
+    background-color: #f6f6f6;
+    color: #000;
+}
+
+.service-shangmen-to-youji-reason-list .reason-item.reason-item-selected {
+    color: #17a654;
+    border-color: #17a654;
+    background-color: #edfff5;
+}
+
+.service-shangmen-to-youji-reason-list .reason-list-title {
+}

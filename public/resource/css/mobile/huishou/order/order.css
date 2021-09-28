@@ -1,0 +1,228 @@
+.page-order a,
+.page-order a:active,
+.page-order a:visited {
+    text-decoration: none;
+}
+
+.page-order #Header.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+
+.page-order .main {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.page-order .main-inner {
+    /*padding-bottom: .56rem;*/
+    padding-bottom: 2.1rem; /*此处padding-bottom正常是.56rem，多余的部分是为了处理某些浏览器，尤其是iOS的Safari下vh的bug*/
+}
+
+/* 按钮行 */
+.page-order .block-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.page-order .block-btn .remove-lock {
+    padding: .06rem 0 .12rem 0;
+    color: #fb8903;
+    text-align: left;
+    font-size: .11rem;
+    line-height: 1;
+}
+
+.page-order .block-btn .remove-lock .icon-warning {
+    margin-right: 5px;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    font-size: .16rem;
+    margin-top: -0.02rem;
+    display: inline-block;
+}
+
+.page-order .block-suning-spread-btn {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    background-color: transparent;
+    text-align: center;
+}
+
+.page-order .block-suning-spread-btn .row-suning-spread-desc {
+    margin: .1rem 0;
+    padding-left: .2rem;
+    display: inline-block;
+    height: .2rem;
+    line-height: .2rem;
+    background: url(https://p0.ssl.qhmsg.com/t016d6a65b0b398b8d8.png) no-repeat 0 0;
+    background-size: contain;
+    color: #666;
+}
+
+.page-order .block-suning-spread-btn .btn {
+    border-radius: 0;
+    background: #f50;
+    color: #fff;
+}
+
+/*下单页天猫kindle以旧换新补贴说明*/
+.page-order .dialog-kindle-butie-details-wrap {
+    background: #fff;
+}
+
+.page-order .dialog-kindle-butie-details-wrap .dialog-inner {
+    padding: .15rem .2rem .2rem;
+}
+
+.page-order .dialog-kindle-butie-details-wrap h3 {
+    font-size: .14rem;
+    font-weight: bold;
+}
+
+.page-order .dialog-kindle-butie-details-wrap .cont {
+    font-size: .12rem;
+}
+
+.page-order .dialog-kindle-butie-details-wrap .cont p {
+    text-indent: 2em;
+    padding-top: .05rem;
+}
+
+/*苏宁红包弹窗*/
+.page-order .dialog-hs-redpack {
+    border: none;
+    text-align: center;
+}
+
+.page-order .dialog-hs-redpack img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.page-order .dialog-hs-redpack .redpack-tit {
+    color: #fff;
+    font-size: .16rem;
+}
+
+.page-order .dialog-hs-redpack .icon-redpack {
+    display: inline-block;
+    width: .3rem;
+    height: .3rem;
+    margin-right: .05rem;
+    background: url(https://p0.ssl.qhmsg.com/t0113854e2a0e7814bc.png) no-repeat center/100% 100%;
+    vertical-align: middle;
+}
+
+.page-order .dialog-hs-redpack .icon-tmall-redpack {
+    display: inline-block;
+    width: .3rem;
+    height: .3rem;
+    margin-right: .05rem;
+    background: url(//p.ssl.qhimg.com/t01a97db2450924ae9f.png) no-repeat center/100% 100%;
+    vertical-align: middle;
+}
+
+/*电信活动弹窗*/
+.page-order .dialog-huishou-dianxin.dialog-wrap,
+.page-order .dialog-huishou-dianxin .dialog-inner {
+    width: 2.6rem;
+    border: 0;
+    background-color: #fff;
+    border-radius: .05rem;
+    color: #f45;
+}
+
+.page-order .dialog-huishou-dianxin .dialog-inner {
+    padding: .2rem .3rem;
+}
+
+.page-order .dialog-huishou-dianxin .tit {
+    font-size: .14rem;
+    padding-bottom: .08rem;
+}
+
+.page-order .dialog-huishou-dianxin .cont p {
+    padding-bottom: .08rem;
+}
+
+.page-order .dialog-huishou-dianxin .js-trigger-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .32rem;
+    background: #f45;
+    color: #fff;
+    font-size: .14rem;
+    border-radius: 0.04rem;
+}
+
+.block-gold-order-timeout-tile {
+    padding: 0 .1rem;
+    height: .3rem;
+    background: #f45;
+    color: #fff;
+}
+
+.block-gold-order-timeout-tile .countdown-gold-order-timeout {
+    font-size: 0;
+}
+
+.block-gold-order-timeout-tile .countdown-gold-order-timeout span {
+    display: none;
+    font-size: .12rem;
+}
+
+.block-gold-order-timeout-tile .countdown-gold-order-timeout span.m-num,
+.block-gold-order-timeout-tile .countdown-gold-order-timeout span.m-txt,
+.block-gold-order-timeout-tile .countdown-gold-order-timeout span.s-num {
+    display: inline-block;
+}
+
+
+.page-order .block-gold-engineer-cant-create-order-tips {
+    padding: .4rem .2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: .14rem;
+    line-height: 1.5;
+}
+
+.page-order .block-gold-engineer-cant-create-order-tips .icon-style {
+    font-size: .5rem;
+    color: #f84;
+}
+
+.page-order .block-gold-engineer-cant-create-order-tips .title {
+    font-weight: bold;
+    font-size: .2rem;
+    padding: .1rem;
+}
+
+.page-order .block-gold-engineer-cant-create-order-tips .content {
+    color: #666;
+    padding: .1rem;
+}
+
+.page-order .block-gold-engineer-cant-create-order-tips .btn-submit {
+    margin: 0 auto;
+    display: block;
+    width: 0.8rem;
+    height: .36rem;
+    line-height: .36rem;
+    text-align: center;
+    border-radius: .04rem;
+    background-color: #f84;
+}

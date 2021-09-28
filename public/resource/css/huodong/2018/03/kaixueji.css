@@ -1,0 +1,380 @@
+.w100{
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+.block-inner {
+    margin: 0 auto;
+    width: 1000px;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.page-hd-kaixueji {
+    background:url("https://p1.ssl.qhmsg.com/t011cd09a024a299192.jpg") repeat 0 0;
+    min-width: 1000px;
+}
+.page-hd-kaixueji .dialog-inner{
+    padding: 0;
+}
+.page-hd-kaixueji .topbar .in{
+    width: 1000px;
+}
+
+.page-hd-kaixueji .block-tit{
+    height: 110px;
+    background: no-repeat center;
+}
+.page-hd-kaixueji .block-tit .tit-cont{
+    font-weight: bold;
+    font-size: 40px;
+    color: #f3df7a;
+    /*line-height: 120px;*/
+    text-align: center;
+    text-indent: -9999px;
+    /*text-shadow: 0 5px 10px #f4e5ad;*/
+    background-image: -webkit-linear-gradient(top, #f4e5ad 60%, #a37529 100%);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    text-fill-color: #f3df7a;
+    -webkit-text-fill-color: transparent;
+}
+
+/*头图*/
+.page-hd-kaixueji .block-top,
+.page-hd-kaixueji .block-top .block-inner{
+    height: 582px;
+    background: url(https://p0.ssl.qhmsg.com/t01fc0bd57e989ba407.jpg) no-repeat center 0;
+}
+/*头图end*/
+/*banner*/
+.page-hd-kaixueji .block-sub,
+.page-hd-kaixueji .block-sub .block-inner{
+    height: 574px;
+    background: url(https://p1.ssl.qhmsg.com/t0111e1ffb2f9317d9f.jpg) no-repeat center 0;
+    position: relative;
+}
+/*banner end*/
+/*优惠券*/
+.page-hd-kaixueji .block-coupon{}
+.page-hd-kaixueji .block-coupon .btn-coupon{
+    position: absolute;
+    top: 292px;
+    width: 210px;
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+    color: #fff;
+    font-size: 18px;
+    background: #5a4398;
+}
+.page-hd-kaixueji .block-coupon .btn-coupon1{
+    left: 86px;
+}
+.page-hd-kaixueji .block-coupon .btn-coupon2{
+    left: 396px;
+}
+.page-hd-kaixueji .block-coupon .btn-coupon3{
+    left: 719px;
+}
+.page-hd-kaixueji .block-coupon .btn-coupon.btn-disabled{
+    background: #ddd;
+    cursor: default;
+}
+/*优惠券 end*/
+/*神券*/
+.page-hd-kaixueji .block-shenquan .btn-shenquan{
+    position: absolute;
+    right: 125px;
+    bottom: 70px;
+    width: 102px;
+    height: 106px;
+}
+.page-hd-kaixueji .block-shenquan .btn-shenquan.btn-start{
+    background: url(https://p0.ssl.qhmsg.com/t01ef5ff8f083c8207a.gif) no-repeat center;
+}
+.page-hd-kaixueji .block-shenquan .btn-shenquan.btn-not-start{
+    background: url(https://p0.ssl.qhmsg.com/t01461ca794cd9b3629.png) no-repeat center;
+    cursor: default;
+}
+.page-hd-kaixueji .block-shenquan .btn-shenquan.btn-end{
+    background: url(https://p2.ssl.qhmsg.com/t01ee3d48a9f08b77bf.png) no-repeat center;
+    cursor: default;
+}
+/*神券 end*/
+
+.page-hd-kaixueji .block-product-list-tit,
+.page-hd-kaixueji .block-product-list-tit .block-inner{
+    height: 228px;
+    background: url(https://p0.ssl.qhmsg.com/t01939de7bf96f37353.jpg) no-repeat center 0;
+    margin-bottom: 25px;
+}
+.page-hd-kaixueji .block-product-list{
+    width: 1000px;
+    margin: 0 auto;
+    border: 2px solid #5a4398;
+    background: #ffcc33;
+}
+.page-hd-kaixueji .block-product-list .block-inner{
+    position: relative;
+}
+.page-hd-kaixueji .block-product-list .label{
+    position: absolute;
+    top:10px;
+    z-index: 2;
+}
+.page-hd-kaixueji .block-kaihei .label,
+.page-hd-kaixueji .block-xueba .label{
+    left: -80px;
+}
+.page-hd-kaixueji .block-zuji .label,
+.page-hd-kaixueji .block-new .label{
+    right: -80px;
+}
+
+/*活动商品列表样式*/
+.page-hd-kaixueji .ui-sp-product-list-1{
+    min-height: 310px;
+    background-color: #ffcc33;
+    padding: 0 22px;
+}
+
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item{
+    margin:0 2px;
+    /*width: 298px;*/
+    width: 235px;
+    height: 310px;
+    background: url(https://p4.ssl.qhmsg.com/t015e2d9883d9fb804b.jpg) no-repeat center;
+    border:none;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item .p-tit{
+    font-size: 18px;
+    color: #202020;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item .p-pic{
+    height: 150px;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item .p-price{
+    padding: 0;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item .p-price-cur{
+    color: #f74a33;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item .p-price-cur .p-price-num{
+    font-size: 18px;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item  .p-price-orig {
+    width: auto;
+    color: #fff;
+    font-size: 14px;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item .p-pic img {
+    height: 130px;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item .btn{
+    color: #ad0101;
+    font-size: 14px;
+    background: #fff;
+    width: 130px;
+    padding: 5px;
+    border-radius: 9999px;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item .p-sold-out{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(https://p0.ssl.qhmsg.com/t01659da13a41c7d3e5.png) no-repeat center;
+}
+.page-hd-kaixueji .more{
+    text-align: center;
+    padding: 10px 0;
+}
+.page-hd-kaixueji .more a{
+    font-size: 22px;
+    color: #5a4398;
+    text-decoration: underline;
+}
+/*活动商品列表样式 end*/
+
+/*服务介绍*/
+.page-hd-kaixueji .block-service-intro,
+.page-hd-kaixueji .block-service-intro .block-inner {
+    background: url(https://p3.ssl.qhmsg.com/t0109b297989f617970.jpg) no-repeat center;
+}
+.page-hd-kaixueji .block-service-intro .block-inner{
+    height: 366px;
+    margin: 20px auto;
+}
+/*二维码扫一扫*/
+/*.page-hd-kaixueji .block-qrcode-info,*/
+/*.page-hd-kaixueji .block-qrcode-info .block-inner {*/
+    /*background:url(https://p2.ssl.qhmsg.com/t01546ef631a962c3cc.jpg) no-repeat center 0;*/
+/*}*/
+/*.page-hd-kaixueji .block-qrcode-info .block-inner {*/
+    /*height: 268px;*/
+    /*margin: 0px auto 0px;*/
+/*}*/
+
+/*合作伙伴*/
+.page-hd-kaixueji .block-partner,
+.page-hd-kaixueji .block-partner .block-inner {
+    background:url(https://p2.ssl.qhmsg.com/t01a92e274c892544a8.jpg) no-repeat center 0;
+}
+.page-hd-kaixueji .block-partner .block-inner {
+    height: 470px;
+    margin: 0px auto 30px;
+}
+
+/*登录面板*/
+.kaixueji-login-panel {
+    width: 500px;
+    background: #fff;
+    border-radius: 6px;
+}
+.kaixueji-login-panel .dialog-inner{
+    color: #666;
+    font-size: 12px;
+}
+.kaixueji-login-panel form {
+    margin: 25px auto;
+    width: 350px;
+}
+.kaixueji-login-panel .tit{
+    font-size: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.kaixueji-login-panel .row{
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.kaixueji-login-panel .col-left-fixed{
+    width: 85px;
+    text-align: right;
+}
+.kaixueji-login-panel .col-right{
+    margin-left: 90px;
+    font-size: 0;
+}
+.kaixueji-login-panel .inpt{
+    height: 38px;
+    padding: 0 10px;
+    margin-right: 4px;
+    width: 144px;
+    border:1px solid #e3e3e3;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.kaixueji-login-panel .row-mobile .inpt{
+    width: 238px;
+}
+.kaixueji-login-panel .btn-get-secode {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 88px;
+    height: 36px;
+    line-height: 36px;
+    color: #4a7;
+    border:1px solid #4a7;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 12px;
+}
+
+.kaixueji-login-panel .btn-get-secode:hover {
+    text-decoration: none;
+}
+.kaixueji-login-panel .btn-get-secode-disabled,
+.kaixueji-login-panel .btn-get-secode-disabled:hover {
+    background: #ddd;
+}
+.kaixueji-login-panel .vcode-img {
+    width: 90px;
+    height: 38px;
+    vertical-align: middle;
+}
+.kaixueji-login-panel .btn-order-confirm-submit {
+    display: block;
+    width: 150px;
+    height: 34px;
+    margin: 30px auto 0;
+    line-height: 34px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    background: #4a7;
+    cursor: pointer;
+}
+
+/*优惠券面板*/
+.coupon-panel{
+    background: url("https://p0.ssl.qhmsg.com/t0173a485b690038f5a.png") no-repeat center;
+    border: none;
+}
+.coupon-panel .dialog-close,
+.coupon-panel .dialog-close:hover{
+    top: 100px;
+    right: -6px;
+}
+.coupon-panel .coupon-cont{
+    width: 448px;
+    height: 339px;
+    line-height: 450px;
+    color: #5a4398;
+    font-size: 28px;
+    text-align: center;
+}
+
+/*租机二维码面板*/
+.zuji-ewm-panel{
+    background: none;
+    border: none;
+}
+.zuji-ewm-panel .dialog-close,
+.zuji-ewm-panel .dialog-close:hover{
+    top: 107px;
+    right: -6px;
+}
+.zuji-ewm-panel .zuji-cont{
+    width: 297px;
+    height: 439px;
+}
+.zuji-ewm-panel .zuji-cont img{
+    width: 100%;
+}
+
+/*抽奖抽奖抽奖抽奖抽奖*/
+/*奖品图*/
+.page-hd-kaixueji .block-lottery,
+.page-hd-kaixueji .block-lottery .block-inner{
+    height: 746px;
+    background: url(https://p0.ssl.qhmsg.com/t01582467a055dd1696.png) no-repeat center 0;
+    position: relative;
+}
+/*抽奖规则*/
+.page-hd-kaixueji .lottery-desc{
+    color: #5a4398;
+    font-size: 14px;
+    padding: 580px 120px 0;
+}
+.page-hd-kaixueji .lottery-desc p{
+    padding-bottom: 10px;
+}
+/*抽奖抽奖抽奖抽奖抽奖 end*/
+
+
+
+
+
+
+
+

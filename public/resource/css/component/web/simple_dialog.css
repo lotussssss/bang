@@ -1,0 +1,36 @@
+/*简单弹窗样式*/
+.dialog-mask{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10001;
+    background: #000;
+    opacity: .6;
+}
+.dialog-wrap{
+    position: absolute;
+    z-index: 10002;
+    border: 1px solid #B2B2B2;
+    background: #fff;
+}
+.dialog-wrap .dialog-close,
+.dialog-wrap .dialog-close:hover{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 36px;
+    height: 36px;
+    z-index: 9999;
+    background: url(https://p.ssl.qhimg.com/t01a22268e647e8b152.png) no-repeat center;
+    background-size: 36px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.dialog-wrap .dialog-inner{
+    padding: 10px 10px 10px 10px;
+    font-size: 14px;
+    color: #202020;
+}
+/*END简单弹窗样式*/

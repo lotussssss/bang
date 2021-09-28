@@ -1,0 +1,247 @@
+/* 查看机型及报价 */
+
+/* 主体 */
+.olduser-hs-pric-viewquotation #Main.main {
+    width: 100%;
+    max-width: 3.33rem;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #fff2df;
+    background: linear-gradient(#fff2df, #ffc45a);
+}
+
+/* 顶部图 */
+.olduser-hs-pric-viewquotation .olduser-main-header {
+    width: 100%;
+    height: .933rem;
+    background: url(https://p1.ssl.qhmsg.com/t01271755b9c0ede848.png) no-repeat;
+    background-size: contain;
+}
+
+/* 选择机型及成色等 */
+.olduser-hs-pric-viewquotation .mobile-sel-data {
+    min-height: 1.4rem;
+    margin: 0 .088rem;
+    margin-bottom: .177rem;
+    padding: .133rem;
+    background-color: #fff;
+    border-radius: .044rem;
+    overflow: hidden;
+    box-shadow: 0 0 .0533rem #fec786;
+}
+
+/* select组 */
+.olduser-hs-pric-viewquotation .mobile-sel-data .olduser-select-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* 选择所在行 */
+.olduser-hs-pric-viewquotation .olduser-select-group .olduser-sel-row {
+    position: relative;
+    border-radius: .044rem;
+    overflow: hidden;
+    width: 100%;
+    margin-top: .0711rem;
+}
+.olduser-hs-pric-viewquotation .olduser-select-group .olduser-sel-row:first-child {
+    margin-top: 0;
+}
+
+/* 选择后的内容存放span */
+.olduser-hs-pric-viewquotation .olduser-sel-row span.sel-text {
+    display: block;
+    font-size: .106rem;
+    color: #671000;
+    background-color: #fff1dc;
+    height: .244rem;
+    line-height: .244rem;
+    min-width: 1.36rem;
+    text-align: center;
+}
+/* 箭头 */
+.olduser-hs-pric-viewquotation .olduser-sel-row span.sel-text:after {
+    content: '';
+    position: absolute;
+    top: 40%;
+    right: .088rem;
+    width:0;
+    height:0;
+    border-left: .04rem solid transparent;
+    border-right: .04rem solid transparent;
+    border-top: .044rem solid #671000;
+}
+
+.olduser-hs-pric-viewquotation .olduser-sel-row select {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+/* 注释说明,要求改成一行显示 */
+/*!* 机型 成色单独写 *!*/
+/*.olduser-hs-pric-viewquotation .olduser-sel-row.jixing {*/
+    /*flex-grow: 2;*/
+    /*width: 100%;*/
+    /*margin-bottom: .0711rem;*/
+/*}*/
+/*.olduser-hs-pric-viewquotation .olduser-sel-row.chengse {*/
+    /*width: 100%;*/
+    /*flex-grow: 2;*/
+    /*margin-top: .0711rem;*/
+/*}*/
+
+/* select 禁用样式 */
+.olduser-hs-pric-viewquotation .olduser-sel-row.sel-disabled {
+    opacity: .6;
+}
+
+/* 查看报价按钮 */
+.olduser-hs-pric-viewquotation .mobile-sel-data .olduser-button {
+    padding-top: .177rem;
+}
+
+.olduser-hs-pric-viewquotation .olduser-button .view-btn {
+    width: 100%;
+    height: .355rem;
+    font-size: .16rem;
+    line-height: .355rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 100px;
+    background: linear-gradient(#fe9b1a, #fc8527 76%, #fe8d30);
+    box-shadow: 0 .0311rem .0711rem rgba(254, 147, 31, .6);
+}
+
+/* 限时回收 价格及按钮 */
+.olduser-hs-pric-viewquotation .mobile-sel-data .olduser-recovery-pric {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .177rem;
+}
+
+/* 价格 */
+.olduser-hs-pric-viewquotation .olduser-recovery-pric .pric-title {
+    font-size: .142rem;
+    color: #671000;
+}
+
+/* 折扣价格 */
+.olduser-hs-pric-viewquotation .olduser-recovery-pric .del-price:after {
+    content: '元';
+}
+
+/* 最终价格 */
+.olduser-hs-pric-viewquotation .olduser-recovery-pric .true-price{
+    color: #fc8527;
+    font-size: .1511rem;
+    font-weight: bold;
+}
+
+.olduser-hs-pric-viewquotation .olduser-recovery-pric .true-price:after {
+    content: '元';
+}
+
+
+/* 展示机型信息 */
+.olduser-hs-pric-viewquotation .olduser-model-info {
+    margin: 0 .088rem;
+    margin-bottom: .177rem;
+}
+
+/* 标题 */
+.olduser-hs-pric-viewquotation .olduser-model-info .model-title {
+    height: .133rem;
+    line-height: .133rem;
+    font-size: .142rem;
+    text-align: center;
+    color: #671000;
+    font-weight: bold;
+    margin-bottom: .088rem;
+}
+
+/* 表格内容 */
+.olduser-hs-pric-viewquotation .olduser-model-info .model-con {
+    background-color: #fff8f0;
+    padding: .133rem;
+    border-radius: .044rem;
+    overflow: hidden;
+    box-shadow: 0 0 .0533rem #fec786;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* 每个单元格 */
+.olduser-hs-pric-viewquotation .olduser-model-info .model-con>div {
+    width: 25%;
+    text-align: center;
+    line-height: .222rem;
+    color: #671000;
+}
+
+/* 问号 */
+.olduser-hs-pric-viewquotation .olduser-model-info .model-con>div>i {
+    font-size: .106rem;
+}
+
+/* 单元格标题 */
+.olduser-hs-pric-viewquotation .model-con .h-title {
+    font-size: .124rem;
+}
+
+/* 单元格内容 */
+.olduser-hs-pric-viewquotation .model-con .con-info {
+    font-size: .115rem;
+    font-weight: bold;
+}
+
+/* 底部二维码关注部分 */
+.olduser-hs-pric-viewquotation .oldeuser-foot-guanzhu {
+    margin-top: .222rem;
+    padding-bottom: .177rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* 二维码标题 */
+.olduser-hs-pric-viewquotation .oldeuser-foot-guanzhu .guanzhu-title {
+    color: #671000;
+    font-size: .1511rem;
+    font-weight: bold;
+    line-height: .1511rem;
+    height: .1511rem;
+    margin-bottom: .088rem;
+}
+/* 二维码部分 */
+.olduser-hs-pric-viewquotation .oldeuser-foot-guanzhu .erweima {
+    width: 1.15rem;
+    padding: .044rem;
+    background-color: #fff;
+}
+
+/* 二维码图 */
+.olduser-hs-pric-viewquotation .erweima .erweima-pic {
+    width: 1.066rem;
+    height: 1.066rem;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.olduser-hs-pric-viewquotation .erweima .erweima-pic img {
+    width: 100%;
+    display: block;
+}
+
+/* 二维码文字 */
+.olduser-hs-pric-viewquotation .erweima .erweima-tips {
+    font-size: .151rem;
+    line-height: .151rem;
+    padding-top: .022rem;
+    padding-bottom: .044rem;
+    text-align: center;
+    color: #000;
+}

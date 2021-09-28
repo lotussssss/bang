@@ -1,0 +1,93 @@
+.row{
+    font-size: 0;
+}
+.col-2-1{
+    display: inline-block;
+    width: 50%;
+}
+.block-customer-signature-area {
+    margin: -10vw auto 0;
+    display: block;
+    width: 80%;
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    text-align: center;
+
+}
+.block-customer-signature-area .trigger-active-customer-signature,
+.block-customer-signature-area .trigger-active-customer-signature:hover {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: .16rem;
+    text-align: center;
+    text-decoration: none;
+    background: transparent no-repeat center;
+    background-size: contain;
+}
+
+.customer-signature-pad-wrap {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    overflow: hidden;
+    background-color: #fff;
+}
+.customer-signature-pad { }
+.customer-signature-pad-btn {
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border-top: 1px solid #f5f5f5;
+}
+.customer-signature-pad-btn .btn {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    width: 140px;
+    font-size: 14px;
+    color: #fff;
+}
+.customer-signature-pad-btn .btn:before{
+    border:none!important;
+}
+.customer-signature-pad-btn .btn.btn-signature-clear {
+    background-color: #999;
+}
+.customer-signature-pad-btn .btn.btn-signature-clear:active {
+    background-color: rgba(153, 153, 153, 0.7);
+}
+.customer-signature-pad-btn .btn.btn-signature-confirm {
+    background-color: #f84;
+}
+.customer-signature-pad-btn .btn.btn-signature-confirm:active {
+    background-color: rgba(255, 136, 68, 0.7);
+}
+.customer-signature-pad-close,
+.customer-signature-pad-close:hover{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    z-index: 99999;
+    width: 35px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    background-color: #fff;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}

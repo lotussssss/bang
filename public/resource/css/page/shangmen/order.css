@@ -1,0 +1,718 @@
+/* 订单页 */
+.page-shangmen-order{}
+.page-shangmen-order .section-o-1{
+    background: #fff;
+    color: #333;
+    border: 0;
+}
+.page-shangmen-order .order-info{
+    padding: 10px 20px;
+    border: 1px solid #EAEAEA;
+    border-radius: 0;
+}
+.page-shangmen-order .order-info .row{
+    padding: 15px 0;
+    overflow:hidden;
+}
+.page-shangmen-order .order-info .col-left-fixed{
+    font-size: 14px;
+    line-height: 2;
+    float: left;
+    width: 100px;
+    text-align: right;
+}
+.page-shangmen-order .order-info .col-right{
+    color: #666;
+    float: left;
+    margin-left:10px;
+    _display:inline;
+}
+.page-shangmen-order .order-info .product-extend-info{
+    padding: 10px 0 0 0;
+}
+.page-shangmen-order .order-info .product-extend-info select{
+    margin-right: 20px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+}
+.page-shangmen-order .order-info .product-service-type{
+    font-size: 0;
+}
+.page-shangmen-order .order-info .product-service-type label{
+    margin-right: 20px;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+}
+.page-shangmen-order .order-info .product-service-type label input{
+    position:relative;
+    top:-2px;
+    margin-right:4px;
+}
+.page-shangmen-order .order-info .btn-get-secode{
+    padding:5px 20px;
+    font-size: 14px;
+    background: #FF0023;
+    color: #fff;
+}
+.page-shangmen-order .order-info .btn-get-secode-disabled{
+    background: #ddd;
+}
+.page-shangmen-order .order-info .yyinfo-box{
+    margin-top: 6px;
+}
+.page-shangmen-order .order-info .daodian-addr{
+    line-height: 32px;
+}
+.page-shangmen-order .order-info .daodian-addr label{
+    display: block;
+}
+.page-shangmen-order .order-info .daodian-addr label input{
+    position:relative;
+    top:-1px;
+    margin-right:4px;
+}
+.page-shangmen-order .promo-container{
+    margin-bottom: 16px;
+    visibility: hidden;
+}
+
+.page-shangmen-order .product-extend-service{
+    font-size: 0;
+}
+.page-shangmen-order .extend-service-label{
+    position: relative;
+    margin-right: 30px;
+    margin-bottom:15px;
+    padding: 5px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 200px;
+    height: 18px;
+    line-height: 18px;
+    background: #fff;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    cursor: pointer;
+    border-radius: 0;
+    font-size: 14px;
+    text-align: center;
+}
+.page-shangmen-order .extend-service-label-checked{
+    background: #fff;
+    border: 1px solid #185;
+}
+.page-shangmen-order .extend-service-label .checkbox{
+    display: none;
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    width: 21px;
+    height: 15px;
+    background: url(https://p.ssl.qhimg.com/t0190e8660fe793cff3.png) no-repeat 0 0;
+    vertical-align: top;
+}
+.page-shangmen-order .extend-service-label-checked .checkbox{
+    display: block;
+}
+.page-shangmen-order .extend-service-label [type=checkbox]{
+    display: none;
+}
+
+
+.page-shangmen-order .extend-service-confirm-panel-wrap{
+
+}
+.page-shangmen-order .extend-service-confirm-panel-wrap .hd,
+.page-shangmen-order .extend-service-confirm-panel-wrap .ft{
+    display: none;
+}
+.page-shangmen-order .extend-service-confirm-panel-wrap .close{
+    position: absolute;
+    top: 10px;
+    right: 17px;
+    display: block;
+    width: 41px;
+    height: 41px;
+    background: url(https://p.ssl.qhimg.com/t011ccfaa5874f58a59.jpg) no-repeat 0 0;
+}
+.page-shangmen-order .extend-service-confirm-panel{
+    width: 874px;
+    height: 571px;
+    background: #fff;
+    color: #434444;
+    font-size: 18px;
+}
+.page-shangmen-order .extend-service-confirm-panel .tit{
+    margin-bottom: 10px;
+    padding: 5px 0 10px 25px;
+    color: #000;
+    font-size: 24px;
+    border-bottom: 1px solid #CBCBCB;
+}
+.page-shangmen-order .extend-service-confirm-panel .cnt{
+    padding: 0;
+}
+.page-shangmen-order .extend-service-confirm-panel .cnt p{
+    margin-bottom: 10px;
+}
+.page-shangmen-order .extend-service-confirm-panel .cnt .inner-tit{
+    margin-top: 30px;
+    font-size: 22px;
+    color: #434444;
+}
+.page-shangmen-order .extend-service-confirm-panel .cnt .impt{
+    color: #000;
+    font-size: 24px;
+}
+.page-shangmen-order .extend-service-confirm-panel .btn-line{
+    margin-top: -65px;
+    position: relative;
+    padding: 0;
+    text-align: right;
+}
+.page-shangmen-order .extend-service-confirm-panel .btn-confirm,
+.page-shangmen-order .extend-service-confirm-panel .btn-cancel{
+    margin-right: 6px;
+    padding: 0 40px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: #FF831F;
+    border: 1px solid #FF831F;
+    cursor: pointer;
+}
+.page-shangmen-order .extend-service-confirm-panel .btn-cancel{
+    color: #000;
+    background: #fff;
+    border: 1px solid #CBCBCB;
+}
+.page-shangmen-order .extend-service-confirm-panel .btn-line .cnf-tip{
+    position: absolute;
+    top: 34px;
+    left: 30px;
+    color: #185;
+    font-size: 12px;
+}
+
+
+.page-shangmen-order .form-sub-row{
+    margin-left: 130px;
+    margin-bottom: 50px;
+    padding: 15px 0;
+}
+.page-shangmen-order .form-sub-row .col-left{
+    float: left;
+    height: 54px;
+}
+.page-shangmen-order .form-sub-row .col-left .inline-block{
+    height: 54px;
+    vertical-align: middle;
+}
+.page-shangmen-order .form-sub-row .col-right{
+    float: right;
+    height: 54px;
+}
+.page-shangmen-order .form-sub-row .service-agreement{
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 3px;
+}
+.page-shangmen-order .form-sub-row .service-agreement input{
+    position: relative;
+    top:-2px;
+}
+.page-shangmen-order .form-sub-row .service-total-pay{
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.page-shangmen-order .form-sub-row .service-total-pay .total-price{
+    font-size: 18px;
+    color: #FE4B00;
+}
+.page-shangmen-order .form-sub-row .ipt-sub2{
+    display: inline-block;
+    vertical-align: middle;
+    width: 180px;
+    height: 54px;
+    background: #FC6621;
+    border: 0;
+    color: #fff;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+.page-shangmen-order .form-disabled .form-sub-row .ipt-sub2{
+    background: #adadad;
+}
+
+
+
+
+.page-shangmen-order .disabled{
+    color: #aaa;
+}
+.page-shangmen-order .curr-prd-box{
+    line-height:28px;
+}
+.page-shangmen-order .curr-fault{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.page-shangmen-order .product-list{
+    overflow: hidden;
+}
+.page-shangmen-order .product-list .top-list{
+    margin: 10px 0 10px -10px;
+    padding-left: 10px;
+}
+.page-shangmen-order .product-list .sub-list{
+    margin-top: -8px;
+    padding: 10px 10px 4px 10px;
+    border: 1px solid #E0E0E0;
+    background: #f9f9f9;
+}
+.page-shangmen-order .sel-other-issue{
+    padding: 0 6px;
+    color: #FE4B00;
+}
+.page-shangmen-order .curr-prd-box #extInfo{
+    display: inline-block;
+    width: 588px;
+    vertical-align: top;
+}
+.page-shangmen-order .top-banner{
+    background-color: #fff;
+
+}
+.page-shangmen-order .yy-tit{
+    line-height: 20px;
+    font-size: 18px;
+    margin: 15px 0;
+    padding-left: 8px;
+    border-left: 4px solid #F2D0A5;
+    color: #44423f;
+}
+
+.page-shangmen-order .product-select{
+    color: #FE4B00;
+    border-color: #FE4B00;
+}
+.page-shangmen-order .money{
+    font-size: 20px;
+    color: #FE4B00;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.page-shangmen-order .fw-bz{
+    color: #FE4B00;
+}
+
+.page-shangmen-order .pay-item{
+    margin-right: 20px;
+}
+.page-shangmen-order .pay-item input{
+    vertical-align: -2px;
+}
+.page-shangmen-order .promo-code{
+    height: 12px;
+    line-height: 12px;
+    border: 1px solid #ccc;
+    padding: 5px 4px;
+}
+.page-shangmen-order .promo-succ{
+    color: #03C603;
+}
+.page-shangmen-order .promo-fail{
+    color: #ff0000;
+}
+
+
+.page-shangmen-order .export-box{}
+.page-shangmen-order .expert-tit-box{
+    border-bottom: 1px solid #D7D7D7;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.page-shangmen-order .export-tit{
+    display: inline-block;
+    _zoom:1;
+    font-size: 20px;
+    color: #FE4B00;
+    position: relative;
+    bottom: -22px;
+    background: #fff;
+    padding: 0 4px;
+}
+
+.page-shangmen-order .export-list{
+    margin-bottom: 40px;
+}
+
+.page-shangmen-order .export-table{
+    border: 1px solid #eee;
+    border-width: 1px 0 0 1px;
+    margin: 0 auto;
+}
+.page-shangmen-order .export-table td{
+    border: 1px solid #eee;
+    border-width: 0 1px  1px 0 ;
+
+    width: 180px;
+    height: 210px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.page-shangmen-order .export-table td:hover{
+    background: #F5F5F5;
+}
+
+.page-shangmen-order .export-table .btn1,
+.page-shangmen-order .export-table .btn2{
+    display: inline-block;
+    _zoom:1;
+    width: 80px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin: 10px 20px 0 0;
+    color: #fff;
+}
+.page-shangmen-order .export-table .btn1:hover,
+.page-shangmen-order .export-table .btn2:hover{
+    text-decoration: none;
+}
+
+.page-shangmen-order .export-table .btn1{
+    background: #FFC567;
+}
+.page-shangmen-order .export-table .btn2{
+    background: #FFC567;
+    margin-right: 0;
+}
+
+.page-shangmen-order .export-table .expert-select,
+.page-shangmen-order .export-table .expert-select:hover{
+    background: #FAFAD8;
+}
+
+.page-shangmen-order .expert-select .btn1,
+.page-shangmen-order .expert-select .btn1:hover{
+    background: #F07200;
+}
+
+.page-shangmen-order .export-table .avatar{
+    text-align: center;
+}
+.page-shangmen-order .export-table .avatar-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #A9A9A9;
+}
+.page-shangmen-order .export-table .exp-name{
+    font-size: 14px;
+    line-height: 2;
+}
+.page-shangmen-order .export-table .expinfo{
+    color: #888;
+    margin-top: 10px;
+}
+.page-shangmen-order .export-table .exp-cnt{
+    white-space: nowrap;
+    word-break: keep-all;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    width: 180px;
+}
+.page-shangmen-order #bankListBox{
+    margin: 6px 0;
+}
+
+.page-shangmen-order .sub-cnt-line{
+    padding: 4px 0 ;
+}
+.page-shangmen-order .sub-cnt-line .relative{
+    position: relative;
+}
+.page-shangmen-order .sub-cnt-line .relative .secode_img{
+    height: 32px;
+}
+.page-shangmen-order .ele4phtips{
+    position: absolute;
+    height: 14px;
+    line-height: 14px;
+    padding: 6px;
+    color: #999;
+    cursor: text;
+}
+.page-shangmen-order .ipt-txt{
+    height: 14px;
+    line-height: 14px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    width: 360px;
+    border-radius: 0;
+}
+.page-shangmen-order .sm-time{
+
+}
+.page-shangmen-order .curr-prd-box-extendinfo{
+    display: none;
+    line-height: 28px;
+}
+.page-shangmen-order .curr-prd-box-extendinfo select{
+    color: #666;
+    border: 1px solid #CCC;
+}
+.page-shangmen-order .use-promo-txt{
+    padding-left: 5px;
+}
+.page-shangmen-order .promo-box #promoYZ{
+    color: #FE4B00;
+}
+.page-shangmen-order .promo-box #promoYZ.promo-succ{
+    color: #090;
+}
+
+.page-shangmen-order .ncsj-protocol-wrap-dialog .panel-content{
+    overflow-y: auto;
+}
+.page-shangmen-order .ncsj-protocol-wrap-dialog .close{
+    top:20px;
+    right:22px;
+}
+.page-shangmen-order .ncsj-protocol-wrap-dialog .ft{
+    display: none;
+}
+.page-shangmen-order .ncsj-protocol-wrap{
+    padding: 20px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.8;
+}
+.page-shangmen-order .fwsm-wrap{
+    padding: 25px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+}
+.page-shangmen-order .ncsj-protocol-wrap .bold{
+    color: #000;
+}
+.page-shangmen-order .ncsj-protocol-wrap h2{
+    text-align: center;
+    font-size: 28px;
+}
+.page-shangmen-order .fwsm-wrap h2{
+    padding-bottom: 15px;
+}
+.page-shangmen-order .ncsj-protocol-wrap h3{
+    font-size: 20px;
+}
+.page-shangmen-order .ncsj-protocol-wrap p{
+    padding-bottom: 10px;
+    text-indent: 30px;
+}
+.page-shangmen-order .ncsj-protocol-wrap .ul-type1{
+    padding: 5px 0 5px 30px;
+}
+.page-shangmen-order .ncsj-protocol-wrap table{
+    margin-left: 42px;
+    margin-bottom: 10px;
+    width: 500px;
+}
+.page-shangmen-order .ncsj-protocol-wrap table td{
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+.page-shangmen-order .ncsj-protocol-wrap ul{
+    margin-left: 42px;
+}
+.page-shangmen-order .right-question{
+    top: 98px;
+    right: -150px;
+}
+.page-shangmen-order .right-qzixun{
+    top: 205px;
+    right: -109px;
+}
+.page-shangmen-order .right-service{
+    top: 70px;
+    /*right: -125px;*/
+}
+.page-shangmen-order .product-service-type-closed-tip{
+    margin-left: 110px;
+    margin-bottom: 6px;
+    margin-right: 100px;
+    color: #ff0011;
+}
+.page-shangmen-order .yyinfo-box-yj .sm-addr-tip{
+    padding-left: 5px;
+    display: none;
+    color: #FF0000;
+}
+/*维修二级结构*/
+.page-shangmen-order .cate-list-sub-inner{
+    background: #F7F7F7;
+    border: 1px solid #ccc;
+    padding: 20px 0;
+}
+.page-shangmen-order .cate-list-sub .left-tit{
+    width: 90px;
+    height: 42px;
+    line-height: 42px;
+    text-align: right;
+    font-size: 12px;
+}
+.page-shangmen-order .cate-list-sub .right-cnt{
+    margin-left: 90px;
+}
+.page-shangmen-order .cate-list-sub a{
+    margin-left: 17px;
+    margin-bottom: 20px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 116px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #E1E1E1;
+    color: #333;
+}
+.page-shangmen-order .cate-list-sub .fault-row{
+    padding-top: 15px;
+}
+.page-shangmen-order .cate-list-sub .left-tit{
+    width: 145px;
+    height: 18px;
+    line-height: 18px;
+}
+.page-shangmen-order .cate-list-sub .left-tit span{
+    font-family: "宋体";
+}
+.page-shangmen-order .cate-list-sub .right-cnt{
+    margin-left:155px;
+    margin-right:10px;
+    padding-bottom:5px;
+    border-bottom:1px solid #F0F0F0;
+    float:none;
+}
+.page-shangmen-order .cate-list-sub .right-cnt a{
+    margin-left: 0;
+    margin-bottom: 8px;
+    padding: 0 10px 0 10px;
+    width: auto;
+    height: 18px;
+    line-height: 18px;
+    border: 0;
+    border-left: 1px solid #E0E0E0;
+}
+.page-shangmen-order .cate-list-sub .right-cnt a:hover{
+    color: #FE4B00;
+    text-decoration: none;
+}
+.page-shangmen-order .cate-list-sub .product-select {
+    color: #FE4B00;
+    border-color: #FE4B00;
+}
+/*0704 add*/
+.row-service-stations{overflow:hidden;}
+.opt-addr-stations{padding:10px 0;}
+.row-service-stations .addr-stations{width: 800px;zoom:1;overflow:hidden;}
+.row-service-stations .addr-stations li{position:relative;margin-right:30px;margin-top:5px;padding:5px;float:left;_display:inline;_zoom:1;width:200px;height:18px;line-height:18px;background:#fff;border:1px solid #ddd;vertical-align:top;cursor:pointer;border-radius:0;font-size: 14px;text-align:center;}
+.row-service-stations .addr-stations li.active{border:solid 1px #18b;}
+.row-service-stations .stations-to{margin-top:4px;font-size:14px;font-weight:bold;}
+.page-shangmen-order .order-info .row .services-form{padding-left:110px;overflow:hidden;zoom:1;}
+.page-shangmen-order .order-info .col-right.sub-addr-station{overflow:hidden;}
+.row-service-stations .addr-stations li.active b{position:absolute;bottom:-1px;right:-1px;width:21px;height:15px;background:url(https://p.ssl.qhimg.com/t0190e8660fe793cff3.png) no-repeat 0 0;}
+
+
+/*优惠码-和优品样式同步*/
+.page-shangmen-order .row-promo-price .col-left-fixed{
+    text-align: left;
+    width: 70%;
+}
+.page-shangmen-order .row-promo-price .row-price-info-list{
+    text-align: right;
+    line-height: 2;
+    font-size: 14px;
+    width: 25%;
+}
+.page-shangmen-order .row-promo-price .row-price-info-list .row{
+    padding: 0px;
+}
+
+.page-shangmen-order .promo-container .promo-selector {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    height: 42px;
+    width: 120px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-clip: padding-box;
+    overflow: hidden;
+    background: #f4f4f4;
+}
+.page-shangmen-order .promo-container .promo-code{
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 13px 10px;
+    height: 42px;
+    width: 120px;
+    line-height: normal;
+    border: 0;
+    font-size: 14px;
+}
+.page-shangmen-order .promo-container .promoYZ{
+    color: #666;
+    display: block;
+    margin-top:3px;
+}
+.page-shangmen-order .promo-container .promo-box{font-size: 12px;}
+.page-shangmen-order .promo-container .use-promo{font-size: 14px;}
+.page-shangmen-order .promo-container .promo-succ{ color: #090; }
+.page-shangmen-order .promo-container .promo-fail{ color: #f00; }
+
+.page-shangmen-order .yuyue-express-check {
+    display: none;
+    margin: 5px 110px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.page-shangmen-order .yuyue-express-check .remark-text{
+    color: red;
+}
+.page-shangmen-order .yuyue-express-wrap {}
+.page-shangmen-order .yuyue-express-wrap .need-self-define{
+    padding: 10px 0;
+}
+.page-shangmen-order .need-self-define:first-child{
+    mrgin-right: 20px;
+}
+.page-shangmen-order .self-def-info{
+    display: none;
+}

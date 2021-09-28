@@ -1,0 +1,170 @@
+a,a:hover{
+    text-decoration: none;
+}
+
+.page-hd-shuang11-libao {
+    background:#fff url(https://p1.ssl.qhmsg.com/t0168e10f20d5d49d38.jpg) no-repeat center 0;
+    font-size: .12rem;
+    background-size:contain;
+}
+
+.page-hd-shuang11-libao .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-shuang11-libao .block {
+    margin: 0 auto;
+}
+.page-hd-shuang11-libao .btn{
+    width: 2.65rem;
+    height: .4rem;
+    line-height: .4rem;
+    color: #fff;
+    border-radius: .04rem;
+    background: #ff6600;
+    background: -moz-linear-gradient(top, #ff6600 0%, #ff3300 100%);
+    background: -webkit-linear-gradient(top, #ff6600 0%,#ff3300 100%);
+    background: linear-gradient(to bottom, #ff6600 0%,#ff3300 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6600', endColorstr='#ff3300',GradientType=0 );
+    box-shadow: .02rem .02rem 2px 2px #ffd6cc;
+    margin-top: .1rem;
+}
+.page-hd-shuang11-libao .btn.btn-to-hd-index{
+    background: #ffa76e;
+    background: -moz-linear-gradient(top, #ffa76e 0%, #ff8c6e 100%);
+    background: -webkit-linear-gradient(top, #ffa76e 0%,#ff8c6e 100%);
+    background: linear-gradient(to bottom, #ffa76e 0%,#ff8c6e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa76e', endColorstr='#ff8c6e',GradientType=0 );
+}
+
+/*中奖用户滚动*/
+.page-hd-shuang11-libao .block-common .block-lottery-user{
+    color: #aa242f;
+    background: #fbd743;
+    border-radius: .04rem;
+    margin-top: .1rem;
+    padding: .1rem 0;
+}
+.page-hd-shuang11-libao .block-common .block-lottery-user .lottery-user-list{
+    text-align: center;
+    position: relative;
+    height: .3rem;
+    line-height: .3rem;
+    overflow: hidden;
+}
+.page-hd-shuang11-libao .block-common .block-lottery-user .lottery-user-list-inner{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+}
+.page-hd-shuang11-yr .block-common .block-lottery-user .item {}
+/*中奖用户滚动 end*/
+
+.page-hd-shuang11-libao .block-common .block-step{
+    height: 1.2rem;
+    background: url(https://p0.ssl.qhmsg.com/t01d04e3a3a5aa779eb.jpg) no-repeat center 0;
+    background-size:cover;
+}
+.page-hd-shuang11-libao .block-common .block-desc{
+    background: #fff;
+    color: #666;
+    padding: 0 .25rem .4rem;
+}
+.page-hd-shuang11-libao .block-common .block-desc h3{
+    font-size: .17rem;
+    text-align: center;
+    padding: .1rem 0;
+}
+.page-hd-shuang11-libao .block-common .block-desc p{
+    text-indent: 2em;
+}
+
+.page-hd-shuang11-libao .block1{
+    width:2.95rem;
+    margin-top: .1rem;
+}
+.page-hd-shuang11-libao .block2 {
+    width: 2.95rem;
+    background: #fff;
+    text-align: center;
+    padding: .15rem 0;
+}
+
+/*首页、朋友助力页*/
+.page-hd-shuang11-libao .block-index .block1 {
+    height:2.08rem;
+    background: url(https://p3.ssl.qhmsg.com/t012a53d12c7ff6be5e.png) no-repeat center 0;
+    background-size: cover;
+}
+
+.page-hd-shuang11-libao .block-index .block2 h3{
+    font-size:.18rem;
+    color: #333;
+}
+.page-hd-shuang11-libao .block-index .block2 p{
+    color: #888;
+    line-height: 1.4;
+    padding-top: .03rem;
+}
+.page-hd-shuang11-libao .block-index .block2 .tips{
+    padding-top: .1rem;
+    font-size: .14rem;
+    color: #ff6600;
+}
+
+/*助力数页*/
+.page-hd-shuang11-libao .block-help-count .block1 {
+    height: 1.68rem;
+    background: url(https://p1.ssl.qhmsg.com/t012570958f44f11e13.png) no-repeat center 0;
+    background-size: cover;
+    padding: .15rem .2rem;
+    font-size: .22rem;
+    line-height: 1.4;
+}
+.page-hd-shuang11-libao .block-help-count .help-count-list{}
+.page-hd-shuang11-libao .block-help-count .help-count-list .item {
+    float: left;
+    width: 25%;
+    height: 0.67rem;
+}
+.page-hd-shuang11-libao .block-help-count .help-count-list .num{
+    width: 0.38rem;
+    height: 0.67rem;
+    background: url(https://p1.ssl.qhmsg.com/t016c86e33902f36aac.png) no-repeat center 0;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    font-size: .2rem;
+    line-height: 1;
+    padding-top: .08rem;
+    color: #999;
+}
+.page-hd-shuang11-libao .block-help-count .help-count-list .line{
+    width: 100%;
+    height: 3px;
+    background: #999;
+    margin-left: -50%;
+    margin-top: -.06rem;
+}
+.page-hd-shuang11-libao .block-help-count .help-count-list .cur .num{
+    background-image: url("https://p1.ssl.qhmsg.com/t01cfb6f9355b193801.png");
+    color: #f42d52;
+}
+.page-hd-shuang11-libao .block-help-count .help-count-list .cur .line{
+    background-color: #f42d52;
+}
+
+/*中奖页*/
+.page-hd-shuang11-libao .block-win-prize .block1 {
+    height: 1.7rem;
+    background: url(https://p2.ssl.qhmsg.com/t01465c79bafd6b86e5.png) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-shuang11-libao .block-win-prize .tips{
+    padding-top: .1rem;
+    font-size: .14rem;
+    color: #ff6600;
+}

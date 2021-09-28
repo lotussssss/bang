@@ -1,0 +1,105 @@
+html{
+    overflow: visible;
+}
+/*手机试用首页*/
+.page-rent-index {
+    background-color: #eeeeee;
+    color: #353535;
+    /*max-width: 100%;*/
+    /*overflow: visible;*/
+}
+.page-rent-index #mainbody{
+    /*position: relative;*/
+    /*margin: 0 auto;*/
+    /*max-width: 720px;*/
+    /*min-width: 320px;*/
+}
+.page-rent-index .block{
+    margin: 0 .1rem;
+}
+.page-rent-index .block-inner {
+    /*padding: 0 .1rem;*/
+}
+.page-rent-index .block1{
+    height: 2.017778rem;
+    background: url("https://p0.ssl.qhmsg.com/t014c8496137777e3a3.png") no-repeat center center/100% 100%;
+}
+.page-rent-index .block2 {
+    margin-top: -.5rem;
+}
+.page-rent-index .block2 .block-inner{
+    height: 1.11rem;
+    width: 3rem;
+    margin: 0 auto;
+}
+.page-rent-index .block2 .block-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.page-rent-index .block3{
+    margin-top: .1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    background-color: #eeeeee;
+}
+.page-rent-index .block3 .product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1.45rem;
+    margin-right: .1rem;
+    margin-bottom: .1rem;
+    padding: .1rem 0 .2rem;
+    background-color: #fff;
+    text-decoration: none;
+}
+.page-rent-index .block3 .product-item:nth-of-type(2n){
+    margin-right: 0;
+}
+
+.page-rent-index .block3 .product-item .pro-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1.2rem;
+    overflow: hidden;
+}
+.page-rent-index .block3 .product-item .pro-img img {
+    height: 100%;
+}
+.page-rent-index .block3 .product-item .pro-name{
+    padding-top: .1rem;
+    font-size: .13rem;
+}
+.page-rent-index .block3 .product-item .pro-price{
+    color: #ff3300;
+    font-size: .12rem;
+}
+.page-rent-index .block3 .product-item .process-bar{
+    width: 80%;
+    display: flex;
+    height: .15rem;
+    background-color: #FCD3CD;
+    border-radius:.1rem;
+}
+.page-rent-index .block3 .product-item .process-bar .inner{
+    display: inline-block;
+    background-color: #f00;
+    border-radius: .1rem;
+    width: 75%;
+    text-align: center;
+    height: .15rem;
+    line-height: .17rem;
+}
+.page-rent-index .block3 .product-item .process-bar .inner span{
+    transform: scale(.8);
+    display: inline-block;
+    color: #fff;
+    line-height: 1;
+}
+.page-rent-index .block4{
+    margin: .1rem;
+}
+

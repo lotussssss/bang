@@ -1,0 +1,270 @@
+/*合作伙伴cps-四川超强*/
+/*基础颜色 #333*/
+/*显著颜色 #1f94d7*/
+/*渐变按钮浅色 #f8b500*/
+/*渐变按钮深色 #f90*/
+/*未选中背景色 #f2f2f2*/
+/*已选中背景色 #e2f5ff*/
+.m-huishou-partner-chaoqiang-store.m-huishou .btn-yellow {
+    display: block;
+    width: 100%;
+    /*height: .44rem;*/
+    /*line-height: .44rem;*/
+    background: #f8b500;
+    background: -webkit-gradient(linear, left top, right top, from(#f8b500), to(#f90));
+    box-shadow: 0 0.05rem 0.2rem #f8b50033;
+    color: #fff;
+}
+
+.m-huishou-partner-chaoqiang-store.m-huishou .block-chaoqiang-store-info {
+    color: #1f94d7;
+    padding: .4rem .1rem 0;
+    line-height: 1.48;
+    font-size: .12rem;
+    text-align: left;
+}
+
+/* START 首页 */
+.m-huishou-partner-chaoqiang-store.page-index .block-recycle-cate-tab .item-selected .cate-name {
+    color: #1f94d7;
+    border-bottom: solid 3px #1f94d7;
+}
+
+.m-huishou-partner-chaoqiang-store.page-index .block-model-list .item,
+.m-huishou-partner-chaoqiang-store.page-index .block-brand-list .item {
+    color: #333;
+}
+
+.m-huishou-partner-chaoqiang-store.page-index .block-brand-list .item {
+    background-color: #f2f2f2;
+}
+
+.m-huishou-partner-chaoqiang-store.page-index .block-brand-list .item.checked {
+    color: #1f94d7;
+    background-color: #fff;
+    border-top: 1px solid #1f94d7;
+    border-left: 3px solid #1f94d7;
+}
+
+.m-huishou-partner-chaoqiang-store.page-index .block-brand-list .item.checked-next {
+    border-top: 1px solid #1f94d7;
+}
+
+.m-huishou-partner-chaoqiang-store.page-index .block-brand-list .item .item-inner {
+    display: block;
+    border-right: 1px solid #1f94d7;
+}
+
+.m-huishou-partner-chaoqiang-store.page-index .block-brand-list .item.checked .item-inner {
+    border-right: 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    .m-huishou-partner-chaoqiang-store.page-index .block-brand-list .item.checked-next,
+    .m-huishou-partner-chaoqiang-store.page-index .block-brand-list .item.checked {
+        border-top: 0;
+        background-position: left top;
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, transparent), color-stop(0.5, #1f94d7));
+        background-repeat: repeat-x;
+        -webkit-background-size: 100% 1px;
+    }
+
+    .m-huishou-partner-chaoqiang-store.page-index .block-brand-list .item .item-inner {
+        border: 0;
+        background-position: right top;
+        background-image: -webkit-gradient(linear, left top, right top, color-stop(0.5, transparent), color-stop(0.5, #1f94d7));
+        background-repeat: repeat-y;
+        -webkit-background-size: 1px 100%;
+    }
+
+    .m-huishou-partner-chaoqiang-store.page-index .block-brand-list .item.checked .item-inner {
+        border-right: none;
+        background-image: none;
+    }
+}
+
+.m-huishou-partner-chaoqiang-store.page-index .block-brand-list.inner-col-3 .item .item-inner {
+    border-right: 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    .m-huishou-partner-chaoqiang-store.page-index .block-brand-list.inner-col-3 .item .item-inner {
+        border: 0;
+        background-image: none;
+    }
+}
+
+/* END 首页 */
+
+/* START 评估页 */
+.m-huishou-partner-chaoqiang-store.page-assess .block-process-status-bar .block-inner {
+    background-color: #1f94d7;
+}
+
+.m-huishou-partner-chaoqiang-store.page-assess .block-assess-info .block-option-group .row-option-group-tit .icon-circle-solid-q {
+    color: #1f94d7 !important;
+}
+
+.m-huishou-partner-chaoqiang-store.page-assess .block-assess-info .block-option-group .row-option-box .option-item {
+    border: 0;
+    background-color: #f2f2f2;
+}
+
+/*.m-huishou-partner-chaoqiang-store.page-assess .block-assess-info .block-option-group .row-option-box .option-item:before {*/
+/*display: none;*/
+/*}*/
+
+.m-huishou-partner-chaoqiang-store.page-assess .block-assess-info .block-option-group .row-option-box .option-item.option-item-selected {
+    /*border: 0;*/
+    border: 1px solid #1f94d7;
+    background-color: #e2f5ff;
+    color: #1f94d7;
+    font-weight: bolder;
+}
+
+/*.m-huishou-partner-chaoqiang-store.page-assess .block-assess-info .block-option-group .row-option-box .option-item .icon-circle-solid-q {*/
+/*font-weight: normal;*/
+/*color: #1f94d7 !important;*/
+/*}*/
+
+.m-huishou-partner-chaoqiang-store.page-assess .block-assess-info .block-option-group .row-option-selected .btn-action {
+    color: #1f94d7;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .m-huishou-partner-chaoqiang-store.page-assess .block-assess-info .block-option-group .row-option-box .option-item:before {
+        border: 1px solid #f6f6f6;
+    }
+
+    .m-huishou-partner-chaoqiang-store.page-assess .block-assess-info .block-option-group .row-option-box .option-item.option-item-selected {
+        border: 0;
+    }
+
+    .m-huishou-partner-chaoqiang-store.page-assess .block-assess-info .block-option-group .row-option-box .option-item.option-item-selected:before {
+        border: 1px solid #1f94d7;
+    }
+}
+
+/* END 评估页 */
+
+/* START 评估结果页 */
+.m-huishou-partner-chaoqiang-store .block-assess_report-product .p-price {
+    color: #1f94d7;
+}
+
+.m-huishou-partner-chaoqiang-store .block-city .switch-city {
+    color: #1f94d7;
+}
+
+.m-huishou-partner-chaoqiang-store .shipping-address-select-block .i-item.selected {
+    color: #1f94d7;
+}
+
+.m-huishou-partner-chaoqiang-store.page-order .block-btn .remove-lock {
+    color: #1f94d7;
+}
+
+.m-huishou-partner-chaoqiang-store .page-order_submit .block-tit {
+    padding-top: .12rem;
+}
+
+.m-huishou-partner-chaoqiang-store .page-order_submit .row-hs-style-checked .icon-circle {
+    color: #1f94d7;
+}
+
+.m-huishou-partner-chaoqiang-store .page-order_submit .block-order-submit-yundian-mini-no-service-support {
+    padding: .6rem .1rem;
+    text-align: center;
+}
+
+.m-huishou-partner-chaoqiang-store .page-order_submit .block-order-form {
+    color: #333;
+}
+
+.m-huishou-partner-chaoqiang-store .page-order_submit .block-sub-order-form .row {
+    height: .44rem;
+}
+
+.m-huishou-partner-chaoqiang-store .page-order_submit .block-order-form .row-payout-method .payout-method-item.b-radius-green {
+    color: #1f94d7;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .m-huishou-partner-chaoqiang-store .b-radius-green:before {
+        border: 1px solid #1f94d7;
+    }
+}
+
+.m-huishou-partner-chaoqiang-store .page-order_submit .block-order-form .btn-send-vcode {
+    color: #1f94d7;
+}
+
+.m-huishou-partner-chaoqiang-store .page-order_submit .row.row-use-promo {
+    padding-top: .1rem;
+}
+
+.m-huishou-partner-chaoqiang-store .page-order_submit .row-use-promo .use-promo-wrap .promo-selector,
+.m-huishou-partner-chaoqiang-store .page-order_submit .row-use-promo .use-promo-wrap .promo-code {
+    width: 100%;
+}
+
+.m-huishou-partner-chaoqiang-store .page-order_submit .block-order-form-suning-yundian-mini-qrcode .qrcode {
+    margin: 0 auto;
+    padding: .2rem 0;
+    width: 2rem;
+}
+
+.m-huishou-partner-chaoqiang-store .page-order_submit .block-order-form-suning-yundian-mini-qrcode .tit {
+    padding: .1rem 0;
+    text-align: center;
+}
+
+.m-huishou-partner-chaoqiang-store .page-order_submit .block-order-form-suning-yundian-mini-qrcode .tit-desc {
+    padding-bottom: .2rem;
+    font-size: .1rem;
+    color: #999;
+    text-align: center;
+}
+
+/* END 评估结果页 */
+
+/* START 下单成功页 */
+.m-huishou-partner-chaoqiang-store.page-order-succ,
+.m-huishou-partner-chaoqiang-store.page-order-succ #Main.main {
+    background-color: #fff;
+    color: #333;
+}
+
+.m-huishou-partner-chaoqiang-store.page-order-succ a {
+    color: #1f94d7;
+}
+
+.m-huishou-partner-chaoqiang-store.page-order-succ .ok-msg h2 {
+    color: #1f94d7;
+    font-size: 0;
+}
+
+.m-huishou-partner-chaoqiang-store.page-order-succ .ok-msg h2 .iconfont {
+    margin-right: .06rem;
+    font-size: .32rem;
+    vertical-align: middle;
+}
+
+.m-huishou-partner-chaoqiang-store.page-order-succ .ok-msg h2 .txt {
+    padding-top: .04rem;
+    font-size: .18rem;
+    vertical-align: middle;
+}
+
+.m-huishou-partner-chaoqiang-store.page-order-succ .ok-msg .contact-info {
+    border: 1px solid #1f94d7;
+    background: #e2f5ff;
+}
+
+.m-huishou-partner-chaoqiang-store.page-order-succ .block-btn-back {
+    margin-top: .3rem;
+}
+
+/* END 下单成功页 */

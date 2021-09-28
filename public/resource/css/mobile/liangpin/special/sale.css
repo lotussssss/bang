@@ -1,0 +1,470 @@
+a,a:hover{
+    text-decoration: none;
+}
+
+.page-youpin-sale {
+    background-color:#f2f2f2;
+    font-size: .12rem;
+}
+
+.page-youpin-sale .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-youpin-sale .block {
+    background-color: #fff;
+}
+.page-youpin-sale .dialog-wrap{
+    background-color: #fff;
+    border:none;
+}
+
+/*公用的block-tit样式start*/
+.page-youpin-sale .block-tit{
+    height: 0.4266666666666667rem;
+    background: no-repeat center/cover;
+}
+
+.page-youpin-sale .block-coupon .block-tit{
+    background-image: url("https://p1.ssl.qhmsg.com/t018310e2d9aebdac1a.png");
+}
+.page-youpin-sale .block-hot .block-tit{
+    background-image: url("https://p0.ssl.qhmsg.com/t01dc01b95712611f6e.png");
+}
+.page-youpin-sale .block-discount .block-tit{
+    background-image: url("https://p0.ssl.qhmsg.com/t01355bb7a1adf58a20.png");
+}
+.page-youpin-sale .block-recommend .block-tit{
+    background-image: url("https://p0.ssl.qhmsg.com/t01902163b1bf9f9001.png");
+}
+/*公用的block-title样式end*/
+
+/*查看全部*/
+.page-youpin-sale .block-more{
+    text-align: center;
+    padding: .2rem 0;
+}
+.page-youpin-sale .block-more a{
+    font-size: .14rem;
+    color: #fff;
+    background: #ff5c33;
+    border-radius: 999px;
+    padding: .05rem .15rem;
+    line-height: 1;
+}
+/*查看全部 end*/
+
+/*头图*/
+.page-youpin-sale .block-top{
+    height: 2.2101333333333333rem;
+    background: url(https://p1.ssl.qhmsg.com/t010cd61d9e0b1c69a7.jpg) no-repeat center 0;
+    background-size: cover;
+    position: relative;
+}
+.page-youpin-sale.page-yuelin .block-top{
+    background-image: url(https://p4.ssl.qhmsg.com/t018de4a59abc6437a4.jpg);
+}
+.page-youpin-sale .block-top .btn-login{
+    position: absolute;
+    right: 0;
+    top: .1rem;
+    background: #ff7451;
+    color: #f1f1f1;
+    border-radius: 999px 0 0 999px;
+    padding: 0 .1rem;
+}
+/*头图 end*/
+
+/*大牌手机1元抢*/
+.page-youpin-sale .block-flash{}
+.page-youpin-sale .block-flash .block-tit{
+    position: relative;
+    height: 0.7466666666666667rem;
+    background: url("https://p2.ssl.qhmsg.com/t0158cd4accb0230b28.jpg") no-repeat center 0;
+    background-size: 100% 100%;
+}
+.page-youpin-sale .block-flash .block-tit .countdown{
+    display: none;
+    position: absolute;
+    top: .2rem;
+    right: .12rem;
+    overflow: hidden;
+    border-radius: .04rem;
+    border: 1px solid rgba(0, 0, 0, 0.72);
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    font-size: 0;
+}
+.page-youpin-sale .block-flash .block-tit .countdown span{
+    padding: 0 .03rem;
+    line-height: 1.4;
+    font-size: .1rem;
+}
+.page-youpin-sale .block-flash .block-tit .countdown .desc-txt.desc-txt-before{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+}
+.page-youpin-sale .block-flash .block-tit .countdown .desc-txt,
+.page-youpin-sale .block-flash .block-tit .countdown .d-num,
+.page-youpin-sale .block-flash .block-tit .countdown .d-txt,
+.page-youpin-sale .block-flash .block-tit .countdown .s-txt {
+    display: none;
+}
+.page-youpin-sale .block-flash .flash-product-list{
+    padding: 0 .1rem;
+    background: url("https://p0.ssl.qhmsg.com/t012dbfdc255c9765d3.jpg") repeat-y center 0;
+    background-size: 100%;
+}
+.page-youpin-sale .block-flash .flash-product-list .item{
+    padding: .15rem;
+    position: relative;
+}
+.page-youpin-sale .block-flash .flash-product-list .pic{
+    /*width: 0.84rem;*/
+    height: 0.84rem;
+    background: transparent no-repeat left center;
+    background-size: contain;
+}
+.page-youpin-sale .block-flash .flash-product-list .label-flash{
+    position: absolute;
+    right: -0.1rem;
+    top: -0.1rem;
+    width: 0.6rem;
+    height: 0.5rem;
+    background: url(https://p4.ssl.qhmsg.com/t01045815858dd8e04f.png) no-repeat center 0;
+    background-size: cover;
+}
+.page-youpin-sale .block-flash .flash-product-list .col-3-2{
+    padding-left: .1rem;
+}
+.page-youpin-sale .block-flash .flash-product-list .tit{
+    padding: .1rem 0 .04rem;
+    color: #333;
+    line-height: 1.4;
+}
+.page-youpin-sale .block-flash .flash-product-list .label-baoyou{
+    display: inline-block;
+    border: 1px solid #ff5c33;
+    color: #ff5c33;
+    border-radius: .02rem;
+    padding: 0 .02rem;
+    font-size: .1rem;
+    vertical-align: top;
+}
+.page-youpin-sale .block-flash .flash-product-list .price{
+    color: #ff4500;
+}
+.page-youpin-sale .block-flash .flash-product-list .price .price-num{
+    font-size: .2rem;
+}
+.page-youpin-sale .block-flash .flash-product-list .btn{
+    position: absolute;
+    right: 0rem;
+    bottom: 0.05rem;
+    width: 0.78rem;
+    background: #ff5c33;
+    color: #fff;
+    font-size: .14rem;
+}
+.page-youpin-sale .block-flash .flash-product-list .btn.btn-disabled{
+    background: #ddd;
+}
+.page-youpin-sale .block-flash .block-bottom{
+    height: 0.256rem;
+    background: url("https://p2.ssl.qhmsg.com/t0152f6fd5f7f1d922d.jpg") no-repeat center 0;
+    background-size: 100% 100%;
+}
+/* 大牌手机1元抢 end */
+
+/*优惠券*/
+.page-youpin-sale .block-coupon{
+    padding: 0 .1rem .12rem;
+}
+.page-youpin-sale .block-coupon .coupon-list .coupon-item{
+    height: 0.8234666666666667rem;
+    background:url("https://p0.ssl.qhmsg.com/t016b901113ffdf018f.png") no-repeat center 0;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.page-youpin-sale .block-coupon .coupon-list .coupon-cont{
+    padding: .08rem 0 0 .1rem;
+    height: 0.4992rem;
+    color: #fff;
+}
+.page-youpin-sale .block-coupon .coupon-list .coupon-amount{
+    font-size: 0;
+}
+.page-youpin-sale .block-coupon .coupon-list .coupon-amount .amount-label{
+    vertical-align: top;
+    font-size: .15rem;
+}
+.page-youpin-sale .block-coupon .coupon-list .coupon-amount .amount-num{
+    font-size: .38rem;
+    line-height: 1;
+    vertical-align: top;
+}
+.page-youpin-sale .block-coupon .coupon-list .coupon-txt{
+    padding-left: .02rem;
+    vertical-align: top;
+}
+.page-youpin-sale .block-coupon .coupon-list .coupon-name{
+    font-size: .14rem;
+}
+.page-youpin-sale .block-coupon .coupon-list .coupon-needed{
+    font-size: .1rem;
+    line-height: 1;
+}
+.page-youpin-sale .block-coupon .coupon-list .btn-get-coupon{
+    display: block;
+    width: 1rem;
+    margin: 0 auto;
+    color: #ff5c33;
+    font-size: .14rem;
+    text-align: center;
+}
+
+.page-youpin-sale .block-coupon .coupon-shenquan{
+    height: 0.9429333333333333rem;
+    background:url("https://p3.ssl.qhmsg.com/t01d74aae2665ca9aa6.png") no-repeat center 0;
+    background-size: contain;
+    position: relative;
+    overflow: hidden;
+}
+.page-youpin-sale .block-coupon .coupon-shenquan .col-left-fixed{
+    padding: .23rem 0 0 .1rem;
+    width: 1.5rem;
+    color: #fff;
+}
+.page-youpin-sale .block-coupon .coupon-shenquan .coupon-amount{
+    font-size: 0;
+}
+.page-youpin-sale .block-coupon .coupon-shenquan .coupon-amount .amount-label{
+    vertical-align: top;
+    font-size: .15rem;
+}
+.page-youpin-sale .block-coupon .coupon-shenquan .coupon-amount .amount-num{
+    font-size: .38rem;
+    line-height: 1;
+    vertical-align: top;
+}
+.page-youpin-sale .block-coupon .coupon-shenquan .coupon-txt{
+    padding-left: .02rem;
+    vertical-align: top;
+}
+.page-youpin-sale .block-coupon .coupon-shenquan .coupon-name{
+    font-size: .14rem;
+}
+.page-youpin-sale .block-coupon .coupon-shenquan .coupon-needed{
+    font-size: .1rem;
+    line-height: 1;
+}
+
+.page-youpin-sale .block-coupon .coupon-shenquan .col-right{
+    margin-left: 1.5rem;
+    padding-right: .2rem;
+    text-align: center;
+}
+.page-youpin-sale .block-coupon .coupon-shenquan .coupon-tit{
+    padding-top: .1rem;
+    font-size: .16rem;
+    color: #ff5c33;
+    line-height: 1.2;
+}
+.page-youpin-sale .block-coupon .coupon-shenquan .coupon-time{
+    color: #4a3a16;
+}
+.page-youpin-sale .block-coupon .coupon-shenquan .btn-get-coupon{
+    display: inline-block;
+    width: .7rem;
+    height: .25rem;
+    line-height: .25rem;
+    text-align: center;
+    color: #ff5c33;
+    font-size: .12rem;
+    border: 1px solid #ff5c33;
+    border-radius: 999px;
+}
+.page-youpin-sale .block-coupon .btn-get-coupon.btn-disabled{
+    background: #ddd;
+    border:none;
+    color: #fff;
+}
+.page-youpin-sale .block-coupon .label-got{
+    position: absolute;
+    right: .03rem;
+    top: -.12rem;
+    width: .58rem;
+    height: .58rem;
+    background: url("https://p1.ssl.qhmsg.com/t0192e1624a08c18009.png") no-repeat center 0;
+    background-size: cover;
+}
+/*优惠券 end*/
+
+/*热销爆品&超值折扣*/
+.page-youpin-sale .block-clearance-sale a,
+.page-youpin-sale .block-clearance-sale a:hover{
+    text-decoration: none;
+}
+.page-youpin-sale .block-clearance-sale .clearance-sale-more{
+    position: absolute;
+    right: .05rem;
+    top: .1rem;
+    font-size: .14rem;
+    color: #333;
+}
+.page-youpin-sale .product-list-wrap{
+    padding-left: .1rem;
+    width: 100%;
+    height: 1.82rem;
+    overflow-x: auto;
+}
+.page-youpin-sale .product-list{
+    background: #fff;
+    width: 100%;
+    font-size: 0;
+}
+.page-youpin-sale .product-list .item{
+    position: relative;
+    display: inline-block;
+    padding:.15rem .02rem;
+    width: .9rem;
+}
+.page-youpin-sale .product-list .pic{
+    height: .85rem;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: .1rem;
+}
+.page-youpin-sale .product-list .pic img{
+    height: 100%;
+}
+.page-youpin-sale .product-list .tit{
+    color: #333;
+    font-size: .1rem;
+    line-height: 1.4;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    word-break: break-all;
+}
+.page-youpin-sale .product-list .price{
+    font-size: 0;
+    text-align: center;
+}
+.page-youpin-sale .product-list .price-cur{
+    font-size: .16rem;
+    color: #ff3300;
+}
+.page-youpin-sale .product-list .price-orig{
+    padding-left: .05rem;
+    font-size: .1rem;
+    color: #999;
+}
+.page-youpin-sale .product-list.hot-product-list .label{
+    position: absolute;
+    left: 0rem;
+    top:0rem;
+    width: 0.256rem;
+    height: 0.38826666666666665rem;
+    background: url(https://p1.ssl.qhmsg.com/t0175848cc71b96b28a.png) no-repeat center 0;
+    background-size: cover;
+}
+.page-youpin-sale .product-list.discount-product-list .label{
+    position: absolute;
+    left: 0rem;
+    top:0rem;
+    width: 0.29013333333333335rem;
+    height: 0.2986666666666667rem;
+    background: url(https://p0.ssl.qhmsg.com/t013480b71ff970ead7.png) no-repeat center 0;
+    background-size: cover;
+}
+/*热销爆品&超值折扣 end*/
+
+/*更多优惠*/
+.page-youpin-sale .block-recommend{}
+.page-youpin-sale .block-recommend .recommend-product-list{}
+.page-youpin-sale .block-recommend .recommend-product-list .item{
+    padding: .15rem;
+    border-top: 1px solid #e6e6e6;
+    position: relative;
+}
+.page-youpin-sale .block-recommend .recommend-product-list img{
+    width: 0.84rem;
+    height: 0.84rem;
+}
+.page-youpin-sale .block-recommend .recommend-product-list .label{
+    position: absolute;
+    right: 0.1rem;
+    top: -0.1rem;
+    width: 0.3rem;
+    height: 0.3rem;
+    background: url(https://p0.ssl.qhmsg.com/t019da83c5bc807b25f.png) no-repeat center 0;
+    background-size: cover;
+}
+.page-youpin-sale .block-recommend .recommend-product-list .tit{
+    padding: .1rem 0 .04rem;
+    color: #333;
+    line-height: 1.4;
+}
+.page-youpin-sale .block-recommend .recommend-product-list .price{
+    color: #ff4500;
+}
+.page-youpin-sale .block-recommend .recommend-product-list .price .price-num{
+    font-size: .2rem;
+}
+.page-youpin-sale .block-recommend .recommend-product-list .btn{
+    position: absolute;
+    right: 0rem;
+    bottom: 0.05rem;
+    width: 0.78rem;
+    background: #ff5c33;
+    color: #fff;
+    font-size: .14rem;
+}
+/*更多优惠 end*/
+
+/*活动说明*/
+.page-youpin-sale .block-desc{
+    padding: .15rem .1rem;
+}
+.page-youpin-sale .block-desc .desc-tit{
+    text-align: center;
+    font-size: .16rem;
+    padding-bottom: .05rem;
+}
+.page-youpin-sale .block-desc h4{
+    font-size: .14rem;
+}
+.page-youpin-sale .block-desc .desc-cont-txt{
+    padding-bottom: .1rem;
+}
+.page-youpin-sale .block-desc .desc-cont-txt p{
+    text-indent: 2em;
+}
+/*活动说明 end*/
+
+/*年末清仓*/
+.page-youpin-sale.page-nianmo .block-top{
+    background-image: url(https://p5.ssl.qhimg.com/t0146aea31cfaff2da5.jpg);
+}
+.page-youpin-sale.page-nianmo .block-plus-vip a{
+    display: block;
+    height: 100%;
+}
+.page-youpin-sale.page-nianmo .block-flash .block-tit{
+    background-image: url(https://p1.ssl.qhimg.com/t01096a10b485625cbf.jpg);
+}
+.page-youpin-sale.page-nianmo .block-discount .block-tit{
+    background-image: url(https://p3.ssl.qhimg.com/t01473205d9b63bd080.jpg);
+}
+.page-youpin-sale.page-nianmo .block-recommend .block-tit{
+    background-image: url(https://p1.ssl.qhimg.com/t0163759c759f908a6c.jpg);
+}

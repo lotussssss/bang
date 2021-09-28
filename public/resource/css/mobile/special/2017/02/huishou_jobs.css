@@ -1,0 +1,182 @@
+html{
+    height: auto;
+    background: #fff;
+}
+.errorblink{
+    border: 1px solid #fb0909 !important;
+}
+.hide{display: none;}
+.w100{width: 100%;}
+.f12{font-size: 12px;}
+
+.page-hd-huishou_jobs{
+    margin: 0;
+    padding: 0;
+    background: #44aa77;
+}
+.page-hd-huishou_jobs #mainbody{
+    margin: 0 auto;
+    max-width: 720px;
+    min-width: 320px;
+}
+.page-hd-huishou_jobs .mainbody-inner{
+    margin: 0;
+    padding: 0;
+}
+.page-hd-huishou_jobs .block1{
+    height: 1.5422222222222222rem;
+    background: url(https://p4.ssl.qhmsg.com/t01d590941db14f932b.jpg) no-repeat center 0;
+    background-size: cover;
+}
+.page-hd-huishou_jobs .block1 .btn-liji-huanqian{
+    position: absolute;
+    top: 1.24rem;
+    left: 0.088rem;
+    display: block;
+    width: 0.72rem;
+    height: 0.24rem;
+    background: #44aa77;
+    color: #fff;
+    font-size: .12rem;
+    text-align: center;
+    line-height: .24rem;
+}
+.page-hd-huishou_jobs .block1 .btn-liji-huanqian:hover{
+    text-decoration: none;
+}
+.page-hd-huishou_jobs .block-tit{
+    line-height: 1.2;
+    text-align: center;
+    font-size: .2rem;
+    color: #fff;
+    padding: .1rem;
+}
+.page-hd-huishou_jobs .product-list{
+}
+.page-hd-huishou_jobs .product-list{
+    padding: 0 .06rem;
+}
+.page-hd-huishou_jobs .product-list .item{
+    float: left;
+    width: 1.51rem;
+    /*height: 2rem;*/
+    padding: 0 0 .1rem;
+    margin-bottom: .06rem;
+    text-decoration: none;
+    text-align: center;
+    background: #fff;
+    position: relative;
+}
+.page-hd-huishou_jobs .product-list .item:nth-child(odd){
+    margin-right: .06rem;
+}
+.page-hd-huishou_jobs .product-list .item:hover{
+    text-decoration: none;
+}
+
+.page-hd-huishou_jobs .product-list .img{
+    height: 0.9244444444444444rem;
+    margin: .2rem auto .1rem;
+}
+.page-hd-huishou_jobs .product-list .img img{
+    height: 100%;
+}
+.page-hd-huishou_jobs .product-list .tit {
+    font-size : .12rem;
+    color: #333;
+}
+.page-hd-huishou_jobs .product-list .line-price{
+    font-size: 0;
+}
+.page-hd-huishou_jobs .product-list .price {
+    line-height: 1.6;
+    color: #f74a33;
+    font-size   : .16rem;
+}
+.page-hd-huishou_jobs .product-list .price i{
+    font-size: .12rem;
+}
+.page-hd-huishou_jobs .product-list .origin-price {
+    line-height: 1.6;
+    font-size   : .12rem;
+    text-decoration: line-through;
+    color: #999;
+    padding-left: .04rem;
+}
+.page-hd-huishou_jobs .product-list .btn {
+    margin-top    : .02rem;
+    width         : 1.25rem;
+    height        : .28rem;
+    line-height   : .28rem;
+    text-align    : center;
+    font-size     : .14rem;
+    background    : #ff2b0f;
+    color         : #fff;
+    border-radius : 999px;
+}
+.page-hd-huishou_jobs .product-list .item:hover .btn {
+    background : #ed0505;
+}
+.page-hd-huishou_jobs .product-list .item:active .btn {
+    background : #f00;
+}
+.page-hd-huishou_jobs .product-list .label{
+    position: absolute;
+    left: .32rem;
+    top:.75rem;
+    width: 0.3688888888888889rem;
+    height     : 0.36rem;
+    background : url(https://p1.ssl.qhmsg.com/t0197898587c48b6770.png) no-repeat center;
+    background-size: cover;
+}
+.page-hd-huishou_jobs .btn-kankan-jiuji{
+    width: 2.8rem;
+    height: 0.4888888888888889rem;
+    line-height: 0.4888888888888889rem;
+    text-align: center;
+    background: #ff2b0f;
+    color: #fff;
+    display: block;
+    margin: .15rem auto;
+    border-radius: 999px;
+    font-size: .16rem;
+}
+.page-hd-huishou_jobs .btn-kankan-jiuji:hover{
+    text-decoration: none;
+}
+
+.page-hd-huishou_jobs .block-intro{
+    height: 2.871111111111111rem;
+    background: url(https://p0.ssl.qhmsg.com/t01a32971938d43818b.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+.page-hd-huishou_jobs .block-desc-cont {
+    color: #fff;
+    font-size: .14rem;
+    padding:0 .1rem .2rem;
+}
+.page-hd-huishou_jobs .block-desc-cont p{
+    line-height: 1.4;
+    padding-bottom: .08rem;
+}
+.page-hd-huishou_jobs .block-desc-cont .num{
+    width: .2rem;
+    height: .2rem;
+    line-height: .2rem;
+    text-align: center;
+    color: #666;
+    background-color: #fff;
+    border-radius: 999px;
+    float: left;
+}
+.page-hd-huishou_jobs .block-desc-cont .cont{
+    float: left;
+    width: 2.8rem;
+    padding-left: .06rem;
+}
+.page-hd-huishou_jobs .block-desc-cont .phone-num{
+    font-size: .18rem;
+    padding: .1rem;
+    text-align: center;
+}

@@ -1,0 +1,34 @@
+/* 订单列表*/
+.page-shiyong-order-list{
+
+}
+.page-shiyong-order-list .order-list{
+    padding-bottom: .15rem;
+}
+.page-shiyong-order-list .order-list a{
+    padding: .08rem;
+    background: #fff;
+    color: inherit;
+    text-decoration: none;
+}
+.page-shiyong-order-list .order-list a:hover{
+    text-decoration: none;
+    background: #FBFBFB;
+}
+.page-shiyong-order-list .order-list .p-info-img{
+    width: .8rem;
+}
+.page-shiyong-order-list .order-list .col-right{
+    margin-left: .85rem;
+}
+.page-shiyong-order-list .order-list .p-info-item{
+    padding: 0 0 .04rem .35rem;
+    text-indent: -.35rem;
+}
+.page-shiyong-order-list .order-list .p-info-name-item{
+    padding-left: 0;
+    text-indent: 0;
+}
+.page-shiyong-order-list .order-list .arrow-right:after{
+    margin-top: -.04rem;
+}

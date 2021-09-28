@@ -1,0 +1,596 @@
+a,a:hover{
+    text-decoration: none;
+}
+
+.page-hd-kaixueji {
+    background:url("https://p1.ssl.qhmsg.com/t011cd09a024a299192.jpg") repeat 0 0;
+    background-size: 5%;
+    font-size: .12rem;
+}
+
+.page-hd-kaixueji .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-kaixueji .block {
+    margin: 0 auto;
+}
+
+/*公用的block-title样式start*/
+.page-hd-kaixueji .block-tit{
+    height: .44rem;
+    background: url(https://p2.ssl.qhmsg.com/t0177bfe71cb35f1514.png) no-repeat center 0;
+    background-size: contain;
+}
+.page-hd-kaixueji .block-tit .tit-cont{
+    font-weight: bold;
+    font-size: .18rem;
+    color: #f3df7a;
+    text-align: center;
+    text-indent: -999px;
+    padding-top: .15rem;
+    /*text-shadow: 0 5px 10px #f4e5ad;*/
+    background-image: -webkit-linear-gradient(top, #f4e5ad 50%, #a37529 100%);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    text-fill-color: #f3df7a;
+    -webkit-text-fill-color: transparent;
+}
+/*公用的block-title样式end*/
+
+/*头图*/
+.page-hd-kaixueji .block-top{
+    height: 1.9328rem;
+    background: url(https://p0.ssl.qhmsg.com/t0170394ccd206b3607.jpg) no-repeat center 0;
+    background-size: cover;
+}
+/*头图 end*/
+/*banner*/
+.page-hd-kaixueji .block-sub{
+    height: 2.3808rem;
+    background: url(https://p3.ssl.qhmsg.com/t0191413cea827d478f.jpg) no-repeat center 0;
+    background-size: cover;
+    position: relative;
+    margin-bottom: .1rem;
+}
+/*banner end*/
+/*优惠券*/
+.page-hd-kaixueji .block-coupon{}
+.page-hd-kaixueji .block-coupon .btn-coupon{
+    position: absolute;
+    top: 1.15rem;
+    width: 0.7168rem;
+    height: 0.2176rem;
+    text-align: center;
+    line-height: 0.2176rem;
+    color: #fff;
+    font-size: .12rem;
+    background: #5a4398;
+}
+.page-hd-kaixueji .block-coupon .btn-coupon1{
+    left: 0.22rem;
+}
+.page-hd-kaixueji .block-coupon .btn-coupon2{
+    left: 1.19rem;
+}
+.page-hd-kaixueji .block-coupon .btn-coupon3{
+    left: 2.2016rem;
+}
+.page-hd-kaixueji .block-coupon .btn-coupon.btn-disabled{
+    background: #ddd;
+    cursor: default;
+}
+/*优惠券 end*/
+/*神券*/
+.page-hd-kaixueji .block-shenquan .btn-shenquan{
+    position: absolute;
+    left: 2.5rem;
+    bottom: .3rem;
+    width: 0.427rem;
+    height: 0.4608rem;
+}
+.page-hd-kaixueji .block-shenquan .btn-shenquan.btn-start{
+    background: url(https://p0.ssl.qhmsg.com/t01ef5ff8f083c8207a.gif) no-repeat center/cover;
+}
+.page-hd-kaixueji .block-shenquan .btn-shenquan.btn-not-start{
+    background: url(https://p0.ssl.qhmsg.com/t01461ca794cd9b3629.png) no-repeat center/cover;
+    cursor: default;
+}
+.page-hd-kaixueji .block-shenquan .btn-shenquan.btn-end{
+    background: url(https://p2.ssl.qhmsg.com/t01ee3d48a9f08b77bf.png) no-repeat center/cover;
+    cursor: default;
+}
+/*神券 end*/
+
+/* 更多 */
+.page-hd-kaixueji .more{
+    text-align: center;
+    padding: .1rem 0;
+}
+.page-hd-kaixueji .more a{
+    font-size: .14rem;
+    color: #5a4398;
+    text-decoration: underline;
+}
+/* END 更多 */
+
+.page-hd-kaixueji .block-product-list-tit{
+    height: 0.7168rem;
+    background: url(https://p0.ssl.qhmsg.com/t0178d860fe70388b6f.jpg) no-repeat center 0;
+    background-size: cover;
+    margin-top: .1rem;
+}
+.page-hd-kaixueji .block-product-list{
+    margin: 0.1rem .08rem;
+    border: 1px solid #5a4398;
+    background: #ffcc33;
+}
+.page-hd-kaixueji .block-product-list .block-inner{
+    position: relative;
+}
+.page-hd-kaixueji .block-product-list .label{
+    width: 0.46rem;
+    height: 0.46rem;
+    position: absolute;
+    top:.1rem;
+    z-index: 2;
+}
+.page-hd-kaixueji .block-product-list .label img{
+    width: 100%;
+}
+.page-hd-kaixueji .block-kaihei .label,
+.page-hd-kaixueji .block-xueba .label{
+    left: 0;
+}
+.page-hd-kaixueji .block-zuji .label,
+.page-hd-kaixueji .block-new .label{
+    right: 0;
+}
+
+/*活动商品列表样式*/
+.page-hd-kaixueji .ui-sp-product-list-1 {
+    margin: 0 .03rem;
+    min-height: 2.6rem;
+    /*background-color: #fff;*/
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item{
+    border:1px solid #ef49ff;
+    width: 49%;
+    margin: 0.5%;
+    height: 2rem;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item .p-pic{
+    padding-top: .1rem;
+    height: 1.2rem;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item .p-tit{
+    color: #202020;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item .p-desc {
+    font-size: .1rem;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item .p-price{
+    line-height: 1.2;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item .p-price-cur{
+    color: #f74a33;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item .p-price-cur .p-price-num{
+    font-size: .2rem;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item  .p-price-orig {
+    width: auto;
+    color: #fff;
+    /*font-size: .1rem;*/
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item .btn{
+    color: #fff;
+    font-size: .13rem;
+    background: #ff5c63;
+    width: .9rem;
+    border-radius: 9999px;
+}
+.page-hd-kaixueji .ui-sp-product-list-1 .p-item .p-sold-out {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(https://p0.ssl.qhmsg.com/t01659da13a41c7d3e5.png) no-repeat center;
+    background-size: cover;
+}
+/*活动商品列表样式 end*/
+
+
+/*服务介绍*/
+.block-service-intro,
+.block-qrcode-info{
+    margin:0 .1rem;
+}
+/* 合作商 */
+.block-partner{
+    margin: .1rem .1rem .3rem;
+}
+.block-service-intro img,
+.block-qrcode-info img,
+.block-partner img{
+    width: 100%;
+    /*border-radius: .06rem;*/
+}
+
+/*登录面板*/
+.kaixueji-login-panel{
+    border:none;
+}
+.kaixueji-login-panel .dialog-inner{
+    padding: 0 .14rem .3rem .14rem;
+    display: block;
+    background-color: #fff;
+    border-radius: .06rem;
+    color: #666;
+    font-size: .12rem;
+    text-align: center;
+}
+.kaixueji-login-panel .tit{
+    padding: .1rem 0;
+    font-size: .22rem;
+}
+
+.kaixueji-login-panel .row{
+    padding-bottom: .08rem;
+}
+.kaixueji-login-panel .btn{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    background-color: #4a7;
+    /*border: 1px solid #4a7;*/
+    border-radius: 999px;
+    color: #fff;
+    font-size: .18rem;
+}
+.kaixueji-login-panel .vcode-img{
+    width: 100%;
+    height: .36rem;
+}
+.kaixueji-login-panel .btn-get-secode{
+    font-size: .12rem;
+    border-radius: .06rem;
+}
+.kaixueji-login-panel .btn-get-secode-disabled{
+    color: #999;
+    background: #f2f2f2;
+}
+
+/*优惠券面板*/
+.coupon-panel{
+    width: 2.7904rem;
+    height: 2.112rem;
+    background: url("https://p0.ssl.qhmsg.com/t0173a485b690038f5a.png") no-repeat center 0;
+    background-size: contain;
+    border: none;
+}
+.coupon-panel .dialog-close,
+.coupon-panel .dialog-close:hover{
+    top: .55rem;
+    background-size: .3rem;
+}
+.coupon-panel .coupon-cont{
+    color: #5a4398;
+    font-size: .18rem;
+    text-align: center;
+    padding-top: 1.2rem;
+}
+
+/* 抽奖抽奖抽奖抽奖抽奖 */
+/* 抽奖 */
+.page-hd-kaixueji .block-lottery-bg {
+    position: relative;
+    /*margin: 0 auto;*/
+    /*padding: .05rem 0;*/
+    width: 100%;
+    height: 2.7050666666666667rem;
+    background: url("https://p3.ssl.qhmsg.com/t01b387621398d2746e.jpg");
+    background-size: cover;
+    border-radius: 0;
+}
+.page-hd-kaixueji .block-lottery{
+    background: #5a4398;
+    top:.6rem;
+    width: 2.9rem;
+}
+.page-hd-kaixueji .block-lottery .lottery-cell-list-placeholder,
+.page-hd-kaixueji .block-lottery .lottery-cell-list,
+.page-hd-kaixueji .block-lottery .canvas-lottery-bonus{
+    position: absolute;
+    left: 0rem;
+    right: 0;
+    top: .044rem;
+    margin: 0 auto;
+    width: 2.82rem;
+    height: 1.5829333333333333rem;
+    font-size: 0;
+}
+.page-hd-kaixueji .block-lottery .lottery-cell-list-placeholder .cell,
+.page-hd-kaixueji .block-lottery .lottery-cell-list .cell{
+    background-color: transparent;
+    /*border-bottom: 8px solid #fecbd0;*/
+    width: 0.69rem;
+    height: 0.512rem;
+    margin: 0 0.02rem 0.02rem 0;
+    border-radius: 0.03rem;
+}
+.page-hd-kaixueji .block-lottery .lottery-cell-list-placeholder .cell{
+    background-color: #fff;
+}
+.page-hd-kaixueji .block-lottery .lottery-cell-list .cell.cur{
+    background-color: rgba(90, 68, 153, 0.5);
+}
+
+.page-hd-kaixueji .block-lottery .btn-get-my-luck{
+    position: absolute;
+    top: .58rem;
+    left: .78rem;
+    right: .78rem;
+    bottom: .58rem;
+    display: block;
+    background: #ffcc33;
+    border-radius: .06rem;
+    font-size: 0;
+    text-align: center;
+    line-height: .5rem;
+    box-shadow: none;
+}
+.page-hd-kaixueji .block-lottery .btn-get-my-luck:hover{
+    text-decoration: none;
+}
+.page-hd-kaixueji .block-lottery .btn-get-my-luck .txt{
+    margin-right: .06rem;
+    display: inline-block;
+    font-size: .18rem;
+    color: #5a00ad;
+    vertical-align: middle;
+}
+
+.page-hd-kaixueji .block-lottery .btn-get-my-luck .sim-shadow {
+    display: inline-block;
+    width: .36rem;
+    height: .36rem;
+    font-size: 0;
+    line-height: 0;
+    background-color: rgba(256, 256, 256, 0.6);
+    border-radius: 999px;
+    vertical-align: middle;
+}
+
+.page-hd-kaixueji .block-lottery .btn-get-my-luck .sim{
+    display: inline-block;
+    width: .36rem;
+    height: .36rem;
+    line-height: .36rem;
+    font-size: .16rem;
+    vertical-align: middle;
+    color: #fc3;
+    background: #5a4398;
+    border-radius: 999px;
+    box-shadow: 0 0.02rem 1px 1px rgba(151, 111, 37, 0.8);
+    /*-webkit-transform: translate3d(0, -.03rem, 0);*/
+    /*transform: translate3d(0, -.03rem, 0);*/
+    -webkit-animation: button-clicking .8s ease 1s infinite;
+    -moz-animation: button-clicking .8s ease 1s infinite;
+    animation: button-clicking .8s ease 1s infinite;
+}
+.page-hd-kaixueji .block-lottery .btn-get-my-luck .sim-inner{
+    margin: .02rem;
+    display: block;
+    width: .32rem;
+    height: .32rem;
+    line-height: .28rem;
+    /*border: #F62A4D .02rem solid;*/
+    border-radius: 999px;
+    border: none;
+}
+
+.page-hd-kaixueji .block-lottery .btn-get-my-luck.disabled{
+    background-color: #eee;
+}
+
+.page-hd-kaixueji .block-lottery .btn-get-my-luck.disabled .sim{
+    background-color: #ddd;
+    color: #d0d0d0;
+    /*-webkit-transform: translate3d(0, 0, 0);*/
+    /*transform: translate3d(0, 0, 0);*/
+    -webkit-animation: button-clicking-stop .8s ease 1;
+    -moz-animation: button-clicking-stop .8s ease 1;
+    animation: button-clicking-stop .8s ease 1;
+}
+
+.page-hd-kaixueji .block-lottery .btn-get-my-luck.disabled .sim-inner{
+    border-color: #d0d0d0;
+}
+/* 抽奖 end */
+
+/*抽奖规则*/
+.page-hd-kaixueji .block-lottery-desc{
+    height: 1.2842666666666667rem;
+    background: url("https://p2.ssl.qhmsg.com/t01266fbe20d6096ef4.jpg");
+    background-size: cover;
+    color: #5a4398;
+    font-size: .1rem;
+    padding: .25rem .1rem 0;
+    line-height: 1.4;
+}
+.page-hd-kaixueji .block-lottery-desc p{
+    padding-top: .03rem;
+}
+/* 抽奖抽奖抽奖抽奖抽奖 end */
+/* 弹层 */
+.erhuojie-panel{
+    left: 0!important;
+    right: 0!important;
+    padding-bottom: .25rem;
+    border: 0;
+}
+.erhuojie-panel .erhuojie-panel-bottom{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1rem;
+    background: url(https://p.ssl.qhimg.com/t01b3587e89cd3fc400.png) no-repeat center bottom;
+    background-size: contain;
+    background-position-y: -.05rem;
+}
+.erhuojie-panel .dialog-inner{
+    margin: 0 .2rem;
+    padding: 0 .14rem .3rem .14rem;
+    display: block;
+    background-color: #ee324b;
+    border-radius: .06rem;
+    color: #fff;
+    font-size: .12rem;
+}
+.erhuojie-panel .dialog-close,
+.erhuojie-panel .dialog-close:hover{
+    top: -0.18rem;
+    right: 0.04rem;
+    width: .4rem;
+    height: .4rem;
+    background-image: url(https://p.ssl.qhimg.com/t01deb9471fcdd55a10.png);
+    background-size: .4rem;
+}
+
+/* 登录弹层 */
+.erhuojie-login-panel{ }
+.erhuojie-login-panel .dialog-inner{
+    text-align: center;
+}
+.erhuojie-login-panel .tit{
+    padding: .1rem 0;
+    color: #fff;
+    font-size: .24rem;
+}
+
+.erhuojie-login-panel .row{
+    padding-bottom: .08rem;
+}
+.erhuojie-login-panel .btn{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    background-color: #ffe49c;
+    color: #ee324b;
+    border-radius: 999px;
+    font-size: .18rem;
+}
+.erhuojie-login-panel .vcode-img{
+    width: 100%;
+    height: .36rem;
+}
+.erhuojie-login-panel .btn-get-sms-code{
+    font-size: .12rem;
+    border-radius: .06rem;
+}
+.erhuojie-login-panel .btn-get-sms-code-disabled{
+    color: #999;
+    background: #f2f2f2;
+}
+.erhuojie-login-panel .desc{
+    padding-top: .05rem;
+    padding-bottom: .1rem;
+    line-height: 2;
+}
+
+/* 中奖弹窗 */
+.erhuojie-bingo-panel{
+    text-align: center;
+}
+.erhuojie-bingo-panel .dialog-close{
+    display: none;
+}
+.erhuojie-bingo-panel .dialog-inner{
+    width: 2.4044444444444446rem;
+    height: 3.3022222222222224rem;
+    background: url("https://p1.ssl.qhmsg.com/t01a5bfade049dd180b.png") no-repeat center 0;
+    background-size: cover;
+    padding: .8rem 0 0;
+    margin: 0 auto;
+}
+.erhuojie-bingo-panel .bingo-tit{
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .22rem;
+}
+.erhuojie-bingo-panel .bingo-cont{
+    width: 1.96rem;
+    height: .75rem;
+    margin: .2rem auto 0;
+}
+.erhuojie-bingo-panel .bingo-name{
+    font-size: .24rem;
+    padding-top: .1rem;
+}
+.erhuojie-bingo-panel .bingo-time{
+    color: #333;
+    font-size: .1rem;
+}
+.erhuojie-bingo-panel .bingo-tips{
+    color: #666;
+    padding-top: .05rem;
+}
+.erhuojie-bingo-panel .btn{
+    display: block;
+    width: 70%;
+    height: .28rem;
+    line-height: .28rem;
+    background-color: #ee324b;
+    color: #fff;
+    border-radius: 999px;
+    font-size: .13rem;
+    margin: .04rem auto 0;
+}
+.erhuojie-bingo-panel .btn.btn-share-and-roll{
+    background-color: #ffe49c;
+    color: #ee324b;
+}
+
+/* 抽奖次数用光 */
+.erhuojie-roll-empty-panel{
+    text-align: center;
+}
+
+.erhuojie-roll-empty-panel .dialog-inner{
+    padding-top: .15rem;
+    padding-bottom: .7rem;
+}
+.erhuojie-roll-empty-panel .empty-tit{
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .22rem;
+}
+.erhuojie-roll-empty-panel .empty-cont p{
+    text-align: left;
+    padding:0 .1rem .1rem;
+}
+.erhuojie-roll-empty-panel .btn{
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    background-color: #ffe49c;
+    color: #ee324b;
+    border-radius: 999px;
+    font-size: .18rem;
+}
+
+
+
+

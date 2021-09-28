@@ -1,0 +1,43 @@
+.row-extend-service-cant-scan-buy-new {
+    color: #000;
+    background-color: #fff;
+}
+
+.row-extend-service-cant-scan-buy-new-title {
+    padding-left: .1rem;
+}
+
+.row-extend-service-cant-scan-buy-new-desc {
+    padding-left: .1rem;
+    line-height: 1.68;
+    color: #666;
+}
+
+.row-extend-service-cant-scan-buy-new a {
+    padding-right: .1rem;
+    color: #000;
+    background-color: #fff;
+}
+
+.row-extend-service-cant-scan-buy-new .iconfont {
+    display: inline-block;
+    width: .44rem;
+    text-align: center;
+}
+
+.row-extend-service-cant-scan-buy-new .col-left {
+    /*padding: 0 .1rem;*/
+}
+
+.row-extend-service-cant-scan-buy-new .col-right {
+    line-height: .44rem;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .bang-ui-dialog.dialog-confirm-cant-scan-buy-new .btn-box-confirm .ui-btn.ui-btn-fail {
+    width: 28%;
+}
+
+.page-xxg-order-detail.page-xxg-order-detail-v2020 .bang-ui-dialog.dialog-confirm-cant-scan-buy-new .btn-box-confirm .ui-btn.ui-btn-succ {
+    width: 72%;
+}
+

@@ -1,0 +1,158 @@
+.agree-protocol-label {
+    display: block;
+    font-size: .1rem;
+    padding-left: .15rem;
+    line-height: .26rem;
+}
+
+.agree-protocol-label [type="checkbox"] {
+    margin: -.02rem .02rem 0 0;
+    /*-webkit-appearance: checkbox !important;*/
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    vertical-align: middle;
+    width: .13rem;
+    height: .13rem;
+    font-size: .13rem;
+    border: thin solid #999;
+    border-radius: 999px;
+}
+
+.agree-protocol-label [type="checkbox"]:checked {
+    border: 0;
+    color: #0b7;
+}
+
+.agree-protocol-label [type="checkbox"]:checked:before {
+    content: "\e601";
+}
+
+.view-agree-protocol {
+    color: #227be5;
+}
+
+
+.huishou-protocol-panel-wrap {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /*overflow-x: hidden;*/
+    /*overflow-y: auto;*/
+    background: #fff;
+}
+
+.huishou-protocol-panel {
+    padding: .05rem .1rem .65rem .1rem;
+    color: #333;
+    font-size: .12rem;
+}
+
+.huishou-protocol-panel h3 {
+    font-size: .16rem;
+    /*text-align: center;*/
+    line-height: 2.2;
+}
+
+.huishou-protocol-panel dl {
+    padding-bottom: .1rem;
+    line-height: 1.7;
+}
+
+.huishou-protocol-panel dt {
+    margin-bottom: .05rem;
+}
+
+.huishou-protocol-panel dd {
+    margin: 0 0 0 .18rem;
+}
+
+.huishou-protocol-panel dd li {
+    padding: 0 0 .03rem .18rem;
+}
+
+.huishou-protocol-panel-wrap .btn-line {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.huishou-protocol-panel-wrap .close-btn {
+    margin: .1rem;
+    display: block;
+    height: .36rem;
+    line-height: .36rem;
+    text-align: center;
+    font-size: .16rem;
+    background: #0b7;
+    color: #fff;
+    border-radius: .06rem;
+}
+
+.huishou-protocol-panel li {
+    padding: 0 0 .1rem .18rem;
+}
+
+/*家电回收*/
+.huishou-white-goods-protocol-panel-wrap {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #fff;
+}
+
+.huishou-white-goods-protocol-panel {
+    padding: .05rem .1rem .65rem .1rem;
+    color: #333;
+    font-size: .12rem;
+}
+
+.huishou-white-goods-protocol-panel h3 {
+    font-size: .16rem;
+    /*text-align: center;*/
+    line-height: 2.2;
+}
+
+.huishou-white-goods-protocol-panel dl {
+    padding-bottom: .1rem;
+    line-height: 1.7;
+}
+
+.huishou-white-goods-protocol-panel dt {
+    margin-bottom: .05rem;
+}
+
+.huishou-white-goods-protocol-panel dd {
+    margin: 0 0 0 .18rem;
+}
+
+.huishou-white-goods-protocol-panel dd li {
+    padding: 0 0 .03rem .18rem;
+}
+
+.huishou-white-goods-protocol-panel-wrap .btn-line {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.huishou-white-goods-protocol-panel-wrap .close-btn {
+    margin: .1rem;
+    display: block;
+    height: .36rem;
+    line-height: .36rem;
+    text-align: center;
+    font-size: .16rem;
+    background: #0b7;
+    color: #fff;
+    border-radius: .06rem;
+}
+
+.huishou-white-goods-protocol-panel li {
+    padding: 0 0 .1rem .18rem;
+}

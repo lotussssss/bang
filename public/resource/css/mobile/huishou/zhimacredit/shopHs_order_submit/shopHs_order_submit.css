@@ -1,0 +1,207 @@
+.page-zhimacredit-shopHs-order-submit {
+
+}
+/*评估通过提示*/
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-submit-tips{
+    height: 2.15rem;
+    padding-top: .5rem;
+    background-color: #fff;
+    text-align: center;
+    line-height: 1;
+}
+
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-submit-tips .icon-circle-tick{
+    font-size: .84rem;
+    color: #66cc99;
+}
+
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-submit-tips .submit-tips{
+    padding-top: .25rem;
+    font-size: .15rem;
+    color: #666;
+}
+
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-submit-tips .submit-tips b{
+    font-weight: bold;
+    color: #333;
+}
+/*评估通过提示end*/
+
+/* 6月22日注释 start */
+/*!*新机、预付款*!*/
+/*.page-zhimacredit-shopHs-order-submit .block-zhimacredit-shop-buy-step1{*/
+    /*padding: .1rem .18rem 0;*/
+    /*background-color: #fff;*/
+    /*line-height: .36rem;*/
+    /*color: #888;*/
+/*}*/
+/*.page-zhimacredit-shopHs-order-submit .block-zhimacredit-shop-buy-step1 .col-12-4{*/
+    /*text-align: right;*/
+    /*color: #666;*/
+/*}*/
+/*.page-zhimacredit-shopHs-order-submit .block-zhimacredit-shop-buy-step1 .row-last .col-12-4{*/
+    /*color: #ff4500;*/
+    /*font-size: .15rem;*/
+/*}*/
+/*!*新机、预付款end*!*/
+/* 注释 end */
+
+/* 新加 start */
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-prepay {
+    text-align: center;
+    background-color: #fff;
+}
+
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-prepay .content-overview {
+    margin: 0 .1rem;
+    padding: .1rem 0;
+    line-height: 2;
+    font-size: .14rem;
+    color: #ff4500;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-prepay .content-detail {
+    border-top: 0;
+    padding: .16rem .1rem;
+    font-size: .12rem;
+    line-height: 2;
+}
+
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-prepay .content-detail .row-title {
+    color: #666;
+}
+
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-prepay .content-detail .col-12-4 {
+    width: 33%;
+}
+
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-prepay .content-detail .col-12-1 {
+    width: 6%;
+}
+
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-prepay .content-detail .col-12-2 {
+    width: 22%;
+}
+
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-prepay .content-detail b {
+    font-size: .18rem;
+}
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-prepay .content-detail .final-price {
+    color: #ff4500;
+}
+/* 新加 end */
+
+/*余款*/
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-shop-buy-step2{
+    padding: .15rem 0;
+    background-color: #fef8cc;
+    color: #ff4500;
+    text-align: center;
+}
+/*余款end*/
+
+/*按钮行*/
+.page-zhimacredit-shopHs-order-submit .block-order-submit-btn {
+    position: static;
+    padding: .1rem .18rem .06rem;
+    /*height: .36rem;*/
+    line-height: .36rem;
+    text-align: center;
+    color: #333;
+    background-color: #fff;
+}
+/*.page-zhimacredit-shopHs-order-submit .block-order-submit-btn .row-protocol{*/
+/*}*/
+/*.page-zhimacredit-shopHs-order-submit .block-order-submit-btn .row-protocol a,*/
+/*.page-zhimacredit-shopHs-order-submit .block-order-submit-btn .row-protocol a:hover{*/
+    /*color: #333;*/
+    /*text-decoration: none;*/
+/*}*/
+/*.page-zhimacredit-shopHs-order-submit .block-order-submit-btn .row-protocol .btn-show-zhimacredit-shophs-protocol{*/
+    /*font-size: .12rem;*/
+    /*color: #2e74d3;*/
+/*}*/
+/*.page-zhimacredit-shopHs-order-submit .block-order-submit-btn .row-protocol .iconfont{*/
+    /*margin-right: .02rem;*/
+/*}*/
+/*.page-zhimacredit-shopHs-order-submit .block-order-submit-btn .row-protocol .icon-circle-tick2{*/
+    /*color: #aaa;*/
+/*}*/
+/*.page-zhimacredit-shopHs-order-submit .block-order-submit-btn .row-protocol .icon-circle-tick{*/
+    /*color: #ff4500;*/
+/*}*/
+.page-zhimacredit-shopHs-order-submit .block-order-submit-btn .btn-order-submit{
+    display: block;
+    height: .42rem;
+    line-height: .42rem;
+    font-size: .14rem;
+    background-color: #ff4500;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.page-zhimacredit-shopHs-order-submit .block-order-submit-btn .btn-order-submit:hover{
+    text-decoration: none;
+    background-color: rgba(255, 69, 0, 0.70);
+}
+.page-zhimacredit-shopHs-order-submit .block-order-submit-btn .btn-show-zhimacredit-shophs-protocol{
+    font-size: .12rem;
+    color: #999;
+    text-decoration: underline;
+}
+/*按钮行end*/
+
+/*进入下单页面的提示*/
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-cover-tip{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    /*display: flex;*/
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    max-width: 1080px;
+    min-width: 320px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-cover-main{
+    width:2.8rem;
+    /*height:200px;*/
+    /*background-color:#333;*/
+
+    /*margin: 0 .2rem;*/
+    background-color: #fff;
+}
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-cover-main-head{
+    padding: .16rem 0;
+    text-align: center;
+    color: #fff;
+    background-color: #ffbc42;
+    font-size: .14rem;
+    line-height: 1.68;
+}
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-cover-main-head b{
+    font-size: .36rem;
+}
+
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-cover-main-body{
+    padding: .3rem .2rem;
+}
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-cover-main-body ul{
+    padding: 0 0 0 .2rem;
+    list-style: disc;
+}
+.page-zhimacredit-shopHs-order-submit .block-zhimacredit-cover-main-body .btn-zhimacredit-cover-go{
+    margin-top: .2rem;
+    display: block;
+    width: 100%;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    color: #fff;
+    background-color: #ffbc42;
+}

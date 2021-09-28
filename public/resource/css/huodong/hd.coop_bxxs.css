@@ -1,0 +1,145 @@
+.hd-bxxs{}
+.hd-bxxs .line{
+    zoom: 1;
+    clear: both;
+}
+.hd-bxxs .line:after{
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    content: '\20';
+}
+.hd-bxxs .line-left{
+    display: block;
+    float: left;
+}
+.hd-bxxs .line-right{
+    display: block;
+}
+.hd-bxxs .head{
+    height: 400px;
+    background: url(https://p.ssl.qhimg.com/t0112d46c66aa31e465.jpg) no-repeat center;
+}
+.hd-bxxs .head-inner{
+    margin: 0 auto;
+    width: 960px;
+    height: 400px;
+    background: url(https://p.ssl.qhimg.com/t0112d46c66aa31e465.jpg) no-repeat center;
+}
+.hd-bxxs .body{
+    line-height: 1.8;
+    font-size: 14px;
+    color: #666;
+    font-family: "微软雅黑";
+}
+.hd-bxxs .cblock{
+    margin: 0 auto;
+    width: 960px;
+}
+.hd-bxxs .cblock1{}
+.hd-bxxs .cblock1 .tit{
+    margin: 40px 0 30px 0;
+    height: 25px;
+    background: url(https://p.ssl.qhimg.com/t01f04dc7c260959bd6.jpg) no-repeat center;
+}
+.hd-bxxs .cblock1 .line-left{}
+.hd-bxxs .cblock1 .line-right{
+    margin-left: 160px;
+    padding-left: 30px;
+    border-left: 1px solid #EFEFEF;
+}
+.hd-bxxs .cblock1 .gallery{
+    padding: 35px 0 80px 0;
+    background: url(https://p.ssl.qhimg.com/t01efaefa5a0950e77b.jpg) no-repeat 0 bottom;
+}
+
+.hd-bxxs .cblock2{}
+.hd-bxxs .cblock2 .tit{
+    margin: 40px 0 30px 0;
+    height: 25px;
+    background: url(https://p.ssl.qhimg.com/t01fd7f6a0ebb59071f.jpg) no-repeat center;
+}
+.hd-bxxs .cblock2 .line-left{}
+.hd-bxxs .cblock2 .line-right{
+    margin-left: 160px;
+    padding-left: 30px;
+    border-left: 1px solid #EFEFEF;
+}
+.hd-bxxs .cblock2 .gallery{
+    padding: 35px 0 1px 0;
+}
+
+.hd-bxxs .cblock3{
+    border: 1px solid #DDD;
+}
+.hd-bxxs .cblock3 .line-left{
+    position: relative;
+    width: 286px;
+    height: 277px;
+    background: url(https://p.ssl.qhimg.com/t019345499c0fefdd20.jpg) no-repeat center;
+}
+.hd-bxxs .cblock3 .line-right{
+    margin-left: 310px;
+    padding: 40px 30px 0 0;
+}
+.hd-bxxs .cblock3 .play-intro-video{
+    position: absolute;
+    top: 48px;
+    left: 17px;
+    display: block;
+    width: 251px;
+    height: 141px;
+    text-decoration: none;
+    background: transparent;
+}
+.hd-bxxs .cblock3 .play-intro-video img{
+    width: 251px;
+    height: 141px;
+}
+.hd-bxxs .cblock3 .play-intro-video:hover{
+    text-decoration: none;
+    background: #000;
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+
+.hd-bxxs .cblock4{
+    margin-bottom: 20px;
+    padding: 0 0 80px 0;
+    background: url(https://p.ssl.qhimg.com/t01efaefa5a0950e77b.jpg) no-repeat 0 bottom;
+}
+.hd-bxxs .cblock4 .tit{
+    margin: 60px 0 30px 0;
+    height: 25px;
+    background: url(https://p.ssl.qhimg.com/t0105a375ed4097bca0.jpg) no-repeat center;
+}
+.hd-bxxs .cblock4 .exp-list{
+    padding: 0 30px;
+}
+.hd-bxxs .cblock4 .exp-list li{
+    float: left;
+    margin: 0 15px;
+    width: 150px;
+}
+.hd-bxxs .cblock4 .exp-list .exp-head{}
+.hd-bxxs .cblock4 .exp-list .exp-head img{
+    width: 150px;
+}
+.hd-bxxs .cblock4 .exp-list .exp-btn,
+.hd-bxxs .cblock4 .exp-list .exp-btn-disabled{
+    margin: 15px auto;
+    display: block;
+    width:91px;
+    height:32px;
+    cursor:pointer;
+    background:url(https://p.ssl.qhimg.com/t01650001e4e9b685fe.png) -175px -50px;
+    text-decoration: none;
+}
+.hd-bxxs .cblock4 .exp-list .exp-btn:hover{
+    text-decoration: none;
+    background-position: -175px -81px;
+}
+.hd-bxxs .cblock4 .exp-list .exp-btn-disabled{
+    background-position: -175px -112px;
+}

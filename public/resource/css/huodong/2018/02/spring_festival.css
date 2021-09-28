@@ -1,0 +1,329 @@
+.w100{
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+.block-inner {
+    margin: 0 auto;
+    width: 1200px;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.page-hd-spring-festival {
+    background:#cc1c27;
+    min-width: 1200px;
+}
+.page-hd-spring-festival .dialog-inner{
+    /*padding: 0;*/
+}
+.page-hd-spring-festival .topbar .in{
+    /*width: 1000px;*/
+}
+
+.page-hd-spring-festival .block-tit{
+    height: 210px;
+    background: no-repeat center 0px;
+}
+.page-hd-spring-festival .block-tit .tit-cont{
+    font-weight: bold;
+    font-size: 40px;
+    color: #f3df7a;
+    /*line-height: 120px;*/
+    text-align: center;
+    text-indent: -9999px;
+    /*text-shadow: 0 5px 10px #f4e5ad;*/
+    background-image: -webkit-linear-gradient(top, #f4e5ad 60%, #a37529 100%);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    text-fill-color: #f3df7a;
+    -webkit-text-fill-color: transparent;
+}
+
+/*头图*/
+.page-hd-spring-festival .block-top,
+.page-hd-spring-festival .block-top .block-inner{
+    height: 590px;
+    background: url(https://p0.ssl.qhmsg.com/t0191f5e2bf9e0010d5.jpg) no-repeat center 0;
+}
+/*头图end*/
+/*banner*/
+.page-hd-spring-festival .block-sub,
+.page-hd-spring-festival .block-sub .block-inner{
+    height: 248px;
+    background: url(https://p3.ssl.qhmsg.com/t012514cc1b4ee8471b.jpg) no-repeat center 0;
+    position: relative;
+}
+.page-hd-spring-festival .block-sub .btn-coupon{
+    position: absolute;
+    top: 50px;
+    width: 265px;
+    height: 150px;
+}
+.page-hd-spring-festival .block-sub .btn-coupon1{
+    left: 267px;
+}
+.page-hd-spring-festival .block-sub .btn-coupon2{
+    left: 602px;
+}
+.page-hd-spring-festival .block-sub .btn-coupon3{
+    left: 933px;
+}
+/*banner end*/
+
+.page-hd-spring-festival .block1,
+.page-hd-spring-festival .block2{
+    margin-top: 30px;
+}
+.page-hd-spring-festival .block1,
+.page-hd-spring-festival .block1 .block-inner{
+    height: 561px;
+    background: url(https://p2.ssl.qhmsg.com/t013bf51eb969039e44.jpg) no-repeat center 0;
+}
+.page-hd-spring-festival .block2,
+.page-hd-spring-festival .block2 .block-inner{
+    height: 720px;
+    background: url(https://p3.ssl.qhmsg.com/t01388f03af3c90ccfc.jpg) no-repeat center 0;
+}
+.page-hd-spring-festival .block2 .txt{
+    color: #ed1027;
+    font-size: 26px;
+    line-height: 1.8;
+    padding: 450px 215px 0;
+}
+.page-hd-spring-festival .block3,
+.page-hd-spring-festival .block3 .block-inner{
+    height: 620px;
+    background: url(https://p0.ssl.qhmsg.com/t01817edca5d8c1b296.jpg) no-repeat center 0;
+    position: relative;
+}
+.page-hd-spring-festival .block3 a{
+    position: absolute;
+    left: 400px;
+    top: 460px;
+    width: 400px;
+    height: 80px;
+}
+
+/*活动商品列表样式*/
+.page-hd-spring-festival .ui-sp-product-list-1{
+    min-height: 350px;
+    background-color: #ad0101;
+    padding: 0 24px 20px;
+}
+
+.page-hd-spring-festival .ui-sp-product-list-1 .p-item{
+    margin:0 2px;
+    /*width: 298px;*/
+    width: 284px;
+    height: 350px;
+    background: url(https://p4.ssl.qhmsg.com/t01e504ee8edcd3e78a.png) no-repeat center;
+    border:none;
+}
+.page-hd-spring-festival .ui-sp-product-list-1 .p-item .p-tit{
+    font-size: 14px;
+    color: #fff;
+    padding-top: 22px;
+}
+.page-hd-spring-festival .ui-sp-product-list-1 .p-item .p-pic{
+    height: 150px;
+    padding-top: 50px;
+}
+.page-hd-spring-festival .ui-sp-product-list-1 .p-item .p-price{
+    padding: 0;
+}
+.page-hd-spring-festival .ui-sp-product-list-1 .p-item .p-price-cur{
+    color: #ffc737;
+}
+.page-hd-spring-festival .ui-sp-product-list-1 .p-item  .p-price-orig {
+    width: auto;
+    color: #fff;
+    font-size: 14px;
+}
+.page-hd-spring-festival .ui-sp-product-list-1 .p-item .p-pic img {
+    height: 115px;
+}
+.page-hd-spring-festival .ui-sp-product-list-1 .p-item .btn{
+    color: #ad0101;
+    font-size: 14px;
+    background: #fff;
+    width: 130px;
+    padding: 5px;
+    border-radius: 9999px;
+}
+.page-hd-spring-festival .ui-sp-product-list-1 .p-item .p-sold-out{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(https://p0.ssl.qhmsg.com/t01659da13a41c7d3e5.png) no-repeat center;
+}
+.page-hd-spring-festival .more{
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background: #201d1d;
+    border:1px solid #fedd91;
+    border-radius: 999px;
+    color: #fdee9a;
+    background-image: -webkit-linear-gradient(top, #f4e5ad 30%, #a37529 100%);
+    background-clip: content-box;
+    -webkit-background-clip: text !important;
+    text-fill-color: #f3df7a;
+    -webkit-text-fill-color: transparent;
+}
+/*活动商品列表样式 end*/
+
+/*服务介绍*/
+.page-hd-spring-festival .block-service-intro,
+.page-hd-spring-festival .block-service-intro .block-inner {
+    background: url(https://p2.ssl.qhmsg.com/t01c615ef6530079f13.jpg) no-repeat center;
+}
+.page-hd-spring-festival .block-service-intro .block-inner{
+    height: 268px;
+    margin: 20px auto;
+}
+/*二维码扫一扫*/
+.page-hd-spring-festival .block-qrcode-info,
+.page-hd-spring-festival .block-qrcode-info .block-inner {
+    background:url(https://p3.ssl.qhmsg.com/t01688c80f4e79ad69a.jpg) no-repeat center 0;
+}
+.page-hd-spring-festival .block-qrcode-info .block-inner {
+    height: 268px;
+    margin: 0px auto 0px;
+}
+
+/*合作伙伴*/
+.page-hd-spring-festival .block-partner,
+.page-hd-spring-festival .block-partner .block-inner {
+    background:url(https://p3.ssl.qhmsg.com/t0188e921fd4b62dc32.jpg) no-repeat center 0;
+}
+.page-hd-spring-festival .block-partner .block-inner {
+    height: 470px;
+    margin: 0px auto 60px;
+}
+
+/*登录面板*/
+.spring-festival-login-panel {
+    width: 500px;
+    background: #fff;
+    border-radius: 6px;
+}
+.spring-festival-login-panel .dialog-inner{
+    color: #666;
+    font-size: 12px;
+}
+.spring-festival-login-panel form {
+    margin: 25px auto;
+    width: 350px;
+}
+.spring-festival-login-panel .tit{
+    font-size: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.spring-festival-login-panel .row{
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.spring-festival-login-panel .col-left-fixed{
+    width: 85px;
+    text-align: right;
+}
+.spring-festival-login-panel .col-right{
+    margin-left: 90px;
+    font-size: 0;
+}
+.spring-festival-login-panel .inpt{
+    height: 38px;
+    padding: 0 10px;
+    margin-right: 4px;
+    width: 144px;
+    border:1px solid #e3e3e3;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.spring-festival-login-panel .row-mobile .inpt{
+    width: 238px;
+}
+.spring-festival-login-panel .btn-get-secode {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 88px;
+    height: 36px;
+    line-height: 36px;
+    color: #4a7;
+    border:1px solid #4a7;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 12px;
+}
+
+.spring-festival-login-panel .btn-get-secode:hover {
+    text-decoration: none;
+}
+.spring-festival-login-panel .btn-get-secode-disabled,
+.spring-festival-login-panel .btn-get-secode-disabled:hover {
+    background: #ddd;
+}
+.spring-festival-login-panel .vcode-img {
+    width: 90px;
+    height: 38px;
+    vertical-align: middle;
+}
+.spring-festival-login-panel .btn-order-confirm-submit {
+    display: block;
+    width: 150px;
+    height: 34px;
+    margin: 30px auto 0;
+    line-height: 34px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    background: #4a7;
+    cursor: pointer;
+}
+
+/*优惠券面板*/
+.coupon-panel{
+    background: #fff;
+    border: none;
+}
+.coupon-panel .coupon-cont{
+    width: 550px;
+    height: 250px;
+    line-height: 250px;
+    border: 2px solid #cc1c27;
+    color: #cc1c27;
+    font-size: 28px;
+    text-align: center;
+}
+/*.coupon-panel .shenquan-btn{*/
+    /*position: absolute;*/
+    /*left: 292px;*/
+    /*top: 218px;*/
+    /*width: 210px;*/
+    /*height: 55px;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+

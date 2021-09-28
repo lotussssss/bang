@@ -1,0 +1,198 @@
+/*浮动卡片样式1*/
+.float-card-fixed-wrap{
+    /*display: none !important;*/
+}
+
+/*浮动卡片样式2*/
+.float-card-fixed-wrap2{
+    /*display: none !important;*/
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 0;
+}
+.float-card-fixed-wrap2 .float-card-fixed-inner{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 0;
+}
+.float-card-fixed-wrap2 .right-service{
+    position: absolute;
+    top: 282px;
+    right: -72px;
+    width: 71px;
+    height: 165px;
+    color: #184A62;
+    background: url(https://p.ssl.qhimg.com/t010f92b4439353c08d.png) no-repeat -78px 0;
+    text-align: center;
+    font-size: 12px;
+    -webkit-transition: right .5s ease-out;
+    -moz-transition: right .5s ease-out;
+    -ms-transition: right .5s ease-out;
+    -o-transition: right .5s ease-out;
+    transition: right .5s ease-out;
+}
+.float-card-fixed-wrap2 .right-service .s-btn{
+    margin-top: 56px;
+    display: block;
+    width: 71px;
+    height: 18px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+.float-card-fixed-wrap2 .right-service .s-btn:hover{
+    text-decoration: none;
+    background: url(https://p.ssl.qhimg.com/t010f92b4439353c08d.png) no-repeat 0 -56px;
+}
+
+/*浮动卡片样式3*/
+.float-card-fixed-wrap3{
+    /*display: none !important;*/
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 0;
+}
+.float-card-fixed-wrap3 .float-card-fixed-inner{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    /*width: 100%;*/
+    height: 0;
+}
+.float-card-fixed-wrap3 .right-service{
+    position: absolute;
+    top: 113px;
+    right: -72px;
+    /*right: 0;*/
+    width: 71px;
+    height: 90px;
+    cursor: default;
+    color: #184A62;
+    background: url(https://p.ssl.qhimg.com/t01f027643a8e84bff1.png) no-repeat -78px 0;
+    text-align: center;
+    font-size: 12px;
+    -webkit-transition: right .5s ease-out;
+    -moz-transition: right .5s ease-out;
+    -ms-transition: right .5s ease-out;
+    -o-transition: right .5s ease-out;
+    transition: right .5s ease-out;
+}
+.float-card-fixed-wrap3 .right-service .s-btn{
+    margin-top: 56px;
+    display: block;
+    width: 71px;
+    height: 18px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+.float-card-fixed-wrap3 .right-service .s-btn:hover{
+    text-decoration: none;
+    background: url(https://p.ssl.qhimg.com/t01f027643a8e84bff1.png) no-repeat 0 -56px;
+}
+
+/*浮动卡片样式5*/
+.float-card-fixed-wrap5{
+    /*display: none !important;*/
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 0;
+}
+.float-card-fixed-wrap5 .float-card-fixed-inner{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 0;
+}
+.float-card-fixed-wrap5 .right-service{
+    position: absolute;
+    /*top: 282px;*/
+    top: 140px;
+    right: -72px;
+    width: 71px;
+    height: 195px;
+    color: #184A62;
+    background: url(https://p2.ssl.qhmsg.com/t0113dfdd3937c1f092.png) no-repeat -78px 0;
+    text-align: center;
+    font-size: 12px;
+    -webkit-transition: right .5s ease-out;
+    -moz-transition: right .5s ease-out;
+    -ms-transition: right .5s ease-out;
+    -o-transition: right .5s ease-out;
+    transition: right .5s ease-out;
+}
+.float-card-fixed-wrap5 .right-service .right-service-btn{
+    margin-top: 56px;
+    display: block;
+    width: 71px;
+    height: 18px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.float-card-fixed-wrap5 .right-service .right-service-btn:hover{
+    text-decoration: none;
+    background: url(https://p2.ssl.qhmsg.com/t0113dfdd3937c1f092.png) no-repeat 0 -56px;
+}
+
+.float-card-fixed-wrap6{
+    position: fixed;
+    bottom: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 0;
+}
+.float-card-fixed-wrap6 .float-card-fixed-inner{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 0;
+}
+.float-card-fixed-wrap6 .right-service{
+    position: absolute;
+    bottom: 100px;
+    right: 12px;
+    text-align: right;
+}
+.float-card-fixed-wrap6 .right-service .right-service-btn{
+    display: block;
+    width: 65px;
+    height: 82px;
+    cursor: pointer;
+    background: url("https://p0.ssl.qhmsg.com/t0104739526ad3c4c46.png") no-repeat 0 0/100% 100%;
+}
+.float-card-fixed-wrap6 .right-service .new-user-promo{
+    display: inline-block;
+    width: 267px;
+    height: 120px;
+    background: url("https://p0.ssl.qhmsg.com/t01334cb950fb8fdb23.png") no-repeat 0 0/100% 100%;
+}
+.float-card-fixed-wrap6 .right-service  .ewm-unexpand{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 66px;
+}
+.float-card-fixed-wrap6 .right-service .ewm-expand{
+    display: none;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+    background: url("https://p2.ssl.qhmsg.com/t0187c4abb0dd8c06db.png") no-repeat 0 0/100% 100%;
+}
+.float-card-fixed-wrap6 .right-service .go-to-top-btn{
+    display: inline-block;
+    width: 65px;
+    height: 82px;
+    cursor: pointer;
+    background: url("https://p3.ssl.qhmsg.com/t01f9536883724f3f29.png") no-repeat 0 0/100% 100%;
+}

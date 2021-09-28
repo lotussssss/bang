@@ -1,0 +1,56 @@
+/* 登录页面,进入到老用户专享 */
+.olduser-hs-pric-login #Main.main {
+    width: 100%;
+    max-width: 3.33rem;
+    min-height: 100vh;
+    margin: 0 auto;
+    background: url(https://p2.ssl.qhmsg.com/t014f1dbd35f4b7eeb8.png) no-repeat;
+    background-size: contain;
+    background-color: #f7811d;
+    padding-top: 2.933rem;
+}
+
+/* 表单样式 */
+.olduser-hs-pric-login .form-data {
+    padding: .177rem .22rem;
+    min-height: 1.244rem;
+}
+
+.olduser-hs-pric-login .form-data .olduser-label{
+    position: relative;
+}
+
+.olduser-hs-pric-login .olduser-label i.icon{
+    font-size: .177rem;
+    line-height: .36rem;
+    height: 100%;
+    color: #999;
+    position: absolute;
+    top: 0;
+    left: .244rem;
+}
+
+/* 输入框 */
+.olduser-hs-pric-login .form-data input {
+    padding-left: .444rem;
+}
+
+/* 邀请码 */
+.olduser-hs-pric-login .form-data .invitation-code {
+    margin-top: .088rem;
+}
+
+/* 立即进入 */
+.olduser-hs-pric-login .olduser-button {
+    padding: .222rem;
+}
+
+.olduser-hs-pric-login .olduser-button .submit-btn {
+    width: 2.733rem;
+    height: .355rem;
+    font-size: .16rem;
+    color: #e62400;
+    line-height: .355rem;
+    border-radius: 100px;
+    background: linear-gradient(#fefc45, #f7d700 76%, #fce100);
+}

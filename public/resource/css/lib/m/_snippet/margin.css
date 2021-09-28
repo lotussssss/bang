@@ -1,0 +1,20 @@
+/*margin*/
+.m-vboth-004rem { margin-top: .04rem; margin-bottom: .04rem; }
+
+.m-both-008rem { margin-left: .08rem; margin-right: .08rem; }
+
+.m-vboth-008rem { margin-top: .08rem; margin-bottom: .08rem; }
+
+.m-both-010rem { margin-left: .1rem; margin-right: .1rem; }
+
+.m-vboth-010rem { margin-top: .1rem; margin-bottom: .1rem; }
+
+.mt-010rem { margin-top: .1rem; }
+
+.mb-010rem { margin-bottom: .1rem; }
+
+.mb-008rem { margin-bottom: .08rem; }
+
+.ml-010rem { margin-left: .1rem; }
+
+.mr-010rem { margin-right: .1rem; }

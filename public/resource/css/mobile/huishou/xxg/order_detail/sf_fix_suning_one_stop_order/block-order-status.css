@@ -1,0 +1,165 @@
+/* START 订单状态 */
+.page-xxg-order-detail-v2020 .block-order-status {
+    padding: 0 .12rem .12rem;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .tips-text {
+    padding: .2rem 0 .3rem 0;
+    text-align: center;
+    font-size: .2rem;
+    color: #000;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .shipping-info {
+    color: #000;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .shipping-info svg {
+    max-width: 90%;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .shipping-info .input-radius {
+    background-color: #f3f3f3;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .shipping-info .input-radius input {
+    background-color: transparent;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .shipping-info .input-radius:after {
+    display: none;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .shipping-info .input-radius .iconfont {
+    width: .3rem;
+    text-align: center;
+    color: #666;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .shipping-info .btn-edit-express-confirm {
+    margin-left: .06rem;
+    width: 0.95rem;
+    height: 100%;
+    background-color: #16a654;
+    color: #fff;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .shipping-info .delivery-express-countdown {
+    font-size: 0;
+    line-height: 1;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .shipping-info .delivery-express-countdown span {
+    display: none;
+    font-size: .28rem;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .shipping-info .delivery-express-countdown span.m-num,
+.page-xxg-order-detail-v2020 .block-order-status .shipping-info .delivery-express-countdown span.m-txt,
+.page-xxg-order-detail-v2020 .block-order-status .shipping-info .delivery-express-countdown span.s-num {
+    display: inline-block;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .shipping-info-detail {
+    position: relative;
+    padding: .08rem .12rem;
+    line-height: 1.68;
+    border-radius: 0.08rem;
+    background: #f2f2f2;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .shipping-info-detail .btn-copy {
+    position: absolute;
+    top: .1rem;
+    right: .1rem;
+    /*padding: .04rem;*/
+    /*line-height: 1;*/
+    /*font-size: 0.11rem;*/
+    /*border-radius: 0.02rem;*/
+    /*background: #fff;*/
+    /*color: #333;*/
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .icon-dizhi,
+.page-xxg-order-detail-v2020 .block-order-status .icon-time-hint {
+    margin: 0 .1rem 0 0;
+    color: #000;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .address-info-name {
+    font-size: 0.13rem;
+    color: #000;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .address-info-name-name {
+    margin-right: .1rem;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .address-info-address {
+    padding-bottom: .08rem;
+    line-height: 1.6;
+    color: #999;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .row-service-time {
+    margin: 0 -.12rem;
+    padding: 0 .12rem;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .block-device-reset-and-upload-photo {
+    color: #232323;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .block-device-reset-and-upload-photo-title {
+    position: relative;
+    color: #232323;
+    line-height: 3;
+    font-size: 0.13rem;
+    font-weight: 600;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .block-device-reset-and-upload-photo-title .btn-goto-show-rest {
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .block-device-reset-and-upload-photo .item {
+    font-size: 0.12rem;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .block-device-reset-and-upload-photo .item b {
+    font-weight: 600;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .block-device-reset-and-upload-photo .figure-picture {
+    width: 1.09rem;
+    height: 1.09rem;
+    background: transparent no-repeat center;
+    background-size: contain;
+    border-radius: 0.05rem;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .block-device-reset-and-upload-photo .trigger-device-reset-and-upload-photo {
+    margin: .1rem auto;
+    width: 1.09rem;
+    height: 1.09rem;
+    border: thin solid #e4e4e4;
+    background: #f5f5f5 no-repeat center;
+    background-size: contain;
+    border-radius: 0.05rem;
+    color: #000;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .block-device-reset-and-upload-photo .trigger-device-reset-and-upload-photo .iconfont {
+    color: #12a553;
+    font-size: 0.17rem;
+}
+
+.page-xxg-order-detail-v2020 .block-order-status .block-device-reset-and-upload-photo .btn-submit-device-reset-and-upload-photo {
+    /*margin: .2rem auto .1rem;*/
+    margin: .1rem auto;
+    display: flex;
+    width: 1.58rem;
+}
+
+/* END 订单状态 */

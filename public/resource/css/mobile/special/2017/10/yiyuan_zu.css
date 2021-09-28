@@ -1,0 +1,243 @@
+a,a:hover{
+    text-decoration: none;
+}
+
+.page-hd-yiyuan-zu {
+    background:  #efefef;
+}
+
+.page-hd-yiyuan-zu .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-yiyuan-zu .block {
+    margin: 0 auto;
+}
+.page-hd-yiyuan-zu .scroll-top{
+    position: fixed;
+    width: .3rem;
+    height: .3rem;
+    background-color: pink;
+}
+.page-hd-yiyuan-zu .block-banner{
+    height: 1.45rem;
+    background: url("https://p0.ssl.qhmsg.com/t01729031fc87e63e50.jpg") no-repeat center/100% 100%;
+}
+.page-hd-yiyuan-zu .block-nav-container{
+    height: .4rem;
+}
+.page-hd-yiyuan-zu .block-nav{
+    position: relative;
+    width: 3.2rem;
+    font-size: 0;
+    background-color: #fff;
+    border-top: .01rem solid  #efefef;
+    border-bottom: .01rem solid  #efefef;
+}
+.page-hd-yiyuan-zu .block-nav.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 3.2rem;
+    box-shadow: 0 0 .05rem rgba(0,0,0,.6);
+    z-index: 1;
+}
+.page-hd-yiyuan-zu .block-nav .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: .8rem;
+    height:.08rem;
+    background: url("https://p2.ssl.qhmsg.com/t0137f5ab6a51d04fc0.jpg") no-repeat center/100% 100%;
+    transition: all .5s ease;
+}
+.page-hd-yiyuan-zu .block-nav .nav-item{
+    display: inline-block;
+    width: 25%;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    color: #333333;
+    font-size: .12rem;
+    border-right: .01rem solid  #efefef;
+}
+
+.page-hd-yiyuan-zu .block-nav .nav-item:last-child{
+     border-right: none;
+}
+.page-hd-yiyuan-zu .block-nav .nav-item.active{
+    color: #f00;
+}
+.page-hd-yiyuan-zu .block-product-list{
+    padding:0 .05rem;
+    font-size: 0;
+}
+.page-hd-yiyuan-zu .block-product-list .tit{
+     height: .38rem;
+    line-height: .38rem;
+    font-size: .2rem;
+    font-weight:bold;
+    color: #f00;
+    text-align: center;
+}
+.page-hd-yiyuan-zu .block-product-list .product-item{
+    display: inline-block;
+    font-size: .12rem;
+    width: 1.55rem;
+    text-align: center;
+    background-color: #fff;
+    padding: .2rem 0;
+    border-right: .01rem solid  #efefef;
+    border-bottom: .01rem solid  #efefef;
+}
+.page-hd-yiyuan-zu .block-product-list .product-item:nth-of-type(2n){
+    border-right: none;
+}
+.page-hd-yiyuan-zu .block-product-list .product-item .pro-img{
+    height: 1rem;
+    margin-bottom: .25rem;
+}
+.page-hd-yiyuan-zu .block-product-list .product-item  .pro-name{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .12rem;
+    color: #4f4f4f;
+}
+.page-hd-yiyuan-zu .block-product-list .product-item  .orig-price{
+    font-size: .12rem;
+    color: #c3c3c3;
+}
+.page-hd-yiyuan-zu .block-product-list .product-item  .orig-price .num{
+    text-decoration: line-through;
+}
+.page-hd-yiyuan-zu .block-product-list .product-item  .fee-day{
+    font-size: .12rem;
+    color: #f00;
+}
+.page-hd-yiyuan-zu .block-product-list .product-item .process-bar{
+    background-color: #FCD3CD;
+    border-radius: 1rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.page-hd-yiyuan-zu .block-product-list .product-item .process-bar .bar-inner{
+    height: .13rem;
+    line-height: .15rem;
+    background-color: #f00;
+    color: #fff;
+    border-radius: 1rem;
+}
+.page-hd-yiyuan-zu .block-product-list .product-item .process-bar .bar-inner span{
+    transform: scale(.8);
+}
+
+.page-hd-yiyuan-zu .page-hd-yiyuan-zu .blo-rent-phone-process{
+    margin-top: .1rem;
+    background-color: #fff;
+}
+/*用机流程*/
+.page-hd-yiyuan-zu .blo-rent-phone-process{
+    background-color: #fff;
+    margin-top:.1rem;
+}
+.page-hd-yiyuan-zu .blo-rent-phone-process .process-title{
+    padding: .15rem 0 ;
+    text-align: center;
+    font-size: .18rem;
+    color: #000;
+    position: relative;
+}
+.page-hd-yiyuan-zu .blo-rent-phone-process .process-title:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: .01rem;
+    background-color: #ccc;
+}
+.page-hd-yiyuan-zu .blo-rent-phone-process .process-title .tit {
+    position: relative;
+    background-color: #fff;
+    padding: 0 .2rem;
+}
+.page-hd-yiyuan-zu .blo-rent-phone-process .process-detail{
+    margin-left: .556rem;
+    padding-left: .15rem;
+    border-left: .01rem solid #ccc;
+    font-size: .13rem;
+}
+.page-hd-yiyuan-zu .blo-rent-phone-process .process-detail dt {
+    position: relative;
+}
+/*.page-hd-yiyuan-zu .blo-rent-phone-process .process-detail dt.end:before{*/
+    /*content: '';*/
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: -.152rem;*/
+    /*height: .62rem;*/
+    /*width: .01rem;*/
+    /*background-color: #fff;*/
+/*}*/
+.page-hd-yiyuan-zu .blo-rent-phone-process .process-detail dt>.num {
+    position: absolute;
+    left: -.25rem;
+    display: inline-block;
+    width: .18rem;
+    height: .18rem;
+    line-height: .2rem;
+    font-size: .14rem;
+    color: #fff;
+    border-radius: 1rem;
+    background-color: #ff3300;
+    text-align: center;
+}
+.page-hd-yiyuan-zu .blo-rent-phone-process .process-detail dt>.main-tit{
+    font-size: .15rem;
+    color: #000;
+}
+.page-hd-yiyuan-zu .blo-rent-phone-process .process-detail dt>.desc-tit{
+    padding: .1rem .1rem .15rem 0;
+    color: #aaa;
+}
+/*常见问题*/
+.page-hd-yiyuan-zu .mobile-experience-qa{
+    margin-top: .1rem;
+    background: #fff;
+    padding: .02rem .1rem .30rem .1rem;
+    line-height: 1.6;
+    text-align: center;
+}
+.page-hd-yiyuan-zu  .mobile-experience-qa h3{
+    font-size: .16rem;
+    color: #333;
+    padding: .1rem 0;
+}
+.page-hd-yiyuan-zu  .mobile-experience-qa dl{
+    margin: 0;
+    text-align: left;
+    font-size: .10rem;
+}
+.page-hd-yiyuan-zu  .mobile-experience-qa dl dt{
+    margin: 0;
+    padding: .04rem 0 .1rem .3rem;
+    color: #333;
+    background: url("https://p.ssl.qhimg.com/t01995f61cc3127a378.png") no-repeat 0 0;
+    background-size: .22rem;
+}
+.page-hd-yiyuan-zu  .mobile-experience-qa dl dd{
+    margin: 0;
+    padding: .04rem 0 .1rem .3rem;
+    color: #999;
+    background: url("https://p.ssl.qhimg.com/t01837f6956b0ed5883.png") no-repeat 0 0;
+    background-size: .22rem;
+}
+.page-hd-yiyuan-zu  .mobile-experience-qa dd img{
+    width: 100%;
+}
+
+

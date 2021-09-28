@@ -1,0 +1,206 @@
+.w100{
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+.block-inner {
+    margin: 0 auto;
+    width: 1200px;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.page-hd-black-friday {
+    background:#131210 url("https://p4.ssl.qhmsg.com/t01fd7c681b7d1f6b8e.jpg") repeat-y center 400px;
+    min-width: 1200px;
+}
+.page-hd-black-friday .topbar .in{
+    /*width: 1000px;*/
+}
+
+.page-hd-black-friday .block-tit{
+    height: 120px;
+    background: url(https://p2.ssl.qhmsg.com/t0177bfe71cb35f1514.png) no-repeat center 0px;
+}
+.page-hd-black-friday .block-tit .tit-cont{
+    font-weight: bold;
+    font-size: 40px;
+    color: #f3df7a;
+    /*line-height: 120px;*/
+    text-align: center;
+    /*text-indent: -999px;*/
+    padding-top: 40px;
+    /*text-shadow: 0 5px 10px #f4e5ad;*/
+    background-image: -webkit-linear-gradient(top, #f4e5ad 60%, #a37529 100%);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    text-fill-color: #f3df7a;
+    -webkit-text-fill-color: transparent;
+}
+
+/*头图*/
+.page-hd-black-friday .block-top,
+.page-hd-black-friday .block-top .block-inner{
+    height: 600px;
+    background: url(https://p4.ssl.qhmsg.com/t0177f5cc9537a6a7b5.jpg) no-repeat center 0;
+}
+/*头图end*/
+/*banner*/
+.page-hd-black-friday .block-sub,
+.page-hd-black-friday .block-sub .block-inner{
+    height: 401px;
+    background: url(https://p2.ssl.qhmsg.com/t01245c364b9e2b4d1f.jpg) no-repeat center 0;
+}
+/*banner end*/
+
+/*黑五秒杀*/
+.page-hd-black-friday .block-miaosha{
+    margin-top: -80px;
+}
+.page-hd-black-friday .block-miaosha .block-tab{
+    padding: 6px;
+    border-radius: 5px;
+    background: #ffde92;
+    background: -moz-linear-gradient(left, #ffde92 0%, #a37529 33%, #ffde92 66%, #a37529 100%);
+    background: -webkit-linear-gradient(left, #ffde92 0%,#a37529 33%,#ffde92 66%,#a37529 100%);
+    background: linear-gradient(to right, #ffde92 0%,#a37529 33%,#ffde92 66%,#a37529 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffde92', endColorstr='#a37529',GradientType=1 );
+}
+.page-hd-black-friday .block-miaosha .block-tab .tab-list{
+
+}
+.page-hd-black-friday .block-miaosha .block-tab .tab-item{
+    height: 86px;
+    background-color: #967741;
+    color: #e7bf79;
+    font-size: 22px;
+    text-align: center;
+    line-height: 86px;
+}
+.page-hd-black-friday .block-miaosha .block-tab .tab-item.cur{
+    background-color: #e7bf79;
+    color: #967741;
+}
+.page-hd-black-friday .block-miaosha .block-tab .tab-cont{
+    background-color: #37312c;
+    padding: 15px 0;
+    text-align: center;
+}
+.page-hd-black-friday .block-miaosha .block-tab .tab-cont a{
+    display: inline-block;
+}
+/*黑五秒杀 end*/
+
+/*租手机*/
+.page-hd-black-friday .block-rent .rent-cover-ewm{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background: url("https://p1.ssl.qhmsg.com/t01ae66938546c806c7.png") no-repeat center 0;
+}
+.page-hd-black-friday .block-rent .ui-sp-product-list-1 .p-price-orig{
+    font-size: 16px;
+    padding-top: 10px;
+}
+.page-hd-black-friday .block-rent .ui-sp-product-list-1 .p-price-daily {
+    color: red;
+    font-size: 16px;
+}
+/*租手机 end*/
+
+/*活动商品列表样式*/
+.page-hd-black-friday .ui-sp-product-list-1{
+    min-height: 350px;
+    background-color: #fff;
+}
+
+.page-hd-black-friday .ui-sp-product-list-1 .p-item{
+    /*margin: 5px;*/
+    width: 298px;
+    height: 350px;
+}
+.page-hd-black-friday .ui-sp-product-list-1 .p-item .p-tit{
+    font-size: 14px;
+}
+.page-hd-black-friday .ui-sp-product-list-1 .p-item .p-pic{
+    height: 150px;
+    padding-top: 50px;
+}
+.page-hd-black-friday .ui-sp-product-list-1 .p-item  .p-price-orig {
+    width: auto;
+}
+.page-hd-black-friday .ui-sp-product-list-1 .p-item .p-pic img {
+    height: 115px;
+}
+.page-hd-black-friday .ui-sp-product-list-1 .p-item .p-sold-out{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(https://p0.ssl.qhmsg.com/t01659da13a41c7d3e5.png) no-repeat center;
+}
+.page-hd-black-friday .more{
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background: #201d1d;
+    border:1px solid #fedd91;
+    border-radius: 999px;
+    color: #fdee9a;
+    background-image: -webkit-linear-gradient(top, #f4e5ad 30%, #a37529 100%);
+    background-clip: content-box;
+    -webkit-background-clip: text !important;
+    text-fill-color: #f3df7a;
+    -webkit-text-fill-color: transparent;
+}
+/*活动商品列表样式 end*/
+
+/*服务介绍*/
+.page-hd-black-friday .block-service-intro,
+.page-hd-black-friday .block-service-intro .block-inner {
+    background: url(https://p0.ssl.qhmsg.com/t01dc1bfd008d95365e.png) no-repeat center;
+}
+.page-hd-black-friday .block-service-intro .block-inner{
+    height: 268px;
+    margin: 20px auto;
+}
+/*二维码扫一扫*/
+.page-hd-black-friday .block-qrcode-info,
+.page-hd-black-friday .block-qrcode-info .block-inner {
+    background:url(https://p0.ssl.qhmsg.com/t019365c23671bfd85a.png) no-repeat center 0;
+}
+.page-hd-black-friday .block-qrcode-info .block-inner {
+    height: 268px;
+    margin: 0px auto 60px;
+}
+
+/*合作伙伴*/
+.page-hd-black-friday .block-partner,
+.page-hd-black-friday .block-partner .block-inner {
+    background:url(https://p0.ssl.qhmsg.com/t01aa106b3b6d160253.png) no-repeat center 0;
+}
+.page-hd-black-friday .block-partner .block-inner {
+    height: 470px;
+    margin: 0px auto 60px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,1061 @@
+
+.page-shangmen .section-1{
+	position: relative;
+	z-index: 11;	
+	border-bottom: 0;
+}
+.page-shangmen .section-5{
+	background: #F7F7F7;
+}
+.page-shangmen .section-5 .inner-960{
+	position: relative;
+}
+
+.page-shangmen .inner-960{
+	width: 960px;
+	margin: 0 auto;
+}
+.page-shangmen .top-step{
+	width: 955px;
+	height: 74px;
+	margin: 20px auto;
+	background: url(https://p.ssl.qhimg.com/t014845b99f7c0a39fe.jpg) no-repeat 0 0;
+}
+.page-shangmen .top-step-2{
+	background: url(https://p.ssl.qhimg.com/t01518d4c8d3621d491.jpg) no-repeat 0 0;
+}
+.page-shangmen .top-step-3{
+	background-position: 0 -152px;	
+}
+.page-shangmen .top-step-4{
+	background-position: 0 -228px;
+}
+.page-shangmen .section-1 .inner-960{
+	height: 390px;
+}
+.page-shangmen .section-2{
+	margin-top:30px;
+}
+.page-shangmen .yy-container{
+	font-family: "微软雅黑","宋体";
+	width: 260px;
+	height: 350px;
+	padding: 20px 15px;
+	background: url(https://p.ssl.qhimg.com/t013178cc35df867563.png) repeat 0 0;
+}
+
+.page-shangmen .section-3{
+	background: #F5F5F5;
+}
+
+.page-shangmen .kit-layout-bg{
+	width: 960px;
+	height: 667px;
+	background: url(https://p.ssl.qhimg.com/t013a9c2336f26cad8c.jpg) no-repeat 0 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+.page-shangmen .kit-layout{
+	width: 960px;
+	height: 667px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 11;
+}
+.page-shangmen .kit-tip{
+	position: absolute;
+	z-index: 1000;
+	left: 250px;
+	top: 110px;
+	width: 174px;	
+	padding: 10px;	
+	border: 2px solid #6DC4F5;
+	background: #fff;
+	display: none;
+	font-size: 12px;
+	font-family: "微软雅黑","宋体";
+	border-radius: 2px;
+}
+.page-shangmen .tool-tip-tit{
+	font-weight: bold;
+	font-size: 14px;
+	color: #444;
+}
+
+.page-shangmen .tool-tip-desc{
+	color: #888;
+}
+
+
+/* 订单成功 */
+.page-shangmen-succ{font-family: "微软雅黑","宋体";}
+.page-shangmen-succ .order-succ{
+    padding-top: 20px;
+	padding-bottom: 100px;
+}
+.page-shangmen-succ .order-succ-inner{
+    margin: 0 auto;
+    width: 520px;
+}
+.page-shangmen-succ .order-succ-tips{
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 480px;
+    background: #FFF8DE;
+    border-radius: 4px;
+}
+.page-shangmen-succ .order-succ-tips-tit{
+    font-size: 28px;
+    color: #FF690E;
+    line-height: 2;
+}
+.page-shangmen-succ .order-succ-tips-cnt{
+    line-height: 1.6;
+    font-size: 14px;
+    color: #666;
+}
+.page-shangmen-succ .order-succ-tips-cnt p{
+    padding: 0 0 5px 12px;
+    text-indent: -12px;
+}
+.page-shangmen-succ .mt30{
+    margin-top: 30px;
+}
+
+.page-shangmen-succ .tit1{
+    padding-bottom: 8px;
+	font-size: 28px;
+    line-height: 38px;
+	color: #ff7a0e;
+	text-align: center;
+}
+.page-shangmen-succ .icon-order-succ{
+    margin-right: 5px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 38px;
+    height: 38px;
+    background: url("https://p.ssl.qhimg.com/t01d418bf14266e63a2.png") no-repeat 0 0;
+    vertical-align: top;
+}
+
+.page-shangmen-succ .tit2{
+	color: #ff7a0e;
+	font-size: 16px;
+	text-align: center;
+}
+
+.page-shangmen-succ .order-succ-info{
+	padding: 20px 0;
+	margin-bottom: 10px;
+}
+
+.page-shangmen-succ .o-i-item{
+    margin-bottom: 5px;
+	color: #666;
+	line-height: 1.6;
+}
+.page-shangmen-succ .left-tit{
+    float: left;
+    margin-right: 10px;
+    width: 75px;
+    color: #999;
+	font-family: "\@微软雅黑,宋体";
+}
+.page-shangmen-succ .o-i-item .right-content{
+    margin-left: 85px;
+}
+
+.page-shangmen-succ .survey{
+	padding: 10px 0;
+	overflow: hidden;
+}
+.page-shangmen-succ .survey-item{
+	display: inline-block;
+	_zoom:1;
+	width: 120px;
+	height: 24px;
+	line-height: 24px;
+	white-space: nowrap;
+	word-break:keep-all;
+	text-align: center;
+	border: 1px solid #D9D9D9;
+	margin: 5px 10px;
+	color: #666;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.page-shangmen-succ .survey-item-curr{
+	color: #ff7a0e;
+	border-color: #ff7a0e;
+}
+
+.page-shangmen-succ .survey-done{
+	display: none;
+	font-size: 16px;
+	padding: 30px 0;
+	text-align: center;
+	color: #666;
+	overflow: hidden;
+}
+
+.page-shangmen-succ .wechat-saoyisao{
+    width: 50%;
+    margin-top: -65px;
+}
+.page-shangmen-succ-shangmen .wechat-saoyisao{
+    margin-top: -135px;
+}
+
+.page-shangmen-succ .shangmen-saoyisao .wechat-saoyisao2{
+    height: 500px;
+}
+.page-shangmen-succ .shangmen-saoyisao .wechat-saoyisao2-inner{
+    width: 490px;
+    height: 511px;
+    background: url(https://p.ssl.qhimg.com/t0168b3a3126c817e2d.png);
+}
+.page-shangmen-succ .shangmen-saoyisao .wechat-saoyisao2-inner img{
+    top: 275px;
+    left: 164px;
+    width: 167px;
+    height: 167px;
+}
+
+.page-shangmen .no-support{
+	background: url(https://p.ssl.qhimg.com/t01147ef371e0912f7b.jpg);
+	width: 280px;
+	padding: 30px 158px 30px 20px; 
+	height: 138px;
+	font-size: 16px;
+}
+
+.page-shangmen .section-top-2{
+	background: url(https://p.ssl.qhimg.com/t016e16e1d571035ac4.jpg) repeat-x 0 0;
+}
+
+.page-shangmen .section-top-2 .inner{
+	background: url(https://p.ssl.qhimg.com/t01543e8acd1f32a18f.jpg) no-repeat center 0;
+}
+.page-shangmen .section-top-2 .inner-960{
+	height: 277px;
+	position: relative;
+	z-index: 100;
+}
+
+.page-shangmen .section-top-2 .wx-xxg{
+	position: absolute;
+	right: -120px;
+	bottom: -48px;
+}
+
+.page-shangmen .section-6{ background: #F7F7F7; border-bottom: 0;}
+.page-shangmen .section-6 .zy-list{ padding: 5px 0;}
+.page-shangmen .section-6 .zy-item{
+	float: left;
+	width: 310px;
+	height: 132px;
+	border: 1px solid #E0E0E0;
+	background-color: #fff;
+	margin: 6px 4px;
+	_display:inline;
+	cursor: pointer;
+}
+
+.page-shangmen .section-6 .zy-item0{
+	background: url(https://p.ssl.qhimg.com/t017406c5043d86bc38.jpg) no-repeat center;
+}
+.page-shangmen .section-6 .zy-item1{
+	background: url(https://p.ssl.qhimg.com/t0191388c9aef8c116d.jpg) no-repeat center;
+}
+.page-shangmen .section-6 .zy-item2{
+	background: url(https://p.ssl.qhimg.com/t010b633587df9b0ec8.jpg) no-repeat center;
+}
+.page-shangmen .section-6 .zy-item3{
+	background: url(https://p.ssl.qhimg.com/t013d2cd8760bcd4a78.jpg) no-repeat center;
+}
+.page-shangmen .section-6 .zy-item4{
+	background: url(https://p.ssl.qhimg.com/t01f6320761d142aa5c.jpg) no-repeat center;
+}
+.page-shangmen .section-6 .zy-item-more{
+	background: url(https://p.ssl.qhimg.com/t0172ea07d0ac29d913.jpg) no-repeat center;
+}
+
+.page-shangmen .section-6 .buy-box{
+	position: relative;
+	display: inline;
+	line-height: 40px;
+	top: 84px;
+	left: 106px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+.page-shangmen .section-6 .o-price{
+	color: #999;
+	margin-right: 16px;
+}
+.page-shangmen .section-6 .d-price{
+	color: #ff6600;
+}
+
+.page-shangmen .section-6 .btn-buy{	
+	display: none;
+	_zoom:1;
+	width: 110px;
+	height: 34px;
+	line-height: 34px;
+	background: #FF9900;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	border-bottom: 3px solid #D88200;
+}
+
+.page-shangmen .section-6 .btn-buy:hover{
+	text-decoration: none;
+	background: #f80;
+}
+
+.page-shangmen .section-6 .zy-item-hover .btn-buy{
+	display: block;
+	margin-left: 70px;
+}
+
+.page-shangmen .section-6 .zy-item-hover .o-price,
+.page-shangmen .section-6 .zy-item-hover .d-price{
+	display: none;
+}
+
+.page-shangmen .sm-city-limit1,
+.page-shangmen .sm-city-limit2{	
+	font-size: 14px;
+	color: #888;
+	font-family: "微软雅黑";
+}
+.page-shangmen .sm-city-limit1{
+	position: absolute;
+	right: 516px;
+	top:76px;
+	text-align: right;
+}
+.page-shangmen .sm-city-limit2{
+	position: absolute;
+	left: 0;
+	top: 46px;
+}
+/* 客户端嵌入页面 */
+.page-sm-inclient{}
+.page-sm-inclient .inner-960{
+	width: 720px;
+}
+.page-sm-inclient #doc-topbar,
+.page-sm-inclient #doc-footer,
+.page-sm-inclient .section-5{ display: none}
+
+.page-sm-inclient .section-top-2 .inner {
+	background: url(https://p.ssl.qhimg.com/t014658aedba0be1c59.jpg) no-repeat center 0;
+}
+.page-sm-inclient .section-top-2 .inner-960{
+	height: 247px;
+}
+.page-sm-inclient .section-6 .zy-item{
+	width: 228px;
+	height: 132px;
+}
+.page-sm-inclient .section-6 .buy-box{
+	font-size: 12px;
+	left: 74px;
+	top: 86px;
+	line-height: 40px;
+}
+.page-sm-inclient .section-6 .zy-item0{
+	background: url(https://p.ssl.qhimg.com/t01d3d67ba1a9f8d5b3.jpg) no-repeat center;
+}
+.page-sm-inclient .section-6 .zy-item1{
+	background: url(https://p.ssl.qhimg.com/t0115d023b137d0d032.jpg) no-repeat center;
+}
+.page-sm-inclient .section-6 .zy-item2{
+	background: url(https://p.ssl.qhimg.com/t015e47f6c32f0f8b2e.jpg) no-repeat center;
+}
+.page-sm-inclient .section-6 .zy-item3{
+	background: url(https://p.ssl.qhimg.com/t01320b18617cf876cd.jpg) no-repeat center;
+}
+.page-sm-inclient .section-6 .zy-item4{
+	background: url(https://p.ssl.qhimg.com/t011932e91fbbcfe260.jpg) no-repeat center;
+}
+.page-sm-inclient .section-6 .zy-item-more{
+	background: url(https://p.ssl.qhimg.com/t01f3518b087020976f.jpg) no-repeat center;
+}
+.page-sm-inclient .section-6 .zy-item-hover .btn-buy{
+	display: block;
+	margin-left: 20px;
+}
+.page-sm-inclient .wx-xxg{ display: none}
+.page-sm-inclient .section-6 .zy-list{ padding: 5px 3px;}
+
+
+.page-shangmen .btn-pre-buy{	
+	display: inline-block;
+	width: 176px;
+	height: 56px;
+	line-height: 56px;
+	background: #FF6500;
+	text-align: center;
+	color: #fff;
+	font-size: 26px;
+	border-bottom: 3px solid #C55000;
+
+}
+
+.page-shangmen .section-pre{
+	overflow: hidden;
+}
+.page-shangmen .btn-pre-buy:hover{
+	text-decoration: none;
+	background: #FF6F00;
+}
+
+
+.page-shangmen .float-card-fixed-wrap{
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 0;
+}
+.float-card-fixed-wrap .float-card-fixed-inner{
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	height: 0;
+}
+.float-card-fixed-wrap .right-question,
+.float-card-fixed-wrap .right-qzixun{
+	position: absolute;
+	top: 195px;
+	right: -150px;
+	cursor: pointer;
+}
+.float-card-fixed-wrap .right-qzixun{
+	top: 302px;
+	right: -109px;
+	width: 93px;
+	height: 151px;
+	overflow: hidden;
+	text-align: center;
+}
+.float-card-fixed-wrap .right-qzixun img{
+	margin-top: -1px;
+}
+.float-card-fixed-wrap .right-service{
+	position: absolute;
+	top: 120px;
+	right: -125px;
+	width: 123px;
+	height: 352px;
+	cursor: default;
+	color: #184A62;
+	background: url(https://p.ssl.qhimg.com/t012334ad12bce701f0.png) no-repeat center;
+	text-align: center;
+	font-size: 12px;
+}
+.float-card-fixed-wrap .right-service .tit{
+	margin-top: 99px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+.float-card-fixed-wrap .right-service .kf-name{
+	margin-top: 15px;
+	margin-bottom: 4px;
+}
+.float-card-fixed-wrap .right-service a{
+	display: inline-block;
+	*display: inline;
+    *zoom: 1;
+    width: 77px;
+	height: 22px;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+.float-card-fixed-wrap .right-service .right-question,
+.float-card-fixed-wrap .right-service .right-jxfk{
+	margin-top: 8px;
+	position: static;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	color: #184A62;
+	background: #fff;
+	height: 28px;
+	line-height: 28px;
+	border-bottom: 3px solid #649EBA;
+	border-radius: 4px;
+}
+.float-card-fixed-wrap .right-service .right-question{
+	/*margin-top: 20px;*/
+    margin-top: 12px;
+}
+.float-card-fixed-wrap .right-service .right-question:hover,
+.float-card-fixed-wrap .right-service .right-jxfk:hover{text-decoration: none;}
+
+.page-shangmen .question-pop{
+	color: #666666;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.page-shangmen .q-pop-panel .ft{
+	display: none;
+}
+.page-shangmen .question-pop .q-item{
+	border-bottom: 1px solid #E0E0E0;
+	margin: 6px 20px;
+	padding-bottom: 10px;
+}
+
+.page-shangmen .question-pop h2{
+	background-color: #E1F7EE;
+	font-size: 22px;
+	color: #333333;
+	line-height: 60px;
+	border-bottom: 1px solid #DEE8E4;
+	padding: 0 20px;
+}
+
+.page-shangmen .question-pop h3{
+	color: #004c65;
+	font-size: 22px;
+	line-height: 52px;
+}
+
+.page-shangmen .question-pop em{
+	color: #118855;
+}
+
+
+.page-shangmen .right-question2{
+	top: 94px;
+	right: -140px;
+}
+
+.page-shangmen .sm-mulsvr-pop{
+	padding: 40px;
+}
+
+.page-shangmen .sm-mulsvr-pop .sm-mulsvr-item{
+	display: block;
+	width: 220px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+.page-shangmen .sm-mulsvr-pop .sm-mulsvr-item:hover{
+	text-decoration: none;
+	opacity: 0.9;
+}
+
+.page-shangmen .sm-mulsvr-pop .sm-mulsvr-i1{
+	background-color: #FF9900;
+	margin-bottom: 14px;
+}
+.page-shangmen .sm-mulsvr-pop .sm-mulsvr-i2{
+	background-color: #4EC835;
+}
+
+.page-shangmen .user-comment{
+	width: 226px;
+	position: absolute;
+	right: 0;
+	top:0;
+}
+.page-shangmen .user-comment h2{
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #333;
+	line-height: 20px;
+	margin-top: 24px;
+}
+.page-shangmen .u-cmt-box{
+	width: 226px;
+	overflow-x: hidden;
+}
+
+.page-shangmen .u-cmt-list{
+	width: 452px;
+}
+
+.page-shangmen .u-cmt-line{
+	width: 226px;
+	float: left;
+}
+.page-shangmen .u-cmt-item{
+	margin-bottom: 14px;
+	cursor: pointer;
+}
+
+.page-shangmen .cmt-pagition{
+	text-align: right;
+	padding: 1px;
+}
+
+.page-shangmen .cmt-pagition span{
+	display: inline-block;
+	_zoom:1;
+	width: 20px;
+	text-align: center;
+	font-family: serif;
+	border: 1px solid #ccc;
+	border-radius: 2px;	
+	margin: 4px;
+	cursor: pointer;
+	color: #999;
+}
+.page-shangmen .cmt-pagition span:active{
+	background-color: #eee;
+}
+
+.page-shangmen .zy-ld-cmt{
+	height: 168px;
+	padding-top: 46px;
+	background: url(https://p.ssl.qhimg.com/t01067f0e23012cf34a.jpg) no-repeat 0 0;
+}
+
+.page-shangmen .zy-ld-cmt .zy-ld-item{
+	width: 240px;
+	float: left;
+	height: 100%;
+	cursor: pointer;
+}
+
+.page-shangmen .curr-sm-city{
+	font-size: 16px;
+}
+.page-shangmen .sel-other-city{
+	padding: 0 6px;
+}
+
+
+.page-shangmen .detail-cnt{
+	padding: 10px 0;	
+}
+.page-shangmen .detail-cnt .area-select-wrap{display: block;height: 36px;margin:8px 0;line-height: 1;position: relative;}
+.page-shangmen .detail-cnt .area-select-wrap .area-sel{
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #CECECE;
+    /*background: url(https://p.ssl.qhimg.com/t010d71e7b045cd4e73.png) repeat-x 0 0;*/
+    padding-left:8px;
+    cursor: pointer;    
+    color: #999999;
+    position: relative;
+    z-index: 1000;
+    float: left;
+    margin: 0 8px 0 0;
+    z-index: 9999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+.page-shangmen .detail-cnt .area-select-wrap .icon-arrow{
+    width: 26px;
+    height: 22px;
+    background: url(https://p.ssl.qhimg.com/t010d71e7b045cd4e73.png) no-repeat 10px -30px;
+}
+.page-shangmen .detail-cnt .area-select-wrap .select-pannel{display:none;position: absolute;width: 460px;background: #FBFBFB;border: solid 1px #CFCFCF;left: -1px;top: 38px;padding: 8px 0;z-index: 10001;line-height: 1;}
+.page-shangmen .detail-cnt .area-select-wrap .select-pannel h3{font-weight: normal;height: 20px; line-height: 20px; padding: 0 10px;margin: 0;position: relative;background: none;text-indent: inherit;}
+.page-shangmen .detail-cnt .area-select-wrap .select-pannel h3 .close{background: url(https://p.ssl.qhimg.com/t011be77565f0a2f8e8.png) no-repeat 0 -7px;cursor: pointer; display: block; height: 20px; line-height: 100px; overflow: hidden; position: absolute; right: 10px; top: 0; width: 55px;}
+.page-shangmen .detail-cnt .area-select-wrap .select-pannel .select-list{background: #FFFFFF;border: solid 1px #E8E8E8;margin: 12px 12px 3px; padding: 12px 12px 0;}
+.page-shangmen .detail-cnt .area-select-wrap .select-pannel .select-list a{color: #000000;display: inline-block; height: 18px; line-height: 18px; margin: 0 18px 5px 0;}
+.page-shangmen .detail-cnt .area-select-wrap .area-sel .sel-txt{
+	_zoom:1;
+}
+
+
+.page-shangmen .detail-cnt .search-tit{
+	font-family: "微软雅黑";
+	position:absolute;right:500px;top:11px;color:#666666;font-size:16px;
+}
+
+.page-shangmen .detail-cnt .mod-box4 {
+  border-top: solid 2px #4BAC20;
+  border-right: solid 1px #DFDFE1;
+  border-left: solid 1px #DFDFE1;
+  border-bottom: solid 1px #DFDFE1;
+  overflow: auto;
+  background: #F7F7F7;
+  z-index: 99;
+}
+.page-shangmen .detail-cnt .mod-box4 ul {
+  width: 320px;
+  float: left;
+}
+
+.page-shangmen .detail-cnt .mod-box4 ul li {
+  width: 99px;
+  border-right: solid 1px #E3E3E5;
+  float: left;
+  text-align: center;
+  height: 35px;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+.page-shangmen .detail-cnt .mod-box4 ul li.curr {
+  background: #E4E4E4;
+}
+
+.page-shangmen .detail-cnt .no-more-result{
+	padding: 50px;
+	text-align: center;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #666;
+}
+
+
+/* 搜索结果 */
+.page-shangmen .search-list-pad{padding:15px;border-bottom:solid 1px #DFDFE1;color:#999;}
+.page-shangmen .search-res-list .tab-td1{width:72px;}
+.page-shangmen .search-res-list .tab-td1 img{width:70px;height:70px; border:solid 1px #DEDEE0;}
+.page-shangmen .search-res-list .tab-td2,
+.page-shangmen .search-res-list .tab-td3,
+.page-shangmen .search-res-list .tab-td4,
+.page-shangmen .search-res-list .tab-td4-1,
+.page-shangmen .search-res-list .tab-td5{
+	border: solid 1px #FFFFFF;
+}
+.page-shangmen .search-res-list .tab-td2{/*width:400px;*/padding-left:10px;vertical-align:top; }
+.page-shangmen .search-res-list .tab-td3{width:0;text-align:center;}
+.page-shangmen .search-res-list .tab-td4{width:140px; overflow:hidden;padding:0 5px;}
+.page-shangmen .search-res-list .tab-td4-1{width:140px; text-align: center;}
+.page-shangmen .search-res-list .tab-td5{width:140px; text-align: right;}
+.page-shangmen .search-res-list .td-hei68 a{color:#2E74D3;font-size:14px;}
+.page-shangmen .search-res-list .td-hei68 a em{color:#FF2900;}
+.page-shangmen .search-res-list .td-hei68{height:68px;overflow:hidden;}
+.page-shangmen .search-res-list .td-hei26{height:24px;line-height:24px;overflow:hidden;}
+.page-shangmen .search-res-list .td-hei26 a{color:#666;}
+.page-shangmen .search-res-list .search-link{white-space: nowrap;}
+.page-shangmen .search-res-list .search-dplink{text-decoration: underline; color: #999999;}
+.page-shangmen .search-res-list .p-price,
+.page-shangmen .search-res-list .p-xxpf{ font-family: "微软雅黑"; text-align: center; width: 130px;  height: 24px; line-height: 24px;}
+.page-shangmen .search-res-list .price{
+	color: #FF9100;
+	font-size: 16px;	
+}
+.page-shangmen .search-res-list .mianfu{background: url(https://p.ssl.qhimg.com/t0125c574e8ce6c237c.png) no-repeat;
+	height:19px;
+	width:19px;
+	display: inline-block;
+	vertical-align:bottom;
+}
+.page-shangmen .search-res-list .tab-td4-1 .orange{ font-size: 20px; }
+.page-shangmen .search-res-list .font-17{font:17px/1.5 "微软雅黑";color:#999;}
+.page-shangmen .search-res-list .font17b{color:#FF6600;font-weight:bold;}
+
+.page-shangmen .search-res-list .tab-td4 .tab-td-icons{text-align:right;}
+.page-shangmen .search-res-list .tab-td4 .tab-td-icons span{margin-right:8px;}
+.search-mod-hd .extra{float: right; margin: 6px 10px 0 0;}
+/* .page-shangmen .search-res-list .btn-view{background:url(https://p.ssl.qhimg.com/t0137e47817b890de3f.png) no-repeat 0 -46px;width:78px;height:28px;display:block;margin-top:5px;} */
+.page-shangmen .search-res-list .btn-view{background:url(https://p.ssl.qhimg.com/t01dd9d395cb04df24d.png) no-repeat 0 -46px;width:78px;height:28px;display:none;margin-top:5px;}
+.page-shangmen .search-res-list .btn-view:hover{background-position:-78px -46px;}
+.page-shangmen .search-res-list .btn-view:active{background-position:-156px -46px;}
+
+.page-shangmen .search-res-list .btn-buy{background:url(https://p.ssl.qhimg.com/t0137e47817b890de3f.png) no-repeat;width:78px;height:28px;display:block;}
+.page-shangmen .search-res-list .btn-buy:hover{background-position:-78px 0px;}
+.page-shangmen .search-res-list .btn-buy:active{background-position:-156px 0px;}
+
+.page-shangmen .search-res-list .btn-detail{background:url(https://p.ssl.qhimg.com/t01dd9d395cb04df24d.png) no-repeat;width:78px;height:28px;display:block; float: right; }
+.page-shangmen .search-res-list .btn-detail:hover{background-position:-78px 0px;}
+.page-shangmen .search-res-list .btn-detail:active{background-position:-156px 0px;}
+
+.page-shangmen .search-res-list .btn-product{
+	color: #fff;
+	text-align: center;
+	background: url(https://p.ssl.qhimg.com/t01fd30fb25c0c2dbc1.png) no-repeat 0 0;
+	width: 95px;
+	height: 31px;
+	line-height: 31px;
+	display: block;
+	float: right;
+	font-weight: bold;
+}
+
+.page-shangmen .search-res-list .btn-product:hover{
+	text-decoration: none;
+	background-position: 0px -31px;
+}
+
+.page-shangmen .search-res-list .btn-product:active{
+	background-position: 0px -62px;
+}
+
+.page-shangmen .search-res-list .dianpu-detail{
+	width: 340px;
+	overflow: hidden;
+	white-space: nowrap;
+	word-break:keep-all;
+	text-overflow:ellipsis;
+}
+
+.page-shangmen .search-res-list .srv-area{
+	text-align: center;
+}
+
+.page-shangmen .detail-cnt .r-b-left{
+	width: 776px;
+	float: left;
+}
+
+.page-shangmen .detail-cnt .r-b-right{
+	width: 174px;
+	float: right;
+}
+
+.page-shangmen .detail-cnt .map-box{
+	position: relative;
+	text-align: center;
+}
+.page-shangmen .detail-cnt .sm-map-container{
+	width: 174px;
+	height: 174px;
+	border: 1px solid #ddd;
+}
+.page-shangmen .detail-cnt .s-b-m-link{
+	line-height: 2;
+}
+
+.page-shangmen .detail-cnt .sm-map-cover{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 176px;
+	height: 176px;
+	z-index: 1000;
+}
+
+
+.page-shangmen .detail-tab-box{
+	border-bottom: 1px solid #E6E5E5;
+	background-color: #FAFAFA;
+}
+.page-shangmen .detail-tab{
+
+}
+.page-shangmen .detail-tab-item{
+	background-color: #F5F5F5;
+	height: 54px;
+	line-height: 54px;
+	font-size: 18px;
+	color: #333333;
+	font-family: "微软雅黑";
+	width: 298px;
+	float: left;
+	border-right: 1px solid #E0E0E0;
+	border-left: 1px solid #E0E0E0;
+	text-align: center;
+	cursor: pointer;
+	margin-left: -1px;
+	_display: inline;
+}
+
+.page-shangmen .detail-tab .curr{
+	background-color: #fff;
+	border-top: 2px solid #118855;
+	height: 53px;
+	line-height: 52px;
+	position: relative;
+	margin-bottom: -1px;
+	z-index: 1;
+}
+
+.page-shangmen .detail-price-box{
+	background: url(https://p.ssl.qhimg.com/t017c1dc4dc02e757bd.png) no-repeat center -10px;
+	height: 218px;
+	position: relative;
+	border-bottom: 1px solid #E0E0E0;
+}
+.page-shangmen .detail-price-box-sm{
+	background: url(https://p.ssl.qhimg.com/t011100b0373560b3c9.jpg) no-repeat center -10px;
+}
+
+.page-shangmen .btn-pre-buy2{
+	width: 260px;
+	height: 44px;
+	line-height: 44px;
+	background-color: #FF9900;
+	border-bottom-color: #D88200;
+	font-family: "微软雅黑";
+}
+.page-shangmen .btn-pre-buy2:hover{
+	background-color: #FAA01C;
+	border-bottom-color: #DE860A;
+}
+
+.page-shangmen .sm-zj-list{
+	position: relative;
+}
+.page-shangmen .sm-zj-ul{
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	top:68px;
+}
+.page-shangmen .sm-zj-item{
+	width: 240px;
+	height: 350px;
+	float: left;	
+}
+.page-shangmen .sm-zj-item .life-photo{
+	width: 100%;
+	display: none;
+}
+
+.page-shangmen .hover .life-photo{
+	display: block;
+}
+
+.page-shangmen .part-fix-item{
+	display:inline-block;
+	_zoom:1; 
+	width:80px; 
+	height:36px; 
+	line-height:36px;
+	text-align: center;
+	background-color: #FF9900;
+	margin: 4px; 
+	color:#fff;
+	text-decoration: none;
+	float: left;
+}
+.page-shangmen .part-fix-item:hover{
+	background-color: #FF8800;
+}
+
+.page-shangmen .right-float-shangmen-618-inner a{
+    top: 476px;
+    right: -118px;
+}
+
+.shujuhuifu-baojia{
+    margin: 48px 20px 0 20px;
+    width: 780px;
+    font-family: "微软雅黑", "arail", "宋体";
+    font-size: 14px;
+}
+.shujuhuifu-baojia table{
+    width: 100%;
+}
+.shujuhuifu-baojia th,
+.shujuhuifu-baojia td{
+    padding: 4px;
+    line-height: 1.8;
+    text-align: center;
+    border: 1px dotted #808080;
+}
+.shujuhuifu-baojia th{
+    /*text-align: center;*/
+    background: #DAEEF3;
+}
+.shujuhuifu-baojia .bg1{
+    background: #D9D9D9;
+}
+
+.daodian-addr-line{}
+.daodian-addr-line .daodian-tit{
+    float: left;
+}
+.daodian-addr-line .daodian-addr{
+    margin-left: 63px;
+    *margin-left: 5px;
+}
+.daodian-addr-line .daodian-addr label{
+    margin-bottom: 8px;
+    display: block;
+}
+
+
+.page-shangmen-succ .order-succ-info2{
+    position: relative;
+    margin: 10px auto;
+    padding: 20px;
+    width: 880px;
+    background: #FFF8DE;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #666;
+}
+.page-shangmen-succ .order-succ-info2 .btn-wrap{
+	text-align: center;
+}
+.page-shangmen-succ .order-succ-info2 .show-yuyue-btn {
+	padding: 5px 15px;
+	background-color: #ff7a0e;
+	color: #fff;
+	margin-bottom: 5px;
+}
+.page-shangmen-succ .order-succ-info2 h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #ff7a0e;
+}
+.page-shangmen-succ .order-succ-info2 .row{
+    margin-bottom: 8px;
+}
+.page-shangmen-succ .order-succ-info2 .tit{
+    color: #000;
+}
+.page-shangmen-succ .order-succ-info2 .wechat-saoyisao3-wrap{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+}
+.page-shangmen-succ .order-succ-info2 .wechat-saoyisao3-wrap img{
+    width: 150px;
+}
+.page-shangmen-succ .order-succ-info2 .wechat-saoyisao3-wrap .wechat-saoyisao3-tip{
+    text-align: center;
+    color: #333;
+}
+.page-shangmen-succ .img-process-intro{
+    margin-top: 20px;
+    /*margin-bottom: -100px;*/
+}
+.page-shangmen-succ .img-process-intro .col-4-1{
+    text-align: center;
+}
+.page-shangmen-succ .order-succ-yj-pay{
+
+}
+.page-shangmen-succ .order-succ-yj-pay .desc{
+    padding: 8px 0;
+    font-size: 14px;
+    text-align: center;
+    color: #ff7a0e;
+}
+.page-shangmen-succ .order-succ-yj-pay .btn-yj-pay{
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    background: #ff7a0e;
+    color: #fff;
+}
+.page-shangmen-succ .order-succ-yj-pay .btn-yj-pay:hover{
+    background: #FFA11B;
+}
+.page-shangmen-succ .order-succ-yj-pay .btn-yj-pay:active{
+    background: #ff8b1b;
+}

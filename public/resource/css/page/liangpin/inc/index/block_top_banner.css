@@ -1,0 +1,145 @@
+/*优品首页-顶部banner相关样式*/
+
+/*轮播图*/
+.block-top-banner .block-top-banner-slide {
+    width: 100%;
+    min-width: 1200px;
+    height: 240px;
+    position: relative;
+    background: #fff;
+}
+
+.block-top-banner .block-top-banner-slide .slide-inner {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+}
+
+.block-top-banner .block-top-banner-slide .slide-item {
+    float: left;
+    width: 100%;
+    height: 240px;
+    background: transparent no-repeat center 0;
+}
+
+.block-top-banner .block-top-banner-slide .slide-item .item-inner,
+.block-top-banner .block-top-banner-slide .slide-item .item-inner:hover {
+    margin: 0 auto;
+    display: block;
+    width: 1200px;
+    height: 100%;
+    background: transparent no-repeat center 0;
+    text-decoration: none;
+}
+
+.block-top-banner .block-top-banner-slide .slide-ctrl {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+    margin: 0 auto;
+    padding: 0 180px 0 0;
+    width: 1020px;
+    text-align: right;
+    height: 18px;
+}
+
+.block-top-banner .block-top-banner-slide .ctrl-item {
+    cursor: pointer;
+    margin: 0 2px;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    border: solid 1px #333;
+    border-radius: 999px;
+    -webkit-border-radius: 999px;
+    transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+}
+
+.block-top-banner .block-top-banner-slide:hover .ctrl-item {
+    /*border-radius: 14px;*/
+    /*-webkit-border-radius: 14px;*/
+    /*height: 14px;*/
+    /*width: 14px*/
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+.block-top-banner .block-top-banner-slide .ctrl-curr {
+    background-color: #333;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    border: solid 1px #fff;
+}
+
+
+/* 分类信息、小广告图等*/
+.block-top-banner .block-top-banner-info {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 0;
+    z-index: 9;
+}
+
+.block-top-banner .block-top-banner-info .block-top-cate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 20px;
+    width: 280px;
+    height: 240px;
+    color: #fff;
+    background: #666;
+    background: rgba(51, 51, 51, 0.60);
+}
+
+.block-top-banner .block-top-banner-info .block-top-cate h3{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 4px;
+    font-size: 16px;
+    border-left: 3px solid #fff;
+    line-height: 1;
+}
+.block-top-banner .block-top-banner-info .block-top-cate .top-cate-list{
+    margin-left: -10px;
+    padding-bottom: 4px;
+    font-size: 0;
+}
+.block-top-banner .block-top-banner-info .block-top-cate .top-cate-list .item{
+    margin-bottom: 6px;
+    padding: 0 8px;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    text-align: center;
+    border: 0;
+    border-right: 1px solid #fff;
+    line-height: 1;
+}
+.block-top-banner .block-top-banner-info .block-top-cate .top-cate-list .last{
+    border: 0;
+}
+.block-top-banner .block-top-banner-info .block-top-cate .top-cate-list a{
+    font-size: 12px;
+    color: #fff;
+}
+.block-top-banner .block-top-banner-info .block-top-cate .top-cate-list a:hover{
+    text-decoration: none;
+}
+
+.block-top-banner .block-top-banner-info .top-desc {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 160px;
+    height: 220px;
+    background: transparent no-repeat center;
+}

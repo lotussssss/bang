@@ -1,0 +1,13 @@
+@import url("../page/shiyong/common.css");
+
+@import url("../page/shiyong/index/index.css");
+@import url("../page/shiyong/index/product_info.css");
+
+/*@import url("../page/shiyong/product.css");*/
+@import url("../page/shiyong/order.css");
+
+@import url("../page/shiyong/order_pay/order_pay.css");
+
+@import url("../page/shiyong/order_success.css");
+@import url("../page/shiyong/pay_success.css");
+@import url("../page/shiyong/rent_phone/index.css");

@@ -1,0 +1,167 @@
+/*优品联盟注册页*/
+
+.page-union-register,
+.page-union-register .block-slogan,
+.page-union-register .block-form{
+    background: #fff;
+}
+.page-union-register .block-slogan{
+    height: 1.2622222222222221rem;
+    padding-top: .8rem;
+    color: #fff;
+    font-size: .16rem;
+    background: url('https://p2.ssl.qhmsg.com/t017b24d1c12313c903.jpg') no-repeat 0 center/100% 100%;
+    text-align: center;
+}
+
+.page-union-register .t-center{
+    text-align:center;
+}
+
+.page-union-register .input-radius:before{
+    display: none;
+}
+.page-union-register .login-form .row{
+    margin: 0 .1rem;
+    font-size: .14rem;
+    padding: .05rem;
+}
+
+.page-union-register .login-form .row input {
+    border:none;
+}
+.page-union-register .login-form .vcode-img,
+.page-union-register .login-form .btn-get-sms-code{
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+}
+.page-union-register .login-form .btn-get-sms-code{
+    border: 1px solid #1bdfdf;
+    color: #1bdfdf;
+    border-radius: .05rem!important;
+}
+.page-union-register .login-form .btn-get-sms-code.waiting{
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    color: #f5f5f5;
+}
+.page-union-register .login-form .btn-order-confirm-submit{
+    width: 80%;
+    height: .44rem;
+    margin-top: .4rem;
+    background: #1bdfdf;
+    color: #fff;
+    font-size: .18rem;
+    border-radius: 1rem;
+}
+/*------------*/
+.page-union-register  input{
+    border-style: none;
+}
+.page-union-register .blo-user-info{
+    background-color: #fff;
+    margin-top: .1rem;
+    padding: 0 .1rem;
+    display: flex;
+    flex-direction:column;
+    align-items: stretch;
+    justify-content: center;
+}
+.page-union-register .blo-user-info .user-info-item {
+    display: flex;
+    align-items: center;
+    height: .44rem;
+    border-bottom: .01rem solid #ccc;
+    font-size: .13rem;
+}
+.page-union-register .blo-user-info .user-info-item input {
+    display:inline-block;
+    padding: 0 .1rem;
+    border-radius: .05rem;
+    height: .3rem;
+    font-size: .13rem;
+}
+.page-union-register .blo-user-info .user-info-item input.flex-auto{
+    flex: 1;
+}
+.page-union-register .blo-user-info .user-info-item select{
+    padding: .07rem;
+    flex: 1;
+    border: none;
+    margin-right: .3rem;
+    background: #fff;
+    color: #666;
+    font-size: .13rem;
+}
+.page-union-register .blo-user-info .user-info-item .item-name {
+    display: flex;
+    /*margin-right: .15rem;*/
+    width: 1.1rem;
+}
+.page-union-register .blo-user-info .user-info-item-address {
+    border-bottom: .01rem solid #ccc;
+}
+.page-union-register .blo-user-info .user-info-item-address .item-name{
+    display: block;
+    padding: .1rem 0;
+}
+.page-union-register .blo-user-info .user-info-item-address .input-address{
+    width: 100%;
+    padding: .1rem 0;
+    border-radius: .05rem;
+    display: inline-block;
+}
+
+.page-union-register .blo-user-info .vcode-item,
+.page-union-register .blo-user-info .pcode-item{
+    justify-content: space-around;
+}
+.page-union-register .blo-user-info .user-address{
+    cursor: pointer;
+    height: .3rem;
+    line-height: .3rem;
+    color: #666;
+    border-radius: .05rem;
+    padding: 0 .1rem;
+    flex: 1;
+}
+.page-union-register .blo-user-info .vcode-item .vcode-wrap{
+    width: .85rem;
+    height: .35rem;
+}
+.page-union-register .blo-user-info .vcode-item .vcode-wrap img {
+    height: 100%;
+    width: 100%;
+}
+.page-union-register .blo-user-info .pcode-item .btn-get-pcode{
+    align-self: center;
+    padding: .07rem .1rem;
+    color: #fff;
+    border-radius: .05rem;
+    background-color: #1bdfdf;
+    text-decoration: none;
+}
+.page-union-register .blo-user-info .pcode-item .btn-get-pcode.disabled{
+    background-color: #cfcfcf;
+}
+.page-union-register .operate-btn{
+    display: block;
+    width: 2.5rem;
+    line-height: .38rem;
+    height: .38rem;
+    text-align: center;
+    margin: .15rem auto 0;
+    font-size: .16rem;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+.page-union-register .operate-btn.light-blue{
+    background-color: #1bdfdf;
+    color: #fff;
+}
+.page-union-register .operate-btn.light-gray{
+    background-color: #cfcfcf;
+    color: #fff;
+    margin-bottom: .3rem;
+}

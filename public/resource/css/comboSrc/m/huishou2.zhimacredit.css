@@ -1,0 +1,88 @@
+/*通用*/
+@import url("../../mobile/huishou/_common/snippet_btn.css");
+@import url("../../mobile/huishou/_common/snippet_color.css");
+@import url("../../mobile/huishou/_common/snippet_row.css");
+
+@import url("../../mobile/huishou/_common/block_schedule_pickup.css");
+@import url("../../mobile/huishou/_common/protocol.css");
+
+@import url("../../mobile/huishou/common.css");
+@import url("../../mobile/huishou/header.css");
+
+/*多个页面通用*/
+@import url("../../mobile/huishou/_common/block_detect_report.css");
+@import url("../../mobile/huishou/_common/block_trend_grid.css");
+@import url("../../mobile/huishou/_common/block_other_offer.css");
+@import url("../../mobile/huishou/_common/block_model.css");
+@import url("../../mobile/huishou/_common/block_model_suning_spread.css");
+@import url("../../mobile/huishou/_common/assess_report_section.css");
+
+@import url("../../mobile/huishou/zhimacredit/inc/block_service_promise.css");
+@import url("../../mobile/huishou/zhimacredit/inc/block_zhimacredit_title.css");
+@import url("../../mobile/huishou/zhimacredit/inc/block_user_comment.css");
+@import url("../../mobile/huishou/zhimacredit/inc/block_long_text_help.css");
+
+/*首页*/
+@import url("../../mobile/huishou/zhimacredit/index/index.css");
+@import url("../../mobile/huishou/zhimacredit/shopHs_index/shopHs_index.css");
+@import url("../../mobile/huishou/index/index.css");
+@import url("../../mobile/huishou/index/block_search_box.css");
+@import url("../../mobile/huishou/index/block_top_default.css");
+@import url("../../mobile/huishou/index/block_recycle_cate_tab.css");
+@import url("../../mobile/huishou/index/block_brand_model_list.css");
+@import url("../../mobile/huishou/index/block_recycle_white_goods.css");
+
+/*评估页*/
+@import url("../../mobile/huishou/zhimacredit/assess/assess.css");
+@import url("../../mobile/huishou/assess/assess_model.css");
+@import url("../../mobile/huishou/assess/assess_info.css");
+@import url("../../mobile/huishou/assess/assess_option_desc.css");
+@import url("../../mobile/huishou/assess/block_assess_official_diff.css");
+
+/*评估结果下单页*/
+/*@import url("../../mobile/huishou/order/order.css");*/
+/*@import url("../../mobile/huishou/order/submit_daodian.css");*/
+/*@import url("../../mobile/huishou/order/submit_shangmen.css");*/
+/*@import url("../../mobile/huishou/order/submit_youji.css");*/
+/*@import url("../../mobile/huishou/order/daodian_addr_select.css");*/
+/*@import url("../../mobile/huishou/order/order_submit.css");*/
+/*@import url("../../mobile/huishou/order/hs_protocol.css");*/
+@import url("../../mobile/huishou/zhimacredit/order/order.css");
+@import url("../../mobile/huishou/zhimacredit/shopHs_order/shopHs_order.css");
+
+/*下单提交页*/
+@import url("../../mobile/huishou/zhimacredit/order_submit/order_submit.css");
+@import url("../../mobile/huishou/zhimacredit/shopHs_order_submit/shopHs_order_submit.css");
+
+/*下单成功页*/
+@import url("../../mobile/huishou/zhimacredit/order_success/order_success.css");
+
+/*订单列表*/
+@import url("../../mobile/huishou/zhimacredit/order_list/order_list.css");
+
+/*订单详情*/
+@import url("../../mobile/huishou/zhimacredit/order_detail/order_detail.css");
+
+/*下单页过期页*/
+@import url("../../mobile/huishou/order_expired/order_expired.css");
+
+
+@import url("../../mobile/huishou/zhimacredit/shopHs_order_xxg_confirm/shopHs_order_xxg_confirm.css");
+
+@import url("../../mobile/huishou/zhimacredit/order_detail_transaction_list/order_detail_transaction_list.css");
+
+/*代扣解约页*/
+@import url("../../mobile/huishou/zhimacredit/unsign_agreement/unsign_agreement.css");
+
+/*失败提示页*/
+@import url("../../mobile/huishou/zhimacredit/fail_page/fail_page.css");
+
+/* 不满足信用回收的提示页 */
+@import url("../../mobile/huishou/zhimacredit/shopHs_order_coupon/shopHs_order_coupon.css");
+
+/* OMS 订单录入 */
+@import url("../../mobile/huishou/zhimacredit/shopHs_order_OMS_submit/shopHs_order_OMS_submit.css");
+
+/* OMS 订单录入后提交成功并打款 */
+@import url("../../mobile/huishou/zhimacredit/shopHs_order_OMS_success/shopHs_order_OMS_success.css");
+

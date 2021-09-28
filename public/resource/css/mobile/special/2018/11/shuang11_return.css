@@ -1,0 +1,192 @@
+a,a:hover{
+    text-decoration: none;
+}
+
+.page-hd-shuang11-return {
+    background-color:#853eda;
+    font-size: .12rem;
+    line-height: 1;
+}
+
+.page-hd-shuang11-return .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+    padding-bottom: .8rem;
+}
+
+.page-hd-shuang11-return .mainbody .mainbody-inner {
+    height: 6.8992rem;
+    background: url(https://p2.ssl.qhmsg.com/t01ab6397f7637d8cac.png) no-repeat;
+    background-size: cover;
+    padding-top: 2.2168rem;
+}
+
+.page-hd-shuang11-return .mainbody-inner .block-title {
+    font-size: .16rem;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* 商品列表 */
+.page-hd-shuang11-return .mainbody-inner .model-list {
+    padding: .04rem .09813rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.page-hd-shuang11-return .model-list .model-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: .084rem;
+    overflow: hidden;
+    width: 1.48rem;
+    height: 2.048rem;
+    margin-bottom: .042rem;
+}
+
+.page-hd-shuang11-return .model-list .model-item .model-img {
+    width: 1.06666rem;
+    height: 1.0666rem;
+    position: relative;
+    margin-bottom: .128rem;
+}
+
+.page-hd-shuang11-return .model-item .model-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* 限时加价 */
+.page-hd-shuang11-return .model-item .model-img .add-amount {
+    background: url(https://p2.ssl.qhmsg.com/t01f72fa6da6a873dfb.png) no-repeat;
+    background-size: contain;
+    padding-top: .0512rem;
+    width: .452266rem;
+    height: .571733rem;
+    position: absolute;
+    left: -.1rem;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: .08533rem;
+    line-height: 1.2;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+}
+
+.page-hd-shuang11-return .model-item .model-img .add-amount em {
+    font-size: .162133rem;
+}
+
+.page-hd-shuang11-return .model-item .model-img .add-amount em i{
+    font-size: .08533rem;
+}
+
+.page-hd-shuang11-return .model-list .model-item .model-name {
+    font-size: .13653rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: .093866rem;
+}
+
+.page-hd-shuang11-return .model-list .model-item .model-price {
+    margin-bottom: .093866rem;
+    font-size: .128rem;
+    font-weight: bold;
+}
+
+.page-hd-shuang11-return .model-list .model-item .model-amount {
+    color: #999;
+}
+
+.page-hd-shuang11-return .model-list .model-item .model-add-amount {
+    color: #ff5b61;
+}
+
+.page-hd-shuang11-return .more-model .more {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    width: .9rem;
+    height: .2rem;
+    line-height: .2rem;
+    font-weight: bold;
+    font-size: .162133rem;
+    text-align: center;
+}
+
+/* 活动规则 */
+.page-hd-shuang11-return .mainbody .special-info {
+    padding: .09813rem;
+    background: -webkit-linear-gradient(rgba(199, 105, 241, .4) 0, rgba(255, 255, 255, 0) 30%);
+    background: -o-linear-gradient(rgba(199, 105, 241, .4) 0, rgba(255, 255, 255, 0) 30%);
+    background: -moz-linear-gradient(rgba(199, 105, 241, .4) 0, rgba(255, 255, 255, 0) 30%);
+    background: linear-gradient(rgba(199, 105, 241, .4) 0, rgba(255, 255, 255, 0) 30%);
+}
+
+.page-hd-shuang11-return .mainbody .special-info .info-title {
+    padding-top: .0256rem;
+    font-size: .2048rem;
+    color: #ffff00;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: .14rem;
+}
+
+.page-hd-shuang11-return .mainbody .special-info .info-title:before {
+    content: '';
+    width: .384rem;
+    height: .04266rem;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: .08533rem;
+}
+
+.page-hd-shuang11-return .mainbody .special-info .text {
+    font-size: .1024rem;
+    color: #fff;
+    margin-bottom: .0853rem;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+}
+
+.page-hd-shuang11-return .mainbody .special-info .text .info {
+    margin-top: .0853rem;
+    line-height: 1.5;
+}
+
+/* 立即回收按钮 */
+.page-hd-shuang11-return .mainbody .bottom-huishou-btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #853eda;
+    height: .6656rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-hd-shuang11-return .mainbody .bottom-huishou-btn .btn {
+    display: block;
+    width: 2.222933rem;
+    height: .443733rem;
+    line-height: .443733rem;
+    color: rgba(118, 55, 0, .8);
+    font-size: .162133rem;
+    font-weight: bold;
+    background: url(https://p1.ssl.qhmsg.com/t0181e1537f361f271c.png) no-repeat;
+    background-size: contain;
+}

@@ -1,0 +1,30 @@
+.block-recycle-cate-tab {
+    position: relative;
+    z-index: 1;
+    height: .44rem;
+    line-height: .44rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.block-recycle-cate-tab .item,
+.block-recycle-cate-tab .item:hover {
+    position: relative;
+    color: #666;
+    text-decoration: none;
+}
+
+.block-recycle-cate-tab .item-selected .cate-name {
+    padding: 0 .02rem;
+    display: inline-block;
+    color: #4a7;
+    border-bottom: solid 3px #4a7;
+}
+
+.block-recycle-cate-tab .b-left {
+    position: absolute;
+    top: .12rem;
+    right: 0;
+    width: 1px;
+    height: .2rem;
+}

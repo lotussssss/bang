@@ -1,0 +1,285 @@
+/*回收优品换新*/
+.page-liangpin-index-huanxin .search-filter{
+    display: none;
+}
+.page-liangpin-index-huanxin .search-sort .search-rs{
+    display: none;
+}
+.page-liangpin-product-huanxin{
+
+}
+.page-liangpin-product-huanxin .brand-product .product-pics{
+    margin: 20px 10px;
+}
+.page-liangpin-product-huanxin .brand-product .product-infos{
+    /*width: 810px;*/
+    width: 720px;
+}
+.page-liangpin-product-huanxin .product-infos .tit{
+    font-size: 30px;
+    font-weight: normal;
+}
+.page-liangpin-product-huanxin .product-infos .desc{
+    font-size: 16px;
+    color: #185;
+}
+.page-liangpin-product-huanxin .brand-product .real-price{
+    margin-left: 20px;
+}
+.page-liangpin-product-huanxin .brand-product .price-desc{
+    position: absolute;
+    top: 18px;
+    left: 310px;
+    font-size: 18px;
+    color: #FF5000;
+}
+.page-liangpin-product-huanxin .brand-product .product-shop{
+    display: none;
+}
+.page-liangpin-product-huanxin .brand-product .p-pic-shower{
+    position: relative;
+}
+.page-liangpin-product-huanxin .huanxin-xinji-label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 44px;
+    background: url(https://p.ssl.qhimg.com/t01c09b4a14dc6a8b49.png) no-repeat center;
+}
+.liangpin-buy-huanxin-panel-wrap{}
+.liangpin-buy-huanxin-panel-wrap .ft{
+    display: none;
+}
+.liangpin-buy-huanxin-panel{
+    width: 960px;
+}
+.liangpin-buy-huanxin-panel .huanxin-promocode{
+    padding: 30px 180px;
+    background: #FFEDBE;
+    border-bottom: 1px solid #EFD48D;
+    font-size: 24px;
+}
+.liangpin-buy-huanxin-panel .huanxin-promocode .col-right{
+    margin-left: 390px;
+    *margin-left: 10px;
+    height: 62px;
+}
+.liangpin-buy-huanxin-panel .huanxin-promocode .promocode-inpt{
+    padding: 0 20px;
+    width: 340px;
+    height: 60px;
+    line-height: normal;
+    border: 1px solid #F0DAA3;
+    font-size: 24px;
+
+    *padding: 20px;
+    *height: 20px;
+    *line-height: 20px;
+}
+.liangpin-buy-huanxin-panel .huanxin-promocode .sub-btn{
+    display: block;
+    width: 100%;
+    height: 100%;
+    *height: 62px;
+    font-size: 24px;
+    color: #fff;
+    background: #FE831F;
+}
+.liangpin-buy-huanxin-panel .huanxin-recommend{
+    padding: 0 0 20px 0;
+}
+.liangpin-buy-huanxin-panel .huanxin-recommend-tit{
+    padding-left: 20px;
+    background: #fff;
+}
+.liangpin-buy-huanxin-panel .brand-titbox{
+    padding: 10px 0 10px 20px;
+    position: relative;
+}
+.liangpin-buy-huanxin-panel .brand-list{
+    /*width: 840px;*/
+    /*height: 28px;*/
+    overflow: hidden;
+}
+.liangpin-buy-huanxin-panel .brand-list-extend{
+    height: auto;
+}
+.liangpin-buy-huanxin-panel .brand-list .brand-item{
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 18px;
+    font-size: 14px;
+    color: #333333;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 6px;
+    white-space: nowrap;
+    word-break: keep-all;
+    _zoom:1;
+}
+.liangpin-buy-huanxin-panel .brand-list .brand-hot{ color: #f00; }
+.liangpin-buy-huanxin-panel .brand-list .brand-item:hover,
+.liangpin-buy-huanxin-panel .brand-list .brand-item-curr{
+    background-color: #4FAD26;
+    color: #fff;
+}
+.liangpin-buy-huanxin-panel .model-list{
+    margin: 0 20px;
+    padding: 7px;
+    border: 1px solid #E5E5E5;
+    background: #FAFAFA;
+}
+.liangpin-buy-huanxin-panel .model-list .check-item{
+    float: left;
+    display: block;
+    width: 184px;
+    height: 60px;
+    margin: 6px;
+    font-size: 12px;
+    padding: 6px 14px;
+    overflow: hidden;
+    text-align: left;
+    line-height: 1.8;
+    color: #676b6e;
+    background-color: #fff;
+    border: 1px solid #D0D0D0;
+    border-radius: 3px;
+}
+.liangpin-buy-huanxin-panel .model-list .check-item:hover{
+    border-color: #97C82A;
+    text-decoration: none;
+}
+.liangpin-buy-huanxin-panel .model-list .check-item-on{
+    border-color: #7FB011;
+    background-color: #97C82A;
+    color: #fff;
+    font-weight: bold;
+}
+.liangpin-buy-huanxin-panel .model-list .check-item img{
+    height: 60px;
+    margin-right: 10px;
+    float: left;
+}
+.liangpin-buy-huanxin-panel .model-list .check-item .phone-name{
+    padding: 9px 0;
+    display: block;
+    word-break: break-all;
+}
+.liangpin-buy-huanxin-panel .model-list .show-brand-all{
+    color: #5b0;
+    line-height: 60px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.huanxin-code{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: #FE831F;
+    font-size: 14px;
+}
+
+/*END回收优品换新*/
+
+/*换新聚合页*/
+.page-liangpin-index-huanxin .hd-list {
+    padding: 12px 0 0 0;
+}
+
+.page-liangpin-index-huanxin .hd-list .item {
+    margin-bottom: 30px;
+    display: block;
+    color: #333;
+    font-size: 12px;
+}
+
+.page-liangpin-index-huanxin .hd-list a,
+.page-liangpin-index-huanxin .hd-list a:hover {
+    text-decoration: none;
+}
+
+.page-liangpin-index-huanxin .hd-list .tit {
+    margin-bottom: 6px;
+    position: relative;
+    margin-left: 4px;
+    padding-left: 6px;
+    border: 0;
+    border-left: 4px solid #185;
+    line-height: 1.6;
+}
+
+.page-liangpin-index-huanxin .hd-list div.item .tit {
+    border-left: 4px solid #999;
+}
+
+.page-liangpin-index-huanxin .hd-list .tit .time {
+    display: none;
+}
+
+.page-liangpin-index-huanxin .hd-list .tit .status {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 14px;
+}
+
+.page-liangpin-index-huanxin .hd-list .tit .status-jinxing {
+    color: #185;
+}
+
+.page-liangpin-index-huanxin .hd-list .tit .status-jieshu {
+    color: #999;
+}
+
+.page-liangpin-index-huanxin .hd-list h3 {
+    font-size: 16px;
+}
+
+.page-liangpin-index-huanxin .hd-list img {
+    width: 100%;
+}
+
+.page-liangpin .more-huanxin-h3 {
+    height: 45px;
+    border: 1px solid #e5e5e5;
+    line-height: 45px;
+    padding: 0 0 0 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.page-liangpin .more-huanxin {
+    margin-bottom: 20px;
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+}
+
+.page-liangpin .more-huanxin h4 {
+    margin: 5px 0;
+    padding-left: 8px;
+    font-size: 12px;
+    border: 0;
+    border-left: 4px solid #185;
+    line-height: 2;
+}
+
+.page-liangpin .more-huanxin a {
+    display: block;
+    padding-bottom: 8px;
+    width: 298px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #666;
+}
+
+.page-liangpin .more-huanxin a:hover {
+    text-decoration: none;
+}
+
+.page-liangpin .more-huanxin .last {
+    border-bottom: 0;
+}

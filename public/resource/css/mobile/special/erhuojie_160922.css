@@ -1,0 +1,371 @@
+* {
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing    : border-box;
+    box-sizing         : border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing    : border-box;
+    box-sizing         : border-box;
+}
+
+html {
+    /*height: 100%;*/
+    height     : auto;
+    min-height : 100%;
+}
+
+body {
+    margin                     : 0 auto;
+    max-width                  : 720px;
+    min-width                  : 320px;
+    /*height: 100%;*/
+    height                     : auto;
+    min-height                 : 100%;
+    font-family                : "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    -webkit-overflow-scrolling : touch;
+}
+
+.mainbody {
+    /*height: 100%;*/
+    min-height : 100%;
+    /*overflow-x: hidden;*/
+    /*overflow-y: scroll;*/
+}
+
+.mainbody-inner {
+    min-height : 100%;
+}
+
+html, body {
+    background  : #fff;
+    font-family : "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    line-height: 100%;
+}
+
+.relative {
+    position : relative;
+}
+
+a {
+    text-decoration : none;
+}
+
+.clearfix:after {
+    display : block;
+    content : '';
+    clear   : both;
+}
+
+.clearfix {
+    zoom : 1;
+}
+
+.w100 {
+    width : 100%;
+}
+
+.fl {
+    float : left;
+}
+
+.fr {
+    float : right;
+}
+
+/*滑动块基本样式*/
+.slide-shower-wrap {
+    position : relative;
+    overflow : hidden;
+}
+
+.slide-shower-wrap .slide-shower {
+    position : relative;
+}
+
+.slide-shower-wrap .s-item {
+    position : relative;
+    float    : left;
+}
+
+.slide-shower-wrap .slide-nav {
+    padding    : .12rem 0 .16rem 0;
+    font-size  : 0;
+    text-align : center;
+}
+
+.slide-shower-wrap .slide-nav span {
+    margin-right  : .05rem;
+    display       : inline-block;
+    width         : .1rem;
+    height        : .1rem;
+    background    : #c5c5c5;
+    border        : 1px solid #c5c5c5;
+    border-radius : 999px;
+}
+
+.slide-shower-wrap .slide-nav .cur {
+    background : #fff;
+}
+
+/*END 滑动块基本样式*/
+
+.page-hd-erhuojie_160922 {
+    background : #f52d4a;
+}
+
+.page-hd-erhuojie_160922 .block {
+    border : 0;
+    position: relative;
+}
+
+.page-hd-erhuojie_160922 .block1 {
+    height          : 2rem;
+    background      : url(https://p.ssl.qhimg.com/t014efb6a7a59d351c9.jpg) no-repeat center 0;
+    background-size : cover;
+    margin-bottom: .5rem;
+}
+
+.page-hd-erhuojie_160922 .tab-list {
+    width: 3.2rem;
+    position: absolute;
+    left: 0;
+    top:2rem;
+    z-index: 5;
+}
+.page-hd-erhuojie_160922 .fixed{
+    position: fixed;
+    left: 0;
+    top:0;
+}
+.page-hd-erhuojie_160922 .nav-tab-placeholder{
+    position: absolute;
+    left: 0;
+    top:2rem;
+}
+.page-hd-erhuojie_160922 .tab-list li {
+    float: left;
+    width: 25%;
+    height: 0.4711111111111111rem;
+    line-height: 0.4711111111111111rem;
+    /*background: url("https://p.ssl.qhimg.com/t011a33b30c1fad4e95.jpg") 0 0 no-repeat;*/
+    /*background-size: cover;*/
+    font-size: .14rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff002;
+    background: #fc9900;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    position: relative;
+}
+.page-hd-erhuojie_160922 .tab-list li:last-child{
+    border: 0;
+}
+.page-hd-erhuojie_160922 .tab-list .cur{
+    background: #fff002;
+    color: #f83f61;
+}
+.page-hd-erhuojie_160922 .tab-list .arrow{
+    width: 0px;
+    height: 0px;
+    border: .1rem solid transparent;
+    border-bottom: .1rem solid #fb464d;
+    position: absolute;
+    left: 50%;
+    margin-left: -.1rem;
+    bottom: 0;
+    display: none;
+}
+.page-hd-erhuojie_160922 .cur .arrow{
+    display: block;
+}
+
+/*.page-hd-erhuojie_160922 .tab-list [data-pos="2"],*/
+/*.page-hd-erhuojie_160922 .tab-list .cur[data-pos="2"]*/
+/*{*/
+    /*background-position: 0px 0px;*/
+/*}*/
+/*.page-hd-erhuojie_160922 .tab-list [data-pos="3"],*/
+/*.page-hd-erhuojie_160922 .tab-list .cur[data-pos="3"]{*/
+    /*background-position: 33.3333% 0px;*/
+/*}*/
+/*.page-hd-erhuojie_160922 .tab-list [data-pos="4"],*/
+/*.page-hd-erhuojie_160922 .tab-list .cur[data-pos="4"]{*/
+    /*background-position: 66.6666% 0px;*/
+/*}*/
+/*.page-hd-erhuojie_160922 .tab-list [data-pos="5"],*/
+/*.page-hd-erhuojie_160922 .tab-list .cur[data-pos="5"]{*/
+    /*background-position: 99.9999% 0px;*/
+/*}*/
+/*.page-hd-erhuojie_160922 .tab-list .cur{*/
+    /*background: url("https://p.ssl.qhimg.com/t01c9cca9fc35f06408.jpg") 0 0 no-repeat;*/
+    /*background-size: cover;*/
+/*}*/
+
+
+.page-hd-erhuojie_160922 .tit{
+    height: 0.5244444444444445rem;
+}
+.page-hd-erhuojie_160922 .tit1{
+    background: url("https://p.ssl.qhimg.com/t01a8409d7a213ef5cf.png") center 0 no-repeat;
+    background-size: cover;
+}
+.page-hd-erhuojie_160922 .tit2{
+    background: url("https://p.ssl.qhimg.com/t01dedaf3585a370af6.png") center 0 no-repeat;
+    background-size: cover;
+}
+.page-hd-erhuojie_160922 .tit3{
+    background: url("https://p.ssl.qhimg.com/t015b83305aeec83651.png") center 0 no-repeat;
+    background-size: cover;
+}
+.page-hd-erhuojie_160922 .tit4{
+    background: url("https://p.ssl.qhimg.com/t014b24fcc3e6e7b16c.png") center 0 no-repeat;
+    background-size: cover;
+}
+
+.page-hd-erhuojie_160922 .block3 .product-list{
+
+}
+.page-hd-erhuojie_160922 .p-item{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.page-hd-erhuojie_160922 .product-list .item{
+    position: relative;
+    float: left;
+    width: 50%;
+    padding: 0 .1rem .12rem;
+    background: #fff;
+}
+.page-hd-erhuojie_160922 .item{
+    border: 1px solid #f1f1f1;
+    border-top: 1px solid transparent;
+}
+.page-hd-erhuojie_160922 .item:nth-child(even){
+    border-left: 1px solid transparent;
+}
+.page-hd-erhuojie_160922 .product-list .item a{
+    display: block;
+}
+.page-hd-erhuojie_160922 .product-list .item a:hover{
+    text-decoration: none;
+}
+.page-hd-erhuojie_160922 .product-list .p-img{
+    width: 1.2rem;
+    height: 1.3rem;
+    margin: 0.03rem auto;
+}
+.page-hd-erhuojie_160922 .product-list .p-img img{
+    width: 100%;
+}
+.page-hd-erhuojie_160922 .product-list .p-tit{
+    height: .32rem;
+    font-size: .12rem;
+    /*padding-top: .05rem;*/
+    color: #333;
+    vertical-align: middle;
+    text-align: left;
+    line-height: .16rem;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+.page-hd-erhuojie_160922 .product-list .p-price-new{
+    line-height: 100%;
+    color: #999;
+    font-size: .1rem;
+    padding-top: .08rem;
+}
+.page-hd-erhuojie_160922 .product-list .p-price-new .price-tit{
+}
+.page-hd-erhuojie_160922 .product-list .p-price-new .price-cnt{
+    text-decoration: line-through;
+}
+.page-hd-erhuojie_160922 .product-list .p-price{
+    line-height: 100%;
+    padding-top: .05rem;
+    font-size: .12rem;
+    color: #ff3300;
+}
+.page-hd-erhuojie_160922 .product-list .p-price .price-cnt{
+    font-size: .15rem;
+}
+
+.page-hd-erhuojie_160922 .product-list .btn-qiang{
+    margin: .1rem auto 0;
+    display: block;
+    width: 1.4rem;
+    height: .3rem;
+    line-height: .3rem;
+    background: #fe4d4e;
+    font-size: .14rem;
+    color: #fff;
+    text-align: center;
+}
+.page-hd-erhuojie_160922 .product-list .btn-disabled{
+    background-color: #ddd;
+}
+.page-hd-erhuojie_160922 .product-list .p-label{
+    position: absolute;
+    top: 0;
+    left: 4px;
+    width: .35rem;
+}
+.page-hd-erhuojie_160922 .product-list .offset-label{
+    position: absolute;
+    top: 0;
+    left: .04rem;
+    padding: .08rem 0;
+    width: .4rem;
+    /*height: .6rem;*/
+    text-align: center;
+    font-size: .1rem;
+    line-height: 1.4;
+    color: #fff;
+    background: #f53b3c;
+}
+.page-hd-erhuojie_160922 .more{
+    width: 1.13rem;
+    height: .3rem;
+    line-height: .3rem;
+    text-align: center;
+    font-size: .14rem;
+    border: 1px solid #fff;
+    border-radius: 999px;
+    margin: 0.1rem auto .15rem;
+}
+.page-hd-erhuojie_160922 .more a{
+    color: #fff;
+}
+
+/* 底部关注同城帮微信*/
+.page-hd-erhuojie_160922 .block-ewm-bottom{
+    background: #3c9dfd;
+    border-radius: 8px;
+    text-align: center;
+    margin: .1rem .1rem .2rem;
+}
+.page-hd-erhuojie_160922 .block-ewm-bottom h3{
+    font-size: .14rem;
+    font-weight: normal;
+    padding: .15rem 0 .1rem;
+    color: #f9ed03;
+}
+.page-hd-erhuojie_160922 .block-ewm-bottom p{
+    font-size: .12rem;
+    color: #fff;
+    padding-bottom: .15rem;
+}
+.page-hd-erhuojie_160922 .block-ewm-bottom img{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 5px;
+    margin-bottom: .1rem;
+}

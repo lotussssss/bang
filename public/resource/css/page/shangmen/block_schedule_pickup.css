@@ -1,0 +1,151 @@
+
+.page-shangmen .schedule-pickup-panel {
+    width: 500px;
+    background: #fff;
+    border: 0;
+    border-radius: 0;
+}
+
+.page-shangmen .schedule-pickup-panel .dialog-inner {
+    padding: 20px 8px 10px 8px;
+    font-size: 12px;
+}
+
+.page-shangmen .block-schedule-pickup {
+
+}
+.page-shangmen .block-schedule-pickup input[type=text]
+{
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+}
+.page-shangmen .block-schedule-pickup .tit {
+    font-size: 16px;
+    text-align: center;
+    line-height: 3;
+}
+
+.page-shangmen .block-schedule-pickup .row {
+    margin-bottom: 8px;
+    line-height: 40px;
+}
+
+.page-shangmen .block-schedule-pickup .col-left-fixed {
+    width: 120px;
+    text-align: right;
+}
+
+.page-shangmen .block-schedule-pickup .col-right {
+    margin-left: 120px;
+}
+
+.page-shangmen .block-schedule-pickup .desc {
+    text-align: center;
+    font-size: 14px;
+}
+
+.page-shangmen .block-schedule-pickup .btn {
+    margin: 20px auto 0;
+    display: block;
+    width: 160px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    background: none;
+}
+
+.page-shangmen .block-schedule-pickup .btn-yellow {
+    background-color: #f80;
+    color: #fff;
+}
+
+.page-shangmen .block-schedule-pickup .btn-green {
+    background-color: #58cf99;
+}
+
+/*预约取件成功*/
+.page-shangmen .schedule-pickup-success-panel {
+    width: 400px;
+    background: #fff;
+    border: 0;
+    border-radius: 0;
+}
+
+.page-shangmen .schedule-pickup-success-panel .dialog-inner {
+    padding: 20px 8px 10px 8px;
+    font-size: 12px;
+}
+
+.page-shangmen .block-schedule-pickup-success {
+
+}
+
+.page-shangmen .block-schedule-pickup-success .tit {
+    font-size: 16px;
+    text-align: center;
+    line-height: 3;
+}
+
+.page-shangmen .block-schedule-pickup-success .cnt {
+    padding: 0 30px;
+}
+
+.page-shangmen .block-schedule-pickup-success .btn {
+    margin: 10px auto;
+    display: block;
+    width: 200px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    background: none;
+}
+.page-shangmen .block-schedule-pickup-success .btn-green {
+    background-color: #58cf99;
+}
+
+/*预约取件失败*/
+.page-shangmen .schedule-pickup-fail-panel {
+    width: 400px;
+    background: #fff;
+    border: 0;
+    border-radius: 0;
+}
+
+.page-shangmen .schedule-pickup-fail-panel .dialog-inner {
+    padding: 20px 8px 10px 8px;
+    font-size: 12px;
+}
+
+.page-shangmen .schedule-pickup-fail-panel {
+
+}
+
+.page-shangmen .schedule-pickup-fail-panel .tit {
+    font-size: 16px;
+    text-align: center;
+    line-height: 3;
+}
+
+.page-shangmen .schedule-pickup-fail-panel .cnt {
+    padding: 0 30px;
+}
+
+.page-shangmen .schedule-pickup-fail-panel .btn {
+    margin: 10px auto;
+    display: block;
+    width: 200px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    background: none;
+}
+.page-shangmen .schedule-pickup-fail-panel .btn-green {
+    background-color: #58cf99;
+}

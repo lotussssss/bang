@@ -1,0 +1,543 @@
+a, a:hover {
+    text-decoration: none;
+}
+
+.page-hd-618 {
+    background: #a8030d;
+    font-size: .12rem;
+}
+
+.page-hd-618 .mainbody {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 720px;
+}
+
+.page-hd-618 .block {
+    margin: 0 auto;
+}
+
+
+/* 更多 */
+.page-hd-618 .more {}
+
+.page-hd-618 .more a {
+    display: block;
+    margin: 0 auto;
+    width: 1.4rem;
+    height: .34rem;
+    background: url(https://p3.ssl.qhimg.com/t019bdb8dfea9a5e4c6.png) no-repeat center 0;
+    background-size: cover;
+}
+
+/* END 更多 */
+
+/*活动商品列表样式*/
+.page-hd-618 .ui-sp-product-list-1 {
+    margin: 0 .08rem;
+    min-height: 2.6rem;
+    padding: .05rem .05rem 0;
+    /*background-color: #c20e1d;*/
+    border-radius: .05rem .05rem 0 0;
+}
+
+.page-hd-618 .ui-sp-product-list-1 .p-item {
+    margin: 0 2% .05rem 0;
+    width: 49%;
+    height: 1.95rem;
+    border: none;
+    border-radius: .05rem;
+    overflow: hidden;
+}
+
+.page-hd-618 .ui-sp-product-list-1 .p-item.p-item-last {
+    margin-right: 0;
+}
+
+.page-hd-618 .ui-sp-product-list-1 .p-item .p-tit {
+    font-size: .14rem;
+    font-weight: bold;
+}
+
+.page-hd-618 .ui-sp-product-list-1 .p-item .p-tit-sub {
+    padding-top: .05rem;
+    font-size: .1rem;
+    line-height: 1;
+}
+
+.page-hd-618 .ui-sp-product-list-1 .p-item .p-pic {
+    height: 1.2rem;
+    padding-top: .15rem;
+}
+
+.page-hd-618 .ui-sp-product-list-1 .p-item .p-pic img {
+}
+
+.page-hd-618 .ui-sp-product-list-1 .p-item .p-price {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0.3328rem;
+    line-height: 0.3328rem;
+    text-align: right;
+    background: url("https://p5.ssl.qhimg.com/t01b92c55234414dd03.png") no-repeat center/cover;
+    overflow: hidden;
+}
+
+.page-hd-618 .ui-sp-product-list-1 .p-item .p-price-cur {
+    font-size: .13rem;
+    color: #ffeb9c;
+    width: .9rem;
+    text-align: center;
+}
+
+.page-hd-618 .ui-sp-product-list-1 .p-item .p-price-cur .p-price-num {
+    font-size: .24rem;
+}
+
+/*活动商品列表样式 end*/
+
+/*标题*/
+.page-hd-618 .block-tit {
+    margin: .2rem 0 .1rem;
+    height: 0.26453333333333334rem;
+    background: no-repeat center 0/cover;
+}
+
+.page-hd-618 .block-tit-sub {
+    font-size: .13rem;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    padding-bottom: .05rem;
+}
+
+.page-hd-618 .block-coupon .block-tit {
+    background-image: url(https://p1.ssl.qhimg.com/t01c48e3d70e98379d9.png);
+}
+
+.page-hd-618 .block-plus-vip .block-tit {
+    background-image: url("https://p0.ssl.qhimg.com/t01a1ad3a8eaac364f9.png");
+}
+
+.page-hd-618 .block-lottery .block-tit {
+    background-image: url("https://p1.ssl.qhimg.com/t0111015421ec91a164.png");
+}
+
+.page-hd-618 .block-tehui .block-tit {
+    background-image: url("https://p4.ssl.qhimg.com/t01eb4755180a9a2bd5.png");
+}
+
+.page-hd-618 .block-flash-product .block-tit {
+    background-image: url("https://p5.ssl.qhimg.com/t0170b06a676cb60046.png");
+}
+
+.page-hd-618 .block-new-product .block-tit {
+    background-image: url("https://p4.ssl.qhimg.com/t0163206cce852e0055.png");
+}
+
+.page-hd-618 .block-desc .block-tit {
+    background-image: url("https://p4.ssl.qhimg.com/t013c8499662a9104a8.png");
+}
+
+/*标题 end*/
+
+/*头图*/
+.page-hd-618 .block-top {
+    height: 3.400533333333333rem;
+    background: url(https://p3.ssl.qhimg.com/t0158d31b3c4c4e6f5e.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+/*头图 end*/
+
+/*优惠券*/
+.page-hd-618 .block-coupon {
+    margin-top: -.45rem;
+}
+
+.page-hd-618 .block-coupon .coupon-bg {
+    display: flex;
+    padding: 0 .1rem;
+    height: 2.7306666666666666rem;
+    background: url("https://p0.ssl.qhimg.com/t01c3d32be4a89129a6.png") no-repeat center;
+    background-size: cover;
+}
+.page-hd-618 .block-coupon .shenquan-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 1.32rem;
+    margin-top: 1.42rem;
+}
+.page-hd-618 .block-coupon .shenquan-list .shenquan-item{
+    width: 48%;
+}
+.page-hd-618 .block-coupon .shenquan-item .shenquan-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 1rem auto 0;
+    height: 0.23rem;
+    background: #ed2f3e;
+    background: -moz-linear-gradient(top,  #ed2f3e 0%, #c81624 100%);
+    background: -webkit-linear-gradient(top,  #ed2f3e 0%,#c81624 100%);
+    background: linear-gradient(to bottom,  #ed2f3e 0%,#c81624 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed2f3e', endColorstr='#c81624',GradientType=0 );
+    border-radius: 999px;
+    color: #fff;
+}
+.page-hd-618 .block-coupon .shenquan-item.shenquan-item-disabled .shenquan-btn{
+    background: #c1c1c1;
+}
+/*优惠券 end*/
+
+
+/*活动说明*/
+.page-hd-618 .block-desc {
+    color: #fbebbc;
+}
+
+.page-hd-618 .block-desc .desc-cont {
+    font-size: .12rem;
+    padding: .1rem .1rem .2rem;
+}
+
+.page-hd-618 .block-desc .desc-cont p {
+    display: flex;
+    padding-bottom: .06rem;
+}
+
+.page-hd-618 .block-desc .desc-cont i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: .18rem;
+    height: .18rem;
+    background: #fbebbc;
+    color: #b61429;
+    font-weight: bold;
+    border-radius: 999px;
+    margin-right: .05rem;
+}
+
+/*活动说明 end*/
+
+/*plus会员banner*/
+.page-hd-618 .block-plus-vip {
+}
+
+.page-hd-618 .block-plus-vip .plus-vip-list {
+    padding: 0 .05rem;
+}
+
+.page-hd-618 .block-plus-vip a {
+    display: block;
+    height: 1.3738666666666666rem;
+    background: no-repeat center;
+    background-size: contain;
+}
+
+.page-hd-618 .block-plus-vip .vip-100 {
+    background-image: url("https://p0.ssl.qhimg.com/t010bf5716fa34e25b6.png");
+}
+
+.page-hd-618 .block-plus-vip .vip-40 {
+    background-image: url("https://p2.ssl.qhimg.com/t0173321315b242cdb2.png");
+}
+
+/*plus会员banner end*/
+
+
+/*砸金蛋*/
+.page-hd-618 .block-lottery {
+    color: #fff;
+}
+
+.page-hd-618 .block-lottery .lottery-bg {
+    margin: 0 auto;
+    width: 2.973866666666667rem;
+    height: 3.2938666666666667rem;
+    background: url("https://p3.ssl.qhimg.com/t011ef5e9ad905070b6.png") no-repeat center;
+    background-size: contain;
+}
+
+.page-hd-618 .block-lottery .lottery-tit {
+    padding: .1rem 0;
+    text-align: center;
+}
+
+.page-hd-618 .block-lottery .lottery-golden-eggs {
+    padding: 0 .05rem;
+    display: flex;
+}
+
+.page-hd-618 .block-lottery .item-egg .egg-pic {
+    width: 0.7594666666666666rem;
+    height: 0.9386666666666666rem;
+}
+
+.page-hd-618 .block-lottery .item-egg {
+    position: relative;
+    padding-bottom: .12rem;
+    width: 33.333333%;
+    text-align: center;
+    background: url(https://p5.ssl.qhimg.com/t015fb5f16a48d308d9.png) no-repeat center bottom;
+    background-size: contain;
+}
+
+.page-hd-618 .block-lottery .item-egg img{
+    width: 100%;
+}
+.page-hd-618 .block-lottery .item-egg .egg-shake {
+    -moz-animation: egg 1.2s ease 9999;
+    -webkit-animation: egg 1.2s ease 9999;
+    animation: egg 1.2s ease 9999;
+}
+
+@keyframes egg {
+    0% {
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    50% {
+        -moz-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        -webkit-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+    }
+    100% {
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+}
+
+@-webkit-keyframes egg {
+    0% {
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    50% {
+        -moz-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        -webkit-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+    }
+    100% {
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+}
+
+.page-hd-618 .block-lottery .item-egg .hammer {
+    display: none;
+    position: absolute;
+    top: -.25rem;
+    right: -.1rem;
+    width: .5rem;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.page-hd-618 .block-lottery .item-egg .hammer .hammer-pic {
+    z-index: 2;
+    -webkit-transform-origin: bottom right;
+    transform-origin: bottom right;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+    -webkit-animation: hammer 1.5s ease 9999;
+    animation: hammer 1.5s ease 9999;
+}
+
+@keyframes hammer {
+    0% {
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    30% {
+        -moz-transform: rotate(-24deg);
+        -ms-transform: rotate(-24deg);
+        -webkit-transform: rotate(-24deg);
+        transform: rotate(-24deg);
+    }
+    100% {
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+}
+
+@-webkit-keyframes hammer {
+    0% {
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    30% {
+        -moz-transform: rotate(-24deg);
+        -ms-transform: rotate(-24deg);
+        -webkit-transform: rotate(-24deg);
+        transform: rotate(-24deg);
+    }
+    100% {
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+}
+
+.page-hd-618 .block-lottery .lottery-desc-n-user {
+    padding: .05rem .06rem;
+    display: flex;
+    color: #fce2ae;
+}
+
+.page-hd-618 .block-lottery .lottery-desc,
+.page-hd-618 .block-lottery .lottery-user {
+    width: 50%;
+}
+
+.page-hd-618 .block-lottery .lottery-desc .tit {
+    font-size: .14rem;
+}
+.page-hd-618 .block-lottery .lottery-desc .cont{
+    font-size: .1rem;
+}
+.page-hd-618 .block-lottery .btn-show-my-prize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.1178666666666666rem;
+    height: 0.2730666666666667rem;
+    background: #fce4b0;
+    background: -moz-linear-gradient(top,  #fce4b0 0%, #f5be6d 100%);
+    background: -webkit-linear-gradient(top,  #fce4b0 0%,#f5be6d 100%);
+    background: linear-gradient(to bottom,  #fce4b0 0%,#f5be6d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fce4b0', endColorstr='#f5be6d',GradientType=0 );
+    border-radius: 999px;
+    color: #dd0000;
+    margin-top: .1rem;
+}
+.page-hd-618 .block-lottery .lottery-user{
+    position: relative;
+}
+.page-hd-618 .block-lottery .lottery-user .lottery-user-tit{
+    font-size: .14rem;
+}
+.page-hd-618 .block-lottery .lottery-user-list {
+    position: relative;
+    height: 1.3rem;
+    overflow: hidden;
+}
+.page-hd-618 .block-lottery .lottery-user-list-inner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+.page-hd-618 .block-lottery .lottery-user-list .lottery-item{
+    height: .24rem;
+    line-height: .24rem;
+    color: #fce2ae;
+    font-size: .1rem;
+}
+/*砸金蛋面板*/
+.page-hd-618 .panel-618-golden-eggs{
+    width: 2.432rem;
+    height: 2.56rem;
+    background: url(https://p3.ssl.qhimg.com/t01b545a2ad1133f54c.png) no-repeat center 0;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    border: none;
+}
+.page-hd-618 .panel-618-golden-eggs .dialog-inner{
+    padding: 0;
+    text-align: center;
+}
+.page-hd-618 .panel-618-golden-eggs .tit{
+    color: #fff;
+    padding-top: .4rem;
+    font-size: .16rem;
+}
+.page-hd-618 .panel-618-golden-eggs .desc{
+    color: #fce4b0;
+    font-size: .52rem;
+    padding-bottom: .2rem;
+}
+.page-hd-618 .panel-618-golden-eggs .dialog-close,
+.page-hd-618 .panel-618-golden-eggs .dialog-close:hover{
+    top: 0;
+    right: 0;
+    background-image: url("https://p1.ssl.qhimg.com/t014a218a0dd43c9d2b.png");
+    background-size: .2rem;
+}
+.page-hd-618 .panel-618-golden-eggs .btn-golden-eggs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.45rem;
+    height: 0.3584rem;
+    background: #fce4b0;
+    background: -moz-linear-gradient(top,  #fce4b0 0%, #f5be6d 100%);
+    background: -webkit-linear-gradient(top,  #fce4b0 0%,#f5be6d 100%);
+    background: linear-gradient(to bottom,  #fce4b0 0%,#f5be6d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fce4b0', endColorstr='#f5be6d',GradientType=0 );
+    border-radius: 999px;
+    color: #dd0000;
+    font-size: .14rem;
+    margin: 0 auto;
+}
+.page-hd-618 .panel-618-golden-eggs .prize-cont .desc{
+    font-size: .3rem;
+    padding-top: .15rem;
+}
+/*砸金蛋 end*/
+
+
+/*专场特惠*/
+.page-hd-618 .block-tehui {
+}
+
+.page-hd-618 .block-tehui .tehui-list {
+    width: 100%;
+    height: 2.376533333333333rem;
+    background: url("https://p3.ssl.qhimg.com/t015a3eace481ebb625.png") no-repeat center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    padding: 0 .1rem;
+}
+
+.page-hd-618 .block-tehui .tehui-list a{
+    width: 50%;
+}
+/*专场特惠 end*/
+
+
+
+
+
+
+
+
+
+
+

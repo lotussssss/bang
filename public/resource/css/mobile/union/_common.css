@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    /*background-color: #f5f5f5;*/
+}
+
+#Main.main {
+    background-color: #fff;
+    padding-bottom: .44rem;
+}
+
+
+/*列表加载ing*/
+.list-loading{
+    padding: .10rem 0;
+    width : 100%;
+    text-align: center;
+    color: #666;
+    font-size: 0;
+    line-height: .16rem;
+}
+.list-loading .list-loading-img{
+    margin-right: .05rem;
+    width: .12rem;
+    height: .12rem;
+}
+.list-loading .list-loading-txt{
+    font-size: .12rem;
+    vertical-align: top;
+}
+/*END 商品加载ing*/

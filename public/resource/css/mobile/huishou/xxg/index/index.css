@@ -1,0 +1,323 @@
+/*修修哥首页*/
+.page-xxg-index {
+    background: #f4f4f4;
+}
+
+.page-xxg-index .mainbody-inner {
+    padding-bottom: 0.9355555555555556rem;
+}
+
+.page-xxg-index #header .header-inner .h-left a {
+    position: relative;
+}
+
+.page-xxg-index #header .header-inner .h-left i {
+    position: absolute;
+    top: .07rem;
+    right: .1rem;
+    width: .1rem;
+    height: .1rem;
+    background-color: #f00;
+    border-radius: 1rem;
+}
+
+
+/*操作块*/
+.page-xxg-index .block-action .item,
+.page-xxg-index .block-action .item:hover {
+    text-decoration: none;
+}
+
+.page-xxg-index .block-action .item.col-3-1 {
+    padding-top: .1rem;
+    height: 1.06rem;
+    color: #333;
+    text-align: center;
+}
+
+.page-xxg-index .block-action .item .xxg-icon {
+    margin: 0 auto;
+}
+
+.page-xxg-index .block-action .item .iconfont {
+    line-height: .6rem;
+    font-size: .4rem;
+}
+
+.page-xxg-index .block-action .item .badge {
+    position: absolute;
+    top: .12rem;
+    right: .2rem;
+    width: .2rem;
+    height: .2rem;
+    line-height: .2rem;
+    text-align: center;
+    font-size: .12rem;
+    border-radius: 9999px;
+    background-color: #f00;
+    color: #fff;
+}
+
+.page-xxg-index .block-action .item h3 {
+    margin-top: -.06rem;
+}
+
+.page-xxg-index .block-action.block-top-action {
+    background-color: #16a654;
+}
+
+.page-xxg-index .block-action.block-top-action .item.col-3-1 {
+    color: #fff;
+}
+
+.page-xxg-index .block-action.block-action-extension {
+    background-color: #fff;
+}
+
+.page-xxg-index .block-action.block-action-extension .item h3 {
+    margin-top: 0;
+}
+
+/*质检修炼手册*/
+.page-xxg-index .block-quality-handbook {
+    display: block;
+    height: 0.8296296296296296rem;
+    background: url(https://p3.ssl.qhimg.com/t010666a420bf4d00d6.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/*底部广告*/
+.page-xxg-index .block-bottom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    max-width: 1080px;
+    min-width: 320px;
+    background-color: #f4f4f4;
+}
+
+.page-xxg-index .btn-show-remote-check-notice {
+    margin: 0 auto;
+    display: block;
+    width: 1rem;
+    text-align: center;
+    /*color: #f50;*/
+    color: #d9227c;
+    text-decoration: underline;
+}
+
+.page-xxg-index .btn-show-remote-check-notice .icon-remote-check {
+    display: inline-block;
+    vertical-align: middle;
+    width: .2rem;
+    height: .2rem;
+    background: transparent url(//p4.ssl.qhimg.com/t01699e7384882000b6.png) no-repeat center;
+    background-size: contain;
+}
+
+.page-xxg-index .block-bottom-promotion-banner {
+    width: 100%;
+    /*height: 0.8355555555555556rem;*/
+    height: .32rem;
+    background: url(//p3.ssl.qhimg.com/t01cb4d30ffe04d6178.png) no-repeat center 45%;
+    /*background: url(https://p0.ssl.qhmsg.com/t01c4695cb7d80a9493.jpg) no-repeat center;*/
+    background-size: cover;
+}
+
+/*远程辅助验机开启弹窗*/
+.page-xxg-index .dialog-remote-check-notice {
+    padding: .2rem .1rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.page-xxg-index .dialog-remote-check-notice .icon-remote-check {
+    display: inline-block;
+    vertical-align: middle;
+    width: .5rem;
+    height: .5rem;
+    background: transparent url(//p4.ssl.qhimg.com/t01699e7384882000b6.png) no-repeat center;
+    background-size: contain;
+}
+
+.page-xxg-index .dialog-remote-check-notice h3 {
+    font-size: .18rem;
+    line-height: 3.4;
+}
+
+.page-xxg-index .dialog-remote-check-notice p {
+    color: #666;
+}
+
+.page-xxg-index .dialog-remote-check-notice .btn-confirm {
+    margin: .24rem 0;
+    width: 100%;
+    max-width: 2.80rem;
+    font-size: .14rem;
+    border-radius: .06rem;
+    text-align: center;
+    line-height: 2.8;
+    background-color: #fff;
+    color: #d9227c;
+    border: 1px solid #d9227c;
+}
+
+/*END 远程辅助验机开启弹窗*/
+
+/*逾期发货警示弹窗*/
+.page-xxg-index .dialog-order-overdue-delivery {
+    padding-bottom: .1rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.page-xxg-index .dialog-order-overdue-delivery .icon-locked {
+    text-align: center;
+    font-size: .3rem;
+    color: #f50;
+}
+
+.page-xxg-index .dialog-order-overdue-delivery .btn-goto-delivery {
+    margin: .1rem 0;
+    width: 100%;
+    max-width: 280px;
+    font-size: .14rem;
+    border-radius: 0;
+    text-align: center;
+    line-height: 2.2;
+    background-color: #f50;
+}
+
+/*END 逾期发货警示弹窗*/
+
+/*丰修首页*/
+.page-xxg-index-sf-fix {
+    line-height: 1;
+}
+
+.page-xxg-index-sf-fix .mainbody-inner {
+    position: relative;
+}
+
+.page-xxg-index-sf-fix .block-top {
+    display: block;
+    padding: 0 .12rem;
+    height: 1.87rem;
+    background: url("https://p4.ssl.qhimg.com/t0184f7080572c3d957.png") no-repeat center bottom;
+    background-size: 100%;
+}
+
+.page-xxg-index-sf-fix .block-top .today {
+    text-align: center;
+}
+
+.page-xxg-index-sf-fix .block-top .tit {
+    padding-top: .28rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.12rem;
+}
+
+.page-xxg-index-sf-fix .block-top .today .num {
+    padding-top: .2rem;
+    color: #fff;
+    font-size: .44rem;
+    font-weight: 600;
+}
+
+.page-xxg-index-sf-fix .block-top .bottom .tit {
+    font-size: 0.11rem;
+}
+
+.page-xxg-index-sf-fix .block-top .bottom .num {
+    padding-top: .08rem;
+    color: #fff;
+    font-size: 0.18rem;
+}
+
+.page-xxg-index-sf-fix .block-nav {
+    margin: .06rem;
+    height: 0.96rem;
+    border-radius: 0.05rem;
+    background: #fafafb;
+    box-shadow: 0 0 0.03rem 0 rgba(0, 0, 0, 0.06);
+}
+
+.page-xxg-index-sf-fix .block-nav .nav-item,
+.page-xxg-index-sf-fix .block-nav .nav-item:hover,
+.page-xxg-index-sf-fix .block-nav .nav-item:active,
+.page-xxg-index-sf-fix .block-nav .nav-item:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+.page-xxg-index-sf-fix .block-nav img {
+    height: .26rem;
+}
+
+.page-xxg-index-sf-fix .block-nav .tit {
+    padding-top: .12rem;
+    font-size: .11rem;
+}
+
+/*弹幕*/
+.page-xxg-index-sf-fix .block-danmu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+    height: 1.87rem;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.page-xxg-index-sf-fix .block-danmu .item-wrap {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.page-xxg-index-sf-fix .block-danmu .item-wrap:nth-child(1) {
+    top: .09rem;
+}
+
+.page-xxg-index-sf-fix .block-danmu .item-wrap:nth-child(2) {
+    top: .45rem;
+}
+
+.page-xxg-index-sf-fix .block-danmu .item-wrap:nth-child(3) {
+    top: 1.05rem;
+}
+
+.page-xxg-index-sf-fix .block-danmu .item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateX(100%);
+    font-size: .15rem;
+    color: rgba(255, 255, 255, 0.8);
+    /*text-shadow: -1px 0 #007838, 0 1px #007838, 1px 0 #007838, 0 -1px #007838;*/
+}
+
+.page-xxg-index-sf-fix .block-danmu .item.item-slidein {
+    animation: 7s linear 0s 1 forwards running slidein;
+
+}
+
+@keyframes slidein {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/*END 弹幕*/
+
+/*END 丰修首页*/

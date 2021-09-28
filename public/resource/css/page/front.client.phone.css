@@ -1,0 +1,459 @@
+/*以下样式从site.css复制*/
+.card-list{
+	border-top: 1px solid #D7D7D7;   
+    border-left: 1px solid #D7D7D7;     
+}
+.card-list .card-item{
+    float: left;
+    width: 220px;
+    padding: 12px 0 12px 8px;
+    border-right: 1px solid #D7D7D7;
+    border-bottom: 1px solid #D7D7D7;
+    color: #666;
+    position: relative;
+    cursor: pointer;
+}
+
+.card-list  .card-item-nomore{
+    float: left;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-top: 1px solid #D7D7D7;
+}
+
+.card-list-remote .card-item{
+	width: 206px;
+}
+
+.card-item-pic, .card-item-baseinfo{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    vertical-align: top;
+}
+.card-item-pic{
+    border: 1px solid #DCDCDC;
+    width: 72px;
+    height: 72px;
+    border-radius: 6px;
+    position: relative;
+    margin-right: 5px;
+}
+.card-item-pic img{
+    width: 66px;
+    height: 66px;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -33px;
+    margin-left: -33px;
+}
+.card-item-baseinfo{}
+.card-item-baseinfo .line{
+    margin-bottom: 5px;
+}
+.card-item-baseinfo .bi-name{
+    font-size: 14px;
+    font-weight: 800;
+}
+.card-item-baseinfo .bi-name a{
+    color: #666666;
+}
+.card-item-baseinfo .bi-name a:hover{
+    text-decoration: none;
+}
+.card-item-baseinfo .bi-solve{}
+.card-item-baseinfo .bi-solve span{
+    padding-right: 5px;
+}
+.card-item-baseinfo .bi-score{}
+.card-item-baseinfo .bi-score span{
+    padding-right: 5px;
+}
+.card-item-baseinfo .bi-price{
+    color: #999999;
+}
+.card-item-baseinfo .bi-price span{
+    color: #FF3300;
+}
+.card-item-zixun,
+.card-item-chakan{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    width: 62px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    text-decoration: none;
+}
+.card-item-zixun:hover,
+.card-item-chakan:hover{
+    text-decoration: none;
+}
+.card-item-zixun{
+    color: #FFFFFF;
+    background: url(https://p.ssl.qhimg.com/t0176dfd7542990a218.png) no-repeat scroll center 0;
+    margin-right: 5px;
+}
+.card-item-chakan{
+    color: #666666;
+    background: url(https://p.ssl.qhimg.com/t01b5c51dee3b5d2ea9.png) no-repeat scroll center 0;
+    margin-right: 5px;
+}
+.card-item-comment{
+    overflow: hidden;
+    height: 82px;
+    position: relative;
+}
+.card-comment-item-wrap{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card-comment-item{
+    height: 82px;
+}
+.card-comment-item p{
+    color: #666666;
+}
+.cm-title{
+    font-weight: 600;
+}
+.cm-content{
+    margin-bottom: 10px;
+    height: 36px;
+    overflow: hidden;
+}
+.cm-date{
+    color: #999999;
+    float: left;
+}
+.cm-name{
+    color: #999999;
+    float: right;
+    padding-right: 12px;
+}
+
+/****** shuju *********************/
+.zt-shuju{}
+.top-hd-area .hd-area-info div{display: none;}
+.top-hd-area .hd-area-info .top-hd-solagn{display: block;}
+.zt-shuju .mb-left h3{
+    margin-top: 2px;
+}
+.zt-shuju .mb-left p{
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.zt-shuju .mb-left .for-tab{padding-bottom: 7px;}
+.zt-shuju .header-big-img{
+    width: 960px;
+    height: 120px;
+    margin-bottom: 15px;
+    background: url(https://p.ssl.qhimg.com/t018e3406dc3c234f55.png) no-repeat scroll center 0;
+}
+.zt-shuju .mb-left{
+    width: 178px;
+}
+.zt-shuju .mb-right{
+    width: 765px;
+}
+
+.mb-right-a{
+    float: left;
+    width: 510px;
+}
+.mb-right-b{
+    float: right;
+    width: 240px;
+}
+.mb-right-a-topnav{
+    position: relative;
+    width: 510px;
+    height: 42px;
+    background: url(https://p.ssl.qhimg.com/t01c51e50413ad0b8ee.png) no-repeat scroll center 0;
+}
+.mb-right-b-topnav{
+    width: 240px;
+    height: 42px;
+    background: url(https://p.ssl.qhimg.com/t018862cc310ddb0799.png) no-repeat scroll center 0;
+}
+.mb-right-a .card-list, .mb-right-b .card-list{
+    /*border-top: 0;*/
+}
+
+.zt-shuju .card-item-pic{
+    text-align: center;
+    color: #2E74D3;
+}
+.zt-shuju .card-item-pic img{
+    position: static;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.zt-shuju .card-item-pic-name-line{
+    height: 30px;
+    overflow: hidden;
+}
+.zt-shuju .card-item-pic span{
+    line-height: 30px;
+}
+.zt-shuju .bi-service-name{
+    width: 160px;
+    height: 22px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #2E74D3;
+}
+.zt-shuju .bi-address{
+    width: 160px;
+    height: 18px;
+    overflow: hidden;
+}
+.zt-shuju .bi-btn{
+    margin-top: 2px;
+}
+.zt-shuju .address-search-form{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+.zt-shuju .address-search-form input{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.zt-shuju .address-search-form-ipt{
+    width: 168px;
+    height: 19px;
+    line-height: 19px;
+    padding: 4px 12px;
+    border: 0;
+    background: transparent;
+}
+.zt-shuju .address-search-form-btn{
+    width: 73px;
+    height: 27px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+.zt-shuju .mb-right-b .bi-service-name, .zt-shuju .mb-right-b .bi-desc{
+    width: 146px;
+    height: 22px;
+    overflow: hidden;
+}
+.zt-shuju .mb-right-b .bi-desc{
+    height: 18px;
+}
+.footer-top{
+    margin-top: 20px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #DFDFE1;
+    background: #F7F7F7;
+}
+.footer-top span{
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444444;
+}
+.zt-shuju .inactived{
+    color: #999999;
+}
+
+.shop-phone-view-pannel{
+    margin: 30px 24px;
+    font-size: 14px;
+    color: #333;
+}
+.shop-phone-view-pannel .line{
+    padding: 5px 0;
+}
+.shop-phone-view-pannel .lc1{color: #62A52A;}
+.shop-phone-view-pannel .lc2{color: #FF5706;}
+
+
+/*针对手机端的修改*/
+html, body{
+	background: #fff;
+}
+.page-client-phone{
+    font-family: "微软雅黑";
+}
+.page-client-phone .doc-bd{
+	width: 720px;
+}
+
+.page-client-phone .content-box{
+	overflow-y: scroll;
+	height: 333px;
+	padding: 10px;
+	padding-right: 5px;
+	
+    position: relative;
+}
+.page-client-phone .content-outer{
+    background: #FAFAFA;
+}
+
+.page-client-phone .header-pic{
+	height: 74px;
+	/*background: url(https://p.ssl.qhimg.com/t0107aeb471b72cb72c.jpg) no-repeat 0 0;*/
+}
+.page-client-phone .header-pic-a{
+    
+    width: 100%;
+    height: 100%;
+}
+.page-client-phone .header-pic-a:hover{
+    text-decoration: none;
+}
+
+.page-client-phone .header-search{
+	height: 96px;
+	border-bottom: 1px solid #EDEDED;
+	padding: 5px 10px;
+	color: #999999;
+}
+.page-client-phone .header-search dl{	
+	line-height: 30px;
+}
+.page-client-phone .header-search dt{
+	width: 50px;
+	float: left;
+	color: #989898;
+}
+.page-client-phone .header-search dd{
+	margin-left: 50px;
+}
+.page-client-phone .header-search .curr{
+	color: #333333;
+	text-decoration: none;
+	cursor: default;
+}
+
+.page-client-phone .header-search .hot{
+    color: #f00;
+}
+
+.page-client-phone .zt-shuju .bi-service-name,
+.page-client-phone .zt-shuju .bi-address{
+	width: 136px;
+}
+
+.page-client-phone .mb-right-a{
+	width: 460px;
+}
+
+.page-client-phone .mb-right-a-topnav{
+	background: #84C368;
+	height: 34px;
+	width: auto;
+    display: none;
+}
+
+.page-client-phone .mb-right-b-topnav{
+	background: #DDB96E;
+	height: 34px;
+	width: auto;
+    display: none;
+}
+
+.page-client-phone .mb-right-a-topnav h3,
+.page-client-phone .mb-right-b-topnav h3{
+	font: bold 14px/34px "宋体";
+	color: #fff;
+	
+	padding-left: 10px;
+	text-shadow: 1px 1px 1px #666;
+}
+
+.page-client-phone .mb-right-a-topnav .txt-s,
+.page-client-phone .mb-right-b-topnav .txt-s{
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 10px;
+
+}
+
+
+
+.page-client-phone .zt-shuju .mb-right-b .bi-service-name, 
+.page-client-phone .zt-shuju .mb-right-b .bi-desc{
+	width: 122px;
+}
+
+.page-client-phone .mb-right-b{
+	width: 216px;
+}
+
+.page-client-phone .top-right{
+	width: 280px;
+	margin-left: 30px;
+}
+.page-client-phone .search-input{
+	width: 203px;
+    padding:0 5px
+}
+
+.page-client-phone .select-type{
+	float: left;
+}
+
+.page-client-phone .icon-realshop{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 50px;
+    height: 42px;
+    background: url(https://p.ssl.qhimg.com/t01ef8c226ff7253b22.png) no-repeat 0 0;
+    z-index: 1;
+}
+
+.page-client-phone .icon-mapicon{
+    width: 12px;
+    height: 16px;
+    background: url(https://p.ssl.qhimg.com/t01ef8c226ff7253b22.png) no-repeat 0 -60px;
+}
+.page-client-phone .see-map{
+    color: #666666;
+}
+
+.page-client-phone .mb-right-a{
+    width: 100%;
+}
+.page-client-phone .mb-right-b{
+    display: none;
+}
+.page-client-phone .rep-types{    
+    background: #EBF0EA;
+    border-bottom: 2px solid #3EAF0E;
+
+}
+.page-client-phone .rep-types li{
+    height: 32px;
+    
+    line-height: 32px;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 20px 0 20px;
+    cursor: pointer;
+    border-right: 1px solid #e0e0e0;
+}
+.page-client-phone .rep-types .curr{
+    background: #3EAF0E;
+    color: #fff;
+    cursor: default;
+}
+.page-client-phone .rep-types .txt-s{
+    font-size: 12px;
+    font-weight: normal;
+}

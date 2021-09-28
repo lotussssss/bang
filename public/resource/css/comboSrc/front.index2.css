@@ -1,0 +1,10 @@
+@import url("lib.css");
+@import url("../lib/skin.css");
+@import url("../lib/grid.css");
+
+@import url("../component/web/addr_search.css");
+@import url("../component/web/area_select.css");
+@import url("../component/web/shop_list.css");
+
+@import url("../page/front.index2.css");
+@import url("../page/index/top_banner.css");

@@ -1,0 +1,306 @@
+.page-hd-iphone-renewed {
+    width: 100%;
+    max-width: 3.2rem;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+/* 模块标题 */
+.page-hd-iphone-renewed .part-title {
+    font-size: .1877rem;
+    line-height: .384rem;
+    height: .384rem;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+/*.page-hd-iphone-renewed .part-title:before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 50%;*/
+    /*transform: translateX(-50%);*/
+    /*width: .3754rem;*/
+    /*height: .0341rem;*/
+    /*background: linear-gradient(to right, #4199ff, #5c4df4 ,#c965f8);*/
+    /*background: -webkit-linear-gradient(to right, #4199ff, #5c4df4 ,#c965f8);*/
+    /*background: -o-linear-gradient(to right, #4199ff, #5c4df4 ,#c965f8);*/
+/*}*/
+
+/* 模块内阴影 */
+.page-hd-iphone-renewed .part-inset-shadow {
+    padding: .1066rem .1706rem .2133rem;
+    /*-webkit-box-shadow: 0 .15rem .5rem -.2rem #b0a9e9 inset;*/
+    /*-moz-box-shadow: 0 .15rem .5rem -.2rem #b0a9e9 inset;*/
+    /*box-shadow: 0 .15rem .5rem -.2rem #b0a9e9 inset;*/
+}
+
+
+/* 渐变背景色 */
+.page-hd-iphone-renewed .linear-bg {
+    background: linear-gradient(to top, #c8a590 0%, #ebcfbc 70%);
+    background: -webkit-linear-gradient(to top, #c8a590 0%, #ebcfbc 70%);
+    background: -o-linear-gradient(to top, #c8a590 0%, #ebcfbc 70%);
+}
+
+/* 顶部的 banner 部分 */
+.page-hd-iphone-renewed .top-banner {
+    height: 4.33rem;
+    position: relative;
+}
+
+/* 考虑页面图片加载的问题,图片拆分为2部分加载,第一部分放在 before 中,第二部分在 after 中 */
+.page-hd-iphone-renewed .top-banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    width: 3.2rem;
+    height: 3.55rem;
+    background: url(https://p0.ssl.qhmsg.com/t01aa3b7d3730f2755d.png) no-repeat;
+    background-size: cover;
+}
+
+/*.page-hd-iphone-renewed .top-banner:after {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*z-index: 0;*/
+    /*width: 3.2rem;*/
+    /*height: 2.69rem;*/
+    /*background: url(https://p1.ssl.qhmsg.com/t011bfda26ccd4ed4d5.png) no-repeat;*/
+    /*background-size: cover;*/
+/*}*/
+
+/* 预约按钮 */
+.page-hd-iphone-renewed .top-banner .order-btn {
+    display: block;
+    width: 2.1rem;
+    height: .36rem;
+    line-height: .36rem;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: .15rem;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 10;
+    bottom: .24rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page-hd-iphone-renewed .top-banner .order-tips {
+    position: absolute;
+    bottom: .2986rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    font-size: .1024rem;
+    height: .1024rem;
+    line-height: .1024rem;
+    color: #000;
+}
+
+/* 活动流程 */
+.page-hd-iphone-renewed .liucheng .part-tips-info .title {
+    display: block;
+    text-align: center;
+    font-size: .15rem;
+    font-weight: bold;
+}
+.page-hd-iphone-renewed .liucheng .part-tips-info .tips {
+    display: block;
+    text-align: center;
+    font-size: .12rem;
+    margin-bottom: .06rem;
+}
+
+/* 流程图 */
+.page-hd-iphone-renewed .liucheng .liucheng-pic {
+    width: 2.64rem;
+    /*height: .9415rem;*/
+    margin: 0 auto;
+}
+
+.page-hd-iphone-renewed .liucheng .liucheng-pic img {
+    width: 100%;
+    height: auto;
+    display: block;
+    font-size: 0;
+}
+.page-hd-iphone-renewed .liucheng .part-title:before {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #c9b2a2;
+}
+
+/* 活动说明 */
+.page-hd-iphone-renewed .shuoming .part-title {
+    color: #ffe5da;
+}
+.page-hd-iphone-renewed .shuoming .list>li {
+    padding-left: .256rem;
+    position: relative;
+    color: #ffe5da;
+    font-size: .1024rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: .128rem;
+}
+
+.page-hd-iphone-renewed .shuoming .list>li:last-child {
+    margin-bottom: 0;
+}
+
+/* 列表前面的序号 */
+.page-hd-iphone-renewed .shuoming .list>li:before {
+    content: attr(data-item);
+    position: absolute;
+    left: 0;
+    top: .0256rem;
+    width: .1877rem;
+    height: .1877rem;
+    line-height: .1877rem;
+    font-size: .1365rem;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 100px;
+    color: #fff;
+    background: linear-gradient(to top, #c8a590 0%, #ebcfbc 70%);
+    background: -webkit-linear-gradient(to top, #c8a590 0%, #ebcfbc 70%);
+    background: -o-linear-gradient(to top, #c8a590 0%, #ebcfbc 70%);
+}
+
+/* 底部logo */
+.page-hd-iphone-renewed .bottom-logo {
+    width: 100%;
+    height: .855rem;
+    background: url(https://p0.ssl.qhmsg.com/t01c2392da5c03e7d13.png) no-repeat;
+    background-size: contain;
+}
+
+/* 弹窗样式 */
+.page-hd-iphone-renewed .oppo-order-panel {
+    background-color: #fff;
+    border-radius: .2rem;
+    border: 0 none;
+    padding: .1706rem;
+}
+
+/* 标题 */
+.page-hd-iphone-renewed .oppo-order-panel .panel-title {
+    font-size: .1536rem;
+    height: .1536rem;
+    line-height: .1536rem;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* 内容区 */
+.page-hd-iphone-renewed .oppo-order-panel .panel-cont {
+    padding-top: .1792rem;
+}
+
+/* a标签 */
+.page-hd-iphone-renewed .oppo-order-panel .panel-cont a {
+    text-decoration: none;
+}
+.page-hd-iphone-renewed .oppo-order-panel .panel-cont a:hover {
+    text-decoration: none;
+}
+
+/* 每行 */
+.page-hd-iphone-renewed .oppo-order-panel .panel-cont .login-form .row {
+    margin-bottom: .0853rem;
+    position: relative;
+}
+
+.page-hd-iphone-renewed .oppo-order-panel .oppo-input-radius {
+    padding: 0 .1rem;
+}
+
+/* 边框 */
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .page-hd-iphone-renewed .oppo-order-panel .oppo-input-radius:before {
+        border: 1px solid #dfc0ac;
+        border-radius: 100px;
+    }
+
+    .page-hd-iphone-renewed .liucheng .part-title:before {
+        transform: scaleY(.5);
+    }
+}
+
+/* 图片验证码 */
+.page-hd-iphone-renewed .oppo-order-panel .panel-cont .code-pic {
+    position: absolute;
+    height: .36rem;
+    right: .08rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.page-hd-iphone-renewed .oppo-order-panel .panel-cont .code-pic img {
+    height: 100%;
+    width: auto;
+}
+
+/* 获取验证码 */
+.page-hd-iphone-renewed .oppo-order-panel .panel-cont .get-code .get-oppo-code-btn {
+    width: .9rem;
+    line-height: .36rem;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: .1024rem;
+    border-radius: 100px;
+}
+
+/* 提交按钮 */
+.page-hd-iphone-renewed .oppo-order-panel .panel-cont .btn-order-confirm-submit {
+    line-height: .36rem;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: .1536rem;
+    border-radius: 100px;
+}
+
+/* 城市选择 */
+.page-hd-iphone-renewed .oppo-order-panel .panel-cont .select-city {
+    position: relative;
+}
+
+.page-hd-iphone-renewed .oppo-order-panel .panel-cont .select-city .trigger-select-city{
+    padding: 0 .08rem;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: .12rem;
+    line-height: .36rem;
+    color: rgba(0,0,0,.6);
+}
+
+.page-hd-iphone-renewed .oppo-order-panel .panel-cont .select-city .trigger-select-city .city-value {
+    color: #000;
+}
+
+.page-hd-iphone-renewed .oppo-order-panel .panel-cont .select-city .icon-jiantoushang{
+    position: absolute;
+    right: .16rem;
+    top: 60%;
+    transform: translateY(-50%) rotate(180deg);
+    font-size: .12rem;
+    line-height: .16rem;
+    color: #666;
+}
+

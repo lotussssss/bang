@@ -1,0 +1,40 @@
+.hd-phoneroot .sys-tuan-pic{
+	background: url(https://p.ssl.qhimg.com/t01764f4366728da9aa.jpg) no-repeat 0 0;
+}
+
+.hd-phoneroot .wx-liucheng{
+	background-image: url(https://p.ssl.qhimg.com/t011c2c10869f5ee693.jpg);
+}
+
+.hd-phoneroot .tuan-info h1{
+	font-size: 24px;
+}
+
+.hd-phoneroot .tuan-info h2{
+	font-size: 18px;
+}
+
+.start-remote{
+	display: inline-block;
+	_zoom:1;
+	width: 70px;
+	height: 26px;
+	line-height: 26px;
+	background: url(https://p.ssl.qhimg.com/t01a10cdcb9a041332d.jpg) no-repeat 0 0;
+	text-indent: -9999px;
+}
+.start-remote:hover{
+	background-position: -70px 0;
+}
+.start-remote:active{
+	background-position: -140px 0;
+}
+
+.hd-phoneroot .tuan-info .buy-num{
+	font-size: 16px;
+	color: #999;
+}
+
+.hd-phoneroot .tuan-info .promise{
+	background-position: -132px -504px;
+}

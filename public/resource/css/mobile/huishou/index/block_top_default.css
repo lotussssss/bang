@@ -1,0 +1,138 @@
+/* 首页顶部nav */
+.page-index header{
+    max-width:1080px;
+    min-width: 320px;
+    height:.37rem;
+    background-color:#e9f0f8;
+    position: relative;
+    /*overflow:hidden;*/
+}
+.page-index header .header-left{
+    width: 1.14rem;
+    height:.37rem;
+    background:url("https://p.ssl.qhimg.com/t0146bf446b44eccf32.jpg") no-repeat;
+    background-size:1.14rem auto;
+    margin-left:.1rem;
+}
+.page-index header.header-center{
+    height: .37rem;
+    text-align: center;
+    vertical-align: middle;
+}
+.page-index header .header-right2{
+    position:absolute;
+    right:0rem;
+    top:.0rem;
+}
+.page-index header .to-myorder2{
+    display:inline-block;
+    width: .62rem;
+    height: .24rem;
+    line-height: .24rem;
+    /*border:solid 1px #158262;*/
+    font-size:.12rem;
+    color: #0b7;
+    background-color: #e9f0f8;
+    text-align: center;
+    border-radius:.03rem;
+}
+.page-index header .to-qiye-huishou2{
+    display: inline-block;
+    vertical-align: middle;
+    width: .62rem;
+    height: .24rem;
+    line-height:.24rem;
+    border:solid 1px #0b7;
+    background: #0b7;
+    text-align:center;
+    font-size:.12rem;
+    color: #fff;
+    border-radius:.03rem;
+}
+/*右部客户信息:我的订单、在线客服*/
+.page-index header .h-user-info-wrap{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+.page-index header .h-user-info-enter,
+.page-index header .h-user-info-enter:hover
+.page-index header .h-user-info-enter:active,
+.page-index header .h-user-info-enter:visited{
+    background: transparent;
+    color: #666;
+    display: inline-block;
+    font-size: .24rem;
+    height: .37rem;
+    line-height: .37rem;
+    text-align: center;
+    text-decoration: none;
+    width: .34rem;
+}
+.page-index header .h-user-info-cont{
+    display: none;
+    position: absolute;
+    right: .03rem;
+    top: .4rem;
+    width: .88rem;
+    background-color: rgba(0,0,0,.8);
+    border-radius: .04rem;
+    z-index: 999;
+}
+.page-index header .h-user-info-cont .icon-jiantoushang ,
+.page-index header .h-user-info-cont .icon-jiantoushang:before{
+    color: rgba(0,0,0,.8);
+    height: .12rem;
+    font-size: .12rem;
+    line-height: .12rem;
+    position: absolute;
+    right: .04rem;
+    top: -.055rem;
+}
+.page-index header .h-user-info-cont .h-user-info-list li{
+    height: .34rem;
+    line-height: .34rem;
+    color: #fff;
+    text-align: center;
+}
+.page-index header .h-user-info-cont .h-user-info-list a{
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: #fff;
+    font-size: .12rem;
+}
+.page-index header .h-user-info-cont .h-user-info-list .iconfont {
+    padding-right: .04rem;
+}
+
+
+/* 首页轮播图 */
+.page-index .slide-shower-wrap{
+    margin: 0 auto;
+    max-width: 1080px;
+    min-width: 320px;
+}
+.page-index .slide-shower-wrap .s-item{
+    width: 100%;
+    /*height: .9rem;*/
+    min-height: .9rem;
+    overflow: hidden;
+}
+.page-index .slide-shower-wrap .s-item img{
+    width: 100%;
+}
+.page-index .slide-shower-wrap .slide-nav{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.page-index .slide-shower-wrap .slide-nav span{
+    background: #fff;
+    opacity: .5;
+}
+.page-index .slide-shower-wrap .slide-nav .cur{
+    opacity: 1;
+}

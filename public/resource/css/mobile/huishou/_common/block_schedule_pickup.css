@@ -1,0 +1,154 @@
+.schedule-pickup-panel {
+    background: #fff;
+    border: 0;
+}
+
+.schedule-pickup-panel .dialog-inner {
+    /*padding: .2rem 0 0;*/
+    font-size: .12rem;
+}
+
+.block-schedule-pickup {
+    color: #000;
+
+}
+
+.block-schedule-pickup .tit {
+    font-size: .16rem;
+    text-align: center;
+    line-height: 4;
+}
+
+.block-schedule-pickup .grid {
+    display: -webkit-box;
+    display: flex;
+}
+
+.block-schedule-pickup .row {
+    /*margin-bottom: .08rem;*/
+    padding: 0 .1rem 1px .1rem;
+    line-height: .38rem;
+}
+
+.block-schedule-pickup .row input {
+    line-height: .36rem;
+    box-sizing: border-box;
+}
+
+.block-schedule-pickup .row select {
+    display: block;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.block-schedule-pickup .col-right {
+    margin-left: .62rem;
+}
+
+.block-schedule-pickup .desc {
+    text-align: center;
+    font-size: .14rem;
+}
+
+.block-schedule-pickup .btn {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    text-align: center;
+    font-size: .14rem;
+    font-weight: normal;
+    color: #202020;
+}
+
+.block-schedule-pickup .btn.btn-submit {
+    background-color: transparent;
+    color: #0b7;
+}
+
+/*预约取件成功*/
+.schedule-pickup-success-panel {
+    background: #fff;
+    border: 0;
+}
+
+.schedule-pickup-success-panel .dialog-inner {
+    padding: .2rem .08rem .1rem .08rem;
+    font-size: .12rem;
+}
+
+.block-schedule-pickup-success {
+    overflow: hidden;
+}
+
+.block-schedule-pickup-success .tit {
+    font-size: .16rem;
+    text-align: center;
+    line-height: 3;
+}
+
+.block-schedule-pickup-success .cnt {
+}
+
+.block-schedule-pickup-success .cnt-inner {
+    padding: 0 .3rem .1rem .3rem;
+}
+
+.block-schedule-pickup-success .btn {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: .36rem;
+    line-height: .36rem;
+    text-align: center;
+    font-size: .14rem;
+    font-weight: normal;
+    background-color: transparent;
+    color: #0b7;
+}
+
+.dialog-wrap .dialog-inner{
+    padding: 0;
+}
+.m-huishou .schedule-pickup-panel .row .col-right input{
+    border: none;
+}
+.block-schedule-pickup .border-line{
+    border: 1px solid #F1F1F1;
+}
+.kuaidi-btn-wrap{
+    display: flex;
+    font-size: .14rem;
+    padding: .15rem !important;
+}
+.kuaidi-btn-left{
+    width: 50%;
+    height: .21rem;
+    border-right: thin solid #E2E2E2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+.kuaidi-btn-right{
+    width: 50%;
+    height: .21rem;
+    /*height: 44px;*/
+    line-height: 0;
+    padding: 0;
+    color: #24AB43;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .14rem;
+}
+.kuaidi-btn-wrap input{
+    line-height: 0 !important;
+}

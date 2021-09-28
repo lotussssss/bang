@@ -1,0 +1,74 @@
+/* 以旧换新-下单成功 */
+.m-huishou-huanxin.page-order-succ {}
+
+.m-huishou-huanxin.page-order-succ {
+
+}
+
+
+/* 以旧换新-扫一扫 */
+.m-huishou-huanxin .huanxin-wechat-saoyisao{
+    position: relative;
+    margin: .10rem auto .10rem auto;
+    background: #FFCC00;
+    border: 0;
+    border-radius: .06rem;
+}
+.m-huishou-huanxin .huanxin-wechat-saoyisao-inner{
+    border: 0;
+}
+.m-huishou-huanxin .huanxin-wechat-saoyisao .row{
+    zoom: 1;
+    clear: both;
+}
+.m-huishou-huanxin .huanxin-wechat-saoyisao .row:after{
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    content: '\20';
+}
+.m-huishou-huanxin .huanxin-wechat-saoyisao .col-left-fixed{
+    float: left;
+    padding: 4%;
+    width: 38%;
+}
+.m-huishou-huanxin .huanxin-wechat-saoyisao .col-left-fixed img{
+    width: 100%;
+}
+.m-huishou-huanxin .huanxin-wechat-saoyisao .col-right{
+    position: absolute;
+    top: 50%;
+    margin: -.39rem 0 0 36%;
+    *margin-left: 0;
+    height: .78rem;
+}
+.m-huishou-huanxin .huanxin-wechat-saoyisao .col-right .tit{
+    font-size: .16rem;
+    color: #333;
+}
+.m-huishou-huanxin .huanxin-wechat-saoyisao .col-right .cnt{
+    color: #333;
+    font-size: .12rem;
+    line-height: 1.6;
+}
+.m-huishou-huanxin .huanxin-wechat-saoyisao .col-right .cnt span{
+    color: #f70;
+}
+
+/* 以旧换新-下单成功提示 */
+.m-huishou-huanxin .block-huanxin-tips{
+    font-size: .12rem;
+    padding: .1rem;
+    color: #666;
+    background: #FFF8DE;
+    border-radius: .06rem;
+}
+.m-huishou-huanxin .block-huanxin-tips h3{
+    color: #FD5F00;
+    font-size: .16rem;
+    font-weight: normal;
+}
+.m-huishou-huanxin .block-huanxin-tips li{
+    line-height: 1.8;
+}

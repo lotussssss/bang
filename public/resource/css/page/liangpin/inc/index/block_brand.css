@@ -1,0 +1,6 @@
+.page-liangpin-index .block-brand .brand-list li{
+    float: left;
+}
+.page-liangpin-index .block-brand .brand-list li a{
+    display: block;
+}

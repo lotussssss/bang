@@ -1,0 +1,165 @@
+.w100 {
+    width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.block-inner {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* page */
+.page-hd-331 {
+    background: #3028c5;
+}
+
+.page-hd-331 .block-tit {
+    height: 110px;
+    line-height: 110px;
+    position: relative;
+    text-align: center;
+    background: url(https://p.ssl.qhimg.com/t01b7ddcdd2fd149bca.png) no-repeat center 0;
+    font-size: 34px;
+    text-indent: -9999px;
+}
+
+.page-hd-331 .block-tit .tit-cont {
+    font-weight: bold;
+}
+
+.page-hd-331 .block-tit .more {
+    position: absolute;
+    top: 22px;
+    right: 0px;
+    width: 124px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 18px;
+    border: 0;
+    border-radius: 999px;
+}
+
+.page-hd-331 .block1,
+.page-hd-331 .block1 .block-inner {
+    position: relative;
+    height: 300px;
+    background: url(https://p.ssl.qhimg.com/t013982f46efcf8bcf1.jpg) no-repeat center 0;
+}
+
+.page-hd-331 .block1 .back {
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    font-size: 16px;
+    color: #ffe386;
+    text-decoration: none;
+}
+
+.page-hd-331 .block-sub,
+.page-hd-331 .block-sub .block-inner {
+    height: 295px;
+    background: url(https://p.ssl.qhimg.com/t010b77db0fce9af4ab.jpg) no-repeat center 0;
+}
+
+.page-hd-331 .block2,
+.page-hd-331 .block2 .block-inner {
+    min-height: 419px;
+    background: #3028c5 url(https://p.ssl.qhimg.com/t0178435a833b103bf5.jpg) no-repeat center 0;
+    /*background: #3028c5 url(https://p.ssl.qhimg.com/t016ff80a9e795f8226.jpg) no-repeat center 0;*/
+}
+
+.page-hd-331 .block2 .block-tit {
+    background: none;
+}
+
+.page-hd-331 .block3 .block-tit {
+    background: url(https://p.ssl.qhimg.com/t019c8e8011e0a0241d.png) no-repeat center 0;
+}
+
+.page-hd-331 .block4 .block-tit {
+    background-position: 0 0;
+}
+
+.page-hd-331 .block5 .block-tit {
+    background-position: 0 -104px;
+}
+
+.page-hd-331 .block6 .block-tit {
+    background-position: 0 -204px;
+}
+
+.page-hd-331 .ui-sp-product-list-1 {
+    min-height: 302px;
+}
+
+/*品牌推荐*/
+.page-hd-331 .block-brand-recommend .block-tit {
+    background-position: 0 -304px;
+}
+
+.page-hd-331 .brand-recommend-list .brand-recommend-item,
+.page-hd-331 .brand-recommend-list .brand-recommend-item:hover {
+    float: left;
+    display: block;
+    width: 300px;
+    height: 200px;
+    font-size: 0;
+    background-image: url(https://p.ssl.qhimg.com/t01435371c07709bab1.jpg);
+    text-decoration: none;
+}
+
+.page-hd-331 .brand-recommend-list .brand-recommend-item-meizu {
+    background-position: 0 0;
+}
+
+.page-hd-331 .brand-recommend-list .brand-recommend-item-le {
+    background-position: -300px 0;
+}
+
+.page-hd-331 .brand-recommend-list .brand-recommend-item-oppo {
+    background-position: -600px 0;
+}
+
+.page-hd-331 .brand-recommend-list .brand-recommend-item-vivo {
+    background-position: -900px 0;
+}
+
+.page-hd-331 .brand-recommend-list .brand-recommend-item-huawei {
+    background-position: 0 -200px;
+}
+
+.page-hd-331 .brand-recommend-list .brand-recommend-item-mi {
+    background-position: -300px -200px;
+}
+
+.page-hd-331 .brand-recommend-list .brand-recommend-item-samsung {
+    background-position: -600px -200px;
+}
+
+.page-hd-331 .brand-recommend-list .brand-recommend-item-apple {
+    background-position: -900px -200px;
+}
+
+/*服务介绍*/
+.page-hd-331 .block-service-intro,
+.page-hd-331 .block-service-intro .block-inner {
+    height: 266px;
+    background: url(https://p.ssl.qhimg.com/t01ee80d6e0c79ddf22.png) no-repeat center 0;
+    margin-top: 20px;
+}
+
+/*二维码扫一扫*/
+.page-hd-331 .block-qrcode-info,
+.page-hd-331 .block-qrcode-info .block-inner {
+    height: 266px;
+    background: url(https://p.ssl.qhimg.com/t01012818223ee7f94f.png) no-repeat center 0;
+    margin: 20px auto 80px;
+}

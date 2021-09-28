@@ -1,0 +1,138 @@
+/*订单支付确认panel*/
+.liangpin-pay-confirm-panel-wrap {
+
+}
+
+.liangpin-pay-confirm-panel-wrap .close {
+    position: absolute;
+    top: 10px;
+    right: 17px;
+    display: block;
+    width: 41px;
+    height: 41px;
+    background: url(https://p.ssl.qhimg.com/t011ccfaa5874f58a59.jpg) no-repeat 0 0;
+}
+
+.liangpin-pay-confirm-panel {
+    width: 684px;
+    /*height: 280px;*/
+}
+
+.liangpin-pay-confirm-panel .tit {
+    margin: 0 15px;
+    padding: 0 0 0 5px;
+    height: 66px;
+    line-height: 66px;
+    font-size: 24px;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.liangpin-pay-confirm-panel .cnt {
+
+}
+
+.liangpin-pay-confirm-panel .cnt-inner {
+    font-size: 24px;
+}
+
+.liangpin-pay-confirm-panel .cnt-inner .cnt-inner-left {
+    padding: 20px 40px;
+}
+
+.liangpin-pay-confirm-panel .cnt-inner .cnt-inner-right {
+    margin-left: 172px;
+    padding: 20px 0;
+}
+
+.liangpin-pay-confirm-panel .ok-icon {
+    width: 92px;
+    height: 92px;
+    background: url(https://p.ssl.qhimg.com/t0132a6153473cd7b8e.jpg) no-repeat 0 0;
+}
+
+.liangpin-pay-confirm-panel .ok-tip {
+    margin: 18px 0 10px 0;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.liangpin-pay-confirm-panel .ok-tip span {
+    font-size: 16px;
+}
+
+.liangpin-pay-confirm-panel .pay-info {
+    font-size: 16px;
+    color: #a4a8b1;
+}
+
+.liangpin-pay-confirm-panel .pay-info .col-left-fixed {
+    color: #666;
+    height: 45px;
+    line-height: 45px;
+}
+
+.liangpin-pay-confirm-panel .pay-info .col-right {
+    margin-left: 85px;
+}
+
+.liangpin-pay-confirm-panel .pay-info .customer-info {
+    padding-top: 7px;
+    line-height: 28px;
+}
+
+.liangpin-pay-confirm-panel .pay-info .price {
+    color: #ff7a00;
+    font-size: 30px;
+}
+
+.liangpin-pay-confirm-panel .cnt-btn {
+    position: relative;
+    padding: 10px 20px 8px 0;
+    text-align: right;
+}
+
+.liangpin-pay-confirm-panel .cnt-btn .desc {
+    position: absolute;
+    top: 26px;
+    left: 20px;
+    font-size: 12px;
+    color: #999;
+}
+
+.liangpin-pay-confirm-panel .cnt-btn .online-consultation {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    line-height: 50px;
+    vertical-align: top;
+}
+
+.liangpin-pay-confirm-panel .btn {
+    margin-left: 12px;
+    /*padding: 12px 30px;*/
+    padding: 12px 0;
+    width: 124px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background: #fff;
+    border: 1px solid #cbcbcb;
+    font-size: 16px;
+    color: #000;
+}
+
+.liangpin-pay-confirm-panel .btn-mod-order {
+
+}
+
+.liangpin-pay-confirm-panel .btn-pay-order {
+    border: 1px solid #fe831f;
+    background: #fe831f;
+    color: #fff;
+}
+
+.liangpin-pay-confirm-panel .pay-countdown {
+    display: inline;
+}
+
+/*END订单支付确认panel*/

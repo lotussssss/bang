@@ -1,0 +1,15 @@
+.myorder-enter-qrcode-wrap{
+    width: 600px;
+    height: 380px;
+    font-size: 14px;
+    color: #185;
+    text-align: center;
+}
+.myorder-enter-qrcode-wrap .ft{display: none;}
+.myorder-enter-qrcode-wrap .myorder-qrcode{
+    padding: 20px 0 0 0;
+}
+.myorder-enter-qrcode-wrap .myorder-qrcode img{
+    width: 300px;
+}
+.myorder-enter-qrcode-wrap .myorder-qrcode-txt{}

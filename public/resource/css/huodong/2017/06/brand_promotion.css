@@ -1,0 +1,235 @@
+.w100{
+    width: 100%;
+}
+.relative{
+    position: relative;
+}
+.block-inner {
+    margin: 0 auto;
+    width: 1200px;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.page-hd-brand-promotion {
+    background:#fff;
+    color: #333;
+}
+/*.page-hd-brand-promotion .topbar .in{*/
+    /*width: 1000px;*/
+/*}*/
+
+/*轮播图*/
+.block-roundabout{
+    min-width: 1200px;
+    height: 400px;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: #f5f5f5;
+}
+.block-roundabout .roundabout_box {
+    height:340px;
+    width:1200px;
+    /*background: rgba(0,0,0,0.7);*/
+    /**background:#999;*/
+    overflow-y: visible;
+    position: relative;
+}
+.block-roundabout .btn-switch{
+    position: absolute;
+    top:0%;
+    width: 150px;
+    height: 100%;
+    display: none;
+    z-index: 999;
+    cursor: pointer;
+}
+.block-roundabout .btn-prev{
+    left: 0px;
+    background: url("https://p1.ssl.qhmsg.com/t0193dc4c2a44ac839e.png") no-repeat center;
+}
+.block-roundabout .btn-next{
+    right: 0px;
+    background: url("https://p3.ssl.qhmsg.com/t01742f2c0504c8c55c.png") no-repeat center;
+}
+
+.block-roundabout .roundabout-holder{
+    width:750px;
+    height:400px;
+    margin:0px auto;
+}
+.block-roundabout .roundabout-moveable-item{
+    font-size:14px;
+    width:900px;
+    height:400px;
+    cursor:pointer;
+    background:#fff;
+    overflow: hidden;
+    margin-top: -25px;
+    box-shadow: 0px 1px 10px 0px #999;
+}
+.block-roundabout .roundabout-in-focus{
+}
+.block-roundabout .roundabout-moveable-item img{
+    height:100%;
+    width:100%;
+}
+
+.page-hd-brand-promotion .block-tit{
+    padding: 40px 0 20px;
+    text-align: center;
+    font-size: 28px;
+    color: #f30;
+}
+.page-hd-brand-promotion .block-tit span{
+    color: #333;
+}
+
+.page-hd-brand-promotion .block-top,
+.page-hd-brand-promotion .block-top .block-inner{
+    height: 380px;
+    background: url(https://p2.ssl.qhmsg.com/t014f1243f9979380f5.png) no-repeat center;
+}
+/*照片墙*/
+.page-hd-brand-promotion .block-photo-wall,
+.page-hd-brand-promotion .block-photo-wall .block-inner{
+    height: 630px;
+    background:#f5f5f5 url(https://p2.ssl.qhmsg.com/t01b7f7696ef75a945a.jpg) no-repeat center;
+}
+/*更多小伙伴说*/
+.page-hd-brand-promotion .block-comments,
+.page-hd-brand-promotion .block-comments .block-inner{
+    background:#f5f5f5 url(https://p2.ssl.qhmsg.com/t011a2ac432ac6b5683.jpg) no-repeat center;
+}
+.page-hd-brand-promotion .block-comments .block-inner{
+    height: 165px;
+    padding: 20px 0;
+}
+.page-hd-brand-promotion .block-comments .comments-list {
+    position: relative;
+    width: 800px;
+    height: 90px;
+    margin: 40px auto 0;
+    overflow: hidden;
+}
+.page-hd-brand-promotion .block-comments .comments-list-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.page-hd-brand-promotion .block-comments .comments-list .comments-item{
+    color: #666;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+.page-hd-brand-promotion .block-comments .comments-list .comments-item-inner{
+    padding-left: 26px;
+    position: relative;
+}
+.page-hd-brand-promotion .block-comments .comments-list .comments-item i{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0px;
+    top:9px;
+    border-radius: 999px;
+    background: #fa967d;
+    vertical-align: top;
+}
+
+.page-hd-brand-promotion .block-prize{
+    background-color: #f5f5f5;
+    padding-bottom: 40px;
+}
+.page-hd-brand-promotion .prize-list .item{
+
+}
+.page-hd-brand-promotion .prize-list .item-inner{
+    width: 184px;
+    height: 190px;
+    margin: 0 auto;
+    padding-top: 30px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 15px 0px #ececec;
+    text-align: center;
+}
+.page-hd-brand-promotion .prize-list .item .pic{
+    height: 106px;
+}
+.page-hd-brand-promotion .prize-list .item img{
+    height: 100%;
+}
+.page-hd-brand-promotion .prize-list .prize-name{
+    padding-top: 15px;
+    font-size: 16px;
+}
+.page-hd-brand-promotion .prize-list .prize-grade{
+    color: #ff3300;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*二维码扫一扫*/
+.page-hd-brand-promotion .block-qrcode-info .block-inner{
+    padding: 10px 0 20px;
+}
+.page-hd-brand-promotion .block-qrcode-info .qrcode-info{
+    width: 700px;
+    margin: 0 auto;
+}
+.page-hd-brand-promotion .block-qrcode-info .block-tit{
+    padding-bottom: 0;
+}
+.page-hd-brand-promotion .block-qrcode-info .qrcode{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.page-hd-brand-promotion .block-qrcode-info .cont{
+    float: left;
+    padding-left: 20px;
+}
+.page-hd-brand-promotion .block-qrcode-info .cont p{
+    font-size: 14px;
+}
+
+
+/*活动说明*/
+.page-hd-brand-promotion .block-desc{
+    padding-bottom: 80px;
+}
+.page-hd-brand-promotion .block-desc .block-inner{
+    background-color: #f5f5f5;
+    padding-bottom: 20px;
+}
+.page-hd-brand-promotion .block-desc .block-desc-cont{
+    padding: 10px 80px 0;
+    line-height: 1.8;
+}
+.page-hd-brand-promotion .block-desc .block-desc-cont h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.page-hd-brand-promotion .block-desc .block-desc-cont p{
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+.page-hd-brand-promotion .block-desc .desc-tips{
+    padding-right: 80px;
+    text-align: right;
+}
+
+.page-hd-brand-promotion .block-pic{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.page-hd-brand-promotion .block-pic img{
+    width: 900px;
+    height: 400px;
+    margin-top: 40px;
+    box-shadow: 0 0 15px 0 #ccc;
+}

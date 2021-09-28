@@ -1,0 +1,304 @@
+* {
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing    : border-box;
+    box-sizing         : border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing    : border-box;
+    box-sizing         : border-box;
+}
+
+html {
+    /*height: 100%;*/
+    height     : auto;
+    min-height : 100%;
+}
+
+body {
+    margin                     : 0 auto;
+    max-width                  : 720px;
+    min-width                  : 320px;
+    /*height: 100%;*/
+    height                     : auto;
+    min-height                 : 100%;
+    font-family                : "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    -webkit-overflow-scrolling : touch;
+}
+
+.mainbody {
+    /*height: 100%;*/
+    min-height : 100%;
+    /*overflow-x: hidden;*/
+    /*overflow-y: scroll;*/
+}
+
+.mainbody-inner {
+    min-height : 100%;
+}
+
+html, body {
+    background  : #fff;
+    font-family : "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    line-height: 100%;
+}
+
+.relative {
+    position : relative;
+}
+
+a {
+    text-decoration : none;
+}
+
+.clearfix:after {
+    display : block;
+    content : '';
+    clear   : both;
+}
+
+.clearfix {
+    zoom : 1;
+}
+
+.w100 {
+    width : 100%;
+}
+
+.fl {
+    float : left;
+}
+
+.fr {
+    float : right;
+}
+/*块、行的基本模式*/
+.row {
+    zoom: 1;
+    clear: both;
+}
+
+.row:after {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    content: '\20';
+}
+
+.row,
+.row .col-1-1,
+.row .col-2-1,
+.row .col-3-1,
+.row .col-3-2,
+.row .col-3-3,
+.row .col-4-1,
+.row .col-4-2,
+.row .col-4-3,
+.row .col-4-4,
+.row .col-12-1,
+.row .col-12-2,
+.row .col-12-3,
+.row .col-12-4,
+.row .col-12-5,
+.row .col-12-6,
+.row .col-12-7,
+.row .col-12-8,
+.row .col-12-9,
+.row .col-12-10,
+.row .col-12-11,
+.row .col-12-12,
+.row .col-left-fixed, .row .col-left,
+.row .col-right, .row .col-right-fixed,
+.row .col-left-float {
+    display: block;
+    float: left;
+}
+
+.row,
+.row .col-left,
+.row .col-right {
+    float: none;
+}
+
+.row .col-right-float,
+.row .col-right-fixed {
+    float: right;
+}
+
+.row .col-12-1 {
+    width: 8.3333333333333333%;
+}
+
+.row .col-12-2 {
+    width: 16.6666666666666666%;
+}
+
+.row .col-4-1,
+.row .col-12-3 {
+    width: 25%;
+}
+
+.row .col-3-1,
+.row .col-12-4 {
+    width: 33.3333333333333333%;
+}
+
+.row .col-12-5 {
+    width: 41.6666666666666666%;
+}
+
+.row .col-2-1,
+.row .col-4-2,
+.row .col-12-6 {
+    width: 50%;
+}
+
+.row .col-12-7 {
+    width: 58.3333333333333333%;
+}
+
+.row .col-3-2,
+.row .col-12-8 {
+    width: 66.6666666666666666%;
+}
+
+.row .col-4-3,
+.row .col-12-9 {
+    width: 75%;
+}
+
+.row .col-12-10 {
+    width: 83.3333333333333333%;
+}
+
+.row .col-12-11 {
+    width: 91.6666666666666666%;
+}
+
+.row .col-1-1,
+.row .col-3-3,
+.row .col-4-4,
+.row .col-12-12 {
+    width: 100%;
+}
+
+/*END行的基本模式*/
+
+/*滑动块基本样式*/
+.slide-shower-wrap {
+    position : relative;
+    overflow : hidden;
+    width: 100%;
+}
+
+.slide-shower-wrap .slide-shower {
+    position : relative;
+}
+
+.slide-shower-wrap .s-item {
+    position : relative;
+    float    : left;
+}
+
+.slide-shower-wrap .slide-nav {
+    padding    : .12rem 0;
+    font-size  : 0;
+    text-align : center;
+}
+
+.slide-shower-wrap .slide-nav span {
+    margin-right  : .05rem;
+    display       : inline-block;
+    width         : .1rem;
+    height        : .1rem;
+    background    : #c5c5c5;
+    border        : 1px solid #c5c5c5;
+    border-radius : 999px;
+}
+
+.slide-shower-wrap .slide-nav .cur {
+    background : #ff7b00;
+}
+
+/*END 滑动块基本样式*/
+
+.page-hd-suning_iphone7_update {
+
+}
+
+.page-hd-suning_iphone7_update .block {
+    border : 0;
+    position: relative;
+}
+
+.page-hd-suning_iphone7_update .block1 {
+    height          : 2.6622222222222223rem;
+    background      : url(https://p.ssl.qhimg.com/t01d565231cde8db8cb.jpg) no-repeat center 0;
+    background-size : cover;
+}
+.page-hd-suning_iphone7_update .tit{
+    height: 0.4rem;
+    line-height: .4rem;
+    text-align: center;
+    font-size: .16rem;
+    color: #333;
+}
+.page-hd-suning_iphone7_update .block2{
+    background: #f5f5f5;
+}
+.page-hd-suning_iphone7_update .block2 .cont{
+    color: #999;
+    padding-left: .3rem;
+}
+.page-hd-suning_iphone7_update .block2 .cont p{
+    line-height: 1.8;
+    padding-bottom: .1rem;
+}
+.page-hd-suning_iphone7_update .block3{
+    padding: 0 .1rem;
+}
+.page-hd-suning_iphone7_update .block3 tr{
+    text-align: center;
+}
+.page-hd-suning_iphone7_update .block3 th,
+.page-hd-suning_iphone7_update .block3 td {
+    border:1px solid #f50;
+    height: .26rem;
+    padding: 0 .1rem;
+}
+.page-hd-suning_iphone7_update .block3 .col1{
+    width: 1.3rem;
+}
+.page-hd-suning_iphone7_update .block3 td.col1{
+    text-align: left;
+}
+.page-hd-suning_iphone7_update .block3 table th{
+    background: #ff9105;
+    color: #fff;
+    text-shadow: 0 3px 8px #f50;
+}
+.page-hd-suning_iphone7_update .block3 td{
+    background: #ffc539;
+    color: #f50;
+}
+.page-hd-suning_iphone7_update .hd-desc-cont{
+    line-height: 1.4;
+    padding: 0 .1rem;
+}
+.page-hd-suning_iphone7_update .hd-desc-cont h4 {
+    background: url(https://p.ssl.qhimg.com/t0172e04f9400ebd190.png) no-repeat 0 0;
+    background-size: .18rem;
+    color: #f50;
+    font-weight: normal;
+    padding-left: .22rem;
+    margin-bottom: .06rem;
+}
+.page-hd-suning_iphone7_update .hd-desc-cont p{
+    background: url(https://p.ssl.qhimg.com/t015d1808151f12e44f.png) no-repeat 0 0;
+    background-size: .18rem;
+    padding-left: .22rem;
+    margin-bottom: .15rem;
+}

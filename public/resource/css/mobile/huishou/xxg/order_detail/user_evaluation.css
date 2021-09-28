@@ -1,0 +1,16 @@
+
+.user-evaluation{
+    display: flex;
+    height: .36rem;
+    font-size: .14rem;
+    border-radius: 9999px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f84;
+    margin: 0 auto .1rem;
+}
+.user-btn-disabled{
+    background-color: #999;
+}

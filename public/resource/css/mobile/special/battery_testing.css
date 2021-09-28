@@ -1,0 +1,442 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before,
+*:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    /*height: 100%;*/
+    height: auto;
+    min-height: 100%;
+}
+body{
+    margin: 0 auto;
+    max-width: 720px;
+    min-width: 320px;
+    /*height: 100%;*/
+    height: auto;
+    min-height: 100%;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    -webkit-overflow-scrolling : touch;
+}
+.mainbody{
+    /*height: 100%;*/
+    min-height: 100%;
+    /*overflow-x: hidden;*/
+    /*overflow-y: scroll;*/
+}
+.mainbody-inner{
+    min-height: 100%;
+}
+.block{
+    display: block;
+    border: 0;
+}
+.blur{
+    -webkit-filter: blur(10px);
+}
+.errorblink{
+    border: 1px solid #fb0909 !important;
+}
+.h40{height: 40px;}
+.f12{font-size: 12px;}
+.w100{width: 100%;}
+.hide{display: none;}
+.ohidden{
+    overflow: hidden;
+}
+.relative{position: relative;}
+/*行的基本模式*/
+.block,.row,
+.col-2-1,
+.col-4-1,
+.col-left-fixed, .col-left,
+.col-right,.col-right-fixed{
+    display: block;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+.row:after{
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    content: '\20';
+}
+.row{
+    zoom: 1;
+    clear: both;
+}
+.col-2-1,
+.col-4-1,
+.col-left-fixed{
+    float: left;
+}
+.col-2-1{
+    width: 50%;
+}
+.col-4-1{
+    width: 25%;
+}
+.col-right-fixed{
+    float: right;
+}
+/*END行的基本模式*/
+/* 箭头 */
+.arrow-down,
+.arrow-right{
+    position: relative;
+}
+.arrow-right:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 6px;
+    top: 50%;
+    margin-top: -7px;
+    border-top: 2px solid #CCCCCC;
+    border-right: 2px solid #CCCCCC;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.arrow-down:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 10px;
+    top: 50%;
+    margin-top: -7px;
+    border-top: 2px solid #CCCCCC;
+    border-right: 2px solid #CCCCCC;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+/* END箭头 */
+
+/*dialog层基本样式*/
+.dialog-mask{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9997;
+    background: #000;
+    opacity: .6;
+}
+.dialog-wrap{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    /*bottom: 10px;*/
+    z-index: 9998;
+    margin: 0 auto;
+    max-width: 700px;
+    border: 1px solid #B2B2B2;
+    background: #fff;
+    /*background: #F3F6FB;*/
+    border-radius: 8px;
+}
+.dialog-wrap .dialog-close,
+.dialog-wrap .dialog-close:hover{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 36px;
+    height: 36px;
+    z-index: 9999;
+    background-size: 36px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.dialog-wrap .dialog-inner{
+    padding: 10px 0 10px 10px;
+    font-size: 14px;
+    color: #202020;
+}
+/*END dialog层基本样式*/
+
+/*page*/
+.page-hd-battery-testing{
+    background: #BE000D;
+}
+.page-hd-battery-testing-proccess{
+    background: #DA1E25;
+}
+.page-hd-battery-testing-result{
+    background: #D52824;
+}
+
+.page-hd-battery-testing .btn-battery-care{
+    color: #F1E24C;
+    font-size: .14rem;
+    text-align: center;
+}
+
+.page-hd-battery-testing .btn{
+    text-decoration: none;
+}
+.page-hd-battery-testing .btn:hover{
+    text-decoration: none;
+}
+
+.page-hd-battery-testing .block{
+    position: relative;
+    width: 100%;
+    height: .64rem;
+}
+/*index页*/
+.page-hd-battery-testing .block01{
+    background: #BE000D url(https://p.ssl.qhimg.com/t014fb9fc4e44dfe738.jpg) no-repeat center;
+    background-size: cover;
+}
+.page-hd-battery-testing .block02{
+    background: #BE000D url(https://p.ssl.qhimg.com/t01d3655b170c313e2a.jpg) no-repeat center;
+    background-size: cover;
+}
+.page-hd-battery-testing .block03{
+    background: #BE000D url(https://p.ssl.qhimg.com/t019499f2b2d2d96cc0.jpg) no-repeat center;
+    background-size: cover;
+}
+.page-hd-battery-testing .block04{
+    background: #BE000D url(https://p.ssl.qhimg.com/t01658827119b53d192.jpg) no-repeat center;
+    background-size: cover;
+}
+.page-hd-battery-testing .block05{
+    /*background: #BE000D url(https://p.ssl.qhimg.com/t01a228f8db14db1f90.jpg) no-repeat center;*/
+    background: #BE000D url(https://p.ssl.qhimg.com/t019f7c773fdf315bbe.jpg) no-repeat center;
+    background-size: cover;
+}
+.page-hd-battery-testing .block06{
+    z-index: 1;
+    /*background: #BE000D url(https://p.ssl.qhimg.com/t01e69774be6104fff9.jpg) no-repeat center;*/
+    background: #BE000D url(https://p.ssl.qhimg.com/t017af227d2d106deef.jpg) no-repeat center;
+    background-size: cover;
+}
+.page-hd-battery-testing .block06 .index-housailei{
+    position: absolute;
+    /*bottom: -.04rem;*/
+    /*right: .35rem;*/
+    bottom: -.06rem;
+    right: .21rem;
+    /*width: 1.63111111111rem;*/
+    width: 1.777777777777778rem;
+    /*height: 1.81777777778rem;*/
+    height: 1.866666666666667rem;
+
+    will-change: transform;
+    -webkit-animation: FlipCloud-X 2.5s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
+    animation: FlipCloud-X 2.5s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
+    /*-webkit-animation: FlipCloud-X;*/
+    /*animation: FlipCloud-X;*/
+}
+.page-hd-battery-testing .block06 .index-housailei-inner{
+    /*width: 1.63111111111rem;*/
+    width: 1.777777777777778rem;
+    /*height: 1.81777777778rem;*/
+    height: 1.866666666666667rem;
+    /*background: url(https://p.ssl.qhimg.com/t01966cead9e504fe5e.png) no-repeat center;*/
+    background: url(https://p.ssl.qhimg.com/t0172a98f19015ac4b3.png) no-repeat center;
+    background-size: cover;
+
+    will-change: transform;
+    -webkit-animation: FlipCloud-Y 2.5s 1 cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    animation: FlipCloud-Y 2.5s 1 cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    /*-webkit-animation: FlipCloud-Y 2.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);*/
+    /*animation: FlipCloud-Y 2.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);*/
+    /*-webkit-animation: FlipCloud-Y;*/
+    /*animation: FlipCloud-Y;*/
+}
+.page-hd-battery-testing .block07{
+    padding-top: 1px;
+    height: 1.23111111111rem;
+    background: #BE000D url(https://p.ssl.qhimg.com/t010c30e0b1d401d67e.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+.page-hd-battery-testing .block07 .btn-start-check{
+    margin: .1rem auto;
+    display: block;
+    width: 2.8rem;
+    height: 0.702222222222rem;
+    background: url(https://p.ssl.qhimg.com/t017b79ffe4ab87f715.png) no-repeat center;
+    background-size: cover;
+    text-decoration: none;
+}
+
+
+/*testing页*/
+.page-hd-battery-testing .block11{
+    height: .96rem;
+    background: url(https://p.ssl.qhimg.com/t0115a42a85cbd9a594.jpg) no-repeat center;
+    background-size: cover;
+}
+.page-hd-battery-testing .block11 h3{
+    position: absolute;
+    top: .49rem;
+    left: .92rem;
+    width: 1.41rem;
+    height: .26rem;
+    line-height: .26rem;
+    font-size: .18rem;
+    font-weight: normal;
+    color: #F1E24C;
+    text-align: center;
+}
+.page-hd-battery-testing .block12{
+    height: auto;
+    padding-bottom: .2rem;
+    text-align: center;
+}
+.page-hd-battery-testing .options-list{
+    padding-bottom: .12rem;
+}
+.page-hd-battery-testing .options-list .item{
+    margin: 0 auto;
+    display: block;
+    width: 2.83111111111rem;
+    height: 0.76rem;
+    line-height: .7rem;
+    background: url(https://p.ssl.qhimg.com/t0198ad4cbab505b9bf.png) no-repeat center;
+    background-size: cover;
+    color: #FAE964;
+    text-align: center;
+    font-size: .32rem;
+    text-decoration: none;
+}
+.page-hd-battery-testing .options-list .item:hover{
+    text-decoration: none;
+    opacity: .6;
+}
+
+/*result页*/
+.page-hd-battery-testing .result-housailei{
+    position: absolute;
+    top: -.8rem;
+    left: .11rem;
+    width: 2.982222222222222rem;
+    height: 2.742222222222222rem;
+    background: url(https://p.ssl.qhimg.com/t01271e685d4527a070.png) no-repeat center;
+    /*background: url(https://p.ssl.qhimg.com/t018ed47cb3cdc4b328.png) no-repeat center;*/
+    background-size: contain;
+}
+.page-hd-battery-testing .result-houkeyi{
+    position: absolute;
+    top: -.8rem;
+    left: .11rem;
+    width: 2.982222222222222rem;
+    height: 2.742222222222222rem;
+    background: url(https://p.ssl.qhimg.com/t012c51f98e5848390d.png) no-repeat center;
+    /*background: url(https://p.ssl.qhimg.com/t01d87ac260b452458a.png) no-repeat center;*/
+    background-size: contain;
+}
+.page-hd-battery-testing .result-houbuzhu{
+    position: absolute;
+    top: -.8rem;
+    left: .11rem;
+    width: 2.982222222222222rem;
+    height: 2.742222222222222rem;
+    background: url(https://p.ssl.qhimg.com/t01c589a4cc9ee8ff41.png) no-repeat center;
+    /*background: url(https://p.ssl.qhimg.com/t01ec5d7d9847d61ca1.png) no-repeat center;*/
+    background-size: contain;
+}
+.page-hd-battery-testing .block21{
+    background: url(https://p.ssl.qhimg.com/t0193dbcc71d2dc9434.png) no-repeat center;
+    background-size: cover;
+}
+.page-hd-battery-testing .block22{
+    background: url(https://p.ssl.qhimg.com/t012ba4776308ca0caa.png) no-repeat center;
+    background-size: cover;
+}
+.page-hd-battery-testing .block23{
+    height: 1.95rem;
+    background: url(https://p.ssl.qhimg.com/t0194543496ef0b5e89.png) no-repeat center 0;
+    background-size: contain;
+}
+.page-hd-battery-testing .block24{
+    height: 0.72rem;
+    background: url(https://p.ssl.qhimg.com/t013d72a7a82a4b37c6.gif) no-repeat -.045rem  0;
+    background-size: cover;
+}
+.page-hd-battery-testing .block25{
+    height: 1.2rem;
+    background: url(https://p.ssl.qhimg.com/t01172b900f272e571b.png) no-repeat -.045rem 0;
+    background-size: contain;
+    text-align: center;
+}
+.page-hd-battery-testing .btn-full-back{
+    margin: 0 auto;
+    display: block;
+    width: 2.728888888888889rem;
+    height: 0.6222222222222222rem;
+    text-decoration: none;
+    border-radius: 999px;
+}
+.page-hd-battery-testing .btn-share{
+    margin: 0 auto .2rem auto;
+    display: block;
+    width: 2.728888888888889rem;
+    height: 0.6222222222222222rem;
+    text-decoration: none;
+    border-radius: 999px;
+}
+.page-hd-battery-testing .dialog-wrap{
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+}
+.page-hd-battery-testing .dialog-wrap .dialog-inner{
+    padding: 0;
+}
+.page-hd-battery-testing .dialog-wrap .dialog-close,
+.page-hd-battery-testing .dialog-wrap .dialog-close:hover{
+    top: 3.54rem;
+    left: 1.25rem;
+    width: .54rem;
+    height: .54rem;
+}
+
+
+@-webkit-keyframes FlipCloud-X {
+    50% {
+        -webkit-animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+        animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+        -webkit-transform: translateX(1rem);
+        transform: translateX(1rem);
+    }
+}
+@keyframes FlipCloud-X {
+    50% {
+        -webkit-animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+        animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+        -webkit-transform: translateX(1rem);
+        transform: translateX(1rem);
+    }
+}
+@-webkit-keyframes FlipCloud-Y {
+    50% {
+        -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+        animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+        -webkit-transform: translateY(-1rem);
+        transform: translateY(-1rem);
+    }
+}
+@keyframes FlipCloud-Y {
+    50% {
+        -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+        animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+        -webkit-transform: translateY(-1rem);
+        transform: translateY(-1rem);
+    }
+}
