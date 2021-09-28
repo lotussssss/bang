@@ -1,4 +1,4 @@
-<?p
+<?php
 
 namespace App\Services;
 
@@ -8,7 +8,7 @@ use App\Wheel\TcbCloudStorage\CloudStorageFactory;
  * Class PicassoServer
  * @package App\Services
  */
-//class PicassoServer
+class PicassoServer
 {
     private $obj;
     /**
