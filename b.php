@@ -21,6 +21,7 @@ class PicassoServer
      */
     public function __construct()
     {
+
         $this->obj    = CloudStorageFactory::createCloudObj();
         $this->client = $this->obj->getClient();
     }
