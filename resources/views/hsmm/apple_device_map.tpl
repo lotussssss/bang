@@ -1,12 +1,9 @@
 {%extends file="layout/base_hsmer.tpl"%}
 
-{%block name="block_css" append%}
-{%/block%}
-
-{%block name="body_ext"%} class="page-shiyong"{%/block%}
+{%block name={%block name="body_ext"%} class="page-shiyong"{%/block%}
 
 {%block name="block_body"%}
-    <div class="am-cf am-padding">
+    <div clasdssss="am-cf am-padding">
         <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">苹果设备SN映射</strong> /
             <small>苹果设备SN映射</small>
         </div>
@@ -33,7 +30,7 @@
                     <input type="text" class='am-form-field am-input-sm' name='sn' id='sn' value='{%$smarty.get.sn%}' placeholder="SN码"/>
                 </div>
                 <div class="am-form-group am-u-sm-2">
-                    <input type="text" class='am-form-field am-input-sm' name='identifier' id='identifier' value='{%$smarty.get.identifier%}' placeholder="苹果设备标识符"/>
+             <input type="text" class='am-form-field am-input-sm' name='identifier' id='identifier' value='{%$smarty.get.identifier%}' placeholder="苹果设备标识符"/>
                 </div>
                 <div class="am-form-group am-u-sm-2">
                     <input type="text" class='am-form-field am-input-sm' name='model_id' id='model_id' value='{%$smarty.get.model_id%}' placeholder="机型ID搜索"/>
@@ -47,8 +44,6 @@
             </form>
         </div>
 
-    </div>
-    <hr data-am-widget="divider" style="" class="am-divider am-divider-default"/>
     <div class="am-g">
         <div class="am-u-sm-12 am-scrollable-horizontal">
             {%if $model_map%}
@@ -65,7 +60,6 @@
                     </tr>
                     </thead>
                     <tbody>
-                    {%foreach $model_map as $key => $val%}
                         <tr>
                             <td>{%$val->sn%}</td>
                             <td>{%$val->identifier%}</td>
