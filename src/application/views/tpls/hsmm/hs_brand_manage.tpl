@@ -1,14 +1,5 @@
-{%extends file="layout/base_hsmer.tpl"%}
 
 {%block name="block_css" append%}
-{%/block%}
-
-{%block name="body_ext"%} class="page-shiyong"{%/block%}
-
-{%block name="block_body"%}
-    <div class="am-cf am-padding">
-        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">回收机型</strong> /
-            <small>品牌管理</small>
         </div>
     </div>
 
@@ -22,14 +13,9 @@
                     <tr>
                         <th>品牌ID</th>
                         <th>品牌名称</th>
-                        <th>回收品牌图标</th>
-                        <th>品牌排序值</th>
                         <th>是否启用</th>
                         <th>操作</th>
 
-                    </tr>
-                    </thead>
-                    <tbody>
                     {%foreach $all_brand as $key => $val%}
                         <tr>
 
@@ -60,11 +46,8 @@
 
 
 
-    <hr data-am-widget="divider" style="" class="am-divider am-divider-default"/>
+    widget="divider" style="" class="am-divider am-divider-default"/>
     <div class="am-modal am-modal-prompt" tabindex="-1" id="modal-brand-edit">
-        <div class="am-modal-dialog">
-            <form method="post" action="/hsmm/doEditBrand/">
-                <div class="am-modal-hd">编辑品牌信息</div>
                 <div class="am-modal-bd">
 
                     <input id="edit_icon" name="icon" placeholder="编辑icon" type="input" class="am-modal-prompt-input"/>
