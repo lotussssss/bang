@@ -1,5 +1,5 @@
 <?php
-    echo "ask";
+    echo "ask-new";
 ?>
 
 
